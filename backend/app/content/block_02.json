@@ -1,0 +1,227 @@
+{
+  "block": "02",
+  "title": "Los casos: Nominativo y Acusativo",
+  "kicker": "Bloque 02 · Base A1",
+  "intro": "Aquí empieza lo que hace al alemán, alemán: <b class=\"hl\">los casos</b>. El artículo cambia de forma según la <b class=\"hl\">función</b> de la palabra en la frase (sujeto, objeto directo…). La buena noticia: en Acusativo <b class=\"hl\">solo cambia el masculino</b>.",
+  "legend": [
+    { "label": "sujeto", "desc": "Nominativ, hace la acción", "role": "nom" },
+    { "label": "objeto directo", "desc": "Akkusativ, recibe la acción", "role": "akk" },
+    { "label": "verbo", "desc": "conjugado, en 2ª posición", "role": "verb" }
+  ],
+  "sections": [
+    {
+      "idx": "2.1",
+      "title": "Qué es un caso · el Nominativo",
+      "level": "A1",
+      "rule": "Un caso es la <b>marca de función</b>: en español distingues «yo/me/mí» — el alemán hace lo mismo pero con todos los artículos y pronombres. El <b>Nominativo</b> es la forma básica: la del <b>sujeto</b> (quien hace la acción) y la del atributo tras <i>sein</i> y <i>werden</i>. Es la forma del diccionario: <i>der, die, das / ein, eine</i>.",
+      "notes": [
+        {
+          "type": "why",
+          "at": "start",
+          "text": "¿Por qué molestarse con casos? Porque le dan al alemán <b>libertad de orden</b>: <i>Den Mann sieht die Frau</i> significa «la mujer ve al hombre» — sabemos quién ve a quién por el caso (<i>den</i> = Acusativo), no por la posición. En español esa función la hace la «a» personal o el orden."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Pregunta de control del Nominativo: <b>Wer oder was?</b> (¿quién o qué hace la acción?). Cada caso tiene su pregunta — te las irás encontrando bloque a bloque."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Der Mann</span> <span class=\"r-verb\">ist</span> nett.", "es": "El hombre es amable." },
+        { "en": "<span class=\"r-nom\">Die Lehrerin</span> <span class=\"r-verb\">erklärt</span> die Regel.", "es": "La profesora explica la regla." },
+        { "en": "<span class=\"r-nom\">Das Auto</span> <span class=\"r-verb\">ist</span> neu.", "es": "El coche es nuevo." },
+        { "en": "Das <span class=\"r-verb\">ist</span> <span class=\"r-nom\">ein guter Plan</span>.", "es": "Eso es un buen plan. (atributo con sein → Nominativo)" },
+        { "en": "<span class=\"r-nom\">Mein Bruder</span> <span class=\"r-verb\">wird</span> <span class=\"r-nom\">Arzt</span>.", "es": "Mi hermano va a ser médico. (con werden también Nominativo)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b02-s1q1",
+          "question": "1. ¿Cuál es el sujeto (Nominativo) en «Den Kaffee trinkt der Chef»?",
+          "options": ["Den Kaffee", "der Chef", "trinkt"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b02-s1q2",
+          "question": "2. «Ella es una buena doctora.» → Sie ist <span class=\"blank\">___</span> gute Ärztin.",
+          "options": ["einen", "eine", "einer"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b02-s1q3",
+          "question": "3. La pregunta de control del Nominativo es…",
+          "options": ["Wen oder was?", "Wer oder was?", "Wem?"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b02-s1",
+        "label": "<b>tu turno:</b> escribe dos frases sencillas con sujeto claro en Nominativo (una con <i>sein</i>).",
+        "placeholder": "Ej: Der Film ist super. Meine Freundin kommt heute."
+      }
+    },
+    {
+      "idx": "2.2",
+      "title": "El Acusativo: solo cambia el masculino",
+      "level": "A1",
+      "rule": "El <b>Acusativo</b> marca el <b>objeto directo</b> (lo que recibe la acción). La regla estrella: <b>solo el masculino cambia</b> — <i>der → <b>den</b></i>, <i>ein → <b>einen</b></i>, <i>mein → <b>meinen</b></i>, <i>kein → <b>keinen</b></i>. Femenino (<i>die/eine</i>), neutro (<i>das/ein</i>) y plural (<i>die</i>) son idénticos al Nominativo.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Pregunta de control: <b>Wen oder was?</b> (¿a quién o qué?). <i>Ich sehe den Mann</i> → ¿a quién veo? → al hombre → Acusativo. Si dudas del caso, hazle la pregunta al verbo."
+        },
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Unos pocos masculinos («n-Deklination») añaden <b>-n/-en</b> en todos los casos menos el Nominativo: <i>der Junge → den Jung<b>en</b></i>, <i>der Student → den Student<b>en</b></i>, <i>der Herr → den Herr<b>n</b></i>. Son casi todos personas o animales masculinos."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Die Frau</span> <span class=\"r-verb\">sieht</span> <span class=\"r-akk\">den Mann</span>.", "es": "La mujer ve al hombre." },
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">trinke</span> <span class=\"r-akk\">einen Kaffee</span>.", "es": "Me tomo un café." },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kauft</span> <span class=\"r-akk\">die Zeitung</span>.", "es": "Él compra el periódico. (femenino: no cambia)" },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">haben</span> <span class=\"r-akk\">kein Auto</span>.", "es": "No tenemos coche. (neutro: no cambia)" },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">fragt</span> <span class=\"r-akk\">den Studenten</span>.", "es": "Ella pregunta al estudiante. (n-Deklination)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "masculino", "femenino", "neutro", "plural"],
+          "rows": [
+            ["Nominativ", "der / ein", "die / eine", "das / ein", "die / —"],
+            ["Akkusativ", "<b>den / einen</b>", "die / eine", "das / ein", "die / —"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b02-s2q1",
+          "question": "1. Ich sehe <span class=\"blank\">___</span> Hund. (der Hund)",
+          "options": ["der", "den", "dem"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b02-s2q2",
+          "question": "2. Sie kauft <span class=\"blank\">___</span> Lampe. (die Lampe)",
+          "options": ["einen", "ein", "eine"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b02-s2q3",
+          "question": "3. «No tengo hermano.» → Ich habe <span class=\"blank\">___</span> Bruder.",
+          "options": ["kein", "keinen", "keine"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b02-s2",
+        "label": "<b>tu turno:</b> escribe dos frases con objeto directo masculino (¡recuerda <i>den/einen</i>!) y una con objeto femenino o neutro.",
+        "placeholder": "Ej: Ich lese den Roman. Er trinkt einen Tee. Wir kaufen das Brot."
+      }
+    },
+    {
+      "idx": "2.3",
+      "title": "Los pronombres en Acusativo",
+      "level": "A1",
+      "rule": "Los pronombres también se declinan: <b>ich → mich</b>, <b>du → dich</b>, <b>er → ihn</b>, <b>sie → sie</b>, <b>es → es</b>, <b>wir → uns</b>, <b>ihr → euch</b>, <b>sie/Sie → sie/Sie</b>. Fíjate: igual que con los artículos, <b>el masculino es el único de 3ª persona que cambia</b> (er → ihn).",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "En alemán los objetos pronominales van <b>después del verbo</b>, no antes como en español: «te veo» = <i>Ich sehe <b>dich</b></i> (literalmente «yo veo te»). No intentes calcar el orden español."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">liebe</span> <span class=\"r-akk\">dich</span>.", "es": "Te quiero." },
+        { "en": "<span class=\"r-verb\">Siehst</span> <span class=\"r-nom\">du</span> <span class=\"r-akk\">mich</span>?", "es": "¿Me ves?" },
+        { "en": "Wo ist der Schlüssel? <span class=\"r-nom\">Ich</span> <span class=\"r-verb\">finde</span> <span class=\"r-akk\">ihn</span> nicht.", "es": "¿Dónde está la llave? No la encuentro. (der Schlüssel → ihn)" },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">besucht</span> <span class=\"r-akk\">uns</span> am Sonntag.", "es": "Ella nos visita el domingo." },
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">rufe</span> <span class=\"r-akk\">Sie</span> morgen an.", "es": "Le llamo (a usted) mañana." }
+      ],
+      "tables": [
+        {
+          "headers": ["Nominativ", "ich", "du", "er", "sie", "es", "wir", "ihr", "sie/Sie"],
+          "rows": [
+            ["Akkusativ", "<b>mich</b>", "<b>dich</b>", "<b>ihn</b>", "sie", "es", "<b>uns</b>", "<b>euch</b>", "sie/Sie"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b02-s3q1",
+          "question": "1. Der Film? Ich finde <span class=\"blank\">___</span> langweilig. (der Film → …)",
+          "options": ["es", "ihn", "er"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b02-s3q2",
+          "question": "2. «¿Nos oyes?» → Hörst du <span class=\"blank\">___</span>?",
+          "options": ["euch", "uns", "ihr"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b02-s3q3",
+          "question": "3. «La conozco (a ella).» → Ich kenne <span class=\"blank\">___</span>.",
+          "options": ["ihr", "ihn", "sie"],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b02-s3",
+        "label": "<b>tu turno:</b> contesta a una pregunta sustituyendo el objeto por un pronombre (<i>ihn/sie/es</i>).",
+        "placeholder": "Ej: Kaufst du den Käse? — Ja, ich kaufe ihn."
+      }
+    },
+    {
+      "idx": "2.4",
+      "title": "es gibt y los verbos de Acusativo de cada día",
+      "level": "A1",
+      "rule": "La inmensa mayoría de los verbos transitivos rigen Acusativo: <b>haben, brauchen, kaufen, sehen, suchen, finden, lieben, essen, trinken, lesen, kennen, besuchen, fragen…</b> Y la expresión <b>es gibt</b> («hay») exige <b>siempre Acusativo</b>: <i>Es gibt <b>einen</b> Park</i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Truco de supervivencia A1: si no sabes qué caso pide un verbo, <b>apuesta por Acusativo</b> — acertarás la mayoría de las veces. Los verbos de Dativo son una lista corta y cerrada que verás en el bloque 03."
+        },
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "<i>sein</i> y <i>werden</i> <b>nunca</b> llevan Acusativo (llevan Nominativo a ambos lados): <i>Das ist <b>ein</b> guter Lehrer</i>, no ~~einen~~. Es el error más típico al sobregeneralizar el Acusativo."
+        }
+      ],
+      "examples": [
+        { "en": "Es <span class=\"r-verb\">gibt</span> <span class=\"r-akk\">einen Supermarkt</span> um die Ecke.", "es": "Hay un supermercado a la vuelta de la esquina." },
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">brauche</span> <span class=\"r-akk\">einen neuen Laptop</span>.", "es": "Necesito un portátil nuevo." },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">suchen</span> <span class=\"r-akk\">den Bahnhof</span>.", "es": "Buscamos la estación." },
+        { "en": "Es <span class=\"r-verb\">gibt</span> hier <span class=\"r-akk\">keinen Parkplatz</span>.", "es": "Aquí no hay aparcamiento." },
+        { "en": "<span class=\"r-nom\">Das</span> <span class=\"r-verb\">ist</span> <span class=\"r-nom\">ein guter Lehrer</span>.", "es": "Ese es un buen profesor. (sein → Nominativo, ¡no einen!)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b02-s4q1",
+          "question": "1. Es gibt <span class=\"blank\">___</span> guten Film im Kino.",
+          "options": ["ein", "einen", "einem"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b02-s4q2",
+          "question": "2. «Necesito una pausa.» → Ich brauche <span class=\"blank\">___</span> Pause.",
+          "options": ["eine", "einen", "einer"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b02-s4q3",
+          "question": "3. ¿Cuál es correcta?",
+          "options": ["Das ist einen guter Plan.", "Das ist ein guter Plan.", "Das ist einem guten Plan."],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b02-s4",
+        "label": "<b>tu turno:</b> describe tu barrio con dos frases con <i>es gibt</i> (una afirmativa, una con <i>kein-</i>).",
+        "placeholder": "Ej: In meinem Viertel gibt es einen schönen Park. Es gibt aber keinen Supermarkt."
+      }
+    }
+  ]
+}

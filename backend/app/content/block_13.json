@@ -1,0 +1,220 @@
+{
+  "block": "13",
+  "title": "Voz pasiva y Konjunktiv II",
+  "kicker": "Bloque 13 · B1–C1",
+  "intro": "Dos herramientas de nivel intermedio-alto: la <b class=\"hl\">pasiva con werden</b> (el alemán la usa mucho más que el español) y el <b class=\"hl\">Konjunktiv II</b> — el modo de las hipótesis, los deseos y, sobre todo, <b class=\"hl\">la cortesía</b> de cada día.",
+  "legend": [
+    { "label": "verbo", "desc": "werden / würde conjugado", "role": "verb" },
+    { "label": "cierre verbal", "desc": "Partizip II / infinitivo al final", "role": "sep" },
+    { "label": "agente", "desc": "von + Dativ", "role": "dat" }
+  ],
+  "sections": [
+    {
+      "idx": "13.1",
+      "title": "La pasiva de proceso: werden + Partizip II",
+      "level": "B1",
+      "rule": "Cuando importa la <b>acción</b> y no quién la hace: <b>werden</b> conjugado + <b>Partizip II al final</b>. <i>Das Haus <b>wird</b> renoviert</i> = la casa está siendo renovada / se renueva. El agente, si aparece, va con <b>von + Dativ</b>. El objeto Acusativo de la activa pasa a ser sujeto Nominativo de la pasiva.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "El alemán usa la pasiva donde el español diría «se + verbo»: <i>Hier <b>wird</b> Deutsch <b>gesprochen</b></i> = aquí se habla alemán. Incluso existe la pasiva sin sujeto: <i>Hier wird gearbeitet</i> = aquí se trabaja."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "No confundas los tres <b>werden</b>: futuro (<i>wird kommen</i> + infinitivo), pasiva (<i>wird gebaut</i> + participio) y «convertirse en» (<i>Er wird Arzt</i> + sustantivo/adjetivo). El compañero de al lado te dice cuál es."
+        }
+      ],
+      "examples": [
+        { "en": "Das Haus <span class=\"r-verb\">wird</span> gerade <span class=\"r-sep\">renoviert</span>.", "es": "La casa se está renovando ahora mismo." },
+        { "en": "Die E-Mails <span class=\"r-verb\">werden</span> heute <span class=\"r-sep\">beantwortet</span>.", "es": "Los correos se responden hoy." },
+        { "en": "Der Roman <span class=\"r-verb\">wurde</span> <span class=\"r-dat\">von einer Spanierin</span> <span class=\"r-sep\">geschrieben</span>.", "es": "La novela fue escrita por una española. (agente: von + Dat)" },
+        { "en": "Hier <span class=\"r-verb\">wird</span> Deutsch <span class=\"r-sep\">gesprochen</span>.", "es": "Aquí se habla alemán." }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b13-s1q1",
+          "question": "1. «El puente se construye este año.» → Die Brücke <span class=\"blank\">___</span> dieses Jahr gebaut.",
+          "options": ["ist", "wird", "hat"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s1q2",
+          "question": "2. El agente de la pasiva se introduce con…",
+          "options": ["mit + Akkusativ", "von + Dativ", "durch + Dativ"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s1q3",
+          "question": "3. «Aquí se trabaja mucho.» →",
+          "options": ["Hier wird viel gearbeitet.", "Hier arbeitet man wird viel.", "Hier ist viel gearbeitet."],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b13-s1",
+        "label": "<b>tu turno:</b> convierte una frase activa en pasiva (ej.: «El cocinero prepara la sopa» → «La sopa es preparada…»).",
+        "placeholder": "Ej: Der Koch kocht die Suppe. → Die Suppe wird (vom Koch) gekocht."
+      }
+    },
+    {
+      "idx": "13.2",
+      "title": "Pasiva en pasado y pasiva de estado",
+      "level": "B2",
+      "rule": "Pasiva en Präteritum: <b>wurde + Partizip II</b> (<i>Das Auto <b>wurde</b> repariert</i>). En Perfekt: <b>ist + Partizip II + worden</b> (<i>Das Auto <b>ist</b> repariert <b>worden</b></i> — ¡worden sin ge-!). Distinta es la <b>pasiva de estado</b> con <b>sein</b>: describe el <b>resultado</b>: <i>Das Auto <b>ist</b> repariert</i> = ya está reparado.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Compara el matiz: <i>Die Tür <b>wird</b> geschlossen</i> (la están cerrando — proceso) vs. <i>Die Tür <b>ist</b> geschlossen</i> (está cerrada — estado). El español «está cerrada» = pasiva de estado con sein."
+        }
+      ],
+      "examples": [
+        { "en": "Das Fenster <span class=\"r-verb\">wurde</span> gestern <span class=\"r-sep\">repariert</span>.", "es": "La ventana fue reparada ayer. (Präteritum)" },
+        { "en": "Die Rechnung <span class=\"r-verb\">ist</span> schon <span class=\"r-sep\">bezahlt worden</span>.", "es": "La factura ya ha sido pagada. (Perfekt pasivo)" },
+        { "en": "Das Restaurant <span class=\"r-verb\">ist</span> montags <span class=\"r-sep\">geschlossen</span>.", "es": "El restaurante está cerrado los lunes. (estado)" },
+        { "en": "Der Tisch <span class=\"r-verb\">ist</span> schon <span class=\"r-sep\">reserviert</span>.", "es": "La mesa ya está reservada. (estado)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Tipo", "Forma", "Ejemplo", "Matiz"],
+          "rows": [
+            ["Proceso, presente", "wird + P II", "Die Tür wird geschlossen.", "lo están haciendo"],
+            ["Proceso, Präteritum", "wurde + P II", "Die Tür wurde geschlossen.", "lo hicieron"],
+            ["Proceso, Perfekt", "ist + P II + worden", "Die Tür ist geschlossen worden.", "lo han hecho"],
+            ["Estado", "ist + P II", "Die Tür ist geschlossen.", "así está ahora"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b13-s2q1",
+          "question": "1. «La casa fue construida en 1920.» → Das Haus <span class=\"blank\">___</span> 1920 gebaut.",
+          "options": ["wurde", "war", "ist"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s2q2",
+          "question": "2. «La tienda está abierta.» (estado) → Der Laden <span class=\"blank\">___</span> geöffnet.",
+          "options": ["wird", "ist", "wurde"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s2q3",
+          "question": "3. Perfekt pasivo: Der Brief ist geschickt <span class=\"blank\">___</span>.",
+          "options": ["geworden", "worden", "werden"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b13-s2",
+        "label": "<b>tu turno:</b> describe el mismo hecho como proceso (<i>wurde…</i>) y como estado (<i>ist…</i>).",
+        "placeholder": "Ej: Die Wohnung wurde letzte Woche geputzt. Jetzt ist alles geputzt."
+      }
+    },
+    {
+      "idx": "13.3",
+      "title": "Konjunktiv II: würde, wäre, hätte, könnte",
+      "level": "B1",
+      "rule": "El modo de lo irreal y lo hipotético. Para la mayoría de verbos: <b>würde + infinitivo</b> (<i>Ich <b>würde</b> mehr reisen</i>). Cuatro verbos usan su forma propia, siempre: <b>sein → wäre</b>, <b>haben → hätte</b>, <b>können → könnte</b>, más los modales (<i>müsste, dürfte, sollte, wollte</i>). Se forman del Präteritum + Umlaut.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Con <b>wäre, hätte, könnte, würde</b> cubres el 95% del Konjunktiv II hablado. Las formas cultas de otros verbos (<i>käme, ginge, wüsste</i>) las verás al leer — reconócelas, pero en el habla di <i>würde kommen, würde gehen</i>."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-verb\">Ich würde</span> gern mehr <span class=\"r-sep\">reisen</span>.", "es": "Me gustaría viajar más." },
+        { "en": "Wenn ich reich <span class=\"r-verb\">wäre</span>, <span class=\"r-verb\">hätte</span> ich ein Haus am Meer.", "es": "Si fuera rico, tendría una casa junto al mar." },
+        { "en": "<span class=\"r-verb\">Könntest</span> du mir <span class=\"r-sep\">helfen</span>?", "es": "¿Podrías ayudarme?" },
+        { "en": "An deiner Stelle <span class=\"r-verb\">würde</span> ich das nicht <span class=\"r-sep\">machen</span>.", "es": "Yo en tu lugar no lo haría." }
+      ],
+      "tables": [
+        {
+          "headers": ["Verbo", "Konjunktiv II", "Ejemplo"],
+          "rows": [
+            ["sein", "<b>wäre</b>", "Das wäre schön!"],
+            ["haben", "<b>hätte</b>", "Ich hätte gern einen Kaffee."],
+            ["können", "<b>könnte</b>", "Könnten Sie das wiederholen?"],
+            ["müssen", "<b>müsste</b>", "Ich müsste mehr lernen."],
+            ["sollen", "<b>sollte</b>", "Du solltest schlafen."],
+            ["resto", "<b>würde + Inf.</b>", "Ich würde das kaufen."]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b13-s3q1",
+          "question": "1. Wenn ich Zeit <span class=\"blank\">___</span>, würde ich kommen.",
+          "options": ["habe", "hätte", "hatte"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s3q2",
+          "question": "2. «Eso sería genial.» → Das <span class=\"blank\">___</span> toll.",
+          "options": ["wäre", "würde", "war"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s3q3",
+          "question": "3. Konjunktiv II hablado de «gehen»:",
+          "options": ["ich ginge (única opción)", "ich würde gehen", "ich gehte"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b13-s3",
+        "label": "<b>tu turno:</b> completa tu hipótesis: «Wenn ich … wäre/hätte, würde ich …».",
+        "placeholder": "Ej: Wenn ich mehr Zeit hätte, würde ich jeden Tag Sport machen."
+      }
+    },
+    {
+      "idx": "13.4",
+      "title": "Usos: cortesía, consejos y deseos",
+      "level": "B1",
+      "rule": "El Konjunktiv II es el <b>modo de la cortesía</b> alemana de cada día: <i><b>Ich hätte gern</b> ein Brötchen</i> (en la panadería), <i><b>Könnten Sie</b> mir helfen?</i>, <i><b>Wärst du</b> so nett…?</i>. Para consejos: <b>sollte</b> (<i>Du <b>solltest</b> mehr schlafen</i>) o <i>An deiner Stelle würde ich…</i>. Para deseos: <i>Ich <b>wünschte</b>, ich hätte…</i>",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "En el día a día alemán, pedir algo en indicativo directo puede sonar brusco. La fórmula mágica de supervivencia en tiendas y cafés es <b>«Ich hätte gern …»</b> — apréndela como una sola palabra."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-verb\">Ich hätte</span> gern zwei Brötchen.", "es": "Querría dos panecillos. (en la panadería)" },
+        { "en": "<span class=\"r-verb\">Könnten</span> Sie das bitte <span class=\"r-sep\">wiederholen</span>?", "es": "¿Podría repetir eso, por favor?" },
+        { "en": "Du <span class=\"r-verb\">solltest</span> mehr Wasser <span class=\"r-sep\">trinken</span>.", "es": "Deberías beber más agua. (consejo)" },
+        { "en": "<span class=\"r-verb\">Wäre</span> es möglich, später <span class=\"r-sep\">zu kommen</span>?", "es": "¿Sería posible venir más tarde?" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b13-s4q1",
+          "question": "1. En la panadería, lo natural: «<span class=\"blank\">___</span> ein Croissant.»",
+          "options": ["Ich will", "Ich hätte gern", "Gib mir"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s4q2",
+          "question": "2. Consejo: «Deberías descansar más.» → Du <span class=\"blank\">___</span> dich mehr ausruhen.",
+          "options": ["solltest", "sollst", "willst"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s4q3",
+          "question": "3. Petición muy cortés a un desconocido:",
+          "options": ["Helfen Sie mir!", "Können Sie mir helfen?", "Könnten Sie mir bitte helfen?"],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b13-s4",
+        "label": "<b>tu turno:</b> un pedido cortés con <i>Ich hätte gern</i> y un consejo a un amigo con <i>Du solltest</i>.",
+        "placeholder": "Ej: Ich hätte gern einen Milchkaffee. Du solltest früher ins Bett gehen."
+      }
+    }
+  ]
+}

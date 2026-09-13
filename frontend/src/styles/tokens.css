@@ -1,0 +1,37 @@
+:root {
+  --bg:#EEF0EA;
+  --surface:#FFFFFF;
+  --surface-2:#F7F8F4;
+  --ink:#17180F;
+  --ink-soft:#585C4F;
+  --ink-faint:#8A8E7F;
+  --line:#DEE0D5;
+  --line-strong:#C9CCBD;
+  --iris:#3B3E8C;
+  --iris-soft:#EAEBF6;
+  --a1:#5C9A4E;
+  --a2:#2E9187;
+  --b1:#2C6FA6;
+  --b2:#5B4B9C;
+  --c1:#A63F84;
+  --c2:#C0392B;
+  /* Roles gramaticales del alemán: el color marca EL CASO o la función
+     sintáctica en los ejemplos (pedagógico, no decorativo). */
+  --role-nom:#2C6FA6;   /* sujeto · Nominativ (azul) */
+  --role-akk:#C0603A;   /* objeto directo · Akkusativ (naranja) */
+  --role-dat:#5C9A4E;   /* objeto indirecto · Dativ (verde) */
+  --role-gen:#8A5FB0;   /* posesión · Genitiv (morado) */
+  --role-verb:#C0392B;  /* verbo conjugado / 2ª posición (rojo) */
+  --role-sep:#B07D2B;   /* prefijo separable (ámbar) */
+  --role-sub:#2E9187;   /* conector subordinante (teal) */
+  --role-adj:#A63F84;   /* terminación de adjetivo declinada (magenta) */
+  --ok:#2C7A4B;
+  --ok-bg:#E7F3EB;
+  --no:#B23A3A;
+  --no-bg:#F7E9E7;
+  --display:"Space Grotesk",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+  --shadow-sm:0 1px 2px rgba(23,24,15,.06);
+  --shadow:0 2px 4px rgba(23,24,15,.05),0 8px 24px -12px rgba(23,24,15,.18);
+}

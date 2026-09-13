@@ -1,0 +1,272 @@
+{
+  "block": "10",
+  "title": "El verbo: tiempos y usos",
+  "kicker": "Bloque 10 · A1–C1",
+  "intro": "El sistema de tiempos alemán es más pequeño que el español, pero con un reparto propio: el <b class=\"hl\">Perfekt</b> es el pasado del <b class=\"hl\">habla</b>, el <b class=\"hl\">Präteritum</b> el de la <b class=\"hl\">escritura</b>, y el futuro muchas veces se dice… en presente.",
+  "legend": [
+    { "label": "verbo", "desc": "conjugado, 2ª posición", "role": "verb" },
+    { "label": "cierre verbal", "desc": "participio/infinitivo al final", "role": "sep" },
+    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+  ],
+  "sections": [
+    {
+      "idx": "10.1",
+      "title": "Präsens: un presente que lo cubre casi todo",
+      "level": "A1",
+      "rule": "El Präsens cubre: el presente habitual, el «estoy haciendo» (no hay continuo en alemán) y — con una marca temporal — <b>el futuro</b>: <i>Morgen <b>fliege</b> ich nach Rom</i>. Además, con <b>seit</b> expresa lo que en español es «llevo + gerundio»: <i>Ich <b>wohne seit</b> 2020 hier</i> = llevo viviendo aquí desde 2020.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "No busques el «estar + gerundio»: <i>Ich lese</i> = leo Y estoy leyendo. Si necesitas subrayar el «ahora mismo», usa <b>gerade</b>: <i>Ich lese <b>gerade</b></i>."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Futuro cotidiano = <b>Präsens + marca temporal</b> (morgen, nächste Woche, um 8 Uhr). Es la forma preferida en el habla; el Futur I (10.5) queda para promesas, suposiciones y planes sin fecha."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">arbeite</span> gerade.", "es": "Estoy trabajando (ahora mismo)." },
+        { "en": "Morgen <span class=\"r-verb\">fliege</span> <span class=\"r-nom\">ich</span> nach Rom.", "es": "Mañana vuelo a Roma. (presente con valor de futuro)" },
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">lerne</span> seit drei Monaten Deutsch.", "es": "Llevo tres meses aprendiendo alemán." },
+        { "en": "<span class=\"r-nom\">Der Kurs</span> <span class=\"r-verb\">beginnt</span> nächste Woche.", "es": "El curso empieza la semana que viene." }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b10-s1q1",
+          "question": "1. «Llevo dos años viviendo en Berlín.» →",
+          "options": [
+            "Ich habe zwei Jahre in Berlin gewohnt.",
+            "Ich wohne seit zwei Jahren in Berlin.",
+            "Ich wohnte seit zwei Jahren in Berlin."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s1q2",
+          "question": "2. «Estoy comiendo.» La forma más natural:",
+          "options": ["Ich bin essen.", "Ich esse gerade.", "Ich bin essend."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s1q3",
+          "question": "3. «Mañana trabajo desde casa.» ¿Qué tiempo usa el alemán cotidiano?",
+          "options": ["Futur I obligatorio", "Präsens + morgen", "Perfekt"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b10-s1",
+        "label": "<b>tu turno:</b> tres presentes: uno habitual, uno con <i>gerade</i> y uno de futuro con marca temporal.",
+        "placeholder": "Ej: Ich trinke jeden Tag Tee. Ich schreibe gerade eine E-Mail. Nächste Woche besuche ich dich."
+      }
+    },
+    {
+      "idx": "10.2",
+      "title": "Perfekt: el pasado del habla (haben/sein + Partizip II)",
+      "level": "A2",
+      "rule": "El pasado conversacional: <b>haben/sein</b> en posición 2 + <b>Partizip II al final</b>. Se usa <b>sein</b> con verbos de <b>movimiento con destino</b> (gehen, fahren, kommen, fliegen) y de <b>cambio de estado</b> (aufstehen, einschlafen, werden, sterben) — y <i>bleiben, sein, passieren</i>. Todo lo demás va con <b>haben</b>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Participios de un vistazo: débiles <b>ge-…-t</b> (gemacht, gekauft), fuertes <b>ge-…-en</b> con posible cambio vocálico (gesehen, getrunken, gefunden). Sin <b>ge-</b>: los verbos en -ieren (studiert) y los de prefijo inseparable (besucht, verstanden). La tabla de 65+ fuertes está en el Glosario."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "A diferencia del español, el Perfekt NO significa «he hecho» frente a «hice»: cubre <b>ambos</b>. <i>Gestern habe ich Pizza gegessen</i> = ayer comí pizza. La elección Perfekt/Präteritum es de <b>registro</b> (hablado/escrito), no de significado."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> gestern Pizza <span class=\"r-sep\">gegessen</span>.", "es": "Ayer comí pizza." },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> nach München <span class=\"r-sep\">gefahren</span>.", "es": "Fuimos a Múnich. (movimiento → sein)" },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ist</span> um 6 Uhr <span class=\"r-sep\">aufgestanden</span>.", "es": "Ella se levantó a las 6. (cambio de estado → sein)" },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> in Madrid <span class=\"r-sep\">studiert</span>.", "es": "Él estudió en Madrid. (-ieren: sin ge-)" },
+        { "en": "Was <span class=\"r-verb\">ist</span> <span class=\"r-sep\">passiert</span>?", "es": "¿Qué ha pasado?" }
+      ],
+      "tables": [
+        {
+          "headers": ["Auxiliar", "Cuándo", "Ejemplos"],
+          "rows": [
+            ["<b>haben</b>", "la mayoría: transitivos, reflexivos, modales", "hat gemacht, hat gesehen, hat gekauft"],
+            ["<b>sein</b>", "movimiento A→B, cambio de estado, sein/bleiben/passieren", "ist gegangen, ist aufgewacht, ist geblieben"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b10-s2q1",
+          "question": "1. Wir <span class=\"blank\">___</span> am Samstag ins Kino gegangen.",
+          "options": ["haben", "sind", "waren"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s2q2",
+          "question": "2. Ich habe das Buch <span class=\"blank\">___</span>. (lesen)",
+          "options": ["gelest", "gelesen", "geliest"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s2q3",
+          "question": "3. Er hat Mathematik <span class=\"blank\">___</span>. (studieren)",
+          "options": ["gestudiert", "studiert", "gestudieren"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b10-s2",
+        "label": "<b>tu turno:</b> cuenta tres cosas de tu último fin de semana en Perfekt — al menos una con <i>sein</i>.",
+        "placeholder": "Ej: Am Samstag bin ich in die Stadt gefahren. Ich habe Freunde getroffen. Wir haben zusammen gekocht."
+      }
+    },
+    {
+      "idx": "10.3",
+      "title": "Präteritum: el pasado de la escritura (y de war/hatte)",
+      "level": "B1",
+      "rule": "El Präteritum es el pasado de <b>narración escrita</b>: prensa, novelas, cuentos. En el habla se usa igualmente para un grupo pequeño: <b>sein → war</b>, <b>haben → hatte</b>, los <b>modales</b> (konnte, musste, wollte, durfte, sollte) y <i>es gab, wusste, dachte</i>. Nadie dice «ich bin gewesen» pudiendo decir <b>ich war</b>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Regla práctica para hablar: <b>war, hatte y los modales en Präteritum; todo lo demás en Perfekt</b>. Con eso suenas natural desde A2. El Präteritum completo de los fuertes (sah, ging, fuhr…) te hará falta sobre todo para <b>leer</b>."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">war</span> gestern krank und <span class=\"r-verb\">hatte</span> Fieber.", "es": "Ayer estaba enfermo y tenía fiebre." },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">konnten</span> nicht kommen.", "es": "No pudimos venir." },
+        { "en": "Es <span class=\"r-verb\">gab</span> ein Problem mit dem Zug.", "es": "Hubo un problema con el tren." },
+        { "en": "Der Mann <span class=\"r-verb\">öffnete</span> die Tür und <span class=\"r-verb\">sah</span> den Brief.", "es": "El hombre abrió la puerta y vio la carta. (narración escrita)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Verbo", "Präteritum", "Ejemplo hablado"],
+          "rows": [
+            ["sein", "<b>war</b>", "Ich war müde."],
+            ["haben", "<b>hatte</b>", "Wir hatten Glück."],
+            ["können", "<b>konnte</b>", "Er konnte nicht schlafen."],
+            ["müssen", "<b>musste</b>", "Ich musste arbeiten."],
+            ["wollen", "<b>wollte</b>", "Sie wollte helfen."],
+            ["wissen", "<b>wusste</b>", "Das wusste ich nicht!"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b10-s3q1",
+          "question": "1. En una conversación: «Ayer estuve en casa.» Lo natural es…",
+          "options": ["Gestern bin ich zu Hause gewesen.", "Gestern war ich zu Hause.", "Gestern wurde ich zu Hause."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s3q2",
+          "question": "2. «No pude dormir.» → Ich <span class=\"blank\">___</span> nicht schlafen.",
+          "options": ["konnte", "kann", "gekonnt"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s3q3",
+          "question": "3. ¿Dónde esperas encontrar «Er ging langsam nach Hause»?",
+          "options": ["En una charla de bar", "En una novela o noticia", "Solo en poesía"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b10-s3",
+        "label": "<b>tu turno:</b> describe cómo fue tu día de ayer mezclando bien: <i>war/hatte/musste</i> + el resto en Perfekt.",
+        "placeholder": "Ej: Gestern war ich sehr beschäftigt. Ich musste viel arbeiten, aber am Abend habe ich mit Freunden gegessen."
+      }
+    },
+    {
+      "idx": "10.4",
+      "title": "Plusquamperfekt: el pasado del pasado",
+      "level": "B2",
+      "rule": "Para lo que ocurrió <b>antes de otro momento pasado</b>: <b>hatte/war + Partizip II</b>. Aparece casi siempre con <b>nachdem</b> (después de que) o <b>bevor</b>: <i><b>Nachdem</b> ich gegessen <b>hatte</b>, ging ich ins Bett</i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Combinación fija que vale oro: <b>nachdem + Plusquamperfekt, luego Präteritum/Perfekt</b>. Si dominas ese patrón, el Plusquamperfekt ya casi no te dará más guerra."
+        }
+      ],
+      "examples": [
+        { "en": "Nachdem ich <span class=\"r-sep\">gegessen</span> <span class=\"r-verb\">hatte</span>, <span class=\"r-verb\">ging</span> ich ins Bett.", "es": "Después de comer, me fui a la cama." },
+        { "en": "<span class=\"r-nom\">Der Zug</span> <span class=\"r-verb\">war</span> schon <span class=\"r-sep\">abgefahren</span>, als wir ankamen.", "es": "El tren ya había salido cuando llegamos." },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hatte</span> das Buch schon <span class=\"r-sep\">gelesen</span>.", "es": "Ella ya había leído el libro." }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b10-s4q1",
+          "question": "1. Nachdem er die Hausaufgaben gemacht <span class=\"blank\">___</span>, sah er fern.",
+          "options": ["hat", "hatte", "ist"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s4q2",
+          "question": "2. Als ich ankam, <span class=\"blank\">___</span> das Konzert schon begonnen.",
+          "options": ["hat", "war", "hatte"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s4q3",
+          "question": "3. «El tren ya se había ido.» → Der Zug <span class=\"blank\">___</span> schon abgefahren.",
+          "options": ["hatte", "war", "ist"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b10-s4",
+        "label": "<b>tu turno:</b> escribe una frase con <i>nachdem</i> + Plusquamperfekt.",
+        "placeholder": "Ej: Nachdem ich die Prüfung bestanden hatte, habe ich gefeiert."
+      }
+    },
+    {
+      "idx": "10.5",
+      "title": "Futur I y Futur II",
+      "level": "B2",
+      "rule": "<b>Futur I</b> = <b>werden + infinitivo</b>: promesas, predicciones, intenciones sin fecha y — muy usado — <b>suposiciones</b> con <i>wohl</i>: <i>Er <b>wird wohl</b> krank <b>sein</b></i> = estará enfermo (supongo). <b>Futur II</b> = <b>werden + Partizip II + haben/sein</b>: «para entonces habré terminado» o suposición sobre el pasado.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Recuerda (10.1): para planes con fecha el alemán prefiere el <b>Präsens</b>. Si dices <i>Ich werde morgen einkaufen</i> suena a promesa solemne; lo neutro es <i>Ich kaufe morgen ein</i>."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">werde</span> dir <span class=\"r-sep\">helfen</span>.", "es": "Te ayudaré. (promesa)" },
+        { "en": "Es <span class=\"r-verb\">wird</span> morgen <span class=\"r-sep\">regnen</span>.", "es": "Mañana lloverá. (predicción)" },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">wird</span> wohl im Büro <span class=\"r-sep\">sein</span>.", "es": "Estará en la oficina, supongo. (suposición)" },
+        { "en": "Bis Freitag <span class=\"r-verb\">werde</span> ich den Bericht <span class=\"r-sep\">geschrieben haben</span>.", "es": "Para el viernes habré escrito el informe. (Futur II)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b10-s5q1",
+          "question": "1. «Te llamaré.» (promesa) → Ich <span class=\"blank\">___</span> dich anrufen.",
+          "options": ["will", "werde", "wurde"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s5q2",
+          "question": "2. «Estará cansado (supongo).» → Er wird <span class=\"blank\">___</span> müde sein.",
+          "options": ["wohl", "schon gerne", "doch mal"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s5q3",
+          "question": "3. «Para el lunes lo habré leído.» → Bis Montag werde ich es <span class=\"blank\">___</span>.",
+          "options": ["lesen", "gelesen haben", "gelesen sein"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b10-s5",
+        "label": "<b>tu turno:</b> una promesa con Futur I y una suposición con <i>wird wohl</i>.",
+        "placeholder": "Ej: Ich werde jeden Tag Deutsch üben. Mein Chef wird wohl schon zu Hause sein."
+      }
+    }
+  ]
+}

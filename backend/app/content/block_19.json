@@ -1,0 +1,214 @@
+{
+  "block": "19",
+  "title": "Glosario y tablas de referencia",
+  "kicker": "Bloque 19 · Referencia",
+  "intro": "Todas las tablas del sistema en un solo lugar: <b class=\"hl\">artículos en los 4 casos</b>, pronombres, preposiciones por caso, terminaciones del adjetivo y la lista de <b class=\"hl\">verbos fuertes e irregulares</b> con sus 3 formas y su auxiliar. Para consultar, no para memorizar de golpe.",
+  "legend": [],
+  "sections": [
+    {
+      "idx": "19.1",
+      "title": "Los 4 casos × 3 géneros + plural: artículos",
+      "level": "A1",
+      "rule": "La tabla madre de todo el sistema. Fíjate en las tres celdas que hacen todo el trabajo: <b>den</b> (Akk masc), la fila del Dativo (<b>dem/der/dem/den</b>) y el Genitivo con su <b>-(e)s</b> en masculino/neutro.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": ["Definido", "masculino", "femenino", "neutro", "plural"],
+          "rows": [
+            ["<b>Nominativ</b>", "der", "die", "das", "die"],
+            ["<b>Akkusativ</b>", "<b>den</b>", "die", "das", "die"],
+            ["<b>Dativ</b>", "<b>dem</b>", "<b>der</b>", "<b>dem</b>", "<b>den</b> (+ -n)"],
+            ["<b>Genitiv</b>", "<b>des</b> (+ -s)", "der", "<b>des</b> (+ -s)", "der"]
+          ]
+        },
+        {
+          "headers": ["Indefinido / kein", "masculino", "femenino", "neutro", "plural (kein)"],
+          "rows": [
+            ["<b>Nominativ</b>", "ein / kein", "eine / keine", "ein / kein", "keine"],
+            ["<b>Akkusativ</b>", "<b>einen / keinen</b>", "eine / keine", "ein / kein", "keine"],
+            ["<b>Dativ</b>", "einem / keinem", "einer / keiner", "einem / keinem", "keinen (+ -n)"],
+            ["<b>Genitiv</b>", "eines / keines (+ -s)", "einer / keiner", "eines / keines (+ -s)", "keiner"]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.2",
+      "title": "Pronombres personales en los 4 casos",
+      "level": "A2",
+      "rule": "El Genitivo pronominal (<i>meiner, deiner…</i>) es rarísimo en la práctica — lo verás solo con unos pocos verbos cultos (<i>Wir gedenken seiner</i>). Domina Nominativo, Acusativo y Dativo.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": ["Nominativ", "Akkusativ", "Dativ", "Genitiv (raro)"],
+          "rows": [
+            ["ich", "mich", "mir", "meiner"],
+            ["du", "dich", "dir", "deiner"],
+            ["er", "ihn", "ihm", "seiner"],
+            ["sie (ella)", "sie", "ihr", "ihrer"],
+            ["es", "es", "ihm", "seiner"],
+            ["wir", "uns", "uns", "unser"],
+            ["ihr", "euch", "euch", "euer"],
+            ["sie (ellos)", "sie", "ihnen", "ihrer"],
+            ["Sie (usted)", "Sie", "Ihnen", "Ihrer"]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.3",
+      "title": "Preposiciones agrupadas por caso",
+      "level": "A2",
+      "rule": "Cuatro grupos: las de Acusativo fijo, las de Dativo fijo, las nueve de doble caso (Wechselpräpositionen: movimiento → Akk, ubicación → Dat) y las de Genitivo.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": ["Grupo", "Preposiciones", "Ejemplo"],
+          "rows": [
+            ["<b>+ Akkusativ</b>", "durch, für, gegen, ohne, um, entlang", "für <b>den</b> Chef · ohne <b>mich</b>"],
+            ["<b>+ Dativ</b>", "aus, bei, mit, nach, seit, von, zu, gegenüber, außer", "mit <b>dem</b> Auto · seit <b>einem</b> Jahr"],
+            ["<b>Wechsel</b> (Akk/Dat)", "in, an, auf, über, unter, vor, hinter, neben, zwischen", "in <b>die</b> Stadt (wohin) · in <b>der</b> Stadt (wo)"],
+            ["<b>+ Genitiv</b>", "wegen, trotz, während, statt, innerhalb, außerhalb", "wegen <b>des</b> Wetters · trotz <b>der</b> Kälte"]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.4",
+      "title": "Terminaciones del adjetivo: resumen",
+      "level": "B1",
+      "rule": "Las tres declinaciones en una tabla por caso. Recuerda el principio: <b>alguien tiene que marcar el caso</b> — artículo fuerte → adjetivo débil; artículo ambiguo (ein) → adjetivo compensa; sin artículo → adjetivo fuerte.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": ["Tras der-Wörter", "masc.", "fem.", "neutro", "plural"],
+          "rows": [
+            ["Nominativ", "-e", "-e", "-e", "-en"],
+            ["Akkusativ", "-en", "-e", "-e", "-en"],
+            ["Dativ", "-en", "-en", "-en", "-en"],
+            ["Genitiv", "-en", "-en", "-en", "-en"]
+          ]
+        },
+        {
+          "headers": ["Tras ein-Wörter", "masc.", "fem.", "neutro", "plural"],
+          "rows": [
+            ["Nominativ", "<b>-er</b>", "-e", "<b>-es</b>", "-en"],
+            ["Akkusativ", "-en", "-e", "<b>-es</b>", "-en"],
+            ["Dativ", "-en", "-en", "-en", "-en"],
+            ["Genitiv", "-en", "-en", "-en", "-en"]
+          ]
+        },
+        {
+          "headers": ["Sin artículo", "masc.", "fem.", "neutro", "plural"],
+          "rows": [
+            ["Nominativ", "-er", "-e", "-es", "-e"],
+            ["Akkusativ", "-en", "-e", "-es", "-e"],
+            ["Dativ", "-em", "-er", "-em", "-en"],
+            ["Genitiv", "-en", "-er", "-en", "-er"]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.5",
+      "title": "Verbos fuertes e irregulares: las 3 formas + auxiliar",
+      "level": "A2",
+      "rule": "Los ~70 imprescindibles con <b>Infinitiv · Präteritum · Partizip II</b>, el auxiliar del Perfekt (<b>haben/sein</b>) y su significado. Los marcados con <b>sein</b> son los de movimiento y cambio de estado. Incluye también los mixtos (denken, bringen, kennen, nennen, wissen) y los modales.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "start",
+          "text": "No la estudies de arriba abajo: repasa <b>por series de vocales</b> (ei-ie-ie, i-a-u, e-a-o…) como en el bloque 15.2, o marca con ★ los que te fallen y vuelve solo a esos."
+        }
+      ],
+      "examples": [],
+      "tables": [
+        {
+          "headers": ["Infinitiv", "Präteritum", "Partizip II", "Aux.", "Significado"],
+          "rows": [
+            ["beginnen", "begann", "begonnen", "haben", "empezar"],
+            ["beißen", "biss", "gebissen", "haben", "morder"],
+            ["bieten", "bot", "geboten", "haben", "ofrecer"],
+            ["bitten", "bat", "gebeten", "haben", "pedir, rogar"],
+            ["bleiben", "blieb", "geblieben", "<b>sein</b>", "quedarse"],
+            ["brechen", "brach", "gebrochen", "haben", "romper"],
+            ["bringen", "brachte", "gebracht", "haben", "traer, llevar"],
+            ["denken", "dachte", "gedacht", "haben", "pensar"],
+            ["dürfen", "durfte", "gedurft", "haben", "poder (permiso)"],
+            ["empfehlen", "empfahl", "empfohlen", "haben", "recomendar"],
+            ["essen", "aß", "gegessen", "haben", "comer"],
+            ["fahren", "fuhr", "gefahren", "<b>sein</b>", "ir (en vehículo)"],
+            ["fallen", "fiel", "gefallen", "<b>sein</b>", "caer"],
+            ["fangen", "fing", "gefangen", "haben", "atrapar"],
+            ["finden", "fand", "gefunden", "haben", "encontrar"],
+            ["fliegen", "flog", "geflogen", "<b>sein</b>", "volar"],
+            ["geben", "gab", "gegeben", "haben", "dar"],
+            ["gehen", "ging", "gegangen", "<b>sein</b>", "ir (a pie)"],
+            ["gelingen", "gelang", "gelungen", "<b>sein</b>", "salir bien, lograrse"],
+            ["gewinnen", "gewann", "gewonnen", "haben", "ganar"],
+            ["gießen", "goss", "gegossen", "haben", "verter, regar"],
+            ["haben", "hatte", "gehabt", "haben", "tener"],
+            ["halten", "hielt", "gehalten", "haben", "sostener, parar"],
+            ["hängen", "hing", "gehangen", "haben", "colgar (estar colgado)"],
+            ["heißen", "hieß", "geheißen", "haben", "llamarse"],
+            ["helfen", "half", "geholfen", "haben", "ayudar (+ Dat)"],
+            ["kennen", "kannte", "gekannt", "haben", "conocer"],
+            ["kommen", "kam", "gekommen", "<b>sein</b>", "venir"],
+            ["können", "konnte", "gekonnt", "haben", "poder (capacidad)"],
+            ["laden", "lud", "geladen", "haben", "cargar, invitar"],
+            ["lassen", "ließ", "gelassen", "haben", "dejar, hacer que"],
+            ["laufen", "lief", "gelaufen", "<b>sein</b>", "correr, andar"],
+            ["leihen", "lieh", "geliehen", "haben", "prestar"],
+            ["lesen", "las", "gelesen", "haben", "leer"],
+            ["liegen", "lag", "gelegen", "haben", "estar tumbado/situado"],
+            ["lügen", "log", "gelogen", "haben", "mentir"],
+            ["mögen", "mochte", "gemocht", "haben", "gustar"],
+            ["müssen", "musste", "gemusst", "haben", "tener que"],
+            ["nehmen", "nahm", "genommen", "haben", "tomar, coger"],
+            ["nennen", "nannte", "genannt", "haben", "nombrar, llamar"],
+            ["raten", "riet", "geraten", "haben", "aconsejar; adivinar"],
+            ["rufen", "rief", "gerufen", "haben", "llamar (voz)"],
+            ["scheinen", "schien", "geschienen", "haben", "brillar; parecer"],
+            ["schlafen", "schlief", "geschlafen", "haben", "dormir"],
+            ["schlagen", "schlug", "geschlagen", "haben", "golpear"],
+            ["schließen", "schloss", "geschlossen", "haben", "cerrar"],
+            ["schneiden", "schnitt", "geschnitten", "haben", "cortar"],
+            ["schreiben", "schrieb", "geschrieben", "haben", "escribir"],
+            ["schwimmen", "schwamm", "geschwommen", "<b>sein</b>", "nadar"],
+            ["sehen", "sah", "gesehen", "haben", "ver"],
+            ["sein", "war", "gewesen", "<b>sein</b>", "ser, estar"],
+            ["singen", "sang", "gesungen", "haben", "cantar"],
+            ["sitzen", "saß", "gesessen", "haben", "estar sentado"],
+            ["sprechen", "sprach", "gesprochen", "haben", "hablar"],
+            ["springen", "sprang", "gesprungen", "<b>sein</b>", "saltar"],
+            ["stehen", "stand", "gestanden", "haben", "estar de pie"],
+            ["steigen", "stieg", "gestiegen", "<b>sein</b>", "subir"],
+            ["sterben", "starb", "gestorben", "<b>sein</b>", "morir"],
+            ["tragen", "trug", "getragen", "haben", "llevar (puesto), cargar"],
+            ["treffen", "traf", "getroffen", "haben", "encontrarse con; acertar"],
+            ["trinken", "trank", "getrunken", "haben", "beber"],
+            ["tun", "tat", "getan", "haben", "hacer"],
+            ["vergessen", "vergaß", "vergessen", "haben", "olvidar"],
+            ["verlieren", "verlor", "verloren", "haben", "perder"],
+            ["verstehen", "verstand", "verstanden", "haben", "entender"],
+            ["wachsen", "wuchs", "gewachsen", "<b>sein</b>", "crecer"],
+            ["waschen", "wusch", "gewaschen", "haben", "lavar"],
+            ["werden", "wurde", "geworden", "<b>sein</b>", "convertirse en"],
+            ["werfen", "warf", "geworfen", "haben", "lanzar"],
+            ["wissen", "wusste", "gewusst", "haben", "saber (un dato)"],
+            ["ziehen", "zog", "gezogen", "haben", "tirar de; (sein) mudarse"]
+          ]
+        }
+      ],
+      "quiz": []
+    }
+  ]
+}

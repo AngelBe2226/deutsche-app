@@ -1,0 +1,179 @@
+{
+  "block": "06",
+  "title": "Comparativos y superlativos",
+  "kicker": "Bloque 06 · A2",
+  "intro": "El alemán compara <b class=\"hl\">siempre con -er</b> (no existe «mehr interessant») y a menudo añade <b class=\"hl\">Umlaut</b> en la vocal: alt → älter. El superlativo tiene dos formas según vaya con o sin sustantivo: <b class=\"hl\">am ältesten / der älteste</b>.",
+  "legend": [
+    { "label": "verbo", "desc": "conjugado", "role": "verb" },
+    { "label": "terminación", "desc": "comparativo/superlativo declinado", "role": "adj" }
+  ],
+  "sections": [
+    {
+      "idx": "6.1",
+      "title": "El comparativo: -er + als",
+      "level": "A2",
+      "rule": "Se forma <b>siempre</b> con <b>-er</b>: <i>klein → klein<b>er</b></i>, <i>interessant → interessant<b>er</b></i> — da igual lo largo que sea el adjetivo. Los monosílabos con a/o/u suelen añadir <b>Umlaut</b>: <i>alt → <b>ä</b>lter, groß → gr<b>ö</b>ßer, jung → j<b>ü</b>nger</i>. «Que» comparativo = <b>als</b>: <i>Er ist älter <b>als</b> ich</i>.",
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Nunca calques el inglés/español: ~~mehr interessant~~ no existe. Por muy largo que sea el adjetivo, siempre -er: <i>komplizierter, interessanter, wunderbarer</i>."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Si el comparativo va delante de un sustantivo, se declina como cualquier adjetivo (bloque 05): <i>ein älter<b>er</b> Mann</i>, <i>die größer<b>e</b> Wohnung</i>."
+        }
+      ],
+      "examples": [
+        { "en": "Berlin <span class=\"r-verb\">ist</span> größ<span class=\"r-adj\">er</span> als München.", "es": "Berlín es más grande que Múnich." },
+        { "en": "Dieses Buch <span class=\"r-verb\">ist</span> interessant<span class=\"r-adj\">er</span> als der Film.", "es": "Este libro es más interesante que la película." },
+        { "en": "Meine Schwester <span class=\"r-verb\">ist</span> jüng<span class=\"r-adj\">er</span> als ich.", "es": "Mi hermana es más joven que yo." },
+        { "en": "Ich <span class=\"r-verb\">suche</span> eine größer<span class=\"r-adj\">e</span> Wohnung.", "es": "Busco un piso más grande. (comparativo declinado)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b06-s1q1",
+          "question": "1. Der Zug ist <span class=\"blank\">___</span> als der Bus. (schnell)",
+          "options": ["mehr schnell", "schneller", "schnellst"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s1q2",
+          "question": "2. Mein Bruder ist <span class=\"blank\">___</span> als ich. (alt)",
+          "options": ["alter", "älter", "am ältesten"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s1q3",
+          "question": "3. «más que yo» se dice…",
+          "options": ["mehr wie ich", "mehr als ich", "mehr dass ich"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b06-s1",
+        "label": "<b>tu turno:</b> compara dos ciudades o dos personas con dos comparativos distintos (uno con Umlaut).",
+        "placeholder": "Ej: Madrid ist größer als Valencia, aber Valencia ist schöner."
+      }
+    },
+    {
+      "idx": "6.2",
+      "title": "El superlativo: am -sten / der -ste",
+      "level": "A2",
+      "rule": "Dos formas: <b>am + -sten</b> cuando va tras el verbo, sin sustantivo (<i>Dieser Weg ist <b>am kürzesten</b></i>), y <b>der/die/das + -ste</b> delante de sustantivo o como «el más…» (<i><b>der kürzeste</b> Weg</i>). Adjetivos en -t, -d, -s, -z añaden <b>-esten</b>: <i>am ält<b>esten</b>, am kürz<b>esten</b></i>. El Umlaut del comparativo se mantiene.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "¿Cuál usar? Si puedes poner un sustantivo detrás (aunque sea implícito) → <b>der -ste</b>. Si solo describes con «ser» → <b>am -sten</b>. <i>Dieser Berg ist am höchsten</i> / <i>Das ist der höchste Berg</i>."
+        }
+      ],
+      "examples": [
+        { "en": "Der Winter in Deutschland <span class=\"r-verb\">ist</span> am kält<span class=\"r-adj\">esten</span> im Januar.", "es": "El invierno en Alemania es más frío en enero." },
+        { "en": "Das <span class=\"r-verb\">ist</span> das best<span class=\"r-adj\">e</span> Restaurant der Stadt.", "es": "Este es el mejor restaurante de la ciudad." },
+        { "en": "Von allen Sprachen <span class=\"r-verb\">finde</span> ich Deutsch am interessant<span class=\"r-adj\">esten</span>.", "es": "De todos los idiomas, el alemán me parece el más interesante." },
+        { "en": "Der Mount Everest <span class=\"r-verb\">ist</span> der höch<span class=\"r-adj\">ste</span> Berg der Welt.", "es": "El Everest es la montaña más alta del mundo." }
+      ],
+      "tables": [
+        {
+          "headers": ["Positivo", "Comparativo", "Superlativo (am)", "Superlativo (der)"],
+          "rows": [
+            ["klein", "kleiner", "am kleinsten", "der kleinste"],
+            ["alt", "älter", "am ältesten", "der älteste"],
+            ["groß", "größer", "am größten", "der größte"],
+            ["kurz", "kürzer", "am kürzesten", "der kürzeste"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b06-s2q1",
+          "question": "1. Dieser Weg ist <span class=\"blank\">___</span>. (kurz)",
+          "options": ["am kürzesten", "der kürzeste", "kürzer als"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s2q2",
+          "question": "2. Das ist <span class=\"blank\">___</span> Tag des Jahres. (lang)",
+          "options": ["am längsten", "der längste", "länger"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s2q3",
+          "question": "3. alt → superlativo con «am»:",
+          "options": ["am altesten", "am ältesten", "am ältsten"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b06-s2",
+        "label": "<b>tu turno:</b> escribe un «récord» con cada forma del superlativo (una con <i>am</i>, otra con <i>der/die/das</i>).",
+        "placeholder": "Ej: Im August ist es am heißesten. Der Rhein ist der bekannteste Fluss Deutschlands."
+      }
+    },
+    {
+      "idx": "6.3",
+      "title": "Irregulares y comparación de igualdad",
+      "level": "A2",
+      "rule": "Irregulares imprescindibles: <b>gut → besser → am besten</b>, <b>viel → mehr → am meisten</b>, <b>gern → lieber → am liebsten</b> (para preferencias con verbos), <b>hoch → höher → am höchsten</b>, <b>nah → näher → am nächsten</b>. Igualdad: <b>so … wie</b> (<i>Er ist <b>so</b> groß <b>wie</b> ich</i>); desigualdad con <b>als</b>.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>wie vs. als</b>, el error clásico incluso entre nativos: igualdad → <b>wie</b> (<i>so alt wie du</i>), diferencia → <b>als</b> (<i>älter als du</i>). Jamás «älter wie du» en alemán estándar."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>gern/lieber/am liebsten</b> es tu herramienta de preferencias: <i>Ich trinke gern Tee, lieber Kaffee, am liebsten Espresso</i> = me gusta el té, prefiero el café, y lo que más, el espresso."
+        }
+      ],
+      "examples": [
+        { "en": "Dein Deutsch <span class=\"r-verb\">wird</span> immer bess<span class=\"r-adj\">er</span>!", "es": "¡Tu alemán es cada vez mejor!" },
+        { "en": "Ich <span class=\"r-verb\">trinke</span> lieber Kaffee als Tee.", "es": "Prefiero el café al té." },
+        { "en": "Am liebsten <span class=\"r-verb\">esse</span> ich Pasta.", "es": "Lo que más me gusta comer es pasta." },
+        { "en": "Sie <span class=\"r-verb\">ist</span> so groß wie ihr Bruder.", "es": "Ella es tan alta como su hermano." },
+        { "en": "Heute <span class=\"r-verb\">habe</span> ich mehr Zeit als gestern.", "es": "Hoy tengo más tiempo que ayer." }
+      ],
+      "tables": [
+        {
+          "headers": ["Positivo", "Comparativo", "Superlativo", "Significado"],
+          "rows": [
+            ["gut", "besser", "am besten", "bueno / mejor"],
+            ["viel", "mehr", "am meisten", "mucho / más"],
+            ["gern", "lieber", "am liebsten", "con gusto / preferir"],
+            ["hoch", "höher", "am höchsten", "alto"],
+            ["nah", "näher", "am nächsten", "cercano"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b06-s3q1",
+          "question": "1. Ich spreche Englisch <span class=\"blank\">___</span> als Deutsch.",
+          "options": ["gut", "besser", "am besten"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s3q2",
+          "question": "2. Er ist genauso alt <span class=\"blank\">___</span> ich.",
+          "options": ["als", "wie", "so"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s3q3",
+          "question": "3. «Lo que más me gusta es viajar.» → <span class=\"blank\">___</span> reise ich.",
+          "options": ["Am meisten", "Am liebsten", "Lieber"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b06-s3",
+        "label": "<b>tu turno:</b> tus preferencias en tres niveles: <i>gern → lieber → am liebsten</i>.",
+        "placeholder": "Ej: Ich höre gern Pop, lieber Rock, aber am liebsten höre ich Jazz."
+      }
+    }
+  ]
+}

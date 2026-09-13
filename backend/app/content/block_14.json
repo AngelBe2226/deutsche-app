@@ -1,0 +1,220 @@
+{
+  "block": "14",
+  "title": "Conjunciones y conectores",
+  "kicker": "Bloque 14 · A2–B1",
+  "intro": "Tres familias de conectores, cada una con su efecto sobre el orden: los <b class=\"hl\">coordinantes</b> (posición 0, no cambian nada), los <b class=\"hl\">subordinantes</b> (verbo al final, bloque 09) y los <b class=\"hl\">adverbios conectores</b> (ocupan la posición 1 → inversión).",
+  "legend": [
+    { "label": "conector", "desc": "subordinante (verbo al final)", "role": "sub" },
+    { "label": "verbo", "desc": "conjugado", "role": "verb" },
+    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+  ],
+  "sections": [
+    {
+      "idx": "14.1",
+      "title": "ADUSO: los cinco de la posición cero",
+      "level": "A2",
+      "rule": "<b>aber, denn, und, sondern, oder</b> (mnemotecnia: <b>ADUSO</b>) unen frases <b>sin tocar el orden</b>: ocupan la «posición 0» y después sigue una frase normal con su V2: <i>Ich bleibe hier, <b>denn</b> ich <b>bin</b> müde</i>.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Compara las dos maneras de decir «porque»: <b>denn</b> (ADUSO, orden normal) y <b>weil</b> (subordinante, verbo al final). <i>…, denn ich <b>habe</b> Hunger</i> = <i>…, weil ich Hunger <b>habe</b></i>. Elige según el orden que quieras manejar."
+        }
+      ],
+      "examples": [
+        { "en": "Ich lerne Deutsch <b>und</b> <span class=\"r-nom\">ich</span> <span class=\"r-verb\">übe</span> jeden Tag.", "es": "Aprendo alemán y practico cada día." },
+        { "en": "Er kommt nicht, <b>denn</b> <span class=\"r-nom\">er</span> <span class=\"r-verb\">ist</span> krank.", "es": "No viene, porque está enfermo. (orden normal tras denn)" },
+        { "en": "Möchtest du Kaffee <b>oder</b> <span class=\"r-verb\">trinkst</span> <span class=\"r-nom\">du</span> lieber Tee?", "es": "¿Quieres café o prefieres té?" },
+        { "en": "Das Hotel ist klein, <b>aber</b> <span class=\"r-nom\">es</span> <span class=\"r-verb\">ist</span> sehr gemütlich.", "es": "El hotel es pequeño, pero muy acogedor." }
+      ],
+      "tables": [
+        {
+          "headers": ["Conector", "Significado", "Efecto en el orden"],
+          "rows": [
+            ["<b>a</b>ber", "pero", "ninguno (posición 0)"],
+            ["<b>d</b>enn", "porque, pues", "ninguno (posición 0)"],
+            ["<b>u</b>nd", "y", "ninguno (posición 0)"],
+            ["<b>s</b>ondern", "sino", "ninguno (posición 0)"],
+            ["<b>o</b>der", "o", "ninguno (posición 0)"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b14-s1q1",
+          "question": "1. Ich bleibe zu Hause, denn ich <span class=\"blank\">___</span> müde.",
+          "options": ["bin", "müde bin", "bin ich"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s1q2",
+          "question": "2. ¿Cuál de estos conectores NO altera el orden de la frase?",
+          "options": ["weil", "aber", "obwohl"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s1q3",
+          "question": "3. ADUSO son…",
+          "options": ["aber, denn, und, sondern, oder", "als, dann, und, so, ob", "auf, durch, um, seit, ohne"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b14-s1",
+        "label": "<b>tu turno:</b> la misma causa dos veces: con <i>denn</i> (orden normal) y con <i>weil</i> (verbo al final).",
+        "placeholder": "Ej: Ich lerne Deutsch, denn ich liebe die Sprache. / Ich lerne Deutsch, weil ich die Sprache liebe."
+      }
+    },
+    {
+      "idx": "14.2",
+      "title": "aber vs. sondern",
+      "level": "A2",
+      "rule": "Ambos se traducen «pero/sino». <b>sondern</b> se usa <b>solo</b> tras una <b>negación</b>, para corregirla: <i>nicht A, <b>sondern</b> B</i> (no A, sino B). <b>aber</b> contrasta sin corregir: <i>klein, <b>aber</b> gemütlich</i>. Si en español dirías «sino», en alemán es <i>sondern</i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Combinación útil: <b>nicht nur … sondern auch</b> = no solo… sino también: <i>Sie spricht nicht nur Deutsch, sondern auch Russisch</i>."
+        }
+      ],
+      "examples": [
+        { "en": "Das ist <b>nicht</b> mein Auto, <b>sondern</b> das Auto meiner Schwester.", "es": "Ese no es mi coche, sino el de mi hermana." },
+        { "en": "Die Wohnung ist klein, <b>aber</b> schön.", "es": "El piso es pequeño, pero bonito." },
+        { "en": "Ich trinke <b>keinen</b> Kaffee, <b>sondern</b> Tee.", "es": "No bebo café, sino té." },
+        { "en": "Er ist müde, <b>aber</b> er arbeitet weiter.", "es": "Está cansado, pero sigue trabajando." }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b14-s2q1",
+          "question": "1. Ich komme nicht heute, <span class=\"blank\">___</span> morgen.",
+          "options": ["aber", "sondern", "denn"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s2q2",
+          "question": "2. Das Essen war teuer, <span class=\"blank\">___</span> sehr gut.",
+          "options": ["sondern", "aber", "oder"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s2q3",
+          "question": "3. «sondern» solo puede aparecer…",
+          "options": ["tras una negación", "al principio de frase", "con el verbo al final"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b14-s2",
+        "label": "<b>tu turno:</b> una corrección con <i>nicht … sondern</i> y un contraste con <i>aber</i>.",
+        "placeholder": "Ej: Ich wohne nicht in Madrid, sondern in Valencia. Die Stadt ist laut, aber ich mag sie."
+      }
+    },
+    {
+      "idx": "14.3",
+      "title": "deshalb, trotzdem, dann: conectores que invierten",
+      "level": "B1",
+      "rule": "Los <b>adverbios conectores</b> — <b>deshalb/deswegen</b> (por eso), <b>trotzdem</b> (a pesar de ello), <b>dann</b> (entonces), <b>danach</b> (después), <b>außerdem</b> (además), <b>sonst</b> (si no) — <b>ocupan la posición 1</b> de su frase, así que el verbo va justo después y el sujeto detrás: <i>Ich war müde, <b>deshalb bin ich</b> früh ins Bett gegangen</i>.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Tres familias, tres mecánicas — compáralas con «por eso/porque/aunque»: <i>…, <b>denn</b> ich bin krank</i> (0, orden normal) · <i>…, <b>weil</b> ich krank <b>bin</b></i> (verbo al final) · <i>Ich bin krank, <b>deshalb bleibe</b> ich hier</i> (posición 1 → inversión). Identificar la familia del conector te da el orden gratis."
+        }
+      ],
+      "examples": [
+        { "en": "Es regnet, <b>deshalb</b> <span class=\"r-verb\">bleiben</span> <span class=\"r-nom\">wir</span> zu Hause.", "es": "Llueve, por eso nos quedamos en casa." },
+        { "en": "Er war krank, <b>trotzdem</b> <span class=\"r-verb\">ist</span> <span class=\"r-nom\">er</span> zur Arbeit gegangen.", "es": "Estaba enfermo; aun así fue a trabajar." },
+        { "en": "Zuerst frühstücke ich, <b>dann</b> <span class=\"r-verb\">gehe</span> <span class=\"r-nom\">ich</span> zur Arbeit.", "es": "Primero desayuno, luego voy al trabajo." },
+        { "en": "Das Hotel ist zentral, <b>außerdem</b> <span class=\"r-verb\">ist</span> <span class=\"r-nom\">es</span> günstig.", "es": "El hotel es céntrico; además, es barato." },
+        { "en": "Beeil dich, <b>sonst</b> <span class=\"r-verb\">verpassen</span> <span class=\"r-nom\">wir</span> den Zug!", "es": "¡Date prisa, si no perdemos el tren!" }
+      ],
+      "tables": [
+        {
+          "headers": ["Conector", "Significado", "Mecánica"],
+          "rows": [
+            ["deshalb / deswegen / darum", "por eso", "posición 1 → inversión"],
+            ["trotzdem", "a pesar de ello", "posición 1 → inversión"],
+            ["dann / danach", "entonces / después", "posición 1 → inversión"],
+            ["außerdem", "además", "posición 1 → inversión"],
+            ["sonst", "si no, de lo contrario", "posición 1 → inversión"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b14-s3q1",
+          "question": "1. Ich habe Hunger, deshalb <span class=\"blank\">___</span> etwas.",
+          "options": ["ich koche", "koche ich", "ich kochen"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q2",
+          "question": "2. «Estaba cansada; aun así siguió estudiando.» → Sie war müde, <span class=\"blank\">___</span> hat sie weitergelernt.",
+          "options": ["obwohl", "trotzdem", "deshalb"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q3",
+          "question": "3. ¿Qué diferencia a «trotzdem» de «obwohl»?",
+          "options": [
+            "Significan lo contrario",
+            "trotzdem invierte (posición 1); obwohl manda el verbo al final",
+            "Ninguna, son intercambiables"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b14-s3",
+        "label": "<b>tu turno:</b> encadena tu mañana con <i>zuerst … dann … danach</i> (¡con inversión tras cada conector!).",
+        "placeholder": "Ej: Zuerst trinke ich Kaffee, dann dusche ich, danach fahre ich zur Arbeit."
+      }
+    },
+    {
+      "idx": "14.4",
+      "title": "Correlativos: entweder…oder, je…desto",
+      "level": "B1",
+      "rule": "Parejas fijas: <b>entweder … oder</b> (o… o), <b>weder … noch</b> (ni… ni — ¡ya niega, sin nicht!), <b>zwar … aber</b> (es cierto que… pero), <b>sowohl … als auch</b> (tanto… como), <b>je + comparativo …, desto + comparativo</b> (cuanto más…, más…): <i><b>Je</b> mehr ich übe, <b>desto</b> besser spreche ich</i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Mecánica de <b>je … desto</b>: la parte con <i>je</i> es subordinada (verbo al final); la parte con <i>desto</i> lleva el comparativo en posición 1 y luego verbo + sujeto: <i>Je mehr ich <b>lerne</b>, desto besser <b>verstehe ich</b></i>."
+        }
+      ],
+      "examples": [
+        { "en": "<b>Entweder</b> gehen wir ins Kino <b>oder</b> wir bleiben zu Hause.", "es": "O vamos al cine o nos quedamos en casa." },
+        { "en": "Ich trinke <b>weder</b> Kaffee <b>noch</b> Tee.", "es": "No bebo ni café ni té." },
+        { "en": "<b>Zwar</b> ist Deutsch schwer, <b>aber</b> es macht Spaß.", "es": "Es verdad que el alemán es difícil, pero es divertido." },
+        { "en": "<b>Je</b> mehr ich übe, <b>desto</b> besser <span class=\"r-verb\">spreche</span> <span class=\"r-nom\">ich</span>.", "es": "Cuanto más practico, mejor hablo." }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b14-s4q1",
+          "question": "1. Ich esse <span class=\"blank\">___</span> Fleisch <span class=\"blank\">___</span> Fisch. (ni… ni)",
+          "options": ["weder … noch", "entweder … oder", "zwar … aber"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s4q2",
+          "question": "2. <span class=\"blank\">___</span> mehr du liest, <span class=\"blank\">___</span> mehr lernst du.",
+          "options": ["Je … desto", "Zwar … aber", "Sowohl … als auch"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s4q3",
+          "question": "3. «weder … noch» ¿necesita un «nicht» extra?",
+          "options": ["Sí, siempre", "No: ya es negativo por sí mismo", "Solo en pasado"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b14-s4",
+        "label": "<b>tu turno:</b> una regla de tu vida con <i>je … desto</i>.",
+        "placeholder": "Ej: Je früher ich aufstehe, desto produktiver bin ich."
+      }
+    }
+  ]
+}

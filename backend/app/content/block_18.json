@@ -1,0 +1,212 @@
+{
+  "block": "18",
+  "title": "Pronunciación y fonética",
+  "kicker": "Bloque 18 · A2–B2",
+  "intro": "El alemán se pronuncia de forma muy <b class=\"hl\">regular</b> — mucho más que el inglés. Domina estos cuatro frentes: los <b class=\"hl\">Umlaute</b> (ä/ö/ü) y la ß, los dos sonidos de <b class=\"hl\">ch</b>, el par <b class=\"hl\">ei/ie</b> con el ensordecimiento final, y el acento de palabra.",
+  "legend": [
+    { "label": "verbo", "desc": "conjugado", "role": "verb" }
+  ],
+  "sections": [
+    {
+      "idx": "18.1",
+      "title": "Umlaute (ä, ö, ü) y la ß",
+      "level": "A2",
+      "rule": "<b>ä</b> ≈ e abierta española (<i>Mädchen</i> ≈ «médchen»). <b>ö</b> = di «e» con los labios en forma de «o» (<i>schön</i>). <b>ü</b> = di «i» con los labios en forma de «u» (<i>über, müde</i>). La <b>ß</b> (eszett) es simplemente una <b>s sorda</b> tras vocal larga: <i>Straße, groß, heißen</i>.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "El Umlaut <b>cambia significados</b>: <i>schon</i> (ya) ≠ <i>schön</i> (bonito) · <i>Mutter</i> (madre) ≠ <i>Mütter</i> (madres) · <i>zahlen</i> (pagar) ≠ <i>zählen</i> (contar). No es decoración: es otra vocal."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Truco físico para ö y ü: <b>congela los labios</b> en «o»/«u» y, sin moverlos, intenta decir «e»/«i». Practica con el par mínimo <i>vier</i> (cuatro) → <i>für</i> (para)."
+        }
+      ],
+      "examples": [
+        { "en": "schon (ya) ≠ sch<b>ö</b>n (bonito)", "es": "Das Wetter ist schön. — El tiempo es bonito." },
+        { "en": "Mutter (madre) → M<b>ü</b>tter (madres)", "es": "El plural muchas veces se marca solo con el Umlaut." },
+        { "en": "zahlen (pagar) ≠ z<b>ä</b>hlen (contar)", "es": "Ich zahle mit Karte. / Ich zähle bis zehn." },
+            { "en": "die Stra<b>ße</b>, hei<b>ß</b>en, gro<b>ß</b>", "es": "ß = s sorda tras vocal larga" }
+      ],
+      "tables": [
+        {
+          "headers": ["Letra", "Cómo producirla", "Ejemplos"],
+          "rows": [
+            ["<b>ä</b>", "e abierta, como en «perro»", "Mädchen, spät, Käse"],
+            ["<b>ö</b>", "labios en «o», decir «e»", "schön, hören, möchte"],
+            ["<b>ü</b>", "labios en «u», decir «i»", "über, müde, fünf"],
+            ["<b>ß</b>", "s sorda (nunca vibrada)", "Straße, groß, weiß"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b18-s1q1",
+          "question": "1. Para pronunciar «ü», pones los labios como para… y dices…",
+          "options": ["«i» y dices «u»", "«u» y dices «i»", "«o» y dices «a»"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s1q2",
+          "question": "2. «schon» y «schön»…",
+          "options": ["suenan igual", "son palabras distintas: ya / bonito", "son variantes regionales"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s1q3",
+          "question": "3. La ß se pronuncia como…",
+          "options": ["una b suave", "una s sorda", "una z española"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b18-s1",
+        "label": "<b>tu turno:</b> escribe tres palabras con Umlaut que uses a menudo y su significado — dilas en voz alta al escribirlas.",
+        "placeholder": "Ej: müde (cansado), schön (bonito), hören (oír)"
+      }
+    },
+    {
+      "idx": "18.2",
+      "title": "El ich-Laut, el ach-Laut y la R",
+      "level": "B1",
+      "rule": "La <b>ch</b> tiene dos sonidos: el <b>ich-Laut</b> [ç] — suave, palatal, tras vocales claras (i, e, ä, ö, ü) y consonantes: <i>ich, nicht, München</i> — y el <b>ach-Laut</b> [x] — como la j española, tras vocales oscuras (a, o, u): <i>Bach, doch, Buch</i>. La <b>R</b> alemana es <b>gutural</b> (garganta, como gárgaras suaves) al inicio de sílaba, y se <b>vocaliza en «a»</b> al final: <i>Vater</i> ≈ «fáta».",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "El ich-Laut no existe en español: es el sonido de soplar como un gato enfadado, suave. Truco: di «shhh» y sube la lengua hacia el paladar sin tocar. Para hispanohablantes lo natural es hacer «j» en todo — resiste: <i>ich</i> con j fuerte suena muy marcado."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "La regla es puramente <b>fonética</b>: la vocal ANTERIOR decide. <i>Bu<b>ch</b></i> [x] (u oscura) pero <i>Bü<b>ch</b>er</i> [ç] (ü clara) — la misma palabra cambia de sonido al cambiar la vocal."
+        }
+      ],
+      "examples": [
+        { "en": "<b>ich-Laut</b> [ç]: ich, nicht, richtig, Milch, München", "es": "suave, tras i/e/ä/ö/ü y consonante" },
+        { "en": "<b>ach-Laut</b> [x]: machen, Buch, auch, Nacht", "es": "como j española, tras a/o/u/au" },
+        { "en": "Buch [x] → Bücher [ç]", "es": "la vocal anterior decide el sonido" },
+        { "en": "die T<b>ür</b> ≈ «tüa», der Vat<b>er</b> ≈ «fáta»", "es": "la R final se vocaliza en «a»" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b18-s2q1",
+          "question": "1. «ich» lleva…",
+          "options": ["ach-Laut (j fuerte)", "ich-Laut (suave, palatal)", "sonido k"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s2q2",
+          "question": "2. «Nacht» lleva…",
+          "options": ["ich-Laut", "ach-Laut", "sonido sh"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s2q3",
+          "question": "3. La R final de «Vater» suena…",
+          "options": ["vibrada como en español", "vocalizada, casi una «a»", "muda del todo"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b18-s2",
+        "label": "<b>tu turno:</b> clasifica estas en ich-Laut o ach-Laut: <i>echt, lachen, möchte, Woche, Licht</i>.",
+        "placeholder": "Ej: echt [ç], lachen [x], möchte [ç], Woche [x], Licht [ç]"
+      }
+    },
+    {
+      "idx": "18.3",
+      "title": "ei vs. ie y el ensordecimiento final",
+      "level": "A2",
+      "rule": "Regla infalible: <b>ei</b> se pronuncia <b>[ai]</b> (<i>mein</i> = «main») y <b>ie</b> se pronuncia <b>[iː]</b> larga (<i>Liebe</i> = «líibe»). Además, <b>b, d, g finales se ensordecen</b> en p, t, k: <i>Tag</i> ≈ «tak», <i>Hand</i> ≈ «hant», <i>lieb</i> ≈ «liip» — pero recuperan su sonido al declinar: <i>Tage</i> = «tague».",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Para ei/ie, mira la <b>segunda letra</b>: se pronuncia (aprox.) la segunda alargada... no exactamente, mejor: <b>ei = ai</b> (di el nombre de la letra «i» en español), <b>ie = i larga</b>. Par mínimo para practicar: <i>W<b>ei</b>n</i> (vino, «vain») vs. <i>W<b>ie</b>n</i> (Viena, «viin»)."
+        }
+      ],
+      "examples": [
+        { "en": "W<b>ei</b>n (vino) = [vain] ≠ W<b>ie</b>n (Viena) = [viin]", "es": "el par mínimo clásico" },
+        { "en": "m<b>ei</b>n, n<b>ei</b>n, dr<b>ei</b> = [ai]", "es": "mío, no, tres" },
+        { "en": "L<b>ie</b>be, v<b>ie</b>r, sp<b>ie</b>len = [iː]", "es": "amor, cuatro, jugar" },
+        { "en": "der Ta<b>g</b> [tak] → die Ta<b>g</b>e [tague]", "es": "ensordecimiento final que desaparece al declinar" },
+        { "en": "die Han<b>d</b> [hant] → die Hän<b>d</b>e [hénde]", "es": "d final → t" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b18-s3q1",
+          "question": "1. «Wien» (Viena) se pronuncia…",
+          "options": ["[vain]", "[viin]", "[ven]"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s3q2",
+          "question": "2. La g final de «Tag» suena…",
+          "options": ["como g suave", "como k", "muda"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s3q3",
+          "question": "3. «drei» se pronuncia…",
+          "options": ["[drai]", "[drii]", "[drei] tal cual"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b18-s3",
+        "label": "<b>tu turno:</b> escribe tres palabras con «ei» y tres con «ie» y anota su pronunciación aproximada.",
+        "placeholder": "Ej: mein [main], Zeit [tsait], klein [klain] / vier [fiia], Brief [briif], hier [hiia]"
+      }
+    },
+    {
+      "idx": "18.4",
+      "title": "El acento de palabra",
+      "level": "B2",
+      "rule": "Por defecto, el alemán acentúa la <b>primera sílaba de la raíz</b>: <i>ÁRbeiten, WÓHnung</i>. Claves: los prefijos <b>separables se acentúan</b> (<i>ÁUFstehen, ÉINkaufen</i>), los <b>inseparables nunca</b> (<i>beSÚchen, verSTÉhen</i>). Los préstamos en <b>-ion, -tät, -ieren</b> acentúan al final: <i>InformatiÓN, UniversiTÄT, studÍEren</i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Este es el truco de 11.4 en versión sonido: si oyes <i>ÚMfahren</i> (acento en um) = atropellar rodeando… vale, mejor ejemplo: <i>úbersetzen/übersétzen</i>. El acento te dice si el prefijo se separa. Cuando aprendas un verbo con prefijo, aprende TAMBIÉN dónde suena el golpe."
+        }
+      ],
+      "examples": [
+        { "en": "<b>ÁUF</b>stehen, <b>ÉIN</b>kaufen, <b>ÁN</b>rufen", "es": "separables: acento en el prefijo" },
+        { "en": "be<b>SÚ</b>chen, ver<b>STÉ</b>hen, er<b>KLÄ</b>ren", "es": "inseparables: acento en la raíz" },
+        { "en": "Informati<b>ÓN</b>, Universi<b>TÄT</b>", "es": "préstamos: acento al final" },
+        { "en": "stu<b>DÍE</b>ren, telefo<b>NÍE</b>ren", "es": "-ieren siempre acentuado" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b18-s4q1",
+          "question": "1. ¿Dónde cae el acento en «aufstehen»?",
+          "options": ["auf-STE-hen", "AUF-stehen", "auf-ste-HEN"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s4q2",
+          "question": "2. ¿Y en «verstehen»?",
+          "options": ["VER-stehen", "ver-STE-hen", "ver-ste-HEN"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s4q3",
+          "question": "3. «Universität» se acentúa…",
+          "options": ["U-ni-ver-si-TÄT", "u-ni-VER-si-tät", "U-ni-ver-SI-tät"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b18-s4",
+        "label": "<b>tu turno:</b> escribe dos verbos separables y dos inseparables marcando la sílaba acentuada en mayúsculas.",
+        "placeholder": "Ej: ÁNkommen, MÍTbringen / beKÓMMen, entDÉCKen"
+      }
+    }
+  ]
+}

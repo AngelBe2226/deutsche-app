@@ -1,0 +1,35 @@
+{
+  "block": "20",
+  "title": "Práctica, quizzes y seguimiento",
+  "kicker": "Bloque 20 · Panel de práctica",
+  "intro": "Tu panel de control: el <b class=\"hl\">progreso agregado</b> de todos los quizzes, las <b class=\"hl\">flashcards de Redewendungen</b> del bloque 16 y un <b class=\"hl\">simulador de speaking</b> con cronómetro de 60 segundos.",
+  "legend": [],
+  "sections": [
+    {
+      "idx": "20.1",
+      "title": "Tu progreso por bloque",
+      "level": "Práctica",
+      "rule": "Porcentaje de aciertos en cada bloque y en total. Las respuestas se guardan permanentemente; para repetir un epígrafe usa su botón «↺ Reiniciar» y para un bloque entero, «Reiniciar bloque» en su cabecera.",
+      "quiz": []
+    },
+    {
+      "idx": "20.2",
+      "title": "Flashcards: las 40 Redewendungen",
+      "level": "Práctica",
+      "rule": "Marca cada expresión como <b>«✓ Lo sé»</b> o <b>«↻ Repasar»</b>. Las de repasar se colocan primero la próxima vez. La teoría y el contexto de cada una están en el bloque 16.",
+      "quiz": []
+    },
+    {
+      "idx": "20.3",
+      "title": "Simulador de speaking (60 segundos)",
+      "level": "Práctica",
+      "rule": "Pulsa <b>«Nueva pregunta»</b>, lee el prompt en alemán, y dale a <b>«Empezar»</b>: tienes 60 segundos para responder en voz alta sin parar. Truco: no busques la palabra perfecta — parafrasea y sigue hablando, como en el examen real.",
+      "quiz": [],
+      "produce": {
+        "id": "b20-s3",
+        "label": "<b>después de hablar:</b> apunta aquí una frase que te haya salido mal o que no supiste decir — y su versión corregida.",
+        "placeholder": "Ej: Quería decir «me mudé» → dije *ich habe umgezogen* → correcto: ich bin umgezogen."
+      }
+    }
+  ]
+}

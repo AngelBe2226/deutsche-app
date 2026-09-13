@@ -1,0 +1,223 @@
+{
+  "block": "12",
+  "title": "Verbos modales",
+  "kicker": "Bloque 12 · A2",
+  "intro": "Seis verbos que tiñen de matiz todo lo que dices: <b class=\"hl\">können, müssen, dürfen, sollen, wollen, mögen</b>. Estructura fija: modal conjugado en 2ª posición + <b class=\"hl\">infinitivo al final</b>. Y una trampa mortal para quien viene del inglés: <i>nicht müssen</i> ≠ <i>must not</i>.",
+  "legend": [
+    { "label": "verbo modal", "desc": "conjugado, 2ª posición", "role": "verb" },
+    { "label": "infinitivo", "desc": "cierra la frase", "role": "sep" }
+  ],
+  "sections": [
+    {
+      "idx": "12.1",
+      "title": "La mecánica: modal + … + infinitivo",
+      "level": "A2",
+      "rule": "El modal se conjuga en posición 2 y el infinitivo cierra la frase (Satzklammer). En singular los modales son irregulares y <b>la 1ª y 3ª persona son iguales, sin -t</b>: <i>ich kann, er kann</i> (nunca ~~er kannt~~). En plural son regulares: <i>wir können, sie müssen</i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Si el contexto es obvio, el infinitivo puede omitirse: <i>Ich muss zur Arbeit</i> (se sobreentiende «gehen»), <i>Kannst du Deutsch?</i> (se sobreentiende «sprechen»)."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-verb\">Ich kann</span> gut <span class=\"r-sep\">kochen</span>.", "es": "Sé cocinar bien." },
+        { "en": "<span class=\"r-verb\">Er muss</span> heute lange <span class=\"r-sep\">arbeiten</span>.", "es": "Él tiene que trabajar hasta tarde hoy." },
+        { "en": "<span class=\"r-verb\">Wir wollen</span> im Sommer nach Italien <span class=\"r-sep\">fahren</span>.", "es": "Queremos ir a Italia en verano." },
+        { "en": "<span class=\"r-verb\">Kannst</span> du Deutsch?", "es": "¿Sabes alemán? (infinitivo omitido)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "können", "müssen", "dürfen", "sollen", "wollen", "mögen"],
+          "rows": [
+            ["ich", "kann", "muss", "darf", "soll", "will", "mag"],
+            ["du", "kannst", "musst", "darfst", "sollst", "willst", "magst"],
+            ["er/sie/es", "kann", "muss", "darf", "soll", "will", "mag"],
+            ["wir/sie/Sie", "können", "müssen", "dürfen", "sollen", "wollen", "mögen"],
+            ["ihr", "könnt", "müsst", "dürft", "sollt", "wollt", "mögt"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b12-s1q1",
+          "question": "1. Er <span class=\"blank\">___</span> sehr gut singen.",
+          "options": ["kannt", "kann", "können"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s1q2",
+          "question": "2. «Quiero aprender alemán.» →",
+          "options": ["Ich will lernen Deutsch.", "Ich will Deutsch lernen.", "Ich Deutsch lernen will."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s1q3",
+          "question": "3. ¿Cuál es la 3ª persona singular de «müssen»?",
+          "options": ["er musst", "er muss", "er müsst"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b12-s1",
+        "label": "<b>tu turno:</b> tres frases: algo que sabes hacer (<i>können</i>), algo que debes hacer (<i>müssen</i>) y algo que quieres hacer (<i>wollen</i>).",
+        "placeholder": "Ej: Ich kann Paella kochen. Ich muss morgen früh aufstehen. Ich will besser Deutsch sprechen."
+      }
+    },
+    {
+      "idx": "12.2",
+      "title": "können vs. dürfen: dos «poder» distintos",
+      "level": "A2",
+      "rule": "<b>können</b> = capacidad o posibilidad («sé», «puedo físicamente»); <b>dürfen</b> = <b>permiso</b> («me está permitido»). <i>Hier <b>kann</b> man parken</i> = hay sitio; <i>Hier <b>darf</b> man parken</i> = está permitido. En preguntas de cortesía, <i>Darf ich…?</i> es más formal que <i>Kann ich…?</i>",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "En un cartel de prohibición verás siempre <b>dürfen</b>: <i>Hier darf man nicht rauchen</i>. Si hablas de habilidades, siempre <b>können</b>: <i>Ich kann schwimmen</i>."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-verb\">Ich kann</span> drei Sprachen <span class=\"r-sep\">sprechen</span>.", "es": "Sé hablar tres idiomas. (capacidad)" },
+        { "en": "<span class=\"r-verb\">Darf</span> ich hier <span class=\"r-sep\">parken</span>?", "es": "¿Puedo aparcar aquí? (permiso)" },
+        { "en": "Kinder <span class=\"r-verb\">dürfen</span> hier nicht <span class=\"r-sep\">schwimmen</span>.", "es": "Los niños no pueden (no está permitido) nadar aquí." },
+        { "en": "<span class=\"r-verb\">Darf</span> ich Sie etwas <span class=\"r-sep\">fragen</span>?", "es": "¿Puedo preguntarle algo? (cortesía formal)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b12-s2q1",
+          "question": "1. «¿Se puede fumar aquí?» (permiso) → <span class=\"blank\">___</span> man hier rauchen?",
+          "options": ["Kann", "Darf", "Soll"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s2q2",
+          "question": "2. «Mi hija ya sabe leer.» → Meine Tochter <span class=\"blank\">___</span> schon lesen.",
+          "options": ["darf", "kann", "soll"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s2q3",
+          "question": "3. En el hospital: «Aquí no se puede usar el móvil.» → Hier <span class=\"blank\">___</span> man kein Handy benutzen.",
+          "options": ["kann", "will", "darf"],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b12-s2",
+        "label": "<b>tu turno:</b> una habilidad con <i>können</i> y una norma (permiso o prohibición) con <i>dürfen</i>.",
+        "placeholder": "Ej: Ich kann gut Ski fahren. In meinem Büro darf man nicht laut telefonieren."
+      }
+    },
+    {
+      "idx": "12.3",
+      "title": "müssen vs. sollen · wollen vs. möchten vs. mögen",
+      "level": "A2",
+      "rule": "<b>müssen</b> = obligación propia o necesidad; <b>sollen</b> = encargo o consejo <b>de otra persona</b> (<i>Der Arzt sagt, ich <b>soll</b> mehr schlafen</i>). <b>wollen</b> = querer firme; <b>möchten</b> = querría, más cortés (es el Konjunktiv de mögen convertido en modal); <b>mögen</b> = gustar, casi siempre con sustantivo: <i>Ich <b>mag</b> Kaffee</i>.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "En una tienda o restaurante, pide siempre con <b>möchten</b> (o <i>hätte gern</i>): <i>Ich <b>möchte</b> einen Kaffee, bitte</i>. <i>Ich <b>will</b> einen Kaffee</i> suena exigente, casi infantil."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>sollen</b> es «me han dicho que…»: lleva dentro la voz de otra persona (médico, jefe, madre). <i>Ich <b>soll</b> weniger Zucker essen</i> = (el médico dice que) debo comer menos azúcar."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-verb\">Ich muss</span> heute noch <span class=\"r-sep\">einkaufen</span>.", "es": "Todavía tengo que hacer la compra hoy." },
+        { "en": "Der Chef sagt, ich <span class=\"r-verb\">soll</span> ihn <span class=\"r-sep\">anrufen</span>.", "es": "El jefe dice que lo llame. (encargo de otro)" },
+        { "en": "<span class=\"r-verb\">Ich möchte</span> einen Tisch für zwei <span class=\"r-sep\">reservieren</span>.", "es": "Querría reservar una mesa para dos. (cortés)" },
+        { "en": "<span class=\"r-verb\">Ich mag</span> deutsche Musik.", "es": "Me gusta la música alemana. (mögen + sustantivo)" },
+        { "en": "<span class=\"r-verb\">Sie will</span> unbedingt in Berlin <span class=\"r-sep\">leben</span>.", "es": "Ella quiere vivir en Berlín sí o sí. (voluntad firme)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b12-s3q1",
+          "question": "1. En la cafetería, lo educado: «<span class=\"blank\">___</span> einen Tee, bitte.»",
+          "options": ["Ich will", "Ich möchte", "Ich soll"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s3q2",
+          "question": "2. El médico te lo ha mandado: Ich <span class=\"blank\">___</span> mehr Sport machen.",
+          "options": ["soll", "mag", "darf"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s3q3",
+          "question": "3. «Me gusta el chocolate.» →",
+          "options": ["Ich möchte Schokolade.", "Ich mag Schokolade.", "Ich will Schokolade."],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b12-s3",
+        "label": "<b>tu turno:</b> pide algo cortésmente con <i>möchten</i> y cuenta un consejo que te han dado con <i>sollen</i>.",
+        "placeholder": "Ej: Ich möchte ein Wasser, bitte. Meine Lehrerin sagt, ich soll jeden Tag zehn Minuten lesen."
+      }
+    },
+    {
+      "idx": "12.4",
+      "title": "La trampa: nicht müssen ≠ nicht dürfen",
+      "level": "B1",
+      "rule": "<b>nicht müssen</b> = <b>no hace falta</b> (ausencia de obligación): <i>Du <b>musst nicht</b> kommen</i> = no hace falta que vengas. <b>nicht dürfen</b> = <b>prohibido</b>: <i>Du <b>darfst nicht</b> kommen</i> = no puedes venir. Si vienes del inglés, ojo: «must not» (prohibido) se dice <b>nicht dürfen</b>, no ~~nicht müssen~~.",
+      "notes": [
+        {
+          "type": "exception",
+          "at": "start",
+          "text": "Este es de los errores más peligrosos porque <b>cambia el significado en algo serio</b>: <i>Sie müssen das Medikament nicht nehmen</i> (no hace falta) vs. <i>Sie dürfen das Medikament nicht nehmen</i> (¡prohibido!). Grábatelo con este par."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Alternativa suave a «no hace falta»: <b>brauchen + nicht/kein + zu</b>: <i>Du <b>brauchst nicht zu</b> kommen</i>. Funciona como modal negado."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-verb\">Du musst</span> morgen nicht <span class=\"r-sep\">arbeiten</span>.", "es": "Mañana no hace falta que trabajes." },
+        { "en": "<span class=\"r-verb\">Du darfst</span> hier nicht <span class=\"r-sep\">rauchen</span>.", "es": "Aquí no puedes fumar (prohibido)." },
+        { "en": "<span class=\"r-verb\">Ihr müsst</span> das nicht <span class=\"r-sep\">bezahlen</span> — es ist gratis.", "es": "No tenéis que pagarlo — es gratis." },
+        { "en": "Man <span class=\"r-verb\">darf</span> bei Rot nicht über die Straße <span class=\"r-sep\">gehen</span>.", "es": "No se puede cruzar con el semáforo en rojo." }
+      ],
+      "tables": [
+        {
+          "headers": ["Alemán", "Significado", "Equivale a"],
+          "rows": [
+            ["<b>musst nicht</b>", "no hace falta", "don't have to"],
+            ["<b>darfst nicht</b>", "prohibido", "must not"],
+            ["<b>brauchst nicht zu</b>", "no hace falta (alternativa)", "don't need to"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b12-s4q1",
+          "question": "1. Cartel en el museo: «Prohibido hacer fotos.» → Man <span class=\"blank\">___</span> hier nicht fotografieren.",
+          "options": ["muss", "darf", "soll"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s4q2",
+          "question": "2. «Es gratis, no tienes que pagar.» → Du <span class=\"blank\">___</span> nicht bezahlen.",
+          "options": ["darfst", "musst", "willst"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s4q3",
+          "question": "3. «Sie dürfen das nicht essen» significa…",
+          "options": ["No hace falta que lo coma", "Tiene prohibido comerlo", "No le apetece comerlo"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b12-s4",
+        "label": "<b>tu turno:</b> el par completo: algo que no hace falta hacer (<i>nicht müssen</i>) y algo prohibido (<i>nicht dürfen</i>).",
+        "placeholder": "Ej: Am Sonntag muss ich nicht arbeiten. Im Zug darf man nicht laut Musik hören."
+      }
+    }
+  ]
+}

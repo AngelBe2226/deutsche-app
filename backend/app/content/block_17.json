@@ -1,0 +1,184 @@
+{
+  "block": "17",
+  "title": "Vocabulario, colocaciones y falsos amigos",
+  "kicker": "Bloque 17 · B1–B2",
+  "intro": "El alemán está lleno de trampas para quien sabe inglés o español: <b class=\"hl\">Gift es veneno</b>, <b class=\"hl\">bekommen es recibir</b> y <b class=\"hl\">also no es «también»</b>. Además: las colocaciones fijas (qué verbo va con qué sustantivo) y la fábrica de palabras compuestas.",
+  "legend": [
+    { "label": "verbo", "desc": "conjugado", "role": "verb" },
+    { "label": "objeto directo", "desc": "Akkusativ", "role": "akk" }
+  ],
+  "sections": [
+    {
+      "idx": "17.1",
+      "title": "Falsos amigos: los clásicos que duelen",
+      "level": "B1",
+      "rule": "Palabras que se parecen al inglés o al español pero significan otra cosa. Los cuatro imprescindibles: <b>das Gift</b> = veneno (no regalo), <b>bekommen</b> = recibir (no convertirse), <b>also</b> = por lo tanto / o sea (no «también» — también es <i>auch</i>), <b>aktuell</b> = actual, de actualidad (no «efectivo»).",
+      "notes": [
+        {
+          "type": "exception",
+          "at": "start",
+          "text": "El más peligroso en un restaurante: <i>Ich <b>bekomme</b> das Schnitzel</i> = me traen el escalope, es normal y correcto. Pero <i>Ich bin Gift</i>… no digas eso. Y si un alemán te ofrece <i>ein Gift</i>, ¡huye! 😄"
+        }
+      ],
+      "examples": [
+        { "en": "Vorsicht, das <span class=\"r-verb\">ist</span> <span class=\"r-akk\">Gift</span>!", "es": "¡Cuidado, eso es veneno! (regalo = das Geschenk)" },
+        { "en": "Ich <span class=\"r-verb\">habe</span> <span class=\"r-akk\">deine E-Mail</span> bekommen.", "es": "He recibido tu correo. (convertirse = werden)" },
+        { "en": "Es regnet, <b>also</b> <span class=\"r-verb\">bleiben</span> wir hier.", "es": "Llueve, por lo tanto nos quedamos. (también = auch)" },
+        { "en": "Die <b>aktuellen</b> Nachrichten", "es": "las noticias de actualidad (eventualmente = möglicherweise; eventuell = quizá)" },
+        { "en": "Er <span class=\"r-verb\">will</span> <span class=\"r-akk\">eine Karte</span> für das Konzert.", "es": "Quiere una entrada para el concierto. (die Karte ≠ carta: carta = der Brief)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Alemán", "Significa", "NO significa", "Eso se dice"],
+          "rows": [
+            ["das <b>Gift</b>", "veneno", "regalo", "das Geschenk"],
+            ["<b>bekommen</b>", "recibir", "convertirse (become)", "werden"],
+            ["<b>also</b>", "por lo tanto, o sea", "también", "auch"],
+            ["<b>aktuell</b>", "de actualidad", "actual(mente) = ahora mismo", "zurzeit, gerade"],
+            ["<b>eventuell</b>", "quizá, tal vez", "eventualmente/finalmente", "schließlich"],
+            ["der <b>Rat</b>", "consejo", "rata", "die Ratte"],
+            ["<b>brav</b>", "obediente, bueno (niño)", "valiente (brave)", "mutig"],
+            ["die <b>Mappe</b>", "carpeta", "mapa", "die Landkarte"],
+            ["<b>spenden</b>", "donar", "gastar (spend)", "ausgeben"],
+            ["das <b>Regal</b>", "estantería", "regalo", "das Geschenk"],
+            ["die <b>Firma</b>", "empresa", "firma (rúbrica)", "die Unterschrift"],
+            ["<b>seriös</b>", "serio = de fiar", "serio (carácter)", "ernst"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b17-s1q1",
+          "question": "1. «Le he traído un regalo.» → Ich habe ihm <span class=\"blank\">___</span> mitgebracht.",
+          "options": ["ein Gift", "ein Geschenk", "ein Regal"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s1q2",
+          "question": "2. «Ella quiere ser médica.» → Sie will Ärztin <span class=\"blank\">___</span>.",
+          "options": ["bekommen", "werden", "spenden"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s1q3",
+          "question": "3. «Yo también.» →",
+          "options": ["Ich also.", "Ich auch.", "Auch ich also."],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b17-s1",
+        "label": "<b>tu turno:</b> escribe una frase correcta con <i>bekommen</i> (recibir) y otra con <i>werden</i> (convertirse).",
+        "placeholder": "Ej: Ich habe heute ein Paket bekommen. Mein Sohn will Pilot werden."
+      }
+    },
+    {
+      "idx": "17.2",
+      "title": "Colocaciones: qué verbo va con qué sustantivo",
+      "level": "B2",
+      "rule": "En alemán no «tomas» una decisión: la <b>encuentras</b> (<i>eine Entscheidung <b>treffen</b></i>). Las colocaciones son parejas fijas verbo+sustantivo que hay que aprender en bloque: <b>eine Frage stellen</b> (hacer una pregunta), <b>Sport treiben/machen</b>, <b>einen Termin vereinbaren</b> (concertar una cita).",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "El error delator: ~~eine Frage machen~~ o ~~eine Entscheidung machen~~. <b>machen</b> no es el comodín que «hacer» es en español. Cuando aprendas un sustantivo de acción, apunta <b>su</b> verbo."
+        }
+      ],
+      "examples": [
+        { "en": "Darf ich <span class=\"r-akk\">eine Frage</span> <span class=\"r-verb\">stellen</span>?", "es": "¿Puedo hacer una pregunta? (stellen, no machen)" },
+        { "en": "Wir <span class=\"r-verb\">müssen</span> <span class=\"r-akk\">eine Entscheidung</span> <span class=\"r-verb\">treffen</span>.", "es": "Tenemos que tomar una decisión." },
+        { "en": "Ich <span class=\"r-verb\">möchte</span> <span class=\"r-akk\">einen Termin</span> <span class=\"r-verb\">vereinbaren</span>.", "es": "Querría concertar una cita." },
+        { "en": "Er <span class=\"r-verb\">hält</span> morgen <span class=\"r-akk\">einen Vortrag</span>.", "es": "Él da una charla mañana. (halten, no geben)" },
+        { "en": "Kannst du mir <span class=\"r-akk\">einen Gefallen</span> <span class=\"r-verb\">tun</span>?", "es": "¿Puedes hacerme un favor? (tun)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Colocación", "Significado", "Ojo"],
+          "rows": [
+            ["eine Frage <b>stellen</b>", "hacer una pregunta", "no «machen»"],
+            ["eine Entscheidung <b>treffen</b>", "tomar una decisión", "no «machen/nehmen»"],
+            ["einen Termin <b>vereinbaren</b>", "concertar una cita", ""],
+            ["einen Vortrag <b>halten</b>", "dar una charla", "no «geben»"],
+            ["einen Gefallen <b>tun</b>", "hacer un favor", "tun, no machen"],
+            ["Sport <b>treiben / machen</b>", "hacer deporte", "ambas valen"],
+            ["Ordnung <b>schaffen</b>", "poner orden", ""],
+            ["Abschied <b>nehmen</b>", "despedirse", ""],
+            ["Rücksicht <b>nehmen</b> auf", "tener consideración con", ""],
+            ["zur Verfügung <b>stehen</b>", "estar a disposición", ""]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b17-s2q1",
+          "question": "1. «¿Puedo hacer una pregunta?» → Darf ich eine Frage <span class=\"blank\">___</span>?",
+          "options": ["machen", "stellen", "geben"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s2q2",
+          "question": "2. «Tomamos la decisión ayer.» → Wir haben die Entscheidung gestern <span class=\"blank\">___</span>.",
+          "options": ["gemacht", "genommen", "getroffen"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b17-s2q3",
+          "question": "3. «dar una charla» →",
+          "options": ["einen Vortrag geben", "einen Vortrag halten", "einen Vortrag sagen"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b17-s2",
+        "label": "<b>tu turno:</b> escribe dos frases con colocaciones de la tabla (contexto trabajo o médico).",
+        "placeholder": "Ej: Ich möchte einen Termin beim Zahnarzt vereinbaren. Mein Chef hält am Montag einen Vortrag."
+      }
+    },
+    {
+      "idx": "17.3",
+      "title": "La fábrica de palabras: los compuestos",
+      "level": "B1",
+      "rule": "El alemán encadena sustantivos sin límite: <i>Hand + Schuh = <b>Handschuh</b></i> (guante, «zapato de mano»). Dos reglas de oro: la <b>última palabra manda</b> — da el género y el significado base (<i>der Kühlschrank</i>: un armario, no un frío) — y las anteriores solo lo describen. A veces se añade una <b>-s-</b> o <b>-n-</b> de unión: <i>Arbeit<b>s</b>zimmer</i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Ante un palabro tipo <i>Krankenversicherungskarte</i>, léelo <b>de atrás hacia delante</b>: Karte (tarjeta) ← Versicherung (seguro) ← Kranken (enfermos) = tarjeta del seguro médico. El género es el de la última: <b>die</b> Karte → die Krankenversicherungskarte."
+        }
+      ],
+      "examples": [
+        { "en": "der Hand<b>schuh</b>", "es": "el guante (mano + zapato → género de Schuh: der)" },
+        { "en": "der Kühl<b>schrank</b>", "es": "el frigorífico (frío + armario)" },
+        { "en": "das Wörter<b>buch</b>", "es": "el diccionario (palabras + libro)" },
+        { "en": "die Arbeits<b>woche</b>", "es": "la semana laboral (con -s- de unión)" },
+        { "en": "die Weltmeister<b>schaft</b>", "es": "el campeonato del mundo" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b17-s3q1",
+          "question": "1. ¿Qué género tiene «Handschuh» (Hand fem. + Schuh masc.)?",
+          "options": ["die (por Hand)", "der (por Schuh)", "das (neutro por defecto)"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q2",
+          "question": "2. «Hausschlüssel» significa…",
+          "options": ["casa de llaves", "llave de casa", "cerradura"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q3",
+          "question": "3. Para descifrar un compuesto largo, se lee…",
+          "options": ["de delante hacia atrás", "de atrás hacia delante", "por sílabas"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b17-s3",
+        "label": "<b>tu turno:</b> desmonta dos compuestos que conozcas (o inventa uno plausible) indicando su género.",
+        "placeholder": "Ej: das Schlafzimmer = schlafen + das Zimmer. Der Orangensaft = Orangen + der Saft."
+      }
+    }
+  ]
+}

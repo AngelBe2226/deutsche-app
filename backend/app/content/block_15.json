@@ -1,0 +1,243 @@
+{
+  "block": "15",
+  "title": "Verbos: conjugación completa",
+  "kicker": "Bloque 15 · A1–B1",
+  "intro": "El sistema verbal alemán en cuatro piezas: los <b class=\"hl\">débiles</b> (regulares), los <b class=\"hl\">fuertes</b> (cambian la vocal — apréndete sus <b class=\"hl\">3 formas principales</b>), los <b class=\"hl\">mixtos</b>, y el imperativo. La tabla completa de verbos fuertes está en el Glosario.",
+  "legend": [
+    { "label": "verbo", "desc": "conjugado", "role": "verb" },
+    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+  ],
+  "sections": [
+    {
+      "idx": "15.1",
+      "title": "Schwache Verben: los regulares",
+      "level": "A1",
+      "rule": "Raíz + terminaciones fijas: <b>-e, -st, -t, -en, -t, -en</b>. <i>machen → ich mach<b>e</b>, du mach<b>st</b>, er mach<b>t</b>, wir mach<b>en</b>, ihr mach<b>t</b>, sie mach<b>en</b></i>. Präteritum con <b>-te</b> (<i>machte</i>), Partizip II con <b>ge-…-t</b> (<i>gemacht</i>).",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Raíces en <b>-t/-d</b> (arbeiten, reden) insertan una <b>-e-</b> de apoyo: <i>du arbeit<b>e</b>st, er arbeit<b>e</b>t, ihr arbeit<b>e</b>t</i>. Raíces en -s/-ß/-z (heißen, tanzen) hacen du con solo <b>-t</b>: <i>du heißt, du tanzt</i>."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">mache</span> meine Hausaufgaben.", "es": "Hago mis deberes." },
+        { "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">lernst</span> schnell.", "es": "Aprendes rápido." },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> bei Siemens.", "es": "Él trabaja en Siemens. (-e- de apoyo)" },
+        { "en": "Gestern <span class=\"r-verb\">kauften</span> <span class=\"r-nom\">wir</span> Brot. / Wir <span class=\"r-verb\">haben</span> Brot gekauft.", "es": "Ayer compramos pan. (Präteritum / Perfekt)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "machen (Präsens)", "Präteritum", "Partizip II"],
+          "rows": [
+            ["ich", "mach<b>e</b>", "mach<b>te</b>", "<b>ge</b>mach<b>t</b>"],
+            ["du", "mach<b>st</b>", "mach<b>test</b>", ""],
+            ["er/sie/es", "mach<b>t</b>", "mach<b>te</b>", ""],
+            ["wir/sie/Sie", "mach<b>en</b>", "mach<b>ten</b>", ""],
+            ["ihr", "mach<b>t</b>", "mach<b>tet</b>", ""]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b15-s1q1",
+          "question": "1. du (arbeiten) → du <span class=\"blank\">___</span>",
+          "options": ["arbeitst", "arbeitest", "arbeitet"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s1q2",
+          "question": "2. Partizip II de «kaufen»:",
+          "options": ["gekauft", "gekaufen", "kauft"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s1q3",
+          "question": "3. du (heißen) → du <span class=\"blank\">___</span>",
+          "options": ["heißst", "heißt", "heißest"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b15-s1",
+        "label": "<b>tu turno:</b> conjuga tu rutina: tres frases con verbos débiles en personas distintas.",
+        "placeholder": "Ej: Ich koche abends. Meine Frau arbeitet zu Hause. Wir spielen mit den Kindern."
+      }
+    },
+    {
+      "idx": "15.2",
+      "title": "Starke Verben: cambio de vocal y las 3 formas",
+      "level": "A2",
+      "rule": "Los fuertes cambian la vocal. En presente, solo en <b>du</b> y <b>er/sie/es</b>: <b>e→i</b> (sprechen → du sprichst), <b>e→ie</b> (sehen → du siehst), <b>a→ä</b> (fahren → du fährst). Y cada fuerte tiene sus <b>3 formas principales</b> (Stammformen) que hay que memorizar: <i>Infinitiv – Präteritum – Partizip II</i>: <b>sprechen – sprach – gesprochen</b>.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Apréndelos <b>por series de vocales</b> (Ablautreihen), no de uno en uno: <i>ei–ie–ie</i> (bleiben–blieb–geblieben, schreiben–schrieb–geschrieben) · <i>i–a–u</i> (finden–fand–gefunden, trinken–trank–getrunken) · <i>e–a–o</i> (sprechen–sprach–gesprochen, helfen–half–geholfen). El cerebro agradece el patrón."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "La tabla completa (65+ verbos con auxiliar y significado) está en el <b>Glosario, sección 19.5</b> — úsala como referencia y para repasar por series."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">sprichst</span> sehr gut Deutsch!", "es": "¡Hablas muy bien alemán! (e→i)" },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">fährt</span> jeden Tag mit dem Rad.", "es": "Él va cada día en bici. (a→ä)" },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">liest</span> gern Krimis.", "es": "A ella le gusta leer novela negra. (e→ie)" },
+        { "en": "Ich <span class=\"r-verb\">trank</span> Wasser. / Ich <span class=\"r-verb\">habe</span> Wasser getrunken.", "es": "Bebí agua. (trinken–trank–getrunken)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Serie", "Infinitiv", "Präteritum", "Partizip II"],
+          "rows": [
+            ["ei – ie – ie", "bleiben", "blieb", "geblieben"],
+            ["i – a – u", "trinken", "trank", "getrunken"],
+            ["e – a – o", "sprechen", "sprach", "gesprochen"],
+            ["a – u – a", "fahren", "fuhr", "gefahren"],
+            ["e – a – e", "essen", "aß", "gegessen"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b15-s2q1",
+          "question": "1. er (sehen) → er <span class=\"blank\">___</span>",
+          "options": ["seht", "sieht", "sehet"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s2q2",
+          "question": "2. Las 3 formas de «finden»:",
+          "options": ["finden – fand – gefunden", "finden – fund – gefanden", "finden – fandte – gefindet"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s2q3",
+          "question": "3. du (fahren) → du <span class=\"blank\">___</span>",
+          "options": ["fahrst", "fährst", "fährt"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b15-s2",
+        "label": "<b>tu turno:</b> elige un verbo fuerte y úsalo en presente (con du o er), en Präteritum y en Perfekt.",
+        "placeholder": "Ej: Er spricht laut. Gestern sprach er mit dem Chef. Wir haben lange gesprochen."
+      }
+    },
+    {
+      "idx": "15.3",
+      "title": "Mixtos e irregulares de verdad: sein, haben, werden, wissen",
+      "level": "A2",
+      "rule": "Los <b>gemischte Verben</b> combinan cambio de vocal con terminaciones débiles: <b>denken – dachte – gedacht</b>, <b>bringen – brachte – gebracht</b>, <b>wissen – wusste – gewusst</b>, <b>kennen – kannte – gekannt</b>. Y los tres pilares totalmente irregulares que hay que dominar en todas sus formas: <b>sein</b> (bin, bist, ist, sind, seid), <b>haben</b> (habe, hast, hat) y <b>werden</b> (werde, wirst, wird).",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>wissen vs. kennen</b>: ambos son «saber/conocer». <b>wissen</b> = saber un dato o hecho (<i>Ich weiß, dass…</i>); <b>kennen</b> = conocer a alguien o algo por experiencia (<i>Ich kenne Berlin</i>). Además <i>wissen</i> se conjuga raro: <i>ich weiß, du weißt, er weiß</i> — como un modal."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">weiß</span> die Antwort nicht.", "es": "No sé la respuesta." },
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">kenne</span> diesen Mann.", "es": "Conozco a este hombre." },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> an dich <span class=\"r-verb\">gedacht</span>.", "es": "Él pensó en ti. (denken–dachte–gedacht)" },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">brachte</span> mir einen Kaffee.", "es": "Ella me trajo un café. (bringen–brachte–gebracht)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "sein", "haben", "werden", "wissen"],
+          "rows": [
+            ["ich", "bin", "habe", "werde", "weiß"],
+            ["du", "bist", "hast", "wirst", "weißt"],
+            ["er/sie/es", "ist", "hat", "wird", "weiß"],
+            ["wir/sie/Sie", "sind", "haben", "werden", "wissen"],
+            ["ihr", "seid", "habt", "werdet", "wisst"],
+            ["Präteritum", "war", "hatte", "wurde", "wusste"],
+            ["Partizip II", "gewesen", "gehabt", "geworden", "gewusst"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b15-s3q1",
+          "question": "1. «¿Conoces este restaurante?» → <span class=\"blank\">___</span> du dieses Restaurant?",
+          "options": ["Weißt", "Kennst", "Kannst"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s3q2",
+          "question": "2. Präteritum de «bringen»:",
+          "options": ["brang", "brachte", "bringte"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s3q3",
+          "question": "3. ihr (sein) → ihr <span class=\"blank\">___</span>",
+          "options": ["sind", "seid", "seit"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b15-s3",
+        "label": "<b>tu turno:</b> una frase con <i>wissen</i> (un dato) y otra con <i>kennen</i> (una persona o lugar).",
+        "placeholder": "Ej: Ich weiß nicht, wann der Kurs beginnt. Ich kenne einen guten Deutschlehrer."
+      }
+    },
+    {
+      "idx": "15.4",
+      "title": "El imperativo",
+      "level": "A2",
+      "rule": "Tres formas según a quién ordenas: <b>du</b> → raíz sin -st y sin pronombre (<i>Komm! Sprich!</i> — los e→i mantienen el cambio, los a→ä lo pierden: <i>Fahr!</i>); <b>ihr</b> → forma normal sin pronombre (<i>Kommt!</i>); <b>Sie</b> → verbo + Sie con inversión (<i>Kommen Sie bitte!</i>). El de <i>sein</i> es irregular: <i>Sei ruhig! Seid ruhig! Seien Sie ruhig!</i>",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Suaviza siempre con <b>bitte</b>, <b>mal</b> o <b>doch</b>: <i>Komm <b>mal</b> her</i>, <i>Setzen Sie sich, <b>bitte</b></i>. El imperativo alemán pelado puede sonar más duro de lo que pretende."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-verb\">Komm</span> bitte her!", "es": "¡Ven aquí, por favor! (du)" },
+        { "en": "<span class=\"r-verb\">Sprich</span> langsamer!", "es": "¡Habla más despacio! (du, e→i se mantiene)" },
+        { "en": "<span class=\"r-verb\">Macht</span> die Bücher auf!", "es": "¡Abrid los libros! (ihr)" },
+        { "en": "<span class=\"r-verb\">Nehmen</span> Sie bitte Platz!", "es": "Tome asiento, por favor. (Sie)" },
+        { "en": "<span class=\"r-verb\">Sei</span> nicht so streng!", "es": "¡No seas tan estricto! (sein irregular)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Verbo", "du", "ihr", "Sie"],
+          "rows": [
+            ["kommen", "Komm!", "Kommt!", "Kommen Sie!"],
+            ["sprechen", "Sprich!", "Sprecht!", "Sprechen Sie!"],
+            ["fahren", "Fahr!", "Fahrt!", "Fahren Sie!"],
+            ["sein", "Sei!", "Seid!", "Seien Sie!"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b15-s4q1",
+          "question": "1. Imperativo de «lesen» para du:",
+          "options": ["Les!", "Lies!", "Liest!"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s4q2",
+          "question": "2. A un cliente (formal): «Espere un momento, por favor.» →",
+          "options": ["Warte mal!", "Wartet bitte!", "Warten Sie bitte einen Moment!"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s4q3",
+          "question": "3. Imperativo du de «fahren»:",
+          "options": ["Fähr!", "Fahr!", "Fahrst!"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b15-s4",
+        "label": "<b>tu turno:</b> da la misma instrucción en las tres formas: du, ihr y Sie.",
+        "placeholder": "Ej: Mach das Fenster zu! Macht das Fenster zu! Machen Sie bitte das Fenster zu!"
+      }
+    }
+  ]
+}

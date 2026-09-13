@@ -1,0 +1,181 @@
+{
+  "block": "07",
+  "title": "Adverbios y su orden: TeKaMoLo",
+  "kicker": "Bloque 07 · B1",
+  "intro": "Cuando una frase alemana acumula complementos, no van en cualquier orden: la regla <b class=\"hl\">TeKaMoLo</b> los ordena — <b class=\"hl\">Te</b>mporal (cuándo), <b class=\"hl\">Ka</b>usal (por qué), <b class=\"hl\">Mo</b>dal (cómo), <b class=\"hl\">Lo</b>kal (dónde). Y la negación <b class=\"hl\">nicht</b> tiene su propio sitio.",
+  "legend": [
+    { "label": "verbo", "desc": "conjugado, 2ª posición", "role": "verb" },
+    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+  ],
+  "sections": [
+    {
+      "idx": "7.1",
+      "title": "La regla TeKaMoLo",
+      "level": "B1",
+      "rule": "Orden neutro de los complementos en el «medio» de la frase: <b>Te</b>mporal (gestern, um 8 Uhr) → <b>Ka</b>usal (wegen des Regens) → <b>Mo</b>dal (mit dem Auto, schnell) → <b>Lo</b>kal (nach Berlin, im Park). Es lo contrario del español, que suele acabar con el tiempo: «voy a Berlín mañana» = <i>Ich fahre <b>morgen nach Berlin</b></i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Para memorizarlo: <b>«Te-Ka-Mo-Lo»</b> — cuándo, por qué, cómo, dónde. El destino (Lokal) casi siempre cierra la frase: eso ya te resuelve la mayoría de los casos."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "TeKaMoLo es el orden <b>neutro</b>. Puedes romperlo llevando un elemento a la <b>posición 1</b> para enfatizarlo (con la inversión del bloque 08): <i><b>Nach Berlin</b> fahre ich morgen</i> = a Berlín es adonde voy mañana."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">fahre</span> <b>morgen</b> <b>mit dem Zug</b> <b>nach Berlin</b>.", "es": "Mañana voy en tren a Berlín. (Te → Mo → Lo)" },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">bleibt</span> <b>heute</b> <b>wegen der Grippe</b> <b>zu Hause</b>.", "es": "Hoy se queda en casa por la gripe. (Te → Ka → Lo)" },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">essen</span> <b>am Freitag</b> <b>gemütlich</b> <b>im Restaurant</b>.", "es": "El viernes comemos tranquilamente en el restaurante. (Te → Mo → Lo)" },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">geht</span> <b>jeden Tag</b> <b>zu Fuß</b> <b>zur Arbeit</b>.", "es": "Ella va cada día a pie al trabajo." }
+      ],
+      "tables": [
+        {
+          "headers": ["Te (cuándo)", "Ka (por qué)", "Mo (cómo)", "Lo (dónde)"],
+          "rows": [
+            ["morgen, um 8 Uhr, letzte Woche", "wegen der Arbeit, aus Angst", "mit dem Auto, schnell, gern", "nach Hause, im Park, dort"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b07-s1q1",
+          "question": "1. ¿Cuál sigue TeKaMoLo?",
+          "options": [
+            "Ich fahre nach Berlin morgen mit dem Auto.",
+            "Ich fahre morgen mit dem Auto nach Berlin.",
+            "Ich fahre mit dem Auto nach Berlin morgen."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s1q2",
+          "question": "2. «Hoy me quedo en casa por la lluvia.» ¿Orden correcto tras el verbo?",
+          "options": ["zu Hause wegen des Regens heute", "heute wegen des Regens zu Hause", "wegen des Regens heute zu Hause"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s1q3",
+          "question": "3. En TeKaMoLo, «mit dem Fahrrad» es un complemento…",
+          "options": ["temporal", "modal", "local"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b07-s1",
+        "label": "<b>tu turno:</b> escribe una frase con al menos tres complementos en orden TeKaMoLo.",
+        "placeholder": "Ej: Ich fliege im August mit meiner Familie nach Griechenland."
+      }
+    },
+    {
+      "idx": "7.2",
+      "title": "Adverbios de frecuencia y tiempo",
+      "level": "A2",
+      "rule": "Los de frecuencia — <b>immer</b> (siempre), <b>oft</b> (a menudo), <b>manchmal</b> (a veces), <b>selten</b> (rara vez), <b>nie</b> (nunca) — van normalmente <b>justo después del verbo conjugado</b> (o del sujeto si hay inversión). Los de tiempo — <i>heute, morgen, gestern, jetzt, bald, schon, noch</i> — pueden abrir la frase en posición 1, provocando inversión.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>nie</b> niega por sí solo, sin <i>nicht</i>: <i>Ich trinke <b>nie</b> Alkohol</i> = nunca bebo alcohol. Doblar la negación (~~nie nicht~~) es un españolismo."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "El par <b>schon / noch nicht</b> (ya / todavía no) y <b>noch / nicht mehr</b> (todavía / ya no): <i>Bist du <b>schon</b> fertig? — Nein, <b>noch nicht</b>.</i> · <i>Wohnst du <b>noch</b> da? — Nein, <b>nicht mehr</b>.</i>"
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">trinke</span> <b>immer</b> Kaffee zum Frühstück.", "es": "Siempre tomo café en el desayuno." },
+        { "en": "<b>Manchmal</b> <span class=\"r-verb\">gehen</span> <span class=\"r-nom\">wir</span> ins Kino.", "es": "A veces vamos al cine. (adverbio en posición 1 → inversión)" },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> <b>nie</b> pünktlich.", "es": "Él nunca es puntual." },
+        { "en": "<span class=\"r-verb\">Bist</span> <span class=\"r-nom\">du</span> <b>schon</b> fertig? — Nein, <b>noch nicht</b>.", "es": "¿Ya estás listo? — No, todavía no." }
+      ],
+      "tables": [
+        {
+          "headers": ["Frecuencia", "Significado"],
+          "rows": [
+            ["immer", "siempre"],
+            ["fast immer / meistens", "casi siempre / la mayoría de las veces"],
+            ["oft", "a menudo"],
+            ["manchmal", "a veces"],
+            ["selten", "rara vez"],
+            ["nie", "nunca"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b07-s2q1",
+          "question": "1. «Nunca como carne.» → Ich esse <span class=\"blank\">___</span> Fleisch.",
+          "options": ["nicht nie", "nie", "nie nicht"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s2q2",
+          "question": "2. ¿Cuál es correcta con «oft»?",
+          "options": ["Ich oft gehe schwimmen.", "Ich gehe oft schwimmen.", "Oft ich gehe schwimmen."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s2q3",
+          "question": "3. «¿Sigues viviendo en Berlín? — Ya no.» → Nein, <span class=\"blank\">___</span>.",
+          "options": ["noch nicht", "nicht mehr", "nie mehr"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b07-s2",
+        "label": "<b>tu turno:</b> describe tus rutinas con tres frecuencias distintas (<i>immer, manchmal, nie…</i>).",
+        "placeholder": "Ej: Ich stehe immer um 7 Uhr auf. Manchmal mache ich Sport. Ich frühstücke nie im Büro."
+      }
+    },
+    {
+      "idx": "7.3",
+      "title": "Dónde va nicht",
+      "level": "B1",
+      "rule": "Para negar <b>toda la frase</b>, <b>nicht</b> va lo más al final posible — pero <b>delante</b> de: la parte no conjugada del verbo (participio, infinitivo, prefijo separable), los adjetivos tras <i>sein</i>, y los complementos de lugar/dirección. Para negar <b>un elemento concreto</b>, nicht va justo delante de ese elemento: <i>Ich komme <b>nicht heute</b>, sondern morgen</i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Recuerda del bloque 01: sustantivo con <i>ein</i> o sin artículo se niega con <b>kein</b>, no con nicht. <i>nicht</i> es para verbos, adjetivos, adverbios y sintagmas con artículo determinado o posesivo."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">verstehe</span> das <b>nicht</b>.", "es": "No entiendo esto. (negación total → al final)" },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kommt</span> heute <b>nicht</b>.", "es": "Él no viene hoy." },
+        { "en": "Das Zimmer <span class=\"r-verb\">ist</span> <b>nicht</b> groß.", "es": "La habitación no es grande. (delante del adjetivo)" },
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> den Film <b>nicht</b> gesehen.", "es": "No he visto la película. (delante del participio)" },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">fahren</span> <b>nicht</b> nach Köln, sondern nach Bonn.", "es": "No vamos a Colonia, sino a Bonn. (negación de un elemento)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b07-s3q1",
+          "question": "1. «No he entendido la pregunta.» → Ich habe die Frage <span class=\"blank\">___</span> verstanden.",
+          "options": ["nicht", "kein", "nie"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s3q2",
+          "question": "2. ¿Dónde va nicht? «Él no trabaja hoy.»",
+          "options": ["Er nicht arbeitet heute.", "Er arbeitet heute nicht.", "Er arbeitet nicht heute nicht."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s3q3",
+          "question": "3. «No tengo coche.» ¿Negación correcta?",
+          "options": ["Ich habe nicht ein Auto.", "Ich habe kein Auto.", "Ich habe nicht Auto."],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b07-s3",
+        "label": "<b>tu turno:</b> niega tres cosas: una frase completa con <i>nicht</i>, un adjetivo con <i>nicht</i>, y un sustantivo con <i>kein</i>.",
+        "placeholder": "Ej: Ich arbeite heute nicht. Der Test ist nicht schwer. Ich habe keine Zeit."
+      }
+    }
+  ]
+}

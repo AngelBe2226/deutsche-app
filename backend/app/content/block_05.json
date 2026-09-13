@@ -1,0 +1,179 @@
+{
+  "block": "05",
+  "title": "Declinación del adjetivo",
+  "kicker": "Bloque 05 · B1",
+  "intro": "Cuando el adjetivo va <b class=\"hl\">delante del sustantivo</b>, lleva terminación. La lógica es una sola: <b class=\"hl\">alguien tiene que marcar el caso</b> — si el artículo ya lo marca, el adjetivo se relaja (-e/-en); si no hay artículo, el adjetivo asume la marca. La tabla resumen completa está en el Glosario.",
+  "legend": [
+    { "label": "terminación", "desc": "del adjetivo declinado", "role": "adj" },
+    { "label": "Nominativ", "desc": "sujeto", "role": "nom" },
+    { "label": "Akkusativ", "desc": "objeto directo", "role": "akk" },
+    { "label": "Dativ", "desc": "objeto indirecto / tras prep.", "role": "dat" }
+  ],
+  "sections": [
+    {
+      "idx": "5.1",
+      "title": "Tras der-Wörter: solo -e o -en (débil)",
+      "level": "B1",
+      "rule": "Tras <b>der/die/das</b> y las palabras que se declinan como ellos (<i>dieser, jeder, welcher, alle</i>), el artículo ya marca todo — el adjetivo solo alterna entre <b>-e</b> y <b>-en</b>. <b>-e</b> en los cinco «casos fáciles»: Nominativo singular (los tres géneros) + Acusativo singular femenino y neutro. <b>-en</b> en todo lo demás (todo el plural, todo el Dativo/Genitivo, Acusativo masculino).",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Imagen mental: una <b>caja 2×1</b> — cinco casillas con -e arriba a la izquierda, el resto todo -en. Si dudas, <b>-en</b> es la apuesta estadísticamente ganadora."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Der klein<span class=\"r-adj\">e</span> Hund</span> schläft.", "es": "El perro pequeño duerme. (Nom masc → -e)" },
+        { "en": "Ich sehe <span class=\"r-akk\">den klein<span class=\"r-adj\">en</span> Hund</span>.", "es": "Veo al perro pequeño. (Akk masc → -en)" },
+        { "en": "<span class=\"r-nom\">Das neu<span class=\"r-adj\">e</span> Auto</span> ist teuer.", "es": "El coche nuevo es caro. (Nom neutro → -e)" },
+        { "en": "Ich helfe <span class=\"r-dat\">der alt<span class=\"r-adj\">en</span> Frau</span>.", "es": "Ayudo a la mujer mayor. (Dat fem → -en)" },
+        { "en": "<span class=\"r-nom\">Die neu<span class=\"r-adj\">en</span> Kollegen</span> sind nett.", "es": "Los nuevos compañeros son amables. (plural → -en)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "masc.", "fem.", "neutro", "plural"],
+          "rows": [
+            ["Nominativ", "der gut<b>e</b>", "die gut<b>e</b>", "das gut<b>e</b>", "die gut<b>en</b>"],
+            ["Akkusativ", "den gut<b>en</b>", "die gut<b>e</b>", "das gut<b>e</b>", "die gut<b>en</b>"],
+            ["Dativ", "dem gut<b>en</b>", "der gut<b>en</b>", "dem gut<b>en</b>", "den gut<b>en</b>"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b05-s1q1",
+          "question": "1. Die jung<span class=\"blank\">___</span> Frau arbeitet hier.",
+          "options": ["-e", "-en", "-er"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s1q2",
+          "question": "2. Ich kenne den nett<span class=\"blank\">___</span> Lehrer.",
+          "options": ["-e", "-er", "-en"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s1q3",
+          "question": "3. Wir sprechen mit den neu<span class=\"blank\">___</span> Nachbarn.",
+          "options": ["-e", "-en", "-es"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b05-s1",
+        "label": "<b>tu turno:</b> describe dos cosas con «artículo definido + adjetivo + sustantivo» (una en Nominativo, otra en Acusativo).",
+        "placeholder": "Ej: Der neue Film ist toll. Ich mag die alte Musik."
+      }
+    },
+    {
+      "idx": "5.2",
+      "title": "Tras ein-Wörter: la mixta",
+      "level": "B1",
+      "rule": "Tras <b>ein, kein</b> y los posesivos hay tres casillas donde el artículo <b>no marca el género</b> (ein sirve para masculino y neutro) — ahí el adjetivo lo compensa: Nominativo masculino <b>-er</b> (<i>ein gut<b>er</b> Mann</i>), Nominativo/Acusativo neutro <b>-es</b> (<i>ein gut<b>es</b> Kind</i>). El resto es igual que tras der-Wörter: femenino <b>-e</b>, y <b>-en</b> para lo demás.",
+      "notes": [
+        {
+          "type": "why",
+          "at": "end",
+          "text": "¿Por qué -er y -es justo ahí? Porque «ein» es ambiguo: no dice si es <i>der</i> o <i>das</i>. El adjetivo recupera la letra característica del artículo perdido: d<b>er</b> → gut<b>er</b>, d<b>as</b> → gut<b>es</b>. Es el mismo principio de «alguien tiene que marcar el caso»."
+        }
+      ],
+      "examples": [
+        { "en": "Das ist <span class=\"r-nom\">ein interessant<span class=\"r-adj\">er</span> Film</span>.", "es": "Es una película interesante. (Nom masc → -er)" },
+        { "en": "Sie hat <span class=\"r-akk\">ein neu<span class=\"r-adj\">es</span> Fahrrad</span>.", "es": "Ella tiene una bici nueva. (Akk neutro → -es)" },
+        { "en": "Das ist <span class=\"r-nom\">meine best<span class=\"r-adj\">e</span> Freundin</span>.", "es": "Esta es mi mejor amiga. (fem → -e)" },
+        { "en": "Ich suche <span class=\"r-akk\">einen billig<span class=\"r-adj\">en</span> Flug</span>.", "es": "Busco un vuelo barato. (Akk masc → -en)" },
+        { "en": "Er wohnt in <span class=\"r-dat\">einer klein<span class=\"r-adj\">en</span> Stadt</span>.", "es": "Vive en una ciudad pequeña. (Dat fem → -en)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "masc.", "fem.", "neutro", "plural (kein/mein)"],
+          "rows": [
+            ["Nominativ", "ein gut<b>er</b>", "eine gut<b>e</b>", "ein gut<b>es</b>", "keine gut<b>en</b>"],
+            ["Akkusativ", "einen gut<b>en</b>", "eine gut<b>e</b>", "ein gut<b>es</b>", "keine gut<b>en</b>"],
+            ["Dativ", "einem gut<b>en</b>", "einer gut<b>en</b>", "einem gut<b>en</b>", "keinen gut<b>en</b>"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b05-s2q1",
+          "question": "1. Das ist ein sehr gut<span class=\"blank\">___</span> Restaurant. (das Restaurant)",
+          "options": ["-er", "-es", "-e"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s2q2",
+          "question": "2. Mein alt<span class=\"blank\">___</span> Computer ist kaputt. (der Computer, Nominativ)",
+          "options": ["-er", "-en", "-e"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s2q3",
+          "question": "3. Wir haben eine klein<span class=\"blank\">___</span> Wohnung.",
+          "options": ["-en", "-es", "-e"],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b05-s2",
+        "label": "<b>tu turno:</b> presume de tres cosas con <i>ein/mein</i> + adjetivo — una masculina (-er), una neutra (-es) y una femenina (-e).",
+        "placeholder": "Ej: Ich habe einen schnellen Laptop, ein großes Bett und eine schöne Aussicht."
+      }
+    },
+    {
+      "idx": "5.3",
+      "title": "Sin artículo: el adjetivo manda (fuerte)",
+      "level": "B1",
+      "rule": "Sin artículo, el adjetivo <b>asume la terminación del artículo definido</b> que falta: <i>gut<b>er</b> Wein</i> (der), <i>frisch<b>e</b> Milch</i> (die), <i>kalt<b>es</b> Bier</i> (das), <i>klein<b>e</b> Kinder</i> (die pl.). Es típico de comida, materiales, plurales genéricos y anuncios. Única excepción: en Genitivo masculino/neutro el adjetivo lleva <b>-en</b> (porque el sustantivo ya marca con su -s).",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Truco general de todo el bloque: pregúntate <b>«¿quién marca el caso?»</b>. Artículo fuerte (der/dieser) → adjetivo débil (-e/-en). Artículo ambiguo (ein) → adjetivo compensa (-er/-es). Sin artículo → adjetivo lo marca todo."
+        }
+      ],
+      "examples": [
+        { "en": "Ich trinke gern <span class=\"r-akk\">kalt<span class=\"r-adj\">es</span> Bier</span>.", "es": "Me gusta la cerveza fría. (das Bier)" },
+        { "en": "<span class=\"r-nom\">Frisch<span class=\"r-adj\">e</span> Luft</span> tut gut.", "es": "El aire fresco sienta bien. (die Luft)" },
+        { "en": "Er kauft <span class=\"r-akk\">gut<span class=\"r-adj\">en</span> Käse</span>.", "es": "Compra buen queso. (der Käse, Akk → -en)" },
+        { "en": "Mit <span class=\"r-dat\">groß<span class=\"r-adj\">em</span> Interesse</span> lese ich Ihre E-Mail.", "es": "Leo su correo con gran interés. (Dat neutro → -em)" },
+        { "en": "<span class=\"r-nom\">Klein<span class=\"r-adj\">e</span> Kinder</span> brauchen viel Schlaf.", "es": "Los niños pequeños necesitan dormir mucho. (plural → -e)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "masc.", "fem.", "neutro", "plural"],
+          "rows": [
+            ["Nominativ", "gut<b>er</b> Wein", "gut<b>e</b> Milch", "gut<b>es</b> Bier", "gut<b>e</b> Ideen"],
+            ["Akkusativ", "gut<b>en</b> Wein", "gut<b>e</b> Milch", "gut<b>es</b> Bier", "gut<b>e</b> Ideen"],
+            ["Dativ", "gut<b>em</b> Wein", "gut<b>er</b> Milch", "gut<b>em</b> Bier", "gut<b>en</b> Ideen"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b05-s3q1",
+          "question": "1. Ich esse gern frisch<span class=\"blank\">___</span> Brot. (das Brot)",
+          "options": ["-er", "-es", "-e"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s3q2",
+          "question": "2. Hier gibt es gut<span class=\"blank\">___</span> Kaffee. (der Kaffee, Akkusativ)",
+          "options": ["-en", "-er", "-es"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s3q3",
+          "question": "3. ¿Quién marca el caso en «mit kaltem Wasser»?",
+          "options": ["El artículo", "El adjetivo", "El sustantivo"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b05-s3",
+        "label": "<b>tu turno:</b> escribe tu «carta de restaurante» ideal: tres platos/bebidas con adjetivo sin artículo.",
+        "placeholder": "Ej: Ich empfehle frischen Fisch, grünen Salat und kaltes Wasser."
+      }
+    }
+  ]
+}

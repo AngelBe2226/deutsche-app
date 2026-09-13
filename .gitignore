@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# SQLite database (user progress — local data)
+backend/data/*.db
+backend/data/*.db-wal
+backend/data/*.db-shm
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store

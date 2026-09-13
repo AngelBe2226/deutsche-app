@@ -1,0 +1,223 @@
+{
+  "block": "09",
+  "title": "Oraciones subordinadas: el verbo se va al final",
+  "kicker": "Bloque 09 · B1",
+  "intro": "Los conectores subordinantes (<b class=\"hl\">weil, dass, wenn, als, obwohl, damit…</b>) mandan el verbo conjugado <b class=\"hl\">al final de su oración</b>. Es la otra mitad del sistema de orden alemán: V2 en la principal, verbo-final en la subordinada.",
+  "legend": [
+    { "label": "conector", "desc": "subordinante: envía el verbo al final", "role": "sub" },
+    { "label": "verbo", "desc": "conjugado", "role": "verb" },
+    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+  ],
+  "sections": [
+    {
+      "idx": "9.1",
+      "title": "weil, dass, wenn: la mecánica básica",
+      "level": "B1",
+      "rule": "Tras un conector subordinante, el verbo conjugado se va <b>al final de la subordinada</b>: <i>Ich bleibe zu Hause, <b>weil</b> ich krank <b>bin</b></i>. Los tres imprescindibles: <b>weil</b> (porque), <b>dass</b> (que), <b>wenn</b> (si/cuando). La subordinada siempre se separa con <b>coma</b>.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Compara: <i>Ich bin müde, <b>denn</b> ich <b>habe</b> viel gearbeitet</i> (denn = coordinante, orden normal) vs. <i>Ich bin müde, <b>weil</b> ich viel gearbeitet <b>habe</b></i> (weil = subordinante, verbo al final). Mismo significado, distinta mecánica — el bloque 14 profundiza."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Si el verbo es separable, en la subordinada <b>se reúne</b> en una palabra: <i>Ich weiß, dass der Zug um 9 <b>abfährt</b></i> (no ~~fährt … ab~~)."
+        }
+      ],
+      "examples": [
+        { "en": "Ich lerne Deutsch, <span class=\"r-sub\">weil</span> ich in Berlin <span class=\"r-verb\">arbeite</span>.", "es": "Aprendo alemán porque trabajo en Berlín." },
+        { "en": "Ich glaube, <span class=\"r-sub\">dass</span> er recht <span class=\"r-verb\">hat</span>.", "es": "Creo que él tiene razón." },
+        { "en": "<span class=\"r-sub\">Wenn</span> es <span class=\"r-verb\">regnet</span>, bleiben wir zu Hause.", "es": "Si llueve, nos quedamos en casa." },
+        { "en": "Sie sagt, <span class=\"r-sub\">dass</span> sie morgen <span class=\"r-verb\">kommt</span>.", "es": "Ella dice que viene mañana." },
+        { "en": "Ich weiß, <span class=\"r-sub\">dass</span> der Zug um 9 Uhr <span class=\"r-verb\">abfährt</span>.", "es": "Sé que el tren sale a las 9. (separable reunido)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b09-s1q1",
+          "question": "1. Ich bleibe im Bett, weil ich krank <span class=\"blank\">___</span>.",
+          "options": ["bin", "ich bin", "bin ich"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s1q2",
+          "question": "2. ¿Cuál es correcta?",
+          "options": [
+            "Ich denke, dass er ist nett.",
+            "Ich denke, dass er nett ist.",
+            "Ich denke, dass ist er nett."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s1q3",
+          "question": "3. Er sagt, dass er morgen <span class=\"blank\">___</span>. (ankommen, separable)",
+          "options": ["kommt an", "ankommt", "an kommt"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b09-s1",
+        "label": "<b>tu turno:</b> escribe una frase con <i>weil</i> y otra con <i>dass</i> — comprueba que el verbo cierra la subordinada.",
+        "placeholder": "Ej: Ich lerne Deutsch, weil ich nach Wien ziehen will. Ich hoffe, dass du mich besuchst."
+      }
+    },
+    {
+      "idx": "9.2",
+      "title": "wenn vs. als vs. wann",
+      "level": "B1",
+      "rule": "Tres «cuandos» que el español no distingue: <b>wenn</b> = condición («si») o hecho <b>repetido</b> en presente/pasado («cada vez que»); <b>als</b> = un hecho <b>único del pasado</b> («cuando era niño…»); <b>wann</b> = solo <b>pregunta</b> («¿cuándo?»), directa o indirecta.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Test rápido para el pasado: ¿ocurrió <b>una sola vez / un solo período</b>? → <b>als</b>. ¿Se repetía? → <b>wenn</b> (a menudo con <i>immer</i>: <i>immer wenn…</i>). ¿Es una pregunta? → <b>wann</b>."
+        },
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "«Cuando era joven» es un período único → <b>als</b>: <i><b>Als</b> ich jung war…</i> Aunque durase años, cuenta como un solo bloque de tiempo, no una repetición."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-sub\">Wenn</span> ich Zeit <span class=\"r-verb\">habe</span>, koche ich selbst.", "es": "Cuando (siempre que) tengo tiempo, cocino yo." },
+        { "en": "<span class=\"r-sub\">Als</span> ich Kind <span class=\"r-verb\">war</span>, wohnte ich in Sevilla.", "es": "Cuando era niño, vivía en Sevilla. (período único del pasado)" },
+        { "en": "<span class=\"r-sub\">Wann</span> <span class=\"r-verb\">kommst</span> du?", "es": "¿Cuándo vienes?" },
+        { "en": "Ich weiß nicht, <span class=\"r-sub\">wann</span> der Film <span class=\"r-verb\">beginnt</span>.", "es": "No sé cuándo empieza la película. (pregunta indirecta)" },
+        { "en": "Immer <span class=\"r-sub\">wenn</span> ich ihn <span class=\"r-verb\">sehe</span>, lacht er.", "es": "Siempre que lo veo, se ríe." }
+      ],
+      "tables": [
+        {
+          "headers": ["Palabra", "Uso", "Ejemplo"],
+          "rows": [
+            ["<b>wenn</b>", "condición o repetición", "Wenn es regnet, … / Immer wenn er kommt, …"],
+            ["<b>als</b>", "hecho único del pasado", "Als ich 18 war, …"],
+            ["<b>wann</b>", "pregunta (directa o indirecta)", "Wann beginnt der Kurs? / Ich weiß nicht, wann…"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b09-s2q1",
+          "question": "1. <span class=\"blank\">___</span> ich in Berlin ankam, regnete es. (llegué una vez)",
+          "options": ["Wenn", "Als", "Wann"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s2q2",
+          "question": "2. Weißt du, <span class=\"blank\">___</span> der Zug abfährt?",
+          "options": ["wenn", "als", "wann"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s2q3",
+          "question": "3. <span class=\"blank\">___</span> ich müde bin, trinke ich Kaffee. (cada vez)",
+          "options": ["Wenn", "Als", "Wann"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b09-s2",
+        "label": "<b>tu turno:</b> una frase con <i>als</i> (recuerdo único) y otra con <i>wenn</i> (costumbre).",
+        "placeholder": "Ej: Als ich zum ersten Mal nach Deutschland fuhr, … Wenn ich Stress habe, …"
+      }
+    },
+    {
+      "idx": "9.3",
+      "title": "obwohl, damit y um … zu",
+      "level": "B1",
+      "rule": "<b>obwohl</b> (aunque) expresa contraste; <b>damit</b> (para que) expresa finalidad con sujetos distintos; <b>um … zu</b> + infinitivo expresa finalidad cuando el sujeto es <b>el mismo</b>: <i>Ich lerne Deutsch, <b>um</b> in Berlin <b>zu arbeiten</b></i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "¿<b>damit</b> o <b>um…zu</b>? Pregunta: ¿quién hace la acción de la finalidad? Mismo sujeto → <i>um…zu</i>. Otro sujeto → <i>damit</i>: <i>Ich spreche langsam, <b>damit</b> du mich <b>verstehst</b></i>."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-sub\">Obwohl</span> es <span class=\"r-verb\">regnet</span>, gehen wir spazieren.", "es": "Aunque llueve, salimos a pasear." },
+        { "en": "Ich spreche langsam, <span class=\"r-sub\">damit</span> du mich <span class=\"r-verb\">verstehst</span>.", "es": "Hablo despacio para que me entiendas. (dos sujetos)" },
+        { "en": "Ich lerne Deutsch, <span class=\"r-sub\">um</span> in Berlin <span class=\"r-verb\">zu arbeiten</span>.", "es": "Aprendo alemán para trabajar en Berlín. (mismo sujeto)" },
+        { "en": "<span class=\"r-sub\">Obwohl</span> er müde <span class=\"r-verb\">war</span>, half er mir.", "es": "Aunque estaba cansado, me ayudó." }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b09-s3q1",
+          "question": "1. Ich gehe zur Party, <span class=\"blank\">___</span> ich müde bin.",
+          "options": ["damit", "obwohl", "um"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q2",
+          "question": "2. Ich spare Geld, <span class=\"blank\">___</span> ein Auto zu kaufen. (yo ahorro, yo compro)",
+          "options": ["damit", "um", "dass"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q3",
+          "question": "3. Er erklärt es zweimal, <span class=\"blank\">___</span> alle es verstehen. (él explica, todos entienden)",
+          "options": ["um", "damit", "obwohl"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b09-s3",
+        "label": "<b>tu turno:</b> ¿para qué aprendes alemán? Una frase con <i>um…zu</i> y otra con <i>obwohl</i>.",
+        "placeholder": "Ej: Ich lerne Deutsch, um in Wien zu studieren. Obwohl die Grammatik schwer ist, macht es Spaß."
+      }
+    },
+    {
+      "idx": "9.4",
+      "title": "Subordinada primero y el clúster de verbos",
+      "level": "B1",
+      "rule": "Si la subordinada va <b>delante</b>, cuenta entera como posición 1 → la principal empieza con su verbo: <i><b>Weil ich krank bin</b>, <b>bleibe</b> ich zu Hause</i> (patrón «…verbo <b>, verbo</b>…»). Y cuando la subordinada lleva Perfekt o modal, los verbos se apilan al final en <b>clúster</b>: primero el participio/infinitivo, último el conjugado: <i>…weil ich viel <b>gearbeitet habe</b></i>, <i>…weil er nicht <b>kommen kann</b></i>.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "El «sandwich de verbos» — <i>Wenn du Zeit <b>hast</b>, <b>können</b> wir…</i> — suena rarísimo al principio, pero es puro V2: la subordinada completa ES la posición 1, así que el verbo principal va justo después de la coma."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Orden dentro del clúster final: <b>el conjugado siempre al final del todo</b> en la subordinada. <i>…dass ich das Buch gelesen <b>habe</b></i> · <i>…dass ich früh aufstehen <b>muss</b></i>."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-sub\">Weil</span> ich krank <span class=\"r-verb\">bin</span>, <span class=\"r-verb\">bleibe</span> ich heute zu Hause.", "es": "Como estoy enfermo, hoy me quedo en casa." },
+        { "en": "<span class=\"r-sub\">Wenn</span> du Zeit <span class=\"r-verb\">hast</span>, <span class=\"r-verb\">können</span> wir einen Kaffee trinken.", "es": "Si tienes tiempo, podemos tomar un café." },
+        { "en": "Ich bin müde, <span class=\"r-sub\">weil</span> ich schlecht <span class=\"r-sep\">geschlafen</span> <span class=\"r-verb\">habe</span>.", "es": "Estoy cansado porque he dormido mal. (clúster: participio + habe)" },
+        { "en": "Er sagt, <span class=\"r-sub\">dass</span> er morgen nicht <span class=\"r-sep\">kommen</span> <span class=\"r-verb\">kann</span>.", "es": "Dice que mañana no puede venir. (clúster: infinitivo + kann)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b09-s4q1",
+          "question": "1. Wenn es regnet, <span class=\"blank\">___</span> zu Hause.",
+          "options": ["wir bleiben", "bleiben wir", "wir zu bleiben"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s4q2",
+          "question": "2. Ich freue mich, weil ich die Prüfung <span class=\"blank\">___</span>.",
+          "options": ["habe bestanden", "bestanden habe", "bestehe habe"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s4q3",
+          "question": "3. Sie bleibt zu Hause, weil sie arbeiten <span class=\"blank\">___</span>.",
+          "options": ["muss", "musst", "müssen"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b09-s4",
+        "label": "<b>tu turno:</b> escribe una frase que empiece por la subordinada (patrón «…, verbo sujeto…») y otra con clúster verbal final.",
+        "placeholder": "Ej: Wenn ich Zeit habe, besuche ich dich. Ich bin froh, dass du gekommen bist."
+      }
+    }
+  ]
+}

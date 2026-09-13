@@ -1,0 +1,235 @@
+{
+  "block": "03",
+  "title": "Los casos: Dativo y Genitivo",
+  "kicker": "Bloque 03 · Base A2",
+  "intro": "Segunda mitad del sistema de casos: el <b class=\"hl\">Dativo</b> (objeto indirecto, «a quién») y el <b class=\"hl\">Genitivo</b> (posesión, «de quién»). Con esto ya tienes el mapa completo de <b class=\"hl\">los 4 casos</b> — la tabla resumen vive en el Glosario.",
+  "legend": [
+    { "label": "sujeto", "desc": "Nominativ", "role": "nom" },
+    { "label": "objeto directo", "desc": "Akkusativ", "role": "akk" },
+    { "label": "objeto indirecto", "desc": "Dativ, el destinatario", "role": "dat" },
+    { "label": "posesión", "desc": "Genitiv, «de quién»", "role": "gen" },
+    { "label": "verbo", "desc": "conjugado", "role": "verb" }
+  ],
+  "sections": [
+    {
+      "idx": "3.1",
+      "title": "El Dativo: dem, der, dem — y plural den + n",
+      "level": "A2",
+      "rule": "El <b>Dativo</b> marca el <b>objeto indirecto</b>: el destinatario o beneficiario de la acción. Formas: masculino <i>der → <b>dem</b></i>, femenino <i>die → <b>der</b></i>, neutro <i>das → <b>dem</b></i>, plural <i>die → <b>den</b></i> y además <b>el sustantivo plural añade -n</b> si no la tiene: <i>den Kinder<b>n</b>, den Freunde<b>n</b></i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Pregunta de control: <b>Wem?</b> (¿a quién?). <i>Ich gebe dem Kind einen Apfel</i> → ¿a quién le doy? → al niño → Dativo. El «qué» que doy (el objeto directo) sigue en Acusativo."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Ojo al despiste clásico: <b>der</b> puede ser masculino Nominativo… o <b>femenino Dativo</b>: <i>Ich helfe <b>der</b> Frau</i> = ayudo a la mujer. El caso se lee en la función, no solo en la forma."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gebe</span> <span class=\"r-dat\">dem Mann</span> <span class=\"r-akk\">das Buch</span>.", "es": "Le doy el libro al hombre." },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">schenkt</span> <span class=\"r-dat\">der Lehrerin</span> <span class=\"r-akk\">Blumen</span>.", "es": "Ella le regala flores a la profesora." },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">erklärt</span> <span class=\"r-dat\">dem Kind</span> <span class=\"r-akk\">die Regel</span>.", "es": "Él le explica la regla al niño." },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">zeigen</span> <span class=\"r-dat\">den Touristen</span> <span class=\"r-akk\">die Stadt</span>.", "es": "Les enseñamos la ciudad a los turistas. (plural: den + -n)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "masculino", "femenino", "neutro", "plural"],
+          "rows": [
+            ["Nominativ", "der / ein", "die / eine", "das / ein", "die"],
+            ["Akkusativ", "den / einen", "die / eine", "das / ein", "die"],
+            ["Dativ", "<b>dem / einem</b>", "<b>der / einer</b>", "<b>dem / einem</b>", "<b>den + -n</b>"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b03-s1q1",
+          "question": "1. Ich gebe <span class=\"blank\">___</span> Frau die Schlüssel. (die Frau)",
+          "options": ["die", "der", "dem"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s1q2",
+          "question": "2. Er zeigt <span class=\"blank\">___</span> Kindern den Garten.",
+          "options": ["die", "der", "den"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s1q3",
+          "question": "3. En «Sie gibt dem Hund einen Ball», ¿qué es «einen Ball»?",
+          "options": ["Objeto indirecto (Dativ)", "Objeto directo (Akkusativ)", "Sujeto (Nominativ)"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b03-s1",
+        "label": "<b>tu turno:</b> escribe dos frases del tipo «le doy/regalo/muestro X a Y» — marca mentalmente quién va en Dativo y qué va en Acusativo.",
+        "placeholder": "Ej: Ich schenke meiner Mutter ein Buch. Er zeigt dem Gast das Zimmer."
+      }
+    },
+    {
+      "idx": "3.2",
+      "title": "Pronombres en Dativo y el orden de los objetos",
+      "level": "A2",
+      "rule": "Pronombres de Dativo: <b>mir, dir, ihm, ihr, ihm, uns, euch, ihnen/Ihnen</b>. El orden de los dos objetos: con dos sustantivos, <b>Dativo antes de Acusativo</b> (<i>dem Mann das Buch</i>). Pero si el Acusativo es un <b>pronombre</b>, el pronombre gana y va primero: <i>Ich gebe <b>es ihm</b></i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Regla mnemotécnica del orden: <b>«la persona antes que la cosa — salvo que la cosa sea pronombre»</b>. <i>Ich gebe dem Mann das Buch → Ich gebe ihm das Buch → Ich gebe es ihm.</i>"
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-verb\">Kannst</span> du <span class=\"r-dat\">mir</span> <span class=\"r-verb\">helfen</span>?", "es": "¿Puedes ayudarme?" },
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">schreibe</span> <span class=\"r-dat\">ihr</span> <span class=\"r-akk\">eine E-Mail</span>.", "es": "Le escribo un correo (a ella)." },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">gibt</span> <span class=\"r-akk\">es</span> <span class=\"r-dat\">mir</span>.", "es": "Él me lo da. (Akk pronombre → va primero)" },
+        { "en": "Wie <span class=\"r-verb\">geht</span> es <span class=\"r-dat\">Ihnen</span>?", "es": "¿Cómo está usted? (literalmente: ¿cómo le va a usted?)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Nominativ", "ich", "du", "er", "sie", "es", "wir", "ihr", "sie/Sie"],
+          "rows": [
+            ["Dativ", "<b>mir</b>", "<b>dir</b>", "<b>ihm</b>", "<b>ihr</b>", "<b>ihm</b>", "<b>uns</b>", "<b>euch</b>", "<b>ihnen/Ihnen</b>"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b03-s2q1",
+          "question": "1. «¿Me ayudas?» → Hilfst du <span class=\"blank\">___</span>?",
+          "options": ["mich", "mir", "ich"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s2q2",
+          "question": "2. «Se lo doy (el libro, a él).» ¿Cuál es el orden correcto?",
+          "options": ["Ich gebe ihm es.", "Ich gebe es ihm.", "Ich es ihm gebe."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s2q3",
+          "question": "3. Le escribo a ella: Ich schreibe <span class=\"blank\">___</span> morgen.",
+          "options": ["sie", "ihr", "ihm"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b03-s2",
+        "label": "<b>tu turno:</b> escribe la cadena completa: sustantivos → pronombre Dativo → los dos pronombres.",
+        "placeholder": "Ej: Ich gebe meinem Freund den Schlüssel. → Ich gebe ihm den Schlüssel. → Ich gebe ihn ihm."
+      }
+    },
+    {
+      "idx": "3.3",
+      "title": "Verbos que siempre piden Dativo",
+      "level": "A2",
+      "rule": "Una lista corta de verbos frecuentes rige <b>Dativo aunque en español parezcan llevar objeto directo</b>: <b>helfen</b> (ayudar), <b>danken</b> (agradecer), <b>gefallen</b> (gustar), <b>gehören</b> (pertenecer), <b>antworten</b> (responder), <b>glauben</b> (creer a alguien), <b>folgen</b> (seguir), <b>passen</b> (quedar bien), <b>schmecken</b> (saber bien), <b>fehlen</b> (faltar/echar de menos).",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>gefallen</b> funciona como el «gustar» español, con la lógica invertida: lo que gusta es el <b>sujeto</b> y la persona va en <b>Dativo</b>: <i>Der Film gefällt <b>mir</b></i> = la película me gusta. Igual que <i>schmecken</i> y <i>fehlen</i>: <i>Du fehlst mir</i> = te echo de menos."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Apréndelos como una cancioncilla cerrada: <i>helfen, danken, gefallen, gehören, antworten, glauben, folgen, passen, schmecken, fehlen</i>. Diez verbos que te ahorran el 90% de los errores de caso con verbos."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">helfe</span> <span class=\"r-dat\">meiner Schwester</span>.", "es": "Ayudo a mi hermana. (¡no Akkusativ!)" },
+        { "en": "<span class=\"r-nom\">Das Auto</span> <span class=\"r-verb\">gehört</span> <span class=\"r-dat\">meinem Vater</span>.", "es": "El coche pertenece a mi padre." },
+        { "en": "<span class=\"r-nom\">Berlin</span> <span class=\"r-verb\">gefällt</span> <span class=\"r-dat\">mir</span> sehr.", "es": "Berlín me gusta mucho." },
+        { "en": "<span class=\"r-nom\">Die Suppe</span> <span class=\"r-verb\">schmeckt</span> <span class=\"r-dat\">dem Gast</span>.", "es": "La sopa le sabe bien al huésped." },
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">danke</span> <span class=\"r-dat\">Ihnen</span> für die Hilfe.", "es": "Le agradezco (a usted) la ayuda." }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b03-s3q1",
+          "question": "1. Ich helfe <span class=\"blank\">___</span> Mann.",
+          "options": ["den", "dem", "der"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s3q2",
+          "question": "2. «Esta chaqueta te queda bien.» → Die Jacke passt <span class=\"blank\">___</span> gut.",
+          "options": ["dich", "dir", "du"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s3q3",
+          "question": "3. ¿Cuál es correcta?",
+          "options": ["Der Film gefällt mich.", "Der Film gefällt mir.", "Ich gefalle den Film."],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b03-s3",
+        "label": "<b>tu turno:</b> escribe dos frases con verbos de Dativo (<i>gefallen, helfen, gehören, schmecken…</i>).",
+        "placeholder": "Ej: Die Stadt gefällt mir. Der Rucksack gehört meinem Bruder."
+      }
+    },
+    {
+      "idx": "3.4",
+      "title": "El Genitivo: la posesión formal",
+      "level": "B1",
+      "rule": "El <b>Genitivo</b> expresa posesión o pertenencia: <i>das Auto <b>des Mannes</b></i> = el coche del hombre. Formas: masculino y neutro <b>des + -(e)s</b> en el sustantivo, femenino y plural <b>der</b>. Va <b>detrás</b> del sustantivo poseído. Algunas preposiciones lo rigen: <b>wegen</b> (por causa de), <b>trotz</b> (a pesar de), <b>während</b> (durante), <b>statt</b> (en lugar de).",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "En el <b>habla coloquial</b> el Genitivo posesivo se sustituye casi siempre por <b>von + Dativ</b>: <i>das Auto <b>von meinem</b> Vater</i>. Y con nombres propios basta una -s sin apóstrofo: <i>Annas Auto</i>. Reconoce el Genitivo al leer; úsalo tú al escribir con registro formal."
+        },
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Coloquialmente oirás <i>wegen/trotz</i> + Dativo (<i>wegen dem Wetter</i>). En texto escrito cuidado: la norma pide Genitivo (<i>wegen <b>des</b> Wetters</i>)."
+        }
+      ],
+      "examples": [
+        { "en": "Das ist das Auto <span class=\"r-gen\">des Mannes</span>.", "es": "Ese es el coche del hombre." },
+        { "en": "Die Farbe <span class=\"r-gen\">der Wände</span> gefällt mir.", "es": "El color de las paredes me gusta." },
+        { "en": "Der Titel <span class=\"r-gen\">des Buches</span> ist lang.", "es": "El título del libro es largo." },
+        { "en": "Wegen <span class=\"r-gen\">des Regens</span> bleiben wir zu Hause.", "es": "Por la lluvia nos quedamos en casa." },
+        { "en": "Das ist das Auto <span class=\"r-dat\">von meinem Vater</span>.", "es": "Es el coche de mi padre. (alternativa coloquial: von + Dativ)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "masculino", "femenino", "neutro", "plural"],
+          "rows": [
+            ["Genitiv", "<b>des Mannes</b> / eines Mannes", "<b>der Frau</b> / einer Frau", "<b>des Kindes</b> / eines Kindes", "<b>der Kinder</b>"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b03-s4q1",
+          "question": "1. Der Name <span class=\"blank\">___</span> Hotels ist «Zur Post». (das Hotel)",
+          "options": ["dem", "des", "der"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s4q2",
+          "question": "2. «A pesar del tiempo» (formal, escrito) → trotz <span class=\"blank\">___</span> Wetters",
+          "options": ["dem", "das", "des"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s4q3",
+          "question": "3. ¿Cuál es la versión coloquial de «das Haus meiner Eltern»?",
+          "options": ["das Haus von meinen Eltern", "das Haus von meine Eltern", "das Haus meinen Eltern"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b03-s4",
+        "label": "<b>tu turno:</b> escribe la misma posesión dos veces: en Genitivo formal y con <i>von</i> + Dativo coloquial.",
+        "placeholder": "Ej: die Wohnung meines Bruders → die Wohnung von meinem Bruder"
+      }
+    }
+  ]
+}

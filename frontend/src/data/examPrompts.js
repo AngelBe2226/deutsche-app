@@ -1,0 +1,23 @@
+// Prompts del simulador de speaking (60 segundos por respuesta).
+export const EXAM_PROMPTS = [
+  "Stell dich bitte vor: Wer bist du, woher kommst du, was machst du beruflich?",
+  "Beschreib deinen Tagesablauf an einem normalen Arbeitstag.",
+  "Was hast du letztes Wochenende gemacht? (¡usa el Perfekt!)",
+  "Warum lernst du Deutsch? Was sind deine Ziele?",
+  "Beschreib deine Wohnung oder dein Haus. Was gefällt dir daran?",
+  "Was würdest du machen, wenn du eine Million Euro hättest? (Konjunktiv II)",
+  "Erzähl von deinem letzten Urlaub: Wohin bist du gefahren und was hast du dort gemacht?",
+  "Was sind deine Pläne für nächstes Jahr? (Futur o Präsens + Zeitangabe)",
+  "Beschreib deine Familie und deine Freunde.",
+  "Was ist dein Lieblingsessen? Wie bereitet man es zu?",
+  "Vergleich das Leben in der Stadt mit dem Leben auf dem Land. Was ist besser?",
+  "Erzähl von einem Problem, das du gelöst hast. Was ist passiert?",
+  "Welche Jahreszeit magst du am liebsten und warum?",
+  "Du möchtest einen Tisch im Restaurant reservieren. Was sagst du am Telefon?",
+  "Beschreib deinen besten Freund oder deine beste Freundin. Warum versteht ihr euch gut?",
+  "Was machst du, um gesund zu bleiben?",
+  "Erzähl von einem Film oder Buch, das dir gefallen hat. Worum geht es?",
+  "Du bist im Hotel und dein Zimmer hat ein Problem. Beschwer dich höflich an der Rezeption.",
+  "Obwohl viele Leute Deutsch schwer finden, lernst du es. Warum lohnt es sich? (usa obwohl/weil)",
+  "Beschreib deine Heimatstadt: Was kann man dort sehen und machen?",
+];

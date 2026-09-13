@@ -1,0 +1,261 @@
+{
+  "block": "01",
+  "title": "Pronombres personales y artículos",
+  "kicker": "Bloque 01 · Base A1",
+  "intro": "El alemán distingue <b class=\"hl\">tres géneros</b> (der/die/das) y el género casi nunca coincide con el español, así que cada sustantivo se aprende <b class=\"hl\">con su artículo</b>. Misma ruta de siempre: regla → ejemplos → ejercicio → tu propia frase.",
+  "legend": [
+    { "label": "sujeto", "desc": "Nominativ, quien hace la acción", "role": "nom" },
+    { "label": "verbo", "desc": "conjugado, en 2ª posición", "role": "verb" }
+  ],
+  "sections": [
+    {
+      "idx": "1.1",
+      "title": "Los pronombres personales",
+      "level": "A1",
+      "rule": "Los pronombres de sujeto son: <b>ich</b> (yo), <b>du</b> (tú), <b>er/sie/es</b> (él/ella/ello), <b>wir</b> (nosotros), <b>ihr</b> (vosotros), <b>sie</b> (ellos) y <b>Sie</b> (usted/ustedes, siempre con mayúscula). A diferencia del español, <b>nunca se omiten</b>: en alemán no existe «hablo alemán», siempre es «yo hablo alemán».",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>sie</b> puede significar tres cosas: <b>ella</b> (verbo en singular), <b>ellos</b> (verbo en plural) y <b>usted</b> (mayúscula, verbo en plural). El contexto + la forma del verbo + la mayúscula lo desambiguan: <i>sie kommt</i> = ella viene · <i>sie kommen</i> = ellos vienen · <i>Sie kommen</i> = usted viene."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "¿<b>du</b> o <b>Sie</b>? <b>du</b> con amigos, familia, niños y entre jóvenes; <b>Sie</b> con desconocidos adultos, en tiendas, oficinas y contextos formales. En caso de duda, empieza con <b>Sie</b> y espera a que te ofrezcan el <i>du</i> («Wir können uns duzen»)."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">lerne</span> Deutsch.", "es": "(Yo) aprendo alemán." },
+        { "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">wohnst</span> in Berlin.", "es": "(Tú) vives en Berlín." },
+        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> viel, aber <span class=\"r-nom\">sie</span> <span class=\"r-verb\">arbeitet</span> mehr.", "es": "Él trabaja mucho, pero ella trabaja más." },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">kommen</span> aus Spanien.", "es": "(Nosotros) venimos de España." },
+        { "en": "<span class=\"r-verb\">Sprechen</span> <span class=\"r-nom\">Sie</span> Englisch?", "es": "¿Habla usted inglés?" }
+      ],
+      "tables": [
+        {
+          "headers": ["Persona", "Alemán", "Español"],
+          "rows": [
+            ["1ª sg.", "<b>ich</b>", "yo"],
+            ["2ª sg.", "<b>du</b>", "tú"],
+            ["3ª sg.", "<b>er / sie / es</b>", "él / ella / ello"],
+            ["1ª pl.", "<b>wir</b>", "nosotros"],
+            ["2ª pl.", "<b>ihr</b>", "vosotros"],
+            ["3ª pl.", "<b>sie</b>", "ellos/ellas"],
+            ["cortesía", "<b>Sie</b> (mayúscula)", "usted / ustedes"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b01-s1q1",
+          "question": "1. «¿Vive usted en Múnich?» → <span class=\"blank\">___</span> Sie in München?",
+          "options": ["Wohnen", "Wohnst", "Wohnt"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s1q2",
+          "question": "2. «Ellos vienen mañana.» → <span class=\"blank\">___</span> kommen morgen.",
+          "options": ["Sie", "sie", "ihr"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s1q3",
+          "question": "3. Le escribes un correo a tu jefe alemán al que conoces poco. ¿Qué tratamiento usas?",
+          "options": ["du", "ihr", "Sie"],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b01-s1",
+        "label": "<b>tu turno:</b> preséntate con dos frases usando <i>ich</i> y una tercera sobre otra persona con <i>er</i> o <i>sie</i>.",
+        "placeholder": "Ej: Ich heiße Ángel. Ich komme aus Spanien. Er wohnt in Madrid."
+      }
+    },
+    {
+      "idx": "1.2",
+      "title": "El género y los artículos definidos: der, die, das",
+      "level": "A1",
+      "rule": "Todo sustantivo tiene uno de tres géneros: <b>der</b> (masculino), <b>die</b> (femenino), <b>das</b> (neutro). El plural es siempre <b>die</b>. El género es gramatical, no lógico (<i>das Mädchen</i>, la chica, es neutro), y <b>no se puede adivinar desde el español</b>: apréndelo como parte de la palabra.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Algunas terminaciones sí delatan el género: <b>femeninas</b> casi siempre: -ung, -heit, -keit, -schaft, -ion, -tät (<i>die Zeitung, die Freiheit, die Universität</i>). <b>Neutras</b>: -chen, -lein (diminutivos: <i>das Mädchen</i>), -um (<i>das Zentrum</i>). <b>Masculinas</b>: -er de agente (<i>der Lehrer</i>), -ling, -ismus. Cubren miles de palabras."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Aprende siempre <b>artículo + sustantivo + plural</b> como una sola unidad: no «Tisch» sino «<b>der</b> Tisch, <b>die</b> Tische». Todo el sistema de casos (bloques 02 y 03) se apoya en saber el género."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Der Mann</span> <span class=\"r-verb\">ist</span> nett.", "es": "El hombre es amable." },
+        { "en": "<span class=\"r-nom\">Die Frau</span> <span class=\"r-verb\">kommt</span> aus Österreich.", "es": "La mujer viene de Austria." },
+        { "en": "<span class=\"r-nom\">Das Kind</span> <span class=\"r-verb\">spielt</span> im Garten.", "es": "El niño juega en el jardín." },
+        { "en": "<span class=\"r-nom\">Die Bücher</span> <span class=\"r-verb\">sind</span> neu.", "es": "Los libros son nuevos. (plural → die)" },
+        { "en": "<span class=\"r-nom\">Die Sonne</span> <span class=\"r-verb\">scheint</span>, <span class=\"r-nom\">der Mond</span> <span class=\"r-verb\">scheint</span> nicht.", "es": "El sol brilla, la luna no. (¡géneros invertidos respecto al español!)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Género", "Artículo", "Ejemplo", "Pista frecuente"],
+          "rows": [
+            ["masculino", "<b>der</b>", "der Tisch, der Lehrer", "-er (agente), -ling, -ismus, días, meses, estaciones"],
+            ["femenino", "<b>die</b>", "die Lampe, die Zeitung", "-ung, -heit, -keit, -schaft, -ion, -tät, -e (mayoría)"],
+            ["neutro", "<b>das</b>", "das Buch, das Mädchen", "-chen, -lein, -um, -ment, infinitivos sustantivados"],
+            ["plural", "<b>die</b>", "die Tische, die Bücher", "siempre die, sea cual sea el género"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b01-s2q1",
+          "question": "1. <span class=\"blank\">___</span> Zeitung ist interessant. (la terminación -ung lo delata)",
+          "options": ["Der", "Die", "Das"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s2q2",
+          "question": "2. <span class=\"blank\">___</span> Mädchen singt. (¡es un diminutivo en -chen!)",
+          "options": ["Der", "Die", "Das"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s2q3",
+          "question": "3. «Los coches son caros.» → <span class=\"blank\">___</span> Autos sind teuer.",
+          "options": ["Das", "Der", "Die"],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b01-s2",
+        "label": "<b>tu turno:</b> escribe tres frases con un sustantivo de cada género (der/die/das) y su artículo correcto.",
+        "placeholder": "Ej: Der Kaffee ist heiß. Die Lampe ist alt. Das Fenster ist offen."
+      }
+    },
+    {
+      "idx": "1.3",
+      "title": "El artículo indefinido ein/eine y la negación kein",
+      "level": "A1",
+      "rule": "«Un/una» se dice <b>ein</b> (masculino y neutro) o <b>eine</b> (femenino). Para negar un sustantivo no se usa <i>nicht ein</i>, sino <b>kein/keine</b>: <i>Ich habe <b>kein</b> Auto</i> = no tengo coche. <b>kein</b> se declina exactamente igual que <b>ein</b>, pero además tiene plural: <b>keine</b>.",
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "<b>ein no tiene plural</b>: «unos libros» es simplemente <i>Bücher</i> (sin artículo). Pero <b>kein sí</b>: <i>keine Bücher</i> = ningún libro / no… libros."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Regla rápida para negar: ¿el sustantivo lleva <i>ein</i> o va sin artículo? → niega con <b>kein</b>. ¿Lleva artículo determinado o es otro elemento (verbo, adjetivo)? → niega con <b>nicht</b>. <i>Das ist <b>nicht</b> mein Auto</i> vs. <i>Ich habe <b>kein</b> Auto</i>."
+        }
+      ],
+      "examples": [
+        { "en": "Das ist <span class=\"r-nom\">ein Buch</span>.", "es": "Esto es un libro." },
+        { "en": "Das ist <span class=\"r-nom\">eine Lampe</span>.", "es": "Esto es una lámpara." },
+        { "en": "Ich <span class=\"r-verb\">habe</span> kein Fahrrad.", "es": "No tengo bicicleta." },
+        { "en": "Sie <span class=\"r-verb\">hat</span> keine Zeit.", "es": "Ella no tiene tiempo." },
+        { "en": "Wir <span class=\"r-verb\">haben</span> keine Fragen.", "es": "No tenemos preguntas. (plural de kein)" }
+      ],
+      "tables": [
+        {
+          "headers": ["", "masculino", "femenino", "neutro", "plural"],
+          "rows": [
+            ["indefinido", "ein Mann", "eine Frau", "ein Kind", "— (Kinder)"],
+            ["negación", "kein Mann", "keine Frau", "kein Kind", "keine Kinder"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b01-s3q1",
+          "question": "1. Das ist <span class=\"blank\">___</span> Universität. (die Universität)",
+          "options": ["ein", "eine", "einen"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s3q2",
+          "question": "2. «No tengo tiempo.» → Ich habe <span class=\"blank\">___</span> Zeit.",
+          "options": ["nicht", "keine", "kein"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s3q3",
+          "question": "3. «Ese no es mi problema.» → Das ist <span class=\"blank\">___</span> mein Problem.",
+          "options": ["kein", "keine", "nicht"],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b01-s3",
+        "label": "<b>tu turno:</b> escribe una frase afirmativa con <i>ein/eine</i> y su versión negada con <i>kein/keine</i>.",
+        "placeholder": "Ej: Ich habe eine Katze. → Ich habe keine Katze."
+      }
+    },
+    {
+      "idx": "1.4",
+      "title": "Los posesivos: mein, dein, sein…",
+      "level": "A1",
+      "rule": "Cada persona tiene su posesivo: <b>mein</b> (mi), <b>dein</b> (tu), <b>sein</b> (su, de él/ello), <b>ihr</b> (su, de ella), <b>unser</b> (nuestro), <b>euer</b> (vuestro), <b>ihr</b> (su, de ellos), <b>Ihr</b> (su, de usted). Todos se declinan <b>igual que ein</b> (por eso se llaman «ein-Wörter»): <i>mein Vater, meine Mutter, mein Kind, meine Eltern</i>.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "En 3ª persona el posesivo depende del <b>poseedor</b>, no de la cosa poseída: <i><b>sein</b> Auto</i> = el coche de él · <i><b>ihr</b> Auto</i> = el coche de ella. La terminación (-e, -en…) sí depende de la cosa poseída y su caso."
+        },
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "<b>euer</b> pierde la <i>e</i> interior al llevar terminación: <i>euer Haus</i> pero <i>eu<b>r</b>e Wohnung</i> (no ~~euere~~)."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Mein Bruder</span> <span class=\"r-verb\">heißt</span> Luis.", "es": "Mi hermano se llama Luis." },
+        { "en": "<span class=\"r-verb\">Ist</span> das <span class=\"r-nom\">deine Tasche</span>?", "es": "¿Es esta tu bolsa?" },
+        { "en": "Das ist Anna. <span class=\"r-nom\">Ihr Auto</span> <span class=\"r-verb\">ist</span> rot.", "es": "Esta es Anna. Su coche (de ella) es rojo." },
+        { "en": "Das ist Max. <span class=\"r-nom\">Sein Auto</span> <span class=\"r-verb\">ist</span> blau.", "es": "Este es Max. Su coche (de él) es azul." },
+        { "en": "<span class=\"r-nom\">Unsere Wohnung</span> <span class=\"r-verb\">ist</span> klein, aber schön.", "es": "Nuestro piso es pequeño, pero bonito." }
+      ],
+      "tables": [
+        {
+          "headers": ["Poseedor", "Posesivo", "Ejemplo"],
+          "rows": [
+            ["ich", "<b>mein</b>", "mein Hund, meine Katze"],
+            ["du", "<b>dein</b>", "dein Buch, deine Idee"],
+            ["er / es", "<b>sein</b>", "sein Vater, seine Mutter"],
+            ["sie (ella)", "<b>ihr</b>", "ihr Vater, ihre Mutter"],
+            ["wir", "<b>unser</b>", "unser Haus, unsere Stadt"],
+            ["ihr", "<b>euer</b>", "euer Auto, eure Wohnung"],
+            ["sie (ellos)", "<b>ihr</b>", "ihr Plan, ihre Pläne"],
+            ["Sie (usted)", "<b>Ihr</b>", "Ihr Name, Ihre Adresse"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b01-s4q1",
+          "question": "1. Das ist Maria. <span class=\"blank\">___</span> Hund ist süß. (el perro de ella)",
+          "options": ["Sein", "Ihr", "Dein"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s4q2",
+          "question": "2. «¿Cuál es su dirección (de usted)?» → Wie ist <span class=\"blank\">___</span> Adresse?",
+          "options": ["ihre", "Ihre", "deine"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s4q3",
+          "question": "3. «Vuestro piso es grande.» → <span class=\"blank\">___</span> Wohnung ist groß.",
+          "options": ["Euere", "Eure", "Euer"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b01-s4",
+        "label": "<b>tu turno:</b> describe algo de tu familia con dos posesivos distintos (<i>mein, sein, ihr, unser…</i>).",
+        "placeholder": "Ej: Meine Schwester wohnt in Valencia. Ihre Wohnung ist sehr modern."
+      }
+    }
+  ]
+}

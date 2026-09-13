@@ -1,0 +1,229 @@
+{
+  "block": "04",
+  "title": "Preposiciones por caso",
+  "kicker": "Bloque 04 · A2–B1",
+  "intro": "En alemán cada preposición <b class=\"hl\">rige un caso</b>: unas siempre Acusativo, otras siempre Dativo, y un grupo de nueve (las <b class=\"hl\">Wechselpräpositionen</b>) cambia según haya <b class=\"hl\">movimiento o ubicación</b>. Las listas completas están también en el Glosario.",
+  "legend": [
+    { "label": "Akkusativ", "desc": "tras prep. de Akk o con movimiento", "role": "akk" },
+    { "label": "Dativ", "desc": "tras prep. de Dat o con ubicación", "role": "dat" },
+    { "label": "verbo", "desc": "conjugado", "role": "verb" }
+  ],
+  "sections": [
+    {
+      "idx": "4.1",
+      "title": "Siempre + Acusativo: durch, für, gegen, ohne, um",
+      "level": "A2",
+      "rule": "Cinco preposiciones rigen <b>siempre Acusativo</b>, pase lo que pase: <b>durch</b> (a través de), <b>für</b> (para), <b>gegen</b> (contra, hacia ~hora), <b>ohne</b> (sin), <b>um</b> (alrededor de, a las ~hora).",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Mnemotecnia clásica: <b>«dogfu»</b> — <b>d</b>urch, <b>o</b>hne, <b>g</b>egen, <b>f</b>ür, <b>u</b>m. O cántalas con cualquier melodía que se te pegue: son solo cinco."
+        }
+      ],
+      "examples": [
+        { "en": "Wir <span class=\"r-verb\">gehen</span> <span class=\"r-akk\">durch den Park</span>.", "es": "Vamos a través del parque." },
+        { "en": "Das Geschenk <span class=\"r-verb\">ist</span> <span class=\"r-akk\">für meinen Bruder</span>.", "es": "El regalo es para mi hermano." },
+        { "en": "Ich <span class=\"r-verb\">habe</span> nichts <span class=\"r-akk\">gegen den Plan</span>.", "es": "No tengo nada contra el plan." },
+        { "en": "<span class=\"r-akk\">Ohne dich</span> <span class=\"r-verb\">gehe</span> ich nicht.", "es": "Sin ti no voy." },
+        { "en": "Wir <span class=\"r-verb\">sitzen</span> <span class=\"r-akk\">um den Tisch</span>.", "es": "Estamos sentados alrededor de la mesa." }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b04-s1q1",
+          "question": "1. Das ist ein Geschenk für <span class=\"blank\">___</span> Vater.",
+          "options": ["meinem", "meinen", "mein"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s1q2",
+          "question": "2. Ohne <span class=\"blank\">___</span> Auto komme ich nicht zur Arbeit.",
+          "options": ["das", "dem", "des"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s1q3",
+          "question": "3. Der Bus fährt durch <span class=\"blank\">___</span> Stadt.",
+          "options": ["der", "die", "den"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b04-s1",
+        "label": "<b>tu turno:</b> escribe dos frases usando preposiciones de Acusativo distintas.",
+        "placeholder": "Ej: Ich kaufe Blumen für meine Mutter. Wir laufen durch den Wald."
+      }
+    },
+    {
+      "idx": "4.2",
+      "title": "Siempre + Dativo: aus, bei, mit, nach, seit, von, zu",
+      "level": "A2",
+      "rule": "Estas rigen <b>siempre Dativo</b>: <b>aus</b> (de, desde dentro), <b>bei</b> (en casa de / cerca de / en ~empresa), <b>mit</b> (con), <b>nach</b> (a ~ciudad/país, después de), <b>seit</b> (desde ~tiempo), <b>von</b> (de, desde), <b>zu</b> (a, hacia ~persona/lugar). También <b>gegenüber</b> (enfrente de) y <b>außer</b> (excepto).",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>seit + Präsens</b>: para «llevo X tiempo haciendo algo» el alemán usa presente, no pasado: <i>Ich lerne <b>seit zwei Jahren</b> Deutsch</i> = llevo dos años aprendiendo alemán."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "¿<b>nach</b> o <b>zu</b>? <b>nach</b> para ciudades y países sin artículo (<i>nach Berlin, nach Spanien</i>) y <i>nach Hause</i> (a casa); <b>zu</b> para personas, tiendas y lugares concretos (<i>zu meiner Oma, zum Arzt, zur Post</i>)."
+        }
+      ],
+      "examples": [
+        { "en": "Sie <span class=\"r-verb\">kommt</span> <span class=\"r-dat\">aus der Schweiz</span>.", "es": "Ella viene de Suiza." },
+        { "en": "Ich <span class=\"r-verb\">fahre</span> <span class=\"r-dat\">mit dem Zug</span> <span class=\"r-verb\">nach</span> Hamburg.", "es": "Voy en tren a Hamburgo." },
+        { "en": "Er <span class=\"r-verb\">wohnt</span> noch <span class=\"r-dat\">bei seinen Eltern</span>.", "es": "Todavía vive en casa de sus padres." },
+        { "en": "<span class=\"r-dat\">Seit einem Monat</span> <span class=\"r-verb\">arbeite</span> ich hier.", "es": "Trabajo aquí desde hace un mes." },
+        { "en": "<span class=\"r-verb\">Gehst</span> du morgen <span class=\"r-dat\">zum Arzt</span>?", "es": "¿Vas mañana al médico?" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b04-s2q1",
+          "question": "1. Ich fahre mit <span class=\"blank\">___</span> Bus.",
+          "options": ["den", "dem", "der"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s2q2",
+          "question": "2. «Llevo tres años viviendo aquí.» → Ich wohne hier seit drei <span class=\"blank\">___</span>.",
+          "options": ["Jahre", "Jahren", "Jahres"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s2q3",
+          "question": "3. «Voy a casa de mi abuela.» → Ich gehe <span class=\"blank\">___</span> meiner Oma.",
+          "options": ["nach", "zu", "bei"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b04-s2",
+        "label": "<b>tu turno:</b> describe cómo vas al trabajo o a clase usando <i>mit</i> + transporte y <i>zu/nach</i> + destino.",
+        "placeholder": "Ej: Ich fahre mit der U-Bahn zur Arbeit. Danach gehe ich nach Hause."
+      }
+    },
+    {
+      "idx": "4.3",
+      "title": "Wechselpräpositionen: ¿wohin? → Akk · ¿wo? → Dat",
+      "level": "B1",
+      "rule": "Nueve preposiciones de lugar cambian de caso: <b>in, an, auf, über, unter, vor, hinter, neben, zwischen</b>. Con <b>movimiento hacia</b> un destino (pregunta <b>wohin?</b>) → <b>Acusativo</b>. Con <b>ubicación estática</b> (pregunta <b>wo?</b>) → <b>Dativo</b>. <i>Ich gehe <b>in die</b> Küche</i> (entro) vs. <i>Ich bin <b>in der</b> Küche</i> (estoy).",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "La clave no es que el verbo «se mueva», sino si hay <b>cambio de lugar</b> hacia un destino. <i>Ich laufe <b>im</b> Park</i> (corro por dentro del parque, Dativ: no salgo de él) vs. <i>Ich laufe <b>in den</b> Park</i> (corro hacia dentro del parque, Akk)."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Pares de verbos que te delatan el caso: <b>stellen/stehen</b> (poner de pie/estar de pie), <b>legen/liegen</b> (tumbar/estar tumbado), <b>setzen/sitzen</b>, <b>hängen</b> (colgar). El de acción → Akk; el de estado → Dat: <i>Ich <b>stelle</b> die Vase <b>auf den</b> Tisch. Die Vase <b>steht auf dem</b> Tisch.</i>"
+        }
+      ],
+      "examples": [
+        { "en": "Ich <span class=\"r-verb\">gehe</span> <span class=\"r-akk\">in die Küche</span>.", "es": "Voy a la cocina. (wohin? → Akk)" },
+        { "en": "Ich <span class=\"r-verb\">bin</span> <span class=\"r-dat\">in der Küche</span>.", "es": "Estoy en la cocina. (wo? → Dat)" },
+        { "en": "Er <span class=\"r-verb\">hängt</span> das Bild <span class=\"r-akk\">an die Wand</span>.", "es": "Él cuelga el cuadro en la pared. (movimiento)" },
+        { "en": "Das Bild <span class=\"r-verb\">hängt</span> <span class=\"r-dat\">an der Wand</span>.", "es": "El cuadro cuelga en la pared. (ubicación)" },
+        { "en": "Die Katze <span class=\"r-verb\">springt</span> <span class=\"r-akk\">auf den Tisch</span> und <span class=\"r-verb\">schläft</span> jetzt <span class=\"r-dat\">auf dem Tisch</span>.", "es": "El gato salta a la mesa y ahora duerme sobre la mesa." }
+      ],
+      "tables": [
+        {
+          "headers": ["Pregunta", "Caso", "Ejemplo"],
+          "rows": [
+            ["<b>Wohin?</b> ¿hacia dónde? (movimiento)", "<b>Akkusativ</b>", "Ich lege das Buch <b>auf den</b> Tisch."],
+            ["<b>Wo?</b> ¿dónde? (ubicación)", "<b>Dativ</b>", "Das Buch liegt <b>auf dem</b> Tisch."]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b04-s3q1",
+          "question": "1. Wir fahren am Wochenende <span class=\"blank\">___</span> Berge. (die Berge, pl.)",
+          "options": ["in den", "in die", "in der"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s3q2",
+          "question": "2. Der Schlüssel liegt <span class=\"blank\">___</span> Tisch. (der Tisch)",
+          "options": ["auf den", "auf dem", "auf der"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s3q3",
+          "question": "3. Ich stelle die Flasche <span class=\"blank\">___</span> Kühlschrank. (der Kühlschrank)",
+          "options": ["in den", "in dem", "in das"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b04-s3",
+        "label": "<b>tu turno:</b> escribe un par movimiento/ubicación con la misma preposición (wohin → Akk / wo → Dat).",
+        "placeholder": "Ej: Ich hänge die Lampe über den Tisch. Die Lampe hängt über dem Tisch."
+      }
+    },
+    {
+      "idx": "4.4",
+      "title": "Contracciones: im, ins, am, zum, zur…",
+      "level": "A2",
+      "rule": "Preposición + artículo se funden en formas fijas: <b>in dem → im</b>, <b>in das → ins</b>, <b>an dem → am</b>, <b>an das → ans</b>, <b>zu dem → zum</b>, <b>zu der → zur</b>, <b>bei dem → beim</b>, <b>von dem → vom</b>. Son obligatorias en el uso normal — <i>in dem Kino</i> suena enfático o raro; se dice <i>im Kino</i>.",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Las contracciones te chivan el caso: <b>im/am/beim/vom/zum/zur</b> esconden un <b>Dativo</b>; <b>ins/ans</b> esconden un <b>Acusativo</b>. Si escribes <i>ins Kino</i>, ya estás diciendo «movimiento hacia el cine»."
+        }
+      ],
+      "examples": [
+        { "en": "Wir <span class=\"r-verb\">gehen</span> heute <span class=\"r-akk\">ins Kino</span>.", "es": "Hoy vamos al cine. (in das → ins, movimiento)" },
+        { "en": "Gestern waren wir <span class=\"r-dat\">im Kino</span>.", "es": "Ayer estuvimos en el cine. (in dem → im, ubicación)" },
+        { "en": "<span class=\"r-dat\">Am Montag</span> <span class=\"r-verb\">fahre</span> ich <span class=\"r-dat\">zur Arbeit</span>.", "es": "El lunes voy al trabajo." },
+        { "en": "Er <span class=\"r-verb\">ist</span> <span class=\"r-dat\">beim Arzt</span>.", "es": "Él está en el médico." },
+        { "en": "Das Brot <span class=\"r-verb\">kommt</span> <span class=\"r-dat\">vom Bäcker</span>.", "es": "El pan viene de la panadería." }
+      ],
+      "tables": [
+        {
+          "headers": ["Contracción", "Origen", "Caso oculto"],
+          "rows": [
+            ["<b>im</b>", "in dem", "Dativ"],
+            ["<b>ins</b>", "in das", "Akkusativ"],
+            ["<b>am</b>", "an dem", "Dativ"],
+            ["<b>ans</b>", "an das", "Akkusativ"],
+            ["<b>zum</b>", "zu dem", "Dativ"],
+            ["<b>zur</b>", "zu der", "Dativ"],
+            ["<b>beim</b>", "bei dem", "Dativ"],
+            ["<b>vom</b>", "von dem", "Dativ"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b04-s4q1",
+          "question": "1. Ich gehe <span class=\"blank\">___</span> Supermarkt. (movimiento, der Supermarkt → zu + dem)",
+          "options": ["zur", "zum", "ins"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s4q2",
+          "question": "2. «Estamos en el cine.» → Wir sind <span class=\"blank\">___</span> Kino.",
+          "options": ["ins", "im", "am"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s4q3",
+          "question": "3. «ins» esconde el caso…",
+          "options": ["Dativ", "Genitiv", "Akkusativ"],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b04-s4",
+        "label": "<b>tu turno:</b> cuenta tu sábado ideal con al menos tres contracciones (<i>ins, im, zum, zur, am…</i>).",
+        "placeholder": "Ej: Am Samstag gehe ich zum Markt, dann ins Café und abends bin ich im Theater."
+      }
+    }
+  ]
+}

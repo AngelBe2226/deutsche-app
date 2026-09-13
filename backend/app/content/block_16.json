@@ -1,0 +1,201 @@
+{
+  "block": "16",
+  "title": "Frases idiomáticas (Redewendungen)",
+  "kicker": "Bloque 16 · B1–C1",
+  "intro": "Las <b class=\"hl\">Redewendungen</b> son la sal del alemán hablado: no se traducen literalmente («entiendo solo estación» = no entiendo nada). Aquí van las 40 más útiles, agrupadas por tema. En el panel de <b class=\"hl\">Práctica</b> tienes flashcards para repasarlas.",
+  "legend": [
+    { "label": "verbo", "desc": "conjugado", "role": "verb" }
+  ],
+  "sections": [
+    {
+      "idx": "16.1",
+      "title": "Las del día a día",
+      "level": "B1",
+      "rule": "Las que oirás en cualquier conversación desde el primer día. Apréndelas <b>como bloques completos con su contexto</b>: qué se dice, cuándo, y qué respondería un nativo. La estrella absoluta: <b>Daumen drücken</b> (apretar los pulgares = cruzar los dedos).",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "En Alemania no se cruzan los dedos, <b>se aprietan los pulgares</b>: <i>Ich drücke dir die Daumen!</i> es LO que se dice antes de un examen o entrevista. Respuesta natural: <i>Danke!</i>"
+        }
+      ],
+      "examples": [
+        { "en": "Morgen habe ich die Prüfung. — Ich <span class=\"r-verb\">drücke</span> dir die Daumen!", "es": "Mañana tengo el examen. — ¡Te deseo suerte! (lit.: te aprieto los pulgares)" },
+        { "en": "Kaffee oder Tee? — Das <span class=\"r-verb\">ist</span> mir Wurst.", "es": "¿Café o té? — Me da igual. (lit.: me es salchicha)" },
+        { "en": "Ich <span class=\"r-verb\">verstehe</span> nur Bahnhof.", "es": "No entiendo nada. (lit.: solo entiendo «estación»)" },
+        { "en": "Ich <span class=\"r-verb\">habe</span> die Nase voll von diesem Wetter!", "es": "¡Estoy harto de este tiempo! (lit.: tengo la nariz llena)" },
+        { "en": "Du <span class=\"r-verb\">hast</span> Schwein gehabt!", "es": "¡Qué suerte has tenido! (lit.: has tenido cerdo)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Redewendung", "Literal", "Significado"],
+          "rows": [
+            ["Daumen drücken", "apretar los pulgares", "desear suerte"],
+            ["Das ist mir Wurst", "me es salchicha", "me da igual"],
+            ["nur Bahnhof verstehen", "entender solo «estación»", "no entender nada"],
+            ["die Nase voll haben", "tener la nariz llena", "estar harto"],
+            ["Schwein haben", "tener cerdo", "tener suerte"],
+            ["ins Fettnäpfchen treten", "pisar el cuenco de grasa", "meter la pata"],
+            ["unter vier Augen", "entre cuatro ojos", "a solas, en privado"],
+            ["Hals über Kopf", "cuello sobre cabeza", "precipitadamente"],
+            ["auf Wolke sieben schweben", "flotar en la nube siete", "estar en una nube"],
+            ["die Kirche im Dorf lassen", "dejar la iglesia en el pueblo", "no exagerar"],
+            ["um den heißen Brei herumreden", "hablar alrededor de la papilla caliente", "andarse con rodeos"],
+            ["zwei Fliegen mit einer Klappe schlagen", "dos moscas de un golpe", "dos pájaros de un tiro"],
+            ["ein Auge zudrücken", "cerrar un ojo", "hacer la vista gorda"],
+            ["etwas auf die lange Bank schieben", "empujar algo al banco largo", "dar largas a algo"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b16-s1q1",
+          "question": "1. Tu amigo tiene mañana una entrevista. Le dices:",
+          "options": ["Ich drücke dir die Daumen!", "Das ist mir Wurst!", "Du hast einen Vogel!"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s1q2",
+          "question": "2. «Ich verstehe nur Bahnhof» significa…",
+          "options": ["Estoy en la estación", "No entiendo nada", "Entiendo un poco"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s1q3",
+          "question": "3. «Me da igual» en coloquial:",
+          "options": ["Das ist mir Wurst.", "Das ist mir Käse.", "Das ist mir Brot."],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b16-s1",
+        "label": "<b>tu turno:</b> escribe un mini-diálogo de dos líneas usando una Redewendung de la tabla.",
+        "placeholder": "Ej: — Wollen wir Pizza oder Pasta essen? — Das ist mir Wurst, ich habe einfach Hunger!"
+      }
+    },
+    {
+      "idx": "16.2",
+      "title": "Con animales",
+      "level": "B2",
+      "rule": "El alemán mete animales en todo: cerdos para la suerte, pájaros para la locura, perros enterrados para los misterios. Ojo con <b>einen Vogel haben</b> («tener un pájaro» = estar mal de la cabeza) — es informal y puede ofender si lo dices en serio.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>Schwein haben</b> (suerte inmerecida, librarse por los pelos) no es lo mismo que <b>Glück haben</b> (suerte en general). Si apruebas sin estudiar: <i>Da hast du Schwein gehabt!</i>"
+        }
+      ],
+      "examples": [
+        { "en": "Da <span class=\"r-verb\">liegt</span> der Hund begraben!", "es": "¡Ahí está el quid de la cuestión! (lit.: ahí está enterrado el perro)" },
+        { "en": "Du <span class=\"r-verb\">machst</span> aus einer Mücke einen Elefanten.", "es": "Haces una montaña de un grano de arena. (lit.: de un mosquito, un elefante)" },
+        { "en": "<span class=\"r-verb\">Kauf</span> nicht die Katze im Sack!", "es": "¡No compres a ciegas! (lit.: el gato en el saco)" },
+        { "en": "Er <span class=\"r-verb\">ist</span> bekannt wie ein bunter Hund.", "es": "Lo conoce todo el mundo. (lit.: conocido como un perro de colores)" },
+        { "en": "Sie <span class=\"r-verb\">bringt</span> mich auf die Palme!", "es": "¡Me saca de mis casillas! (lit.: me sube a la palmera)" }
+      ],
+      "tables": [
+        {
+          "headers": ["Redewendung", "Literal", "Significado"],
+          "rows": [
+            ["da liegt der Hund begraben", "ahí está enterrado el perro", "ese es el quid"],
+            ["aus einer Mücke einen Elefanten machen", "de un mosquito un elefante", "exagerar un problema"],
+            ["die Katze im Sack kaufen", "comprar el gato en el saco", "comprar a ciegas"],
+            ["einen Vogel haben", "tener un pájaro", "estar mal de la cabeza"],
+            ["bekannt wie ein bunter Hund", "conocido como perro de colores", "conocidísimo"],
+            ["jemanden auf die Palme bringen", "subir a alguien a la palmera", "sacar de quicio"],
+            ["wie ein Elefant im Porzellanladen", "elefante en tienda de porcelana", "sin ningún tacto"],
+            ["mit jemandem ein Hühnchen rupfen", "desplumar un pollito con alguien", "tener cuentas pendientes"],
+            ["die Flinte ins Korn werfen", "tirar la escopeta al trigal", "tirar la toalla"],
+            ["sich zum Affen machen", "hacerse el mono", "hacer el ridículo"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b16-s2q1",
+          "question": "1. Tu colega convierte un problemilla en drama. Le dices que no haga…",
+          "options": ["aus einer Mücke einen Elefanten", "die Katze im Sack", "einen bunten Hund"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s2q2",
+          "question": "2. Comprar algo sin verlo antes es…",
+          "options": ["den Hund begraben", "die Katze im Sack kaufen", "Schwein haben"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s2q3",
+          "question": "3. «rendirse» con imagen de caza:",
+          "options": ["die Flinte ins Korn werfen", "auf die Palme bringen", "ein Hühnchen rupfen"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b16-s2",
+        "label": "<b>tu turno:</b> describe una situación tuya real con una Redewendung animal.",
+        "placeholder": "Ej: Mein Nachbar bringt mich auf die Palme, weil er nachts laut Musik hört."
+      }
+    },
+    {
+      "idx": "16.3",
+      "title": "Con partes del cuerpo",
+      "level": "B2",
+      "rule": "Pulgares, narices, pelos en los dientes… Las corporales son de las más usadas. Imprescindibles: <b>Hand und Fuß haben</b> (tener pies y cabeza — ¡en alemán, mano y pie!), <b>kalte Füße bekommen</b> (acobardarse) y <b>Tomaten auf den Augen haben</b> (no ver lo evidente).",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>Haare auf den Zähnen haben</b> (pelos en los dientes) = tener carácter fuerte, ser de armas tomar — se dice sobre todo de personas que no se dejan pisar. No es exactamente un insulto, pero tampoco un piropo."
+        }
+      ],
+      "examples": [
+        { "en": "Dein Plan <span class=\"r-verb\">hat</span> Hand und Fuß.", "es": "Tu plan tiene pies y cabeza. (lit.: mano y pie)" },
+        { "en": "Kurz vor der Hochzeit <span class=\"r-verb\">hat</span> er kalte Füße bekommen.", "es": "Justo antes de la boda se acobardó. (lit.: pies fríos)" },
+        { "en": "<span class=\"r-verb\">Hast</span> du Tomaten auf den Augen?!", "es": "¡¿No ves lo evidente?! (lit.: ¿tienes tomates en los ojos?)" },
+        { "en": "Meine Chefin <span class=\"r-verb\">hat</span> Haare auf den Zähnen.", "es": "Mi jefa es de armas tomar. (lit.: tiene pelos en los dientes)" },
+        { "en": "Ich <span class=\"r-verb\">habe</span> den Faden verloren — wo war ich?", "es": "He perdido el hilo — ¿por dónde iba?" }
+      ],
+      "tables": [
+        {
+          "headers": ["Redewendung", "Literal", "Significado"],
+          "rows": [
+            ["Hand und Fuß haben", "tener mano y pie", "estar bien pensado"],
+            ["kalte Füße bekommen", "tener los pies fríos", "acobardarse, echarse atrás"],
+            ["Tomaten auf den Augen haben", "tomates en los ojos", "no ver lo evidente"],
+            ["Haare auf den Zähnen haben", "pelos en los dientes", "carácter fuerte"],
+            ["die Beine in die Hand nehmen", "coger las piernas con la mano", "salir corriendo"],
+            ["die Ohren spitzen", "afilar las orejas", "aguzar el oído"],
+            ["auf großem Fuß leben", "vivir en pie grande", "vivir a lo grande"],
+            ["den Faden verlieren", "perder el hilo", "perder el hilo (¡igual!)"],
+            ["ins kalte Wasser springen", "saltar al agua fría", "lanzarse sin experiencia"],
+            ["das Handtuch werfen", "tirar la toalla", "rendirse (¡igual!)"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b16-s3q1",
+          "question": "1. Un proyecto sólido y bien argumentado «<span class=\"blank\">___</span>».",
+          "options": ["hat Hand und Fuß", "hat kalte Füße", "hat Haare auf den Zähnen"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s3q2",
+          "question": "2. Iba a lanzarse pero al final se echó atrás: er hat <span class=\"blank\">___</span> bekommen.",
+          "options": ["große Ohren", "kalte Füße", "lange Beine"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s3q3",
+          "question": "3. Empezar un trabajo nuevo sin experiencia previa es «<span class=\"blank\">___</span>».",
+          "options": ["ins kalte Wasser springen", "auf großem Fuß leben", "die Ohren spitzen"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b16-s3",
+        "label": "<b>tu turno:</b> ¿cuándo has «saltado al agua fría» o «perdido el hilo»? Cuéntalo con la Redewendung.",
+        "placeholder": "Ej: Bei meinem ersten Job in Deutschland bin ich ins kalte Wasser gesprungen."
+      }
+    }
+  ]
+}

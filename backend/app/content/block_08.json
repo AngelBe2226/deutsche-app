@@ -1,0 +1,209 @@
+{
+  "block": "08",
+  "title": "Estructura de la oración: el verbo en 2ª posición",
+  "kicker": "Bloque 08 · A1–A2",
+  "intro": "La regla más importante de todo el alemán: en la frase declarativa, <b class=\"hl\">el verbo conjugado ocupa SIEMPRE la 2ª posición</b>. No la segunda palabra: el segundo <b class=\"hl\">bloque de información</b>. Todo lo demás (inversión, Satzklammer, subordinadas) son consecuencias de esta regla.",
+  "legend": [
+    { "label": "sujeto", "desc": "Nominativ", "role": "nom" },
+    { "label": "verbo", "desc": "conjugado, clavado en 2ª posición", "role": "verb" },
+    { "label": "prefijo/resto verbal", "desc": "cierra la frase", "role": "sep" }
+  ],
+  "sections": [
+    {
+      "idx": "8.1",
+      "title": "V2: el verbo, clavado en la posición 2",
+      "level": "A1",
+      "rule": "En una frase declarativa el verbo conjugado va en la <b>posición 2</b>. La posición 1 la ocupa <b>un solo elemento</b> — normalmente el sujeto, pero puede ser cualquier otra cosa (un adverbio, un complemento…). «Posición» = bloque de sentido completo: <i>Meine beste Freundin aus Wien</i> entero es UNA posición.",
+      "notes": [
+        {
+          "type": "why",
+          "at": "end",
+          "text": "¿Por qué «posición» y no «palabra»? Porque el alemán cuenta <b>constituyentes</b>: bloques que responden a una pregunta (¿quién? ¿cuándo? ¿dónde?). <i>[Am nächsten Montag] [fliege] [ich]…</i> — tres palabras, pero la posición 1 es una sola."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">trinke</span> jeden Morgen Kaffee.", "es": "Bebo café cada mañana." },
+        { "en": "<span class=\"r-nom\">Meine Schwester aus Madrid</span> <span class=\"r-verb\">besucht</span> mich morgen.", "es": "Mi hermana de Madrid me visita mañana. (posición 1 = todo el bloque)" },
+        { "en": "<span class=\"r-nom\">Das Wetter</span> <span class=\"r-verb\">ist</span> heute fantastisch.", "es": "El tiempo hoy es fantástico." },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">lernen</span> zusammen Deutsch.", "es": "Aprendemos alemán juntos." }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b08-s1q1",
+          "question": "1. ¿Cuál respeta la regla V2?",
+          "options": ["Heute ich gehe ins Kino.", "Heute gehe ich ins Kino.", "Ich heute gehe ins Kino."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s1q2",
+          "question": "2. En «Mein bester Freund aus der Schule wohnt in Hamburg», ¿qué posición ocupa «wohnt»?",
+          "options": ["La 2ª (correcto: la posición 1 es todo el sujeto)", "La 6ª (cada palabra cuenta)", "La 1ª"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s1q3",
+          "question": "3. La regla V2 dice que en 2ª posición va…",
+          "options": ["el sujeto", "el verbo conjugado", "el objeto directo"],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b08-s1",
+        "label": "<b>tu turno:</b> escribe dos frases declarativas cuyo sujeto tenga más de dos palabras — y comprueba que el verbo sigue en posición 2.",
+        "placeholder": "Ej: Meine neue Kollegin aus Berlin spricht vier Sprachen."
+      }
+    },
+    {
+      "idx": "8.2",
+      "title": "La inversión: si algo abre la frase, el sujeto salta",
+      "level": "A2",
+      "rule": "Si la posición 1 la ocupa <b>otro elemento</b> (tiempo, lugar, objeto…), el verbo se queda en la 2 y el sujeto pasa <b>detrás del verbo</b>: <i>Heute <b>gehe ich</b> ins Kino</i>. Nunca «Heute ich gehe» — eso rompe V2. Se usa muchísimo para empezar por el tiempo o para enfatizar.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Este es EL error número 1 de los hispanohablantes, porque el español permite «Hoy yo voy al cine». En alemán, tras cualquier arranque que no sea el sujeto: <b>verbo → sujeto</b>. Automatízalo: <i>Dann <b>gehen wir</b>… · Leider <b>habe ich</b>… · In Berlin <b>wohnt sie</b>…</i>"
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "La inversión también sirve para <b>enfatizar</b>: lo que pones en posición 1 es el foco. <i>Den Kaffee trinke ich, den Tee nicht</i> = el café sí me lo tomo, el té no."
+        }
+      ],
+      "examples": [
+        { "en": "Heute <span class=\"r-verb\">gehe</span> <span class=\"r-nom\">ich</span> ins Kino.", "es": "Hoy voy al cine." },
+        { "en": "Morgen <span class=\"r-verb\">haben</span> <span class=\"r-nom\">wir</span> keine Zeit.", "es": "Mañana no tenemos tiempo." },
+        { "en": "In Berlin <span class=\"r-verb\">wohnt</span> <span class=\"r-nom\">meine Tante</span>.", "es": "En Berlín vive mi tía." },
+        { "en": "Leider <span class=\"r-verb\">kann</span> <span class=\"r-nom\">er</span> nicht kommen.", "es": "Lamentablemente él no puede venir." },
+        { "en": "Den Film <span class=\"r-verb\">kenne</span> <span class=\"r-nom\">ich</span> schon.", "es": "Esa película ya la conozco. (objeto en posición 1, énfasis)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b08-s2q1",
+          "question": "1. «Mañana trabajo en casa.» → Morgen <span class=\"blank\">___</span> zu Hause.",
+          "options": ["ich arbeite", "arbeite ich", "ich zu arbeite"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s2q2",
+          "question": "2. «Por desgracia no tengo tiempo.» → Leider <span class=\"blank\">___</span> keine Zeit.",
+          "options": ["ich habe", "habe ich", "haben ich"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s2q3",
+          "question": "3. ¿Cuál es INCORRECTA?",
+          "options": ["Dann essen wir Pizza.", "Dann wir essen Pizza.", "Wir essen dann Pizza."],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b08-s2",
+        "label": "<b>tu turno:</b> escribe la misma frase dos veces: empezando por el sujeto y empezando por el tiempo (con inversión).",
+        "placeholder": "Ej: Ich koche heute Abend. → Heute Abend koche ich."
+      }
+    },
+    {
+      "idx": "8.3",
+      "title": "Preguntas: W-Fragen y Ja/Nein-Fragen",
+      "level": "A1",
+      "rule": "Dos patrones: las <b>W-Fragen</b> (wer, was, wo, wann, wie, warum, wohin, woher…) llevan la palabra interrogativa en posición 1 y el verbo en la 2, con sujeto detrás: <i>Wo <b>wohnst du</b>?</i>. Las preguntas de <b>sí/no</b> ponen el <b>verbo en posición 1</b>: <i><b>Kommst</b> du morgen?</i>",
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Las W básicas: <b>wer</b> (quién), <b>was</b> (qué), <b>wo</b> (dónde), <b>wohin/woher</b> (adónde/de dónde), <b>wann</b> (cuándo), <b>wie</b> (cómo), <b>warum</b> (por qué), <b>wie viel(e)</b> (cuánto/s). Y las declinadas: <b>wen</b> (a quién, Akk), <b>wem</b> (a quién, Dat) — las preguntas de control de los casos."
+        }
+      ],
+      "examples": [
+        { "en": "Wo <span class=\"r-verb\">wohnst</span> <span class=\"r-nom\">du</span>?", "es": "¿Dónde vives?" },
+        { "en": "Warum <span class=\"r-verb\">lernst</span> <span class=\"r-nom\">du</span> Deutsch?", "es": "¿Por qué aprendes alemán?" },
+        { "en": "<span class=\"r-verb\">Sprichst</span> <span class=\"r-nom\">du</span> Spanisch?", "es": "¿Hablas español? (verbo primero)" },
+        { "en": "<span class=\"r-verb\">Haben</span> <span class=\"r-nom\">Sie</span> ein Zimmer frei?", "es": "¿Tiene usted una habitación libre?" },
+        { "en": "Wen <span class=\"r-verb\">besuchst</span> <span class=\"r-nom\">du</span> am Sonntag?", "es": "¿A quién visitas el domingo? (wen = Akkusativ)" }
+      ],
+      "tables": [],
+      "quiz": [
+        {
+          "id": "b08-s3q1",
+          "question": "1. «¿Vienes a la fiesta?» →",
+          "options": ["Du kommst zur Party?", "Kommst du zur Party?", "Kommst zur Party du?"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s3q2",
+          "question": "2. «¿De dónde vienes?» → <span class=\"blank\">___</span> kommst du?",
+          "options": ["Wohin", "Wo", "Woher"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s3q3",
+          "question": "3. «¿A quién (le) ayudas?» → <span class=\"blank\">___</span> hilfst du? (helfen + Dativ)",
+          "options": ["Wer", "Wen", "Wem"],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b08-s3",
+        "label": "<b>tu turno:</b> escribe una W-Frage y una pregunta de sí/no que le harías a un nuevo compañero alemán.",
+        "placeholder": "Ej: Woher kommst du? Arbeitest du schon lange hier?"
+      }
+    },
+    {
+      "idx": "8.4",
+      "title": "La Satzklammer: la frase-paréntesis",
+      "level": "A2",
+      "rule": "Cuando el verbo tiene dos partes, forman un <b>paréntesis</b> (Satzklammer): la parte conjugada en posición 2 y el resto <b>al final</b>. Pasa con modales + infinitivo (<i>Ich <b>will</b> heute Pizza <b>essen</b></i>), con el Perfekt (<i>Ich <b>habe</b> viel <b>gearbeitet</b></i>) y con verbos separables (<i>Ich <b>stehe</b> um 7 Uhr <b>auf</b></i>). Todo lo demás vive dentro del paréntesis.",
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Acostúmbrate a <b>esperar el final de la frase</b>: en alemán la información verbal decisiva (el participio, el infinitivo, el prefijo) llega al cierre. <i>Ich rufe dich morgen nach der Arbeit … <b>an</b></i>. Sin el «an» final, no sabes ni qué verbo es."
+        }
+      ],
+      "examples": [
+        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">will</span> heute Abend Pizza <span class=\"r-sep\">essen</span>.", "es": "Quiero comer pizza esta noche. (modal … infinitivo)" },
+        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">haben</span> gestern viel <span class=\"r-sep\">gelernt</span>.", "es": "Ayer aprendimos mucho. (haben … participio)" },
+        { "en": "<span class=\"r-nom\">Der Zug</span> <span class=\"r-verb\">fährt</span> um 9 Uhr <span class=\"r-sep\">ab</span>.", "es": "El tren sale a las 9. (verbo separable)" },
+        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">muss</span> morgen früh <span class=\"r-sep\">aufstehen</span>.", "es": "Ella tiene que levantarse temprano mañana." }
+      ],
+      "tables": [
+        {
+          "headers": ["Posición 1", "Verbo (pos. 2)", "El medio", "Cierre"],
+          "rows": [
+            ["Ich", "<b>will</b>", "heute Abend Pizza", "<b>essen</b>"],
+            ["Wir", "<b>haben</b>", "gestern viel", "<b>gelernt</b>"],
+            ["Der Zug", "<b>fährt</b>", "um 9 Uhr", "<b>ab</b>"]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b08-s4q1",
+          "question": "1. «Quiero aprender alemán.» →",
+          "options": ["Ich will lernen Deutsch.", "Ich will Deutsch lernen.", "Ich Deutsch will lernen."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s4q2",
+          "question": "2. «Hemos visto la película.» →",
+          "options": ["Wir haben gesehen den Film.", "Wir haben den Film gesehen.", "Wir gesehen haben den Film."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s4q3",
+          "question": "3. En «Ich rufe dich morgen an», el paréntesis verbal es…",
+          "options": ["rufe … an", "rufe … morgen", "dich … an"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b08-s4",
+        "label": "<b>tu turno:</b> escribe una frase con modal + infinitivo final y otra en Perfekt — siente el paréntesis.",
+        "placeholder": "Ej: Ich möchte am Wochenende wandern gehen. Ich habe das Buch schon gelesen."
+      }
+    }
+  ]
+}

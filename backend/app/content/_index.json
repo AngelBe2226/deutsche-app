@@ -1,0 +1,22 @@
+[
+  { "block": "01", "title": "Pronombres personales y artículos", "sectionCount": 4 },
+  { "block": "02", "title": "Los casos: Nominativo y Acusativo", "sectionCount": 4 },
+  { "block": "03", "title": "Los casos: Dativo y Genitivo", "sectionCount": 4 },
+  { "block": "04", "title": "Preposiciones por caso", "sectionCount": 4 },
+  { "block": "05", "title": "Declinación del adjetivo", "sectionCount": 3 },
+  { "block": "06", "title": "Comparativos y superlativos", "sectionCount": 3 },
+  { "block": "07", "title": "Adverbios y su orden: TeKaMoLo", "sectionCount": 3 },
+  { "block": "08", "title": "Estructura: el verbo en 2ª posición", "sectionCount": 4 },
+  { "block": "09", "title": "Subordinadas: el verbo al final", "sectionCount": 4 },
+  { "block": "10", "title": "El verbo: tiempos y usos", "sectionCount": 5 },
+  { "block": "11", "title": "Verbos separables e inseparables", "sectionCount": 4 },
+  { "block": "12", "title": "Verbos modales", "sectionCount": 4 },
+  { "block": "13", "title": "Voz pasiva y Konjunktiv II", "sectionCount": 4 },
+  { "block": "14", "title": "Conjunciones y conectores", "sectionCount": 4 },
+  { "block": "15", "title": "Verbos: conjugación completa", "sectionCount": 4 },
+  { "block": "16", "title": "Frases idiomáticas (Redewendungen)", "sectionCount": 3 },
+  { "block": "17", "title": "Vocabulario y falsos amigos", "sectionCount": 3 },
+  { "block": "18", "title": "Pronunciación y fonética", "sectionCount": 4 },
+  { "block": "19", "title": "Glosario y tablas de referencia", "sectionCount": 5 },
+  { "block": "20", "title": "Práctica, quizzes y seguimiento", "sectionCount": 3 }
+]
