@@ -4,8 +4,16 @@
   "kicker": "Bloque 06 · A2",
   "intro": "El alemán compara <b class=\"hl\">siempre con -er</b> (no existe «mehr interessant») y a menudo añade <b class=\"hl\">Umlaut</b> en la vocal: alt → älter. El superlativo tiene dos formas según vaya con o sin sustantivo: <b class=\"hl\">am ältesten / der älteste</b>.",
   "legend": [
-    { "label": "verbo", "desc": "conjugado", "role": "verb" },
-    { "label": "terminación", "desc": "comparativo/superlativo declinado", "role": "adj" }
+    {
+      "label": "verbo",
+      "desc": "conjugado",
+      "role": "verb"
+    },
+    {
+      "label": "terminación",
+      "desc": "comparativo/superlativo declinado",
+      "role": "adj"
+    }
   ],
   "sections": [
     {
@@ -26,30 +34,254 @@
         }
       ],
       "examples": [
-        { "en": "Berlin <span class=\"r-verb\">ist</span> größ<span class=\"r-adj\">er</span> als München.", "es": "Berlín es más grande que Múnich." },
-        { "en": "Dieses Buch <span class=\"r-verb\">ist</span> interessant<span class=\"r-adj\">er</span> als der Film.", "es": "Este libro es más interesante que la película." },
-        { "en": "Meine Schwester <span class=\"r-verb\">ist</span> jüng<span class=\"r-adj\">er</span> als ich.", "es": "Mi hermana es más joven que yo." },
-        { "en": "Ich <span class=\"r-verb\">suche</span> eine größer<span class=\"r-adj\">e</span> Wohnung.", "es": "Busco un piso más grande. (comparativo declinado)" }
+        {
+          "en": "Berlin <span class=\"r-verb\">ist</span> größ<span class=\"r-adj\">er</span> als München.",
+          "es": "Berlín es más grande que Múnich."
+        },
+        {
+          "en": "Dieses Buch <span class=\"r-verb\">ist</span> interessant<span class=\"r-adj\">er</span> als der Film.",
+          "es": "Este libro es más interesante que la película."
+        },
+        {
+          "en": "Meine Schwester <span class=\"r-verb\">ist</span> jüng<span class=\"r-adj\">er</span> als ich.",
+          "es": "Mi hermana es más joven que yo."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">suche</span> eine größer<span class=\"r-adj\">e</span> Wohnung.",
+          "es": "Busco un piso más grande. (comparativo declinado)"
+        },
+        {
+          "en": "Der Zug <span class=\"r-verb\">ist</span> schnell<span class=\"r-adj\">er</span> als der Bus.",
+          "es": "El tren es más rápido que el autobús."
+        },
+        {
+          "en": "Mein Auto <span class=\"r-verb\">ist</span> teur<span class=\"r-adj\">er</span> als dein Fahrrad.",
+          "es": "Mi coche es más caro que tu bici."
+        },
+        {
+          "en": "Im Sommer <span class=\"r-verb\">ist</span> es wärm<span class=\"r-adj\">er</span> als im Winter.",
+          "es": "En verano hace más calor que en invierno."
+        },
+        {
+          "en": "Dieser Weg <span class=\"r-verb\">ist</span> kürz<span class=\"r-adj\">er</span>.",
+          "es": "Este camino es más corto."
+        },
+        {
+          "en": "Die Aufgabe <span class=\"r-verb\">ist</span> leicht<span class=\"r-adj\">er</span> als gestern.",
+          "es": "El ejercicio es más fácil que ayer."
+        },
+        {
+          "en": "Mein Bruder <span class=\"r-verb\">ist</span> älter als ich, aber ich <span class=\"r-verb\">bin</span> größ<span class=\"r-adj\">er</span>.",
+          "es": "Mi hermano es mayor que yo, pero yo soy más alto."
+        },
+        {
+          "en": "Die Zitrone <span class=\"r-verb\">ist</span> sauer<span class=\"r-adj\">er</span> als die Orange.",
+          "es": "El limón es más ácido que la naranja."
+        },
+        {
+          "en": "Heute <span class=\"r-verb\">ist</span> es kält<span class=\"r-adj\">er</span> als gestern.",
+          "es": "Hoy hace más frío que ayer."
+        },
+        {
+          "en": "Das Hotel <span class=\"r-verb\">ist</span> billig<span class=\"r-adj\">er</span> als das Hostel.",
+          "es": "El hotel es más barato que el hostal."
+        },
+        {
+          "en": "Ihr Deutsch <span class=\"r-verb\">ist</span> besser als mein Englisch.",
+          "es": "Su alemán es mejor que mi inglés."
+        },
+        {
+          "en": "Die Straße <span class=\"r-verb\">ist</span> läng<span class=\"r-adj\">er</span>, als ich dachte.",
+          "es": "La calle es más larga de lo que pensaba."
+        },
+        {
+          "en": "Dieser Film <span class=\"r-verb\">ist</span> spannend<span class=\"r-adj\">er</span> als das Buch.",
+          "es": "Esta película es más emocionante que el libro."
+        },
+        {
+          "en": "Mit dem Flugzeug <span class=\"r-verb\">bin</span> ich schnell<span class=\"r-adj\">er</span> da.",
+          "es": "En avión llego antes."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">brauche</span> eine kleiner<span class=\"r-adj\">e</span> Wohnung.",
+          "es": "Necesito un piso más pequeño. (comparativo declinado)"
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">hat</span> einen jünger<span class=\"r-adj\">en</span> Bruder.",
+          "es": "Ella tiene un hermano menor. (Akk masc → -en)"
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">suchen</span> ein größer<span class=\"r-adj\">es</span> Haus.",
+          "es": "Buscamos una casa más grande. (Akk neutro → -es)"
+        },
+        {
+          "en": "Der Kaffee <span class=\"r-verb\">ist</span> heiß<span class=\"r-adj\">er</span> als der Tee.",
+          "es": "El café está más caliente que el té."
+        },
+        {
+          "en": "Die Preise <span class=\"r-verb\">sind</span> höh<span class=\"r-adj\">er</span> als letztes Jahr.",
+          "es": "Los precios son más altos que el año pasado."
+        },
+        {
+          "en": "Berlin <span class=\"r-verb\">ist</span> laut<span class=\"r-adj\">er</span> als Hamburg.",
+          "es": "Berlín es más ruidoso que Hamburgo."
+        },
+        {
+          "en": "Die Tasche <span class=\"r-verb\">ist</span> schwer<span class=\"r-adj\">er</span> als der Rucksack.",
+          "es": "El bolso pesa más que la mochila."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b06-s1q1",
           "question": "1. Der Zug ist <span class=\"blank\">___</span> als der Bus. (schnell)",
-          "options": ["mehr schnell", "schneller", "schnellst"],
+          "options": [
+            "mehr schnell",
+            "schneller",
+            "schnellst"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b06-s1q2",
           "question": "2. Mein Bruder ist <span class=\"blank\">___</span> als ich. (alt)",
-          "options": ["alter", "älter", "am ältesten"],
+          "options": [
+            "alter",
+            "älter",
+            "am ältesten"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b06-s1q3",
           "question": "3. «más que yo» se dice…",
-          "options": ["mehr wie ich", "mehr als ich", "mehr dass ich"],
+          "options": [
+            "mehr wie ich",
+            "mehr als ich",
+            "mehr dass ich"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b06-s1q4",
+          "question": "4. Der Winter ist <span class=\"blank\">___</span> als der Herbst. (kalt)",
+          "options": [
+            "mehr kalt",
+            "kalter",
+            "kälter"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s1q5",
+          "question": "5. Mein Bruder ist <span class=\"blank\">___</span> als ich. (jung)",
+          "options": [
+            "mehr jung",
+            "jünger",
+            "junger"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s1q6",
+          "question": "6. Das Buch ist <span class=\"blank\">___</span> als der Film. (interessant)",
+          "options": [
+            "mehr interessant",
+            "interessanter",
+            "interessantest"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s1q7",
+          "question": "7. Er ist <span class=\"blank\">___</span> als sein Vater. (groß)",
+          "options": [
+            "mehr groß",
+            "grösser",
+            "größer"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s1q8",
+          "question": "8. Diese Straße ist <span class=\"blank\">___</span> als jene. (lang)",
+          "options": [
+            "mehr lang",
+            "länger",
+            "langer"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s1q9",
+          "question": "9. Ich bin <span class=\"blank\">___</span> als du. (alt)",
+          "options": [
+            "älter",
+            "alter",
+            "mehr alt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s1q10",
+          "question": "10. Das Wetter ist heute <span class=\"blank\">___</span> als gestern. (gut)",
+          "options": [
+            "guter",
+            "besser",
+            "mehr gut"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s1q11",
+          "question": "11. Dieser Computer ist <span class=\"blank\">___</span> als meiner. (teuer)",
+          "options": [
+            "teurer",
+            "mehr teuer",
+            "teuerer"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s1q12",
+          "question": "12. Sie ist größer <span class=\"blank\">___</span> ihr Bruder.",
+          "options": [
+            "als",
+            "wie",
+            "dass"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s1q13",
+          "question": "13. Ich suche eine <span class=\"blank\">___</span> Wohnung. (más grande)",
+          "options": [
+            "größere",
+            "größer",
+            "größeres"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s1q14",
+          "question": "14. Sie hat einen <span class=\"blank\">___</span> Bruder. (más joven, Akk)",
+          "options": [
+            "jüngeren",
+            "jünger",
+            "jüngerer"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s1q15",
+          "question": "15. Der Test ist <span class=\"blank\">___</span> als gedacht. (fácil)",
+          "options": [
+            "am leichtesten",
+            "leichtere",
+            "leichter"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -71,19 +303,136 @@
         }
       ],
       "examples": [
-        { "en": "Der Winter in Deutschland <span class=\"r-verb\">ist</span> am kält<span class=\"r-adj\">esten</span> im Januar.", "es": "El invierno en Alemania es más frío en enero." },
-        { "en": "Das <span class=\"r-verb\">ist</span> das best<span class=\"r-adj\">e</span> Restaurant der Stadt.", "es": "Este es el mejor restaurante de la ciudad." },
-        { "en": "Von allen Sprachen <span class=\"r-verb\">finde</span> ich Deutsch am interessant<span class=\"r-adj\">esten</span>.", "es": "De todos los idiomas, el alemán me parece el más interesante." },
-        { "en": "Der Mount Everest <span class=\"r-verb\">ist</span> der höch<span class=\"r-adj\">ste</span> Berg der Welt.", "es": "El Everest es la montaña más alta del mundo." }
+        {
+          "en": "Der Winter in Deutschland <span class=\"r-verb\">ist</span> am kält<span class=\"r-adj\">esten</span> im Januar.",
+          "es": "El invierno en Alemania es más frío en enero."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> das best<span class=\"r-adj\">e</span> Restaurant der Stadt.",
+          "es": "Este es el mejor restaurante de la ciudad."
+        },
+        {
+          "en": "Von allen Sprachen <span class=\"r-verb\">finde</span> ich Deutsch am interessant<span class=\"r-adj\">esten</span>.",
+          "es": "De todos los idiomas, el alemán me parece el más interesante."
+        },
+        {
+          "en": "Der Mount Everest <span class=\"r-verb\">ist</span> der höch<span class=\"r-adj\">ste</span> Berg der Welt.",
+          "es": "El Everest es la montaña más alta del mundo."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> der höch<span class=\"r-adj\">ste</span> Turm der Stadt.",
+          "es": "Es la torre más alta de la ciudad."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">ist</span> die jüng<span class=\"r-adj\">ste</span> Schülerin in der Klasse.",
+          "es": "Ella es la alumna más joven de la clase."
+        },
+        {
+          "en": "Im Juli <span class=\"r-verb\">ist</span> es am wärm<span class=\"r-adj\">sten</span>.",
+          "es": "En julio hace más calor."
+        },
+        {
+          "en": "Dieser Berg <span class=\"r-verb\">ist</span> am höch<span class=\"r-adj\">sten</span>.",
+          "es": "Esta montaña es la más alta."
+        },
+        {
+          "en": "Meine Mutter <span class=\"r-verb\">kocht</span> am best<span class=\"r-adj\">en</span>.",
+          "es": "Mi madre es quien mejor cocina."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> das schönst<span class=\"r-adj\">e</span> Geschenk.",
+          "es": "Es el regalo más bonito."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">ist</span> der klügst<span class=\"r-adj\">e</span> Schüler.",
+          "es": "Él es el alumno más listo."
+        },
+        {
+          "en": "Der Nil <span class=\"r-verb\">ist</span> der läng<span class=\"r-adj\">ste</span> Fluss Afrikas.",
+          "es": "El Nilo es el río más largo de África."
+        },
+        {
+          "en": "Im Winter <span class=\"r-verb\">sind</span> die Tage am kürz<span class=\"r-adj\">esten</span>.",
+          "es": "En invierno los días son más cortos."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> die billigst<span class=\"r-adj\">e</span> Lösung.",
+          "es": "Es la solución más barata."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">ist</span> am fleißig<span class=\"r-adj\">sten</span>.",
+          "es": "Ella es la más trabajadora."
+        },
+        {
+          "en": "Der Zug <span class=\"r-verb\">ist</span> am schnell<span class=\"r-adj\">sten</span>.",
+          "es": "El tren es el más rápido."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> mein größt<span class=\"r-adj\">er</span> Traum.",
+          "es": "Es mi mayor sueño. (Nom masc → -er)"
+        },
+        {
+          "en": "Meine best<span class=\"r-adj\">e</span> Freundin <span class=\"r-verb\">wohnt</span> in Wien.",
+          "es": "Mi mejor amiga vive en Viena."
+        },
+        {
+          "en": "Der Januar <span class=\"r-verb\">ist</span> der kält<span class=\"r-adj\">este</span> Monat.",
+          "es": "Enero es el mes más frío."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> die teuerst<span class=\"r-adj\">e</span> Uhr im Laden.",
+          "es": "Es el reloj más caro de la tienda."
+        },
+        {
+          "en": "Nachts <span class=\"r-verb\">ist</span> es am ruhig<span class=\"r-adj\">sten</span>.",
+          "es": "Por la noche está más tranquilo."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">ist</span> der ältest<span class=\"r-adj\">e</span> Sohn.",
+          "es": "Él es el hijo mayor."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">essen</span> im Sommer am liebsten Eis.",
+          "es": "En verano lo que más nos gusta comer es helado."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">war</span> der schönst<span class=\"r-adj\">e</span> Tag meines Lebens.",
+          "es": "Fue el día más bonito de mi vida."
+        }
       ],
       "tables": [
         {
-          "headers": ["Positivo", "Comparativo", "Superlativo (am)", "Superlativo (der)"],
+          "headers": [
+            "Positivo",
+            "Comparativo",
+            "Superlativo (am)",
+            "Superlativo (der)"
+          ],
           "rows": [
-            ["klein", "kleiner", "am kleinsten", "der kleinste"],
-            ["alt", "älter", "am ältesten", "der älteste"],
-            ["groß", "größer", "am größten", "der größte"],
-            ["kurz", "kürzer", "am kürzesten", "der kürzeste"]
+            [
+              "klein",
+              "kleiner",
+              "am kleinsten",
+              "der kleinste"
+            ],
+            [
+              "alt",
+              "älter",
+              "am ältesten",
+              "der älteste"
+            ],
+            [
+              "groß",
+              "größer",
+              "am größten",
+              "der größte"
+            ],
+            [
+              "kurz",
+              "kürzer",
+              "am kürzesten",
+              "der kürzeste"
+            ]
           ]
         }
       ],
@@ -91,19 +440,151 @@
         {
           "id": "b06-s2q1",
           "question": "1. Dieser Weg ist <span class=\"blank\">___</span>. (kurz)",
-          "options": ["am kürzesten", "der kürzeste", "kürzer als"],
+          "options": [
+            "am kürzesten",
+            "der kürzeste",
+            "kürzer als"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b06-s2q2",
           "question": "2. Das ist <span class=\"blank\">___</span> Tag des Jahres. (lang)",
-          "options": ["am längsten", "der längste", "länger"],
+          "options": [
+            "am längsten",
+            "der längste",
+            "länger"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b06-s2q3",
           "question": "3. alt → superlativo con «am»:",
-          "options": ["am altesten", "am ältesten", "am ältsten"],
+          "options": [
+            "am altesten",
+            "am ältesten",
+            "am ältsten"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s2q4",
+          "question": "4. Das ist der <span class=\"blank\">___</span> Berg. (hoch)",
+          "options": [
+            "höchsten",
+            "höchster",
+            "höchste"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s2q5",
+          "question": "5. Im Sommer ist es am <span class=\"blank\">___</span>. (warm)",
+          "options": [
+            "wärmst",
+            "wärmsten",
+            "wärmesten"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s2q6",
+          "question": "6. Sie ist die <span class=\"blank\">___</span> Studentin. (jung)",
+          "options": [
+            "jüngste",
+            "jüngeste",
+            "jüngstes"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s2q7",
+          "question": "7. Das ist der <span class=\"blank\">___</span> Film des Jahres. (gut)",
+          "options": [
+            "gutste",
+            "besste",
+            "beste"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s2q8",
+          "question": "8. Superlativ von «kalt» con am:",
+          "options": [
+            "am kältsten",
+            "am kaltesten",
+            "am kältesten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s2q9",
+          "question": "9. Superlativ de «groß» con am:",
+          "options": [
+            "am größten",
+            "am großsten",
+            "am größesten"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s2q10",
+          "question": "10. Superlativ de «kurz» con am:",
+          "options": [
+            "am kurzesten",
+            "am kürzesten",
+            "am kürzsten"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s2q11",
+          "question": "11. Dieser Fluss ist <span class=\"blank\">___</span> Fluss Europas. (der más largo)",
+          "options": [
+            "am längsten",
+            "längste",
+            "der längste"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s2q12",
+          "question": "12. Meine <span class=\"blank\">___</span> Freundin heißt Anna. (mejor)",
+          "options": [
+            "beste",
+            "gute",
+            "bessere"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s2q13",
+          "question": "13. Er läuft am <span class=\"blank\">___</span>. (schnell)",
+          "options": [
+            "schnellsten",
+            "schnellesten",
+            "schneller"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s2q14",
+          "question": "14. Das ist das <span class=\"blank\">___</span> Zimmer im Haus. (klein)",
+          "options": [
+            "kleinster",
+            "kleinste",
+            "kleinesten"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s2q15",
+          "question": "15. Sie ist am <span class=\"blank\">___</span> in der Klasse. (fleißig)",
+          "options": [
+            "fleißigste",
+            "fleißigsten",
+            "fleißigesten"
+          ],
           "correctIndex": 1
         }
       ],
@@ -131,21 +612,146 @@
         }
       ],
       "examples": [
-        { "en": "Dein Deutsch <span class=\"r-verb\">wird</span> immer bess<span class=\"r-adj\">er</span>!", "es": "¡Tu alemán es cada vez mejor!" },
-        { "en": "Ich <span class=\"r-verb\">trinke</span> lieber Kaffee als Tee.", "es": "Prefiero el café al té." },
-        { "en": "Am liebsten <span class=\"r-verb\">esse</span> ich Pasta.", "es": "Lo que más me gusta comer es pasta." },
-        { "en": "Sie <span class=\"r-verb\">ist</span> so groß wie ihr Bruder.", "es": "Ella es tan alta como su hermano." },
-        { "en": "Heute <span class=\"r-verb\">habe</span> ich mehr Zeit als gestern.", "es": "Hoy tengo más tiempo que ayer." }
+        {
+          "en": "Dein Deutsch <span class=\"r-verb\">wird</span> immer bess<span class=\"r-adj\">er</span>!",
+          "es": "¡Tu alemán es cada vez mejor!"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">trinke</span> lieber Kaffee als Tee.",
+          "es": "Prefiero el café al té."
+        },
+        {
+          "en": "Am liebsten <span class=\"r-verb\">esse</span> ich Pasta.",
+          "es": "Lo que más me gusta comer es pasta."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">ist</span> so groß wie ihr Bruder.",
+          "es": "Ella es tan alta como su hermano."
+        },
+        {
+          "en": "Heute <span class=\"r-verb\">habe</span> ich mehr Zeit als gestern.",
+          "es": "Hoy tengo más tiempo que ayer."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">esse</span> gern Pizza, aber ich <span class=\"r-verb\">esse</span> lieber Pasta.",
+          "es": "Me gusta la pizza, pero prefiero la pasta."
+        },
+        {
+          "en": "Am liebsten <span class=\"r-verb\">trinke</span> ich Tee.",
+          "es": "Lo que más me gusta beber es té."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">spielt</span> gern Fußball, lieber Tennis und am liebsten Golf.",
+          "es": "Le gusta jugar al fútbol, prefiere el tenis y sobre todo el golf."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> mehr Bücher als du.",
+          "es": "Tengo más libros que tú."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">verdient</span> am meisten von allen.",
+          "es": "Ella es la que más gana de todos."
+        },
+        {
+          "en": "Dein Auto <span class=\"r-verb\">ist</span> so schnell wie meins.",
+          "es": "Tu coche es tan rápido como el mío."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">ist</span> nicht so alt wie du.",
+          "es": "Él no es tan mayor como tú."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">ist</span> genauso müde wie ich.",
+          "es": "Ella está tan cansada como yo."
+        },
+        {
+          "en": "Der Supermarkt <span class=\"r-verb\">ist</span> näher als die Bank.",
+          "es": "El supermercado está más cerca que el banco."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> der nächste Bahnhof.",
+          "es": "Es la estación más cercana."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> das beste Buch, das ich kenne.",
+          "es": "Es el mejor libro que conozco."
+        },
+        {
+          "en": "Es <span class=\"r-verb\">gibt</span> nichts Besseres.",
+          "es": "No hay nada mejor."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">hat</span> viel Geld, aber er <span class=\"r-verb\">hat</span> mehr.",
+          "es": "Ella tiene mucho dinero, pero él tiene más."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">schlafe</span> lieber lange als kurz.",
+          "es": "Prefiero dormir mucho a dormir poco."
+        },
+        {
+          "en": "Der Eiffelturm <span class=\"r-verb\">ist</span> höher als der Kölner Dom.",
+          "es": "La Torre Eiffel es más alta que la catedral de Colonia."
+        },
+        {
+          "en": "In Deutschland <span class=\"r-verb\">regnet</span> es genauso oft wie in England.",
+          "es": "En Alemania llueve tan a menudo como en Inglaterra."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">lese</span> lieber Romane als Zeitungen.",
+          "es": "Prefiero leer novelas a periódicos."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">kocht</span> nicht so gut wie sie.",
+          "es": "Él no cocina tan bien como ella."
+        },
+        {
+          "en": "Am meisten <span class=\"r-verb\">mag</span> ich den Sommer.",
+          "es": "Lo que más me gusta es el verano."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">arbeitet</span> immer mehr.",
+          "es": "Ella trabaja cada vez más."
+        }
       ],
       "tables": [
         {
-          "headers": ["Positivo", "Comparativo", "Superlativo", "Significado"],
+          "headers": [
+            "Positivo",
+            "Comparativo",
+            "Superlativo",
+            "Significado"
+          ],
           "rows": [
-            ["gut", "besser", "am besten", "bueno / mejor"],
-            ["viel", "mehr", "am meisten", "mucho / más"],
-            ["gern", "lieber", "am liebsten", "con gusto / preferir"],
-            ["hoch", "höher", "am höchsten", "alto"],
-            ["nah", "näher", "am nächsten", "cercano"]
+            [
+              "gut",
+              "besser",
+              "am besten",
+              "bueno / mejor"
+            ],
+            [
+              "viel",
+              "mehr",
+              "am meisten",
+              "mucho / más"
+            ],
+            [
+              "gern",
+              "lieber",
+              "am liebsten",
+              "con gusto / preferir"
+            ],
+            [
+              "hoch",
+              "höher",
+              "am höchsten",
+              "alto"
+            ],
+            [
+              "nah",
+              "näher",
+              "am nächsten",
+              "cercano"
+            ]
           ]
         }
       ],
@@ -153,19 +759,151 @@
         {
           "id": "b06-s3q1",
           "question": "1. Ich spreche Englisch <span class=\"blank\">___</span> als Deutsch.",
-          "options": ["gut", "besser", "am besten"],
+          "options": [
+            "gut",
+            "besser",
+            "am besten"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b06-s3q2",
           "question": "2. Er ist genauso alt <span class=\"blank\">___</span> ich.",
-          "options": ["als", "wie", "so"],
+          "options": [
+            "als",
+            "wie",
+            "so"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b06-s3q3",
           "question": "3. «Lo que más me gusta es viajar.» → <span class=\"blank\">___</span> reise ich.",
-          "options": ["Am meisten", "Am liebsten", "Lieber"],
+          "options": [
+            "Am meisten",
+            "Am liebsten",
+            "Lieber"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s3q4",
+          "question": "4. Ich schwimme <span class=\"blank\">___</span> als ich laufe. (prefiero)",
+          "options": [
+            "lieber",
+            "mehr",
+            "besser"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s3q5",
+          "question": "5. Am <span class=\"blank\">___</span> mag ich Schokolade. (lo que más me gusta)",
+          "options": [
+            "meisten",
+            "besten",
+            "liebsten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s3q6",
+          "question": "6. Er hat <span class=\"blank\">___</span> Zeit als ich. (más)",
+          "options": [
+            "viel",
+            "mehr",
+            "meist"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s3q7",
+          "question": "7. Sie ist so alt <span class=\"blank\">___</span> ich.",
+          "options": [
+            "als",
+            "dass",
+            "wie"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s3q8",
+          "question": "8. Er ist älter <span class=\"blank\">___</span> ich.",
+          "options": [
+            "als",
+            "wie",
+            "so"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s3q9",
+          "question": "9. Die Bank ist <span class=\"blank\">___</span> als der Supermarkt. (más cerca)",
+          "options": [
+            "näher",
+            "nächer",
+            "mehr nah"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b06-s3q10",
+          "question": "10. Comparativo de «gut»",
+          "options": [
+            "mehr gut",
+            "besser",
+            "guter"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s3q11",
+          "question": "11. Superlativo de «viel» con am",
+          "options": [
+            "am mehrsten",
+            "am meisten",
+            "am viellsten"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b06-s3q12",
+          "question": "12. Comparativo de «gern»",
+          "options": [
+            "gerner",
+            "mehr gern",
+            "lieber"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s3q13",
+          "question": "13. Comparativo de «hoch»",
+          "options": [
+            "hocher",
+            "mehr hoch",
+            "höher"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s3q14",
+          "question": "14. Das ist der <span class=\"blank\">___</span> Weg. (más cercano)",
+          "options": [
+            "nahste",
+            "näheste",
+            "nächste"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b06-s3q15",
+          "question": "15. Er ist nicht so schnell <span class=\"blank\">___</span> sie.",
+          "options": [
+            "so",
+            "wie",
+            "als"
+          ],
           "correctIndex": 1
         }
       ],

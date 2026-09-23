@@ -4,8 +4,16 @@
   "kicker": "Bloque 12 · A2",
   "intro": "Seis verbos que tiñen de matiz todo lo que dices: <b class=\"hl\">können, müssen, dürfen, sollen, wollen, mögen</b>. Estructura fija: modal conjugado en 2ª posición + <b class=\"hl\">infinitivo al final</b>. Y una trampa mortal para quien viene del inglés: <i>nicht müssen</i> ≠ <i>must not</i>.",
   "legend": [
-    { "label": "verbo modal", "desc": "conjugado, 2ª posición", "role": "verb" },
-    { "label": "infinitivo", "desc": "cierra la frase", "role": "sep" }
+    {
+      "label": "verbo modal",
+      "desc": "conjugado, 2ª posición",
+      "role": "verb"
+    },
+    {
+      "label": "infinitivo",
+      "desc": "cierra la frase",
+      "role": "sep"
+    }
   ],
   "sections": [
     {
@@ -21,20 +29,160 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Ich kann</span> gut <span class=\"r-sep\">kochen</span>.", "es": "Sé cocinar bien." },
-        { "en": "<span class=\"r-verb\">Er muss</span> heute lange <span class=\"r-sep\">arbeiten</span>.", "es": "Él tiene que trabajar hasta tarde hoy." },
-        { "en": "<span class=\"r-verb\">Wir wollen</span> im Sommer nach Italien <span class=\"r-sep\">fahren</span>.", "es": "Queremos ir a Italia en verano." },
-        { "en": "<span class=\"r-verb\">Kannst</span> du Deutsch?", "es": "¿Sabes alemán? (infinitivo omitido)" }
+        {
+          "en": "<span class=\"r-verb\">Ich kann</span> gut <span class=\"r-sep\">kochen</span>.",
+          "es": "Sé cocinar bien."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er muss</span> heute lange <span class=\"r-sep\">arbeiten</span>.",
+          "es": "Él tiene que trabajar hasta tarde hoy."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir wollen</span> im Sommer nach Italien <span class=\"r-sep\">fahren</span>.",
+          "es": "Queremos ir a Italia en verano."
+        },
+        {
+          "en": "<span class=\"r-verb\">Kannst</span> du Deutsch?",
+          "es": "¿Sabes alemán? (infinitivo omitido)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich kann</span> schnell <span class=\"r-sep\">laufen</span>.",
+          "es": "Sé correr rápido."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du kannst</span> gut <span class=\"r-sep\">singen</span>.",
+          "es": "Cantas bien."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie muss</span> morgen früh <span class=\"r-sep\">aufstehen</span>.",
+          "es": "Ella tiene que madrugar mañana."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir müssen</span> noch Brot <span class=\"r-sep\">kaufen</span>.",
+          "es": "Todavía tenemos que comprar pan."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ihr wollt</span> nach Hause <span class=\"r-sep\">gehen</span>.",
+          "es": "Queréis iros a casa."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er will</span> Arzt <span class=\"r-sep\">werden</span>.",
+          "es": "Él quiere ser médico."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich soll</span> den Chef <span class=\"r-sep\">anrufen</span>.",
+          "es": "Debo llamar al jefe."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie sollen</span> pünktlich <span class=\"r-sep\">kommen</span>.",
+          "es": "Ellos deben llegar puntuales."
+        },
+        {
+          "en": "<span class=\"r-verb\">Darf</span> ich hier <span class=\"r-sep\">sitzen</span>?",
+          "es": "¿Puedo sentarme aquí?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich mag</span> keinen Fisch.",
+          "es": "No me gusta el pescado."
+        },
+        {
+          "en": "<span class=\"r-verb\">Möchtest</span> du etwas <span class=\"r-sep\">trinken</span>?",
+          "es": "¿Quieres beber algo?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir können</span> heute nicht <span class=\"r-sep\">kommen</span>.",
+          "es": "Hoy no podemos venir."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich will</span> heute nichts <span class=\"r-sep\">machen</span>.",
+          "es": "Hoy no quiero hacer nada."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er kann</span> nicht <span class=\"r-sep\">schlafen</span>.",
+          "es": "Él no puede dormir."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie darf</span> noch nicht <span class=\"r-sep\">fahren</span>.",
+          "es": "Ella todavía no puede conducir (no tiene permiso)."
+        },
+        {
+          "en": "<span class=\"r-verb\">Müsst</span> ihr morgen <span class=\"r-sep\">arbeiten</span>?",
+          "es": "¿Tenéis que trabajar mañana?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wollt</span> ihr einen Kaffee <span class=\"r-sep\">trinken</span>?",
+          "es": "¿Queréis tomar un café?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich muss</span> jetzt <span class=\"r-sep\">gehen</span>.",
+          "es": "Ahora tengo que irme."
+        },
+        {
+          "en": "<span class=\"r-verb\">Kann</span> er uns <span class=\"r-sep\">helfen</span>?",
+          "es": "¿Puede ayudarnos?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie können</span> hier <span class=\"r-sep\">parken</span>.",
+          "es": "Pueden aparcar aquí. (usted/ustedes)"
+        }
       ],
       "tables": [
         {
-          "headers": ["", "können", "müssen", "dürfen", "sollen", "wollen", "mögen"],
+          "headers": [
+            "",
+            "können",
+            "müssen",
+            "dürfen",
+            "sollen",
+            "wollen",
+            "mögen"
+          ],
           "rows": [
-            ["ich", "kann", "muss", "darf", "soll", "will", "mag"],
-            ["du", "kannst", "musst", "darfst", "sollst", "willst", "magst"],
-            ["er/sie/es", "kann", "muss", "darf", "soll", "will", "mag"],
-            ["wir/sie/Sie", "können", "müssen", "dürfen", "sollen", "wollen", "mögen"],
-            ["ihr", "könnt", "müsst", "dürft", "sollt", "wollt", "mögt"]
+            [
+              "ich",
+              "kann",
+              "muss",
+              "darf",
+              "soll",
+              "will",
+              "mag"
+            ],
+            [
+              "du",
+              "kannst",
+              "musst",
+              "darfst",
+              "sollst",
+              "willst",
+              "magst"
+            ],
+            [
+              "er/sie/es",
+              "kann",
+              "muss",
+              "darf",
+              "soll",
+              "will",
+              "mag"
+            ],
+            [
+              "wir/sie/Sie",
+              "können",
+              "müssen",
+              "dürfen",
+              "sollen",
+              "wollen",
+              "mögen"
+            ],
+            [
+              "ihr",
+              "könnt",
+              "müsst",
+              "dürft",
+              "sollt",
+              "wollt",
+              "mögt"
+            ]
           ]
         }
       ],
@@ -42,20 +190,152 @@
         {
           "id": "b12-s1q1",
           "question": "1. Er <span class=\"blank\">___</span> sehr gut singen.",
-          "options": ["kannt", "kann", "können"],
+          "options": [
+            "kannt",
+            "kann",
+            "können"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b12-s1q2",
           "question": "2. «Quiero aprender alemán.» →",
-          "options": ["Ich will lernen Deutsch.", "Ich will Deutsch lernen.", "Ich Deutsch lernen will."],
+          "options": [
+            "Ich will lernen Deutsch.",
+            "Ich will Deutsch lernen.",
+            "Ich Deutsch lernen will."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b12-s1q3",
           "question": "3. ¿Cuál es la 3ª persona singular de «müssen»?",
-          "options": ["er musst", "er muss", "er müsst"],
+          "options": [
+            "er musst",
+            "er muss",
+            "er müsst"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b12-s1q4",
+          "question": "4. Ich <span class=\"blank\">___</span> Deutsch sprechen. (können, ich)",
+          "options": [
+            "kann",
+            "kannst",
+            "können"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s1q5",
+          "question": "5. Er <span class=\"blank\">___</span> nicht kommen. (können, er)",
+          "options": [
+            "kannt",
+            "können",
+            "kann"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s1q6",
+          "question": "6. Wir <span class=\"blank\">___</span> arbeiten. (müssen, wir)",
+          "options": [
+            "muss",
+            "müssen",
+            "müsst"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s1q7",
+          "question": "7. Du <span class=\"blank\">___</span> mehr schlafen. (sollen, du)",
+          "options": [
+            "soll",
+            "sollst",
+            "sollt"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s1q8",
+          "question": "8. Ich <span class=\"blank\">___</span> nach Hause gehen. (wollen, ich)",
+          "options": [
+            "will",
+            "willst",
+            "wollt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s1q9",
+          "question": "9. Sie <span class=\"blank\">___</span> Tennis spielen. (wollen, sie = ella)",
+          "options": [
+            "will",
+            "wollen",
+            "willst"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s1q10",
+          "question": "10. Ihr <span class=\"blank\">___</span> das nicht machen. (dürfen, ihr)",
+          "options": [
+            "darf",
+            "dürft",
+            "darfst"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s1q11",
+          "question": "11. Ich <span class=\"blank\">___</span> heute nicht kommen. (dürfen, ich)",
+          "options": [
+            "darfst",
+            "dürfen",
+            "darf"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s1q12",
+          "question": "12. «Ella tiene que trabajar.» → Sie <span class=\"blank\">___</span> arbeiten.",
+          "options": [
+            "musst",
+            "muss",
+            "müssen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s1q13",
+          "question": "13. ¿Cuál es correcta?",
+          "options": [
+            "Er kann gut kochen.",
+            "Er kann kochen gut.",
+            "Er kochen gut kann."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s1q14",
+          "question": "14. ¿Cuál es correcta?",
+          "options": [
+            "Wir heute ins Kino gehen wollen.",
+            "Wir wollen heute ins Kino gehen.",
+            "Wir wollen heute gehen ins Kino."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s1q15",
+          "question": "15. 1ª y 3ª persona singular de los modales…",
+          "options": [
+            "terminan en -t",
+            "terminan en -en",
+            "son iguales (ich kann, er kann)"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -77,30 +357,254 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Ich kann</span> drei Sprachen <span class=\"r-sep\">sprechen</span>.", "es": "Sé hablar tres idiomas. (capacidad)" },
-        { "en": "<span class=\"r-verb\">Darf</span> ich hier <span class=\"r-sep\">parken</span>?", "es": "¿Puedo aparcar aquí? (permiso)" },
-        { "en": "Kinder <span class=\"r-verb\">dürfen</span> hier nicht <span class=\"r-sep\">schwimmen</span>.", "es": "Los niños no pueden (no está permitido) nadar aquí." },
-        { "en": "<span class=\"r-verb\">Darf</span> ich Sie etwas <span class=\"r-sep\">fragen</span>?", "es": "¿Puedo preguntarle algo? (cortesía formal)" }
+        {
+          "en": "<span class=\"r-verb\">Ich kann</span> drei Sprachen <span class=\"r-sep\">sprechen</span>.",
+          "es": "Sé hablar tres idiomas. (capacidad)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Darf</span> ich hier <span class=\"r-sep\">parken</span>?",
+          "es": "¿Puedo aparcar aquí? (permiso)"
+        },
+        {
+          "en": "Kinder <span class=\"r-verb\">dürfen</span> hier nicht <span class=\"r-sep\">schwimmen</span>.",
+          "es": "Los niños no pueden (no está permitido) nadar aquí."
+        },
+        {
+          "en": "<span class=\"r-verb\">Darf</span> ich Sie etwas <span class=\"r-sep\">fragen</span>?",
+          "es": "¿Puedo preguntarle algo? (cortesía formal)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich kann</span> nicht <span class=\"r-sep\">schwimmen</span>.",
+          "es": "No sé nadar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Kannst</span> du mir <span class=\"r-sep\">helfen</span>?",
+          "es": "¿Puedes ayudarme?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Kann</span> man hier <span class=\"r-sep\">essen</span>?",
+          "es": "¿Se puede comer aquí? (posibilidad)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Darf</span> man hier <span class=\"r-sep\">rauchen</span>?",
+          "es": "¿Se puede fumar aquí? (permiso)"
+        },
+        {
+          "en": "Hier <span class=\"r-verb\">darf</span> man nicht <span class=\"r-sep\">parken</span>.",
+          "es": "Aquí no se puede aparcar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Darf</span> ich Sie <span class=\"r-sep\">begleiten</span>?",
+          "es": "¿Puedo acompañarle?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Darf</span> ich das Fenster <span class=\"r-sep\">aufmachen</span>?",
+          "es": "¿Puedo abrir la ventana?"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">kann</span> sehr gut <span class=\"r-sep\">Klavier spielen</span>.",
+          "es": "Él sabe tocar muy bien el piano."
+        },
+        {
+          "en": "Meine Oma <span class=\"r-verb\">kann</span> nicht mehr gut <span class=\"r-sep\">sehen</span>.",
+          "es": "Mi abuela ya no ve bien."
+        },
+        {
+          "en": "Kinder unter 16 <span class=\"r-verb\">dürfen</span> den Film nicht <span class=\"r-sep\">sehen</span>.",
+          "es": "Los menores de 16 no pueden ver la película."
+        },
+        {
+          "en": "<span class=\"r-verb\">Kannst</span> du morgen <span class=\"r-sep\">kommen</span>?",
+          "es": "¿Puedes venir mañana?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Dürfen</span> wir hier <span class=\"r-sep\">fotografieren</span>?",
+          "es": "¿Podemos hacer fotos aquí?"
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">können</span> heute nicht <span class=\"r-sep\">ausgehen</span>, es regnet.",
+          "es": "Hoy no podemos salir, llueve."
+        },
+        {
+          "en": "<span class=\"r-verb\">Kann</span> ich mit Karte <span class=\"r-sep\">bezahlen</span>?",
+          "es": "¿Puedo pagar con tarjeta?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Darf</span> ich kurz <span class=\"r-sep\">stören</span>?",
+          "es": "¿Puedo molestar un momento?"
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">kann</span> drei Sprachen <span class=\"r-sep\">sprechen</span>.",
+          "es": "Ella sabe hablar tres idiomas."
+        },
+        {
+          "en": "<span class=\"r-verb\">Dürfen</span> Hunde hier <span class=\"r-sep\">rein</span>?",
+          "es": "¿Pueden entrar perros aquí?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich darf</span> heute länger <span class=\"r-sep\">schlafen</span>.",
+          "es": "Hoy me está permitido dormir más."
+        },
+        {
+          "en": "<span class=\"r-verb\">Kannst</span> du mich morgen <span class=\"r-sep\">abholen</span>?",
+          "es": "¿Puedes recogerme mañana?"
+        },
+        {
+          "en": "In der Schule <span class=\"r-verb\">dürfen</span> wir keine Handys <span class=\"r-sep\">benutzen</span>.",
+          "es": "En el colegio no podemos usar móviles."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b12-s2q1",
           "question": "1. «¿Se puede fumar aquí?» (permiso) → <span class=\"blank\">___</span> man hier rauchen?",
-          "options": ["Kann", "Darf", "Soll"],
+          "options": [
+            "Kann",
+            "Darf",
+            "Soll"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b12-s2q2",
           "question": "2. «Mi hija ya sabe leer.» → Meine Tochter <span class=\"blank\">___</span> schon lesen.",
-          "options": ["darf", "kann", "soll"],
+          "options": [
+            "darf",
+            "kann",
+            "soll"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b12-s2q3",
           "question": "3. En el hospital: «Aquí no se puede usar el móvil.» → Hier <span class=\"blank\">___</span> man kein Handy benutzen.",
-          "options": ["kann", "will", "darf"],
+          "options": [
+            "kann",
+            "will",
+            "darf"
+          ],
           "correctIndex": 2
+        },
+        {
+          "id": "b12-s2q4",
+          "question": "4. «Sé nadar.» → Ich <span class=\"blank\">___</span> schwimmen.",
+          "options": [
+            "kann",
+            "darf",
+            "soll"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s2q5",
+          "question": "5. «¿Puedo abrir la ventana?» (permiso) → <span class=\"blank\">___</span> ich das Fenster aufmachen?",
+          "options": [
+            "Soll",
+            "Darf",
+            "Kann"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s2q6",
+          "question": "6. «Aquí no se puede fumar.» → Hier <span class=\"blank\">___</span> man nicht rauchen.",
+          "options": [
+            "darf",
+            "kann",
+            "soll"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s2q7",
+          "question": "7. «Él sabe tocar la guitarra.» → Er <span class=\"blank\">___</span> Gitarre spielen.",
+          "options": [
+            "darf",
+            "kann",
+            "will"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s2q8",
+          "question": "8. «No puedo dormir.» (no soy capaz) → Ich <span class=\"blank\">___</span> nicht schlafen.",
+          "options": [
+            "darf",
+            "kann",
+            "soll"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s2q9",
+          "question": "9. «Los niños no pueden entrar.» (prohibido) → Kinder <span class=\"blank\">___</span> nicht hinein.",
+          "options": [
+            "können",
+            "sollen",
+            "dürfen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s2q10",
+          "question": "10. «¿Puede usted ayudarme?» (capacidad) → <span class=\"blank\">___</span> Sie mir helfen?",
+          "options": [
+            "Dürfen",
+            "Sollen",
+            "Können"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s2q11",
+          "question": "11. «¿Puedo pagar con tarjeta?» → <span class=\"blank\">___</span> ich mit Karte bezahlen?",
+          "options": [
+            "Kann",
+            "Will",
+            "Soll"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s2q12",
+          "question": "12. «No podemos venir hoy.» (imposible) → Wir <span class=\"blank\">___</span> heute nicht kommen.",
+          "options": [
+            "sollen",
+            "können",
+            "dürfen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s2q13",
+          "question": "13. «Ella no puede conducir.» (prohibido/aún no tiene permiso) → Sie <span class=\"blank\">___</span> nicht fahren.",
+          "options": [
+            "soll",
+            "will",
+            "darf"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s2q14",
+          "question": "14. ¿Qué modal expresa permiso?",
+          "options": [
+            "können",
+            "müssen",
+            "dürfen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s2q15",
+          "question": "15. ¿Qué modal expresa capacidad?",
+          "options": [
+            "können",
+            "sollen",
+            "dürfen"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -127,31 +631,258 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Ich muss</span> heute noch <span class=\"r-sep\">einkaufen</span>.", "es": "Todavía tengo que hacer la compra hoy." },
-        { "en": "Der Chef sagt, ich <span class=\"r-verb\">soll</span> ihn <span class=\"r-sep\">anrufen</span>.", "es": "El jefe dice que lo llame. (encargo de otro)" },
-        { "en": "<span class=\"r-verb\">Ich möchte</span> einen Tisch für zwei <span class=\"r-sep\">reservieren</span>.", "es": "Querría reservar una mesa para dos. (cortés)" },
-        { "en": "<span class=\"r-verb\">Ich mag</span> deutsche Musik.", "es": "Me gusta la música alemana. (mögen + sustantivo)" },
-        { "en": "<span class=\"r-verb\">Sie will</span> unbedingt in Berlin <span class=\"r-sep\">leben</span>.", "es": "Ella quiere vivir en Berlín sí o sí. (voluntad firme)" }
+        {
+          "en": "<span class=\"r-verb\">Ich muss</span> heute noch <span class=\"r-sep\">einkaufen</span>.",
+          "es": "Todavía tengo que hacer la compra hoy."
+        },
+        {
+          "en": "Der Chef sagt, ich <span class=\"r-verb\">soll</span> ihn <span class=\"r-sep\">anrufen</span>.",
+          "es": "El jefe dice que lo llame. (encargo de otro)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich möchte</span> einen Tisch für zwei <span class=\"r-sep\">reservieren</span>.",
+          "es": "Querría reservar una mesa para dos. (cortés)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich mag</span> deutsche Musik.",
+          "es": "Me gusta la música alemana. (mögen + sustantivo)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie will</span> unbedingt in Berlin <span class=\"r-sep\">leben</span>.",
+          "es": "Ella quiere vivir en Berlín sí o sí. (voluntad firme)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich muss</span> heute <span class=\"r-sep\">lernen</span>.",
+          "es": "Hoy tengo que estudiar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du musst</span> mehr <span class=\"r-sep\">schlafen</span>.",
+          "es": "Tienes que dormir más."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir müssen</span> bald <span class=\"r-sep\">gehen</span>.",
+          "es": "Tenemos que irnos pronto."
+        },
+        {
+          "en": "Der Arzt sagt, ich <span class=\"r-verb\">soll</span> viel Wasser <span class=\"r-sep\">trinken</span>.",
+          "es": "El médico dice que debo beber mucha agua."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du sollst</span> nicht <span class=\"r-sep\">lügen</span>.",
+          "es": "No debes mentir."
+        },
+        {
+          "en": "Meine Mutter sagt, ich <span class=\"r-verb\">soll</span> nach Hause <span class=\"r-sep\">kommen</span>.",
+          "es": "Mi madre dice que vuelva a casa."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sollen</span> wir ins Kino <span class=\"r-sep\">gehen</span>?",
+          "es": "¿Vamos al cine? (propuesta)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich will</span> ein neues Handy <span class=\"r-sep\">kaufen</span>.",
+          "es": "Quiero comprar un móvil nuevo."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er will</span> nicht <span class=\"r-sep\">warten</span>.",
+          "es": "Él no quiere esperar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich möchte</span> ein Glas Wasser <span class=\"r-sep\">trinken</span>.",
+          "es": "Querría beber un vaso de agua."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir möchten</span> bitte <span class=\"r-sep\">bezahlen</span>.",
+          "es": "Querríamos pagar, por favor."
+        },
+        {
+          "en": "<span class=\"r-verb\">Möchten</span> Sie einen Kaffee <span class=\"r-sep\">trinken</span>?",
+          "es": "¿Quiere tomar un café?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich mag</span> Schokolade.",
+          "es": "Me gusta el chocolate."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie mag</span> ihren Chef nicht.",
+          "es": "A ella no le cae bien su jefe."
+        },
+        {
+          "en": "<span class=\"r-verb\">Magst</span> du Jazz?",
+          "es": "¿Te gusta el jazz?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir mögen</span> den Sommer.",
+          "es": "Nos gusta el verano."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich muss</span> noch <span class=\"r-sep\">arbeiten</span>, dann <span class=\"r-verb\">kann</span> ich <span class=\"r-sep\">kommen</span>.",
+          "es": "Todavía tengo que trabajar, luego puedo venir."
+        },
+        {
+          "en": "<span class=\"r-verb\">Willst</span> du etwas <span class=\"r-sep\">essen</span>?",
+          "es": "¿Quieres comer algo?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ihr müsst</span> pünktlich <span class=\"r-sep\">sein</span>.",
+          "es": "Tenéis que ser puntuales."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er soll</span> morgen <span class=\"r-sep\">kommen</span>.",
+          "es": "Se supone que viene mañana."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b12-s3q1",
           "question": "1. En la cafetería, lo educado: «<span class=\"blank\">___</span> einen Tee, bitte.»",
-          "options": ["Ich will", "Ich möchte", "Ich soll"],
+          "options": [
+            "Ich will",
+            "Ich möchte",
+            "Ich soll"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b12-s3q2",
           "question": "2. El médico te lo ha mandado: Ich <span class=\"blank\">___</span> mehr Sport machen.",
-          "options": ["soll", "mag", "darf"],
+          "options": [
+            "soll",
+            "mag",
+            "darf"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b12-s3q3",
           "question": "3. «Me gusta el chocolate.» →",
-          "options": ["Ich möchte Schokolade.", "Ich mag Schokolade.", "Ich will Schokolade."],
+          "options": [
+            "Ich möchte Schokolade.",
+            "Ich mag Schokolade.",
+            "Ich will Schokolade."
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b12-s3q4",
+          "question": "4. En un restaurante, lo educado: «Ich <span class=\"blank\">___</span> ein Bier.»",
+          "options": [
+            "soll",
+            "möchte",
+            "will"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s3q5",
+          "question": "5. Tu madre te lo encarga: Ich <span class=\"blank\">___</span> Milch kaufen.",
+          "options": [
+            "kann",
+            "mag",
+            "soll"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s3q6",
+          "question": "6. Es obligatorio: Ich <span class=\"blank\">___</span> heute arbeiten.",
+          "options": [
+            "muss",
+            "mag",
+            "möchte"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s3q7",
+          "question": "7. Preferencia: Ich <span class=\"blank\">___</span> Kaffee.",
+          "options": [
+            "soll",
+            "muss",
+            "mag"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s3q8",
+          "question": "8. «Ellos quieren viajar.» → Sie <span class=\"blank\">___</span> reisen.",
+          "options": [
+            "wollt",
+            "will",
+            "wollen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s3q9",
+          "question": "9. «¿Quieres (tú) beber algo?» (querer firme) → <span class=\"blank\">___</span> du etwas trinken?",
+          "options": [
+            "Willst",
+            "Will",
+            "Wollt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s3q10",
+          "question": "10. «Nos gusta Berlín.» → Wir <span class=\"blank\">___</span> Berlin.",
+          "options": [
+            "magt",
+            "mögen",
+            "mag"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s3q11",
+          "question": "11. «Tú debes descansar.» (consejo de otro) → Du <span class=\"blank\">___</span> dich ausruhen.",
+          "options": [
+            "sollst",
+            "musst",
+            "magst"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s3q12",
+          "question": "12. «¿Vamos a comer?» (propuesta) → <span class=\"blank\">___</span> wir essen gehen?",
+          "options": [
+            "Mögen",
+            "Sollen",
+            "Müssen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s3q13",
+          "question": "13. «Ella quiere ser famosa.» → Sie <span class=\"blank\">___</span> berühmt werden.",
+          "options": [
+            "wollt",
+            "will",
+            "willst"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s3q14",
+          "question": "14. «Vosotros tenéis que venir.» → Ihr <span class=\"blank\">___</span> kommen.",
+          "options": [
+            "müsst",
+            "müssen",
+            "muss"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s3q15",
+          "question": "15. «Me gustan los perros.» → Ich <span class=\"blank\">___</span> Hunde.",
+          "options": [
+            "mag",
+            "soll",
+            "möchte"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -178,18 +909,126 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Du musst</span> morgen nicht <span class=\"r-sep\">arbeiten</span>.", "es": "Mañana no hace falta que trabajes." },
-        { "en": "<span class=\"r-verb\">Du darfst</span> hier nicht <span class=\"r-sep\">rauchen</span>.", "es": "Aquí no puedes fumar (prohibido)." },
-        { "en": "<span class=\"r-verb\">Ihr müsst</span> das nicht <span class=\"r-sep\">bezahlen</span> — es ist gratis.", "es": "No tenéis que pagarlo — es gratis." },
-        { "en": "Man <span class=\"r-verb\">darf</span> bei Rot nicht über die Straße <span class=\"r-sep\">gehen</span>.", "es": "No se puede cruzar con el semáforo en rojo." }
+        {
+          "en": "<span class=\"r-verb\">Du musst</span> morgen nicht <span class=\"r-sep\">arbeiten</span>.",
+          "es": "Mañana no hace falta que trabajes."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du darfst</span> hier nicht <span class=\"r-sep\">rauchen</span>.",
+          "es": "Aquí no puedes fumar (prohibido)."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ihr müsst</span> das nicht <span class=\"r-sep\">bezahlen</span> — es ist gratis.",
+          "es": "No tenéis que pagarlo — es gratis."
+        },
+        {
+          "en": "Man <span class=\"r-verb\">darf</span> bei Rot nicht über die Straße <span class=\"r-sep\">gehen</span>.",
+          "es": "No se puede cruzar con el semáforo en rojo."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du musst</span> nicht <span class=\"r-sep\">kommen</span>.",
+          "es": "No tienes que venir. (no hace falta)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Du darfst</span> nicht <span class=\"r-sep\">kommen</span>.",
+          "es": "No puedes venir. (prohibido)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir müssen</span> morgen nicht <span class=\"r-sep\">arbeiten</span>.",
+          "es": "Mañana no tenemos que trabajar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie dürfen</span> hier nicht <span class=\"r-sep\">parken</span>.",
+          "es": "Aquí no pueden aparcar (prohibido)."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er muss</span> nicht <span class=\"r-sep\">warten</span>.",
+          "es": "Él no tiene que esperar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er darf</span> nicht <span class=\"r-sep\">warten</span>.",
+          "es": "Él no puede esperar (no debe)."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ihr müsst</span> nicht <span class=\"r-sep\">helfen</span>.",
+          "es": "No tenéis que ayudar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ihr dürft</span> nicht <span class=\"r-sep\">helfen</span>.",
+          "es": "No podéis ayudar (prohibido)."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich muss</span> nicht <span class=\"r-sep\">lernen</span>, ich habe schon alles gelernt.",
+          "es": "No tengo que estudiar, ya lo he aprendido todo."
+        },
+        {
+          "en": "<span class=\"r-verb\">Man darf</span> im Museum nicht <span class=\"r-sep\">essen</span>.",
+          "es": "En el museo no se puede comer."
+        },
+        {
+          "en": "<span class=\"r-verb\">Man muss</span> hier nicht <span class=\"r-sep\">bezahlen</span>.",
+          "es": "Aquí no hay que pagar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du darfst</span> das Geheimnis nicht <span class=\"r-sep\">verraten</span>.",
+          "es": "No debes revelar el secreto."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du musst</span> das Geheimnis nicht <span class=\"r-sep\">verraten</span>.",
+          "es": "No hace falta que reveles el secreto."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie muss</span> nicht <span class=\"r-sep\">kommen</span>, aber sie kann.",
+          "es": "Ella no tiene que venir, pero puede."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie darf</span> nicht <span class=\"r-sep\">kommen</span>.",
+          "es": "Ella no puede venir (no se lo permiten)."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir dürfen</span> hier nicht <span class=\"r-sep\">rauchen</span>.",
+          "es": "Aquí no podemos fumar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich muss</span> das nicht <span class=\"r-sep\">wissen</span>.",
+          "es": "No necesito saber eso."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie müssen</span> keinen Anzug <span class=\"r-sep\">tragen</span>.",
+          "es": "No tienen que llevar traje."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du darfst</span> kein Eis <span class=\"r-sep\">essen</span>.",
+          "es": "No debes comer helado (prohibido)."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du musst</span> kein Eis <span class=\"r-sep\">essen</span>.",
+          "es": "No tienes por qué comer helado."
+        }
       ],
       "tables": [
         {
-          "headers": ["Alemán", "Significado", "Equivale a"],
+          "headers": [
+            "Alemán",
+            "Significado",
+            "Equivale a"
+          ],
           "rows": [
-            ["<b>musst nicht</b>", "no hace falta", "don't have to"],
-            ["<b>darfst nicht</b>", "prohibido", "must not"],
-            ["<b>brauchst nicht zu</b>", "no hace falta (alternativa)", "don't need to"]
+            [
+              "<b>musst nicht</b>",
+              "no hace falta",
+              "don't have to"
+            ],
+            [
+              "<b>darfst nicht</b>",
+              "prohibido",
+              "must not"
+            ],
+            [
+              "<b>brauchst nicht zu</b>",
+              "no hace falta (alternativa)",
+              "don't need to"
+            ]
           ]
         }
       ],
@@ -197,19 +1036,151 @@
         {
           "id": "b12-s4q1",
           "question": "1. Cartel en el museo: «Prohibido hacer fotos.» → Man <span class=\"blank\">___</span> hier nicht fotografieren.",
-          "options": ["muss", "darf", "soll"],
+          "options": [
+            "muss",
+            "darf",
+            "soll"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b12-s4q2",
           "question": "2. «Es gratis, no tienes que pagar.» → Du <span class=\"blank\">___</span> nicht bezahlen.",
-          "options": ["darfst", "musst", "willst"],
+          "options": [
+            "darfst",
+            "musst",
+            "willst"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b12-s4q3",
           "question": "3. «Sie dürfen das nicht essen» significa…",
-          "options": ["No hace falta que lo coma", "Tiene prohibido comerlo", "No le apetece comerlo"],
+          "options": [
+            "No hace falta que lo coma",
+            "Tiene prohibido comerlo",
+            "No le apetece comerlo"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s4q4",
+          "question": "4. «No hace falta que vengas.» → Du <span class=\"blank\">___</span> nicht kommen.",
+          "options": [
+            "sollst",
+            "musst",
+            "darfst"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s4q5",
+          "question": "5. «Prohibido entrar.» → Man <span class=\"blank\">___</span> hier nicht hinein.",
+          "options": [
+            "muss",
+            "kann",
+            "darf"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s4q6",
+          "question": "6. «No hace falta pagar.» → Man <span class=\"blank\">___</span> nicht bezahlen.",
+          "options": [
+            "darf",
+            "soll",
+            "muss"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s4q7",
+          "question": "7. «No puedes aparcar aquí (prohibido).» → Du <span class=\"blank\">___</span> hier nicht parken.",
+          "options": [
+            "darfst",
+            "sollst",
+            "musst"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s4q8",
+          "question": "8. «No tenemos que trabajar mañana.» → Wir <span class=\"blank\">___</span> morgen nicht arbeiten.",
+          "options": [
+            "müssen",
+            "sollen",
+            "dürfen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b12-s4q9",
+          "question": "9. «Los niños no deben jugar aquí.» → Kinder <span class=\"blank\">___</span> hier nicht spielen.",
+          "options": [
+            "müssen",
+            "dürfen",
+            "wollen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s4q10",
+          "question": "10. «Mañana no hace falta ir.» → Man <span class=\"blank\">___</span> morgen nicht kommen.",
+          "options": [
+            "darf",
+            "will",
+            "muss"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s4q11",
+          "question": "11. «No debes fumar.» → Du <span class=\"blank\">___</span> nicht rauchen.",
+          "options": [
+            "willst",
+            "musst",
+            "darfst"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s4q12",
+          "question": "12. «Ella no tiene por qué venir.» → Sie <span class=\"blank\">___</span> nicht kommen.",
+          "options": [
+            "will",
+            "darf",
+            "muss"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b12-s4q13",
+          "question": "13. «Ellos no pueden llegar tarde.» (prohibido) → Sie <span class=\"blank\">___</span> nicht zu spät kommen.",
+          "options": [
+            "müssen",
+            "dürfen",
+            "wollen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s4q14",
+          "question": "14. «Usted no tiene que esperar.» → Sie <span class=\"blank\">___</span> nicht warten.",
+          "options": [
+            "sollen",
+            "müssen",
+            "dürfen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b12-s4q15",
+          "question": "15. ¿«nicht müssen» significa…?",
+          "options": [
+            "prohibido",
+            "no hace falta",
+            "imposible"
+          ],
           "correctIndex": 1
         }
       ],

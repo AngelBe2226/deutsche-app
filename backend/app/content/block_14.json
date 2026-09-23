@@ -4,9 +4,21 @@
   "kicker": "Bloque 14 · A2–B1",
   "intro": "Tres familias de conectores, cada una con su efecto sobre el orden: los <b class=\"hl\">coordinantes</b> (posición 0, no cambian nada), los <b class=\"hl\">subordinantes</b> (verbo al final, bloque 09) y los <b class=\"hl\">adverbios conectores</b> (ocupan la posición 1 → inversión).",
   "legend": [
-    { "label": "conector", "desc": "subordinante (verbo al final)", "role": "sub" },
-    { "label": "verbo", "desc": "conjugado", "role": "verb" },
-    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+    {
+      "label": "conector",
+      "desc": "subordinante (verbo al final)",
+      "role": "sub"
+    },
+    {
+      "label": "verbo",
+      "desc": "conjugado",
+      "role": "verb"
+    },
+    {
+      "label": "sujeto",
+      "desc": "Nominativ",
+      "role": "nom"
+    }
   ],
   "sections": [
     {
@@ -22,20 +34,136 @@
         }
       ],
       "examples": [
-        { "en": "Ich lerne Deutsch <b>und</b> <span class=\"r-nom\">ich</span> <span class=\"r-verb\">übe</span> jeden Tag.", "es": "Aprendo alemán y practico cada día." },
-        { "en": "Er kommt nicht, <b>denn</b> <span class=\"r-nom\">er</span> <span class=\"r-verb\">ist</span> krank.", "es": "No viene, porque está enfermo. (orden normal tras denn)" },
-        { "en": "Möchtest du Kaffee <b>oder</b> <span class=\"r-verb\">trinkst</span> <span class=\"r-nom\">du</span> lieber Tee?", "es": "¿Quieres café o prefieres té?" },
-        { "en": "Das Hotel ist klein, <b>aber</b> <span class=\"r-nom\">es</span> <span class=\"r-verb\">ist</span> sehr gemütlich.", "es": "El hotel es pequeño, pero muy acogedor." }
+        {
+          "en": "Ich lerne Deutsch <b>und</b> <span class=\"r-nom\">ich</span> <span class=\"r-verb\">übe</span> jeden Tag.",
+          "es": "Aprendo alemán y practico cada día."
+        },
+        {
+          "en": "Er kommt nicht, <b>denn</b> <span class=\"r-nom\">er</span> <span class=\"r-verb\">ist</span> krank.",
+          "es": "No viene, porque está enfermo. (orden normal tras denn)"
+        },
+        {
+          "en": "Möchtest du Kaffee <b>oder</b> <span class=\"r-verb\">trinkst</span> <span class=\"r-nom\">du</span> lieber Tee?",
+          "es": "¿Quieres café o prefieres té?"
+        },
+        {
+          "en": "Das Hotel ist klein, <b>aber</b> <span class=\"r-nom\">es</span> <span class=\"r-verb\">ist</span> sehr gemütlich.",
+          "es": "El hotel es pequeño, pero muy acogedor."
+        },
+        {
+          "en": "Ich bin müde, <b>aber</b> <span class=\"r-nom\">ich</span> <span class=\"r-verb\">muss</span> noch arbeiten.",
+          "es": "Estoy cansado, pero todavía tengo que trabajar."
+        },
+        {
+          "en": "Wir bleiben zu Hause, <b>denn</b> <span class=\"r-nom\">es</span> <span class=\"r-verb\">regnet</span>.",
+          "es": "Nos quedamos en casa, porque llueve."
+        },
+        {
+          "en": "Er spielt Gitarre <b>und</b> <span class=\"r-nom\">sie</span> <span class=\"r-verb\">singt</span>.",
+          "es": "Él toca la guitarra y ella canta."
+        },
+        {
+          "en": "Wollen wir ins Kino gehen <b>oder</b> <span class=\"r-verb\">bleiben</span> <span class=\"r-nom\">wir</span> zu Hause?",
+          "es": "¿Vamos al cine o nos quedamos en casa?"
+        },
+        {
+          "en": "Ich esse kein Fleisch, <b>sondern</b> <span class=\"r-nom\">ich</span> <span class=\"r-verb\">esse</span> nur Gemüse.",
+          "es": "No como carne, sino solo verdura."
+        },
+        {
+          "en": "Sie ist krank, <b>aber</b> <span class=\"r-nom\">sie</span> <span class=\"r-verb\">geht</span> trotzdem zur Arbeit.",
+          "es": "Ella está enferma, pero va a trabajar igualmente."
+        },
+        {
+          "en": "Ich lerne Deutsch, <b>denn</b> <span class=\"r-nom\">ich</span> <span class=\"r-verb\">will</span> in Berlin arbeiten.",
+          "es": "Aprendo alemán, porque quiero trabajar en Berlín."
+        },
+        {
+          "en": "Sie kocht <b>und</b> <span class=\"r-nom\">er</span> <span class=\"r-verb\">deckt</span> den Tisch.",
+          "es": "Ella cocina y él pone la mesa."
+        },
+        {
+          "en": "Ich möchte kommen, <b>aber</b> <span class=\"r-nom\">ich</span> <span class=\"r-verb\">habe</span> keine Zeit.",
+          "es": "Me gustaría venir, pero no tengo tiempo."
+        },
+        {
+          "en": "Er ist nicht dumm, <b>sondern</b> <span class=\"r-nom\">er</span> <span class=\"r-verb\">ist</span> faul.",
+          "es": "No es tonto, sino vago."
+        },
+        {
+          "en": "Wir fahren mit dem Zug <b>oder</b> <span class=\"r-nom\">wir</span> <span class=\"r-verb\">nehmen</span> das Auto.",
+          "es": "Vamos en tren o cogemos el coche."
+        },
+        {
+          "en": "Das Kind weint, <b>denn</b> <span class=\"r-nom\">es</span> <span class=\"r-verb\">hat</span> Hunger.",
+          "es": "El niño llora, porque tiene hambre."
+        },
+        {
+          "en": "Ich trinke Tee <b>und</b> <span class=\"r-nom\">meine Frau</span> <span class=\"r-verb\">trinkt</span> Kaffee.",
+          "es": "Yo bebo té y mi mujer bebe café."
+        },
+        {
+          "en": "Es ist kalt, <b>aber</b> <span class=\"r-nom\">die Sonne</span> <span class=\"r-verb\">scheint</span>.",
+          "es": "Hace frío, pero brilla el sol."
+        },
+        {
+          "en": "Ich gehe nicht schlafen, <b>denn</b> <span class=\"r-nom\">ich</span> <span class=\"r-verb\">bin</span> nicht müde.",
+          "es": "No me voy a dormir, porque no estoy cansado."
+        },
+        {
+          "en": "Er wohnt in Bonn, <b>und</b> <span class=\"r-nom\">seine Schwester</span> <span class=\"r-verb\">wohnt</span> in Köln.",
+          "es": "Él vive en Bonn y su hermana vive en Colonia."
+        },
+        {
+          "en": "Kommst du mit, <b>oder</b> <span class=\"r-verb\">bleibst</span> <span class=\"r-nom\">du</span> hier?",
+          "es": "¿Vienes o te quedas aquí?"
+        },
+        {
+          "en": "Das Buch ist alt, <b>aber</b> <span class=\"r-nom\">es</span> <span class=\"r-verb\">ist</span> sehr interessant.",
+          "es": "El libro es viejo, pero muy interesante."
+        },
+        {
+          "en": "Ich bin zu spät, <b>denn</b> <span class=\"r-nom\">der Bus</span> <span class=\"r-verb\">hatte</span> Verspätung.",
+          "es": "Llego tarde, porque el autobús iba con retraso."
+        },
+        {
+          "en": "Sie lacht, <b>und</b> <span class=\"r-nom\">alle</span> <span class=\"r-verb\">lachen</span> mit.",
+          "es": "Ella ríe y todos ríen con ella."
+        }
       ],
       "tables": [
         {
-          "headers": ["Conector", "Significado", "Efecto en el orden"],
+          "headers": [
+            "Conector",
+            "Significado",
+            "Efecto en el orden"
+          ],
           "rows": [
-            ["<b>a</b>ber", "pero", "ninguno (posición 0)"],
-            ["<b>d</b>enn", "porque, pues", "ninguno (posición 0)"],
-            ["<b>u</b>nd", "y", "ninguno (posición 0)"],
-            ["<b>s</b>ondern", "sino", "ninguno (posición 0)"],
-            ["<b>o</b>der", "o", "ninguno (posición 0)"]
+            [
+              "<b>a</b>ber",
+              "pero",
+              "ninguno (posición 0)"
+            ],
+            [
+              "<b>d</b>enn",
+              "porque, pues",
+              "ninguno (posición 0)"
+            ],
+            [
+              "<b>u</b>nd",
+              "y",
+              "ninguno (posición 0)"
+            ],
+            [
+              "<b>s</b>ondern",
+              "sino",
+              "ninguno (posición 0)"
+            ],
+            [
+              "<b>o</b>der",
+              "o",
+              "ninguno (posición 0)"
+            ]
           ]
         }
       ],
@@ -43,20 +171,152 @@
         {
           "id": "b14-s1q1",
           "question": "1. Ich bleibe zu Hause, denn ich <span class=\"blank\">___</span> müde.",
-          "options": ["bin", "müde bin", "bin ich"],
+          "options": [
+            "bin",
+            "müde bin",
+            "bin ich"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b14-s1q2",
           "question": "2. ¿Cuál de estos conectores NO altera el orden de la frase?",
-          "options": ["weil", "aber", "obwohl"],
+          "options": [
+            "weil",
+            "aber",
+            "obwohl"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b14-s1q3",
           "question": "3. ADUSO son…",
-          "options": ["aber, denn, und, sondern, oder", "als, dann, und, so, ob", "auf, durch, um, seit, ohne"],
+          "options": [
+            "aber, denn, und, sondern, oder",
+            "als, dann, und, so, ob",
+            "auf, durch, um, seit, ohne"
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b14-s1q4",
+          "question": "4. Er ist müde, aber er <span class=\"blank\">___</span> weiter.",
+          "options": [
+            "er arbeitet nicht",
+            "arbeitet",
+            "arbeitet er"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s1q5",
+          "question": "5. Ich bleibe hier, denn ich <span class=\"blank\">___</span> krank.",
+          "options": [
+            "bin",
+            "bin ich",
+            "ich bin"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s1q6",
+          "question": "6. Sie kocht und er <span class=\"blank\">___</span> den Tisch.",
+          "options": [
+            "deckt er",
+            "ist deckt",
+            "deckt"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s1q7",
+          "question": "7. ¿Cuál es correcta?",
+          "options": [
+            "Wir bleiben, denn es regnet.",
+            "Wir bleiben, denn regnet es.",
+            "Wir bleiben, denn es regnet nicht mehr."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s1q8",
+          "question": "8. ¿Cuál es correcta?",
+          "options": [
+            "Ich habe Hunger, aber ich habe kein Geld.",
+            "Ich habe Hunger, aber kein Geld habe ich.",
+            "Ich habe Hunger, aber habe ich kein Geld."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s1q9",
+          "question": "9. ¿Cuál no cambia el orden?",
+          "options": [
+            "und",
+            "weil",
+            "dass"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s1q10",
+          "question": "10. ¿Cuál no cambia el orden?",
+          "options": [
+            "denn",
+            "obwohl",
+            "wenn"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s1q11",
+          "question": "11. ¿Cuál no cambia el orden?",
+          "options": [
+            "ob",
+            "damit",
+            "oder"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s1q12",
+          "question": "12. «y» en alemán (ADUSO)",
+          "options": [
+            "dann",
+            "und",
+            "dass"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s1q13",
+          "question": "13. «porque» sin cambiar el verbo de sitio",
+          "options": [
+            "denn",
+            "weil",
+            "wenn"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s1q14",
+          "question": "14. «pero» en ADUSO",
+          "options": [
+            "aber",
+            "trotzdem",
+            "jedoch"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s1q15",
+          "question": "15. «o» en ADUSO",
+          "options": [
+            "aber",
+            "und",
+            "oder"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -78,30 +338,254 @@
         }
       ],
       "examples": [
-        { "en": "Das ist <b>nicht</b> mein Auto, <b>sondern</b> das Auto meiner Schwester.", "es": "Ese no es mi coche, sino el de mi hermana." },
-        { "en": "Die Wohnung ist klein, <b>aber</b> schön.", "es": "El piso es pequeño, pero bonito." },
-        { "en": "Ich trinke <b>keinen</b> Kaffee, <b>sondern</b> Tee.", "es": "No bebo café, sino té." },
-        { "en": "Er ist müde, <b>aber</b> er arbeitet weiter.", "es": "Está cansado, pero sigue trabajando." }
+        {
+          "en": "Das ist <b>nicht</b> mein Auto, <b>sondern</b> das Auto meiner Schwester.",
+          "es": "Ese no es mi coche, sino el de mi hermana."
+        },
+        {
+          "en": "Die Wohnung ist klein, <b>aber</b> schön.",
+          "es": "El piso es pequeño, pero bonito."
+        },
+        {
+          "en": "Ich trinke <b>keinen</b> Kaffee, <b>sondern</b> Tee.",
+          "es": "No bebo café, sino té."
+        },
+        {
+          "en": "Er ist müde, <b>aber</b> er arbeitet weiter.",
+          "es": "Está cansado, pero sigue trabajando."
+        },
+        {
+          "en": "Das ist nicht rot, <b>sondern</b> orange.",
+          "es": "Eso no es rojo, sino naranja."
+        },
+        {
+          "en": "Er ist nicht Lehrer, <b>sondern</b> Arzt.",
+          "es": "Él no es profesor, sino médico."
+        },
+        {
+          "en": "Wir fahren nicht nach Rom, <b>sondern</b> nach Florenz.",
+          "es": "No vamos a Roma, sino a Florencia."
+        },
+        {
+          "en": "Ich will nicht schlafen, <b>sondern</b> lesen.",
+          "es": "No quiero dormir, sino leer."
+        },
+        {
+          "en": "Sie kommt nicht heute, <b>sondern</b> morgen.",
+          "es": "Ella no viene hoy, sino mañana."
+        },
+        {
+          "en": "Das war kein Fehler, <b>sondern</b> Absicht.",
+          "es": "Eso no fue un error, sino intención."
+        },
+        {
+          "en": "Ich habe keinen Bruder, <b>sondern</b> zwei Schwestern.",
+          "es": "No tengo un hermano, sino dos hermanas."
+        },
+        {
+          "en": "Er hat nicht gelacht, <b>sondern</b> geweint.",
+          "es": "No se rió, sino que lloró."
+        },
+        {
+          "en": "Das Haus ist klein, <b>aber</b> gemütlich.",
+          "es": "La casa es pequeña, pero acogedora."
+        },
+        {
+          "en": "Ich bin müde, <b>aber</b> glücklich.",
+          "es": "Estoy cansado, pero feliz."
+        },
+        {
+          "en": "Er ist reich, <b>aber</b> nicht glücklich.",
+          "es": "Es rico, pero no feliz."
+        },
+        {
+          "en": "Ich möchte kommen, <b>aber</b> ich kann nicht.",
+          "es": "Me gustaría venir, pero no puedo."
+        },
+        {
+          "en": "Das Essen ist gut, <b>aber</b> teuer.",
+          "es": "La comida es buena, pero cara."
+        },
+        {
+          "en": "Sie ist jung, <b>aber</b> sehr erfahren.",
+          "es": "Es joven, pero muy experimentada."
+        },
+        {
+          "en": "Es regnet, <b>aber</b> wir gehen spazieren.",
+          "es": "Llueve, pero salimos a pasear."
+        },
+        {
+          "en": "Nicht du bist schuld, <b>sondern</b> ich.",
+          "es": "No tienes tú la culpa, sino yo."
+        },
+        {
+          "en": "Wir treffen uns nicht im Café, <b>sondern</b> im Park.",
+          "es": "No nos vemos en el café, sino en el parque."
+        },
+        {
+          "en": "Ich trinke keinen Wein, <b>sondern</b> Wasser.",
+          "es": "No bebo vino, sino agua."
+        },
+        {
+          "en": "Der Film war lang, <b>aber</b> spannend.",
+          "es": "La película fue larga, pero emocionante."
+        },
+        {
+          "en": "Sie ist nicht nett, <b>sondern</b> unfreundlich.",
+          "es": "No es amable, sino antipática."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b14-s2q1",
           "question": "1. Ich komme nicht heute, <span class=\"blank\">___</span> morgen.",
-          "options": ["aber", "sondern", "denn"],
+          "options": [
+            "aber",
+            "sondern",
+            "denn"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b14-s2q2",
           "question": "2. Das Essen war teuer, <span class=\"blank\">___</span> sehr gut.",
-          "options": ["sondern", "aber", "oder"],
+          "options": [
+            "sondern",
+            "aber",
+            "oder"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b14-s2q3",
           "question": "3. «sondern» solo puede aparecer…",
-          "options": ["tras una negación", "al principio de frase", "con el verbo al final"],
+          "options": [
+            "tras una negación",
+            "al principio de frase",
+            "con el verbo al final"
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b14-s2q4",
+          "question": "4. Er ist nicht dumm, <span class=\"blank\">___</span> faul.",
+          "options": [
+            "denn",
+            "aber",
+            "sondern"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s2q5",
+          "question": "5. Sie ist klug, <span class=\"blank\">___</span> manchmal faul.",
+          "options": [
+            "oder",
+            "aber",
+            "sondern"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s2q6",
+          "question": "6. Ich fahre nicht mit dem Bus, <span class=\"blank\">___</span> mit dem Rad.",
+          "options": [
+            "aber",
+            "sondern",
+            "und"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s2q7",
+          "question": "7. Das Wetter ist schlecht, <span class=\"blank\">___</span> wir gehen raus.",
+          "options": [
+            "sondern",
+            "denn",
+            "aber"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s2q8",
+          "question": "8. Wir wohnen nicht in Bonn, <span class=\"blank\">___</span> in Köln.",
+          "options": [
+            "aber",
+            "oder",
+            "sondern"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s2q9",
+          "question": "9. Ich mag Kaffee, <span class=\"blank\">___</span> ich trinke ihn ohne Zucker.",
+          "options": [
+            "aber",
+            "denn",
+            "sondern"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s2q10",
+          "question": "10. Das ist kein Auto, <span class=\"blank\">___</span> ein Motorrad.",
+          "options": [
+            "sondern",
+            "oder",
+            "aber"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s2q11",
+          "question": "11. Es ist teuer, <span class=\"blank\">___</span> gut.",
+          "options": [
+            "aber",
+            "denn",
+            "sondern"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s2q12",
+          "question": "12. «sondern» corrige…",
+          "options": [
+            "cualquier frase",
+            "una negación previa",
+            "una afirmación"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s2q13",
+          "question": "13. «Ella no vive en Madrid, sino en Sevilla.»",
+          "options": [
+            "oder",
+            "sondern",
+            "aber"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s2q14",
+          "question": "14. «Es pequeño, pero bonito.»",
+          "options": [
+            "sondern",
+            "denn",
+            "aber"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s2q15",
+          "question": "15. ¿Cuál es correcta?",
+          "options": [
+            "Er ist nicht Arzt, denn Lehrer.",
+            "Er ist nicht Arzt, aber Lehrer.",
+            "Er ist nicht Arzt, sondern Lehrer."
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -123,21 +607,140 @@
         }
       ],
       "examples": [
-        { "en": "Es regnet, <b>deshalb</b> <span class=\"r-verb\">bleiben</span> <span class=\"r-nom\">wir</span> zu Hause.", "es": "Llueve, por eso nos quedamos en casa." },
-        { "en": "Er war krank, <b>trotzdem</b> <span class=\"r-verb\">ist</span> <span class=\"r-nom\">er</span> zur Arbeit gegangen.", "es": "Estaba enfermo; aun así fue a trabajar." },
-        { "en": "Zuerst frühstücke ich, <b>dann</b> <span class=\"r-verb\">gehe</span> <span class=\"r-nom\">ich</span> zur Arbeit.", "es": "Primero desayuno, luego voy al trabajo." },
-        { "en": "Das Hotel ist zentral, <b>außerdem</b> <span class=\"r-verb\">ist</span> <span class=\"r-nom\">es</span> günstig.", "es": "El hotel es céntrico; además, es barato." },
-        { "en": "Beeil dich, <b>sonst</b> <span class=\"r-verb\">verpassen</span> <span class=\"r-nom\">wir</span> den Zug!", "es": "¡Date prisa, si no perdemos el tren!" }
+        {
+          "en": "Es regnet, <b>deshalb</b> <span class=\"r-verb\">bleiben</span> <span class=\"r-nom\">wir</span> zu Hause.",
+          "es": "Llueve, por eso nos quedamos en casa."
+        },
+        {
+          "en": "Er war krank, <b>trotzdem</b> <span class=\"r-verb\">ist</span> <span class=\"r-nom\">er</span> zur Arbeit gegangen.",
+          "es": "Estaba enfermo; aun así fue a trabajar."
+        },
+        {
+          "en": "Zuerst frühstücke ich, <b>dann</b> <span class=\"r-verb\">gehe</span> <span class=\"r-nom\">ich</span> zur Arbeit.",
+          "es": "Primero desayuno, luego voy al trabajo."
+        },
+        {
+          "en": "Das Hotel ist zentral, <b>außerdem</b> <span class=\"r-verb\">ist</span> <span class=\"r-nom\">es</span> günstig.",
+          "es": "El hotel es céntrico; además, es barato."
+        },
+        {
+          "en": "Beeil dich, <b>sonst</b> <span class=\"r-verb\">verpassen</span> <span class=\"r-nom\">wir</span> den Zug!",
+          "es": "¡Date prisa, si no perdemos el tren!"
+        },
+        {
+          "en": "Ich bin krank, <b>deshalb</b> <span class=\"r-verb\">bleibe</span> <span class=\"r-nom\">ich</span> zu Hause.",
+          "es": "Estoy enfermo, por eso me quedo en casa."
+        },
+        {
+          "en": "Es ist spät, <b>deswegen</b> <span class=\"r-verb\">gehen</span> <span class=\"r-nom\">wir</span> nach Hause.",
+          "es": "Es tarde, por eso nos vamos a casa."
+        },
+        {
+          "en": "Er hat viel gelernt, <b>trotzdem</b> <span class=\"r-verb\">hat</span> <span class=\"r-nom\">er</span> die Prüfung nicht bestanden.",
+          "es": "Estudió mucho, aun así no aprobó el examen."
+        },
+        {
+          "en": "Sie ist müde, <b>trotzdem</b> <span class=\"r-verb\">arbeitet</span> <span class=\"r-nom\">sie</span> weiter.",
+          "es": "Está cansada, aun así sigue trabajando."
+        },
+        {
+          "en": "Zuerst <span class=\"r-verb\">essen</span> <span class=\"r-nom\">wir</span>, <b>dann</b> <span class=\"r-verb\">gehen</span> <span class=\"r-nom\">wir</span> spazieren.",
+          "es": "Primero comemos, luego damos un paseo."
+        },
+        {
+          "en": "Ich dusche, <b>danach</b> <span class=\"r-verb\">frühstücke</span> <span class=\"r-nom\">ich</span>.",
+          "es": "Me ducho y después desayuno."
+        },
+        {
+          "en": "Das Zimmer ist schön, <b>außerdem</b> <span class=\"r-verb\">ist</span> <span class=\"r-nom\">es</span> billig.",
+          "es": "La habitación es bonita, además es barata."
+        },
+        {
+          "en": "Du musst lernen, <b>sonst</b> <span class=\"r-verb\">fällst</span> <span class=\"r-nom\">du</span> durch.",
+          "es": "Tienes que estudiar; si no, suspenderás."
+        },
+        {
+          "en": "Beeil dich, <b>sonst</b> <span class=\"r-verb\">kommen</span> <span class=\"r-nom\">wir</span> zu spät!",
+          "es": "¡Date prisa, si no llegaremos tarde!"
+        },
+        {
+          "en": "Ich habe keine Zeit, <b>darum</b> <span class=\"r-verb\">kann</span> <span class=\"r-nom\">ich</span> nicht kommen.",
+          "es": "No tengo tiempo, por eso no puedo venir."
+        },
+        {
+          "en": "Er ist reich, <b>trotzdem</b> <span class=\"r-verb\">ist</span> <span class=\"r-nom\">er</span> nicht glücklich.",
+          "es": "Es rico, aun así no es feliz."
+        },
+        {
+          "en": "Es regnet, <b>deshalb</b> <span class=\"r-verb\">nehmen</span> <span class=\"r-nom\">wir</span> einen Schirm mit.",
+          "es": "Llueve, por eso cogemos un paraguas."
+        },
+        {
+          "en": "Ich habe Hunger, <b>deshalb</b> <span class=\"r-verb\">koche</span> <span class=\"r-nom\">ich</span> etwas.",
+          "es": "Tengo hambre, por eso cocino algo."
+        },
+        {
+          "en": "Sie spricht Deutsch, <b>außerdem</b> <span class=\"r-verb\">spricht</span> <span class=\"r-nom\">sie</span> Englisch.",
+          "es": "Habla alemán, además habla inglés."
+        },
+        {
+          "en": "Erst <span class=\"r-verb\">arbeite</span> <span class=\"r-nom\">ich</span>, <b>danach</b> <span class=\"r-verb\">gehe</span> <span class=\"r-nom\">ich</span> ins Kino.",
+          "es": "Primero trabajo, luego voy al cine."
+        },
+        {
+          "en": "Ich bin krank, <b>trotzdem</b> <span class=\"r-verb\">gehe</span> <span class=\"r-nom\">ich</span> zur Arbeit.",
+          "es": "Estoy enfermo, aun así voy al trabajo."
+        },
+        {
+          "en": "Das Wetter ist schlecht, <b>trotzdem</b> <span class=\"r-verb\">gehen</span> <span class=\"r-nom\">wir</span> wandern.",
+          "es": "El tiempo es malo, aun así vamos de excursión."
+        },
+        {
+          "en": "Ruf mich an, <b>sonst</b> <span class=\"r-verb\">mache</span> <span class=\"r-nom\">ich</span> mir Sorgen.",
+          "es": "Llámame; si no, me preocupo."
+        },
+        {
+          "en": "Er hat kein Auto, <b>deshalb</b> <span class=\"r-verb\">fährt</span> <span class=\"r-nom\">er</span> Bus.",
+          "es": "No tiene coche, por eso va en autobús."
+        },
+        {
+          "en": "Wir haben gegessen, <b>dann</b> <span class=\"r-verb\">haben</span> <span class=\"r-nom\">wir</span> Kaffee getrunken.",
+          "es": "Comimos, luego tomamos café."
+        }
       ],
       "tables": [
         {
-          "headers": ["Conector", "Significado", "Mecánica"],
+          "headers": [
+            "Conector",
+            "Significado",
+            "Mecánica"
+          ],
           "rows": [
-            ["deshalb / deswegen / darum", "por eso", "posición 1 → inversión"],
-            ["trotzdem", "a pesar de ello", "posición 1 → inversión"],
-            ["dann / danach", "entonces / después", "posición 1 → inversión"],
-            ["außerdem", "además", "posición 1 → inversión"],
-            ["sonst", "si no, de lo contrario", "posición 1 → inversión"]
+            [
+              "deshalb / deswegen / darum",
+              "por eso",
+              "posición 1 → inversión"
+            ],
+            [
+              "trotzdem",
+              "a pesar de ello",
+              "posición 1 → inversión"
+            ],
+            [
+              "dann / danach",
+              "entonces / después",
+              "posición 1 → inversión"
+            ],
+            [
+              "außerdem",
+              "además",
+              "posición 1 → inversión"
+            ],
+            [
+              "sonst",
+              "si no, de lo contrario",
+              "posición 1 → inversión"
+            ]
           ]
         }
       ],
@@ -145,13 +748,21 @@
         {
           "id": "b14-s3q1",
           "question": "1. Ich habe Hunger, deshalb <span class=\"blank\">___</span> etwas.",
-          "options": ["ich koche", "koche ich", "ich kochen"],
+          "options": [
+            "ich koche",
+            "koche ich",
+            "ich kochen"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b14-s3q2",
           "question": "2. «Estaba cansada; aun así siguió estudiando.» → Sie war müde, <span class=\"blank\">___</span> hat sie weitergelernt.",
-          "options": ["obwohl", "trotzdem", "deshalb"],
+          "options": [
+            "obwohl",
+            "trotzdem",
+            "deshalb"
+          ],
           "correctIndex": 1
         },
         {
@@ -163,6 +774,126 @@
             "Ninguna, son intercambiables"
           ],
           "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q4",
+          "question": "4. Es ist kalt, deshalb <span class=\"blank\">___</span> ich eine Jacke an.",
+          "options": [
+            "ich ziehe",
+            "ziehe",
+            "zieh ich zu"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q5",
+          "question": "5. Er ist müde, trotzdem <span class=\"blank\">___</span> er weiter.",
+          "options": [
+            "arbeitet",
+            "er nicht arbeitet",
+            "er arbeitet"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s3q6",
+          "question": "6. Erst essen wir, dann <span class=\"blank\">___</span> wir.",
+          "options": [
+            "wir gehen",
+            "gehen",
+            "gehen sind"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q7",
+          "question": "7. Sie hat Zeit, außerdem <span class=\"blank\">___</span> sie Geld.",
+          "options": [
+            "haben",
+            "hat",
+            "sie hat"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q8",
+          "question": "8. «Por eso» =",
+          "options": [
+            "weil",
+            "deshalb",
+            "obwohl"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q9",
+          "question": "9. «Aun así» =",
+          "options": [
+            "damit",
+            "deshalb",
+            "trotzdem"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s3q10",
+          "question": "10. «Además» =",
+          "options": [
+            "dann",
+            "außerdem",
+            "sonst"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q11",
+          "question": "11. «Si no» =",
+          "options": [
+            "denn",
+            "sonst",
+            "dass"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q12",
+          "question": "12. «Después» =",
+          "options": [
+            "sonst",
+            "trotzdem",
+            "danach"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s3q13",
+          "question": "13. Ich habe Hunger, <span class=\"blank\">___</span> esse ich etwas.",
+          "options": [
+            "deshalb",
+            "obwohl",
+            "weil"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s3q14",
+          "question": "14. Es regnet, <span class=\"blank\">___</span> gehe ich spazieren. (aun así)",
+          "options": [
+            "denn",
+            "trotzdem",
+            "deshalb"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s3q15",
+          "question": "15. ¿Cuál es correcta?",
+          "options": [
+            "Ich bin krank, deshalb bleibe ich zu Hause.",
+            "Ich bin krank, deshalb ich bleibe zu Hause.",
+            "Ich bin krank, deshalb bleibe zu Hause ich."
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -184,30 +915,254 @@
         }
       ],
       "examples": [
-        { "en": "<b>Entweder</b> gehen wir ins Kino <b>oder</b> wir bleiben zu Hause.", "es": "O vamos al cine o nos quedamos en casa." },
-        { "en": "Ich trinke <b>weder</b> Kaffee <b>noch</b> Tee.", "es": "No bebo ni café ni té." },
-        { "en": "<b>Zwar</b> ist Deutsch schwer, <b>aber</b> es macht Spaß.", "es": "Es verdad que el alemán es difícil, pero es divertido." },
-        { "en": "<b>Je</b> mehr ich übe, <b>desto</b> besser <span class=\"r-verb\">spreche</span> <span class=\"r-nom\">ich</span>.", "es": "Cuanto más practico, mejor hablo." }
+        {
+          "en": "<b>Entweder</b> gehen wir ins Kino <b>oder</b> wir bleiben zu Hause.",
+          "es": "O vamos al cine o nos quedamos en casa."
+        },
+        {
+          "en": "Ich trinke <b>weder</b> Kaffee <b>noch</b> Tee.",
+          "es": "No bebo ni café ni té."
+        },
+        {
+          "en": "<b>Zwar</b> ist Deutsch schwer, <b>aber</b> es macht Spaß.",
+          "es": "Es verdad que el alemán es difícil, pero es divertido."
+        },
+        {
+          "en": "<b>Je</b> mehr ich übe, <b>desto</b> besser <span class=\"r-verb\">spreche</span> <span class=\"r-nom\">ich</span>.",
+          "es": "Cuanto más practico, mejor hablo."
+        },
+        {
+          "en": "<b>Entweder</b> lernst du jetzt, <b>oder</b> du fällst durch.",
+          "es": "O estudias ahora, o suspendes."
+        },
+        {
+          "en": "<b>Entweder</b> fahren wir mit dem Auto <b>oder</b> mit dem Zug.",
+          "es": "O vamos en coche o en tren."
+        },
+        {
+          "en": "Ich mag <b>weder</b> Fisch <b>noch</b> Fleisch.",
+          "es": "No me gusta ni el pescado ni la carne."
+        },
+        {
+          "en": "Er hat <b>weder</b> Zeit <b>noch</b> Geld.",
+          "es": "No tiene ni tiempo ni dinero."
+        },
+        {
+          "en": "Sie kommt <b>weder</b> heute <b>noch</b> morgen.",
+          "es": "No viene ni hoy ni mañana."
+        },
+        {
+          "en": "<b>Zwar</b> ist es kalt, <b>aber</b> die Sonne scheint.",
+          "es": "Es cierto que hace frío, pero brilla el sol."
+        },
+        {
+          "en": "<b>Zwar</b> habe ich wenig Zeit, <b>aber</b> ich helfe dir gern.",
+          "es": "Aunque tengo poco tiempo, te ayudo con gusto."
+        },
+        {
+          "en": "<b>Sowohl</b> mein Bruder <b>als auch</b> meine Schwester sprechen Deutsch.",
+          "es": "Tanto mi hermano como mi hermana hablan alemán."
+        },
+        {
+          "en": "Sie spricht <b>sowohl</b> Englisch <b>als auch</b> Französisch.",
+          "es": "Habla tanto inglés como francés."
+        },
+        {
+          "en": "<b>Je</b> älter er wird, <b>desto</b> klüger wird er.",
+          "es": "Cuanto mayor se hace, más listo se vuelve."
+        },
+        {
+          "en": "<b>Je</b> mehr ich lerne, <b>desto</b> besser verstehe ich.",
+          "es": "Cuanto más estudio, mejor entiendo."
+        },
+        {
+          "en": "<b>Je</b> früher du kommst, <b>desto</b> besser ist es.",
+          "es": "Cuanto antes vengas, mejor."
+        },
+        {
+          "en": "<b>Je</b> länger ich warte, <b>desto</b> ärgerlicher werde ich.",
+          "es": "Cuanto más espero, más me enfado."
+        },
+        {
+          "en": "<b>Je</b> mehr er isst, <b>desto</b> dicker wird er.",
+          "es": "Cuanto más come, más gordo se pone."
+        },
+        {
+          "en": "<b>Entweder</b> du kommst mit, <b>oder</b> du bleibst hier.",
+          "es": "O vienes o te quedas aquí."
+        },
+        {
+          "en": "Das Essen war <b>weder</b> gut <b>noch</b> billig.",
+          "es": "La comida no fue ni buena ni barata."
+        },
+        {
+          "en": "<b>Zwar</b> ist das Auto alt, <b>aber</b> es fährt gut.",
+          "es": "Es cierto que el coche es viejo, pero funciona bien."
+        },
+        {
+          "en": "Er kann <b>sowohl</b> kochen <b>als auch</b> backen.",
+          "es": "Sabe tanto cocinar como hornear."
+        },
+        {
+          "en": "<b>Je</b> lauter er spricht, <b>desto</b> weniger verstehe ich.",
+          "es": "Cuanto más alto habla, menos entiendo."
+        },
+        {
+          "en": "Ich habe <b>weder</b> Hunger <b>noch</b> Durst.",
+          "es": "No tengo ni hambre ni sed."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b14-s4q1",
           "question": "1. Ich esse <span class=\"blank\">___</span> Fleisch <span class=\"blank\">___</span> Fisch. (ni… ni)",
-          "options": ["weder … noch", "entweder … oder", "zwar … aber"],
+          "options": [
+            "weder … noch",
+            "entweder … oder",
+            "zwar … aber"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b14-s4q2",
           "question": "2. <span class=\"blank\">___</span> mehr du liest, <span class=\"blank\">___</span> mehr lernst du.",
-          "options": ["Je … desto", "Zwar … aber", "Sowohl … als auch"],
+          "options": [
+            "Je … desto",
+            "Zwar … aber",
+            "Sowohl … als auch"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b14-s4q3",
           "question": "3. «weder … noch» ¿necesita un «nicht» extra?",
-          "options": ["Sí, siempre", "No: ya es negativo por sí mismo", "Solo en pasado"],
+          "options": [
+            "Sí, siempre",
+            "No: ya es negativo por sí mismo",
+            "Solo en pasado"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b14-s4q4",
+          "question": "4. Ich habe <span class=\"blank\">___</span> Zeit <span class=\"blank\">___</span> Lust. (ni… ni)",
+          "options": [
+            "sowohl … als auch",
+            "weder … noch",
+            "entweder … oder"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s4q5",
+          "question": "5. <span class=\"blank\">___</span> kommst du mit, <span class=\"blank\">___</span> du bleibst zu Hause. (o… o)",
+          "options": [
+            "Zwar … aber",
+            "Entweder … oder",
+            "Weder … noch"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s4q6",
+          "question": "6. <span class=\"blank\">___</span> mehr ich lerne, <span class=\"blank\">___</span> besser verstehe ich.",
+          "options": [
+            "Je … desto",
+            "Weder … noch",
+            "Zwar … aber"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s4q7",
+          "question": "7. Sie spricht <span class=\"blank\">___</span> Deutsch <span class=\"blank\">___</span> Englisch. (tanto… como)",
+          "options": [
+            "sowohl … als auch",
+            "entweder … oder",
+            "weder … noch"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b14-s4q8",
+          "question": "8. <span class=\"blank\">___</span> ist das Essen teuer, <span class=\"blank\">___</span> es schmeckt gut. (es cierto que… pero)",
+          "options": [
+            "Je … desto",
+            "Zwar … aber",
+            "Weder … noch"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s4q9",
+          "question": "9. «Ni… ni» en alemán",
+          "options": [
+            "sowohl … als auch",
+            "entweder … oder",
+            "weder … noch"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s4q10",
+          "question": "10. «O… o» en alemán",
+          "options": [
+            "zwar … aber",
+            "weder … noch",
+            "entweder … oder"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s4q11",
+          "question": "11. «Tanto… como» en alemán",
+          "options": [
+            "je … desto",
+            "weder … noch",
+            "sowohl … als auch"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s4q12",
+          "question": "12. «Cuanto más… más» en alemán",
+          "options": [
+            "entweder … oder",
+            "je … desto",
+            "zwar … aber"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s4q13",
+          "question": "13. ¿Cuál es correcta?",
+          "options": [
+            "Er hat nicht weder Zeit noch Geld.",
+            "Er hat weder nicht Zeit noch Geld.",
+            "Er hat weder Zeit noch Geld."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b14-s4q14",
+          "question": "14. Je früher, <span class=\"blank\">___</span> besser.",
+          "options": [
+            "dann",
+            "desto",
+            "so"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b14-s4q15",
+          "question": "15. ¿Cuál es correcta?",
+          "options": [
+            "Je älter wird er, desto klüger er wird.",
+            "Je älter er wird, desto er wird klüger.",
+            "Je älter er wird, desto klüger wird er."
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {

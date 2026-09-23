@@ -4,9 +4,21 @@
   "kicker": "Bloque 08 · A1–A2",
   "intro": "La regla más importante de todo el alemán: en la frase declarativa, <b class=\"hl\">el verbo conjugado ocupa SIEMPRE la 2ª posición</b>. No la segunda palabra: el segundo <b class=\"hl\">bloque de información</b>. Todo lo demás (inversión, Satzklammer, subordinadas) son consecuencias de esta regla.",
   "legend": [
-    { "label": "sujeto", "desc": "Nominativ", "role": "nom" },
-    { "label": "verbo", "desc": "conjugado, clavado en 2ª posición", "role": "verb" },
-    { "label": "prefijo/resto verbal", "desc": "cierra la frase", "role": "sep" }
+    {
+      "label": "sujeto",
+      "desc": "Nominativ",
+      "role": "nom"
+    },
+    {
+      "label": "verbo",
+      "desc": "conjugado, clavado en 2ª posición",
+      "role": "verb"
+    },
+    {
+      "label": "prefijo/resto verbal",
+      "desc": "cierra la frase",
+      "role": "sep"
+    }
   ],
   "sections": [
     {
@@ -22,30 +34,254 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">trinke</span> jeden Morgen Kaffee.", "es": "Bebo café cada mañana." },
-        { "en": "<span class=\"r-nom\">Meine Schwester aus Madrid</span> <span class=\"r-verb\">besucht</span> mich morgen.", "es": "Mi hermana de Madrid me visita mañana. (posición 1 = todo el bloque)" },
-        { "en": "<span class=\"r-nom\">Das Wetter</span> <span class=\"r-verb\">ist</span> heute fantastisch.", "es": "El tiempo hoy es fantástico." },
-        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">lernen</span> zusammen Deutsch.", "es": "Aprendemos alemán juntos." }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">trinke</span> jeden Morgen Kaffee.",
+          "es": "Bebo café cada mañana."
+        },
+        {
+          "en": "<span class=\"r-nom\">Meine Schwester aus Madrid</span> <span class=\"r-verb\">besucht</span> mich morgen.",
+          "es": "Mi hermana de Madrid me visita mañana. (posición 1 = todo el bloque)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Wetter</span> <span class=\"r-verb\">ist</span> heute fantastisch.",
+          "es": "El tiempo hoy es fantástico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">lernen</span> zusammen Deutsch.",
+          "es": "Aprendemos alemán juntos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">wohne</span> in Madrid.",
+          "es": "Vivo en Madrid."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">sprichst</span> sehr gut Deutsch.",
+          "es": "Hablas muy bien alemán."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> bei einer Bank.",
+          "es": "Él trabaja en un banco."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Kinder</span> <span class=\"r-verb\">spielen</span> im Garten.",
+          "es": "Los niños juegan en el jardín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Mein Vater</span> <span class=\"r-verb\">liest</span> jeden Abend die Zeitung.",
+          "es": "Mi padre lee el periódico cada noche."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">kaufen</span> morgen ein neues Auto.",
+          "es": "Mañana compramos un coche nuevo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Frau mit dem roten Hut</span> <span class=\"r-verb\">wartet</span> auf den Bus.",
+          "es": "La mujer del sombrero rojo espera el autobús. (posición 1 = todo el bloque)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Mein Bruder und ich</span> <span class=\"r-verb\">fahren</span> nach Wien.",
+          "es": "Mi hermano y yo vamos a Viena. (posición 1 = sujeto compuesto)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Lehrer</span> <span class=\"r-verb\">erklärt</span> die Grammatik.",
+          "es": "El profesor explica la gramática."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">regnet</span> seit Stunden.",
+          "es": "Llueve desde hace horas."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> zwei Schwestern.",
+          "es": "Tengo dos hermanas."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">kocht</span> heute Abend Suppe.",
+          "es": "Ella cocina sopa esta noche."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Zug nach Hamburg</span> <span class=\"r-verb\">hat</span> Verspätung.",
+          "es": "El tren a Hamburgo lleva retraso."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> seit drei Jahren Lehrer.",
+          "es": "Él es profesor desde hace tres años."
+        },
+        {
+          "en": "<span class=\"r-nom\">Meine Eltern</span> <span class=\"r-verb\">kommen</span> am Sonntag.",
+          "es": "Mis padres vienen el domingo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das neue Restaurant in der Stadt</span> <span class=\"r-verb\">ist</span> sehr gut.",
+          "es": "El nuevo restaurante de la ciudad es muy bueno."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">treffen</span> uns um acht Uhr.",
+          "es": "Nos vemos a las ocho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> drei Katzen.",
+          "es": "Ella tiene tres gatos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Chef</span> <span class=\"r-verb\">ist</span> heute nicht da.",
+          "es": "El jefe hoy no está."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">mag</span> deinen neuen Freund.",
+          "es": "Me cae bien tu nuevo novio."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b08-s1q1",
           "question": "1. ¿Cuál respeta la regla V2?",
-          "options": ["Heute ich gehe ins Kino.", "Heute gehe ich ins Kino.", "Ich heute gehe ins Kino."],
+          "options": [
+            "Heute ich gehe ins Kino.",
+            "Heute gehe ich ins Kino.",
+            "Ich heute gehe ins Kino."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b08-s1q2",
           "question": "2. En «Mein bester Freund aus der Schule wohnt in Hamburg», ¿qué posición ocupa «wohnt»?",
-          "options": ["La 2ª (correcto: la posición 1 es todo el sujeto)", "La 6ª (cada palabra cuenta)", "La 1ª"],
+          "options": [
+            "La 2ª (correcto: la posición 1 es todo el sujeto)",
+            "La 6ª (cada palabra cuenta)",
+            "La 1ª"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b08-s1q3",
           "question": "3. La regla V2 dice que en 2ª posición va…",
-          "options": ["el sujeto", "el verbo conjugado", "el objeto directo"],
+          "options": [
+            "el sujeto",
+            "el verbo conjugado",
+            "el objeto directo"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b08-s1q4",
+          "question": "4. ¿Cuál respeta V2?",
+          "options": [
+            "Trinken wir Tee nicht.",
+            "Wir trinken Tee.",
+            "Wir Tee trinken."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s1q5",
+          "question": "5. ¿Cuál respeta V2?",
+          "options": [
+            "Meine Mutter heute kocht Suppe.",
+            "Meine Mutter Suppe kocht heute.",
+            "Meine Mutter kocht heute Suppe."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s1q6",
+          "question": "6. En «Der alte Mann kauft ein Brot», el verbo ocupa la posición…",
+          "options": [
+            "3",
+            "4",
+            "2"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s1q7",
+          "question": "7. En «Meine beste Freundin aus Köln kommt heute», el verbo ocupa la posición…",
+          "options": [
+            "5",
+            "2",
+            "4"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s1q8",
+          "question": "8. ¿Cuál es correcta?",
+          "options": [
+            "Der Zug kommt gleich.",
+            "Kommt der Zug gleich nicht.",
+            "Der Zug gleich kommt."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s1q9",
+          "question": "9. En una frase declarativa, el verbo conjugado va en la posición…",
+          "options": [
+            "final",
+            "1",
+            "2"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s1q10",
+          "question": "10. ¿Cuál respeta V2?",
+          "options": [
+            "Sie wohnt in Berlin.",
+            "Sie in Berlin wohnt.",
+            "In Berlin sie wohnt."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s1q11",
+          "question": "11. ¿Cuál respeta V2?",
+          "options": [
+            "Ich lerne jeden Tag Deutsch.",
+            "Ich jeden Tag lerne Deutsch.",
+            "Ich lerne Deutsch jeden Tag lerne."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s1q12",
+          "question": "12. ¿Cuál es correcta?",
+          "options": [
+            "Wir ein Haus haben.",
+            "Wir haben ein Haus.",
+            "Haben wir ein Haus."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s1q13",
+          "question": "13. «El tren llega tarde.» →",
+          "options": [
+            "Der Zug kommt zu spät.",
+            "Der Zug kommt spät zu.",
+            "Der Zug zu spät kommt."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s1q14",
+          "question": "14. ¿Qué ocupa la posición 1? «Der Mann mit dem Hund wohnt hier.»",
+          "options": [
+            "Der Mann mit dem Hund",
+            "Der Mann",
+            "wohnt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s1q15",
+          "question": "15. El verbo conjugado es siempre el…",
+          "options": [
+            "último elemento",
+            "primer elemento",
+            "segundo elemento de la frase"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -72,30 +308,257 @@
         }
       ],
       "examples": [
-        { "en": "Heute <span class=\"r-verb\">gehe</span> <span class=\"r-nom\">ich</span> ins Kino.", "es": "Hoy voy al cine." },
-        { "en": "Morgen <span class=\"r-verb\">haben</span> <span class=\"r-nom\">wir</span> keine Zeit.", "es": "Mañana no tenemos tiempo." },
-        { "en": "In Berlin <span class=\"r-verb\">wohnt</span> <span class=\"r-nom\">meine Tante</span>.", "es": "En Berlín vive mi tía." },
-        { "en": "Leider <span class=\"r-verb\">kann</span> <span class=\"r-nom\">er</span> nicht kommen.", "es": "Lamentablemente él no puede venir." },
-        { "en": "Den Film <span class=\"r-verb\">kenne</span> <span class=\"r-nom\">ich</span> schon.", "es": "Esa película ya la conozco. (objeto en posición 1, énfasis)" }
+        {
+          "en": "Heute <span class=\"r-verb\">gehe</span> <span class=\"r-nom\">ich</span> ins Kino.",
+          "es": "Hoy voy al cine."
+        },
+        {
+          "en": "Morgen <span class=\"r-verb\">haben</span> <span class=\"r-nom\">wir</span> keine Zeit.",
+          "es": "Mañana no tenemos tiempo."
+        },
+        {
+          "en": "In Berlin <span class=\"r-verb\">wohnt</span> <span class=\"r-nom\">meine Tante</span>.",
+          "es": "En Berlín vive mi tía."
+        },
+        {
+          "en": "Leider <span class=\"r-verb\">kann</span> <span class=\"r-nom\">er</span> nicht kommen.",
+          "es": "Lamentablemente él no puede venir."
+        },
+        {
+          "en": "Den Film <span class=\"r-verb\">kenne</span> <span class=\"r-nom\">ich</span> schon.",
+          "es": "Esa película ya la conozco. (objeto en posición 1, énfasis)"
+        },
+        {
+          "en": "Jetzt <span class=\"r-verb\">muss</span> <span class=\"r-nom\">ich</span> gehen.",
+          "es": "Ahora tengo que irme."
+        },
+        {
+          "en": "Gestern <span class=\"r-verb\">war</span> <span class=\"r-nom\">ich</span> im Kino.",
+          "es": "Ayer estuve en el cine."
+        },
+        {
+          "en": "Am Samstag <span class=\"r-verb\">besuchen</span> <span class=\"r-nom\">wir</span> meine Oma.",
+          "es": "El sábado visitamos a mi abuela."
+        },
+        {
+          "en": "Im Sommer <span class=\"r-verb\">fahren</span> <span class=\"r-nom\">wir</span> ans Meer.",
+          "es": "En verano vamos al mar."
+        },
+        {
+          "en": "Zum Glück <span class=\"r-verb\">hat</span> <span class=\"r-nom\">er</span> den Zug erreicht.",
+          "es": "Por suerte él ha alcanzado el tren."
+        },
+        {
+          "en": "Danach <span class=\"r-verb\">gehen</span> <span class=\"r-nom\">wir</span> nach Hause.",
+          "es": "Después nos vamos a casa."
+        },
+        {
+          "en": "Dann <span class=\"r-verb\">esse</span> <span class=\"r-nom\">ich</span> etwas.",
+          "es": "Luego como algo."
+        },
+        {
+          "en": "Deshalb <span class=\"r-verb\">bleibe</span> <span class=\"r-nom\">ich</span> heute hier.",
+          "es": "Por eso hoy me quedo aquí."
+        },
+        {
+          "en": "Leider <span class=\"r-verb\">habe</span> <span class=\"r-nom\">ich</span> keine Zeit.",
+          "es": "Lamentablemente no tengo tiempo."
+        },
+        {
+          "en": "Vielleicht <span class=\"r-verb\">kommt</span> <span class=\"r-nom\">sie</span> später.",
+          "es": "Quizás ella venga más tarde."
+        },
+        {
+          "en": "Wahrscheinlich <span class=\"r-verb\">regnet</span> <span class=\"r-nom\">es</span> morgen.",
+          "es": "Probablemente llueva mañana."
+        },
+        {
+          "en": "In der Küche <span class=\"r-verb\">kocht</span> <span class=\"r-nom\">meine Mutter</span>.",
+          "es": "En la cocina cocina mi madre."
+        },
+        {
+          "en": "Nach dem Essen <span class=\"r-verb\">trinken</span> <span class=\"r-nom\">wir</span> Kaffee.",
+          "es": "Después de comer tomamos café."
+        },
+        {
+          "en": "Meinen Bruder <span class=\"r-verb\">sehe</span> <span class=\"r-nom\">ich</span> selten.",
+          "es": "A mi hermano lo veo pocas veces. (objeto en posición 1)"
+        },
+        {
+          "en": "Morgens <span class=\"r-verb\">steht</span> <span class=\"r-nom\">er</span> früh auf.",
+          "es": "Por las mañanas se levanta temprano."
+        },
+        {
+          "en": "Nächste Woche <span class=\"r-verb\">fliegen</span> <span class=\"r-nom\">wir</span> nach Rom.",
+          "es": "La semana que viene volamos a Roma."
+        },
+        {
+          "en": "Heute Abend <span class=\"r-verb\">gibt</span> <span class=\"r-nom\">es</span> ein Konzert.",
+          "es": "Esta noche hay un concierto."
+        },
+        {
+          "en": "Manchmal <span class=\"r-verb\">denke</span> <span class=\"r-nom\">ich</span> an dich.",
+          "es": "A veces pienso en ti."
+        },
+        {
+          "en": "Ohne Auto <span class=\"r-verb\">kommt</span> <span class=\"r-nom\">man</span> hier nicht weit.",
+          "es": "Sin coche aquí no se llega lejos."
+        },
+        {
+          "en": "Trotzdem <span class=\"r-verb\">geht</span> <span class=\"r-nom\">sie</span> zur Arbeit.",
+          "es": "Aun así va al trabajo."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b08-s2q1",
           "question": "1. «Mañana trabajo en casa.» → Morgen <span class=\"blank\">___</span> zu Hause.",
-          "options": ["ich arbeite", "arbeite ich", "ich zu arbeite"],
+          "options": [
+            "ich arbeite",
+            "arbeite ich",
+            "ich zu arbeite"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b08-s2q2",
           "question": "2. «Por desgracia no tengo tiempo.» → Leider <span class=\"blank\">___</span> keine Zeit.",
-          "options": ["ich habe", "habe ich", "haben ich"],
+          "options": [
+            "ich habe",
+            "habe ich",
+            "haben ich"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b08-s2q3",
           "question": "3. ¿Cuál es INCORRECTA?",
-          "options": ["Dann essen wir Pizza.", "Dann wir essen Pizza.", "Wir essen dann Pizza."],
+          "options": [
+            "Dann essen wir Pizza.",
+            "Dann wir essen Pizza.",
+            "Wir essen dann Pizza."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s2q4",
+          "question": "4. «Hoy tengo tiempo.» → Heute <span class=\"blank\">___</span> Zeit.",
+          "options": [
+            "habe ich",
+            "ich habe",
+            "ich Zeit habe"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s2q5",
+          "question": "5. «Después vamos a casa.» → Danach <span class=\"blank\">___</span> nach Hause.",
+          "options": [
+            "wir gehen",
+            "wir nach Hause gehen",
+            "gehen wir"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s2q6",
+          "question": "6. «Por eso me quedo.» → Deshalb <span class=\"blank\">___</span>.",
+          "options": [
+            "ich bleibe nicht",
+            "bleibe ich",
+            "ich bleibe"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s2q7",
+          "question": "7. ¿Cuál es INCORRECTA?",
+          "options": [
+            "Morgen fahre ich nach Rom.",
+            "Ich fahre morgen nach Rom.",
+            "Morgen ich fahre nach Rom."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s2q8",
+          "question": "8. ¿Cuál es INCORRECTA?",
+          "options": [
+            "Leider haben wir keine Zeit.",
+            "Leider wir haben keine Zeit.",
+            "Wir haben leider keine Zeit."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s2q9",
+          "question": "9. «Ayer llovió.» → Gestern <span class=\"blank\">___</span>.",
+          "options": [
+            "es regnet hat",
+            "regnete es",
+            "es regnete"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s2q10",
+          "question": "10. «En Berlín vive mi hermana.» → In Berlin <span class=\"blank\">___</span> meine Schwester.",
+          "options": [
+            "wohnt",
+            "wohnen",
+            "wohne"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s2q11",
+          "question": "11. «Quizás venga él.» → Vielleicht <span class=\"blank\">___</span> er.",
+          "options": [
+            "er kommt",
+            "kommt",
+            "kommen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s2q12",
+          "question": "12. Si algo distinto del sujeto abre la frase, el sujeto va…",
+          "options": [
+            "después del verbo",
+            "antes del verbo",
+            "al final"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s2q13",
+          "question": "13. ¿Cuál es correcta?",
+          "options": [
+            "Im Winter wir fahren Ski.",
+            "Im Winter fahren wir Ski.",
+            "Im Winter Ski fahren wir."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s2q14",
+          "question": "14. «Luego como pizza.» → Dann <span class=\"blank\">___</span> Pizza.",
+          "options": [
+            "ich Pizza esse",
+            "esse ich",
+            "ich esse"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s2q15",
+          "question": "15. ¿Cuál es correcta?",
+          "options": [
+            "Vielleicht sie morgen kommt.",
+            "Vielleicht kommt sie morgen.",
+            "Vielleicht sie kommt morgen."
+          ],
           "correctIndex": 1
         }
       ],
@@ -118,31 +581,258 @@
         }
       ],
       "examples": [
-        { "en": "Wo <span class=\"r-verb\">wohnst</span> <span class=\"r-nom\">du</span>?", "es": "¿Dónde vives?" },
-        { "en": "Warum <span class=\"r-verb\">lernst</span> <span class=\"r-nom\">du</span> Deutsch?", "es": "¿Por qué aprendes alemán?" },
-        { "en": "<span class=\"r-verb\">Sprichst</span> <span class=\"r-nom\">du</span> Spanisch?", "es": "¿Hablas español? (verbo primero)" },
-        { "en": "<span class=\"r-verb\">Haben</span> <span class=\"r-nom\">Sie</span> ein Zimmer frei?", "es": "¿Tiene usted una habitación libre?" },
-        { "en": "Wen <span class=\"r-verb\">besuchst</span> <span class=\"r-nom\">du</span> am Sonntag?", "es": "¿A quién visitas el domingo? (wen = Akkusativ)" }
+        {
+          "en": "Wo <span class=\"r-verb\">wohnst</span> <span class=\"r-nom\">du</span>?",
+          "es": "¿Dónde vives?"
+        },
+        {
+          "en": "Warum <span class=\"r-verb\">lernst</span> <span class=\"r-nom\">du</span> Deutsch?",
+          "es": "¿Por qué aprendes alemán?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sprichst</span> <span class=\"r-nom\">du</span> Spanisch?",
+          "es": "¿Hablas español? (verbo primero)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Haben</span> <span class=\"r-nom\">Sie</span> ein Zimmer frei?",
+          "es": "¿Tiene usted una habitación libre?"
+        },
+        {
+          "en": "Wen <span class=\"r-verb\">besuchst</span> <span class=\"r-nom\">du</span> am Sonntag?",
+          "es": "¿A quién visitas el domingo? (wen = Akkusativ)"
+        },
+        {
+          "en": "Was <span class=\"r-verb\">machst</span> <span class=\"r-nom\">du</span> heute?",
+          "es": "¿Qué haces hoy?"
+        },
+        {
+          "en": "Wann <span class=\"r-verb\">kommt</span> <span class=\"r-nom\">der Zug</span>?",
+          "es": "¿Cuándo llega el tren?"
+        },
+        {
+          "en": "Wie <span class=\"r-verb\">heißt</span> <span class=\"r-nom\">du</span>?",
+          "es": "¿Cómo te llamas?"
+        },
+        {
+          "en": "Woher <span class=\"r-verb\">kommst</span> <span class=\"r-nom\">du</span>?",
+          "es": "¿De dónde eres?"
+        },
+        {
+          "en": "Wohin <span class=\"r-verb\">fährst</span> <span class=\"r-nom\">du</span> im Urlaub?",
+          "es": "¿Adónde vas de vacaciones?"
+        },
+        {
+          "en": "Wer <span class=\"r-verb\">ist</span> das?",
+          "es": "¿Quién es ese?"
+        },
+        {
+          "en": "Wie viel <span class=\"r-verb\">kostet</span> das?",
+          "es": "¿Cuánto cuesta esto?"
+        },
+        {
+          "en": "Warum <span class=\"r-verb\">kommst</span> <span class=\"r-nom\">du</span> zu spät?",
+          "es": "¿Por qué llegas tarde?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Kommst</span> <span class=\"r-nom\">du</span> heute Abend?",
+          "es": "¿Vienes esta noche?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Hast</span> <span class=\"r-nom\">du</span> Hunger?",
+          "es": "¿Tienes hambre?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ist</span> <span class=\"r-nom\">das</span> dein Auto?",
+          "es": "¿Es ese tu coche?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Kann</span> <span class=\"r-nom\">ich</span> Ihnen helfen?",
+          "es": "¿Puedo ayudarle?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Spielst</span> <span class=\"r-nom\">du</span> Gitarre?",
+          "es": "¿Tocas la guitarra?"
+        },
+        {
+          "en": "Wem <span class=\"r-verb\">gehört</span> <span class=\"r-nom\">das Buch</span>?",
+          "es": "¿De quién es el libro? (wem = Dativ)"
+        },
+        {
+          "en": "Wen <span class=\"r-verb\">siehst</span> <span class=\"r-nom\">du</span> dort?",
+          "es": "¿A quién ves allí?"
+        },
+        {
+          "en": "Wo <span class=\"r-verb\">ist</span> <span class=\"r-nom\">der Bahnhof</span>?",
+          "es": "¿Dónde está la estación?"
+        },
+        {
+          "en": "Welche Farbe <span class=\"r-verb\">hat</span> <span class=\"r-nom\">dein Auto</span>?",
+          "es": "¿De qué color es tu coche?"
+        },
+        {
+          "en": "Wie lange <span class=\"r-verb\">dauert</span> <span class=\"r-nom\">der Film</span>?",
+          "es": "¿Cuánto dura la película?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Möchtest</span> <span class=\"r-nom\">du</span> einen Kaffee?",
+          "es": "¿Quieres un café?"
+        },
+        {
+          "en": "Was <span class=\"r-verb\">kostet</span> <span class=\"r-nom\">ein Ticket</span>?",
+          "es": "¿Cuánto cuesta un billete?"
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b08-s3q1",
           "question": "1. «¿Vienes a la fiesta?» →",
-          "options": ["Du kommst zur Party?", "Kommst du zur Party?", "Kommst zur Party du?"],
+          "options": [
+            "Du kommst zur Party?",
+            "Kommst du zur Party?",
+            "Kommst zur Party du?"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b08-s3q2",
           "question": "2. «¿De dónde vienes?» → <span class=\"blank\">___</span> kommst du?",
-          "options": ["Wohin", "Wo", "Woher"],
+          "options": [
+            "Wohin",
+            "Wo",
+            "Woher"
+          ],
           "correctIndex": 2
         },
         {
           "id": "b08-s3q3",
           "question": "3. «¿A quién (le) ayudas?» → <span class=\"blank\">___</span> hilfst du? (helfen + Dativ)",
-          "options": ["Wer", "Wen", "Wem"],
+          "options": [
+            "Wer",
+            "Wen",
+            "Wem"
+          ],
           "correctIndex": 2
+        },
+        {
+          "id": "b08-s3q4",
+          "question": "4. «¿Dónde vives?» → <span class=\"blank\">___</span> wohnst du?",
+          "options": [
+            "Wo",
+            "Wohin",
+            "Woher"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s3q5",
+          "question": "5. «¿Adónde vas?» → <span class=\"blank\">___</span> gehst du?",
+          "options": [
+            "Wohin",
+            "Wo",
+            "Woher"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s3q6",
+          "question": "6. «¿Cuándo empieza?» → <span class=\"blank\">___</span> beginnt es?",
+          "options": [
+            "Warum",
+            "Wie",
+            "Wann"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s3q7",
+          "question": "7. «¿Por qué estás cansado?» → <span class=\"blank\">___</span> bist du müde?",
+          "options": [
+            "Warum",
+            "Wann",
+            "Wer"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s3q8",
+          "question": "8. «¿Hablas inglés?» → <span class=\"blank\">___</span> du Englisch?",
+          "options": [
+            "Sprichst",
+            "Sprecht",
+            "Sprechen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s3q9",
+          "question": "9. «¿Quién es ella?» → <span class=\"blank\">___</span> ist sie?",
+          "options": [
+            "Wem",
+            "Wen",
+            "Wer"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s3q10",
+          "question": "10. «¿A quién buscas?» → <span class=\"blank\">___</span> suchst du?",
+          "options": [
+            "Wem",
+            "Wer",
+            "Wen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s3q11",
+          "question": "11. «¿A quién ayudas?» → <span class=\"blank\">___</span> hilfst du?",
+          "options": [
+            "Wem",
+            "Wen",
+            "Wer"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s3q12",
+          "question": "12. «¿Cuánto cuesta?» → Wie <span class=\"blank\">___</span> kostet das?",
+          "options": [
+            "vielen",
+            "viel",
+            "viele"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s3q13",
+          "question": "13. ¿Cuál es correcta?",
+          "options": [
+            "Wo du wohnst?",
+            "Wo wohnst du?",
+            "Du wohnst wo?"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s3q14",
+          "question": "14. ¿Cuál es correcta?",
+          "options": [
+            "Du hast Zeit?",
+            "Hast du Zeit?",
+            "Hast Zeit du?"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s3q15",
+          "question": "15. ¿Dónde va el verbo en una pregunta de sí/no?",
+          "options": [
+            "Al final",
+            "Posición 1",
+            "Posición 2"
+          ],
+          "correctIndex": 1
         }
       ],
       "produce": {
@@ -164,18 +854,130 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">will</span> heute Abend Pizza <span class=\"r-sep\">essen</span>.", "es": "Quiero comer pizza esta noche. (modal … infinitivo)" },
-        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">haben</span> gestern viel <span class=\"r-sep\">gelernt</span>.", "es": "Ayer aprendimos mucho. (haben … participio)" },
-        { "en": "<span class=\"r-nom\">Der Zug</span> <span class=\"r-verb\">fährt</span> um 9 Uhr <span class=\"r-sep\">ab</span>.", "es": "El tren sale a las 9. (verbo separable)" },
-        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">muss</span> morgen früh <span class=\"r-sep\">aufstehen</span>.", "es": "Ella tiene que levantarse temprano mañana." }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">will</span> heute Abend Pizza <span class=\"r-sep\">essen</span>.",
+          "es": "Quiero comer pizza esta noche. (modal … infinitivo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">haben</span> gestern viel <span class=\"r-sep\">gelernt</span>.",
+          "es": "Ayer aprendimos mucho. (haben … participio)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Zug</span> <span class=\"r-verb\">fährt</span> um 9 Uhr <span class=\"r-sep\">ab</span>.",
+          "es": "El tren sale a las 9. (verbo separable)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">muss</span> morgen früh <span class=\"r-sep\">aufstehen</span>.",
+          "es": "Ella tiene que levantarse temprano mañana."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">kann</span> gut <span class=\"r-sep\">schwimmen</span>.",
+          "es": "Sé nadar bien."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">muss</span> heute lange <span class=\"r-sep\">arbeiten</span>.",
+          "es": "Hoy tiene que trabajar mucho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">wollen</span> im Sommer nach Spanien <span class=\"r-sep\">fahren</span>.",
+          "es": "Queremos ir a España en verano."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">darfst</span> hier nicht <span class=\"r-sep\">rauchen</span>.",
+          "es": "Aquí no puedes fumar."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> gestern einen Brief <span class=\"r-sep\">geschrieben</span>.",
+          "es": "Ayer escribió una carta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> heute Morgen Kaffee <span class=\"r-sep\">getrunken</span>.",
+          "es": "Esta mañana he tomado café."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> nach Hause <span class=\"r-sep\">gegangen</span>.",
+          "es": "Él se ha ido a casa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> letztes Jahr nach Italien <span class=\"r-sep\">gefahren</span>.",
+          "es": "El año pasado fuimos a Italia."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Bus</span> <span class=\"r-verb\">kommt</span> um zehn Uhr <span class=\"r-sep\">an</span>.",
+          "es": "El autobús llega a las diez."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">rufe</span> dich morgen <span class=\"r-sep\">an</span>.",
+          "es": "Te llamo mañana."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">steht</span> jeden Tag um sechs <span class=\"r-sep\">auf</span>.",
+          "es": "Ella se levanta cada día a las seis."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">macht</span> das Fenster <span class=\"r-sep\">zu</span>.",
+          "es": "Él cierra la ventana."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">kaufen</span> im Supermarkt <span class=\"r-sep\">ein</span>.",
+          "es": "Hacemos la compra en el supermercado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">soll</span> morgen zum Arzt <span class=\"r-sep\">gehen</span>.",
+          "es": "Ella debe ir mañana al médico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">möchte</span> einen Tisch <span class=\"r-sep\">reservieren</span>.",
+          "es": "Quisiera reservar una mesa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Film</span> <span class=\"r-verb\">fängt</span> um acht Uhr <span class=\"r-sep\">an</span>.",
+          "es": "La película empieza a las ocho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> den ganzen Tag <span class=\"r-sep\">gearbeitet</span>.",
+          "es": "Ha trabajado todo el día."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">müssen</span> noch Brot <span class=\"r-sep\">kaufen</span>.",
+          "es": "Todavía tenemos que comprar pan."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> meine Tasche <span class=\"r-sep\">vergessen</span>.",
+          "es": "He olvidado mi bolso."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ruft</span> ihre Mutter jeden Tag <span class=\"r-sep\">an</span>.",
+          "es": "Ella llama a su madre cada día."
+        }
       ],
       "tables": [
         {
-          "headers": ["Posición 1", "Verbo (pos. 2)", "El medio", "Cierre"],
+          "headers": [
+            "Posición 1",
+            "Verbo (pos. 2)",
+            "El medio",
+            "Cierre"
+          ],
           "rows": [
-            ["Ich", "<b>will</b>", "heute Abend Pizza", "<b>essen</b>"],
-            ["Wir", "<b>haben</b>", "gestern viel", "<b>gelernt</b>"],
-            ["Der Zug", "<b>fährt</b>", "um 9 Uhr", "<b>ab</b>"]
+            [
+              "Ich",
+              "<b>will</b>",
+              "heute Abend Pizza",
+              "<b>essen</b>"
+            ],
+            [
+              "Wir",
+              "<b>haben</b>",
+              "gestern viel",
+              "<b>gelernt</b>"
+            ],
+            [
+              "Der Zug",
+              "<b>fährt</b>",
+              "um 9 Uhr",
+              "<b>ab</b>"
+            ]
           ]
         }
       ],
@@ -183,20 +985,152 @@
         {
           "id": "b08-s4q1",
           "question": "1. «Quiero aprender alemán.» →",
-          "options": ["Ich will lernen Deutsch.", "Ich will Deutsch lernen.", "Ich Deutsch will lernen."],
+          "options": [
+            "Ich will lernen Deutsch.",
+            "Ich will Deutsch lernen.",
+            "Ich Deutsch will lernen."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b08-s4q2",
           "question": "2. «Hemos visto la película.» →",
-          "options": ["Wir haben gesehen den Film.", "Wir haben den Film gesehen.", "Wir gesehen haben den Film."],
+          "options": [
+            "Wir haben gesehen den Film.",
+            "Wir haben den Film gesehen.",
+            "Wir gesehen haben den Film."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b08-s4q3",
           "question": "3. En «Ich rufe dich morgen an», el paréntesis verbal es…",
-          "options": ["rufe … an", "rufe … morgen", "dich … an"],
+          "options": [
+            "rufe … an",
+            "rufe … morgen",
+            "dich … an"
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b08-s4q4",
+          "question": "4. «Quiero comer pizza.» →",
+          "options": [
+            "Ich will essen Pizza.",
+            "Ich will Pizza essen.",
+            "Ich Pizza will essen."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s4q5",
+          "question": "5. «He comprado pan.» →",
+          "options": [
+            "Ich habe Brot gekauft.",
+            "Ich habe gekauft Brot.",
+            "Ich Brot habe gekauft."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s4q6",
+          "question": "6. «Él se levanta a las siete.» →",
+          "options": [
+            "Er steht um sieben auf.",
+            "Er auf steht um sieben.",
+            "Er steht auf um sieben nicht."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s4q7",
+          "question": "7. «Puedo ayudarte.» →",
+          "options": [
+            "Ich kann dir helfen.",
+            "Ich dir kann helfen.",
+            "Ich kann helfen dir."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s4q8",
+          "question": "8. «El tren sale a las nueve.» →",
+          "options": [
+            "Der Zug abfährt um neun.",
+            "Der Zug fährt ab um neun heute.",
+            "Der Zug fährt um neun ab."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s4q9",
+          "question": "9. En «Wir haben gestern gearbeitet», el paréntesis es…",
+          "options": [
+            "wir … gestern",
+            "haben … gestern",
+            "haben … gearbeitet"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s4q10",
+          "question": "10. En «Sie muss heute früh aufstehen», el paréntesis es…",
+          "options": [
+            "muss … aufstehen",
+            "heute … früh",
+            "sie … heute"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s4q11",
+          "question": "11. «Hemos ido al cine.» →",
+          "options": [
+            "Wir sind ins Kino gegangen.",
+            "Wir gegangen sind ins Kino.",
+            "Wir sind gegangen ins Kino."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s4q12",
+          "question": "12. «Ella quiere venir.» →",
+          "options": [
+            "Sie kommen will.",
+            "Sie will kommen.",
+            "Sie will kommt."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s4q13",
+          "question": "13. ¿Dónde va la 2ª parte del verbo?",
+          "options": [
+            "En posición 1",
+            "Justo tras el sujeto",
+            "Al final de la frase"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b08-s4q14",
+          "question": "14. «Llamo a mi madre.» →",
+          "options": [
+            "Ich rufe meine Mutter an.",
+            "Ich anrufe meine Mutter.",
+            "Ich rufe an meine Mutter."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s4q15",
+          "question": "15. «Tiene que trabajar.» →",
+          "options": [
+            "Er arbeiten muss.",
+            "Er muss arbeiten.",
+            "Er muss arbeitet."
+          ],
+          "correctIndex": 1
         }
       ],
       "produce": {

@@ -4,9 +4,21 @@
   "kicker": "Bloque 09 · B1",
   "intro": "Los conectores subordinantes (<b class=\"hl\">weil, dass, wenn, als, obwohl, damit…</b>) mandan el verbo conjugado <b class=\"hl\">al final de su oración</b>. Es la otra mitad del sistema de orden alemán: V2 en la principal, verbo-final en la subordinada.",
   "legend": [
-    { "label": "conector", "desc": "subordinante: envía el verbo al final", "role": "sub" },
-    { "label": "verbo", "desc": "conjugado", "role": "verb" },
-    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+    {
+      "label": "conector",
+      "desc": "subordinante: envía el verbo al final",
+      "role": "sub"
+    },
+    {
+      "label": "verbo",
+      "desc": "conjugado",
+      "role": "verb"
+    },
+    {
+      "label": "sujeto",
+      "desc": "Nominativ",
+      "role": "nom"
+    }
   ],
   "sections": [
     {
@@ -27,18 +39,117 @@
         }
       ],
       "examples": [
-        { "en": "Ich lerne Deutsch, <span class=\"r-sub\">weil</span> ich in Berlin <span class=\"r-verb\">arbeite</span>.", "es": "Aprendo alemán porque trabajo en Berlín." },
-        { "en": "Ich glaube, <span class=\"r-sub\">dass</span> er recht <span class=\"r-verb\">hat</span>.", "es": "Creo que él tiene razón." },
-        { "en": "<span class=\"r-sub\">Wenn</span> es <span class=\"r-verb\">regnet</span>, bleiben wir zu Hause.", "es": "Si llueve, nos quedamos en casa." },
-        { "en": "Sie sagt, <span class=\"r-sub\">dass</span> sie morgen <span class=\"r-verb\">kommt</span>.", "es": "Ella dice que viene mañana." },
-        { "en": "Ich weiß, <span class=\"r-sub\">dass</span> der Zug um 9 Uhr <span class=\"r-verb\">abfährt</span>.", "es": "Sé que el tren sale a las 9. (separable reunido)" }
+        {
+          "en": "Ich lerne Deutsch, <span class=\"r-sub\">weil</span> ich in Berlin <span class=\"r-verb\">arbeite</span>.",
+          "es": "Aprendo alemán porque trabajo en Berlín."
+        },
+        {
+          "en": "Ich glaube, <span class=\"r-sub\">dass</span> er recht <span class=\"r-verb\">hat</span>.",
+          "es": "Creo que él tiene razón."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> es <span class=\"r-verb\">regnet</span>, bleiben wir zu Hause.",
+          "es": "Si llueve, nos quedamos en casa."
+        },
+        {
+          "en": "Sie sagt, <span class=\"r-sub\">dass</span> sie morgen <span class=\"r-verb\">kommt</span>.",
+          "es": "Ella dice que viene mañana."
+        },
+        {
+          "en": "Ich weiß, <span class=\"r-sub\">dass</span> der Zug um 9 Uhr <span class=\"r-verb\">abfährt</span>.",
+          "es": "Sé que el tren sale a las 9. (separable reunido)"
+        },
+        {
+          "en": "Ich bleibe zu Hause, <span class=\"r-sub\">weil</span> ich müde <span class=\"r-verb\">bin</span>.",
+          "es": "Me quedo en casa porque estoy cansado."
+        },
+        {
+          "en": "Er sagt, <span class=\"r-sub\">dass</span> er keine Zeit <span class=\"r-verb\">hat</span>.",
+          "es": "Dice que no tiene tiempo."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> du willst, <span class=\"r-verb\">kannst</span> du mitkommen.",
+          "es": "Si quieres, puedes venir."
+        },
+        {
+          "en": "Ich weiß, <span class=\"r-sub\">dass</span> sie in Berlin <span class=\"r-verb\">wohnt</span>.",
+          "es": "Sé que ella vive en Berlín."
+        },
+        {
+          "en": "Wir essen zu Hause, <span class=\"r-sub\">weil</span> das Restaurant zu teuer <span class=\"r-verb\">ist</span>.",
+          "es": "Comemos en casa porque el restaurante es demasiado caro."
+        },
+        {
+          "en": "Sie glaubt, <span class=\"r-sub\">dass</span> es morgen <span class=\"r-verb\">regnet</span>.",
+          "es": "Ella cree que mañana lloverá."
+        },
+        {
+          "en": "Ich lerne Deutsch, <span class=\"r-sub\">weil</span> ich in Wien <span class=\"r-verb\">arbeiten</span> will.",
+          "es": "Aprendo alemán porque quiero trabajar en Viena."
+        },
+        {
+          "en": "Es ist schön, <span class=\"r-sub\">dass</span> du <span class=\"r-verb\">da bist</span>.",
+          "es": "Es bonito que estés aquí."
+        },
+        {
+          "en": "Ich hoffe, <span class=\"r-sub\">dass</span> du bald <span class=\"r-verb\">kommst</span>.",
+          "es": "Espero que vengas pronto."
+        },
+        {
+          "en": "Sie fragt, <span class=\"r-sub\">ob</span> er Zeit <span class=\"r-verb\">hat</span>.",
+          "es": "Ella pregunta si él tiene tiempo."
+        },
+        {
+          "en": "Ich weiß nicht, <span class=\"r-sub\">ob</span> er <span class=\"r-verb\">kommt</span>.",
+          "es": "No sé si viene."
+        },
+        {
+          "en": "Wir bleiben hier, <span class=\"r-sub\">wenn</span> es <span class=\"r-verb\">regnet</span>.",
+          "es": "Nos quedamos aquí si llueve."
+        },
+        {
+          "en": "Er ist glücklich, <span class=\"r-sub\">weil</span> er eine neue Wohnung <span class=\"r-verb\">hat</span>.",
+          "es": "Está feliz porque tiene un piso nuevo."
+        },
+        {
+          "en": "Ich finde, <span class=\"r-sub\">dass</span> das Buch sehr gut <span class=\"r-verb\">ist</span>.",
+          "es": "Me parece que el libro es muy bueno."
+        },
+        {
+          "en": "Sie sagt, <span class=\"r-sub\">dass</span> sie müde <span class=\"r-verb\">ist</span>.",
+          "es": "Ella dice que está cansada."
+        },
+        {
+          "en": "Ich denke, <span class=\"r-sub\">dass</span> du recht <span class=\"r-verb\">hast</span>.",
+          "es": "Creo que tienes razón."
+        },
+        {
+          "en": "Wir wissen, <span class=\"r-sub\">dass</span> er nett <span class=\"r-verb\">ist</span>.",
+          "es": "Sabemos que es simpático."
+        },
+        {
+          "en": "Ich gehe nicht, <span class=\"r-sub\">weil</span> ich keine Lust <span class=\"r-verb\">habe</span>.",
+          "es": "No voy porque no tengo ganas."
+        },
+        {
+          "en": "Sie sagt, <span class=\"r-sub\">dass</span> sie morgen <span class=\"r-verb\">abreist</span>.",
+          "es": "Ella dice que se va mañana."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> ich Hunger <span class=\"r-verb\">habe</span>, esse ich etwas.",
+          "es": "Cuando tengo hambre, como algo."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b09-s1q1",
           "question": "1. Ich bleibe im Bett, weil ich krank <span class=\"blank\">___</span>.",
-          "options": ["bin", "ich bin", "bin ich"],
+          "options": [
+            "bin",
+            "ich bin",
+            "bin ich"
+          ],
           "correctIndex": 0
         },
         {
@@ -54,8 +165,132 @@
         {
           "id": "b09-s1q3",
           "question": "3. Er sagt, dass er morgen <span class=\"blank\">___</span>. (ankommen, separable)",
-          "options": ["kommt an", "ankommt", "an kommt"],
+          "options": [
+            "kommt an",
+            "ankommt",
+            "an kommt"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b09-s1q4",
+          "question": "4. Ich weiß, dass er nett <span class=\"blank\">___</span>.",
+          "options": [
+            "er ist",
+            "ist",
+            "ist er"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s1q5",
+          "question": "5. Wir bleiben hier, weil es <span class=\"blank\">___</span>.",
+          "options": [
+            "es regnet",
+            "regnet",
+            "regnet es"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s1q6",
+          "question": "6. Er sagt, dass er krank <span class=\"blank\">___</span>.",
+          "options": [
+            "er ist",
+            "ist er",
+            "ist"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s1q7",
+          "question": "7. Ich lerne Deutsch, weil ich <span class=\"blank\">___</span>. (in Berlín trabajar quiero)",
+          "options": [
+            "arbeiten in Berlin will",
+            "in Berlin arbeiten will",
+            "will in Berlin arbeiten"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s1q8",
+          "question": "8. «Espero que vengas.» → Ich hoffe, dass du <span class=\"blank\">___</span>.",
+          "options": [
+            "kommst du",
+            "du kommst",
+            "kommst"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s1q9",
+          "question": "9. «No sé si él viene.» → Ich weiß nicht, <span class=\"blank\">___</span> er kommt.",
+          "options": [
+            "weil",
+            "ob",
+            "dass"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s1q10",
+          "question": "10. ¿Cuál es correcta?",
+          "options": [
+            "Sie sagt, dass ist sie müde.",
+            "Sie sagt, dass sie ist müde.",
+            "Sie sagt, dass sie müde ist."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s1q11",
+          "question": "11. ¿Cuál es correcta?",
+          "options": [
+            "Ich bleibe, weil regnet es.",
+            "Ich bleibe, weil es regnet.",
+            "Ich bleibe, weil es regnet nicht."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s1q12",
+          "question": "12. Er ruft an, weil er Hilfe <span class=\"blank\">___</span>.",
+          "options": [
+            "braucht er",
+            "er braucht",
+            "braucht"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s1q13",
+          "question": "13. «Creo que tienes razón.» → Ich glaube, <span class=\"blank\">___</span> du recht hast.",
+          "options": [
+            "ob",
+            "dass",
+            "weil"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s1q14",
+          "question": "14. En una subordinada, el verbo conjugado va…",
+          "options": [
+            "en 2ª posición",
+            "al final",
+            "en 1ª posición"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s1q15",
+          "question": "15. Ich weiß, dass der Zug morgen <span class=\"blank\">___</span>. (abfahren, separable)",
+          "options": [
+            "fährt ab",
+            "ab fährt",
+            "abfährt"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -82,19 +317,130 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-sub\">Wenn</span> ich Zeit <span class=\"r-verb\">habe</span>, koche ich selbst.", "es": "Cuando (siempre que) tengo tiempo, cocino yo." },
-        { "en": "<span class=\"r-sub\">Als</span> ich Kind <span class=\"r-verb\">war</span>, wohnte ich in Sevilla.", "es": "Cuando era niño, vivía en Sevilla. (período único del pasado)" },
-        { "en": "<span class=\"r-sub\">Wann</span> <span class=\"r-verb\">kommst</span> du?", "es": "¿Cuándo vienes?" },
-        { "en": "Ich weiß nicht, <span class=\"r-sub\">wann</span> der Film <span class=\"r-verb\">beginnt</span>.", "es": "No sé cuándo empieza la película. (pregunta indirecta)" },
-        { "en": "Immer <span class=\"r-sub\">wenn</span> ich ihn <span class=\"r-verb\">sehe</span>, lacht er.", "es": "Siempre que lo veo, se ríe." }
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> ich Zeit <span class=\"r-verb\">habe</span>, koche ich selbst.",
+          "es": "Cuando (siempre que) tengo tiempo, cocino yo."
+        },
+        {
+          "en": "<span class=\"r-sub\">Als</span> ich Kind <span class=\"r-verb\">war</span>, wohnte ich in Sevilla.",
+          "es": "Cuando era niño, vivía en Sevilla. (período único del pasado)"
+        },
+        {
+          "en": "<span class=\"r-sub\">Wann</span> <span class=\"r-verb\">kommst</span> du?",
+          "es": "¿Cuándo vienes?"
+        },
+        {
+          "en": "Ich weiß nicht, <span class=\"r-sub\">wann</span> der Film <span class=\"r-verb\">beginnt</span>.",
+          "es": "No sé cuándo empieza la película. (pregunta indirecta)"
+        },
+        {
+          "en": "Immer <span class=\"r-sub\">wenn</span> ich ihn <span class=\"r-verb\">sehe</span>, lacht er.",
+          "es": "Siempre que lo veo, se ríe."
+        },
+        {
+          "en": "<span class=\"r-sub\">Als</span> ich in Wien <span class=\"r-verb\">war</span>, habe ich viel gelernt.",
+          "es": "Cuando estuve en Viena, aprendí mucho."
+        },
+        {
+          "en": "<span class=\"r-sub\">Als</span> er zehn Jahre alt <span class=\"r-verb\">war</span>, zog er nach Köln.",
+          "es": "Cuando tenía diez años, se mudó a Colonia."
+        },
+        {
+          "en": "<span class=\"r-sub\">Als</span> wir ankamen, <span class=\"r-verb\">regnete</span> es.",
+          "es": "Cuando llegamos, llovía."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> ich müde <span class=\"r-verb\">bin</span>, gehe ich früh ins Bett.",
+          "es": "Cuando estoy cansado, me acuesto temprano."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> es <span class=\"r-verb\">schneit</span>, fahren wir Ski.",
+          "es": "Cuando nieva, esquiamos."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> du willst, <span class=\"r-verb\">können</span> wir ins Kino gehen.",
+          "es": "Si quieres, podemos ir al cine."
+        },
+        {
+          "en": "Jedes Mal, <span class=\"r-sub\">wenn</span> ich sie sehe, <span class=\"r-verb\">freue</span> ich mich.",
+          "es": "Cada vez que la veo, me alegro."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> ich früher Zeit <span class=\"r-verb\">gehabt hätte</span>, wäre ich gekommen.",
+          "es": "Si hubiera tenido tiempo antes, habría venido."
+        },
+        {
+          "en": "<span class=\"r-sub\">Als</span> sie das hörte, <span class=\"r-verb\">lachte</span> sie.",
+          "es": "Cuando ella oyó eso, se rió."
+        },
+        {
+          "en": "<span class=\"r-sub\">Als</span> ich jung <span class=\"r-verb\">war</span>, spielte ich Fußball.",
+          "es": "Cuando era joven, jugaba al fútbol."
+        },
+        {
+          "en": "Wann <span class=\"r-verb\">beginnt</span> der Kurs?",
+          "es": "¿Cuándo empieza el curso?"
+        },
+        {
+          "en": "Wann <span class=\"r-verb\">hast</span> du Geburtstag?",
+          "es": "¿Cuándo es tu cumpleaños?"
+        },
+        {
+          "en": "Ich weiß nicht, <span class=\"r-sub\">wann</span> er <span class=\"r-verb\">kommt</span>.",
+          "es": "No sé cuándo viene."
+        },
+        {
+          "en": "Kannst du mir sagen, <span class=\"r-sub\">wann</span> der Zug <span class=\"r-verb\">abfährt</span>?",
+          "es": "¿Puedes decirme cuándo sale el tren?"
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> ich in Berlin <span class=\"r-verb\">bin</span>, besuche ich meine Tante.",
+          "es": "Cuando estoy en Berlín, visito a mi tía."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> das Wetter schön <span class=\"r-verb\">ist</span>, gehen wir spazieren.",
+          "es": "Si hace buen tiempo, damos un paseo."
+        },
+        {
+          "en": "<span class=\"r-sub\">Als</span> das Telefon <span class=\"r-verb\">klingelte</span>, schlief ich.",
+          "es": "Cuando sonó el teléfono, dormía."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> man Deutsch <span class=\"r-verb\">lernt</span>, braucht man Geduld.",
+          "es": "Cuando se aprende alemán, hace falta paciencia."
+        },
+        {
+          "en": "<span class=\"r-sub\">Als</span> ich den Brief <span class=\"r-verb\">las</span>, weinte ich.",
+          "es": "Cuando leí la carta, lloré."
+        },
+        {
+          "en": "Immer <span class=\"r-sub\">wenn</span> sie <span class=\"r-verb\">anruft</span>, bin ich glücklich.",
+          "es": "Siempre que llama, soy feliz."
+        }
       ],
       "tables": [
         {
-          "headers": ["Palabra", "Uso", "Ejemplo"],
+          "headers": [
+            "Palabra",
+            "Uso",
+            "Ejemplo"
+          ],
           "rows": [
-            ["<b>wenn</b>", "condición o repetición", "Wenn es regnet, … / Immer wenn er kommt, …"],
-            ["<b>als</b>", "hecho único del pasado", "Als ich 18 war, …"],
-            ["<b>wann</b>", "pregunta (directa o indirecta)", "Wann beginnt der Kurs? / Ich weiß nicht, wann…"]
+            [
+              "<b>wenn</b>",
+              "condición o repetición",
+              "Wenn es regnet, … / Immer wenn er kommt, …"
+            ],
+            [
+              "<b>als</b>",
+              "hecho único del pasado",
+              "Als ich 18 war, …"
+            ],
+            [
+              "<b>wann</b>",
+              "pregunta (directa o indirecta)",
+              "Wann beginnt der Kurs? / Ich weiß nicht, wann…"
+            ]
           ]
         }
       ],
@@ -102,20 +448,152 @@
         {
           "id": "b09-s2q1",
           "question": "1. <span class=\"blank\">___</span> ich in Berlin ankam, regnete es. (llegué una vez)",
-          "options": ["Wenn", "Als", "Wann"],
+          "options": [
+            "Wenn",
+            "Als",
+            "Wann"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b09-s2q2",
           "question": "2. Weißt du, <span class=\"blank\">___</span> der Zug abfährt?",
-          "options": ["wenn", "als", "wann"],
+          "options": [
+            "wenn",
+            "als",
+            "wann"
+          ],
           "correctIndex": 2
         },
         {
           "id": "b09-s2q3",
           "question": "3. <span class=\"blank\">___</span> ich müde bin, trinke ich Kaffee. (cada vez)",
-          "options": ["Wenn", "Als", "Wann"],
+          "options": [
+            "Wenn",
+            "Als",
+            "Wann"
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b09-s2q4",
+          "question": "4. <span class=\"blank\">___</span> ich ein Kind war, lebte ich in Chile. (una vez, pasado)",
+          "options": [
+            "Als",
+            "Wann",
+            "Wenn"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s2q5",
+          "question": "5. <span class=\"blank\">___</span> es regnet, bleiben wir zu Hause. (condición)",
+          "options": [
+            "Als",
+            "Wenn",
+            "Wann"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s2q6",
+          "question": "6. <span class=\"blank\">___</span> kommt der Zug? (pregunta)",
+          "options": [
+            "Wann",
+            "Als",
+            "Wenn"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s2q7",
+          "question": "7. Ich weiß nicht, <span class=\"blank\">___</span> er kommt.",
+          "options": [
+            "wenn",
+            "wann",
+            "als"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s2q8",
+          "question": "8. <span class=\"blank\">___</span> ich in Paris war, sah ich den Eiffelturm.",
+          "options": [
+            "Wenn",
+            "Wann",
+            "Als"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s2q9",
+          "question": "9. Immer <span class=\"blank\">___</span> ich Kaffee trinke, bin ich wach.",
+          "options": [
+            "als",
+            "wann",
+            "wenn"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s2q10",
+          "question": "10. <span class=\"blank\">___</span> hast du Zeit?",
+          "options": [
+            "Wenn",
+            "Wann",
+            "Als"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s2q11",
+          "question": "11. <span class=\"blank\">___</span> wir gestern ankamen, war es dunkel.",
+          "options": [
+            "Als",
+            "Wann",
+            "Wenn"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s2q12",
+          "question": "12. «Si tienes tiempo, llámame.» → <span class=\"blank\">___</span> du Zeit hast, ruf mich an.",
+          "options": [
+            "Wann",
+            "Als",
+            "Wenn"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s2q13",
+          "question": "13. Weißt du, <span class=\"blank\">___</span> das Konzert beginnt?",
+          "options": [
+            "wann",
+            "als",
+            "wenn"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s2q14",
+          "question": "14. «Cada vez que viene, trae flores.» → <span class=\"blank\">___</span> er kommt, bringt er Blumen.",
+          "options": [
+            "Als",
+            "Wann",
+            "Wenn"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s2q15",
+          "question": "15. «Cuando era niña, vivía en Lima.» → <span class=\"blank\">___</span> ich klein war, wohnte ich in Lima.",
+          "options": [
+            "Wenn",
+            "Wann",
+            "Als"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -137,30 +615,254 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-sub\">Obwohl</span> es <span class=\"r-verb\">regnet</span>, gehen wir spazieren.", "es": "Aunque llueve, salimos a pasear." },
-        { "en": "Ich spreche langsam, <span class=\"r-sub\">damit</span> du mich <span class=\"r-verb\">verstehst</span>.", "es": "Hablo despacio para que me entiendas. (dos sujetos)" },
-        { "en": "Ich lerne Deutsch, <span class=\"r-sub\">um</span> in Berlin <span class=\"r-verb\">zu arbeiten</span>.", "es": "Aprendo alemán para trabajar en Berlín. (mismo sujeto)" },
-        { "en": "<span class=\"r-sub\">Obwohl</span> er müde <span class=\"r-verb\">war</span>, half er mir.", "es": "Aunque estaba cansado, me ayudó." }
+        {
+          "en": "<span class=\"r-sub\">Obwohl</span> es <span class=\"r-verb\">regnet</span>, gehen wir spazieren.",
+          "es": "Aunque llueve, salimos a pasear."
+        },
+        {
+          "en": "Ich spreche langsam, <span class=\"r-sub\">damit</span> du mich <span class=\"r-verb\">verstehst</span>.",
+          "es": "Hablo despacio para que me entiendas. (dos sujetos)"
+        },
+        {
+          "en": "Ich lerne Deutsch, <span class=\"r-sub\">um</span> in Berlin <span class=\"r-verb\">zu arbeiten</span>.",
+          "es": "Aprendo alemán para trabajar en Berlín. (mismo sujeto)"
+        },
+        {
+          "en": "<span class=\"r-sub\">Obwohl</span> er müde <span class=\"r-verb\">war</span>, half er mir.",
+          "es": "Aunque estaba cansado, me ayudó."
+        },
+        {
+          "en": "<span class=\"r-sub\">Obwohl</span> er krank <span class=\"r-verb\">ist</span>, geht er zur Arbeit.",
+          "es": "Aunque está enfermo, va al trabajo."
+        },
+        {
+          "en": "<span class=\"r-sub\">Obwohl</span> es kalt <span class=\"r-verb\">war</span>, gingen wir spazieren.",
+          "es": "Aunque hacía frío, salimos a pasear."
+        },
+        {
+          "en": "Sie lacht, <span class=\"r-sub\">obwohl</span> sie traurig <span class=\"r-verb\">ist</span>.",
+          "es": "Ella ríe aunque está triste."
+        },
+        {
+          "en": "Ich kaufe Blumen, <span class=\"r-sub\">damit</span> sie sich <span class=\"r-verb\">freut</span>.",
+          "es": "Compro flores para que ella se alegre."
+        },
+        {
+          "en": "Er spricht laut, <span class=\"r-sub\">damit</span> alle ihn <span class=\"r-verb\">hören</span>.",
+          "es": "Habla alto para que todos le oigan."
+        },
+        {
+          "en": "Ich rufe an, <span class=\"r-sub\">damit</span> er nicht <span class=\"r-verb\">wartet</span>.",
+          "es": "Llamo para que él no espere."
+        },
+        {
+          "en": "Ich lerne Deutsch, <span class=\"r-sub\">um</span> in Wien <span class=\"r-verb\">zu studieren</span>.",
+          "es": "Aprendo alemán para estudiar en Viena."
+        },
+        {
+          "en": "Er geht zur Bank, <span class=\"r-sub\">um</span> Geld <span class=\"r-verb\">abzuheben</span>.",
+          "es": "Va al banco para sacar dinero."
+        },
+        {
+          "en": "Sie fährt nach Spanien, <span class=\"r-sub\">um</span> Spanisch <span class=\"r-verb\">zu lernen</span>.",
+          "es": "Ella va a España para aprender español."
+        },
+        {
+          "en": "Ich brauche Zeit, <span class=\"r-sub\">um</span> das <span class=\"r-verb\">zu erledigen</span>.",
+          "es": "Necesito tiempo para hacer esto."
+        },
+        {
+          "en": "Wir sparen Geld, <span class=\"r-sub\">um</span> ein Haus <span class=\"r-verb\">zu kaufen</span>.",
+          "es": "Ahorramos dinero para comprar una casa."
+        },
+        {
+          "en": "<span class=\"r-sub\">Obwohl</span> ich müde <span class=\"r-verb\">bin</span>, arbeite ich weiter.",
+          "es": "Aunque estoy cansado, sigo trabajando."
+        },
+        {
+          "en": "Er hilft uns, <span class=\"r-sub\">damit</span> wir schneller <span class=\"r-verb\">fertig werden</span>.",
+          "es": "Él nos ayuda para que acabemos antes."
+        },
+        {
+          "en": "<span class=\"r-sub\">Obwohl</span> sie viel <span class=\"r-verb\">verdient</span>, ist sie nicht glücklich.",
+          "es": "Aunque gana mucho, no es feliz."
+        },
+        {
+          "en": "Sie erklärt es noch einmal, <span class=\"r-sub\">damit</span> ich es <span class=\"r-verb\">verstehe</span>.",
+          "es": "Ella lo explica otra vez para que yo lo entienda."
+        },
+        {
+          "en": "Ich gehe früh ins Bett, <span class=\"r-sub\">um</span> fit <span class=\"r-verb\">zu sein</span>.",
+          "es": "Me acuesto temprano para estar en forma."
+        },
+        {
+          "en": "<span class=\"r-sub\">Obwohl</span> das Essen teuer <span class=\"r-verb\">war</span>, schmeckte es nicht.",
+          "es": "Aunque la comida era cara, no sabía bien."
+        },
+        {
+          "en": "Er nimmt ein Taxi, <span class=\"r-sub\">um</span> pünktlich <span class=\"r-verb\">zu sein</span>.",
+          "es": "Coge un taxi para ser puntual."
+        },
+        {
+          "en": "Ich schreibe alles auf, <span class=\"r-sub\">damit</span> ich nichts <span class=\"r-verb\">vergesse</span>.",
+          "es": "Lo apunto todo para no olvidar nada."
+        },
+        {
+          "en": "<span class=\"r-sub\">Obwohl</span> wir wenig Zeit <span class=\"r-verb\">hatten</span>, haben wir alles geschafft.",
+          "es": "Aunque teníamos poco tiempo, lo logramos todo."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b09-s3q1",
           "question": "1. Ich gehe zur Party, <span class=\"blank\">___</span> ich müde bin.",
-          "options": ["damit", "obwohl", "um"],
+          "options": [
+            "damit",
+            "obwohl",
+            "um"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b09-s3q2",
           "question": "2. Ich spare Geld, <span class=\"blank\">___</span> ein Auto zu kaufen. (yo ahorro, yo compro)",
-          "options": ["damit", "um", "dass"],
+          "options": [
+            "damit",
+            "um",
+            "dass"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b09-s3q3",
           "question": "3. Er erklärt es zweimal, <span class=\"blank\">___</span> alle es verstehen. (él explica, todos entienden)",
-          "options": ["um", "damit", "obwohl"],
+          "options": [
+            "um",
+            "damit",
+            "obwohl"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q4",
+          "question": "4. Er arbeitet, <span class=\"blank\">___</span> er krank ist.",
+          "options": [
+            "um",
+            "damit",
+            "obwohl"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s3q5",
+          "question": "5. Ich rufe an, <span class=\"blank\">___</span> dich zu fragen. (mismo sujeto)",
+          "options": [
+            "damit",
+            "um",
+            "obwohl"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q6",
+          "question": "6. Ich rufe an, <span class=\"blank\">___</span> du mir hilfst. (sujetos distintos)",
+          "options": [
+            "damit",
+            "obwohl",
+            "um"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s3q7",
+          "question": "7. <span class=\"blank\">___</span> es regnet, gehen wir raus.",
+          "options": [
+            "Damit",
+            "Obwohl",
+            "Um"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q8",
+          "question": "8. Sie lernt, <span class=\"blank\">___</span> die Prüfung zu bestehen.",
+          "options": [
+            "damit",
+            "um",
+            "obwohl"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q9",
+          "question": "9. Er erklärt es, <span class=\"blank\">___</span> wir es verstehen.",
+          "options": [
+            "um",
+            "damit",
+            "obwohl"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q10",
+          "question": "10. Ich spare Geld, <span class=\"blank\">___</span> eine Reise zu machen.",
+          "options": [
+            "obwohl",
+            "um",
+            "damit"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q11",
+          "question": "11. <span class=\"blank\">___</span> er müde war, blieb er wach.",
+          "options": [
+            "Um",
+            "Obwohl",
+            "Damit"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q12",
+          "question": "12. «Trabajo para ganar dinero.» → Ich arbeite, <span class=\"blank\">___</span> Geld zu verdienen.",
+          "options": [
+            "obwohl",
+            "um",
+            "damit"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s3q13",
+          "question": "13. «Hablo despacio para que me entiendas.» → Ich spreche langsam, <span class=\"blank\">___</span> du mich verstehst.",
+          "options": [
+            "damit",
+            "um",
+            "obwohl"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s3q14",
+          "question": "14. «Aunque no tengo tiempo, voy.» → <span class=\"blank\">___</span> ich keine Zeit habe, gehe ich.",
+          "options": [
+            "Obwohl",
+            "Um",
+            "Damit"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s3q15",
+          "question": "15. ¿Cuál es correcta?",
+          "options": [
+            "Er lernt, damit Arzt zu werden.",
+            "Er lernt, um Arzt werden.",
+            "Er lernt, um Arzt zu werden."
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -187,30 +889,254 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-sub\">Weil</span> ich krank <span class=\"r-verb\">bin</span>, <span class=\"r-verb\">bleibe</span> ich heute zu Hause.", "es": "Como estoy enfermo, hoy me quedo en casa." },
-        { "en": "<span class=\"r-sub\">Wenn</span> du Zeit <span class=\"r-verb\">hast</span>, <span class=\"r-verb\">können</span> wir einen Kaffee trinken.", "es": "Si tienes tiempo, podemos tomar un café." },
-        { "en": "Ich bin müde, <span class=\"r-sub\">weil</span> ich schlecht <span class=\"r-sep\">geschlafen</span> <span class=\"r-verb\">habe</span>.", "es": "Estoy cansado porque he dormido mal. (clúster: participio + habe)" },
-        { "en": "Er sagt, <span class=\"r-sub\">dass</span> er morgen nicht <span class=\"r-sep\">kommen</span> <span class=\"r-verb\">kann</span>.", "es": "Dice que mañana no puede venir. (clúster: infinitivo + kann)" }
+        {
+          "en": "<span class=\"r-sub\">Weil</span> ich krank <span class=\"r-verb\">bin</span>, <span class=\"r-verb\">bleibe</span> ich heute zu Hause.",
+          "es": "Como estoy enfermo, hoy me quedo en casa."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> du Zeit <span class=\"r-verb\">hast</span>, <span class=\"r-verb\">können</span> wir einen Kaffee trinken.",
+          "es": "Si tienes tiempo, podemos tomar un café."
+        },
+        {
+          "en": "Ich bin müde, <span class=\"r-sub\">weil</span> ich schlecht <span class=\"r-sep\">geschlafen</span> <span class=\"r-verb\">habe</span>.",
+          "es": "Estoy cansado porque he dormido mal. (clúster: participio + habe)"
+        },
+        {
+          "en": "Er sagt, <span class=\"r-sub\">dass</span> er morgen nicht <span class=\"r-sep\">kommen</span> <span class=\"r-verb\">kann</span>.",
+          "es": "Dice que mañana no puede venir. (clúster: infinitivo + kann)"
+        },
+        {
+          "en": "<span class=\"r-sub\">Weil</span> es <span class=\"r-verb\">regnet</span>, <span class=\"r-verb\">bleiben</span> wir zu Hause.",
+          "es": "Como llueve, nos quedamos en casa."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> ich Zeit <span class=\"r-verb\">habe</span>, <span class=\"r-verb\">rufe</span> ich dich an.",
+          "es": "Si tengo tiempo, te llamo."
+        },
+        {
+          "en": "<span class=\"r-sub\">Obwohl</span> er müde <span class=\"r-verb\">ist</span>, <span class=\"r-verb\">arbeitet</span> er weiter.",
+          "es": "Aunque está cansado, sigue trabajando."
+        },
+        {
+          "en": "<span class=\"r-sub\">Als</span> ich ankam, <span class=\"r-verb\">war</span> es schon dunkel.",
+          "es": "Cuando llegué, ya estaba oscuro."
+        },
+        {
+          "en": "<span class=\"r-sub\">Weil</span> sie krank <span class=\"r-verb\">ist</span>, <span class=\"r-verb\">kann</span> sie nicht kommen.",
+          "es": "Como está enferma, no puede venir."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> du willst, <span class=\"r-verb\">gehen</span> wir ins Kino.",
+          "es": "Si quieres, vamos al cine."
+        },
+        {
+          "en": "<span class=\"r-sub\">Dass</span> er kommt, <span class=\"r-verb\">freut</span> mich sehr.",
+          "es": "Que venga me alegra mucho."
+        },
+        {
+          "en": "Ich weiß, <span class=\"r-sub\">dass</span> er heute <span class=\"r-sep\">arbeiten</span> <span class=\"r-verb\">muss</span>.",
+          "es": "Sé que hoy tiene que trabajar. (clúster: infinitivo + muss)"
+        },
+        {
+          "en": "Sie sagt, <span class=\"r-sub\">dass</span> sie das Buch <span class=\"r-sep\">gelesen</span> <span class=\"r-verb\">hat</span>.",
+          "es": "Dice que ha leído el libro. (clúster: participio + hat)"
+        },
+        {
+          "en": "Ich bin froh, <span class=\"r-sub\">weil</span> ich die Prüfung <span class=\"r-sep\">bestanden</span> <span class=\"r-verb\">habe</span>.",
+          "es": "Estoy contento porque he aprobado el examen."
+        },
+        {
+          "en": "Er ist müde, <span class=\"r-sub\">weil</span> er lange <span class=\"r-sep\">gearbeitet</span> <span class=\"r-verb\">hat</span>.",
+          "es": "Está cansado porque ha trabajado mucho."
+        },
+        {
+          "en": "Wir wissen, <span class=\"r-sub\">dass</span> er heute nicht <span class=\"r-sep\">kommen</span> <span class=\"r-verb\">kann</span>.",
+          "es": "Sabemos que hoy no puede venir."
+        },
+        {
+          "en": "Ich glaube, <span class=\"r-sub\">dass</span> sie nach Hause <span class=\"r-sep\">gegangen</span> <span class=\"r-verb\">ist</span>.",
+          "es": "Creo que se ha ido a casa."
+        },
+        {
+          "en": "<span class=\"r-sub\">Weil</span> ich gestern krank <span class=\"r-verb\">war</span>, <span class=\"r-verb\">bin</span> ich zu Hause geblieben.",
+          "es": "Como ayer estuve enfermo, me quedé en casa."
+        },
+        {
+          "en": "Sie sagt, <span class=\"r-sub\">dass</span> sie morgen früh <span class=\"r-sep\">aufstehen</span> <span class=\"r-verb\">muss</span>.",
+          "es": "Dice que mañana tiene que levantarse temprano."
+        },
+        {
+          "en": "Ich weiß nicht, <span class=\"r-sub\">ob</span> er das <span class=\"r-sep\">verstanden</span> <span class=\"r-verb\">hat</span>.",
+          "es": "No sé si lo ha entendido."
+        },
+        {
+          "en": "<span class=\"r-sub\">Wenn</span> es morgen <span class=\"r-verb\">regnet</span>, <span class=\"r-verb\">bleibe</span> ich zu Hause.",
+          "es": "Si mañana llueve, me quedo en casa."
+        },
+        {
+          "en": "Ich denke, <span class=\"r-sub\">dass</span> wir das <span class=\"r-sep\">schaffen</span> <span class=\"r-verb\">können</span>.",
+          "es": "Creo que podemos lograrlo."
+        },
+        {
+          "en": "Er erzählt, <span class=\"r-sub\">dass</span> er in Berlin <span class=\"r-sep\">gewohnt</span> <span class=\"r-verb\">hat</span>.",
+          "es": "Cuenta que ha vivido en Berlín."
+        },
+        {
+          "en": "<span class=\"r-sub\">Weil</span> sie viel <span class=\"r-sep\">arbeiten</span> <span class=\"r-verb\">muss</span>, hat sie wenig Zeit.",
+          "es": "Como tiene que trabajar mucho, tiene poco tiempo."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b09-s4q1",
           "question": "1. Wenn es regnet, <span class=\"blank\">___</span> zu Hause.",
-          "options": ["wir bleiben", "bleiben wir", "wir zu bleiben"],
+          "options": [
+            "wir bleiben",
+            "bleiben wir",
+            "wir zu bleiben"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b09-s4q2",
           "question": "2. Ich freue mich, weil ich die Prüfung <span class=\"blank\">___</span>.",
-          "options": ["habe bestanden", "bestanden habe", "bestehe habe"],
+          "options": [
+            "habe bestanden",
+            "bestanden habe",
+            "bestehe habe"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b09-s4q3",
           "question": "3. Sie bleibt zu Hause, weil sie arbeiten <span class=\"blank\">___</span>.",
-          "options": ["muss", "musst", "müssen"],
+          "options": [
+            "muss",
+            "musst",
+            "müssen"
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b09-s4q4",
+          "question": "4. Wenn es kalt ist, <span class=\"blank\">___</span> wir zu Hause.",
+          "options": [
+            "bleiben",
+            "wir bleiben",
+            "bleiben nicht wir"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s4q5",
+          "question": "5. Weil ich müde bin, <span class=\"blank\">___</span> ich ins Bett.",
+          "options": [
+            "ich gehen",
+            "gehe",
+            "ich gehe"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s4q6",
+          "question": "6. Ich weiß, dass er gestern <span class=\"blank\">___</span>.",
+          "options": [
+            "gekommen ist",
+            "ist gekommen",
+            "gekommen war ist"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s4q7",
+          "question": "7. Sie sagt, dass sie das nicht <span class=\"blank\">___</span>.",
+          "options": [
+            "gewusst hat",
+            "gewusst haben",
+            "hat gewusst"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s4q8",
+          "question": "8. Ich bin sicher, dass er heute <span class=\"blank\">___</span>.",
+          "options": [
+            "arbeiten muss",
+            "arbeiten musst",
+            "muss arbeiten"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s4q9",
+          "question": "9. Wenn ich Zeit habe, <span class=\"blank\">___</span> ich dich.",
+          "options": [
+            "besuche",
+            "ich besuche",
+            "besuche ich dich nicht"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s4q10",
+          "question": "10. ¿Cuál es correcta?",
+          "options": [
+            "Weil ich krank bin, bleibe ich zu Hause.",
+            "Weil ich bin krank, bleibe ich zu Hause.",
+            "Weil ich krank bin, ich bleibe zu Hause."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s4q11",
+          "question": "11. ¿Cuál es correcta?",
+          "options": [
+            "Er sagt, dass er kann kommen.",
+            "Er sagt, dass er kommen kann.",
+            "Er sagt, dass kommen er kann."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s4q12",
+          "question": "12. En «Obwohl es regnet, gehen wir raus», la principal empieza con…",
+          "options": [
+            "la conjunción",
+            "el verbo (gehen)",
+            "el sujeto (wir)"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s4q13",
+          "question": "13. Ich freue mich, dass du <span class=\"blank\">___</span>.",
+          "options": [
+            "gekommen bist",
+            "kommen bist",
+            "bist gekommen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s4q14",
+          "question": "14. Er sagt, dass er das Buch <span class=\"blank\">___</span>.",
+          "options": [
+            "lesen hat",
+            "hat gelesen",
+            "gelesen hat"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b09-s4q15",
+          "question": "15. Ich glaube, dass sie nicht <span class=\"blank\">___</span>.",
+          "options": [
+            "kommen können",
+            "kann kommen",
+            "kommen kann"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {

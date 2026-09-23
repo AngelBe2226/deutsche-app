@@ -4,9 +4,21 @@
   "kicker": "Bloque 13 · B1–C1",
   "intro": "Dos herramientas de nivel intermedio-alto: la <b class=\"hl\">pasiva con werden</b> (el alemán la usa mucho más que el español) y el <b class=\"hl\">Konjunktiv II</b> — el modo de las hipótesis, los deseos y, sobre todo, <b class=\"hl\">la cortesía</b> de cada día.",
   "legend": [
-    { "label": "verbo", "desc": "werden / würde conjugado", "role": "verb" },
-    { "label": "cierre verbal", "desc": "Partizip II / infinitivo al final", "role": "sep" },
-    { "label": "agente", "desc": "von + Dativ", "role": "dat" }
+    {
+      "label": "verbo",
+      "desc": "werden / würde conjugado",
+      "role": "verb"
+    },
+    {
+      "label": "cierre verbal",
+      "desc": "Partizip II / infinitivo al final",
+      "role": "sep"
+    },
+    {
+      "label": "agente",
+      "desc": "von + Dativ",
+      "role": "dat"
+    }
   ],
   "sections": [
     {
@@ -27,30 +39,254 @@
         }
       ],
       "examples": [
-        { "en": "Das Haus <span class=\"r-verb\">wird</span> gerade <span class=\"r-sep\">renoviert</span>.", "es": "La casa se está renovando ahora mismo." },
-        { "en": "Die E-Mails <span class=\"r-verb\">werden</span> heute <span class=\"r-sep\">beantwortet</span>.", "es": "Los correos se responden hoy." },
-        { "en": "Der Roman <span class=\"r-verb\">wurde</span> <span class=\"r-dat\">von einer Spanierin</span> <span class=\"r-sep\">geschrieben</span>.", "es": "La novela fue escrita por una española. (agente: von + Dat)" },
-        { "en": "Hier <span class=\"r-verb\">wird</span> Deutsch <span class=\"r-sep\">gesprochen</span>.", "es": "Aquí se habla alemán." }
+        {
+          "en": "Das Haus <span class=\"r-verb\">wird</span> gerade <span class=\"r-sep\">renoviert</span>.",
+          "es": "La casa se está renovando ahora mismo."
+        },
+        {
+          "en": "Die E-Mails <span class=\"r-verb\">werden</span> heute <span class=\"r-sep\">beantwortet</span>.",
+          "es": "Los correos se responden hoy."
+        },
+        {
+          "en": "Der Roman <span class=\"r-verb\">wurde</span> <span class=\"r-dat\">von einer Spanierin</span> <span class=\"r-sep\">geschrieben</span>.",
+          "es": "La novela fue escrita por una española. (agente: von + Dat)"
+        },
+        {
+          "en": "Hier <span class=\"r-verb\">wird</span> Deutsch <span class=\"r-sep\">gesprochen</span>.",
+          "es": "Aquí se habla alemán."
+        },
+        {
+          "en": "Das Auto <span class=\"r-verb\">wird</span> jedes Jahr <span class=\"r-sep\">kontrolliert</span>.",
+          "es": "El coche se revisa cada año."
+        },
+        {
+          "en": "Die Tür <span class=\"r-verb\">wird</span> um acht Uhr <span class=\"r-sep\">geöffnet</span>.",
+          "es": "La puerta se abre a las ocho."
+        },
+        {
+          "en": "Hier <span class=\"r-verb\">wird</span> viel <span class=\"r-sep\">gearbeitet</span>.",
+          "es": "Aquí se trabaja mucho."
+        },
+        {
+          "en": "In Österreich <span class=\"r-verb\">wird</span> Deutsch <span class=\"r-sep\">gesprochen</span>.",
+          "es": "En Austria se habla alemán."
+        },
+        {
+          "en": "Die Kinder <span class=\"r-verb\">werden</span> von der Lehrerin <span class=\"r-sep\">unterrichtet</span>.",
+          "es": "Los niños son enseñados por la profesora."
+        },
+        {
+          "en": "Der Brief <span class=\"r-verb\">wird</span> <span class=\"r-dat\">von meinem Vater</span> <span class=\"r-sep\">geschrieben</span>.",
+          "es": "La carta es escrita por mi padre. (agente: von + Dat)"
+        },
+        {
+          "en": "Das Buch <span class=\"r-verb\">wird</span> <span class=\"r-dat\">von vielen Leuten</span> <span class=\"r-sep\">gelesen</span>.",
+          "es": "El libro es leído por mucha gente."
+        },
+        {
+          "en": "Die Suppe <span class=\"r-verb\">wird</span> heiß <span class=\"r-sep\">serviert</span>.",
+          "es": "La sopa se sirve caliente."
+        },
+        {
+          "en": "Das Essen <span class=\"r-verb\">wird</span> um zwölf <span class=\"r-sep\">gekocht</span>.",
+          "es": "La comida se prepara a las doce."
+        },
+        {
+          "en": "Die Rechnung <span class=\"r-verb\">wird</span> morgen <span class=\"r-sep\">bezahlt</span>.",
+          "es": "La factura se paga mañana."
+        },
+        {
+          "en": "Die Wohnung <span class=\"r-verb\">wird</span> gerade <span class=\"r-sep\">renoviert</span>.",
+          "es": "El piso se está reformando ahora mismo."
+        },
+        {
+          "en": "Wie <span class=\"r-verb\">wird</span> das Wort <span class=\"r-sep\">geschrieben</span>?",
+          "es": "¿Cómo se escribe la palabra?"
+        },
+        {
+          "en": "Das Spiel <span class=\"r-verb\">wird</span> im Fernsehen <span class=\"r-sep\">übertragen</span>.",
+          "es": "El partido se retransmite por televisión."
+        },
+        {
+          "en": "Wein <span class=\"r-verb\">wird</span> aus Trauben <span class=\"r-sep\">gemacht</span>.",
+          "es": "El vino se hace de uvas."
+        },
+        {
+          "en": "Die Pakete <span class=\"r-verb\">werden</span> heute <span class=\"r-sep\">geliefert</span>.",
+          "es": "Los paquetes se entregan hoy."
+        },
+        {
+          "en": "Hier <span class=\"r-verb\">wird</span> nicht <span class=\"r-sep\">geraucht</span>.",
+          "es": "Aquí no se fuma."
+        },
+        {
+          "en": "Am Sonntag <span class=\"r-verb\">wird</span> nicht <span class=\"r-sep\">gearbeitet</span>.",
+          "es": "El domingo no se trabaja."
+        },
+        {
+          "en": "Das Bild <span class=\"r-verb\">wird</span> <span class=\"r-dat\">von einem Künstler</span> <span class=\"r-sep\">gemalt</span>.",
+          "es": "El cuadro es pintado por un artista."
+        },
+        {
+          "en": "Die Tickets <span class=\"r-verb\">werden</span> online <span class=\"r-sep\">verkauft</span>.",
+          "es": "Las entradas se venden online."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">werde</span> morgen <span class=\"r-sep\">angerufen</span>.",
+          "es": "Mañana me llamarán."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b13-s1q1",
           "question": "1. «El puente se construye este año.» → Die Brücke <span class=\"blank\">___</span> dieses Jahr gebaut.",
-          "options": ["ist", "wird", "hat"],
+          "options": [
+            "ist",
+            "wird",
+            "hat"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b13-s1q2",
           "question": "2. El agente de la pasiva se introduce con…",
-          "options": ["mit + Akkusativ", "von + Dativ", "durch + Dativ"],
+          "options": [
+            "mit + Akkusativ",
+            "von + Dativ",
+            "durch + Dativ"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b13-s1q3",
           "question": "3. «Aquí se trabaja mucho.» →",
-          "options": ["Hier wird viel gearbeitet.", "Hier arbeitet man wird viel.", "Hier ist viel gearbeitet."],
+          "options": [
+            "Hier wird viel gearbeitet.",
+            "Hier arbeitet man wird viel.",
+            "Hier ist viel gearbeitet."
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b13-s1q4",
+          "question": "4. «La casa se vende.» → Das Haus <span class=\"blank\">___</span> verkauft.",
+          "options": [
+            "wird",
+            "hat",
+            "ist"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s1q5",
+          "question": "5. «Los libros se leen.» → Die Bücher <span class=\"blank\">___</span> gelesen.",
+          "options": [
+            "wird",
+            "werden",
+            "sind"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s1q6",
+          "question": "6. «Aquí se habla inglés.» → Hier <span class=\"blank\">___</span> Englisch gesprochen.",
+          "options": [
+            "wird",
+            "ist",
+            "werden"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s1q7",
+          "question": "7. El Partizip II va…",
+          "options": [
+            "al final",
+            "en posición 2",
+            "tras el sujeto"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s1q8",
+          "question": "8. El agente se expresa con…",
+          "options": [
+            "mit + Akkusativ",
+            "für + Akkusativ",
+            "von + Dativ"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s1q9",
+          "question": "9. «La carta es escrita por mi hermano.» → Der Brief wird <span class=\"blank\">___</span> meinem Bruder geschrieben.",
+          "options": [
+            "durch",
+            "von",
+            "mit"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s1q10",
+          "question": "10. «La pizza se hace en el horno.» → Die Pizza <span class=\"blank\">___</span> im Ofen gemacht.",
+          "options": [
+            "werden",
+            "wird",
+            "wurde"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s1q11",
+          "question": "11. «Se cierra a las ocho.» → Es <span class=\"blank\">___</span> um acht geschlossen.",
+          "options": [
+            "wird",
+            "hat",
+            "ist"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s1q12",
+          "question": "12. «Las cartas se envían hoy.» → Die Briefe <span class=\"blank\">___</span> heute geschickt.",
+          "options": [
+            "werden",
+            "wird",
+            "ist"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s1q13",
+          "question": "13. ¿Cuál es correcta?",
+          "options": [
+            "Der Kuchen wird gebackt werden.",
+            "Der Kuchen wird gebacken.",
+            "Der Kuchen wird backen."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s1q14",
+          "question": "14. «Me invitan a la fiesta.» → Ich <span class=\"blank\">___</span> zur Party eingeladen.",
+          "options": [
+            "werde",
+            "wirst",
+            "wird"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s1q15",
+          "question": "15. «Nos ayudan.» (pasiva) → Uns <span class=\"blank\">___</span> geholfen.",
+          "options": [
+            "werden",
+            "wurde ist",
+            "wird"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -72,19 +308,136 @@
         }
       ],
       "examples": [
-        { "en": "Das Fenster <span class=\"r-verb\">wurde</span> gestern <span class=\"r-sep\">repariert</span>.", "es": "La ventana fue reparada ayer. (Präteritum)" },
-        { "en": "Die Rechnung <span class=\"r-verb\">ist</span> schon <span class=\"r-sep\">bezahlt worden</span>.", "es": "La factura ya ha sido pagada. (Perfekt pasivo)" },
-        { "en": "Das Restaurant <span class=\"r-verb\">ist</span> montags <span class=\"r-sep\">geschlossen</span>.", "es": "El restaurante está cerrado los lunes. (estado)" },
-        { "en": "Der Tisch <span class=\"r-verb\">ist</span> schon <span class=\"r-sep\">reserviert</span>.", "es": "La mesa ya está reservada. (estado)" }
+        {
+          "en": "Das Fenster <span class=\"r-verb\">wurde</span> gestern <span class=\"r-sep\">repariert</span>.",
+          "es": "La ventana fue reparada ayer. (Präteritum)"
+        },
+        {
+          "en": "Die Rechnung <span class=\"r-verb\">ist</span> schon <span class=\"r-sep\">bezahlt worden</span>.",
+          "es": "La factura ya ha sido pagada. (Perfekt pasivo)"
+        },
+        {
+          "en": "Das Restaurant <span class=\"r-verb\">ist</span> montags <span class=\"r-sep\">geschlossen</span>.",
+          "es": "El restaurante está cerrado los lunes. (estado)"
+        },
+        {
+          "en": "Der Tisch <span class=\"r-verb\">ist</span> schon <span class=\"r-sep\">reserviert</span>.",
+          "es": "La mesa ya está reservada. (estado)"
+        },
+        {
+          "en": "Das Haus <span class=\"r-verb\">wurde</span> 1990 <span class=\"r-sep\">gebaut</span>.",
+          "es": "La casa fue construida en 1990."
+        },
+        {
+          "en": "Der Brief <span class=\"r-verb\">wurde</span> gestern <span class=\"r-sep\">geschrieben</span>.",
+          "es": "La carta fue escrita ayer."
+        },
+        {
+          "en": "Die Stadt <span class=\"r-verb\">wurde</span> im Krieg <span class=\"r-sep\">zerstört</span>.",
+          "es": "La ciudad fue destruida en la guerra."
+        },
+        {
+          "en": "Das Bild <span class=\"r-verb\">wurde</span> <span class=\"r-dat\">von einem berühmten Maler</span> <span class=\"r-sep\">gemalt</span>.",
+          "es": "El cuadro fue pintado por un famoso pintor."
+        },
+        {
+          "en": "Die Tür <span class=\"r-verb\">wurde</span> nicht <span class=\"r-sep\">geschlossen</span>.",
+          "es": "La puerta no fue cerrada."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">wurden</span> zur Party <span class=\"r-sep\">eingeladen</span>.",
+          "es": "Nos invitaron a la fiesta."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">wurde</span> gestern <span class=\"r-sep\">operiert</span>.",
+          "es": "Fue operado ayer."
+        },
+        {
+          "en": "Das Auto <span class=\"r-verb\">ist</span> schon <span class=\"r-sep\">repariert worden</span>.",
+          "es": "El coche ya ha sido reparado. (Perfekt pasivo)"
+        },
+        {
+          "en": "Die Aufgabe <span class=\"r-verb\">ist</span> gestern <span class=\"r-sep\">gemacht worden</span>.",
+          "es": "La tarea se hizo ayer."
+        },
+        {
+          "en": "Der Dieb <span class=\"r-verb\">ist</span> <span class=\"r-dat\">von der Polizei</span> <span class=\"r-sep\">gefasst worden</span>.",
+          "es": "El ladrón ha sido detenido por la policía."
+        },
+        {
+          "en": "Die Rechnung <span class=\"r-verb\">ist</span> noch nicht <span class=\"r-sep\">bezahlt worden</span>.",
+          "es": "La factura todavía no ha sido pagada."
+        },
+        {
+          "en": "Der Laden <span class=\"r-verb\">ist</span> geöffnet.",
+          "es": "La tienda está abierta. (estado)"
+        },
+        {
+          "en": "Die Tür <span class=\"r-verb\">ist</span> geschlossen.",
+          "es": "La puerta está cerrada. (estado)"
+        },
+        {
+          "en": "Das Zimmer <span class=\"r-verb\">ist</span> schon <span class=\"r-sep\">aufgeräumt</span>.",
+          "es": "La habitación ya está ordenada. (estado)"
+        },
+        {
+          "en": "Die Wäsche <span class=\"r-verb\">ist</span> gewaschen.",
+          "es": "La ropa está lavada. (estado)"
+        },
+        {
+          "en": "Der Tisch <span class=\"r-verb\">ist</span> für sieben Uhr <span class=\"r-sep\">reserviert</span>.",
+          "es": "La mesa está reservada para las siete. (estado)"
+        },
+        {
+          "en": "Das Museum <span class=\"r-verb\">ist</span> montags <span class=\"r-sep\">geschlossen</span>.",
+          "es": "El museo está cerrado los lunes. (estado)"
+        },
+        {
+          "en": "Das Essen <span class=\"r-verb\">ist</span> fertig <span class=\"r-sep\">gekocht</span>.",
+          "es": "La comida está ya cocinada. (estado)"
+        },
+        {
+          "en": "Die Hausaufgaben <span class=\"r-verb\">sind</span> noch nicht <span class=\"r-sep\">gemacht</span>.",
+          "es": "Los deberes todavía no están hechos. (estado)"
+        },
+        {
+          "en": "Das Buch <span class=\"r-verb\">wurde</span> ins Spanische <span class=\"r-sep\">übersetzt</span>.",
+          "es": "El libro fue traducido al español."
+        }
       ],
       "tables": [
         {
-          "headers": ["Tipo", "Forma", "Ejemplo", "Matiz"],
+          "headers": [
+            "Tipo",
+            "Forma",
+            "Ejemplo",
+            "Matiz"
+          ],
           "rows": [
-            ["Proceso, presente", "wird + P II", "Die Tür wird geschlossen.", "lo están haciendo"],
-            ["Proceso, Präteritum", "wurde + P II", "Die Tür wurde geschlossen.", "lo hicieron"],
-            ["Proceso, Perfekt", "ist + P II + worden", "Die Tür ist geschlossen worden.", "lo han hecho"],
-            ["Estado", "ist + P II", "Die Tür ist geschlossen.", "así está ahora"]
+            [
+              "Proceso, presente",
+              "wird + P II",
+              "Die Tür wird geschlossen.",
+              "lo están haciendo"
+            ],
+            [
+              "Proceso, Präteritum",
+              "wurde + P II",
+              "Die Tür wurde geschlossen.",
+              "lo hicieron"
+            ],
+            [
+              "Proceso, Perfekt",
+              "ist + P II + worden",
+              "Die Tür ist geschlossen worden.",
+              "lo han hecho"
+            ],
+            [
+              "Estado",
+              "ist + P II",
+              "Die Tür ist geschlossen.",
+              "así está ahora"
+            ]
           ]
         }
       ],
@@ -92,19 +445,151 @@
         {
           "id": "b13-s2q1",
           "question": "1. «La casa fue construida en 1920.» → Das Haus <span class=\"blank\">___</span> 1920 gebaut.",
-          "options": ["wurde", "war", "ist"],
+          "options": [
+            "wurde",
+            "war",
+            "ist"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b13-s2q2",
           "question": "2. «La tienda está abierta.» (estado) → Der Laden <span class=\"blank\">___</span> geöffnet.",
-          "options": ["wird", "ist", "wurde"],
+          "options": [
+            "wird",
+            "ist",
+            "wurde"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b13-s2q3",
           "question": "3. Perfekt pasivo: Der Brief ist geschickt <span class=\"blank\">___</span>.",
-          "options": ["geworden", "worden", "werden"],
+          "options": [
+            "geworden",
+            "worden",
+            "werden"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s2q4",
+          "question": "4. «La casa fue vendida.» → Das Haus <span class=\"blank\">___</span> verkauft.",
+          "options": [
+            "ist",
+            "wurde",
+            "hat"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s2q5",
+          "question": "5. «Ella fue invitada.» → Sie <span class=\"blank\">___</span> eingeladen.",
+          "options": [
+            "hat",
+            "wurde",
+            "war"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s2q6",
+          "question": "6. «El coche ha sido reparado.» → Das Auto ist repariert <span class=\"blank\">___</span>.",
+          "options": [
+            "geworden",
+            "werden",
+            "worden"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s2q7",
+          "question": "7. «La ventana está cerrada.» (estado) → Das Fenster <span class=\"blank\">___</span> geschlossen.",
+          "options": [
+            "ist",
+            "wurde",
+            "wird"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s2q8",
+          "question": "8. «La puerta fue abierta a las ocho.» → Die Tür <span class=\"blank\">___</span> um acht geöffnet.",
+          "options": [
+            "ist",
+            "hatte",
+            "wurde"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s2q9",
+          "question": "9. «Las cartas han sido enviadas.» → Die Briefe sind geschickt <span class=\"blank\">___</span>.",
+          "options": [
+            "werden",
+            "geworden",
+            "worden"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s2q10",
+          "question": "10. «El cuadro fue pintado por Picasso.» → Das Bild wurde <span class=\"blank\">___</span> Picasso gemalt.",
+          "options": [
+            "mit",
+            "von",
+            "durch"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s2q11",
+          "question": "11. «La tienda está abierta.» → Der Laden <span class=\"blank\">___</span> offen.",
+          "options": [
+            "wurde",
+            "wird",
+            "ist"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s2q12",
+          "question": "12. Perfekt pasivo se forma con…",
+          "options": [
+            "wird + Partizip II",
+            "ist + Partizip II + worden",
+            "war + Partizip II"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s2q13",
+          "question": "13. ¿Qué expresa la pasiva de estado (sein + Partizip)?",
+          "options": [
+            "la intención",
+            "el resultado",
+            "la acción en curso"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s2q14",
+          "question": "14. ¿Cuál es correcta?",
+          "options": [
+            "Er wurde gestern operieren.",
+            "Er wurde gestern operiert.",
+            "Er ist gestern operiert geworden."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s2q15",
+          "question": "15. «El museo estuvo cerrado.» (estado, pasado) → Das Museum <span class=\"blank\">___</span> geschlossen.",
+          "options": [
+            "wurde",
+            "war",
+            "hat"
+          ],
           "correctIndex": 1
         }
       ],
@@ -127,21 +612,141 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Ich würde</span> gern mehr <span class=\"r-sep\">reisen</span>.", "es": "Me gustaría viajar más." },
-        { "en": "Wenn ich reich <span class=\"r-verb\">wäre</span>, <span class=\"r-verb\">hätte</span> ich ein Haus am Meer.", "es": "Si fuera rico, tendría una casa junto al mar." },
-        { "en": "<span class=\"r-verb\">Könntest</span> du mir <span class=\"r-sep\">helfen</span>?", "es": "¿Podrías ayudarme?" },
-        { "en": "An deiner Stelle <span class=\"r-verb\">würde</span> ich das nicht <span class=\"r-sep\">machen</span>.", "es": "Yo en tu lugar no lo haría." }
+        {
+          "en": "<span class=\"r-verb\">Ich würde</span> gern mehr <span class=\"r-sep\">reisen</span>.",
+          "es": "Me gustaría viajar más."
+        },
+        {
+          "en": "Wenn ich reich <span class=\"r-verb\">wäre</span>, <span class=\"r-verb\">hätte</span> ich ein Haus am Meer.",
+          "es": "Si fuera rico, tendría una casa junto al mar."
+        },
+        {
+          "en": "<span class=\"r-verb\">Könntest</span> du mir <span class=\"r-sep\">helfen</span>?",
+          "es": "¿Podrías ayudarme?"
+        },
+        {
+          "en": "An deiner Stelle <span class=\"r-verb\">würde</span> ich das nicht <span class=\"r-sep\">machen</span>.",
+          "es": "Yo en tu lugar no lo haría."
+        },
+        {
+          "en": "Wenn ich mehr Zeit <span class=\"r-verb\">hätte</span>, <span class=\"r-verb\">würde</span> ich mehr <span class=\"r-sep\">lesen</span>.",
+          "es": "Si tuviera más tiempo, leería más."
+        },
+        {
+          "en": "Wenn ich ein Auto <span class=\"r-verb\">hätte</span>, <span class=\"r-verb\">würde</span> ich nach Italien <span class=\"r-sep\">fahren</span>.",
+          "es": "Si tuviera coche, iría a Italia."
+        },
+        {
+          "en": "Wenn ich reich <span class=\"r-verb\">wäre</span>, <span class=\"r-verb\">würde</span> ich die Welt <span class=\"r-sep\">bereisen</span>.",
+          "es": "Si fuera rico, recorrería el mundo."
+        },
+        {
+          "en": "Wenn er hier <span class=\"r-verb\">wäre</span>, <span class=\"r-verb\">könnten</span> wir zusammen <span class=\"r-sep\">essen</span>.",
+          "es": "Si él estuviera aquí, podríamos comer juntos."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wäre</span> ich doch schon zu Hause!",
+          "es": "¡Ojalá ya estuviera en casa!"
+        },
+        {
+          "en": "<span class=\"r-verb\">Hätte</span> ich nur mehr Geld!",
+          "es": "¡Ojalá tuviera más dinero!"
+        },
+        {
+          "en": "Das <span class=\"r-verb\">wäre</span> schön.",
+          "es": "Eso sería bonito."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">wäre</span> ein Problem.",
+          "es": "Eso sería un problema."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">hätte</span> gern einen Kaffee.",
+          "es": "Querría un café."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">könnten</span> ins Kino <span class=\"r-sep\">gehen</span>.",
+          "es": "Podríamos ir al cine."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">würde</span> gern in Berlin <span class=\"r-sep\">wohnen</span>.",
+          "es": "Me gustaría vivir en Berlín."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">würde</span> das nie <span class=\"r-sep\">tun</span>.",
+          "es": "Él nunca haría eso."
+        },
+        {
+          "en": "Wenn es nicht <span class=\"r-verb\">regnen würde</span>, <span class=\"r-verb\">würden</span> wir <span class=\"r-sep\">wandern</span>.",
+          "es": "Si no lloviera, iríamos de excursión."
+        },
+        {
+          "en": "Wenn ich du <span class=\"r-verb\">wäre</span>, <span class=\"r-verb\">würde</span> ich <span class=\"r-sep\">anrufen</span>.",
+          "es": "Si yo fuera tú, llamaría."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">wüsste</span> gern mehr.",
+          "es": "Me gustaría saber más."
+        },
+        {
+          "en": "Wenn sie Zeit <span class=\"r-verb\">hätte</span>, <span class=\"r-verb\">käme</span> sie.",
+          "es": "Si ella tuviera tiempo, vendría."
+        },
+        {
+          "en": "Ohne dich <span class=\"r-verb\">wäre</span> ich verloren.",
+          "es": "Sin ti estaría perdido."
+        },
+        {
+          "en": "Wenn wir mehr Geld <span class=\"r-verb\">hätten</span>, <span class=\"r-verb\">würden</span> wir ein Haus <span class=\"r-sep\">kaufen</span>.",
+          "es": "Si tuviéramos más dinero, compraríamos una casa."
+        },
+        {
+          "en": "<span class=\"r-verb\">Würdest</span> du mir <span class=\"r-sep\">helfen</span>?",
+          "es": "¿Me ayudarías?"
+        },
+        {
+          "en": "Es <span class=\"r-verb\">wäre</span> besser, wenn du <span class=\"r-sep\">kämst</span>.",
+          "es": "Sería mejor que vinieras."
+        }
       ],
       "tables": [
         {
-          "headers": ["Verbo", "Konjunktiv II", "Ejemplo"],
+          "headers": [
+            "Verbo",
+            "Konjunktiv II",
+            "Ejemplo"
+          ],
           "rows": [
-            ["sein", "<b>wäre</b>", "Das wäre schön!"],
-            ["haben", "<b>hätte</b>", "Ich hätte gern einen Kaffee."],
-            ["können", "<b>könnte</b>", "Könnten Sie das wiederholen?"],
-            ["müssen", "<b>müsste</b>", "Ich müsste mehr lernen."],
-            ["sollen", "<b>sollte</b>", "Du solltest schlafen."],
-            ["resto", "<b>würde + Inf.</b>", "Ich würde das kaufen."]
+            [
+              "sein",
+              "<b>wäre</b>",
+              "Das wäre schön!"
+            ],
+            [
+              "haben",
+              "<b>hätte</b>",
+              "Ich hätte gern einen Kaffee."
+            ],
+            [
+              "können",
+              "<b>könnte</b>",
+              "Könnten Sie das wiederholen?"
+            ],
+            [
+              "müssen",
+              "<b>müsste</b>",
+              "Ich müsste mehr lernen."
+            ],
+            [
+              "sollen",
+              "<b>sollte</b>",
+              "Du solltest schlafen."
+            ],
+            [
+              "resto",
+              "<b>würde + Inf.</b>",
+              "Ich würde das kaufen."
+            ]
           ]
         }
       ],
@@ -149,19 +754,151 @@
         {
           "id": "b13-s3q1",
           "question": "1. Wenn ich Zeit <span class=\"blank\">___</span>, würde ich kommen.",
-          "options": ["habe", "hätte", "hatte"],
+          "options": [
+            "habe",
+            "hätte",
+            "hatte"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b13-s3q2",
           "question": "2. «Eso sería genial.» → Das <span class=\"blank\">___</span> toll.",
-          "options": ["wäre", "würde", "war"],
+          "options": [
+            "wäre",
+            "würde",
+            "war"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b13-s3q3",
           "question": "3. Konjunktiv II hablado de «gehen»:",
-          "options": ["ich ginge (única opción)", "ich würde gehen", "ich gehte"],
+          "options": [
+            "ich ginge (única opción)",
+            "ich würde gehen",
+            "ich gehte"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s3q4",
+          "question": "4. Wenn ich Zeit <span class=\"blank\">___</span>, würde ich kommen.",
+          "options": [
+            "habe",
+            "hatte",
+            "hätte"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s3q5",
+          "question": "5. Wenn ich reich <span class=\"blank\">___</span>, würde ich reisen.",
+          "options": [
+            "war",
+            "wäre",
+            "bin"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s3q6",
+          "question": "6. «Sería genial.» → Das <span class=\"blank\">___</span> toll.",
+          "options": [
+            "war",
+            "würde",
+            "wäre"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s3q7",
+          "question": "7. «Querría un té.» → Ich <span class=\"blank\">___</span> gern einen Tee.",
+          "options": [
+            "hatte",
+            "hätte",
+            "habe"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s3q8",
+          "question": "8. «Podríamos ir.» → Wir <span class=\"blank\">___</span> gehen.",
+          "options": [
+            "konnten",
+            "können",
+            "könnten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s3q9",
+          "question": "9. «Yo iría.» → Ich <span class=\"blank\">___</span> gehen.",
+          "options": [
+            "würde",
+            "werde",
+            "wurde"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s3q10",
+          "question": "10. Konjunktiv II de «sein» (ich)",
+          "options": [
+            "war",
+            "wurde",
+            "wäre"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s3q11",
+          "question": "11. Konjunktiv II de «haben» (ich)",
+          "options": [
+            "hätte",
+            "hatte",
+            "habe"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s3q12",
+          "question": "12. Konjunktiv II de «können» (ich)",
+          "options": [
+            "könnte",
+            "kannte",
+            "konnte"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s3q13",
+          "question": "13. «Si fuera tú, me quedaría.» → Wenn ich du <span class=\"blank\">___</span>, würde ich bleiben.",
+          "options": [
+            "bin",
+            "war",
+            "wäre"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s3q14",
+          "question": "14. «Si tuviéramos tiempo, iríamos.» → Wenn wir Zeit <span class=\"blank\">___</span>, würden wir gehen.",
+          "options": [
+            "haben",
+            "hatten",
+            "hätten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s3q15",
+          "question": "15. «¿Me ayudarías?» → <span class=\"blank\">___</span> du mir helfen?",
+          "options": [
+            "Wurdest",
+            "Würdest",
+            "Wirst"
+          ],
           "correctIndex": 1
         }
       ],
@@ -184,29 +921,253 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Ich hätte</span> gern zwei Brötchen.", "es": "Querría dos panecillos. (en la panadería)" },
-        { "en": "<span class=\"r-verb\">Könnten</span> Sie das bitte <span class=\"r-sep\">wiederholen</span>?", "es": "¿Podría repetir eso, por favor?" },
-        { "en": "Du <span class=\"r-verb\">solltest</span> mehr Wasser <span class=\"r-sep\">trinken</span>.", "es": "Deberías beber más agua. (consejo)" },
-        { "en": "<span class=\"r-verb\">Wäre</span> es möglich, später <span class=\"r-sep\">zu kommen</span>?", "es": "¿Sería posible venir más tarde?" }
+        {
+          "en": "<span class=\"r-verb\">Ich hätte</span> gern zwei Brötchen.",
+          "es": "Querría dos panecillos. (en la panadería)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Könnten</span> Sie das bitte <span class=\"r-sep\">wiederholen</span>?",
+          "es": "¿Podría repetir eso, por favor?"
+        },
+        {
+          "en": "Du <span class=\"r-verb\">solltest</span> mehr Wasser <span class=\"r-sep\">trinken</span>.",
+          "es": "Deberías beber más agua. (consejo)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wäre</span> es möglich, später <span class=\"r-sep\">zu kommen</span>?",
+          "es": "¿Sería posible venir más tarde?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich hätte</span> gern ein Glas Wasser.",
+          "es": "Querría un vaso de agua."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich hätte</span> gern ein Brötchen mit Käse.",
+          "es": "Querría un panecillo con queso."
+        },
+        {
+          "en": "<span class=\"r-verb\">Könnten</span> Sie mir bitte <span class=\"r-sep\">helfen</span>?",
+          "es": "¿Podría ayudarme, por favor?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Könntest</span> du das Fenster <span class=\"r-sep\">schließen</span>?",
+          "es": "¿Podrías cerrar la ventana?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Würden</span> Sie bitte <span class=\"r-sep\">warten</span>?",
+          "es": "¿Tendría la amabilidad de esperar?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wäre</span> es möglich, morgen <span class=\"r-sep\">zu kommen</span>?",
+          "es": "¿Sería posible venir mañana?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Dürfte</span> ich Sie etwas <span class=\"r-sep\">fragen</span>?",
+          "es": "¿Podría preguntarle algo?"
+        },
+        {
+          "en": "Du <span class=\"r-verb\">solltest</span> mehr <span class=\"r-sep\">schlafen</span>.",
+          "es": "Deberías dormir más."
+        },
+        {
+          "en": "Du <span class=\"r-verb\">solltest</span> zum Arzt <span class=\"r-sep\">gehen</span>.",
+          "es": "Deberías ir al médico."
+        },
+        {
+          "en": "Ihr <span class=\"r-verb\">solltet</span> früher <span class=\"r-sep\">kommen</span>.",
+          "es": "Deberíais venir antes."
+        },
+        {
+          "en": "An deiner Stelle <span class=\"r-verb\">würde</span> ich es <span class=\"r-sep\">versuchen</span>.",
+          "es": "En tu lugar lo intentaría."
+        },
+        {
+          "en": "An deiner Stelle <span class=\"r-verb\">würde</span> ich nicht <span class=\"r-sep\">warten</span>.",
+          "es": "En tu lugar no esperaría."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich möchte</span> gern mit Ihnen <span class=\"r-sep\">sprechen</span>.",
+          "es": "Me gustaría hablar con usted."
+        },
+        {
+          "en": "Es <span class=\"r-verb\">wäre</span> gut, wenn du <span class=\"r-sep\">anrufen</span> <span class=\"r-verb\">würdest</span>.",
+          "es": "Sería bueno que llamaras."
+        },
+        {
+          "en": "<span class=\"r-verb\">Hättest</span> du Lust, mit mir <span class=\"r-sep\">essen zu gehen</span>?",
+          "es": "¿Te apetecería ir a comer conmigo?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wärst</span> du so nett, mir zu <span class=\"r-sep\">helfen</span>?",
+          "es": "¿Serías tan amable de ayudarme?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich wünschte</span>, ich <span class=\"r-verb\">hätte</span> mehr Zeit.",
+          "es": "Ojalá tuviera más tiempo."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">wünschte</span>, es <span class=\"r-verb\">wäre</span> Sommer.",
+          "es": "Ojalá fuera verano."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wenn</span> ich nur <span class=\"r-verb\">könnte</span>!",
+          "es": "¡Si pudiera!"
+        },
+        {
+          "en": "<span class=\"r-verb\">Hätte</span> ich das nur früher <span class=\"r-sep\">gewusst</span>!",
+          "es": "¡Si lo hubiera sabido antes!"
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b13-s4q1",
           "question": "1. En la panadería, lo natural: «<span class=\"blank\">___</span> ein Croissant.»",
-          "options": ["Ich will", "Ich hätte gern", "Gib mir"],
+          "options": [
+            "Ich will",
+            "Ich hätte gern",
+            "Gib mir"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b13-s4q2",
           "question": "2. Consejo: «Deberías descansar más.» → Du <span class=\"blank\">___</span> dich mehr ausruhen.",
-          "options": ["solltest", "sollst", "willst"],
+          "options": [
+            "solltest",
+            "sollst",
+            "willst"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b13-s4q3",
           "question": "3. Petición muy cortés a un desconocido:",
-          "options": ["Helfen Sie mir!", "Können Sie mir helfen?", "Könnten Sie mir bitte helfen?"],
+          "options": [
+            "Helfen Sie mir!",
+            "Können Sie mir helfen?",
+            "Könnten Sie mir bitte helfen?"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s4q4",
+          "question": "4. En la panadería: «<span class=\"blank\">___</span> ein Brot, bitte.»",
+          "options": [
+            "Ich will",
+            "Ich hätte gern",
+            "Gib mir"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s4q5",
+          "question": "5. Petición muy cortés: «<span class=\"blank\">___</span> Sie mir bitte helfen?»",
+          "options": [
+            "Konnten",
+            "Können",
+            "Könnten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s4q6",
+          "question": "6. Consejo: «Du <span class=\"blank\">___</span> mehr trinken.»",
+          "options": [
+            "sollte",
+            "sollst",
+            "solltest"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s4q7",
+          "question": "7. «Ojalá fuera rico.» → Wenn ich nur reich <span class=\"blank\">___</span>!",
+          "options": [
+            "wäre",
+            "bin",
+            "war"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b13-s4q8",
+          "question": "8. «Ojalá tuviera tiempo.» → Hätte ich nur Zeit! → <span class=\"blank\">___</span> ich nur Zeit!",
+          "options": [
+            "Habe",
+            "Hatte",
+            "Hätte"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s4q9",
+          "question": "9. «¿Sería posible?» → <span class=\"blank\">___</span> es möglich?",
+          "options": [
+            "Ist",
+            "War",
+            "Wäre"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s4q10",
+          "question": "10. «En tu lugar iría.» → An deiner Stelle <span class=\"blank\">___</span> ich gehen.",
+          "options": [
+            "wurde",
+            "würde",
+            "werde"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s4q11",
+          "question": "11. Consejo suave: «Du <span class=\"blank\">___</span> mit ihr sprechen.»",
+          "options": [
+            "sollst",
+            "sollte",
+            "solltest"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s4q12",
+          "question": "12. «Querríamos pagar.» → Wir <span class=\"blank\">___</span> gern bezahlen.",
+          "options": [
+            "wurden",
+            "werden",
+            "würden"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s4q13",
+          "question": "13. «¿Podrías repetirlo?» → <span class=\"blank\">___</span> du das wiederholen?",
+          "options": [
+            "Konntest",
+            "Könntest",
+            "Kannst du"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b13-s4q14",
+          "question": "14. Forma más cortés:",
+          "options": [
+            "Helfen Sie mir!",
+            "Können Sie mir helfen?",
+            "Könnten Sie mir helfen?"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b13-s4q15",
+          "question": "15. «Ojalá pudiera.» → Wenn ich nur <span class=\"blank\">___</span>!",
+          "options": [
+            "konnte",
+            "kann",
+            "könnte"
+          ],
           "correctIndex": 2
         }
       ],

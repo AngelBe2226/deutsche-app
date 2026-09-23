@@ -4,10 +4,26 @@
   "kicker": "Bloque 05 · B1",
   "intro": "Cuando el adjetivo va <b class=\"hl\">delante del sustantivo</b>, lleva terminación. La lógica es una sola: <b class=\"hl\">alguien tiene que marcar el caso</b> — si el artículo ya lo marca, el adjetivo se relaja (-e/-en); si no hay artículo, el adjetivo asume la marca. La tabla resumen completa está en el Glosario.",
   "legend": [
-    { "label": "terminación", "desc": "del adjetivo declinado", "role": "adj" },
-    { "label": "Nominativ", "desc": "sujeto", "role": "nom" },
-    { "label": "Akkusativ", "desc": "objeto directo", "role": "akk" },
-    { "label": "Dativ", "desc": "objeto indirecto / tras prep.", "role": "dat" }
+    {
+      "label": "terminación",
+      "desc": "del adjetivo declinado",
+      "role": "adj"
+    },
+    {
+      "label": "Nominativ",
+      "desc": "sujeto",
+      "role": "nom"
+    },
+    {
+      "label": "Akkusativ",
+      "desc": "objeto directo",
+      "role": "akk"
+    },
+    {
+      "label": "Dativ",
+      "desc": "objeto indirecto / tras prep.",
+      "role": "dat"
+    }
   ],
   "sections": [
     {
@@ -23,19 +39,138 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Der klein<span class=\"r-adj\">e</span> Hund</span> schläft.", "es": "El perro pequeño duerme. (Nom masc → -e)" },
-        { "en": "Ich sehe <span class=\"r-akk\">den klein<span class=\"r-adj\">en</span> Hund</span>.", "es": "Veo al perro pequeño. (Akk masc → -en)" },
-        { "en": "<span class=\"r-nom\">Das neu<span class=\"r-adj\">e</span> Auto</span> ist teuer.", "es": "El coche nuevo es caro. (Nom neutro → -e)" },
-        { "en": "Ich helfe <span class=\"r-dat\">der alt<span class=\"r-adj\">en</span> Frau</span>.", "es": "Ayudo a la mujer mayor. (Dat fem → -en)" },
-        { "en": "<span class=\"r-nom\">Die neu<span class=\"r-adj\">en</span> Kollegen</span> sind nett.", "es": "Los nuevos compañeros son amables. (plural → -en)" }
+        {
+          "en": "<span class=\"r-nom\">Der klein<span class=\"r-adj\">e</span> Hund</span> schläft.",
+          "es": "El perro pequeño duerme. (Nom masc → -e)"
+        },
+        {
+          "en": "Ich sehe <span class=\"r-akk\">den klein<span class=\"r-adj\">en</span> Hund</span>.",
+          "es": "Veo al perro pequeño. (Akk masc → -en)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Das neu<span class=\"r-adj\">e</span> Auto</span> ist teuer.",
+          "es": "El coche nuevo es caro. (Nom neutro → -e)"
+        },
+        {
+          "en": "Ich helfe <span class=\"r-dat\">der alt<span class=\"r-adj\">en</span> Frau</span>.",
+          "es": "Ayudo a la mujer mayor. (Dat fem → -en)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Die neu<span class=\"r-adj\">en</span> Kollegen</span> sind nett.",
+          "es": "Los nuevos compañeros son amables. (plural → -en)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Der groß<span class=\"r-adj\">e</span> Baum</span> steht im Garten.",
+          "es": "El árbol grande está en el jardín. (Nom masc → -e)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Die schön<span class=\"r-adj\">e</span> Blume</span> riecht gut.",
+          "es": "La flor bonita huele bien. (Nom fem → -e)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Das klein<span class=\"r-adj\">e</span> Kind</span> schläft.",
+          "es": "El niño pequeño duerme. (Nom neutro → -e)"
+        },
+        {
+          "en": "Ich kaufe <span class=\"r-akk\">den rot<span class=\"r-adj\">en</span> Pullover</span>.",
+          "es": "Compro el jersey rojo. (Akk masc → -en)"
+        },
+        {
+          "en": "Ich kaufe <span class=\"r-akk\">die rot<span class=\"r-adj\">e</span> Jacke</span>.",
+          "es": "Compro la chaqueta roja. (Akk fem → -e)"
+        },
+        {
+          "en": "Ich kaufe <span class=\"r-akk\">das rot<span class=\"r-adj\">e</span> Kleid</span>.",
+          "es": "Compro el vestido rojo. (Akk neutro → -e)"
+        },
+        {
+          "en": "Sie hilft <span class=\"r-dat\">dem alt<span class=\"r-adj\">en</span> Mann</span>.",
+          "es": "Ella ayuda al anciano. (Dat masc → -en)"
+        },
+        {
+          "en": "Er dankt <span class=\"r-dat\">der freundlich<span class=\"r-adj\">en</span> Verkäuferin</span>.",
+          "es": "Él da las gracias a la amable vendedora. (Dat fem → -en)"
+        },
+        {
+          "en": "Wir spielen mit <span class=\"r-dat\">dem neu<span class=\"r-adj\">en</span> Ball</span>.",
+          "es": "Jugamos con el balón nuevo. (Dat masc → -en)"
+        },
+        {
+          "en": "Ich wohne in <span class=\"r-dat\">dem alt<span class=\"r-adj\">en</span> Haus</span>.",
+          "es": "Vivo en la casa vieja. (Dat neutro → -en)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Die jung<span class=\"r-adj\">en</span> Leute</span> feiern.",
+          "es": "Los jóvenes celebran. (plural → -en)"
+        },
+        {
+          "en": "Ich sehe <span class=\"r-akk\">die groß<span class=\"r-adj\">en</span> Häuser</span>.",
+          "es": "Veo las casas grandes. (plural → -en)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Dieser gut<span class=\"r-adj\">e</span> Wein</span> ist teuer.",
+          "es": "Este buen vino es caro. (dieser = der-Wort)"
+        },
+        {
+          "en": "Ich mag <span class=\"r-akk\">jeden nett<span class=\"r-adj\">en</span> Kollegen</span>.",
+          "es": "Aprecio a cada colega simpático. (jeden = Akk masc)"
+        },
+        {
+          "en": "<span class=\"r-akk\">Welche neu<span class=\"r-adj\">e</span> Lehrerin</span> meinst du?",
+          "es": "¿A qué profesora nueva te refieres? (Akk fem: welche → -e)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Alle deutsch<span class=\"r-adj\">en</span> Städte</span> sind schön.",
+          "es": "Todas las ciudades alemanas son bonitas. (alle + plural → -en)"
+        },
+        {
+          "en": "Wir besuchen <span class=\"r-akk\">den berühmt<span class=\"r-adj\">en</span> Dom</span>.",
+          "es": "Visitamos la famosa catedral. (Akk masc → -en)"
+        },
+        {
+          "en": "Sie liest <span class=\"r-akk\">das interessant<span class=\"r-adj\">e</span> Buch</span>.",
+          "es": "Ella lee el libro interesante. (Akk neutro → -e)"
+        },
+        {
+          "en": "Er kommt mit <span class=\"r-dat\">den klein<span class=\"r-adj\">en</span> Kindern</span>.",
+          "es": "Él viene con los niños pequeños. (Dat plural → -en)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Der best<span class=\"r-adj\">e</span> Freund</span> kommt heute.",
+          "es": "El mejor amigo viene hoy. (Nom masc → -e)"
+        }
       ],
       "tables": [
         {
-          "headers": ["", "masc.", "fem.", "neutro", "plural"],
+          "headers": [
+            "",
+            "masc.",
+            "fem.",
+            "neutro",
+            "plural"
+          ],
           "rows": [
-            ["Nominativ", "der gut<b>e</b>", "die gut<b>e</b>", "das gut<b>e</b>", "die gut<b>en</b>"],
-            ["Akkusativ", "den gut<b>en</b>", "die gut<b>e</b>", "das gut<b>e</b>", "die gut<b>en</b>"],
-            ["Dativ", "dem gut<b>en</b>", "der gut<b>en</b>", "dem gut<b>en</b>", "den gut<b>en</b>"]
+            [
+              "Nominativ",
+              "der gut<b>e</b>",
+              "die gut<b>e</b>",
+              "das gut<b>e</b>",
+              "die gut<b>en</b>"
+            ],
+            [
+              "Akkusativ",
+              "den gut<b>en</b>",
+              "die gut<b>e</b>",
+              "das gut<b>e</b>",
+              "die gut<b>en</b>"
+            ],
+            [
+              "Dativ",
+              "dem gut<b>en</b>",
+              "der gut<b>en</b>",
+              "dem gut<b>en</b>",
+              "den gut<b>en</b>"
+            ]
           ]
         }
       ],
@@ -43,20 +178,152 @@
         {
           "id": "b05-s1q1",
           "question": "1. Die jung<span class=\"blank\">___</span> Frau arbeitet hier.",
-          "options": ["-e", "-en", "-er"],
+          "options": [
+            "-e",
+            "-en",
+            "-er"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b05-s1q2",
           "question": "2. Ich kenne den nett<span class=\"blank\">___</span> Lehrer.",
-          "options": ["-e", "-er", "-en"],
+          "options": [
+            "-e",
+            "-er",
+            "-en"
+          ],
           "correctIndex": 2
         },
         {
           "id": "b05-s1q3",
           "question": "3. Wir sprechen mit den neu<span class=\"blank\">___</span> Nachbarn.",
-          "options": ["-e", "-en", "-es"],
+          "options": [
+            "-e",
+            "-en",
+            "-es"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b05-s1q4",
+          "question": "4. Der nett<span class=\"blank\">___</span> Mann hilft uns. (Nom masc)",
+          "options": [
+            "-e",
+            "-en",
+            "-er"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s1q5",
+          "question": "5. Ich sehe die schön<span class=\"blank\">___</span> Blume. (Akk fem)",
+          "options": [
+            "-es",
+            "-e",
+            "-en"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s1q6",
+          "question": "6. Wir kaufen das neu<span class=\"blank\">___</span> Auto. (Akk neutro)",
+          "options": [
+            "-e",
+            "-en",
+            "-es"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s1q7",
+          "question": "7. Sie spricht mit dem alt<span class=\"blank\">___</span> Herrn. (Dat masc)",
+          "options": [
+            "-e",
+            "-en",
+            "-em"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s1q8",
+          "question": "8. Die klein<span class=\"blank\">___</span> Kinder spielen. (Nom plural)",
+          "options": [
+            "-en",
+            "-e",
+            "-er"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s1q9",
+          "question": "9. Ich helfe der alt<span class=\"blank\">___</span> Frau. (Dat fem)",
+          "options": [
+            "-er",
+            "-en",
+            "-e"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s1q10",
+          "question": "10. Er trägt den blau<span class=\"blank\">___</span> Mantel. (Akk masc)",
+          "options": [
+            "-e",
+            "-en",
+            "-er"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s1q11",
+          "question": "11. Das schnell<span class=\"blank\">___</span> Auto ist teuer. (Nom neutro)",
+          "options": [
+            "-en",
+            "-e",
+            "-es"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s1q12",
+          "question": "12. Dieser jung<span class=\"blank\">___</span> Mann ist Arzt. (Nom masc, der-Wort)",
+          "options": [
+            "-er",
+            "-en",
+            "-e"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s1q13",
+          "question": "13. Jede deutsch<span class=\"blank\">___</span> Stadt hat einen Dom. (Nom fem)",
+          "options": [
+            "-e",
+            "-er",
+            "-en"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s1q14",
+          "question": "14. Ich mag die frisch<span class=\"blank\">___</span> Brötchen. (Akk plural)",
+          "options": [
+            "-e",
+            "-er",
+            "-en"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s1q15",
+          "question": "15. Wir wohnen in der groß<span class=\"blank\">___</span> Stadt. (Dat fem)",
+          "options": [
+            "-en",
+            "-e",
+            "-er"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -78,19 +345,138 @@
         }
       ],
       "examples": [
-        { "en": "Das ist <span class=\"r-nom\">ein interessant<span class=\"r-adj\">er</span> Film</span>.", "es": "Es una película interesante. (Nom masc → -er)" },
-        { "en": "Sie hat <span class=\"r-akk\">ein neu<span class=\"r-adj\">es</span> Fahrrad</span>.", "es": "Ella tiene una bici nueva. (Akk neutro → -es)" },
-        { "en": "Das ist <span class=\"r-nom\">meine best<span class=\"r-adj\">e</span> Freundin</span>.", "es": "Esta es mi mejor amiga. (fem → -e)" },
-        { "en": "Ich suche <span class=\"r-akk\">einen billig<span class=\"r-adj\">en</span> Flug</span>.", "es": "Busco un vuelo barato. (Akk masc → -en)" },
-        { "en": "Er wohnt in <span class=\"r-dat\">einer klein<span class=\"r-adj\">en</span> Stadt</span>.", "es": "Vive en una ciudad pequeña. (Dat fem → -en)" }
+        {
+          "en": "Das ist <span class=\"r-nom\">ein interessant<span class=\"r-adj\">er</span> Film</span>.",
+          "es": "Es una película interesante. (Nom masc → -er)"
+        },
+        {
+          "en": "Sie hat <span class=\"r-akk\">ein neu<span class=\"r-adj\">es</span> Fahrrad</span>.",
+          "es": "Ella tiene una bici nueva. (Akk neutro → -es)"
+        },
+        {
+          "en": "Das ist <span class=\"r-nom\">meine best<span class=\"r-adj\">e</span> Freundin</span>.",
+          "es": "Esta es mi mejor amiga. (fem → -e)"
+        },
+        {
+          "en": "Ich suche <span class=\"r-akk\">einen billig<span class=\"r-adj\">en</span> Flug</span>.",
+          "es": "Busco un vuelo barato. (Akk masc → -en)"
+        },
+        {
+          "en": "Er wohnt in <span class=\"r-dat\">einer klein<span class=\"r-adj\">en</span> Stadt</span>.",
+          "es": "Vive en una ciudad pequeña. (Dat fem → -en)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ein groß<span class=\"r-adj\">er</span> Hund</span> bellt.",
+          "es": "Un perro grande ladra. (Nom masc → -er)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Eine klein<span class=\"r-adj\">e</span> Katze</span> schläft.",
+          "es": "Un gato pequeño duerme. (Nom fem → -e)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ein neu<span class=\"r-adj\">es</span> Auto</span> steht vor dem Haus.",
+          "es": "Un coche nuevo está delante de la casa. (Nom neutro → -es)"
+        },
+        {
+          "en": "Ich habe <span class=\"r-akk\">einen gut<span class=\"r-adj\">en</span> Freund</span>.",
+          "es": "Tengo un buen amigo. (Akk masc → -en)"
+        },
+        {
+          "en": "Ich habe <span class=\"r-akk\">eine gut<span class=\"r-adj\">e</span> Idee</span>.",
+          "es": "Tengo una buena idea. (Akk fem → -e)"
+        },
+        {
+          "en": "Ich habe <span class=\"r-akk\">ein gut<span class=\"r-adj\">es</span> Buch</span>.",
+          "es": "Tengo un buen libro. (Akk neutro → -es)"
+        },
+        {
+          "en": "Sie wohnt in <span class=\"r-dat\">einem klein<span class=\"r-adj\">en</span> Dorf</span>.",
+          "es": "Ella vive en un pueblo pequeño. (Dat neutro → -en)"
+        },
+        {
+          "en": "Er hilft <span class=\"r-dat\">einem alt<span class=\"r-adj\">en</span> Mann</span>.",
+          "es": "Él ayuda a un anciano. (Dat masc → -en)"
+        },
+        {
+          "en": "Wir sprechen mit <span class=\"r-dat\">einer nett<span class=\"r-adj\">en</span> Frau</span>.",
+          "es": "Hablamos con una mujer simpática. (Dat fem → -en)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Mein neu<span class=\"r-adj\">er</span> Computer</span> ist schnell.",
+          "es": "Mi ordenador nuevo es rápido. (Nom masc → -er)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Meine alt<span class=\"r-adj\">e</span> Tasche</span> ist kaputt.",
+          "es": "Mi bolso viejo está roto. (Nom fem → -e)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Unser klein<span class=\"r-adj\">es</span> Haus</span> ist gemütlich.",
+          "es": "Nuestra casita es acogedora. (Nom neutro → -es)"
+        },
+        {
+          "en": "Ich suche <span class=\"r-akk\">keinen teur<span class=\"r-adj\">en</span> Wagen</span>.",
+          "es": "No busco un coche caro. (Akk masc → -en)"
+        },
+        {
+          "en": "Sie hat <span class=\"r-akk\">keine gut<span class=\"r-adj\">en</span> Noten</span>.",
+          "es": "Ella no tiene buenas notas. (plural con kein → -en)"
+        },
+        {
+          "en": "Das sind <span class=\"r-nom\">meine neu<span class=\"r-adj\">en</span> Schuhe</span>.",
+          "es": "Estos son mis zapatos nuevos. (plural → -en)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Kein gut<span class=\"r-adj\">er</span> Schüler</span> macht das.",
+          "es": "Ningún buen alumno hace eso. (Nom masc → -er)"
+        },
+        {
+          "en": "Er trägt <span class=\"r-akk\">einen schwarz<span class=\"r-adj\">en</span> Anzug</span>.",
+          "es": "Lleva un traje negro. (Akk masc → -en)"
+        },
+        {
+          "en": "Sie kauft <span class=\"r-akk\">ein rot<span class=\"r-adj\">es</span> Kleid</span>.",
+          "es": "Ella compra un vestido rojo. (Akk neutro → -es)"
+        },
+        {
+          "en": "Das ist <span class=\"r-nom\">ein schwer<span class=\"r-adj\">es</span> Problem</span>.",
+          "es": "Es un problema difícil. (Nom neutro → -es)"
+        },
+        {
+          "en": "Ich lese <span class=\"r-akk\">ihre neu<span class=\"r-adj\">e</span> E-Mail</span>.",
+          "es": "Leo su nuevo correo. (Akk fem → -e)"
+        }
       ],
       "tables": [
         {
-          "headers": ["", "masc.", "fem.", "neutro", "plural (kein/mein)"],
+          "headers": [
+            "",
+            "masc.",
+            "fem.",
+            "neutro",
+            "plural (kein/mein)"
+          ],
           "rows": [
-            ["Nominativ", "ein gut<b>er</b>", "eine gut<b>e</b>", "ein gut<b>es</b>", "keine gut<b>en</b>"],
-            ["Akkusativ", "einen gut<b>en</b>", "eine gut<b>e</b>", "ein gut<b>es</b>", "keine gut<b>en</b>"],
-            ["Dativ", "einem gut<b>en</b>", "einer gut<b>en</b>", "einem gut<b>en</b>", "keinen gut<b>en</b>"]
+            [
+              "Nominativ",
+              "ein gut<b>er</b>",
+              "eine gut<b>e</b>",
+              "ein gut<b>es</b>",
+              "keine gut<b>en</b>"
+            ],
+            [
+              "Akkusativ",
+              "einen gut<b>en</b>",
+              "eine gut<b>e</b>",
+              "ein gut<b>es</b>",
+              "keine gut<b>en</b>"
+            ],
+            [
+              "Dativ",
+              "einem gut<b>en</b>",
+              "einer gut<b>en</b>",
+              "einem gut<b>en</b>",
+              "keinen gut<b>en</b>"
+            ]
           ]
         }
       ],
@@ -98,20 +484,152 @@
         {
           "id": "b05-s2q1",
           "question": "1. Das ist ein sehr gut<span class=\"blank\">___</span> Restaurant. (das Restaurant)",
-          "options": ["-er", "-es", "-e"],
+          "options": [
+            "-er",
+            "-es",
+            "-e"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b05-s2q2",
           "question": "2. Mein alt<span class=\"blank\">___</span> Computer ist kaputt. (der Computer, Nominativ)",
-          "options": ["-er", "-en", "-e"],
+          "options": [
+            "-er",
+            "-en",
+            "-e"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b05-s2q3",
           "question": "3. Wir haben eine klein<span class=\"blank\">___</span> Wohnung.",
-          "options": ["-en", "-es", "-e"],
+          "options": [
+            "-en",
+            "-es",
+            "-e"
+          ],
           "correctIndex": 2
+        },
+        {
+          "id": "b05-s2q4",
+          "question": "4. Das ist ein gut<span class=\"blank\">___</span> Film. (Nom masc)",
+          "options": [
+            "-en",
+            "-er",
+            "-e"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s2q5",
+          "question": "5. Ich habe einen neu<span class=\"blank\">___</span> Job. (Akk masc)",
+          "options": [
+            "-en",
+            "-er",
+            "-es"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s2q6",
+          "question": "6. Sie kauft ein neu<span class=\"blank\">___</span> Handy. (Akk neutro)",
+          "options": [
+            "-es",
+            "-en",
+            "-er"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s2q7",
+          "question": "7. Er wohnt in einem klein<span class=\"blank\">___</span> Haus. (Dat neutro)",
+          "options": [
+            "-es",
+            "-en",
+            "-e"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s2q8",
+          "question": "8. Das ist meine best<span class=\"blank\">___</span> Freundin. (Nom fem)",
+          "options": [
+            "-er",
+            "-e",
+            "-en"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s2q9",
+          "question": "9. Ich sehe keinen alt<span class=\"blank\">___</span> Baum. (Akk masc)",
+          "options": [
+            "-e",
+            "-en",
+            "-er"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s2q10",
+          "question": "10. Mein groß<span class=\"blank\">___</span> Bruder ist Arzt. (Nom masc)",
+          "options": [
+            "-e",
+            "-er",
+            "-en"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s2q11",
+          "question": "11. Wir haben ein groß<span class=\"blank\">___</span> Problem. (Akk neutro)",
+          "options": [
+            "-es",
+            "-en",
+            "-er"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s2q12",
+          "question": "12. Sie hat eine schön<span class=\"blank\">___</span> Stimme. (Akk fem)",
+          "options": [
+            "-es",
+            "-en",
+            "-e"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s2q13",
+          "question": "13. Ich spreche mit meinem alt<span class=\"blank\">___</span> Lehrer. (Dat masc)",
+          "options": [
+            "-er",
+            "-e",
+            "-en"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s2q14",
+          "question": "14. Das sind meine neu<span class=\"blank\">___</span> Kollegen. (Nom plural)",
+          "options": [
+            "-er",
+            "-e",
+            "-en"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s2q15",
+          "question": "15. Ihr habt ein schön<span class=\"blank\">___</span> Zimmer. (Akk neutro)",
+          "options": [
+            "-es",
+            "-e",
+            "-en"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -133,19 +651,138 @@
         }
       ],
       "examples": [
-        { "en": "Ich trinke gern <span class=\"r-akk\">kalt<span class=\"r-adj\">es</span> Bier</span>.", "es": "Me gusta la cerveza fría. (das Bier)" },
-        { "en": "<span class=\"r-nom\">Frisch<span class=\"r-adj\">e</span> Luft</span> tut gut.", "es": "El aire fresco sienta bien. (die Luft)" },
-        { "en": "Er kauft <span class=\"r-akk\">gut<span class=\"r-adj\">en</span> Käse</span>.", "es": "Compra buen queso. (der Käse, Akk → -en)" },
-        { "en": "Mit <span class=\"r-dat\">groß<span class=\"r-adj\">em</span> Interesse</span> lese ich Ihre E-Mail.", "es": "Leo su correo con gran interés. (Dat neutro → -em)" },
-        { "en": "<span class=\"r-nom\">Klein<span class=\"r-adj\">e</span> Kinder</span> brauchen viel Schlaf.", "es": "Los niños pequeños necesitan dormir mucho. (plural → -e)" }
+        {
+          "en": "Ich trinke gern <span class=\"r-akk\">kalt<span class=\"r-adj\">es</span> Bier</span>.",
+          "es": "Me gusta la cerveza fría. (das Bier)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Frisch<span class=\"r-adj\">e</span> Luft</span> tut gut.",
+          "es": "El aire fresco sienta bien. (die Luft)"
+        },
+        {
+          "en": "Er kauft <span class=\"r-akk\">gut<span class=\"r-adj\">en</span> Käse</span>.",
+          "es": "Compra buen queso. (der Käse, Akk → -en)"
+        },
+        {
+          "en": "Mit <span class=\"r-dat\">groß<span class=\"r-adj\">em</span> Interesse</span> lese ich Ihre E-Mail.",
+          "es": "Leo su correo con gran interés. (Dat neutro → -em)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Klein<span class=\"r-adj\">e</span> Kinder</span> brauchen viel Schlaf.",
+          "es": "Los niños pequeños necesitan dormir mucho. (plural → -e)"
+        },
+        {
+          "en": "Ich trinke <span class=\"r-akk\">heiß<span class=\"r-adj\">en</span> Tee</span>.",
+          "es": "Bebo té caliente. (der Tee, Akk → -en)"
+        },
+        {
+          "en": "Ich mag <span class=\"r-akk\">frisch<span class=\"r-adj\">e</span> Milch</span>.",
+          "es": "Me gusta la leche fresca. (die Milch → -e)"
+        },
+        {
+          "en": "Wir essen <span class=\"r-akk\">frisch<span class=\"r-adj\">es</span> Brot</span>.",
+          "es": "Comemos pan fresco. (das Brot → -es)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Gut<span class=\"r-adj\">er</span> Kaffee</span> ist teuer.",
+          "es": "El buen café es caro. (der Kaffee, Nom → -er)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Kalt<span class=\"r-adj\">e</span> Suppe</span> schmeckt nicht.",
+          "es": "La sopa fría no sabe bien. (die Suppe → -e)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Frisch<span class=\"r-adj\">es</span> Obst</span> ist gesund.",
+          "es": "La fruta fresca es sana. (das Obst → -es)"
+        },
+        {
+          "en": "Er verkauft <span class=\"r-akk\">alt<span class=\"r-adj\">e</span> Möbel</span>.",
+          "es": "Él vende muebles viejos. (plural → -e)"
+        },
+        {
+          "en": "Sie trägt <span class=\"r-akk\">blau<span class=\"r-adj\">e</span> Schuhe</span>.",
+          "es": "Ella lleva zapatos azules. (plural → -e)"
+        },
+        {
+          "en": "Mit <span class=\"r-dat\">frisch<span class=\"r-adj\">em</span> Wasser</span> kocht man Tee.",
+          "es": "Con agua fresca se hace té. (Dat neutro → -em)"
+        },
+        {
+          "en": "Bei <span class=\"r-dat\">schlecht<span class=\"r-adj\">em</span> Wetter</span> bleiben wir zu Hause.",
+          "es": "Con mal tiempo nos quedamos en casa. (Dat neutro → -em)"
+        },
+        {
+          "en": "Mit <span class=\"r-dat\">groß<span class=\"r-adj\">er</span> Freude</span> helfe ich dir.",
+          "es": "Con mucho gusto te ayudo. (Dat fem → -er)"
+        },
+        {
+          "en": "Er trinkt <span class=\"r-akk\">kalt<span class=\"r-adj\">es</span> Wasser</span>.",
+          "es": "Él bebe agua fría. (das Wasser → -es)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Deutsch<span class=\"r-adj\">er</span> Wein</span> ist beliebt.",
+          "es": "El vino alemán es popular. (der Wein → -er)"
+        },
+        {
+          "en": "Sie sucht <span class=\"r-akk\">nett<span class=\"r-adj\">e</span> Leute</span>.",
+          "es": "Ella busca gente simpática. (plural → -e)"
+        },
+        {
+          "en": "Wir brauchen <span class=\"r-akk\">neu<span class=\"r-adj\">e</span> Ideen</span>.",
+          "es": "Necesitamos ideas nuevas. (plural → -e)"
+        },
+        {
+          "en": "Ich kaufe <span class=\"r-akk\">billig<span class=\"r-adj\">es</span> Gemüse</span>.",
+          "es": "Compro verdura barata. (das Gemüse → -es)"
+        },
+        {
+          "en": "Sie kocht mit <span class=\"r-dat\">frisch<span class=\"r-adj\">em</span> Gemüse</span>.",
+          "es": "Ella cocina con verdura fresca. (Dat neutro → -em)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Klein<span class=\"r-adj\">e</span> Kinder</span> brauchen Liebe.",
+          "es": "Los niños pequeños necesitan cariño. (plural → -e)"
+        },
+        {
+          "en": "Er hat <span class=\"r-akk\">groß<span class=\"r-adj\">en</span> Hunger</span>.",
+          "es": "Tiene mucha hambre. (der Hunger → -en)"
+        },
+        {
+          "en": "Wir trinken <span class=\"r-akk\">schwarz<span class=\"r-adj\">en</span> Kaffee</span>.",
+          "es": "Bebemos café solo. (der Kaffee → -en)"
+        }
       ],
       "tables": [
         {
-          "headers": ["", "masc.", "fem.", "neutro", "plural"],
+          "headers": [
+            "",
+            "masc.",
+            "fem.",
+            "neutro",
+            "plural"
+          ],
           "rows": [
-            ["Nominativ", "gut<b>er</b> Wein", "gut<b>e</b> Milch", "gut<b>es</b> Bier", "gut<b>e</b> Ideen"],
-            ["Akkusativ", "gut<b>en</b> Wein", "gut<b>e</b> Milch", "gut<b>es</b> Bier", "gut<b>e</b> Ideen"],
-            ["Dativ", "gut<b>em</b> Wein", "gut<b>er</b> Milch", "gut<b>em</b> Bier", "gut<b>en</b> Ideen"]
+            [
+              "Nominativ",
+              "gut<b>er</b> Wein",
+              "gut<b>e</b> Milch",
+              "gut<b>es</b> Bier",
+              "gut<b>e</b> Ideen"
+            ],
+            [
+              "Akkusativ",
+              "gut<b>en</b> Wein",
+              "gut<b>e</b> Milch",
+              "gut<b>es</b> Bier",
+              "gut<b>e</b> Ideen"
+            ],
+            [
+              "Dativ",
+              "gut<b>em</b> Wein",
+              "gut<b>er</b> Milch",
+              "gut<b>em</b> Bier",
+              "gut<b>en</b> Ideen"
+            ]
           ]
         }
       ],
@@ -153,20 +790,152 @@
         {
           "id": "b05-s3q1",
           "question": "1. Ich esse gern frisch<span class=\"blank\">___</span> Brot. (das Brot)",
-          "options": ["-er", "-es", "-e"],
+          "options": [
+            "-er",
+            "-es",
+            "-e"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b05-s3q2",
           "question": "2. Hier gibt es gut<span class=\"blank\">___</span> Kaffee. (der Kaffee, Akkusativ)",
-          "options": ["-en", "-er", "-es"],
+          "options": [
+            "-en",
+            "-er",
+            "-es"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b05-s3q3",
           "question": "3. ¿Quién marca el caso en «mit kaltem Wasser»?",
-          "options": ["El artículo", "El adjetivo", "El sustantivo"],
+          "options": [
+            "El artículo",
+            "El adjetivo",
+            "El sustantivo"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b05-s3q4",
+          "question": "4. Ich trinke gern kalt<span class=\"blank\">___</span> Milch. (die Milch, Akk)",
+          "options": [
+            "-es",
+            "-en",
+            "-e"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s3q5",
+          "question": "5. Hier gibt es frisch<span class=\"blank\">___</span> Fisch. (der Fisch, Akk)",
+          "options": [
+            "-er",
+            "-en",
+            "-e"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s3q6",
+          "question": "6. Sie kauft billig<span class=\"blank\">___</span> Gemüse. (das Gemüse, Akk)",
+          "options": [
+            "-en",
+            "-es",
+            "-e"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s3q7",
+          "question": "7. Wir essen frisch<span class=\"blank\">___</span> Brötchen. (plural, Akk)",
+          "options": [
+            "-es",
+            "-en",
+            "-e"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s3q8",
+          "question": "8. Gut<span class=\"blank\">___</span> Wein ist nicht billig. (der Wein, Nom)",
+          "options": [
+            "-e",
+            "-en",
+            "-er"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s3q9",
+          "question": "9. Mit frisch<span class=\"blank\">___</span> Milch schmeckt es besser. (Dat fem)",
+          "options": [
+            "-e",
+            "-en",
+            "-er"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s3q10",
+          "question": "10. Ich suche nett<span class=\"blank\">___</span> Leute. (plural, Akk)",
+          "options": [
+            "-e",
+            "-en",
+            "-er"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s3q11",
+          "question": "11. Er hat groß<span class=\"blank\">___</span> Angst. (die Angst, Akk)",
+          "options": [
+            "-e",
+            "-en",
+            "-er"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s3q12",
+          "question": "12. Mit groß<span class=\"blank\">___</span> Interesse lese ich. (Dat neutro)",
+          "options": [
+            "-em",
+            "-en",
+            "-es"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b05-s3q13",
+          "question": "13. Heiß<span class=\"blank\">___</span> Suppe schmeckt gut. (die Suppe, Nom)",
+          "options": [
+            "-en",
+            "-e",
+            "-es"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b05-s3q14",
+          "question": "14. Deutsch<span class=\"blank\">___</span> Bier ist berühmt. (das Bier, Nom)",
+          "options": [
+            "-e",
+            "-en",
+            "-es"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b05-s3q15",
+          "question": "15. ¿Cuál es correcta?",
+          "options": [
+            "Ich trinke kalte Tee.",
+            "Ich trinke kaltes Tee.",
+            "Ich trinke kalten Tee."
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {

@@ -14,21 +14,81 @@
       "examples": [],
       "tables": [
         {
-          "headers": ["Definido", "masculino", "femenino", "neutro", "plural"],
+          "headers": [
+            "Definido",
+            "masculino",
+            "femenino",
+            "neutro",
+            "plural"
+          ],
           "rows": [
-            ["<b>Nominativ</b>", "der", "die", "das", "die"],
-            ["<b>Akkusativ</b>", "<b>den</b>", "die", "das", "die"],
-            ["<b>Dativ</b>", "<b>dem</b>", "<b>der</b>", "<b>dem</b>", "<b>den</b> (+ -n)"],
-            ["<b>Genitiv</b>", "<b>des</b> (+ -s)", "der", "<b>des</b> (+ -s)", "der"]
+            [
+              "<b>Nominativ</b>",
+              "der",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "<b>Akkusativ</b>",
+              "<b>den</b>",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "<b>Dativ</b>",
+              "<b>dem</b>",
+              "<b>der</b>",
+              "<b>dem</b>",
+              "<b>den</b> (+ -n)"
+            ],
+            [
+              "<b>Genitiv</b>",
+              "<b>des</b> (+ -s)",
+              "der",
+              "<b>des</b> (+ -s)",
+              "der"
+            ]
           ]
         },
         {
-          "headers": ["Indefinido / kein", "masculino", "femenino", "neutro", "plural (kein)"],
+          "headers": [
+            "Indefinido / kein",
+            "masculino",
+            "femenino",
+            "neutro",
+            "plural (kein)"
+          ],
           "rows": [
-            ["<b>Nominativ</b>", "ein / kein", "eine / keine", "ein / kein", "keine"],
-            ["<b>Akkusativ</b>", "<b>einen / keinen</b>", "eine / keine", "ein / kein", "keine"],
-            ["<b>Dativ</b>", "einem / keinem", "einer / keiner", "einem / keinem", "keinen (+ -n)"],
-            ["<b>Genitiv</b>", "eines / keines (+ -s)", "einer / keiner", "eines / keines (+ -s)", "keiner"]
+            [
+              "<b>Nominativ</b>",
+              "ein / kein",
+              "eine / keine",
+              "ein / kein",
+              "keine"
+            ],
+            [
+              "<b>Akkusativ</b>",
+              "<b>einen / keinen</b>",
+              "eine / keine",
+              "ein / kein",
+              "keine"
+            ],
+            [
+              "<b>Dativ</b>",
+              "einem / keinem",
+              "einer / keiner",
+              "einem / keinem",
+              "keinen (+ -n)"
+            ],
+            [
+              "<b>Genitiv</b>",
+              "eines / keines (+ -s)",
+              "einer / keiner",
+              "eines / keines (+ -s)",
+              "keiner"
+            ]
           ]
         }
       ],
@@ -43,17 +103,67 @@
       "examples": [],
       "tables": [
         {
-          "headers": ["Nominativ", "Akkusativ", "Dativ", "Genitiv (raro)"],
+          "headers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ",
+            "Genitiv (raro)"
+          ],
           "rows": [
-            ["ich", "mich", "mir", "meiner"],
-            ["du", "dich", "dir", "deiner"],
-            ["er", "ihn", "ihm", "seiner"],
-            ["sie (ella)", "sie", "ihr", "ihrer"],
-            ["es", "es", "ihm", "seiner"],
-            ["wir", "uns", "uns", "unser"],
-            ["ihr", "euch", "euch", "euer"],
-            ["sie (ellos)", "sie", "ihnen", "ihrer"],
-            ["Sie (usted)", "Sie", "Ihnen", "Ihrer"]
+            [
+              "ich",
+              "mich",
+              "mir",
+              "meiner"
+            ],
+            [
+              "du",
+              "dich",
+              "dir",
+              "deiner"
+            ],
+            [
+              "er",
+              "ihn",
+              "ihm",
+              "seiner"
+            ],
+            [
+              "sie (ella)",
+              "sie",
+              "ihr",
+              "ihrer"
+            ],
+            [
+              "es",
+              "es",
+              "ihm",
+              "seiner"
+            ],
+            [
+              "wir",
+              "uns",
+              "uns",
+              "unser"
+            ],
+            [
+              "ihr",
+              "euch",
+              "euch",
+              "euer"
+            ],
+            [
+              "sie (ellos)",
+              "sie",
+              "ihnen",
+              "ihrer"
+            ],
+            [
+              "Sie (usted)",
+              "Sie",
+              "Ihnen",
+              "Ihrer"
+            ]
           ]
         }
       ],
@@ -68,12 +178,32 @@
       "examples": [],
       "tables": [
         {
-          "headers": ["Grupo", "Preposiciones", "Ejemplo"],
+          "headers": [
+            "Grupo",
+            "Preposiciones",
+            "Ejemplo"
+          ],
           "rows": [
-            ["<b>+ Akkusativ</b>", "durch, für, gegen, ohne, um, entlang", "für <b>den</b> Chef · ohne <b>mich</b>"],
-            ["<b>+ Dativ</b>", "aus, bei, mit, nach, seit, von, zu, gegenüber, außer", "mit <b>dem</b> Auto · seit <b>einem</b> Jahr"],
-            ["<b>Wechsel</b> (Akk/Dat)", "in, an, auf, über, unter, vor, hinter, neben, zwischen", "in <b>die</b> Stadt (wohin) · in <b>der</b> Stadt (wo)"],
-            ["<b>+ Genitiv</b>", "wegen, trotz, während, statt, innerhalb, außerhalb", "wegen <b>des</b> Wetters · trotz <b>der</b> Kälte"]
+            [
+              "<b>+ Akkusativ</b>",
+              "durch, für, gegen, ohne, um, entlang",
+              "für <b>den</b> Chef · ohne <b>mich</b>"
+            ],
+            [
+              "<b>+ Dativ</b>",
+              "aus, bei, mit, nach, seit, von, zu, gegenüber, außer",
+              "mit <b>dem</b> Auto · seit <b>einem</b> Jahr"
+            ],
+            [
+              "<b>Wechsel</b> (Akk/Dat)",
+              "in, an, auf, über, unter, vor, hinter, neben, zwischen",
+              "in <b>die</b> Stadt (wohin) · in <b>der</b> Stadt (wo)"
+            ],
+            [
+              "<b>+ Genitiv</b>",
+              "wegen, trotz, während, statt, innerhalb, außerhalb",
+              "wegen <b>des</b> Wetters · trotz <b>der</b> Kälte"
+            ]
           ]
         }
       ],
@@ -88,30 +218,120 @@
       "examples": [],
       "tables": [
         {
-          "headers": ["Tras der-Wörter", "masc.", "fem.", "neutro", "plural"],
+          "headers": [
+            "Tras der-Wörter",
+            "masc.",
+            "fem.",
+            "neutro",
+            "plural"
+          ],
           "rows": [
-            ["Nominativ", "-e", "-e", "-e", "-en"],
-            ["Akkusativ", "-en", "-e", "-e", "-en"],
-            ["Dativ", "-en", "-en", "-en", "-en"],
-            ["Genitiv", "-en", "-en", "-en", "-en"]
+            [
+              "Nominativ",
+              "-e",
+              "-e",
+              "-e",
+              "-en"
+            ],
+            [
+              "Akkusativ",
+              "-en",
+              "-e",
+              "-e",
+              "-en"
+            ],
+            [
+              "Dativ",
+              "-en",
+              "-en",
+              "-en",
+              "-en"
+            ],
+            [
+              "Genitiv",
+              "-en",
+              "-en",
+              "-en",
+              "-en"
+            ]
           ]
         },
         {
-          "headers": ["Tras ein-Wörter", "masc.", "fem.", "neutro", "plural"],
+          "headers": [
+            "Tras ein-Wörter",
+            "masc.",
+            "fem.",
+            "neutro",
+            "plural"
+          ],
           "rows": [
-            ["Nominativ", "<b>-er</b>", "-e", "<b>-es</b>", "-en"],
-            ["Akkusativ", "-en", "-e", "<b>-es</b>", "-en"],
-            ["Dativ", "-en", "-en", "-en", "-en"],
-            ["Genitiv", "-en", "-en", "-en", "-en"]
+            [
+              "Nominativ",
+              "<b>-er</b>",
+              "-e",
+              "<b>-es</b>",
+              "-en"
+            ],
+            [
+              "Akkusativ",
+              "-en",
+              "-e",
+              "<b>-es</b>",
+              "-en"
+            ],
+            [
+              "Dativ",
+              "-en",
+              "-en",
+              "-en",
+              "-en"
+            ],
+            [
+              "Genitiv",
+              "-en",
+              "-en",
+              "-en",
+              "-en"
+            ]
           ]
         },
         {
-          "headers": ["Sin artículo", "masc.", "fem.", "neutro", "plural"],
+          "headers": [
+            "Sin artículo",
+            "masc.",
+            "fem.",
+            "neutro",
+            "plural"
+          ],
           "rows": [
-            ["Nominativ", "-er", "-e", "-es", "-e"],
-            ["Akkusativ", "-en", "-e", "-es", "-e"],
-            ["Dativ", "-em", "-er", "-em", "-en"],
-            ["Genitiv", "-en", "-er", "-en", "-er"]
+            [
+              "Nominativ",
+              "-er",
+              "-e",
+              "-es",
+              "-e"
+            ],
+            [
+              "Akkusativ",
+              "-en",
+              "-e",
+              "-es",
+              "-e"
+            ],
+            [
+              "Dativ",
+              "-em",
+              "-er",
+              "-em",
+              "-en"
+            ],
+            [
+              "Genitiv",
+              "-en",
+              "-er",
+              "-en",
+              "-er"
+            ]
           ]
         }
       ],
@@ -132,79 +352,2389 @@
       "examples": [],
       "tables": [
         {
-          "headers": ["Infinitiv", "Präteritum", "Partizip II", "Aux.", "Significado"],
+          "headers": [
+            "Infinitiv",
+            "Präteritum",
+            "Partizip II",
+            "Aux.",
+            "Significado"
+          ],
           "rows": [
-            ["beginnen", "begann", "begonnen", "haben", "empezar"],
-            ["beißen", "biss", "gebissen", "haben", "morder"],
-            ["bieten", "bot", "geboten", "haben", "ofrecer"],
-            ["bitten", "bat", "gebeten", "haben", "pedir, rogar"],
-            ["bleiben", "blieb", "geblieben", "<b>sein</b>", "quedarse"],
-            ["brechen", "brach", "gebrochen", "haben", "romper"],
-            ["bringen", "brachte", "gebracht", "haben", "traer, llevar"],
-            ["denken", "dachte", "gedacht", "haben", "pensar"],
-            ["dürfen", "durfte", "gedurft", "haben", "poder (permiso)"],
-            ["empfehlen", "empfahl", "empfohlen", "haben", "recomendar"],
-            ["essen", "aß", "gegessen", "haben", "comer"],
-            ["fahren", "fuhr", "gefahren", "<b>sein</b>", "ir (en vehículo)"],
-            ["fallen", "fiel", "gefallen", "<b>sein</b>", "caer"],
-            ["fangen", "fing", "gefangen", "haben", "atrapar"],
-            ["finden", "fand", "gefunden", "haben", "encontrar"],
-            ["fliegen", "flog", "geflogen", "<b>sein</b>", "volar"],
-            ["geben", "gab", "gegeben", "haben", "dar"],
-            ["gehen", "ging", "gegangen", "<b>sein</b>", "ir (a pie)"],
-            ["gelingen", "gelang", "gelungen", "<b>sein</b>", "salir bien, lograrse"],
-            ["gewinnen", "gewann", "gewonnen", "haben", "ganar"],
-            ["gießen", "goss", "gegossen", "haben", "verter, regar"],
-            ["haben", "hatte", "gehabt", "haben", "tener"],
-            ["halten", "hielt", "gehalten", "haben", "sostener, parar"],
-            ["hängen", "hing", "gehangen", "haben", "colgar (estar colgado)"],
-            ["heißen", "hieß", "geheißen", "haben", "llamarse"],
-            ["helfen", "half", "geholfen", "haben", "ayudar (+ Dat)"],
-            ["kennen", "kannte", "gekannt", "haben", "conocer"],
-            ["kommen", "kam", "gekommen", "<b>sein</b>", "venir"],
-            ["können", "konnte", "gekonnt", "haben", "poder (capacidad)"],
-            ["laden", "lud", "geladen", "haben", "cargar, invitar"],
-            ["lassen", "ließ", "gelassen", "haben", "dejar, hacer que"],
-            ["laufen", "lief", "gelaufen", "<b>sein</b>", "correr, andar"],
-            ["leihen", "lieh", "geliehen", "haben", "prestar"],
-            ["lesen", "las", "gelesen", "haben", "leer"],
-            ["liegen", "lag", "gelegen", "haben", "estar tumbado/situado"],
-            ["lügen", "log", "gelogen", "haben", "mentir"],
-            ["mögen", "mochte", "gemocht", "haben", "gustar"],
-            ["müssen", "musste", "gemusst", "haben", "tener que"],
-            ["nehmen", "nahm", "genommen", "haben", "tomar, coger"],
-            ["nennen", "nannte", "genannt", "haben", "nombrar, llamar"],
-            ["raten", "riet", "geraten", "haben", "aconsejar; adivinar"],
-            ["rufen", "rief", "gerufen", "haben", "llamar (voz)"],
-            ["scheinen", "schien", "geschienen", "haben", "brillar; parecer"],
-            ["schlafen", "schlief", "geschlafen", "haben", "dormir"],
-            ["schlagen", "schlug", "geschlagen", "haben", "golpear"],
-            ["schließen", "schloss", "geschlossen", "haben", "cerrar"],
-            ["schneiden", "schnitt", "geschnitten", "haben", "cortar"],
-            ["schreiben", "schrieb", "geschrieben", "haben", "escribir"],
-            ["schwimmen", "schwamm", "geschwommen", "<b>sein</b>", "nadar"],
-            ["sehen", "sah", "gesehen", "haben", "ver"],
-            ["sein", "war", "gewesen", "<b>sein</b>", "ser, estar"],
-            ["singen", "sang", "gesungen", "haben", "cantar"],
-            ["sitzen", "saß", "gesessen", "haben", "estar sentado"],
-            ["sprechen", "sprach", "gesprochen", "haben", "hablar"],
-            ["springen", "sprang", "gesprungen", "<b>sein</b>", "saltar"],
-            ["stehen", "stand", "gestanden", "haben", "estar de pie"],
-            ["steigen", "stieg", "gestiegen", "<b>sein</b>", "subir"],
-            ["sterben", "starb", "gestorben", "<b>sein</b>", "morir"],
-            ["tragen", "trug", "getragen", "haben", "llevar (puesto), cargar"],
-            ["treffen", "traf", "getroffen", "haben", "encontrarse con; acertar"],
-            ["trinken", "trank", "getrunken", "haben", "beber"],
-            ["tun", "tat", "getan", "haben", "hacer"],
-            ["vergessen", "vergaß", "vergessen", "haben", "olvidar"],
-            ["verlieren", "verlor", "verloren", "haben", "perder"],
-            ["verstehen", "verstand", "verstanden", "haben", "entender"],
-            ["wachsen", "wuchs", "gewachsen", "<b>sein</b>", "crecer"],
-            ["waschen", "wusch", "gewaschen", "haben", "lavar"],
-            ["werden", "wurde", "geworden", "<b>sein</b>", "convertirse en"],
-            ["werfen", "warf", "geworfen", "haben", "lanzar"],
-            ["wissen", "wusste", "gewusst", "haben", "saber (un dato)"],
-            ["ziehen", "zog", "gezogen", "haben", "tirar de; (sein) mudarse"]
+            [
+              "beginnen",
+              "begann",
+              "begonnen",
+              "haben",
+              "empezar"
+            ],
+            [
+              "beißen",
+              "biss",
+              "gebissen",
+              "haben",
+              "morder"
+            ],
+            [
+              "bieten",
+              "bot",
+              "geboten",
+              "haben",
+              "ofrecer"
+            ],
+            [
+              "bitten",
+              "bat",
+              "gebeten",
+              "haben",
+              "pedir, rogar"
+            ],
+            [
+              "bleiben",
+              "blieb",
+              "geblieben",
+              "<b>sein</b>",
+              "quedarse"
+            ],
+            [
+              "brechen",
+              "brach",
+              "gebrochen",
+              "haben",
+              "romper"
+            ],
+            [
+              "bringen",
+              "brachte",
+              "gebracht",
+              "haben",
+              "traer, llevar"
+            ],
+            [
+              "denken",
+              "dachte",
+              "gedacht",
+              "haben",
+              "pensar"
+            ],
+            [
+              "dürfen",
+              "durfte",
+              "gedurft",
+              "haben",
+              "poder (permiso)"
+            ],
+            [
+              "empfehlen",
+              "empfahl",
+              "empfohlen",
+              "haben",
+              "recomendar"
+            ],
+            [
+              "essen",
+              "aß",
+              "gegessen",
+              "haben",
+              "comer"
+            ],
+            [
+              "fahren",
+              "fuhr",
+              "gefahren",
+              "<b>sein</b>",
+              "ir (en vehículo)"
+            ],
+            [
+              "fallen",
+              "fiel",
+              "gefallen",
+              "<b>sein</b>",
+              "caer"
+            ],
+            [
+              "fangen",
+              "fing",
+              "gefangen",
+              "haben",
+              "atrapar"
+            ],
+            [
+              "finden",
+              "fand",
+              "gefunden",
+              "haben",
+              "encontrar"
+            ],
+            [
+              "fliegen",
+              "flog",
+              "geflogen",
+              "<b>sein</b>",
+              "volar"
+            ],
+            [
+              "geben",
+              "gab",
+              "gegeben",
+              "haben",
+              "dar"
+            ],
+            [
+              "gehen",
+              "ging",
+              "gegangen",
+              "<b>sein</b>",
+              "ir (a pie)"
+            ],
+            [
+              "gelingen",
+              "gelang",
+              "gelungen",
+              "<b>sein</b>",
+              "salir bien, lograrse"
+            ],
+            [
+              "gewinnen",
+              "gewann",
+              "gewonnen",
+              "haben",
+              "ganar"
+            ],
+            [
+              "gießen",
+              "goss",
+              "gegossen",
+              "haben",
+              "verter, regar"
+            ],
+            [
+              "haben",
+              "hatte",
+              "gehabt",
+              "haben",
+              "tener"
+            ],
+            [
+              "halten",
+              "hielt",
+              "gehalten",
+              "haben",
+              "sostener, parar"
+            ],
+            [
+              "hängen",
+              "hing",
+              "gehangen",
+              "haben",
+              "colgar (estar colgado)"
+            ],
+            [
+              "heißen",
+              "hieß",
+              "geheißen",
+              "haben",
+              "llamarse"
+            ],
+            [
+              "helfen",
+              "half",
+              "geholfen",
+              "haben",
+              "ayudar (+ Dat)"
+            ],
+            [
+              "kennen",
+              "kannte",
+              "gekannt",
+              "haben",
+              "conocer"
+            ],
+            [
+              "kommen",
+              "kam",
+              "gekommen",
+              "<b>sein</b>",
+              "venir"
+            ],
+            [
+              "können",
+              "konnte",
+              "gekonnt",
+              "haben",
+              "poder (capacidad)"
+            ],
+            [
+              "laden",
+              "lud",
+              "geladen",
+              "haben",
+              "cargar, invitar"
+            ],
+            [
+              "lassen",
+              "ließ",
+              "gelassen",
+              "haben",
+              "dejar, hacer que"
+            ],
+            [
+              "laufen",
+              "lief",
+              "gelaufen",
+              "<b>sein</b>",
+              "correr, andar"
+            ],
+            [
+              "leihen",
+              "lieh",
+              "geliehen",
+              "haben",
+              "prestar"
+            ],
+            [
+              "lesen",
+              "las",
+              "gelesen",
+              "haben",
+              "leer"
+            ],
+            [
+              "liegen",
+              "lag",
+              "gelegen",
+              "haben",
+              "estar tumbado/situado"
+            ],
+            [
+              "lügen",
+              "log",
+              "gelogen",
+              "haben",
+              "mentir"
+            ],
+            [
+              "mögen",
+              "mochte",
+              "gemocht",
+              "haben",
+              "gustar"
+            ],
+            [
+              "müssen",
+              "musste",
+              "gemusst",
+              "haben",
+              "tener que"
+            ],
+            [
+              "nehmen",
+              "nahm",
+              "genommen",
+              "haben",
+              "tomar, coger"
+            ],
+            [
+              "nennen",
+              "nannte",
+              "genannt",
+              "haben",
+              "nombrar, llamar"
+            ],
+            [
+              "raten",
+              "riet",
+              "geraten",
+              "haben",
+              "aconsejar; adivinar"
+            ],
+            [
+              "rufen",
+              "rief",
+              "gerufen",
+              "haben",
+              "llamar (voz)"
+            ],
+            [
+              "scheinen",
+              "schien",
+              "geschienen",
+              "haben",
+              "brillar; parecer"
+            ],
+            [
+              "schlafen",
+              "schlief",
+              "geschlafen",
+              "haben",
+              "dormir"
+            ],
+            [
+              "schlagen",
+              "schlug",
+              "geschlagen",
+              "haben",
+              "golpear"
+            ],
+            [
+              "schließen",
+              "schloss",
+              "geschlossen",
+              "haben",
+              "cerrar"
+            ],
+            [
+              "schneiden",
+              "schnitt",
+              "geschnitten",
+              "haben",
+              "cortar"
+            ],
+            [
+              "schreiben",
+              "schrieb",
+              "geschrieben",
+              "haben",
+              "escribir"
+            ],
+            [
+              "schwimmen",
+              "schwamm",
+              "geschwommen",
+              "<b>sein</b>",
+              "nadar"
+            ],
+            [
+              "sehen",
+              "sah",
+              "gesehen",
+              "haben",
+              "ver"
+            ],
+            [
+              "sein",
+              "war",
+              "gewesen",
+              "<b>sein</b>",
+              "ser, estar"
+            ],
+            [
+              "singen",
+              "sang",
+              "gesungen",
+              "haben",
+              "cantar"
+            ],
+            [
+              "sitzen",
+              "saß",
+              "gesessen",
+              "haben",
+              "estar sentado"
+            ],
+            [
+              "sprechen",
+              "sprach",
+              "gesprochen",
+              "haben",
+              "hablar"
+            ],
+            [
+              "springen",
+              "sprang",
+              "gesprungen",
+              "<b>sein</b>",
+              "saltar"
+            ],
+            [
+              "stehen",
+              "stand",
+              "gestanden",
+              "haben",
+              "estar de pie"
+            ],
+            [
+              "steigen",
+              "stieg",
+              "gestiegen",
+              "<b>sein</b>",
+              "subir"
+            ],
+            [
+              "sterben",
+              "starb",
+              "gestorben",
+              "<b>sein</b>",
+              "morir"
+            ],
+            [
+              "tragen",
+              "trug",
+              "getragen",
+              "haben",
+              "llevar (puesto), cargar"
+            ],
+            [
+              "treffen",
+              "traf",
+              "getroffen",
+              "haben",
+              "encontrarse con; acertar"
+            ],
+            [
+              "trinken",
+              "trank",
+              "getrunken",
+              "haben",
+              "beber"
+            ],
+            [
+              "tun",
+              "tat",
+              "getan",
+              "haben",
+              "hacer"
+            ],
+            [
+              "vergessen",
+              "vergaß",
+              "vergessen",
+              "haben",
+              "olvidar"
+            ],
+            [
+              "verlieren",
+              "verlor",
+              "verloren",
+              "haben",
+              "perder"
+            ],
+            [
+              "verstehen",
+              "verstand",
+              "verstanden",
+              "haben",
+              "entender"
+            ],
+            [
+              "wachsen",
+              "wuchs",
+              "gewachsen",
+              "<b>sein</b>",
+              "crecer"
+            ],
+            [
+              "waschen",
+              "wusch",
+              "gewaschen",
+              "haben",
+              "lavar"
+            ],
+            [
+              "werden",
+              "wurde",
+              "geworden",
+              "<b>sein</b>",
+              "convertirse en"
+            ],
+            [
+              "werfen",
+              "warf",
+              "geworfen",
+              "haben",
+              "lanzar"
+            ],
+            [
+              "wissen",
+              "wusste",
+              "gewusst",
+              "haben",
+              "saber (un dato)"
+            ],
+            [
+              "ziehen",
+              "zog",
+              "gezogen",
+              "haben",
+              "tirar de; (sein) mudarse"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.6",
+      "title": "Verbos modales: presente",
+      "level": "A2",
+      "rule": "Las <b>1ª y 3ª persona del singular son idénticas</b> y sin -t (<i>ich kann, er kann</i>). El resto se conjuga casi como un verbo regular. <b>möchten</b> es en realidad el Konjunktiv II de <i>mögen</i>, pero funciona como modal propio.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "",
+            "können",
+            "müssen",
+            "wollen",
+            "sollen",
+            "dürfen",
+            "mögen",
+            "möchten"
+          ],
+          "rows": [
+            [
+              "<b>ich</b>",
+              "kann",
+              "muss",
+              "will",
+              "soll",
+              "darf",
+              "mag",
+              "möchte"
+            ],
+            [
+              "<b>du</b>",
+              "kannst",
+              "musst",
+              "willst",
+              "sollst",
+              "darfst",
+              "magst",
+              "möchtest"
+            ],
+            [
+              "<b>er/sie/es</b>",
+              "kann",
+              "muss",
+              "will",
+              "soll",
+              "darf",
+              "mag",
+              "möchte"
+            ],
+            [
+              "<b>wir</b>",
+              "können",
+              "müssen",
+              "wollen",
+              "sollen",
+              "dürfen",
+              "mögen",
+              "möchten"
+            ],
+            [
+              "<b>ihr</b>",
+              "könnt",
+              "müsst",
+              "wollt",
+              "sollt",
+              "dürft",
+              "mögt",
+              "möchtet"
+            ],
+            [
+              "<b>sie/Sie</b>",
+              "können",
+              "müssen",
+              "wollen",
+              "sollen",
+              "dürfen",
+              "mögen",
+              "möchten"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.7",
+      "title": "Verbos modales: Präteritum, Partizip II y Konjunktiv II",
+      "level": "B1",
+      "rule": "En pasado los modales usan casi siempre el <b>Präteritum</b> (<i>ich konnte, ich musste</i>). Sin <b>Umlaut</b>: können → konnte. En el Konjunktiv II recuperan el Umlaut: könnte, müsste, dürfte. El Partizip II con <i>ge-</i> solo se usa cuando el modal va solo, sin infinitivo (<i>Ich habe es nicht gekonnt</i>).",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Infinitiv",
+            "Präteritum (ich/er)",
+            "Partizip II",
+            "Konjunktiv II",
+            "Significado"
+          ],
+          "rows": [
+            [
+              "können",
+              "konnte",
+              "gekonnt",
+              "könnte",
+              "poder, saber"
+            ],
+            [
+              "müssen",
+              "musste",
+              "gemusst",
+              "müsste",
+              "tener que"
+            ],
+            [
+              "wollen",
+              "wollte",
+              "gewollt",
+              "wollte",
+              "querer"
+            ],
+            [
+              "sollen",
+              "sollte",
+              "gesollt",
+              "sollte",
+              "deber (encargo)"
+            ],
+            [
+              "dürfen",
+              "durfte",
+              "gedurft",
+              "dürfte",
+              "poder (permiso)"
+            ],
+            [
+              "mögen",
+              "mochte",
+              "gemocht",
+              "möchte",
+              "gustar, querer"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.8",
+      "title": "sein, haben, werden: presente y Präteritum",
+      "level": "A1",
+      "rule": "Los tres verbos más importantes: auxiliares del Perfekt (<b>haben/sein</b>) y de la pasiva y el futuro (<b>werden</b>). Son irregulares y hay que saberlos de memoria.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "",
+            "sein",
+            "war",
+            "haben",
+            "hatte",
+            "werden",
+            "wurde"
+          ],
+          "rows": [
+            [
+              "<b>ich</b>",
+              "bin",
+              "war",
+              "habe",
+              "hatte",
+              "werde",
+              "wurde"
+            ],
+            [
+              "<b>du</b>",
+              "bist",
+              "warst",
+              "hast",
+              "hattest",
+              "wirst",
+              "wurdest"
+            ],
+            [
+              "<b>er/sie/es</b>",
+              "ist",
+              "war",
+              "hat",
+              "hatte",
+              "wird",
+              "wurde"
+            ],
+            [
+              "<b>wir</b>",
+              "sind",
+              "waren",
+              "haben",
+              "hatten",
+              "werden",
+              "wurden"
+            ],
+            [
+              "<b>ihr</b>",
+              "seid",
+              "wart",
+              "habt",
+              "hattet",
+              "werdet",
+              "wurdet"
+            ],
+            [
+              "<b>sie/Sie</b>",
+              "sind",
+              "waren",
+              "haben",
+              "hatten",
+              "werden",
+              "wurden"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.9",
+      "title": "Konjunktiv II de los verbos clave",
+      "level": "B1",
+      "rule": "Las formas propias del Konjunktiv II se usan sobre todo con <b>sein, haben, werden</b> y los modales. Con el resto de verbos se prefiere <i>würde + infinitivo</i>. Regla de oro: la forma sale del <b>Präteritum</b> + Umlaut + -e.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "",
+            "sein",
+            "haben",
+            "werden",
+            "können"
+          ],
+          "rows": [
+            [
+              "<b>ich</b>",
+              "wäre",
+              "hätte",
+              "würde",
+              "könnte"
+            ],
+            [
+              "<b>du</b>",
+              "wärst",
+              "hättest",
+              "würdest",
+              "könntest"
+            ],
+            [
+              "<b>er/sie/es</b>",
+              "wäre",
+              "hätte",
+              "würde",
+              "könnte"
+            ],
+            [
+              "<b>wir</b>",
+              "wären",
+              "hätten",
+              "würden",
+              "könnten"
+            ],
+            [
+              "<b>ihr</b>",
+              "wärt",
+              "hättet",
+              "würdet",
+              "könntet"
+            ],
+            [
+              "<b>sie/Sie</b>",
+              "wären",
+              "hätten",
+              "würden",
+              "könnten"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.10",
+      "title": "El imperativo: du, ihr, Sie",
+      "level": "A2",
+      "rule": "<b>du</b>: raíz sin -st (<i>Komm!</i>); los verbos con cambio e→i/ie lo conservan (<i>Sprich! Lies!</i>) y los a→ä lo pierden (<i>Fahr!</i>). <b>ihr</b>: como el presente sin pronombre (<i>Kommt!</i>). <b>Sie</b>: infinitivo + Sie (<i>Kommen Sie!</i>). El separable deja el prefijo al final.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Infinitiv",
+            "du",
+            "ihr",
+            "Sie"
+          ],
+          "rows": [
+            [
+              "kommen",
+              "Komm!",
+              "Kommt!",
+              "Kommen Sie!"
+            ],
+            [
+              "sprechen",
+              "Sprich!",
+              "Sprecht!",
+              "Sprechen Sie!"
+            ],
+            [
+              "nehmen",
+              "Nimm!",
+              "Nehmt!",
+              "Nehmen Sie!"
+            ],
+            [
+              "lesen",
+              "Lies!",
+              "Lest!",
+              "Lesen Sie!"
+            ],
+            [
+              "fahren",
+              "Fahr!",
+              "Fahrt!",
+              "Fahren Sie!"
+            ],
+            [
+              "arbeiten",
+              "Arbeite!",
+              "Arbeitet!",
+              "Arbeiten Sie!"
+            ],
+            [
+              "sein",
+              "Sei!",
+              "Seid!",
+              "Seien Sie!"
+            ],
+            [
+              "haben",
+              "Hab!",
+              "Habt!",
+              "Haben Sie!"
+            ],
+            [
+              "aufstehen",
+              "Steh auf!",
+              "Steht auf!",
+              "Stehen Sie auf!"
+            ],
+            [
+              "anrufen",
+              "Ruf an!",
+              "Ruft an!",
+              "Rufen Sie an!"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.11",
+      "title": "Wechselpräpositionen: wohin (Akk) o wo (Dat)",
+      "level": "B1",
+      "rule": "Nueve preposiciones cambian de caso: <b>Akkusativ</b> si hay movimiento hacia un destino (<i>wohin?</i>), <b>Dativ</b> si es ubicación (<i>wo?</i>). Mnemotecnia: <b>an, auf, hinter, in, neben, über, unter, vor, zwischen</b>.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Preposición",
+            "Significado",
+            "wohin? (Akk)",
+            "wo? (Dat)"
+          ],
+          "rows": [
+            [
+              "<b>an</b>",
+              "junto a, en (contacto)",
+              "Ich gehe ans Fenster.",
+              "Ich stehe am Fenster."
+            ],
+            [
+              "<b>auf</b>",
+              "sobre",
+              "Ich lege es auf den Tisch.",
+              "Es liegt auf dem Tisch."
+            ],
+            [
+              "<b>hinter</b>",
+              "detrás de",
+              "Ich gehe hinter das Haus.",
+              "Es steht hinter dem Haus."
+            ],
+            [
+              "<b>in</b>",
+              "en, dentro de",
+              "Ich gehe ins Haus.",
+              "Ich bin im Haus."
+            ],
+            [
+              "<b>neben</b>",
+              "al lado de",
+              "Ich stelle es neben die Tür.",
+              "Es steht neben der Tür."
+            ],
+            [
+              "<b>über</b>",
+              "encima de, por encima",
+              "Ich hänge es über den Tisch.",
+              "Es hängt über dem Tisch."
+            ],
+            [
+              "<b>unter</b>",
+              "debajo de",
+              "Ich lege es unter den Stuhl.",
+              "Es liegt unter dem Stuhl."
+            ],
+            [
+              "<b>vor</b>",
+              "delante de",
+              "Ich stelle es vor das Haus.",
+              "Es steht vor dem Haus."
+            ],
+            [
+              "<b>zwischen</b>",
+              "entre",
+              "Ich stelle es zwischen die Stühle.",
+              "Es steht zwischen den Stühlen."
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.12",
+      "title": "Contracciones: preposición + artículo",
+      "level": "A2",
+      "rule": "En el uso normal, muchas preposiciones se funden con el artículo. Son <b>obligatorias</b> en las expresiones fijas (<i>zum Arzt, im Kino</i>) y neutras en el habla. Con un demostrativo o un énfasis se separan: <i>in dem Haus da drüben</i>.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Preposición + artículo",
+            "Contracción",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "an + dem",
+              "<b>am</b>",
+              "am Montag, am Fenster"
+            ],
+            [
+              "an + das",
+              "<b>ans</b>",
+              "ans Meer fahren"
+            ],
+            [
+              "in + dem",
+              "<b>im</b>",
+              "im Büro, im Kino"
+            ],
+            [
+              "in + das",
+              "<b>ins</b>",
+              "ins Kino gehen"
+            ],
+            [
+              "zu + dem",
+              "<b>zum</b>",
+              "zum Arzt gehen"
+            ],
+            [
+              "zu + der",
+              "<b>zur</b>",
+              "zur Schule gehen"
+            ],
+            [
+              "bei + dem",
+              "<b>beim</b>",
+              "beim Bäcker"
+            ],
+            [
+              "von + dem",
+              "<b>vom</b>",
+              "vom Bahnhof"
+            ],
+            [
+              "auf + das",
+              "<b>aufs</b>",
+              "aufs Land fahren"
+            ],
+            [
+              "für + das",
+              "<b>fürs</b>",
+              "fürs Wochenende"
+            ],
+            [
+              "durch + das",
+              "<b>durchs</b>",
+              "durchs Fenster"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.13",
+      "title": "Verbos con preposición fija + Akkusativ",
+      "level": "B1",
+      "rule": "Estos verbos exigen una preposición concreta que <b>no se puede deducir</b> del español. Apréndelos como bloque «verbo + preposición + caso». Cada uno aquí lleva <b>Akkusativ</b>.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Verbo + preposición",
+            "Significado",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "warten <b>auf</b>",
+              "esperar",
+              "Ich warte auf den Bus."
+            ],
+            [
+              "sich freuen <b>auf</b>",
+              "alegrarse de (futuro)",
+              "Ich freue mich auf den Urlaub."
+            ],
+            [
+              "sich freuen <b>über</b>",
+              "alegrarse de (presente)",
+              "Ich freue mich über das Geschenk."
+            ],
+            [
+              "denken <b>an</b>",
+              "pensar en",
+              "Ich denke an dich."
+            ],
+            [
+              "sich erinnern <b>an</b>",
+              "acordarse de",
+              "Ich erinnere mich an den Film."
+            ],
+            [
+              "sich interessieren <b>für</b>",
+              "interesarse por",
+              "Er interessiert sich für Musik."
+            ],
+            [
+              "sich ärgern <b>über</b>",
+              "enfadarse por",
+              "Sie ärgert sich über den Lärm."
+            ],
+            [
+              "sprechen <b>über</b>",
+              "hablar de/sobre",
+              "Wir sprechen über das Wetter."
+            ],
+            [
+              "sich verlieben <b>in</b>",
+              "enamorarse de",
+              "Er verliebt sich in sie."
+            ],
+            [
+              "bitten <b>um</b>",
+              "pedir",
+              "Ich bitte um Hilfe."
+            ],
+            [
+              "sich kümmern <b>um</b>",
+              "ocuparse de",
+              "Sie kümmert sich um die Kinder."
+            ],
+            [
+              "aufpassen <b>auf</b>",
+              "cuidar, prestar atención",
+              "Pass auf die Tasche auf!"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.14",
+      "title": "Verbos con preposición fija + Dativ",
+      "level": "B1",
+      "rule": "Estos verbos también piden preposición fija, pero con <b>Dativ</b>. Mnemotecnia: casi todas las preposiciones de Dativ típicas (<b>mit, von, zu, nach, bei, aus</b>) más <b>an, vor</b> con Dativ.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Verbo + preposición",
+            "Significado",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "teilnehmen <b>an</b>",
+              "participar en",
+              "Er nimmt an dem Kurs teil."
+            ],
+            [
+              "träumen <b>von</b>",
+              "soñar con",
+              "Sie träumt von dem Urlaub."
+            ],
+            [
+              "sprechen <b>mit</b>",
+              "hablar con",
+              "Ich spreche mit meinem Chef."
+            ],
+            [
+              "sich beschäftigen <b>mit</b>",
+              "ocuparse de",
+              "Er beschäftigt sich mit Grammatik."
+            ],
+            [
+              "fragen <b>nach</b>",
+              "preguntar por",
+              "Ich frage nach dem Weg."
+            ],
+            [
+              "riechen <b>nach</b>",
+              "oler a",
+              "Es riecht nach Kaffee."
+            ],
+            [
+              "gehören <b>zu</b>",
+              "pertenecer a",
+              "Das gehört zu meiner Familie."
+            ],
+            [
+              "Angst haben <b>vor</b>",
+              "tener miedo de",
+              "Ich habe Angst vor Hunden."
+            ],
+            [
+              "abhängen <b>von</b>",
+              "depender de",
+              "Das hängt vom Wetter ab."
+            ],
+            [
+              "bestehen <b>aus</b>",
+              "constar de",
+              "Das Team besteht aus zehn Leuten."
+            ],
+            [
+              "einladen <b>zu</b>",
+              "invitar a",
+              "Ich lade dich zur Party ein."
+            ],
+            [
+              "gratulieren <b>zu</b>",
+              "felicitar por",
+              "Ich gratuliere dir zum Geburtstag."
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.15",
+      "title": "Preposiciones con Genitivo",
+      "level": "B2",
+      "rule": "Suelen aparecer en el <b>alemán escrito o formal</b>. En el habla cotidiana <i>wegen, trotz, während</i> se oyen a menudo con Dativ, pero en un examen usa el Genitivo.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Preposición",
+            "Significado",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "<b>wegen</b>",
+              "a causa de",
+              "Wegen des Regens bleiben wir hier."
+            ],
+            [
+              "<b>trotz</b>",
+              "a pesar de",
+              "Trotz des Verkehrs kam er pünktlich."
+            ],
+            [
+              "<b>während</b>",
+              "durante",
+              "Während des Films schlief er ein."
+            ],
+            [
+              "<b>statt / anstatt</b>",
+              "en lugar de",
+              "Statt des Autos nehme ich den Bus."
+            ],
+            [
+              "<b>innerhalb</b>",
+              "dentro de (tiempo/espacio)",
+              "Innerhalb einer Woche ist es fertig."
+            ],
+            [
+              "<b>außerhalb</b>",
+              "fuera de",
+              "Außerhalb der Stadt ist es ruhig."
+            ],
+            [
+              "<b>aufgrund</b>",
+              "debido a",
+              "Aufgrund der Krankheit fehlt er."
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.16",
+      "title": "Los posesivos y sus terminaciones",
+      "level": "A1",
+      "rule": "Los posesivos se declinan como <b>ein / kein</b>: <i>mein Vater, meine Mutter, mein Kind, meine Eltern</i>. Primero eliges el posesivo según el poseedor (<b>mein, dein, sein, ihr, unser, euer, ihr, Ihr</b>); luego le añades la terminación según el caso y el género del sustantivo.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Persona",
+            "Posesivo",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "<b>ich</b>",
+              "mein-",
+              "mein Buch"
+            ],
+            [
+              "<b>du</b>",
+              "dein-",
+              "dein Auto"
+            ],
+            [
+              "<b>er / es</b>",
+              "sein-",
+              "sein Hund"
+            ],
+            [
+              "<b>sie</b> (ella)",
+              "ihr-",
+              "ihre Tasche"
+            ],
+            [
+              "<b>wir</b>",
+              "unser-",
+              "unser Haus"
+            ],
+            [
+              "<b>ihr</b>",
+              "euer- (eure)",
+              "eure Wohnung"
+            ],
+            [
+              "<b>sie</b> (ellos)",
+              "ihr-",
+              "ihr Chef"
+            ],
+            [
+              "<b>Sie</b> (usted)",
+              "Ihr-",
+              "Ihre Adresse"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Caso",
+            "masculino",
+            "femenino",
+            "neutro",
+            "plural"
+          ],
+          "rows": [
+            [
+              "<b>Nominativ</b>",
+              "mein",
+              "meine",
+              "mein",
+              "meine"
+            ],
+            [
+              "<b>Akkusativ</b>",
+              "meinen",
+              "meine",
+              "mein",
+              "meine"
+            ],
+            [
+              "<b>Dativ</b>",
+              "meinem",
+              "meiner",
+              "meinem",
+              "meinen (+ -n)"
+            ],
+            [
+              "<b>Genitiv</b>",
+              "meines (+ -s)",
+              "meiner",
+              "meines (+ -s)",
+              "meiner"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.17",
+      "title": "Pronombres reflexivos",
+      "level": "A2",
+      "rule": "Con los verbos reflexivos (<i>sich waschen, sich freuen</i>) el pronombre coincide con el sujeto. Solo la 1ª y 2ª persona distinguen Akkusativ de Dativo; la 3ª siempre es <b>sich</b>. El <b>Dativo</b> aparece cuando el verbo ya tiene otro objeto en Akkusativo (<i>Ich wasche mir die Hände</i>).",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Persona",
+            "Akkusativ",
+            "Dativ"
+          ],
+          "rows": [
+            [
+              "<b>ich</b>",
+              "mich",
+              "mir"
+            ],
+            [
+              "<b>du</b>",
+              "dich",
+              "dir"
+            ],
+            [
+              "<b>er / sie / es</b>",
+              "sich",
+              "sich"
+            ],
+            [
+              "<b>wir</b>",
+              "uns",
+              "uns"
+            ],
+            [
+              "<b>ihr</b>",
+              "euch",
+              "euch"
+            ],
+            [
+              "<b>sie / Sie</b>",
+              "sich",
+              "sich"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.18",
+      "title": "Pronombres relativos",
+      "level": "B1",
+      "rule": "Introducen una subordinada (<b>verbo al final</b>). El <b>género y número</b> vienen del sustantivo al que se refieren; el <b>caso</b> lo decide la función dentro de la subordinada. Casi todas las formas coinciden con el artículo definido, salvo el <b>Genitiv</b> (<i>dessen, deren</i>) y el <b>Dativ plural</b> (<i>denen</i>).",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Caso",
+            "masculino",
+            "femenino",
+            "neutro",
+            "plural"
+          ],
+          "rows": [
+            [
+              "<b>Nominativ</b>",
+              "der",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "<b>Akkusativ</b>",
+              "den",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "<b>Dativ</b>",
+              "dem",
+              "der",
+              "dem",
+              "<b>denen</b>"
+            ],
+            [
+              "<b>Genitiv</b>",
+              "<b>dessen</b>",
+              "<b>deren</b>",
+              "<b>dessen</b>",
+              "<b>deren</b>"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.19",
+      "title": "Demostrativos e interrogativos: dieser, wer, was",
+      "level": "A2",
+      "rule": "<b>dieser</b> (este) se declina como el artículo definido. Para preguntar por personas y cosas: <b>wer / was</b> (Nominativ), <b>wen / was</b> (Akkusativ), <b>wem</b> (Dativ), <b>wessen</b> (Genitiv).",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Caso",
+            "masculino",
+            "femenino",
+            "neutro",
+            "plural"
+          ],
+          "rows": [
+            [
+              "<b>Nominativ</b>",
+              "dieser",
+              "diese",
+              "dieses",
+              "diese"
+            ],
+            [
+              "<b>Akkusativ</b>",
+              "diesen",
+              "diese",
+              "dieses",
+              "diese"
+            ],
+            [
+              "<b>Dativ</b>",
+              "diesem",
+              "dieser",
+              "diesem",
+              "diesen"
+            ],
+            [
+              "<b>Genitiv</b>",
+              "dieses",
+              "dieser",
+              "dieses",
+              "dieser"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Caso",
+            "Personas",
+            "Cosas"
+          ],
+          "rows": [
+            [
+              "<b>Nominativ</b>",
+              "wer?",
+              "was?"
+            ],
+            [
+              "<b>Akkusativ</b>",
+              "wen?",
+              "was?"
+            ],
+            [
+              "<b>Dativ</b>",
+              "wem?",
+              "—"
+            ],
+            [
+              "<b>Genitiv</b>",
+              "wessen?",
+              "wessen?"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.20",
+      "title": "Palabras interrogativas",
+      "level": "A1",
+      "rule": "Las W-Fragen llevan la palabra interrogativa en <b>posición 1</b> y el verbo en la 2. Las preguntas de sí/no empiezan por el verbo.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Palabra",
+            "Significado",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "<b>wer</b>",
+              "quién",
+              "Wer ist das?"
+            ],
+            [
+              "<b>was</b>",
+              "qué",
+              "Was machst du?"
+            ],
+            [
+              "<b>wo</b>",
+              "dónde",
+              "Wo wohnst du?"
+            ],
+            [
+              "<b>wohin</b>",
+              "adónde",
+              "Wohin fährst du?"
+            ],
+            [
+              "<b>woher</b>",
+              "de dónde",
+              "Woher kommst du?"
+            ],
+            [
+              "<b>wann</b>",
+              "cuándo",
+              "Wann kommst du?"
+            ],
+            [
+              "<b>warum</b>",
+              "por qué",
+              "Warum lernst du Deutsch?"
+            ],
+            [
+              "<b>wie</b>",
+              "cómo",
+              "Wie geht es dir?"
+            ],
+            [
+              "<b>wie viel / wie viele</b>",
+              "cuánto / cuántos",
+              "Wie viel kostet das?"
+            ],
+            [
+              "<b>welcher</b>",
+              "cuál, qué",
+              "Welches Buch meinst du?"
+            ],
+            [
+              "<b>wie lange</b>",
+              "cuánto tiempo",
+              "Wie lange dauert der Film?"
+            ],
+            [
+              "<b>wie oft</b>",
+              "con qué frecuencia",
+              "Wie oft gehst du ins Kino?"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.21",
+      "title": "Conectores: cómo cambian el orden de la frase",
+      "level": "B1",
+      "rule": "Tres familias, tres órdenes de palabras. Si dudas, pregúntate: ¿es un <b>ADUSO</b>? (no cambia nada). ¿Es un adverbio conector? (el verbo va justo después). ¿Es un subordinante? (el verbo se va <b>al final</b>).",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Tipo",
+            "Conectores",
+            "Orden del verbo"
+          ],
+          "rows": [
+            [
+              "<b>Coordinantes (ADUSO)</b>",
+              "aber, denn, und, sondern, oder",
+              "posición 0 → orden normal (V2)"
+            ],
+            [
+              "<b>Adverbios conectores</b>",
+              "deshalb, trotzdem, dann, danach, außerdem, sonst",
+              "ocupan la posición 1 → verbo justo después"
+            ],
+            [
+              "<b>Subordinantes</b>",
+              "weil, dass, wenn, als, obwohl, damit, ob, bevor, nachdem, während, seit, bis",
+              "verbo conjugado <b>al final</b> de la subordinada"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.22",
+      "title": "Los números cardinales",
+      "level": "A1",
+      "rule": "Del 13 al 19 se forman con la unidad + <i>-zehn</i> (<i>dreizehn, siebzehn</i>). En los compuestos se dice la <b>unidad primero</b>: 21 = <i>einundzwanzig</i> («uno y veinte»). Ojo a las irregularidades: <i>sechzehn, siebzehn, dreißig</i>.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "N.º",
+            "Alemán",
+            "N.º",
+            "Alemán"
+          ],
+          "rows": [
+            [
+              "0",
+              "null",
+              "11",
+              "elf"
+            ],
+            [
+              "1",
+              "eins",
+              "12",
+              "zwölf"
+            ],
+            [
+              "2",
+              "zwei",
+              "13",
+              "dreizehn"
+            ],
+            [
+              "3",
+              "drei",
+              "14",
+              "vierzehn"
+            ],
+            [
+              "4",
+              "vier",
+              "15",
+              "fünfzehn"
+            ],
+            [
+              "5",
+              "fünf",
+              "16",
+              "sechzehn"
+            ],
+            [
+              "6",
+              "sechs",
+              "17",
+              "siebzehn"
+            ],
+            [
+              "7",
+              "sieben",
+              "18",
+              "achtzehn"
+            ],
+            [
+              "8",
+              "acht",
+              "19",
+              "neunzehn"
+            ],
+            [
+              "9",
+              "neun",
+              "20",
+              "zwanzig"
+            ],
+            [
+              "10",
+              "zehn",
+              "21",
+              "einundzwanzig"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "N.º",
+            "Alemán",
+            "N.º",
+            "Alemán"
+          ],
+          "rows": [
+            [
+              "30",
+              "dreißig",
+              "100",
+              "(ein)hundert"
+            ],
+            [
+              "40",
+              "vierzig",
+              "200",
+              "zweihundert"
+            ],
+            [
+              "50",
+              "fünfzig",
+              "1.000",
+              "(ein)tausend"
+            ],
+            [
+              "60",
+              "sechzig",
+              "10.000",
+              "zehntausend"
+            ],
+            [
+              "70",
+              "siebzig",
+              "100.000",
+              "hunderttausend"
+            ],
+            [
+              "80",
+              "achtzig",
+              "1.000.000",
+              "eine Million"
+            ],
+            [
+              "90",
+              "neunzig",
+              "2.000.000",
+              "zwei Millionen"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.23",
+      "title": "Ordinales y fechas",
+      "level": "A2",
+      "rule": "Los ordinales llevan <b>-te</b> hasta el 19 y <b>-ste</b> desde el 20. Irregulares: <i>erste, dritte, siebte, achte</i>. Las fechas usan el ordinal con las preposiciones <b>am</b> (día) e <b>im</b> (mes): <i>am ersten Mai, im Mai</i>.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Cifra",
+            "Ordinal",
+            "Cifra",
+            "Ordinal"
+          ],
+          "rows": [
+            [
+              "1.",
+              "erste",
+              "11.",
+              "elfte"
+            ],
+            [
+              "2.",
+              "zweite",
+              "12.",
+              "zwölfte"
+            ],
+            [
+              "3.",
+              "dritte",
+              "19.",
+              "neunzehnte"
+            ],
+            [
+              "4.",
+              "vierte",
+              "20.",
+              "zwanzigste"
+            ],
+            [
+              "5.",
+              "fünfte",
+              "21.",
+              "einundzwanzigste"
+            ],
+            [
+              "6.",
+              "sechste",
+              "30.",
+              "dreißigste"
+            ],
+            [
+              "7.",
+              "siebte",
+              "31.",
+              "einunddreißigste"
+            ],
+            [
+              "8.",
+              "achte",
+              "",
+              ""
+            ],
+            [
+              "9.",
+              "neunte",
+              "",
+              ""
+            ],
+            [
+              "10.",
+              "zehnte",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Pregunta",
+            "Respuesta"
+          ],
+          "rows": [
+            [
+              "Der Wievielte ist heute?",
+              "Heute ist der dritte März."
+            ],
+            [
+              "Den Wievielten haben wir heute?",
+              "Heute haben wir den dritten März."
+            ],
+            [
+              "Wann hast du Geburtstag?",
+              "Ich habe am zwölften Mai Geburtstag."
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.24",
+      "title": "Días, meses y estaciones",
+      "level": "A1",
+      "rule": "Todos los días, meses y estaciones son <b>masculinos</b> (<i>der Montag, der Mai, der Sommer</i>), excepto <i>das Frühjahr</i>. Se usan con <b>am</b> (días), <b>im</b> (meses y estaciones): <i>am Montag, im Mai, im Sommer</i>.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Días",
+            "Meses",
+            "Estaciones"
+          ],
+          "rows": [
+            [
+              "Montag",
+              "Januar",
+              "Frühling"
+            ],
+            [
+              "Dienstag",
+              "Februar",
+              "Sommer"
+            ],
+            [
+              "Mittwoch",
+              "März",
+              "Herbst"
+            ],
+            [
+              "Donnerstag",
+              "April",
+              "Winter"
+            ],
+            [
+              "Freitag",
+              "Mai",
+              ""
+            ],
+            [
+              "Samstag / Sonnabend",
+              "Juni",
+              ""
+            ],
+            [
+              "Sonntag",
+              "Juli",
+              ""
+            ],
+            [
+              "",
+              "August",
+              ""
+            ],
+            [
+              "",
+              "September",
+              ""
+            ],
+            [
+              "",
+              "Oktober",
+              ""
+            ],
+            [
+              "",
+              "November",
+              ""
+            ],
+            [
+              "",
+              "Dezember",
+              ""
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.25",
+      "title": "La hora",
+      "level": "A1",
+      "rule": "En alemán hay dos formas: <b>oficial</b> (24 h, «acht Uhr fünfzehn») y <b>coloquial</b> (12 h, «Viertel nach acht»). Ojo con <b>halb</b>: <i>halb neun</i> = 8:30, es decir, «media hora hacia las nueve».",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Hora",
+            "Coloquial",
+            "Oficial"
+          ],
+          "rows": [
+            [
+              "8:00",
+              "acht Uhr",
+              "acht Uhr"
+            ],
+            [
+              "8:05",
+              "fünf nach acht",
+              "acht Uhr fünf"
+            ],
+            [
+              "8:15",
+              "Viertel nach acht",
+              "acht Uhr fünfzehn"
+            ],
+            [
+              "8:20",
+              "zwanzig nach acht / zehn vor halb neun",
+              "acht Uhr zwanzig"
+            ],
+            [
+              "8:30",
+              "halb neun",
+              "acht Uhr dreißig"
+            ],
+            [
+              "8:40",
+              "zwanzig vor neun / zehn nach halb neun",
+              "acht Uhr vierzig"
+            ],
+            [
+              "8:45",
+              "Viertel vor neun",
+              "acht Uhr fünfundvierzig"
+            ],
+            [
+              "8:55",
+              "fünf vor neun",
+              "acht Uhr fünfundfünfzig"
+            ],
+            [
+              "12:00",
+              "zwölf Uhr / Mittag",
+              "zwölf Uhr"
+            ],
+            [
+              "0:00",
+              "Mitternacht",
+              "null Uhr"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.26",
+      "title": "Cómo se forma el plural",
+      "level": "A2",
+      "rule": "El alemán tiene <b>cinco patrones</b> de plural. No se puede deducir del singular: aprende el sustantivo con su plural (<i>das Kind, die Kinder</i>). Algunas pistas: casi todos los femeninos añaden <b>-n/-en</b>; casi todos los neutros extranjeros, <b>-s</b>.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Patrón",
+            "Ejemplo",
+            "Pista"
+          ],
+          "rows": [
+            [
+              "<b>-e</b> (con o sin Umlaut)",
+              "der Hund → die Hunde · die Stadt → die Städte",
+              "muchos masculinos"
+            ],
+            [
+              "<b>-er</b> (con Umlaut)",
+              "das Kind → die Kinder · das Haus → die Häuser",
+              "muchos neutros"
+            ],
+            [
+              "<b>-n / -en</b>",
+              "die Frau → die Frauen · die Blume → die Blumen",
+              "casi todos los femeninos"
+            ],
+            [
+              "<b>-s</b>",
+              "das Auto → die Autos · das Hotel → die Hotels",
+              "préstamos"
+            ],
+            [
+              "<b>sin cambio</b> (a veces Umlaut)",
+              "der Lehrer → die Lehrer · der Apfel → die Äpfel",
+              "-er, -el, -en, -chen, -lein"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.27",
+      "title": "El género según la terminación",
+      "level": "A2",
+      "rule": "No existe una regla infalible, pero las <b>terminaciones</b> te dan el género correcto en más del 90 % de los casos. Memoriza estas y acertarás la gran mayoría.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Género",
+            "Terminaciones",
+            "Ejemplos"
+          ],
+          "rows": [
+            [
+              "<b>der</b>",
+              "-er (agentes), -ling, -ismus, -or, días/meses/estaciones",
+              "der Lehrer, der Frühling, der Tourismus, der Montag"
+            ],
+            [
+              "<b>die</b>",
+              "-ung, -heit, -keit, -schaft, -ion, -tät, -ie, -ik, -ei",
+              "die Zeitung, die Freiheit, die Möglichkeit, die Freundschaft, die Nation, die Universität, die Familie, die Politik, die Bäckerei"
+            ],
+            [
+              "<b>das</b>",
+              "-chen, -lein, -ment, -um, infinitivos sustantivados",
+              "das Mädchen, das Fräulein, das Instrument, das Museum, das Essen"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.28",
+      "title": "Sustantivos débiles (n-Deklination)",
+      "level": "B1",
+      "rule": "Un grupo de masculinos (personas y algunos animales) añade <b>-(e)n</b> en todos los casos excepto el Nominativ singular. Son los que ves con «den Studenten», «dem Kollegen».",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Nominativ",
+            "Akk / Dat",
+            "Genitiv",
+            "Significado"
+          ],
+          "rows": [
+            [
+              "der Student",
+              "den / dem Studenten",
+              "des Studenten",
+              "estudiante"
+            ],
+            [
+              "der Kollege",
+              "den / dem Kollegen",
+              "des Kollegen",
+              "colega"
+            ],
+            [
+              "der Junge",
+              "den / dem Jungen",
+              "des Jungen",
+              "chico"
+            ],
+            [
+              "der Mensch",
+              "den / dem Menschen",
+              "des Menschen",
+              "persona"
+            ],
+            [
+              "der Herr",
+              "den / dem Herrn",
+              "des Herrn",
+              "señor"
+            ],
+            [
+              "der Nachbar",
+              "den / dem Nachbarn",
+              "des Nachbarn",
+              "vecino"
+            ],
+            [
+              "der Kunde",
+              "den / dem Kunden",
+              "des Kunden",
+              "cliente"
+            ],
+            [
+              "der Polizist",
+              "den / dem Polizisten",
+              "des Polizisten",
+              "policía"
+            ],
+            [
+              "der Name",
+              "den / dem Namen",
+              "des Namens",
+              "nombre"
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.29",
+      "title": "Verbos reflexivos frecuentes",
+      "level": "A2",
+      "rule": "Van con el pronombre <b>sich</b> (mich, dich, sich, uns, euch, sich). Muchos son reflexivos en español también, pero otros no: <i>sich freuen</i> (alegrarse), <i>sich beeilen</i> (darse prisa).",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Verbo",
+            "Significado",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "sich waschen",
+              "lavarse",
+              "Ich wasche mich."
+            ],
+            [
+              "sich anziehen",
+              "vestirse",
+              "Er zieht sich an."
+            ],
+            [
+              "sich setzen",
+              "sentarse",
+              "Sie setzt sich."
+            ],
+            [
+              "sich treffen",
+              "quedar / encontrarse",
+              "Wir treffen uns um acht."
+            ],
+            [
+              "sich freuen",
+              "alegrarse",
+              "Ich freue mich auf dich."
+            ],
+            [
+              "sich beeilen",
+              "darse prisa",
+              "Beeil dich!"
+            ],
+            [
+              "sich erinnern",
+              "acordarse",
+              "Ich erinnere mich an ihn."
+            ],
+            [
+              "sich vorstellen",
+              "presentarse",
+              "Darf ich mich vorstellen?"
+            ],
+            [
+              "sich entscheiden",
+              "decidirse",
+              "Er entscheidet sich für Tee."
+            ],
+            [
+              "sich entschuldigen",
+              "disculparse",
+              "Ich entschuldige mich."
+            ],
+            [
+              "sich fühlen",
+              "sentirse",
+              "Wie fühlst du dich?"
+            ],
+            [
+              "sich langweilen",
+              "aburrirse",
+              "Er langweilt sich."
+            ]
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    {
+      "idx": "19.30",
+      "title": "Verbos separables frecuentes",
+      "level": "A2",
+      "rule": "La raíz se conjuga en posición 2 y el prefijo va <b>al final</b>. En Perfekt el <b>-ge-</b> se inserta entre prefijo y raíz. Con los verbos de movimiento y de cambio de estado el auxiliar es <b>sein</b>.",
+      "notes": [],
+      "examples": [],
+      "tables": [
+        {
+          "headers": [
+            "Infinitiv",
+            "3ª persona (presente)",
+            "Partizip II",
+            "Significado"
+          ],
+          "rows": [
+            [
+              "aufstehen",
+              "steht auf",
+              "<b>ist</b> aufgestanden",
+              "levantarse"
+            ],
+            [
+              "anrufen",
+              "ruft an",
+              "hat angerufen",
+              "llamar por teléfono"
+            ],
+            [
+              "einkaufen",
+              "kauft ein",
+              "hat eingekauft",
+              "hacer la compra"
+            ],
+            [
+              "mitkommen",
+              "kommt mit",
+              "<b>ist</b> mitgekommen",
+              "venir con"
+            ],
+            [
+              "abfahren",
+              "fährt ab",
+              "<b>ist</b> abgefahren",
+              "salir (vehículo)"
+            ],
+            [
+              "ankommen",
+              "kommt an",
+              "<b>ist</b> angekommen",
+              "llegar"
+            ],
+            [
+              "aussteigen",
+              "steigt aus",
+              "<b>ist</b> ausgestiegen",
+              "bajarse"
+            ],
+            [
+              "einsteigen",
+              "steigt ein",
+              "<b>ist</b> eingestiegen",
+              "subirse"
+            ],
+            [
+              "umsteigen",
+              "steigt um",
+              "<b>ist</b> umgestiegen",
+              "hacer transbordo"
+            ],
+            [
+              "fernsehen",
+              "sieht fern",
+              "hat ferngesehen",
+              "ver la tele"
+            ],
+            [
+              "aufhören",
+              "hört auf",
+              "hat aufgehört",
+              "dejar de"
+            ],
+            [
+              "anfangen",
+              "fängt an",
+              "hat angefangen",
+              "empezar"
+            ],
+            [
+              "zumachen",
+              "macht zu",
+              "hat zugemacht",
+              "cerrar"
+            ],
+            [
+              "aufmachen",
+              "macht auf",
+              "hat aufgemacht",
+              "abrir"
+            ],
+            [
+              "mitbringen",
+              "bringt mit",
+              "hat mitgebracht",
+              "traer consigo"
+            ],
+            [
+              "teilnehmen",
+              "nimmt teil",
+              "hat teilgenommen",
+              "participar"
+            ],
+            [
+              "stattfinden",
+              "findet statt",
+              "hat stattgefunden",
+              "tener lugar"
+            ]
           ]
         }
       ],

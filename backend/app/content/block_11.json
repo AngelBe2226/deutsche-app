@@ -4,9 +4,21 @@
   "kicker": "Bloque 11 · A2–B1",
   "intro": "Los verbos con prefijo son la firma del alemán: los <b class=\"hl\">trennbare</b> (separables) lanzan su prefijo <b class=\"hl\">al final de la frase</b>, los <b class=\"hl\">untrennbare</b> no se separan jamás. El prefijo cambia el significado por completo: <i>kommen</i> ≠ <i>ankommen</i> ≠ <i>bekommen</i>.",
   "legend": [
-    { "label": "verbo", "desc": "parte conjugada", "role": "verb" },
-    { "label": "prefijo separable", "desc": "vuela al final de la frase", "role": "sep" },
-    { "label": "conector", "desc": "subordinante", "role": "sub" }
+    {
+      "label": "verbo",
+      "desc": "parte conjugada",
+      "role": "verb"
+    },
+    {
+      "label": "prefijo separable",
+      "desc": "vuela al final de la frase",
+      "role": "sep"
+    },
+    {
+      "label": "conector",
+      "desc": "subordinante",
+      "role": "sub"
+    }
   ],
   "sections": [
     {
@@ -27,23 +39,150 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Ich stehe</span> jeden Tag um 7 Uhr <span class=\"r-sep\">auf</span>.", "es": "Me levanto cada día a las 7. (aufstehen)" },
-        { "en": "<span class=\"r-verb\">Der Zug kommt</span> um 18:30 <span class=\"r-sep\">an</span>.", "es": "El tren llega a las 18:30. (ankommen)" },
-        { "en": "<span class=\"r-verb\">Wir kaufen</span> am Samstag <span class=\"r-sep\">ein</span>.", "es": "Hacemos la compra el sábado. (einkaufen)" },
-        { "en": "<span class=\"r-verb\">Ich rufe</span> dich morgen <span class=\"r-sep\">an</span>.", "es": "Te llamo mañana. (anrufen)" },
-        { "en": "<span class=\"r-verb\">Ich muss</span> morgen früh <span class=\"r-sep\">aufstehen</span>.", "es": "Mañana tengo que madrugar. (con modal: junto, al final)" }
+        {
+          "en": "<span class=\"r-verb\">Ich stehe</span> jeden Tag um 7 Uhr <span class=\"r-sep\">auf</span>.",
+          "es": "Me levanto cada día a las 7. (aufstehen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Der Zug kommt</span> um 18:30 <span class=\"r-sep\">an</span>.",
+          "es": "El tren llega a las 18:30. (ankommen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir kaufen</span> am Samstag <span class=\"r-sep\">ein</span>.",
+          "es": "Hacemos la compra el sábado. (einkaufen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich rufe</span> dich morgen <span class=\"r-sep\">an</span>.",
+          "es": "Te llamo mañana. (anrufen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich muss</span> morgen früh <span class=\"r-sep\">aufstehen</span>.",
+          "es": "Mañana tengo que madrugar. (con modal: junto, al final)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich stehe</span> um sechs Uhr <span class=\"r-sep\">auf</span>.",
+          "es": "Me levanto a las seis. (aufstehen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er macht</span> die Tür <span class=\"r-sep\">zu</span>.",
+          "es": "Él cierra la puerta. (zumachen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie macht</span> das Fenster <span class=\"r-sep\">auf</span>.",
+          "es": "Ella abre la ventana. (aufmachen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir fahren</span> morgen früh <span class=\"r-sep\">ab</span>.",
+          "es": "Salimos mañana temprano. (abfahren)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Der Kurs fängt</span> um neun <span class=\"r-sep\">an</span>.",
+          "es": "El curso empieza a las nueve. (anfangen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich sehe</span> abends gern <span class=\"r-sep\">fern</span>.",
+          "es": "Por las noches veo la tele con gusto. (fernsehen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie kommt</span> heute Abend <span class=\"r-sep\">zurück</span>.",
+          "es": "Ella vuelve esta noche. (zurückkommen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er nimmt</span> uns im Auto <span class=\"r-sep\">mit</span>.",
+          "es": "Él nos lleva en el coche. (mitnehmen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich hole</span> dich am Bahnhof <span class=\"r-sep\">ab</span>.",
+          "es": "Te recojo en la estación. (abholen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir laden</span> euch zum Essen <span class=\"r-sep\">ein</span>.",
+          "es": "Os invitamos a comer. (einladen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie ruft</span> ihre Mutter jeden Tag <span class=\"r-sep\">an</span>.",
+          "es": "Ella llama a su madre cada día. (anrufen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Der Bus fährt</span> um acht <span class=\"r-sep\">ab</span>.",
+          "es": "El autobús sale a las ocho. (abfahren)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich räume</span> die Wohnung <span class=\"r-sep\">auf</span>.",
+          "es": "Ordeno el piso. (aufräumen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er zieht</span> nächste Woche <span class=\"r-sep\">um</span>.",
+          "es": "Él se muda la semana que viene. (umziehen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir steigen</span> in Köln <span class=\"r-sep\">um</span>.",
+          "es": "Hacemos transbordo en Colonia. (umsteigen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie steigt</span> an der Haltestelle <span class=\"r-sep\">aus</span>.",
+          "es": "Ella se baja en la parada. (aussteigen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich steige</span> in den Zug <span class=\"r-sep\">ein</span>.",
+          "es": "Subo al tren. (einsteigen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er schaltet</span> das Licht <span class=\"r-sep\">an</span>.",
+          "es": "Él enciende la luz. (anschalten)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie schaut</span> sich den Film <span class=\"r-sep\">an</span>.",
+          "es": "Ella ve la película. (sich ansehen/anschauen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich muss</span> noch <span class=\"r-sep\">einkaufen</span>.",
+          "es": "Todavía tengo que hacer la compra. (con modal: junto, al final)"
+        }
       ],
       "tables": [
         {
-          "headers": ["Verbo", "Significado", "Ejemplo"],
+          "headers": [
+            "Verbo",
+            "Significado",
+            "Ejemplo"
+          ],
           "rows": [
-            ["<b>auf</b>stehen", "levantarse", "Ich stehe auf."],
-            ["<b>an</b>kommen", "llegar", "Der Bus kommt an."],
-            ["<b>an</b>rufen", "llamar por teléfono", "Ich rufe dich an."],
-            ["<b>ein</b>kaufen", "hacer la compra", "Wir kaufen ein."],
-            ["<b>fern</b>sehen", "ver la tele", "Er sieht fern."],
-            ["<b>mit</b>bringen", "traer consigo", "Sie bringt Wein mit."],
-            ["<b>zurück</b>kommen", "volver", "Wann kommst du zurück?"]
+            [
+              "<b>auf</b>stehen",
+              "levantarse",
+              "Ich stehe auf."
+            ],
+            [
+              "<b>an</b>kommen",
+              "llegar",
+              "Der Bus kommt an."
+            ],
+            [
+              "<b>an</b>rufen",
+              "llamar por teléfono",
+              "Ich rufe dich an."
+            ],
+            [
+              "<b>ein</b>kaufen",
+              "hacer la compra",
+              "Wir kaufen ein."
+            ],
+            [
+              "<b>fern</b>sehen",
+              "ver la tele",
+              "Er sieht fern."
+            ],
+            [
+              "<b>mit</b>bringen",
+              "traer consigo",
+              "Sie bringt Wein mit."
+            ],
+            [
+              "<b>zurück</b>kommen",
+              "volver",
+              "Wann kommst du zurück?"
+            ]
           ]
         }
       ],
@@ -51,20 +190,152 @@
         {
           "id": "b11-s1q1",
           "question": "1. (aufmachen) Er <span class=\"blank\">___</span> das Fenster <span class=\"blank\">___</span>.",
-          "options": ["macht … auf", "aufmacht … —", "macht … zu"],
+          "options": [
+            "macht … auf",
+            "aufmacht … —",
+            "macht … zu"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b11-s1q2",
           "question": "2. «Te llamo esta noche.» →",
-          "options": ["Ich anrufe dich heute Abend.", "Ich rufe dich heute Abend an.", "Ich rufe an dich heute Abend."],
+          "options": [
+            "Ich anrufe dich heute Abend.",
+            "Ich rufe dich heute Abend an.",
+            "Ich rufe an dich heute Abend."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b11-s1q3",
           "question": "3. Con modal: «Tengo que hacer la compra.» →",
-          "options": ["Ich muss einkaufen.", "Ich muss kaufen ein.", "Ich einkaufen muss."],
+          "options": [
+            "Ich muss einkaufen.",
+            "Ich muss kaufen ein.",
+            "Ich einkaufen muss."
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b11-s1q4",
+          "question": "4. (anfangen) Der Film <span class=\"blank\">___</span> um acht <span class=\"blank\">___</span>.",
+          "options": [
+            "fängt … an",
+            "anfängt … —",
+            "fängt … ab"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s1q5",
+          "question": "5. (einkaufen) Wir <span class=\"blank\">___</span> am Samstag <span class=\"blank\">___</span>.",
+          "options": [
+            "kaufen … auf",
+            "kaufen … ein",
+            "einkaufen … —"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s1q6",
+          "question": "6. (mitkommen) Kommst du <span class=\"blank\">___</span>?",
+          "options": [
+            "zu",
+            "mit",
+            "ein"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s1q7",
+          "question": "7. (aufstehen) Ich <span class=\"blank\">___</span> früh <span class=\"blank\">___</span>.",
+          "options": [
+            "aufstehe … —",
+            "stehe … an",
+            "stehe … auf"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s1q8",
+          "question": "8. (abholen) Ich <span class=\"blank\">___</span> dich um drei <span class=\"blank\">___</span>.",
+          "options": [
+            "abhole … —",
+            "hole … ab",
+            "hole … aus"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s1q9",
+          "question": "9. (zumachen) Er <span class=\"blank\">___</span> die Tür <span class=\"blank\">___</span>.",
+          "options": [
+            "zumacht … —",
+            "macht … zu",
+            "macht … auf"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s1q10",
+          "question": "10. (fernsehen) Sie <span class=\"blank\">___</span> jeden Abend <span class=\"blank\">___</span>.",
+          "options": [
+            "sieht … ein",
+            "sieht … fern",
+            "fernsieht … —"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s1q11",
+          "question": "11. (ankommen) Der Zug <span class=\"blank\">___</span> um neun <span class=\"blank\">___</span>.",
+          "options": [
+            "kommt … ab",
+            "ankommt … —",
+            "kommt … an"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s1q12",
+          "question": "12. ¿Cuál es correcta?",
+          "options": [
+            "Ich anrufe dich morgen.",
+            "Ich rufe dich morgen an.",
+            "Ich rufe an dich morgen."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s1q13",
+          "question": "13. Con modal: «Tengo que llamarte.» →",
+          "options": [
+            "Ich muss dich rufen an.",
+            "Ich muss anrufen dich.",
+            "Ich muss dich anrufen."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s1q14",
+          "question": "14. (einladen) «Os invitamos.» →",
+          "options": [
+            "Wir laden euch ein.",
+            "Wir laden ein euch.",
+            "Wir einladen euch."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s1q15",
+          "question": "15. ¿Dónde va el prefijo en presente?",
+          "options": [
+            "Pegado a la raíz",
+            "En posición 1",
+            "Al final de la frase"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -86,29 +357,253 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Ich bin</span> heute um 6 Uhr <span class=\"r-sep\">aufgestanden</span>.", "es": "Hoy me he levantado a las 6. (Perfekt: auf-ge-standen)" },
-        { "en": "<span class=\"r-verb\">Wir haben</span> alles <span class=\"r-sep\">eingekauft</span>.", "es": "Lo hemos comprado todo." },
-        { "en": "Es ist schwer, früh <span class=\"r-sep\">aufzustehen</span>.", "es": "Es difícil madrugar. (auf-zu-stehen)" },
-        { "en": "Ich weiß, <span class=\"r-sub\">dass</span> du morgen <span class=\"r-sep\">zurückkommst</span>.", "es": "Sé que vuelves mañana. (subordinada: junto al final)" }
+        {
+          "en": "<span class=\"r-verb\">Ich bin</span> heute um 6 Uhr <span class=\"r-sep\">aufgestanden</span>.",
+          "es": "Hoy me he levantado a las 6. (Perfekt: auf-ge-standen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir haben</span> alles <span class=\"r-sep\">eingekauft</span>.",
+          "es": "Lo hemos comprado todo."
+        },
+        {
+          "en": "Es ist schwer, früh <span class=\"r-sep\">aufzustehen</span>.",
+          "es": "Es difícil madrugar. (auf-zu-stehen)"
+        },
+        {
+          "en": "Ich weiß, <span class=\"r-sub\">dass</span> du morgen <span class=\"r-sep\">zurückkommst</span>.",
+          "es": "Sé que vuelves mañana. (subordinada: junto al final)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich habe</span> dich gestern <span class=\"r-sep\">angerufen</span>.",
+          "es": "Ayer te llamé. (an-ge-rufen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er ist</span> spät <span class=\"r-sep\">aufgestanden</span>.",
+          "es": "Se levantó tarde. (auf-ge-standen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir haben</span> Brot <span class=\"r-sep\">eingekauft</span>.",
+          "es": "Hemos comprado pan. (ein-ge-kauft)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie ist</span> um acht <span class=\"r-sep\">abgefahren</span>.",
+          "es": "Ella salió a las ocho. (ab-ge-fahren)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Der Film hat</span> um acht <span class=\"r-sep\">angefangen</span>.",
+          "es": "La película empezó a las ocho. (an-ge-fangen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich habe</span> das Fenster <span class=\"r-sep\">aufgemacht</span>.",
+          "es": "He abierto la ventana. (auf-ge-macht)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er hat</span> den Fernseher <span class=\"r-sep\">ausgeschaltet</span>.",
+          "es": "Él ha apagado el televisor. (aus-ge-schaltet)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie sind</span> in Köln <span class=\"r-sep\">umgestiegen</span>.",
+          "es": "Hicieron transbordo en Colonia. (um-ge-stiegen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir haben</span> sie am Bahnhof <span class=\"r-sep\">abgeholt</span>.",
+          "es": "La recogimos en la estación. (ab-ge-holt)"
+        },
+        {
+          "en": "Es ist wichtig, pünktlich <span class=\"r-sep\">anzukommen</span>.",
+          "es": "Es importante llegar puntual. (an-zu-kommen)"
+        },
+        {
+          "en": "Ich habe keine Lust, früh <span class=\"r-sep\">aufzustehen</span>.",
+          "es": "No tengo ganas de madrugar. (auf-zu-stehen)"
+        },
+        {
+          "en": "Vergiss nicht, das Licht <span class=\"r-sep\">auszumachen</span>.",
+          "es": "No olvides apagar la luz. (aus-zu-machen)"
+        },
+        {
+          "en": "Er hat vergessen, mich <span class=\"r-sep\">anzurufen</span>.",
+          "es": "Se ha olvidado de llamarme. (an-zu-rufen)"
+        },
+        {
+          "en": "Ich habe vor, morgen <span class=\"r-sep\">einzukaufen</span>.",
+          "es": "Pienso hacer la compra mañana. (ein-zu-kaufen)"
+        },
+        {
+          "en": "Ich weiß, <span class=\"r-sub\">dass</span> er morgen <span class=\"r-sep\">abfährt</span>.",
+          "es": "Sé que sale mañana. (subordinada: junto al final)"
+        },
+        {
+          "en": "Sie sagt, <span class=\"r-sub\">dass</span> sie um acht <span class=\"r-sep\">aufsteht</span>.",
+          "es": "Dice que se levanta a las ocho."
+        },
+        {
+          "en": "Ich bleibe zu Hause, <span class=\"r-sub\">weil</span> ich heute Abend <span class=\"r-sep\">fernsehe</span>.",
+          "es": "Me quedo en casa porque esta noche veo la tele."
+        },
+        {
+          "en": "Er ruft an, <span class=\"r-sub\">weil</span> er dich <span class=\"r-sep\">abholen</span> <span class=\"r-verb\">will</span>.",
+          "es": "Llama porque quiere recogerte."
+        },
+        {
+          "en": "Wenn du <span class=\"r-sep\">mitkommst</span>, <span class=\"r-verb\">freue</span> ich mich.",
+          "es": "Si vienes, me alegro."
+        },
+        {
+          "en": "Sie freut sich, <span class=\"r-sub\">dass</span> du <span class=\"r-sep\">mitkommst</span>.",
+          "es": "Ella se alegra de que vengas."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b11-s2q1",
           "question": "1. Perfekt de «anrufen»: Ich habe dich gestern <span class=\"blank\">___</span>.",
-          "options": ["geanruft", "angerufen", "anrufen"],
+          "options": [
+            "geanruft",
+            "angerufen",
+            "anrufen"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b11-s2q2",
           "question": "2. «Intento levantarme temprano.» → Ich versuche, früh <span class=\"blank\">___</span>.",
-          "options": ["zu aufstehen", "aufzustehen", "auf zu stehen"],
+          "options": [
+            "zu aufstehen",
+            "aufzustehen",
+            "auf zu stehen"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b11-s2q3",
           "question": "3. «…porque el tren sale a las 9.» → …, weil der Zug um 9 <span class=\"blank\">___</span>.",
-          "options": ["fährt ab", "abfährt", "ab fährt"],
+          "options": [
+            "fährt ab",
+            "abfährt",
+            "ab fährt"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s2q4",
+          "question": "4. Perfekt de «einkaufen»: Wir haben <span class=\"blank\">___</span>.",
+          "options": [
+            "geeinkauft",
+            "einkaufen",
+            "eingekauft"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s2q5",
+          "question": "5. Perfekt de «aufmachen»: Er hat die Tür <span class=\"blank\">___</span>.",
+          "options": [
+            "geaufmacht",
+            "aufgemacht",
+            "aufmachen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s2q6",
+          "question": "6. Perfekt de «abfahren»: Der Zug ist <span class=\"blank\">___</span>.",
+          "options": [
+            "abgefahren",
+            "abfahren",
+            "geabfahren"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s2q7",
+          "question": "7. Perfekt de «mitkommen»: Sie ist <span class=\"blank\">___</span>.",
+          "options": [
+            "mitgekommen",
+            "mitkommen",
+            "gemitkommen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s2q8",
+          "question": "8. Perfekt de «fernsehen»: Ich habe <span class=\"blank\">___</span>.",
+          "options": [
+            "gefernsehen",
+            "ferngesehen",
+            "ferngeseht"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s2q9",
+          "question": "9. «Es difícil levantarse.» → Es ist schwer, <span class=\"blank\">___</span>.",
+          "options": [
+            "aufzustehen",
+            "zu aufstehen",
+            "auf zustehen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s2q10",
+          "question": "10. «No olvides llamar.» → Vergiss nicht, <span class=\"blank\">___</span>.",
+          "options": [
+            "anzurufen",
+            "an zurufen",
+            "zu anrufen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s2q11",
+          "question": "11. «Tengo que comprar.» (infinitivo con zu) → Ich habe keine Zeit, <span class=\"blank\">___</span>.",
+          "options": [
+            "einzukaufen",
+            "ein zu kaufen",
+            "zu einkaufen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s2q12",
+          "question": "12. «Sé que llega mañana.» → Ich weiß, dass er morgen <span class=\"blank\">___</span>.",
+          "options": [
+            "ankommt",
+            "kommt an",
+            "an kommt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s2q13",
+          "question": "13. «…porque abre a las nueve.» → …, weil es um neun <span class=\"blank\">___</span>.",
+          "options": [
+            "macht auf",
+            "auf macht",
+            "aufmacht"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s2q14",
+          "question": "14. Perfekt de «anrufen»: Ich habe dich <span class=\"blank\">___</span>.",
+          "options": [
+            "geanrufen",
+            "angerufen",
+            "anrufen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s2q15",
+          "question": "15. Perfekt de «aussteigen»: Wir sind <span class=\"blank\">___</span>.",
+          "options": [
+            "geaussteigen",
+            "ausgestiegen",
+            "aussteigen"
+          ],
           "correctIndex": 1
         }
       ],
@@ -136,24 +631,164 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Ich besuche</span> meine Oma am Sonntag.", "es": "Visito a mi abuela el domingo." },
-        { "en": "<span class=\"r-verb\">Verstehst</span> du die Frage?", "es": "¿Entiendes la pregunta?" },
-        { "en": "<span class=\"r-verb\">Ich habe</span> ein Paket <span class=\"r-sep\">bekommen</span>.", "es": "He recibido un paquete. (Partizip sin ge-)" },
-        { "en": "<span class=\"r-verb\">Sie hat</span> mir das Restaurant <span class=\"r-sep\">empfohlen</span>.", "es": "Ella me recomendó el restaurante." },
-        { "en": "<span class=\"r-verb\">Er erklärt</span> die Grammatik sehr gut.", "es": "Él explica muy bien la gramática." }
+        {
+          "en": "<span class=\"r-verb\">Ich besuche</span> meine Oma am Sonntag.",
+          "es": "Visito a mi abuela el domingo."
+        },
+        {
+          "en": "<span class=\"r-verb\">Verstehst</span> du die Frage?",
+          "es": "¿Entiendes la pregunta?"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich habe</span> ein Paket <span class=\"r-sep\">bekommen</span>.",
+          "es": "He recibido un paquete. (Partizip sin ge-)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie hat</span> mir das Restaurant <span class=\"r-sep\">empfohlen</span>.",
+          "es": "Ella me recomendó el restaurante."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er erklärt</span> die Grammatik sehr gut.",
+          "es": "Él explica muy bien la gramática."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich bekomme</span> ein Paket.",
+          "es": "Recibo un paquete."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er besucht</span> seine Eltern.",
+          "es": "Él visita a sus padres."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie versteht</span> die Aufgabe.",
+          "es": "Ella entiende la tarea."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir erklären</span> die Regel.",
+          "es": "Explicamos la regla."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich vergesse</span> immer meinen Schlüssel.",
+          "es": "Siempre olvido mi llave."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er verkauft</span> sein Auto.",
+          "es": "Él vende su coche."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie empfiehlt</span> uns das Hotel.",
+          "es": "Ella nos recomienda el hotel."
+        },
+        {
+          "en": "<span class=\"r-verb\">Du gefällst</span> mir.",
+          "es": "Me gustas."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich habe</span> das Buch <span class=\"r-sep\">verstanden</span>.",
+          "es": "He entendido el libro. (ver- → sin ge-)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er hat</span> den Zug <span class=\"r-sep\">verpasst</span>.",
+          "es": "Él ha perdido el tren."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir haben</span> ein Zimmer <span class=\"r-sep\">bestellt</span>.",
+          "es": "Hemos reservado una habitación."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie hat</span> mich <span class=\"r-sep\">besucht</span>.",
+          "es": "Ella me ha visitado."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich habe</span> die Tür <span class=\"r-sep\">zerstört</span>.",
+          "es": "He destrozado la puerta. (zer- → sin ge-)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er hat</span> das Geschenk <span class=\"r-sep\">bekommen</span>.",
+          "es": "Él ha recibido el regalo."
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir haben</span> alles <span class=\"r-sep\">erklärt</span>.",
+          "es": "Lo hemos explicado todo."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie hat</span> ihren Schlüssel <span class=\"r-sep\">verloren</span>.",
+          "es": "Ella ha perdido su llave."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich habe</span> den Film <span class=\"r-sep\">empfohlen</span>.",
+          "es": "He recomendado la película."
+        },
+        {
+          "en": "<span class=\"r-verb\">Er hat</span> ein Haus <span class=\"r-sep\">gebaut</span>.",
+          "es": "Él ha construido una casa. (bauen: sin prefijo → ge-)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir haben</span> die Lektion <span class=\"r-sep\">wiederholt</span>.",
+          "es": "Hemos repetido la lección."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich habe</span> dich nicht <span class=\"r-sep\">erkannt</span>.",
+          "es": "No te he reconocido."
+        }
       ],
       "tables": [
         {
-          "headers": ["Prefijo", "Ejemplo", "Significado", "Partizip II"],
+          "headers": [
+            "Prefijo",
+            "Ejemplo",
+            "Significado",
+            "Partizip II"
+          ],
           "rows": [
-            ["be-", "besuchen", "visitar", "besucht"],
-            ["emp-", "empfehlen", "recomendar", "empfohlen"],
-            ["ent-", "entdecken", "descubrir", "entdeckt"],
-            ["er-", "erklären", "explicar", "erklärt"],
-            ["ge-", "gefallen", "gustar", "gefallen"],
-            ["miss-", "missverstehen", "malinterpretar", "missverstanden"],
-            ["ver-", "verstehen", "entender", "verstanden"],
-            ["zer-", "zerbrechen", "romper en pedazos", "zerbrochen"]
+            [
+              "be-",
+              "besuchen",
+              "visitar",
+              "besucht"
+            ],
+            [
+              "emp-",
+              "empfehlen",
+              "recomendar",
+              "empfohlen"
+            ],
+            [
+              "ent-",
+              "entdecken",
+              "descubrir",
+              "entdeckt"
+            ],
+            [
+              "er-",
+              "erklären",
+              "explicar",
+              "erklärt"
+            ],
+            [
+              "ge-",
+              "gefallen",
+              "gustar",
+              "gefallen"
+            ],
+            [
+              "miss-",
+              "missverstehen",
+              "malinterpretar",
+              "missverstanden"
+            ],
+            [
+              "ver-",
+              "verstehen",
+              "entender",
+              "verstanden"
+            ],
+            [
+              "zer-",
+              "zerbrechen",
+              "romper en pedazos",
+              "zerbrochen"
+            ]
           ]
         }
       ],
@@ -161,13 +796,21 @@
         {
           "id": "b11-s3q1",
           "question": "1. Perfekt de «verstehen»: Ich habe alles <span class=\"blank\">___</span>.",
-          "options": ["geverstanden", "verstanden", "verstehen"],
+          "options": [
+            "geverstanden",
+            "verstanden",
+            "verstehen"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b11-s3q2",
           "question": "2. ¿Cuál es correcta?",
-          "options": ["Ich suche dich morgen be.", "Ich besuche dich morgen.", "Ich buche dich morgen se."],
+          "options": [
+            "Ich suche dich morgen be.",
+            "Ich besuche dich morgen.",
+            "Ich buche dich morgen se."
+          ],
           "correctIndex": 1
         },
         {
@@ -177,6 +820,126 @@
             "Porque es un verbo fuerte",
             "Porque be- es prefijo inseparable átono",
             "Porque termina en -en"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s3q4",
+          "question": "4. Perfekt de «bekommen»: Ich habe ein Geschenk <span class=\"blank\">___</span>.",
+          "options": [
+            "bekommen",
+            "gebekommen",
+            "bekommt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s3q5",
+          "question": "5. Perfekt de «erklären»: Er hat es <span class=\"blank\">___</span>.",
+          "options": [
+            "erklären",
+            "geerklärt",
+            "erklärt"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s3q6",
+          "question": "6. Perfekt de «verkaufen»: Sie hat das Auto <span class=\"blank\">___</span>.",
+          "options": [
+            "verkaufen",
+            "geverkauft",
+            "verkauft"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s3q7",
+          "question": "7. Perfekt de «vergessen»: Ich habe es <span class=\"blank\">___</span>.",
+          "options": [
+            "vergessen",
+            "vergessene",
+            "gevergessen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s3q8",
+          "question": "8. Perfekt de «besuchen»: Wir haben ihn <span class=\"blank\">___</span>.",
+          "options": [
+            "gebesucht",
+            "besuchen",
+            "besucht"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s3q9",
+          "question": "9. Perfekt de «gehören»: Das hat mir <span class=\"blank\">___</span>.",
+          "options": [
+            "gehören",
+            "gegehört",
+            "gehört"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s3q10",
+          "question": "10. Perfekt de «empfehlen»: Er hat es <span class=\"blank\">___</span>.",
+          "options": [
+            "empfohlen",
+            "empfehlt",
+            "geempfohlen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s3q11",
+          "question": "11. Perfekt de «verlieren»: Sie hat ihn <span class=\"blank\">___</span>.",
+          "options": [
+            "geverloren",
+            "verlieren",
+            "verloren"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s3q12",
+          "question": "12. Perfekt de «verstehen»: Habt ihr das <span class=\"blank\">___</span>?",
+          "options": [
+            "verstanden",
+            "verstehen",
+            "geverstanden"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s3q13",
+          "question": "13. ¿Cuál es correcta?",
+          "options": [
+            "Ich buche dich morgen su.",
+            "Ich besuche dich morgen.",
+            "Ich suche dich morgen be."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s3q14",
+          "question": "14. ¿Cuál es correcta?",
+          "options": [
+            "Er ist mich besucht.",
+            "Er hat mich gebesucht.",
+            "Er hat mich besucht."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s3q15",
+          "question": "15. Los prefijos be-, ver-, er-, ent-… son…",
+          "options": [
+            "opcionales",
+            "inseparables",
+            "separables"
           ],
           "correctIndex": 1
         }
@@ -200,30 +963,254 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Wir ziehen</span> nächsten Monat <span class=\"r-sep\">um</span>.", "es": "Nos mudamos el mes que viene. (literal → separable)" },
-        { "en": "<span class=\"r-verb\">Sie übersetzt</span> den Text ins Spanische.", "es": "Ella traduce el texto al español. (figurado → inseparable)" },
-        { "en": "<span class=\"r-verb\">Er wiederholt</span> die Lektion.", "es": "Él repite la lección. (wiederholen, inseparable)" },
-        { "en": "<span class=\"r-verb\">Ich hole</span> das Buch <span class=\"r-sep\">wieder</span>.", "es": "Recojo el libro de nuevo. (wieder|holen, separable: volver a por algo)" }
+        {
+          "en": "<span class=\"r-verb\">Wir ziehen</span> nächsten Monat <span class=\"r-sep\">um</span>.",
+          "es": "Nos mudamos el mes que viene. (literal → separable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie übersetzt</span> den Text ins Spanische.",
+          "es": "Ella traduce el texto al español. (figurado → inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er wiederholt</span> die Lektion.",
+          "es": "Él repite la lección. (wiederholen, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich hole</span> das Buch <span class=\"r-sep\">wieder</span>.",
+          "es": "Recojo el libro de nuevo. (wieder|holen, separable: volver a por algo)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir ziehen</span> im Mai <span class=\"r-sep\">um</span>.",
+          "es": "Nos mudamos en mayo. (umziehen, literal → separable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie ziehen</span> sich <span class=\"r-sep\">um</span>.",
+          "es": "Se cambian de ropa. (sich umziehen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er steigt</span> in Frankfurt <span class=\"r-sep\">um</span>.",
+          "es": "Él hace transbordo en Fráncfort. (umsteigen)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich übersetze</span> den Brief ins Deutsche.",
+          "es": "Traduzco la carta al alemán. (figurado → inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er setzt</span> uns mit dem Boot <span class=\"r-sep\">über</span>.",
+          "es": "Él nos pasa en barco al otro lado. (literal → separable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie überlegt</span> lange.",
+          "es": "Ella reflexiona mucho. (überlegen, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich überweise</span> das Geld morgen.",
+          "es": "Transfiero el dinero mañana. (überweisen, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er unterschreibt</span> den Vertrag.",
+          "es": "Él firma el contrato. (unterschreiben, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir unterhalten</span> uns.",
+          "es": "Conversamos. (sich unterhalten, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie durchsucht</span> das Zimmer.",
+          "es": "Ella registra la habitación. (durchsuchen, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Der Zug fährt</span> nicht <span class=\"r-sep\">durch</span>.",
+          "es": "El tren no pasa sin parar. (durchfahren, separable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich wiederhole</span> das Wort.",
+          "es": "Repito la palabra. (wiederholen, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er holt</span> das Buch <span class=\"r-sep\">wieder</span>.",
+          "es": "Él vuelve a recoger el libro. (wiederholen, separable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie umarmt</span> ihren Freund.",
+          "es": "Ella abraza a su novio. (umarmen, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er dreht</span> sich <span class=\"r-sep\">um</span>.",
+          "es": "Él se da la vuelta. (sich umdrehen, separable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich untersuche</span> das Problem.",
+          "es": "Investigo el problema. (untersuchen, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Wir übernachten</span> in einem Hotel.",
+          "es": "Pasamos la noche en un hotel. (übernachten, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sie überrascht</span> mich.",
+          "es": "Ella me sorprende. (überraschen, inseparable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Er schreibt</span> den Text <span class=\"r-sep\">um</span>.",
+          "es": "Él reescribe el texto. (umschreiben, separable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ich unterbreche</span> dich nicht.",
+          "es": "No te interrumpo. (unterbrechen, inseparable)"
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b11-s4q1",
           "question": "1. «Nos mudamos a Colonia.» →",
-          "options": ["Wir umziehen nach Köln.", "Wir ziehen nach Köln um.", "Wir ziehen um nach Köln um."],
+          "options": [
+            "Wir umziehen nach Köln.",
+            "Wir ziehen nach Köln um.",
+            "Wir ziehen um nach Köln um."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b11-s4q2",
           "question": "2. «Ella traduce la novela.» →",
-          "options": ["Sie setzt die Novelle über.", "Sie übersetzt den Roman.", "Sie setzt über den Roman."],
+          "options": [
+            "Sie setzt die Novelle über.",
+            "Sie übersetzt den Roman.",
+            "Sie setzt über den Roman."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b11-s4q3",
           "question": "3. El truco para distinguirlos es…",
-          "options": ["la vocal del prefijo", "el acento: literal-acentuado-separable / figurado-átono-inseparable", "la longitud del verbo"],
+          "options": [
+            "la vocal del prefijo",
+            "el acento: literal-acentuado-separable / figurado-átono-inseparable",
+            "la longitud del verbo"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b11-s4q4",
+          "question": "4. «Nos mudamos.» →",
+          "options": [
+            "Wir umziehen.",
+            "Wir ziehen um um.",
+            "Wir ziehen um."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s4q5",
+          "question": "5. «Traduzco.» →",
+          "options": [
+            "Ich übersetze.",
+            "Ich übersetz.",
+            "Ich setze über."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s4q6",
+          "question": "6. «Firma aquí.» (él firma) →",
+          "options": [
+            "Er schreibt hier unter.",
+            "Er unterschreibt hier.",
+            "Er unterschreibt unter."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s4q7",
+          "question": "7. «Me quedo a dormir.» →",
+          "options": [
+            "Ich übernachte über.",
+            "Ich übernachte hier.",
+            "Ich nachte hier über."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s4q8",
+          "question": "8. Perfekt de «übersetzen» (traducir)",
+          "options": [
+            "ge-übersetzt",
+            "übergesetzt",
+            "übersetzt"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s4q9",
+          "question": "9. Perfekt de «umziehen» (mudarse)",
+          "options": [
+            "umzogen",
+            "umgezogen",
+            "geumzogen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s4q10",
+          "question": "10. Perfekt de «unterschreiben»",
+          "options": [
+            "unterschrieben",
+            "geunterschrieben",
+            "untergeschrieben"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s4q11",
+          "question": "11. Perfekt de «wiederholen» (repetir)",
+          "options": [
+            "wiedergeholt",
+            "wiederholt",
+            "gewiederholt"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b11-s4q12",
+          "question": "12. Perfekt de «überraschen»",
+          "options": [
+            "überrascht",
+            "übergeraschen",
+            "geüberrascht"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s4q13",
+          "question": "13. Regla: significado literal (movimiento físico) →",
+          "options": [
+            "separable, acentuado",
+            "inseparable, átono",
+            "siempre inseparable"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b11-s4q14",
+          "question": "14. Regla: significado figurado →",
+          "options": [
+            "separable, acentuado",
+            "siempre separable",
+            "inseparable, átono"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b11-s4q15",
+          "question": "15. «Él se da la vuelta.» →",
+          "options": [
+            "Er dreht sich um.",
+            "Er dreht um sich.",
+            "Er umdreht sich."
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {

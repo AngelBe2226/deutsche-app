@@ -4,7 +4,7 @@ App de estudio de alemán, hermana de **Índice de Inglés** (misma filosofía
 pedagógica, contenido gramatical distinto): 18 bloques de gramática (reglas,
 ejemplos con roles de color por caso, tablas, quizzes y cajas de "escribe tu
 frase"), un Glosario de referencia (bloque 19) y un panel de práctica
-(bloque 20) con progreso agregado, flashcards de 40 Redewendungen y un
+(bloque 20) con progreso agregado, flashcards de 200 Redewendungen y un
 simulador de speaking cronometrado.
 
 - **Frontend:** React + Vite (`frontend/`)
@@ -49,7 +49,7 @@ frontend/
     progress.jsx       estado global de progreso (carga 1 vez, escribe al backend)
     components/        BlockPage, SectionCard, Quiz, ProduceBox, Table, RichText
     panels/            PracticePage, ProgressPanel, IdiomFlashcards, ExamSimulator
-    data/              idioms.js (40 Redewendungen), examPrompts.js (speaking)
+    data/              idioms.js (200 Redewendungen), examPrompts.js (speaking)
     styles/            tokens.css (design tokens + roles de caso), app.css
 ```
 

@@ -4,8 +4,16 @@
   "kicker": "Bloque 07 · B1",
   "intro": "Cuando una frase alemana acumula complementos, no van en cualquier orden: la regla <b class=\"hl\">TeKaMoLo</b> los ordena — <b class=\"hl\">Te</b>mporal (cuándo), <b class=\"hl\">Ka</b>usal (por qué), <b class=\"hl\">Mo</b>dal (cómo), <b class=\"hl\">Lo</b>kal (dónde). Y la negación <b class=\"hl\">nicht</b> tiene su propio sitio.",
   "legend": [
-    { "label": "verbo", "desc": "conjugado, 2ª posición", "role": "verb" },
-    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+    {
+      "label": "verbo",
+      "desc": "conjugado, 2ª posición",
+      "role": "verb"
+    },
+    {
+      "label": "sujeto",
+      "desc": "Nominativ",
+      "role": "nom"
+    }
   ],
   "sections": [
     {
@@ -26,16 +34,118 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">fahre</span> <b>morgen</b> <b>mit dem Zug</b> <b>nach Berlin</b>.", "es": "Mañana voy en tren a Berlín. (Te → Mo → Lo)" },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">bleibt</span> <b>heute</b> <b>wegen der Grippe</b> <b>zu Hause</b>.", "es": "Hoy se queda en casa por la gripe. (Te → Ka → Lo)" },
-        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">essen</span> <b>am Freitag</b> <b>gemütlich</b> <b>im Restaurant</b>.", "es": "El viernes comemos tranquilamente en el restaurante. (Te → Mo → Lo)" },
-        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">geht</span> <b>jeden Tag</b> <b>zu Fuß</b> <b>zur Arbeit</b>.", "es": "Ella va cada día a pie al trabajo." }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">fahre</span> <b>morgen</b> <b>mit dem Zug</b> <b>nach Berlin</b>.",
+          "es": "Mañana voy en tren a Berlín. (Te → Mo → Lo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">bleibt</span> <b>heute</b> <b>wegen der Grippe</b> <b>zu Hause</b>.",
+          "es": "Hoy se queda en casa por la gripe. (Te → Ka → Lo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">essen</span> <b>am Freitag</b> <b>gemütlich</b> <b>im Restaurant</b>.",
+          "es": "El viernes comemos tranquilamente en el restaurante. (Te → Mo → Lo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">geht</span> <b>jeden Tag</b> <b>zu Fuß</b> <b>zur Arbeit</b>.",
+          "es": "Ella va cada día a pie al trabajo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gehe</span> <b>heute</b> <b>mit meinem Freund</b> <b>ins Kino</b>.",
+          "es": "Hoy voy al cine con mi amigo. (Te → Mo → Lo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">fliegen</span> <b>im Sommer</b> <b>mit dem Flugzeug</b> <b>nach Spanien</b>.",
+          "es": "En verano volamos a España en avión."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> <b>morgen</b> <b>wegen der Party</b> <b>zu Hause</b>.",
+          "es": "Mañana trabaja en casa por la fiesta. (Te → Ka → Lo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">fährt</span> <b>jeden Morgen</b> <b>mit dem Bus</b> <b>zur Arbeit</b>.",
+          "es": "Ella va cada mañana en autobús al trabajo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">treffe</span> <b>am Samstag</b> <b>leider</b> <b>meine Eltern</b> <b>im Café</b>.",
+          "es": "El sábado, por desgracia, veo a mis padres en el café."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Kinder</span> <span class=\"r-verb\">spielen</span> <b>nachmittags</b> <b>gern</b> <b>im Park</b>.",
+          "es": "Por las tardes los niños juegan con gusto en el parque."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">wohnen</span> <b>seit Jahren</b> <b>glücklich</b> <b>in Berlin</b>.",
+          "es": "Vivimos felices en Berlín desde hace años."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kommt</span> <b>heute</b> <b>mit dem Zug</b> <b>nach Wien</b>.",
+          "es": "Hoy viaja en tren a Viena."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bleibe</span> <b>heute</b> <b>wegen des Wetters</b> <b>im Bett</b>.",
+          "es": "Hoy me quedo en la cama por el tiempo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">lernt</span> <b>abends</b> <b>fleißig</b> <b>in der Bibliothek</b>.",
+          "es": "Por las tardes estudia con esmero en la biblioteca."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">fahren</span> <b>im Herbst</b> <b>mit dem Auto</b> <b>in die Berge</b>.",
+          "es": "En otoño vamos en coche a la montaña."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Zug</span> <span class=\"r-verb\">kommt</span> <b>heute</b> <b>wegen eines Unfalls</b> <b>später</b> an.",
+          "es": "El tren llega hoy más tarde por un accidente."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">joggt</span> <b>jeden Tag</b> <b>schnell</b> <b>im Wald</b>.",
+          "es": "Ella corre rápido cada día en el bosque."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">fahre</span> <b>morgen</b> <b>mit dem Rad</b> <b>zur Uni</b>.",
+          "es": "Mañana voy en bici a la universidad."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">isst</span> <b>mittags</b> <b>schnell</b> <b>in der Kantine</b>.",
+          "es": "A mediodía come rápido en la cantina."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">steht</span> <b>morgens</b> <b>früh</b> <b>auf</b>.",
+          "es": "Por las mañanas se levanta temprano."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> <b>gestern</b> <b>zu Fuß</b> <b>zum Bahnhof</b> gegangen.",
+          "es": "Ayer fuimos a pie a la estación."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">reist</span> <b>nächstes Jahr</b> <b>allein</b> <b>nach Japan</b>.",
+          "es": "El año que viene viaja sola a Japón."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">warte</span> <b>seit einer Stunde</b> <b>ungeduldig</b> <b>am Bahnhof</b>.",
+          "es": "Llevo una hora esperando impaciente en la estación."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Gäste</span> <span class=\"r-verb\">kommen</span> <b>heute Abend</b> <b>mit dem Taxi</b> <b>zu uns</b>.",
+          "es": "Los invitados vienen esta noche en taxi a nuestra casa."
+        }
       ],
       "tables": [
         {
-          "headers": ["Te (cuándo)", "Ka (por qué)", "Mo (cómo)", "Lo (dónde)"],
+          "headers": [
+            "Te (cuándo)",
+            "Ka (por qué)",
+            "Mo (cómo)",
+            "Lo (dónde)"
+          ],
           "rows": [
-            ["morgen, um 8 Uhr, letzte Woche", "wegen der Arbeit, aus Angst", "mit dem Auto, schnell, gern", "nach Hause, im Park, dort"]
+            [
+              "morgen, um 8 Uhr, letzte Woche",
+              "wegen der Arbeit, aus Angst",
+              "mit dem Auto, schnell, gern",
+              "nach Hause, im Park, dort"
+            ]
           ]
         }
       ],
@@ -53,14 +163,142 @@
         {
           "id": "b07-s1q2",
           "question": "2. «Hoy me quedo en casa por la lluvia.» ¿Orden correcto tras el verbo?",
-          "options": ["zu Hause wegen des Regens heute", "heute wegen des Regens zu Hause", "wegen des Regens heute zu Hause"],
+          "options": [
+            "zu Hause wegen des Regens heute",
+            "heute wegen des Regens zu Hause",
+            "wegen des Regens heute zu Hause"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b07-s1q3",
           "question": "3. En TeKaMoLo, «mit dem Fahrrad» es un complemento…",
-          "options": ["temporal", "modal", "local"],
+          "options": [
+            "temporal",
+            "modal",
+            "local"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b07-s1q4",
+          "question": "4. ¿Cuál sigue TeKaMoLo?",
+          "options": [
+            "Ich fahre mit dem Bus morgen nach Köln.",
+            "Ich fahre morgen mit dem Bus nach Köln.",
+            "Ich fahre nach Köln morgen mit dem Bus."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s1q5",
+          "question": "5. ¿Cuál sigue TeKaMoLo?",
+          "options": [
+            "Wir bleiben wegen des Regens zu Hause heute.",
+            "Wir bleiben heute wegen des Regens zu Hause.",
+            "Wir bleiben zu Hause heute wegen des Regens."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s1q6",
+          "question": "6. «Wegen der Krankheit» es un complemento…",
+          "options": [
+            "causal",
+            "temporal",
+            "local"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s1q7",
+          "question": "7. «Im Park» es un complemento…",
+          "options": [
+            "modal",
+            "local",
+            "temporal"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s1q8",
+          "question": "8. «Gestern» es un complemento…",
+          "options": [
+            "causal",
+            "modal",
+            "temporal"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s1q9",
+          "question": "9. «Mit dem Auto» es un complemento…",
+          "options": [
+            "local",
+            "causal",
+            "modal"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s1q10",
+          "question": "10. ¿Cuál es el orden correcto?",
+          "options": [
+            "Te – Ka – Mo – Lo",
+            "Mo – Te – Lo – Ka",
+            "Lo – Mo – Ka – Te"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s1q11",
+          "question": "11. Sie geht <span class=\"blank\">___</span> ins Kino. (mañana, con su amiga)",
+          "options": [
+            "ins Kino morgen",
+            "morgen mit ihrer Freundin",
+            "mit ihrer Freundin morgen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s1q12",
+          "question": "12. Wir fahren <span class=\"blank\">___</span> nach Rom. (en verano, en tren)",
+          "options": [
+            "im Sommer mit dem Zug",
+            "mit dem Zug im Sommer",
+            "nach Rom im Sommer"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s1q13",
+          "question": "13. Er arbeitet <span class=\"blank\">___</span>. (hoy, en casa)",
+          "options": [
+            "zu Hause heute",
+            "zu Hause",
+            "heute zu Hause"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s1q14",
+          "question": "14. Sie lernt <span class=\"blank\">___</span> in der Bibliothek. (por la tarde, con esmero)",
+          "options": [
+            "in der Bibliothek abends",
+            "abends fleißig",
+            "fleißig abends"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s1q15",
+          "question": "15. ¿Qué va primero: lugar o tiempo?",
+          "options": [
+            "el tiempo (Te)",
+            "la causa (Ka)",
+            "el lugar (Lo)"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -87,21 +325,134 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">trinke</span> <b>immer</b> Kaffee zum Frühstück.", "es": "Siempre tomo café en el desayuno." },
-        { "en": "<b>Manchmal</b> <span class=\"r-verb\">gehen</span> <span class=\"r-nom\">wir</span> ins Kino.", "es": "A veces vamos al cine. (adverbio en posición 1 → inversión)" },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> <b>nie</b> pünktlich.", "es": "Él nunca es puntual." },
-        { "en": "<span class=\"r-verb\">Bist</span> <span class=\"r-nom\">du</span> <b>schon</b> fertig? — Nein, <b>noch nicht</b>.", "es": "¿Ya estás listo? — No, todavía no." }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">trinke</span> <b>immer</b> Kaffee zum Frühstück.",
+          "es": "Siempre tomo café en el desayuno."
+        },
+        {
+          "en": "<b>Manchmal</b> <span class=\"r-verb\">gehen</span> <span class=\"r-nom\">wir</span> ins Kino.",
+          "es": "A veces vamos al cine. (adverbio en posición 1 → inversión)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> <b>nie</b> pünktlich.",
+          "es": "Él nunca es puntual."
+        },
+        {
+          "en": "<span class=\"r-verb\">Bist</span> <span class=\"r-nom\">du</span> <b>schon</b> fertig? — Nein, <b>noch nicht</b>.",
+          "es": "¿Ya estás listo? — No, todavía no."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gehe</span> <b>oft</b> ins Kino.",
+          "es": "Voy a menudo al cine."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kommt</span> <b>selten</b> zu spät.",
+          "es": "Él llega rara vez tarde."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">isst</span> <b>immer</b> zu Hause.",
+          "es": "Ella siempre come en casa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">fahren</span> <b>manchmal</b> ans Meer.",
+          "es": "A veces vamos al mar."
+        },
+        {
+          "en": "<b>Oft</b> <span class=\"r-verb\">gehe</span> <span class=\"r-nom\">ich</span> ins Kino.",
+          "es": "A menudo voy al cine. (adverbio en posición 1 → inversión)"
+        },
+        {
+          "en": "<b>Immer</b> <span class=\"r-verb\">kommt</span> <span class=\"r-nom\">er</span> zu spät.",
+          "es": "Él siempre llega tarde."
+        },
+        {
+          "en": "<b>Heute</b> <span class=\"r-verb\">habe</span> <span class=\"r-nom\">ich</span> keine Zeit.",
+          "es": "Hoy no tengo tiempo."
+        },
+        {
+          "en": "<b>Morgen</b> <span class=\"r-verb\">fahren</span> <span class=\"r-nom\">wir</span> nach Berlin.",
+          "es": "Mañana vamos a Berlín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> <b>noch</b> keinen Hunger.",
+          "es": "Todavía no tengo hambre."
+        },
+        {
+          "en": "<span class=\"r-verb\">Hast</span> <span class=\"r-nom\">du</span> <b>schon</b> gegessen?",
+          "es": "¿Ya has comido?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">wohnt</span> <b>nicht mehr</b> hier.",
+          "es": "Él ya no vive aquí."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ist</span> <b>schon</b> wieder krank.",
+          "es": "Ella ya está enferma otra vez."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">war</span> <b>nie</b> in Japan.",
+          "es": "Nunca he estado en Japón."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">trinkt</span> <b>nie</b> Alkohol.",
+          "es": "Él nunca bebe alcohol."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sehen</span> uns <b>bald</b>.",
+          "es": "Nos vemos pronto."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">komme</span> <b>gleich</b>.",
+          "es": "Voy enseguida."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ruft</span> mich <b>fast</b> jeden Tag an.",
+          "es": "Ella me llama casi todos los días."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">regnet</span> <b>schon</b> seit Stunden.",
+          "es": "Llueve ya desde hace horas."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">lese</span> <b>abends</b> <b>oft</b> ein Buch.",
+          "es": "Por las noches suelo leer un libro."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">geht</span> <b>meistens</b> zu Fuß.",
+          "es": "Él suele ir a pie."
+        }
       ],
       "tables": [
         {
-          "headers": ["Frecuencia", "Significado"],
+          "headers": [
+            "Frecuencia",
+            "Significado"
+          ],
           "rows": [
-            ["immer", "siempre"],
-            ["fast immer / meistens", "casi siempre / la mayoría de las veces"],
-            ["oft", "a menudo"],
-            ["manchmal", "a veces"],
-            ["selten", "rara vez"],
-            ["nie", "nunca"]
+            [
+              "immer",
+              "siempre"
+            ],
+            [
+              "fast immer / meistens",
+              "casi siempre / la mayoría de las veces"
+            ],
+            [
+              "oft",
+              "a menudo"
+            ],
+            [
+              "manchmal",
+              "a veces"
+            ],
+            [
+              "selten",
+              "rara vez"
+            ],
+            [
+              "nie",
+              "nunca"
+            ]
           ]
         }
       ],
@@ -109,20 +460,152 @@
         {
           "id": "b07-s2q1",
           "question": "1. «Nunca como carne.» → Ich esse <span class=\"blank\">___</span> Fleisch.",
-          "options": ["nicht nie", "nie", "nie nicht"],
+          "options": [
+            "nicht nie",
+            "nie",
+            "nie nicht"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b07-s2q2",
           "question": "2. ¿Cuál es correcta con «oft»?",
-          "options": ["Ich oft gehe schwimmen.", "Ich gehe oft schwimmen.", "Oft ich gehe schwimmen."],
+          "options": [
+            "Ich oft gehe schwimmen.",
+            "Ich gehe oft schwimmen.",
+            "Oft ich gehe schwimmen."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b07-s2q3",
           "question": "3. «¿Sigues viviendo en Berlín? — Ya no.» → Nein, <span class=\"blank\">___</span>.",
-          "options": ["noch nicht", "nicht mehr", "nie mehr"],
+          "options": [
+            "noch nicht",
+            "nicht mehr",
+            "nie mehr"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b07-s2q4",
+          "question": "4. «Siempre llego a tiempo.» → Ich komme <span class=\"blank\">___</span> pünktlich.",
+          "options": [
+            "noch",
+            "immer",
+            "nie"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s2q5",
+          "question": "5. «A veces» en alemán es…",
+          "options": [
+            "manchmal",
+            "meistens",
+            "selten"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s2q6",
+          "question": "6. «Rara vez» en alemán es…",
+          "options": [
+            "oft",
+            "selten",
+            "bald"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s2q7",
+          "question": "7. «Nunca he estado en Rom.» → Ich war <span class=\"blank\">___</span> in Rom.",
+          "options": [
+            "nicht",
+            "nie",
+            "kein"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s2q8",
+          "question": "8. «¿Ya has terminado? — Todavía no.» → Nein, <span class=\"blank\">___</span> nicht.",
+          "options": [
+            "schon",
+            "mehr",
+            "noch"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s2q9",
+          "question": "9. «Ya no trabaja aquí.» → Er arbeitet <span class=\"blank\">___</span> hier.",
+          "options": [
+            "noch nicht",
+            "nicht mehr",
+            "nie mehr"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s2q10",
+          "question": "10. ¿Cuál es correcta?",
+          "options": [
+            "Ich gehe oft schwimmen.",
+            "Ich gehe schwimmen oft.",
+            "Ich oft gehe schwimmen."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s2q11",
+          "question": "11. ¿Cuál es correcta?",
+          "options": [
+            "Manchmal wir gehen ins Kino.",
+            "Manchmal gehen wir ins Kino.",
+            "Wir manchmal gehen ins Kino."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s2q12",
+          "question": "12. ¿Cuál es correcta?",
+          "options": [
+            "Er nie kommt zu spät.",
+            "Er kommt zu spät nie.",
+            "Er kommt nie zu spät."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s2q13",
+          "question": "13. «Pronto» en alemán es…",
+          "options": [
+            "gleich",
+            "schon",
+            "bald"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s2q14",
+          "question": "14. «Casi siempre» → <span class=\"blank\">___</span> immer",
+          "options": [
+            "noch",
+            "mehr",
+            "fast"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s2q15",
+          "question": "15. «Muy a menudo» → sehr <span class=\"blank\">___</span>",
+          "options": [
+            "oft",
+            "manchmal",
+            "selten"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -144,31 +627,258 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">verstehe</span> das <b>nicht</b>.", "es": "No entiendo esto. (negación total → al final)" },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kommt</span> heute <b>nicht</b>.", "es": "Él no viene hoy." },
-        { "en": "Das Zimmer <span class=\"r-verb\">ist</span> <b>nicht</b> groß.", "es": "La habitación no es grande. (delante del adjetivo)" },
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> den Film <b>nicht</b> gesehen.", "es": "No he visto la película. (delante del participio)" },
-        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">fahren</span> <b>nicht</b> nach Köln, sondern nach Bonn.", "es": "No vamos a Colonia, sino a Bonn. (negación de un elemento)" }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">verstehe</span> das <b>nicht</b>.",
+          "es": "No entiendo esto. (negación total → al final)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kommt</span> heute <b>nicht</b>.",
+          "es": "Él no viene hoy."
+        },
+        {
+          "en": "Das Zimmer <span class=\"r-verb\">ist</span> <b>nicht</b> groß.",
+          "es": "La habitación no es grande. (delante del adjetivo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> den Film <b>nicht</b> gesehen.",
+          "es": "No he visto la película. (delante del participio)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">fahren</span> <b>nicht</b> nach Köln, sondern nach Bonn.",
+          "es": "No vamos a Colonia, sino a Bonn. (negación de un elemento)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">weiß</span> das <b>nicht</b>.",
+          "es": "No lo sé."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> heute <b>nicht</b>.",
+          "es": "Él no trabaja hoy."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">kommt</span> <b>nicht</b> aus Spanien.",
+          "es": "Ella no es de España."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> <b>nicht</b> teuer.",
+          "es": "Eso no es caro."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bin</span> <b>nicht</b> müde.",
+          "es": "No estoy cansado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> <b>nicht</b> zu Hause.",
+          "es": "No estamos en casa. (delante del lugar)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> das Buch <b>nicht</b> gelesen.",
+          "es": "No he leído el libro. (delante del participio)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kann</span> <b>nicht</b> schwimmen.",
+          "es": "Él no sabe nadar. (delante del infinitivo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">steht</span> morgens <b>nicht</b> auf.",
+          "es": "Ella no se levanta por las mañanas. (delante del prefijo separable)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">mag</span> <b>nicht</b> Fisch, sondern Fleisch.",
+          "es": "No me gusta el pescado, sino la carne."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kommt</span> <b>nicht</b> heute, sondern morgen.",
+          "es": "Él viene no hoy, sino mañana. (negación de un elemento)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> <b>keine</b> Zeit.",
+          "es": "No tengo tiempo. (sustantivo sin artículo → kein)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">haben</span> <b>keinen</b> Hunger.",
+          "es": "No tenemos hambre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">fährt</span> <b>nicht</b> nach Berlin.",
+          "es": "Él no va a Berlín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> mich <b>nicht</b> angerufen.",
+          "es": "Ella no me ha llamado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">will</span> <b>nicht</b> warten.",
+          "es": "No quiero esperar."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das</span> <span class=\"r-verb\">stimmt</span> <b>nicht</b>.",
+          "es": "Eso no es verdad."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> <b>nicht</b> mein Freund.",
+          "es": "Él no es mi amigo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">liebt</span> ihn <b>nicht</b>.",
+          "es": "Ella no lo quiere."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">gehen</span> heute <b>nicht</b> ins Kino.",
+          "es": "Hoy no vamos al cine."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b07-s3q1",
           "question": "1. «No he entendido la pregunta.» → Ich habe die Frage <span class=\"blank\">___</span> verstanden.",
-          "options": ["nicht", "kein", "nie"],
+          "options": [
+            "nicht",
+            "kein",
+            "nie"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b07-s3q2",
           "question": "2. ¿Dónde va nicht? «Él no trabaja hoy.»",
-          "options": ["Er nicht arbeitet heute.", "Er arbeitet heute nicht.", "Er arbeitet nicht heute nicht."],
+          "options": [
+            "Er nicht arbeitet heute.",
+            "Er arbeitet heute nicht.",
+            "Er arbeitet nicht heute nicht."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b07-s3q3",
           "question": "3. «No tengo coche.» ¿Negación correcta?",
-          "options": ["Ich habe nicht ein Auto.", "Ich habe kein Auto.", "Ich habe nicht Auto."],
+          "options": [
+            "Ich habe nicht ein Auto.",
+            "Ich habe kein Auto.",
+            "Ich habe nicht Auto."
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b07-s3q4",
+          "question": "4. «No tengo tiempo.» → Ich habe <span class=\"blank\">___</span> Zeit.",
+          "options": [
+            "kein",
+            "nicht",
+            "keine"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s3q5",
+          "question": "5. «No entiendo eso.» → Ich verstehe das <span class=\"blank\">___</span>.",
+          "options": [
+            "kein",
+            "nicht",
+            "keine"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s3q6",
+          "question": "6. «No es difícil.» → Das ist <span class=\"blank\">___</span> schwer.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s3q7",
+          "question": "7. «No he dormido.» → Ich habe <span class=\"blank\">___</span> geschlafen.",
+          "options": [
+            "keine",
+            "kein",
+            "nicht"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s3q8",
+          "question": "8. «No puedo venir.» → Ich kann <span class=\"blank\">___</span> kommen.",
+          "options": [
+            "keine",
+            "kein",
+            "nicht"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b07-s3q9",
+          "question": "9. «No tengo hermanos.» → Ich habe <span class=\"blank\">___</span> Geschwister.",
+          "options": [
+            "keine",
+            "nicht",
+            "kein"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s3q10",
+          "question": "10. «No es un problema.» → Das ist <span class=\"blank\">___</span> Problem.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s3q11",
+          "question": "11. ¿Cuál es correcta?",
+          "options": [
+            "Ich nicht mag das.",
+            "Ich mag das nicht.",
+            "Ich mag nicht das."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s3q12",
+          "question": "12. ¿Cuál es correcta?",
+          "options": [
+            "Er nicht hat das gewusst.",
+            "Er hat das nicht gewusst.",
+            "Er hat nicht das gewusst."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b07-s3q13",
+          "question": "13. «No voy a Berlín, sino a Bonn.» → Ich fahre <span class=\"blank\">___</span> nach Berlin, <span class=\"blank\">___</span> nach Bonn.",
+          "options": [
+            "nicht … sondern",
+            "kein … aber",
+            "nicht … doch"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s3q14",
+          "question": "14. ¿Qué se niega con «nicht» y no con «kein»?",
+          "options": [
+            "verbos y adjetivos",
+            "sustantivos sin artículo",
+            "sustantivos con artículo indefinido"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b07-s3q15",
+          "question": "15. ¿Qué se niega con «kein»?",
+          "options": [
+            "Sie ist müde. → adjetivo",
+            "Ich schlafe. → verbo",
+            "Ich habe ein Auto. → sustantivo con ein"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {

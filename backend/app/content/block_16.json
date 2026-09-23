@@ -2,9 +2,13 @@
   "block": "16",
   "title": "Frases idiomáticas (Redewendungen)",
   "kicker": "Bloque 16 · B1–C1",
-  "intro": "Las <b class=\"hl\">Redewendungen</b> son la sal del alemán hablado: no se traducen literalmente («entiendo solo estación» = no entiendo nada). Aquí van las 40 más útiles, agrupadas por tema. En el panel de <b class=\"hl\">Práctica</b> tienes flashcards para repasarlas.",
+  "intro": "Las <b class=\"hl\">Redewendungen</b> son la sal del alemán hablado: no se traducen literalmente («entiendo solo estación» = no entiendo nada). Aquí van las más útiles, agrupadas por tema. En el panel de <b class=\"hl\">Práctica</b> tienes 200 flashcards para repasarlas.",
   "legend": [
-    { "label": "verbo", "desc": "conjugado", "role": "verb" }
+    {
+      "label": "verbo",
+      "desc": "conjugado",
+      "role": "verb"
+    }
   ],
   "sections": [
     {
@@ -20,30 +24,185 @@
         }
       ],
       "examples": [
-        { "en": "Morgen habe ich die Prüfung. — Ich <span class=\"r-verb\">drücke</span> dir die Daumen!", "es": "Mañana tengo el examen. — ¡Te deseo suerte! (lit.: te aprieto los pulgares)" },
-        { "en": "Kaffee oder Tee? — Das <span class=\"r-verb\">ist</span> mir Wurst.", "es": "¿Café o té? — Me da igual. (lit.: me es salchicha)" },
-        { "en": "Ich <span class=\"r-verb\">verstehe</span> nur Bahnhof.", "es": "No entiendo nada. (lit.: solo entiendo «estación»)" },
-        { "en": "Ich <span class=\"r-verb\">habe</span> die Nase voll von diesem Wetter!", "es": "¡Estoy harto de este tiempo! (lit.: tengo la nariz llena)" },
-        { "en": "Du <span class=\"r-verb\">hast</span> Schwein gehabt!", "es": "¡Qué suerte has tenido! (lit.: has tenido cerdo)" }
+        {
+          "en": "Morgen habe ich die Prüfung. — Ich <span class=\"r-verb\">drücke</span> dir die Daumen!",
+          "es": "Mañana tengo el examen. — ¡Te deseo suerte! (lit.: te aprieto los pulgares)"
+        },
+        {
+          "en": "Kaffee oder Tee? — Das <span class=\"r-verb\">ist</span> mir Wurst.",
+          "es": "¿Café o té? — Me da igual. (lit.: me es salchicha)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">verstehe</span> nur Bahnhof.",
+          "es": "No entiendo nada. (lit.: solo entiendo «estación»)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> die Nase voll von diesem Wetter!",
+          "es": "¡Estoy harto de este tiempo! (lit.: tengo la nariz llena)"
+        },
+        {
+          "en": "Du <span class=\"r-verb\">hast</span> Schwein gehabt!",
+          "es": "¡Qué suerte has tenido! (lit.: has tenido cerdo)"
+        },
+        {
+          "en": "Ist die Aufgabe schwer? — Nein, das <span class=\"r-verb\">ist</span> ein Klacks!",
+          "es": "¿Es difícil la tarea? — No, ¡es pan comido!"
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> ein Kinderspiel für mich.",
+          "es": "Es un juego de niños para mí."
+        },
+        {
+          "en": "Kannst du mir helfen? — Nein, das <span class=\"r-verb\">ist</span> nicht mein Bier.",
+          "es": "¿Puedes ayudarme? — No, no es asunto mío. (lit.: no es mi cerveza)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> keine Ahnung, wo mein Schlüssel ist.",
+          "es": "No tengo ni idea de dónde está mi llave."
+        },
+        {
+          "en": "Alles <span class=\"r-verb\">ist</span> in Butter!",
+          "es": "¡Todo está en orden! (lit.: todo está en mantequilla)"
+        },
+        {
+          "en": "Ob wir Pizza oder Pasta essen, <span class=\"r-verb\">ist</span> Jacke wie Hose.",
+          "es": "Que comamos pizza o pasta es lo mismo. (lit.: chaqueta como pantalón)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">bin</span> Feuer und Flamme für die Idee!",
+          "es": "¡Estoy entusiasmado con la idea! (lit.: fuego y llama)"
+        },
+        {
+          "en": "Nach dem Marathon <span class=\"r-verb\">bin</span> ich fix und fertig.",
+          "es": "Después del maratón estoy hecho polvo."
+        },
+        {
+          "en": "Mach dir keinen Kopf, das <span class=\"r-verb\">wird</span> schon klappen.",
+          "es": "No te preocupes, ya saldrá bien. (lit.: no te hagas cabeza)"
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> der Hammer!",
+          "es": "¡Es genial! / ¡Es increíble! (lit.: es el martillo)"
+        },
+        {
+          "en": "Deine Musik <span class=\"r-verb\">geht</span> mir auf den Wecker.",
+          "es": "Tu música me molesta. (lit.: me va al despertador)"
+        },
+        {
+          "en": "Pech gehabt! Das <span class=\"r-verb\">ist</span> leider schiefgegangen.",
+          "es": "¡Mala suerte! Por desgracia salió mal."
+        },
+        {
+          "en": "Da <span class=\"r-verb\">bin</span> ich raus, das ist mir zu riskant.",
+          "es": "Yo me bajo, es demasiado arriesgado para mí."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">sitzen</span> alle im selben Boot.",
+          "es": "Estamos todos en el mismo barco."
+        },
+        {
+          "en": "Ende gut, alles gut!",
+          "es": "¡Bien está lo que bien acaba!"
+        },
+        {
+          "en": "Hand aufs Herz: <span class=\"r-verb\">hast</span> du es gewusst?",
+          "es": "Sinceramente, ¿lo sabías? (lit.: mano al corazón)"
+        },
+        {
+          "en": "Es <span class=\"r-verb\">ist</span> höchste Zeit, dass wir gehen.",
+          "es": "Ya es hora de que nos vayamos."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">kannst</span> du vergessen!",
+          "es": "¡Eso olvídalo! / ¡Ni hablar!"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">drücke</span> dir die Daumen für deine Prüfung.",
+          "es": "Te deseo suerte para tu examen."
+        },
+        {
+          "en": "Komm bitte auf den Punkt!",
+          "es": "Ve al grano, por favor. (lit.: ven al punto)"
+        }
       ],
       "tables": [
         {
-          "headers": ["Redewendung", "Literal", "Significado"],
+          "headers": [
+            "Redewendung",
+            "Literal",
+            "Significado"
+          ],
           "rows": [
-            ["Daumen drücken", "apretar los pulgares", "desear suerte"],
-            ["Das ist mir Wurst", "me es salchicha", "me da igual"],
-            ["nur Bahnhof verstehen", "entender solo «estación»", "no entender nada"],
-            ["die Nase voll haben", "tener la nariz llena", "estar harto"],
-            ["Schwein haben", "tener cerdo", "tener suerte"],
-            ["ins Fettnäpfchen treten", "pisar el cuenco de grasa", "meter la pata"],
-            ["unter vier Augen", "entre cuatro ojos", "a solas, en privado"],
-            ["Hals über Kopf", "cuello sobre cabeza", "precipitadamente"],
-            ["auf Wolke sieben schweben", "flotar en la nube siete", "estar en una nube"],
-            ["die Kirche im Dorf lassen", "dejar la iglesia en el pueblo", "no exagerar"],
-            ["um den heißen Brei herumreden", "hablar alrededor de la papilla caliente", "andarse con rodeos"],
-            ["zwei Fliegen mit einer Klappe schlagen", "dos moscas de un golpe", "dos pájaros de un tiro"],
-            ["ein Auge zudrücken", "cerrar un ojo", "hacer la vista gorda"],
-            ["etwas auf die lange Bank schieben", "empujar algo al banco largo", "dar largas a algo"]
+            [
+              "Daumen drücken",
+              "apretar los pulgares",
+              "desear suerte"
+            ],
+            [
+              "Das ist mir Wurst",
+              "me es salchicha",
+              "me da igual"
+            ],
+            [
+              "nur Bahnhof verstehen",
+              "entender solo «estación»",
+              "no entender nada"
+            ],
+            [
+              "die Nase voll haben",
+              "tener la nariz llena",
+              "estar harto"
+            ],
+            [
+              "Schwein haben",
+              "tener cerdo",
+              "tener suerte"
+            ],
+            [
+              "ins Fettnäpfchen treten",
+              "pisar el cuenco de grasa",
+              "meter la pata"
+            ],
+            [
+              "unter vier Augen",
+              "entre cuatro ojos",
+              "a solas, en privado"
+            ],
+            [
+              "Hals über Kopf",
+              "cuello sobre cabeza",
+              "precipitadamente"
+            ],
+            [
+              "auf Wolke sieben schweben",
+              "flotar en la nube siete",
+              "estar en una nube"
+            ],
+            [
+              "die Kirche im Dorf lassen",
+              "dejar la iglesia en el pueblo",
+              "no exagerar"
+            ],
+            [
+              "um den heißen Brei herumreden",
+              "hablar alrededor de la papilla caliente",
+              "andarse con rodeos"
+            ],
+            [
+              "zwei Fliegen mit einer Klappe schlagen",
+              "dos moscas de un golpe",
+              "dos pájaros de un tiro"
+            ],
+            [
+              "ein Auge zudrücken",
+              "cerrar un ojo",
+              "hacer la vista gorda"
+            ],
+            [
+              "etwas auf die lange Bank schieben",
+              "empujar algo al banco largo",
+              "dar largas a algo"
+            ]
           ]
         }
       ],
@@ -51,20 +210,152 @@
         {
           "id": "b16-s1q1",
           "question": "1. Tu amigo tiene mañana una entrevista. Le dices:",
-          "options": ["Ich drücke dir die Daumen!", "Das ist mir Wurst!", "Du hast einen Vogel!"],
+          "options": [
+            "Ich drücke dir die Daumen!",
+            "Das ist mir Wurst!",
+            "Du hast einen Vogel!"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b16-s1q2",
           "question": "2. «Ich verstehe nur Bahnhof» significa…",
-          "options": ["Estoy en la estación", "No entiendo nada", "Entiendo un poco"],
+          "options": [
+            "Estoy en la estación",
+            "No entiendo nada",
+            "Entiendo un poco"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b16-s1q3",
           "question": "3. «Me da igual» en coloquial:",
-          "options": ["Das ist mir Wurst.", "Das ist mir Käse.", "Das ist mir Brot."],
+          "options": [
+            "Das ist mir Wurst.",
+            "Das ist mir Käse.",
+            "Das ist mir Brot."
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b16-s1q4",
+          "question": "4. Algo muy fácil: «Das ist ein <span class=\"blank\">___</span>.»",
+          "options": [
+            "Bier",
+            "Klacks",
+            "Hammer"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s1q5",
+          "question": "5. «Das ist nicht mein Bier» significa…",
+          "options": [
+            "no me gusta la cerveza",
+            "no es asunto mío",
+            "no tengo sed"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s1q6",
+          "question": "6. «Ich bin fix und fertig» significa…",
+          "options": [
+            "estoy hecho polvo",
+            "estoy listo para salir",
+            "estoy muy contento"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s1q7",
+          "question": "7. «Das ist Jacke wie Hose» significa…",
+          "options": [
+            "me queda bien",
+            "hace frío",
+            "es lo mismo"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b16-s1q8",
+          "question": "8. Alguien te pregunta qué prefieres y te da igual:",
+          "options": [
+            "Das ist ein Klacks.",
+            "Das ist Jacke wie Hose.",
+            "Das ist der Hammer."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s1q9",
+          "question": "9. «Feuer und Flamme sein» significa…",
+          "options": [
+            "estar entusiasmado",
+            "estar enfadado",
+            "tener fiebre"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s1q10",
+          "question": "10. «Mach dir keinen Kopf!» significa…",
+          "options": [
+            "usa la cabeza",
+            "no te preocupes",
+            "no pienses en nada"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s1q11",
+          "question": "11. «Das ist der Hammer!» significa…",
+          "options": [
+            "¡es genial!",
+            "¡es pesado!",
+            "¡es caro!"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s1q12",
+          "question": "12. «Ende gut, alles gut» significa…",
+          "options": [
+            "el fin es malo",
+            "todo termina mal",
+            "bien está lo que bien acaba"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b16-s1q13",
+          "question": "13. «Es ist höchste Zeit» significa…",
+          "options": [
+            "tenemos mucho tiempo",
+            "ya es hora",
+            "es demasiado pronto"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s1q14",
+          "question": "14. Para decir «¡ni hablar!»:",
+          "options": [
+            "Alles in Butter!",
+            "Das kannst du vergessen!",
+            "Das ist ein Klacks!"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s1q15",
+          "question": "15. «Alles in Butter» significa…",
+          "options": [
+            "comer mantequilla",
+            "todo en orden",
+            "estar gordo"
+          ],
+          "correctIndex": 1
         }
       ],
       "produce": {
@@ -86,26 +377,165 @@
         }
       ],
       "examples": [
-        { "en": "Da <span class=\"r-verb\">liegt</span> der Hund begraben!", "es": "¡Ahí está el quid de la cuestión! (lit.: ahí está enterrado el perro)" },
-        { "en": "Du <span class=\"r-verb\">machst</span> aus einer Mücke einen Elefanten.", "es": "Haces una montaña de un grano de arena. (lit.: de un mosquito, un elefante)" },
-        { "en": "<span class=\"r-verb\">Kauf</span> nicht die Katze im Sack!", "es": "¡No compres a ciegas! (lit.: el gato en el saco)" },
-        { "en": "Er <span class=\"r-verb\">ist</span> bekannt wie ein bunter Hund.", "es": "Lo conoce todo el mundo. (lit.: conocido como un perro de colores)" },
-        { "en": "Sie <span class=\"r-verb\">bringt</span> mich auf die Palme!", "es": "¡Me saca de mis casillas! (lit.: me sube a la palmera)" }
+        {
+          "en": "Da <span class=\"r-verb\">liegt</span> der Hund begraben!",
+          "es": "¡Ahí está el quid de la cuestión! (lit.: ahí está enterrado el perro)"
+        },
+        {
+          "en": "Du <span class=\"r-verb\">machst</span> aus einer Mücke einen Elefanten.",
+          "es": "Haces una montaña de un grano de arena. (lit.: de un mosquito, un elefante)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Kauf</span> nicht die Katze im Sack!",
+          "es": "¡No compres a ciegas! (lit.: el gato en el saco)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">ist</span> bekannt wie ein bunter Hund.",
+          "es": "Lo conoce todo el mundo. (lit.: conocido como un perro de colores)"
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">bringt</span> mich auf die Palme!",
+          "es": "¡Me saca de mis casillas! (lit.: me sube a la palmera)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">glaube</span>, mein Schwein pfeift!",
+          "es": "¡No me lo puedo creer! (lit.: creo que mi cerdo silba)"
+        },
+        {
+          "en": "Da <span class=\"r-verb\">lachen</span> ja die Hühner!",
+          "es": "¡Me da la risa! (lit.: ahí ríen las gallinas)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> einen Frosch im Hals.",
+          "es": "Tengo carraspera. (lit.: tengo una rana en la garganta)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">ist</span> ein Angsthase.",
+          "es": "Es un miedica. (lit.: liebre del miedo)"
+        },
+        {
+          "en": "Willst du mir einen Bären aufbinden?",
+          "es": "¿Me estás tomando el pelo? (lit.: atarme un oso)"
+        },
+        {
+          "en": "Mit ihm <span class=\"r-verb\">kann</span> man Pferde stehlen.",
+          "es": "Con él se puede contar para todo. (lit.: con él se pueden robar caballos)"
+        },
+        {
+          "en": "Da <span class=\"r-verb\">beißt</span> die Maus keinen Faden ab.",
+          "es": "No hay nada que hacer. (lit.: ahí el ratón no muerde el hilo)"
+        },
+        {
+          "en": "Wenn die Katze aus dem Haus ist, <span class=\"r-verb\">tanzen</span> die Mäuse auf dem Tisch.",
+          "es": "Cuando el gato no está, los ratones bailan."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">benimmt</span> sich wie ein Elefant im Porzellanladen.",
+          "es": "Se comporta como un elefante en una cacharrería."
+        },
+        {
+          "en": "Den Bock zum Gärtner <span class=\"r-verb\">machen</span> — das ist keine gute Idee.",
+          "es": "Poner al zorro a cuidar las gallinas no es buena idea. (lit.: hacer del macho cabrío el jardinero)"
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> doch für die Katz!",
+          "es": "¡Eso es en vano! (lit.: es para el gato)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> Schmetterlinge im Bauch.",
+          "es": "Tengo mariposas en el estómago."
+        },
+        {
+          "en": "Nach der Party <span class=\"r-verb\">habe</span> ich einen Kater.",
+          "es": "Después de la fiesta tengo resaca. (lit.: tengo un gato)"
+        },
+        {
+          "en": "Seit der Krise <span class=\"r-verb\">ist</span> die Firma auf den Hund gekommen.",
+          "es": "Desde la crisis la empresa ha venido a menos. (lit.: ha llegado al perro)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">fühle</span> mich hier wie ein Fisch im Wasser.",
+          "es": "Aquí me siento como pez en el agua."
+        },
+        {
+          "en": "Ihm <span class=\"r-verb\">ist</span> eine Laus über die Leber gelaufen.",
+          "es": "Está de mal humor. (lit.: un piojo le ha corrido por el hígado)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">hat</span> einen Vogel!",
+          "es": "¡Está mal de la cabeza! (lit.: tiene un pájaro; informal)"
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">ist</span> so still wie eine Maus.",
+          "es": "Está callada como un ratón."
+        },
+        {
+          "en": "Hier <span class=\"r-verb\">stinkt</span> es nach Fisch — irgendwas ist faul.",
+          "es": "Aquí huele a pescado — algo va mal."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">arbeitet</span> wie ein Pferd.",
+          "es": "Trabaja como un burro. (lit.: como un caballo)"
+        }
       ],
       "tables": [
         {
-          "headers": ["Redewendung", "Literal", "Significado"],
+          "headers": [
+            "Redewendung",
+            "Literal",
+            "Significado"
+          ],
           "rows": [
-            ["da liegt der Hund begraben", "ahí está enterrado el perro", "ese es el quid"],
-            ["aus einer Mücke einen Elefanten machen", "de un mosquito un elefante", "exagerar un problema"],
-            ["die Katze im Sack kaufen", "comprar el gato en el saco", "comprar a ciegas"],
-            ["einen Vogel haben", "tener un pájaro", "estar mal de la cabeza"],
-            ["bekannt wie ein bunter Hund", "conocido como perro de colores", "conocidísimo"],
-            ["jemanden auf die Palme bringen", "subir a alguien a la palmera", "sacar de quicio"],
-            ["wie ein Elefant im Porzellanladen", "elefante en tienda de porcelana", "sin ningún tacto"],
-            ["mit jemandem ein Hühnchen rupfen", "desplumar un pollito con alguien", "tener cuentas pendientes"],
-            ["die Flinte ins Korn werfen", "tirar la escopeta al trigal", "tirar la toalla"],
-            ["sich zum Affen machen", "hacerse el mono", "hacer el ridículo"]
+            [
+              "da liegt der Hund begraben",
+              "ahí está enterrado el perro",
+              "ese es el quid"
+            ],
+            [
+              "aus einer Mücke einen Elefanten machen",
+              "de un mosquito un elefante",
+              "exagerar un problema"
+            ],
+            [
+              "die Katze im Sack kaufen",
+              "comprar el gato en el saco",
+              "comprar a ciegas"
+            ],
+            [
+              "einen Vogel haben",
+              "tener un pájaro",
+              "estar mal de la cabeza"
+            ],
+            [
+              "bekannt wie ein bunter Hund",
+              "conocido como perro de colores",
+              "conocidísimo"
+            ],
+            [
+              "jemanden auf die Palme bringen",
+              "subir a alguien a la palmera",
+              "sacar de quicio"
+            ],
+            [
+              "wie ein Elefant im Porzellanladen",
+              "elefante en tienda de porcelana",
+              "sin ningún tacto"
+            ],
+            [
+              "mit jemandem ein Hühnchen rupfen",
+              "desplumar un pollito con alguien",
+              "tener cuentas pendientes"
+            ],
+            [
+              "die Flinte ins Korn werfen",
+              "tirar la escopeta al trigal",
+              "tirar la toalla"
+            ],
+            [
+              "sich zum Affen machen",
+              "hacerse el mono",
+              "hacer el ridículo"
+            ]
           ]
         }
       ],
@@ -113,20 +543,152 @@
         {
           "id": "b16-s2q1",
           "question": "1. Tu colega convierte un problemilla en drama. Le dices que no haga…",
-          "options": ["aus einer Mücke einen Elefanten", "die Katze im Sack", "einen bunten Hund"],
+          "options": [
+            "aus einer Mücke einen Elefanten",
+            "die Katze im Sack",
+            "einen bunten Hund"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b16-s2q2",
           "question": "2. Comprar algo sin verlo antes es…",
-          "options": ["den Hund begraben", "die Katze im Sack kaufen", "Schwein haben"],
+          "options": [
+            "den Hund begraben",
+            "die Katze im Sack kaufen",
+            "Schwein haben"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b16-s2q3",
           "question": "3. «rendirse» con imagen de caza:",
-          "options": ["die Flinte ins Korn werfen", "auf die Palme bringen", "ein Hühnchen rupfen"],
+          "options": [
+            "die Flinte ins Korn werfen",
+            "auf die Palme bringen",
+            "ein Hühnchen rupfen"
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b16-s2q4",
+          "question": "4. «Da lachen ja die Hühner» expresa…",
+          "options": [
+            "alegría",
+            "miedo",
+            "incredulidad burlona"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b16-s2q5",
+          "question": "5. «Einen Bären aufbinden» significa…",
+          "options": [
+            "tomar el pelo",
+            "atar algo",
+            "cazar un oso"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s2q6",
+          "question": "6. «Ein Angsthase» es alguien…",
+          "options": [
+            "rápido",
+            "cazador",
+            "miedoso"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b16-s2q7",
+          "question": "7. «Für die Katz» significa…",
+          "options": [
+            "en vano",
+            "muy caro",
+            "para el gato"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s2q8",
+          "question": "8. «Schmetterlinge im Bauch» significa…",
+          "options": [
+            "tener hambre",
+            "estar enamorado/nervioso",
+            "estar enfermo"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s2q9",
+          "question": "9. «Einen Kater haben» significa…",
+          "options": [
+            "estar enfadado",
+            "tener un gato",
+            "tener resaca"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b16-s2q10",
+          "question": "10. «Wie ein Fisch im Wasser» significa…",
+          "options": [
+            "muy a gusto",
+            "mudo",
+            "mojado"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s2q11",
+          "question": "11. «Pferde stehlen» con alguien significa…",
+          "options": [
+            "poder contar con él",
+            "robar caballos",
+            "ser un ladrón"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s2q12",
+          "question": "12. «Da beißt die Maus keinen Faden ab» significa…",
+          "options": [
+            "no hay nada que hacer",
+            "hay un problema",
+            "el ratón tiene hambre"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s2q13",
+          "question": "13. Trabajas sin parar:",
+          "options": [
+            "Ich arbeite wie ein Pferd.",
+            "Ich arbeite wie eine Katze.",
+            "Ich arbeite wie ein Fisch."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s2q14",
+          "question": "14. Un torpe en un sitio delicado:",
+          "options": [
+            "wie ein Elefant im Porzellanladen",
+            "wie eine Maus",
+            "wie ein Fisch im Wasser"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s2q15",
+          "question": "15. Tienes carraspera:",
+          "options": [
+            "Ich habe Schwein.",
+            "Ich habe einen Vogel.",
+            "Ich habe einen Frosch im Hals."
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -148,26 +710,165 @@
         }
       ],
       "examples": [
-        { "en": "Dein Plan <span class=\"r-verb\">hat</span> Hand und Fuß.", "es": "Tu plan tiene pies y cabeza. (lit.: mano y pie)" },
-        { "en": "Kurz vor der Hochzeit <span class=\"r-verb\">hat</span> er kalte Füße bekommen.", "es": "Justo antes de la boda se acobardó. (lit.: pies fríos)" },
-        { "en": "<span class=\"r-verb\">Hast</span> du Tomaten auf den Augen?!", "es": "¡¿No ves lo evidente?! (lit.: ¿tienes tomates en los ojos?)" },
-        { "en": "Meine Chefin <span class=\"r-verb\">hat</span> Haare auf den Zähnen.", "es": "Mi jefa es de armas tomar. (lit.: tiene pelos en los dientes)" },
-        { "en": "Ich <span class=\"r-verb\">habe</span> den Faden verloren — wo war ich?", "es": "He perdido el hilo — ¿por dónde iba?" }
+        {
+          "en": "Dein Plan <span class=\"r-verb\">hat</span> Hand und Fuß.",
+          "es": "Tu plan tiene pies y cabeza. (lit.: mano y pie)"
+        },
+        {
+          "en": "Kurz vor der Hochzeit <span class=\"r-verb\">hat</span> er kalte Füße bekommen.",
+          "es": "Justo antes de la boda se acobardó. (lit.: pies fríos)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Hast</span> du Tomaten auf den Augen?!",
+          "es": "¡¿No ves lo evidente?! (lit.: ¿tienes tomates en los ojos?)"
+        },
+        {
+          "en": "Meine Chefin <span class=\"r-verb\">hat</span> Haare auf den Zähnen.",
+          "es": "Mi jefa es de armas tomar. (lit.: tiene pelos en los dientes)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> den Faden verloren — wo war ich?",
+          "es": "He perdido el hilo — ¿por dónde iba?"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">bin</span> ganz Ohr!",
+          "es": "¡Soy todo oídos!"
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">zeigt</span> mir die kalte Schulter.",
+          "es": "Ella me ignora. (lit.: me muestra el hombro frío)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">nimmt</span> alles auf die leichte Schulter.",
+          "es": "Se lo toma todo a la ligera."
+        },
+        {
+          "en": "Mir <span class=\"r-verb\">fällt</span> ein Stein vom Herzen.",
+          "es": "Me quito un peso de encima. (lit.: me cae una piedra del corazón)"
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">hat</span> das Herz auf der Zunge.",
+          "es": "No tiene pelos en la lengua. (lit.: tiene el corazón en la lengua)"
+        },
+        {
+          "en": "Willst du mich auf den Arm nehmen?",
+          "es": "¿Me estás tomando el pelo? (lit.: llevarme en el brazo)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">ist</span> nicht auf den Mund gefallen.",
+          "es": "Tiene mucha labia. (lit.: no se ha caído sobre la boca)"
+        },
+        {
+          "en": "Hals- und Beinbruch für deine Prüfung!",
+          "es": "¡Mucha suerte en tu examen! (lit.: rotura de cuello y pierna)"
+        },
+        {
+          "en": "Kopf hoch! Das <span class=\"r-verb\">wird</span> schon wieder.",
+          "es": "¡Ánimo! Ya se arreglará. (lit.: cabeza arriba)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> mir die Finger verbrannt.",
+          "es": "Me he escaldado. (lit.: me he quemado los dedos)"
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">hat</span> sich die Zähne an dem Problem ausgebissen.",
+          "es": "Se ha roto los cuernos con el problema. (lit.: se ha roto los dientes)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">steht</span> endlich auf eigenen Füßen.",
+          "es": "Por fin se vale por sí mismo. (lit.: está sobre sus propios pies)"
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">müssen</span> die Beine in die Hand nehmen.",
+          "es": "Tenemos que salir corriendo. (lit.: coger las piernas en la mano)"
+        },
+        {
+          "en": "Kannst du mir bitte unter die Arme greifen?",
+          "es": "¿Puedes echarme una mano, por favor? (lit.: agarrar bajo los brazos)"
+        },
+        {
+          "en": "Mir <span class=\"r-verb\">platzt</span> der Kragen!",
+          "es": "¡Se me acaba la paciencia! (lit.: me revienta el cuello)"
+        },
+        {
+          "en": "Beim Anblick des Preises <span class=\"r-verb\">schlug</span> sie die Hände über dem Kopf zusammen.",
+          "es": "Al ver el precio se llevó las manos a la cabeza."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">liegt</span> mir am Herzen.",
+          "es": "Esto me importa mucho. (lit.: me está en el corazón)"
+        },
+        {
+          "en": "Ihm <span class=\"r-verb\">läuft</span> das Wasser im Mund zusammen.",
+          "es": "Se le hace la boca agua."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">fiel</span> ihrem Vater um den Hals.",
+          "es": "Se echó al cuello de su padre."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">hat</span> das im Blut.",
+          "es": "Lo lleva en la sangre."
+        }
       ],
       "tables": [
         {
-          "headers": ["Redewendung", "Literal", "Significado"],
+          "headers": [
+            "Redewendung",
+            "Literal",
+            "Significado"
+          ],
           "rows": [
-            ["Hand und Fuß haben", "tener mano y pie", "estar bien pensado"],
-            ["kalte Füße bekommen", "tener los pies fríos", "acobardarse, echarse atrás"],
-            ["Tomaten auf den Augen haben", "tomates en los ojos", "no ver lo evidente"],
-            ["Haare auf den Zähnen haben", "pelos en los dientes", "carácter fuerte"],
-            ["die Beine in die Hand nehmen", "coger las piernas con la mano", "salir corriendo"],
-            ["die Ohren spitzen", "afilar las orejas", "aguzar el oído"],
-            ["auf großem Fuß leben", "vivir en pie grande", "vivir a lo grande"],
-            ["den Faden verlieren", "perder el hilo", "perder el hilo (¡igual!)"],
-            ["ins kalte Wasser springen", "saltar al agua fría", "lanzarse sin experiencia"],
-            ["das Handtuch werfen", "tirar la toalla", "rendirse (¡igual!)"]
+            [
+              "Hand und Fuß haben",
+              "tener mano y pie",
+              "estar bien pensado"
+            ],
+            [
+              "kalte Füße bekommen",
+              "tener los pies fríos",
+              "acobardarse, echarse atrás"
+            ],
+            [
+              "Tomaten auf den Augen haben",
+              "tomates en los ojos",
+              "no ver lo evidente"
+            ],
+            [
+              "Haare auf den Zähnen haben",
+              "pelos en los dientes",
+              "carácter fuerte"
+            ],
+            [
+              "die Beine in die Hand nehmen",
+              "coger las piernas con la mano",
+              "salir corriendo"
+            ],
+            [
+              "die Ohren spitzen",
+              "afilar las orejas",
+              "aguzar el oído"
+            ],
+            [
+              "auf großem Fuß leben",
+              "vivir en pie grande",
+              "vivir a lo grande"
+            ],
+            [
+              "den Faden verlieren",
+              "perder el hilo",
+              "perder el hilo (¡igual!)"
+            ],
+            [
+              "ins kalte Wasser springen",
+              "saltar al agua fría",
+              "lanzarse sin experiencia"
+            ],
+            [
+              "das Handtuch werfen",
+              "tirar la toalla",
+              "rendirse (¡igual!)"
+            ]
           ]
         }
       ],
@@ -175,20 +876,152 @@
         {
           "id": "b16-s3q1",
           "question": "1. Un proyecto sólido y bien argumentado «<span class=\"blank\">___</span>».",
-          "options": ["hat Hand und Fuß", "hat kalte Füße", "hat Haare auf den Zähnen"],
+          "options": [
+            "hat Hand und Fuß",
+            "hat kalte Füße",
+            "hat Haare auf den Zähnen"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b16-s3q2",
           "question": "2. Iba a lanzarse pero al final se echó atrás: er hat <span class=\"blank\">___</span> bekommen.",
-          "options": ["große Ohren", "kalte Füße", "lange Beine"],
+          "options": [
+            "große Ohren",
+            "kalte Füße",
+            "lange Beine"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b16-s3q3",
           "question": "3. Empezar un trabajo nuevo sin experiencia previa es «<span class=\"blank\">___</span>».",
-          "options": ["ins kalte Wasser springen", "auf großem Fuß leben", "die Ohren spitzen"],
+          "options": [
+            "ins kalte Wasser springen",
+            "auf großem Fuß leben",
+            "die Ohren spitzen"
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b16-s3q4",
+          "question": "4. «Ich bin ganz Ohr» significa…",
+          "options": [
+            "soy todo oídos",
+            "no oigo",
+            "tengo una oreja grande"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s3q5",
+          "question": "5. «Die kalte Schulter zeigen» significa…",
+          "options": [
+            "dar un abrazo",
+            "tener frío",
+            "ignorar a alguien"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b16-s3q6",
+          "question": "6. «Auf die leichte Schulter nehmen» significa…",
+          "options": [
+            "tomarse a la ligera",
+            "llevar mochila",
+            "cargar poco"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s3q7",
+          "question": "7. «Ein Stein fällt mir vom Herzen» significa…",
+          "options": [
+            "me duele el corazón",
+            "me quito un peso de encima",
+            "tengo una piedra"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s3q8",
+          "question": "8. «Jemanden auf den Arm nehmen» significa…",
+          "options": [
+            "levantar en brazos",
+            "tomar el pelo",
+            "abrazar"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s3q9",
+          "question": "9. «Nicht auf den Mund gefallen sein» significa…",
+          "options": [
+            "tener la boca herida",
+            "tener labia",
+            "callarse"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s3q10",
+          "question": "10. Deseas suerte a alguien que va a examinarse:",
+          "options": [
+            "Hand aufs Herz!",
+            "Hals- und Beinbruch!",
+            "Kopf hoch!"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s3q11",
+          "question": "11. Animas a alguien que está triste:",
+          "options": [
+            "Kopf hoch!",
+            "Mir platzt der Kragen!",
+            "Hals- und Beinbruch!"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s3q12",
+          "question": "12. «Die Beine in die Hand nehmen» significa…",
+          "options": [
+            "levantar las piernas",
+            "salir corriendo",
+            "pedir ayuda"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b16-s3q13",
+          "question": "13. «Mir platzt der Kragen» significa…",
+          "options": [
+            "se me acaba la paciencia",
+            "tengo el cuello roto",
+            "me quito el abrigo"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s3q14",
+          "question": "14. «Jemandem unter die Arme greifen» significa…",
+          "options": [
+            "echar una mano",
+            "abrazar",
+            "agarrar por debajo"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b16-s3q15",
+          "question": "15. «Das Wasser läuft mir im Mund zusammen» significa…",
+          "options": [
+            "tengo sed",
+            "se me hace la boca agua",
+            "estoy llorando"
+          ],
+          "correctIndex": 1
         }
       ],
       "produce": {

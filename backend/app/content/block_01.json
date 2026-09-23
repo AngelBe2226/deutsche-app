@@ -4,8 +4,16 @@
   "kicker": "Bloque 01 · Base A1",
   "intro": "El alemán distingue <b class=\"hl\">tres géneros</b> (der/die/das) y el género casi nunca coincide con el español, así que cada sustantivo se aprende <b class=\"hl\">con su artículo</b>. Misma ruta de siempre: regla → ejemplos → ejercicio → tu propia frase.",
   "legend": [
-    { "label": "sujeto", "desc": "Nominativ, quien hace la acción", "role": "nom" },
-    { "label": "verbo", "desc": "conjugado, en 2ª posición", "role": "verb" }
+    {
+      "label": "sujeto",
+      "desc": "Nominativ, quien hace la acción",
+      "role": "nom"
+    },
+    {
+      "label": "verbo",
+      "desc": "conjugado, en 2ª posición",
+      "role": "verb"
+    }
   ],
   "sections": [
     {
@@ -26,23 +34,150 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">lerne</span> Deutsch.", "es": "(Yo) aprendo alemán." },
-        { "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">wohnst</span> in Berlin.", "es": "(Tú) vives en Berlín." },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> viel, aber <span class=\"r-nom\">sie</span> <span class=\"r-verb\">arbeitet</span> mehr.", "es": "Él trabaja mucho, pero ella trabaja más." },
-        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">kommen</span> aus Spanien.", "es": "(Nosotros) venimos de España." },
-        { "en": "<span class=\"r-verb\">Sprechen</span> <span class=\"r-nom\">Sie</span> Englisch?", "es": "¿Habla usted inglés?" }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">lerne</span> Deutsch.",
+          "es": "(Yo) aprendo alemán."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">wohnst</span> in Berlin.",
+          "es": "(Tú) vives en Berlín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> viel, aber <span class=\"r-nom\">sie</span> <span class=\"r-verb\">arbeitet</span> mehr.",
+          "es": "Él trabaja mucho, pero ella trabaja más."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">kommen</span> aus Spanien.",
+          "es": "(Nosotros) venimos de España."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sprechen</span> <span class=\"r-nom\">Sie</span> Englisch?",
+          "es": "¿Habla usted inglés?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bin</span> müde.",
+          "es": "Estoy cansado/a."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">hast</span> einen schönen Namen.",
+          "es": "Tienes un nombre bonito."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kommt</span> aus Mexiko.",
+          "es": "Él viene de México."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">spricht</span> sehr gut Deutsch.",
+          "es": "Ella habla muy bien alemán."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">regnet</span> heute.",
+          "es": "Hoy llueve. (es sin referente)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> Freunde.",
+          "es": "Somos amigos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ihr</span> <span class=\"r-verb\">lernt</span> schnell.",
+          "es": "Vosotros aprendéis rápido."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">wohnen</span> in Hamburg.",
+          "es": "Ellos viven en Hamburgo."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sind</span> <span class=\"r-nom\">Sie</span> Herr Müller?",
+          "es": "¿Es usted el señor Müller?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">trinke</span> gern Kaffee.",
+          "es": "Me gusta beber café."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">arbeitest</span> zu viel.",
+          "es": "Trabajas demasiado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">heißt</span> Thomas und <span class=\"r-nom\">sie</span> <span class=\"r-verb\">heißt</span> Lena.",
+          "es": "Él se llama Thomas y ella se llama Lena."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">essen</span> um sieben Uhr.",
+          "es": "Cenamos/comemos a las siete."
+        },
+        {
+          "en": "<span class=\"r-verb\">Kommt</span> <span class=\"r-nom\">ihr</span> morgen?",
+          "es": "¿Venís mañana?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">sind</span> nett, die Nachbarn.",
+          "es": "Son simpáticos, los vecinos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">ist</span> kalt heute.",
+          "es": "Hoy hace frío."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> Hunger.",
+          "es": "Tengo hambre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">lernt</span> Spanisch, <span class=\"r-nom\">er</span> <span class=\"r-verb\">lernt</span> Deutsch.",
+          "es": "Ella aprende español, él aprende alemán."
+        },
+        {
+          "en": "<span class=\"r-verb\">Haben</span> <span class=\"r-nom\">Sie</span> Kinder?",
+          "es": "¿Tiene usted hijos?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">fahren</span> nach Berlin.",
+          "es": "Vamos (en vehículo) a Berlín."
+        }
       ],
       "tables": [
         {
-          "headers": ["Persona", "Alemán", "Español"],
+          "headers": [
+            "Persona",
+            "Alemán",
+            "Español"
+          ],
           "rows": [
-            ["1ª sg.", "<b>ich</b>", "yo"],
-            ["2ª sg.", "<b>du</b>", "tú"],
-            ["3ª sg.", "<b>er / sie / es</b>", "él / ella / ello"],
-            ["1ª pl.", "<b>wir</b>", "nosotros"],
-            ["2ª pl.", "<b>ihr</b>", "vosotros"],
-            ["3ª pl.", "<b>sie</b>", "ellos/ellas"],
-            ["cortesía", "<b>Sie</b> (mayúscula)", "usted / ustedes"]
+            [
+              "1ª sg.",
+              "<b>ich</b>",
+              "yo"
+            ],
+            [
+              "2ª sg.",
+              "<b>du</b>",
+              "tú"
+            ],
+            [
+              "3ª sg.",
+              "<b>er / sie / es</b>",
+              "él / ella / ello"
+            ],
+            [
+              "1ª pl.",
+              "<b>wir</b>",
+              "nosotros"
+            ],
+            [
+              "2ª pl.",
+              "<b>ihr</b>",
+              "vosotros"
+            ],
+            [
+              "3ª pl.",
+              "<b>sie</b>",
+              "ellos/ellas"
+            ],
+            [
+              "cortesía",
+              "<b>Sie</b> (mayúscula)",
+              "usted / ustedes"
+            ]
           ]
         }
       ],
@@ -50,20 +185,152 @@
         {
           "id": "b01-s1q1",
           "question": "1. «¿Vive usted en Múnich?» → <span class=\"blank\">___</span> Sie in München?",
-          "options": ["Wohnen", "Wohnst", "Wohnt"],
+          "options": [
+            "Wohnen",
+            "Wohnst",
+            "Wohnt"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b01-s1q2",
           "question": "2. «Ellos vienen mañana.» → <span class=\"blank\">___</span> kommen morgen.",
-          "options": ["Sie", "sie", "ihr"],
+          "options": [
+            "Sie",
+            "sie",
+            "ihr"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b01-s1q3",
           "question": "3. Le escribes un correo a tu jefe alemán al que conoces poco. ¿Qué tratamiento usas?",
-          "options": ["du", "ihr", "Sie"],
+          "options": [
+            "du",
+            "ihr",
+            "Sie"
+          ],
           "correctIndex": 2
+        },
+        {
+          "id": "b01-s1q4",
+          "question": "4. «Tú hablas muy rápido.» → <span class=\"blank\">___</span> sprichst sehr schnell.",
+          "options": [
+            "Er",
+            "Ihr",
+            "Du"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s1q5",
+          "question": "5. «Nosotros somos de Chile.» → <span class=\"blank\">___</span> sind aus Chile.",
+          "options": [
+            "Ihr",
+            "Sie",
+            "Wir"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s1q6",
+          "question": "6. «Vosotros vivís aquí.» → <span class=\"blank\">___</span> wohnt hier.",
+          "options": [
+            "Ihr",
+            "Du",
+            "Wir"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s1q7",
+          "question": "7. «¿Es usted médico?» → <span class=\"blank\">___</span> Sie Arzt?",
+          "options": [
+            "Sind",
+            "Bist",
+            "Seid"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s1q8",
+          "question": "8. «Ella tiene un perro.» → Sie <span class=\"blank\">___</span> einen Hund.",
+          "options": [
+            "haben",
+            "hast",
+            "hat"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s1q9",
+          "question": "9. «Ellos trabajan hoy.» → Sie <span class=\"blank\">___</span> heute.",
+          "options": [
+            "arbeitest",
+            "arbeitet",
+            "arbeiten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s1q10",
+          "question": "10. «Llueve.» → <span class=\"blank\">___</span> regnet.",
+          "options": [
+            "Sie",
+            "Er",
+            "Es"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s1q11",
+          "question": "11. «Yo me llamo Ana.» → <span class=\"blank\">___</span> heiße Ana.",
+          "options": [
+            "Du",
+            "Wir",
+            "Ich"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s1q12",
+          "question": "12. ¿Qué forma de «sein» va con ihr? ihr <span class=\"blank\">___</span>",
+          "options": [
+            "sind",
+            "seid",
+            "bist"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s1q13",
+          "question": "13. Tu amiga (informal) te pregunta algo. ¿Cómo le hablas?",
+          "options": [
+            "du",
+            "Sie",
+            "ihr"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s1q14",
+          "question": "14. «Él trabaja en un banco.» → <span class=\"blank\">___</span> arbeitet in einer Bank.",
+          "options": [
+            "Sie",
+            "Es",
+            "Er"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s1q15",
+          "question": "15. ¿Cuál es correcta?",
+          "options": [
+            "Wir haben Zeit.",
+            "Wir hat Zeit.",
+            "Wir hast Zeit."
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -90,20 +357,140 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Der Mann</span> <span class=\"r-verb\">ist</span> nett.", "es": "El hombre es amable." },
-        { "en": "<span class=\"r-nom\">Die Frau</span> <span class=\"r-verb\">kommt</span> aus Österreich.", "es": "La mujer viene de Austria." },
-        { "en": "<span class=\"r-nom\">Das Kind</span> <span class=\"r-verb\">spielt</span> im Garten.", "es": "El niño juega en el jardín." },
-        { "en": "<span class=\"r-nom\">Die Bücher</span> <span class=\"r-verb\">sind</span> neu.", "es": "Los libros son nuevos. (plural → die)" },
-        { "en": "<span class=\"r-nom\">Die Sonne</span> <span class=\"r-verb\">scheint</span>, <span class=\"r-nom\">der Mond</span> <span class=\"r-verb\">scheint</span> nicht.", "es": "El sol brilla, la luna no. (¡géneros invertidos respecto al español!)" }
+        {
+          "en": "<span class=\"r-nom\">Der Mann</span> <span class=\"r-verb\">ist</span> nett.",
+          "es": "El hombre es amable."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Frau</span> <span class=\"r-verb\">kommt</span> aus Österreich.",
+          "es": "La mujer viene de Austria."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Kind</span> <span class=\"r-verb\">spielt</span> im Garten.",
+          "es": "El niño juega en el jardín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Bücher</span> <span class=\"r-verb\">sind</span> neu.",
+          "es": "Los libros son nuevos. (plural → die)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Sonne</span> <span class=\"r-verb\">scheint</span>, <span class=\"r-nom\">der Mond</span> <span class=\"r-verb\">scheint</span> nicht.",
+          "es": "El sol brilla, la luna no. (¡géneros invertidos respecto al español!)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Tisch</span> <span class=\"r-verb\">ist</span> neu.",
+          "es": "La mesa es nueva."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Lampe</span> <span class=\"r-verb\">steht</span> auf dem Tisch.",
+          "es": "La lámpara está sobre la mesa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Haus</span> <span class=\"r-verb\">ist</span> groß.",
+          "es": "La casa es grande."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Lehrer</span> <span class=\"r-verb\">erklärt</span> die Regel.",
+          "es": "El profesor explica la regla."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Lehrerin</span> <span class=\"r-verb\">kommt</span> später.",
+          "es": "La profesora llega más tarde."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Fenster</span> <span class=\"r-verb\">ist</span> offen.",
+          "es": "La ventana está abierta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Kinder</span> <span class=\"r-verb\">spielen</span> draußen.",
+          "es": "Los niños juegan fuera."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Hund</span> <span class=\"r-verb\">schläft</span>.",
+          "es": "El perro duerme."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Katze</span> <span class=\"r-verb\">trinkt</span> Milch.",
+          "es": "El gato bebe leche."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Mädchen</span> <span class=\"r-verb\">lacht</span>.",
+          "es": "La niña ríe. (das: diminutivo -chen)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Käse</span> <span class=\"r-verb\">schmeckt</span> gut.",
+          "es": "El queso sabe bien."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Freiheit</span> <span class=\"r-verb\">ist</span> wichtig.",
+          "es": "La libertad es importante. (-heit → die)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Auto</span> <span class=\"r-verb\">ist</span> schnell.",
+          "es": "El coche es rápido."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Stadt</span> <span class=\"r-verb\">ist</span> schön.",
+          "es": "La ciudad es bonita."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Fluss</span> <span class=\"r-verb\">ist</span> lang.",
+          "es": "El río es largo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Übung</span> <span class=\"r-verb\">ist</span> leicht.",
+          "es": "El ejercicio es fácil. (-ung → die)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Brötchen</span> <span class=\"r-verb\">kostet</span> 50 Cent.",
+          "es": "El panecillo cuesta 50 céntimos. (-chen → das)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Winter</span> <span class=\"r-verb\">ist</span> kalt.",
+          "es": "El invierno es frío. (estaciones → der)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Zeitung</span> <span class=\"r-verb\">liegt</span> auf dem Sofa.",
+          "es": "El periódico está sobre el sofá."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Wetter</span> <span class=\"r-verb\">ist</span> heute schön.",
+          "es": "El tiempo es hoy bueno."
+        }
       ],
       "tables": [
         {
-          "headers": ["Género", "Artículo", "Ejemplo", "Pista frecuente"],
+          "headers": [
+            "Género",
+            "Artículo",
+            "Ejemplo",
+            "Pista frecuente"
+          ],
           "rows": [
-            ["masculino", "<b>der</b>", "der Tisch, der Lehrer", "-er (agente), -ling, -ismus, días, meses, estaciones"],
-            ["femenino", "<b>die</b>", "die Lampe, die Zeitung", "-ung, -heit, -keit, -schaft, -ion, -tät, -e (mayoría)"],
-            ["neutro", "<b>das</b>", "das Buch, das Mädchen", "-chen, -lein, -um, -ment, infinitivos sustantivados"],
-            ["plural", "<b>die</b>", "die Tische, die Bücher", "siempre die, sea cual sea el género"]
+            [
+              "masculino",
+              "<b>der</b>",
+              "der Tisch, der Lehrer",
+              "-er (agente), -ling, -ismus, días, meses, estaciones"
+            ],
+            [
+              "femenino",
+              "<b>die</b>",
+              "die Lampe, die Zeitung",
+              "-ung, -heit, -keit, -schaft, -ion, -tät, -e (mayoría)"
+            ],
+            [
+              "neutro",
+              "<b>das</b>",
+              "das Buch, das Mädchen",
+              "-chen, -lein, -um, -ment, infinitivos sustantivados"
+            ],
+            [
+              "plural",
+              "<b>die</b>",
+              "die Tische, die Bücher",
+              "siempre die, sea cual sea el género"
+            ]
           ]
         }
       ],
@@ -111,20 +498,152 @@
         {
           "id": "b01-s2q1",
           "question": "1. <span class=\"blank\">___</span> Zeitung ist interessant. (la terminación -ung lo delata)",
-          "options": ["Der", "Die", "Das"],
+          "options": [
+            "Der",
+            "Die",
+            "Das"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b01-s2q2",
           "question": "2. <span class=\"blank\">___</span> Mädchen singt. (¡es un diminutivo en -chen!)",
-          "options": ["Der", "Die", "Das"],
+          "options": [
+            "Der",
+            "Die",
+            "Das"
+          ],
           "correctIndex": 2
         },
         {
           "id": "b01-s2q3",
           "question": "3. «Los coches son caros.» → <span class=\"blank\">___</span> Autos sind teuer.",
-          "options": ["Das", "Der", "Die"],
+          "options": [
+            "Das",
+            "Der",
+            "Die"
+          ],
           "correctIndex": 2
+        },
+        {
+          "id": "b01-s2q4",
+          "question": "4. <span class=\"blank\">___</span> Woche hat sieben Tage.",
+          "options": [
+            "Das",
+            "Die",
+            "Der"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s2q5",
+          "question": "5. <span class=\"blank\">___</span> Montag ist ein Arbeitstag. (los días de la semana)",
+          "options": [
+            "Der",
+            "Die",
+            "Das"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s2q6",
+          "question": "6. <span class=\"blank\">___</span> Möglichkeit ist klein. (-keit)",
+          "options": [
+            "Das",
+            "Der",
+            "Die"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s2q7",
+          "question": "7. <span class=\"blank\">___</span> Büro ist im dritten Stock.",
+          "options": [
+            "Die",
+            "Das",
+            "Der"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s2q8",
+          "question": "8. <span class=\"blank\">___</span> Wohnung ist teuer. (-ung)",
+          "options": [
+            "Die",
+            "Der",
+            "Das"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s2q9",
+          "question": "9. «Los niños» → <span class=\"blank\">___</span> Kinder",
+          "options": [
+            "die",
+            "der",
+            "das"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s2q10",
+          "question": "10. <span class=\"blank\">___</span> Frühling ist schön. (estaciones: masculino)",
+          "options": [
+            "Das",
+            "Die",
+            "Der"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s2q11",
+          "question": "11. <span class=\"blank\">___</span> Freundschaft ist wichtig. (-schaft)",
+          "options": [
+            "Das",
+            "Der",
+            "Die"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s2q12",
+          "question": "12. <span class=\"blank\">___</span> Mädchen ist neu.",
+          "options": [
+            "Die",
+            "Der",
+            "Das"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s2q13",
+          "question": "13. <span class=\"blank\">___</span> Bäcker ist nett. (profesión masculina)",
+          "options": [
+            "Die",
+            "Der",
+            "Das"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s2q14",
+          "question": "14. <span class=\"blank\">___</span> Tür ist zu.",
+          "options": [
+            "Der",
+            "Das",
+            "Die"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s2q15",
+          "question": "15. <span class=\"blank\">___</span> Problem ist groß. (neutro)",
+          "options": [
+            "Die",
+            "Das",
+            "Der"
+          ],
+          "correctIndex": 1
         }
       ],
       "produce": {
@@ -151,18 +670,131 @@
         }
       ],
       "examples": [
-        { "en": "Das ist <span class=\"r-nom\">ein Buch</span>.", "es": "Esto es un libro." },
-        { "en": "Das ist <span class=\"r-nom\">eine Lampe</span>.", "es": "Esto es una lámpara." },
-        { "en": "Ich <span class=\"r-verb\">habe</span> kein Fahrrad.", "es": "No tengo bicicleta." },
-        { "en": "Sie <span class=\"r-verb\">hat</span> keine Zeit.", "es": "Ella no tiene tiempo." },
-        { "en": "Wir <span class=\"r-verb\">haben</span> keine Fragen.", "es": "No tenemos preguntas. (plural de kein)" }
+        {
+          "en": "Das ist <span class=\"r-nom\">ein Buch</span>.",
+          "es": "Esto es un libro."
+        },
+        {
+          "en": "Das ist <span class=\"r-nom\">eine Lampe</span>.",
+          "es": "Esto es una lámpara."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> kein Fahrrad.",
+          "es": "No tengo bicicleta."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">hat</span> keine Zeit.",
+          "es": "Ella no tiene tiempo."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">haben</span> keine Fragen.",
+          "es": "No tenemos preguntas. (plural de kein)"
+        },
+        {
+          "en": "Das ist <span class=\"r-nom\">ein Tisch</span>.",
+          "es": "Esto es una mesa."
+        },
+        {
+          "en": "Das ist <span class=\"r-nom\">eine Katze</span>.",
+          "es": "Esto es un gato."
+        },
+        {
+          "en": "Das ist <span class=\"r-nom\">ein Kind</span>.",
+          "es": "Este es un niño."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> einen Bruder.",
+          "es": "Tengo un hermano."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> keinen Bruder.",
+          "es": "No tengo hermano."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">hat</span> eine Schwester.",
+          "es": "Él tiene una hermana."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">hat</span> keine Schwester.",
+          "es": "Ella no tiene hermana."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">haben</span> ein Haus.",
+          "es": "Tenemos una casa."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">haben</span> kein Haus.",
+          "es": "No tenemos casa."
+        },
+        {
+          "en": "Das ist <span class=\"r-nom\">kein Problem</span>.",
+          "es": "Eso no es un problema."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ein Mann</span> <span class=\"r-verb\">steht</span> vor der Tür.",
+          "es": "Un hombre está ante la puerta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Eine Frau</span> <span class=\"r-verb\">wartet</span> auf den Bus.",
+          "es": "Una mujer espera el autobús."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">brauche</span> keine Hilfe.",
+          "es": "No necesito ayuda."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">haben</span> keine Kinder.",
+          "es": "No tienen hijos."
+        },
+        {
+          "en": "Hier <span class=\"r-verb\">gibt</span> es kein Café.",
+          "es": "Aquí no hay ningún café."
+        },
+        {
+          "en": "Das ist <span class=\"r-nom\">keine gute Idee</span>.",
+          "es": "Esa no es una buena idea."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> ein Auto, aber keinen Führerschein.",
+          "es": "Tengo coche, pero no carné de conducir."
+        },
+        {
+          "en": "<span class=\"r-verb\">Hast</span> du einen Stift?",
+          "es": "¿Tienes un bolígrafo?"
+        },
+        {
+          "en": "Nein, ich <span class=\"r-verb\">habe</span> keinen Stift.",
+          "es": "No, no tengo bolígrafo."
+        },
+        {
+          "en": "Heute <span class=\"r-verb\">habe</span> ich keine Zeit.",
+          "es": "Hoy no tengo tiempo."
+        }
       ],
       "tables": [
         {
-          "headers": ["", "masculino", "femenino", "neutro", "plural"],
+          "headers": [
+            "",
+            "masculino",
+            "femenino",
+            "neutro",
+            "plural"
+          ],
           "rows": [
-            ["indefinido", "ein Mann", "eine Frau", "ein Kind", "— (Kinder)"],
-            ["negación", "kein Mann", "keine Frau", "kein Kind", "keine Kinder"]
+            [
+              "indefinido",
+              "ein Mann",
+              "eine Frau",
+              "ein Kind",
+              "— (Kinder)"
+            ],
+            [
+              "negación",
+              "kein Mann",
+              "keine Frau",
+              "kein Kind",
+              "keine Kinder"
+            ]
           ]
         }
       ],
@@ -170,20 +802,152 @@
         {
           "id": "b01-s3q1",
           "question": "1. Das ist <span class=\"blank\">___</span> Universität. (die Universität)",
-          "options": ["ein", "eine", "einen"],
+          "options": [
+            "ein",
+            "eine",
+            "einen"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b01-s3q2",
           "question": "2. «No tengo tiempo.» → Ich habe <span class=\"blank\">___</span> Zeit.",
-          "options": ["nicht", "keine", "kein"],
+          "options": [
+            "nicht",
+            "keine",
+            "kein"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b01-s3q3",
           "question": "3. «Ese no es mi problema.» → Das ist <span class=\"blank\">___</span> mein Problem.",
-          "options": ["kein", "keine", "nicht"],
+          "options": [
+            "kein",
+            "keine",
+            "nicht"
+          ],
           "correctIndex": 2
+        },
+        {
+          "id": "b01-s3q4",
+          "question": "4. Das ist <span class=\"blank\">___</span> Hund. (der Hund)",
+          "options": [
+            "eine",
+            "ein",
+            "kein"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s3q5",
+          "question": "5. Ich habe <span class=\"blank\">___</span> Auto. (no tengo, das Auto)",
+          "options": [
+            "kein",
+            "keine",
+            "nicht"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s3q6",
+          "question": "6. Sie hat <span class=\"blank\">___</span> Idee. (una idea, die Idee)",
+          "options": [
+            "ein",
+            "eine",
+            "einen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s3q7",
+          "question": "7. «No tengo hambre.» → Ich habe <span class=\"blank\">___</span> Hunger.",
+          "options": [
+            "keinen",
+            "kein",
+            "keine"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s3q8",
+          "question": "8. Wir haben <span class=\"blank\">___</span> Kinder. (ninguno)",
+          "options": [
+            "kein",
+            "keine",
+            "nicht"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s3q9",
+          "question": "9. Das ist <span class=\"blank\">___</span> Fenster. (un)",
+          "options": [
+            "ein",
+            "keine",
+            "eine"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s3q10",
+          "question": "10. Er hat <span class=\"blank\">___</span> Bruder. (no tiene)",
+          "options": [
+            "keinen",
+            "kein",
+            "keine"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s3q11",
+          "question": "11. «Esto no es una pregunta.» → Das ist <span class=\"blank\">___</span> Frage.",
+          "options": [
+            "keine",
+            "kein",
+            "nicht"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s3q12",
+          "question": "12. Ein Lehrer / <span class=\"blank\">___</span> Lehrerin",
+          "options": [
+            "eine",
+            "einen",
+            "ein"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s3q13",
+          "question": "13. Wir haben <span class=\"blank\">___</span> Zeit. (ninguna)",
+          "options": [
+            "kein",
+            "keine",
+            "keinen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s3q14",
+          "question": "14. Das ist <span class=\"blank\">___</span> Lampe. (una)",
+          "options": [
+            "ein",
+            "einen",
+            "eine"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s3q15",
+          "question": "15. «No hay problema.» → Es gibt <span class=\"blank\">___</span> Problem.",
+          "options": [
+            "keine",
+            "kein",
+            "nicht"
+          ],
+          "correctIndex": 1
         }
       ],
       "produce": {
@@ -210,24 +974,155 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Mein Bruder</span> <span class=\"r-verb\">heißt</span> Luis.", "es": "Mi hermano se llama Luis." },
-        { "en": "<span class=\"r-verb\">Ist</span> das <span class=\"r-nom\">deine Tasche</span>?", "es": "¿Es esta tu bolsa?" },
-        { "en": "Das ist Anna. <span class=\"r-nom\">Ihr Auto</span> <span class=\"r-verb\">ist</span> rot.", "es": "Esta es Anna. Su coche (de ella) es rojo." },
-        { "en": "Das ist Max. <span class=\"r-nom\">Sein Auto</span> <span class=\"r-verb\">ist</span> blau.", "es": "Este es Max. Su coche (de él) es azul." },
-        { "en": "<span class=\"r-nom\">Unsere Wohnung</span> <span class=\"r-verb\">ist</span> klein, aber schön.", "es": "Nuestro piso es pequeño, pero bonito." }
+        {
+          "en": "<span class=\"r-nom\">Mein Bruder</span> <span class=\"r-verb\">heißt</span> Luis.",
+          "es": "Mi hermano se llama Luis."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ist</span> das <span class=\"r-nom\">deine Tasche</span>?",
+          "es": "¿Es esta tu bolsa?"
+        },
+        {
+          "en": "Das ist Anna. <span class=\"r-nom\">Ihr Auto</span> <span class=\"r-verb\">ist</span> rot.",
+          "es": "Esta es Anna. Su coche (de ella) es rojo."
+        },
+        {
+          "en": "Das ist Max. <span class=\"r-nom\">Sein Auto</span> <span class=\"r-verb\">ist</span> blau.",
+          "es": "Este es Max. Su coche (de él) es azul."
+        },
+        {
+          "en": "<span class=\"r-nom\">Unsere Wohnung</span> <span class=\"r-verb\">ist</span> klein, aber schön.",
+          "es": "Nuestro piso es pequeño, pero bonito."
+        },
+        {
+          "en": "<span class=\"r-nom\">Mein Vater</span> <span class=\"r-verb\">arbeitet</span> bei Siemens.",
+          "es": "Mi padre trabaja en Siemens."
+        },
+        {
+          "en": "<span class=\"r-nom\">Meine Mutter</span> <span class=\"r-verb\">kocht</span> gern.",
+          "es": "A mi madre le gusta cocinar."
+        },
+        {
+          "en": "<span class=\"r-nom\">Dein Bruder</span> <span class=\"r-verb\">ist</span> sehr nett.",
+          "es": "Tu hermano es muy amable."
+        },
+        {
+          "en": "<span class=\"r-nom\">Deine Schwester</span> <span class=\"r-verb\">studiert</span> Medizin.",
+          "es": "Tu hermana estudia medicina."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sein Hund</span> <span class=\"r-verb\">heißt</span> Rex.",
+          "es": "Su perro (de él) se llama Rex."
+        },
+        {
+          "en": "<span class=\"r-nom\">Seine Katze</span> <span class=\"r-verb\">ist</span> alt.",
+          "es": "Su gato (de él) es viejo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ihr Mann</span> <span class=\"r-verb\">ist</span> Arzt.",
+          "es": "Su marido (de ella) es médico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ihre Kinder</span> <span class=\"r-verb\">spielen</span> im Park.",
+          "es": "Sus hijos (de ella) juegan en el parque."
+        },
+        {
+          "en": "<span class=\"r-nom\">Unser Haus</span> <span class=\"r-verb\">ist</span> alt.",
+          "es": "Nuestra casa es vieja."
+        },
+        {
+          "en": "<span class=\"r-nom\">Unsere Lehrerin</span> <span class=\"r-verb\">ist</span> streng.",
+          "es": "Nuestra profesora es estricta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Euer Auto</span> <span class=\"r-verb\">ist</span> neu.",
+          "es": "Vuestro coche es nuevo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Eure Eltern</span> <span class=\"r-verb\">kommen</span> morgen.",
+          "es": "Vuestros padres vienen mañana."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ihr Chef</span> <span class=\"r-verb\">ist</span> nett.",
+          "es": "Su jefe (de ellos) es amable."
+        },
+        {
+          "en": "<span class=\"r-verb\">Ist</span> <span class=\"r-nom\">Ihr Name</span> Schmidt?",
+          "es": "¿Es su nombre (de usted) Schmidt?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Mein Handy</span> <span class=\"r-verb\">ist</span> kaputt.",
+          "es": "Mi móvil está roto."
+        },
+        {
+          "en": "<span class=\"r-nom\">Meine Eltern</span> <span class=\"r-verb\">wohnen</span> in Madrid.",
+          "es": "Mis padres viven en Madrid."
+        },
+        {
+          "en": "Wo <span class=\"r-verb\">ist</span> <span class=\"r-nom\">dein Schlüssel</span>?",
+          "es": "¿Dónde está tu llave?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sein Vater</span> <span class=\"r-verb\">ist</span> Lehrer und <span class=\"r-nom\">seine Mutter</span> <span class=\"r-verb\">ist</span> Ärztin.",
+          "es": "Su padre es profesor y su madre es médica."
+        },
+        {
+          "en": "<span class=\"r-nom\">Unsere Kinder</span> <span class=\"r-verb\">lernen</span> Deutsch.",
+          "es": "Nuestros hijos aprenden alemán."
+        },
+        {
+          "en": "<span class=\"r-verb\">Sind</span> das <span class=\"r-nom\">Ihre Koffer</span>, Frau Weber?",
+          "es": "¿Son estas sus maletas, señora Weber?"
+        }
       ],
       "tables": [
         {
-          "headers": ["Poseedor", "Posesivo", "Ejemplo"],
+          "headers": [
+            "Poseedor",
+            "Posesivo",
+            "Ejemplo"
+          ],
           "rows": [
-            ["ich", "<b>mein</b>", "mein Hund, meine Katze"],
-            ["du", "<b>dein</b>", "dein Buch, deine Idee"],
-            ["er / es", "<b>sein</b>", "sein Vater, seine Mutter"],
-            ["sie (ella)", "<b>ihr</b>", "ihr Vater, ihre Mutter"],
-            ["wir", "<b>unser</b>", "unser Haus, unsere Stadt"],
-            ["ihr", "<b>euer</b>", "euer Auto, eure Wohnung"],
-            ["sie (ellos)", "<b>ihr</b>", "ihr Plan, ihre Pläne"],
-            ["Sie (usted)", "<b>Ihr</b>", "Ihr Name, Ihre Adresse"]
+            [
+              "ich",
+              "<b>mein</b>",
+              "mein Hund, meine Katze"
+            ],
+            [
+              "du",
+              "<b>dein</b>",
+              "dein Buch, deine Idee"
+            ],
+            [
+              "er / es",
+              "<b>sein</b>",
+              "sein Vater, seine Mutter"
+            ],
+            [
+              "sie (ella)",
+              "<b>ihr</b>",
+              "ihr Vater, ihre Mutter"
+            ],
+            [
+              "wir",
+              "<b>unser</b>",
+              "unser Haus, unsere Stadt"
+            ],
+            [
+              "ihr",
+              "<b>euer</b>",
+              "euer Auto, eure Wohnung"
+            ],
+            [
+              "sie (ellos)",
+              "<b>ihr</b>",
+              "ihr Plan, ihre Pläne"
+            ],
+            [
+              "Sie (usted)",
+              "<b>Ihr</b>",
+              "Ihr Name, Ihre Adresse"
+            ]
           ]
         }
       ],
@@ -235,20 +1130,152 @@
         {
           "id": "b01-s4q1",
           "question": "1. Das ist Maria. <span class=\"blank\">___</span> Hund ist süß. (el perro de ella)",
-          "options": ["Sein", "Ihr", "Dein"],
+          "options": [
+            "Sein",
+            "Ihr",
+            "Dein"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b01-s4q2",
           "question": "2. «¿Cuál es su dirección (de usted)?» → Wie ist <span class=\"blank\">___</span> Adresse?",
-          "options": ["ihre", "Ihre", "deine"],
+          "options": [
+            "ihre",
+            "Ihre",
+            "deine"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b01-s4q3",
           "question": "3. «Vuestro piso es grande.» → <span class=\"blank\">___</span> Wohnung ist groß.",
-          "options": ["Euere", "Eure", "Euer"],
+          "options": [
+            "Euere",
+            "Eure",
+            "Euer"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b01-s4q4",
+          "question": "4. «Mi casa es pequeña.» → <span class=\"blank\">___</span> Haus ist klein.",
+          "options": [
+            "Mein",
+            "Meine",
+            "Ihr"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s4q5",
+          "question": "5. «Mi hermana vive aquí.» → <span class=\"blank\">___</span> Schwester wohnt hier.",
+          "options": [
+            "Meine",
+            "Dein",
+            "Mein"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s4q6",
+          "question": "6. «Tus padres son simpáticos.» → <span class=\"blank\">___</span> Eltern sind nett.",
+          "options": [
+            "Dein",
+            "Sein",
+            "Deine"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s4q7",
+          "question": "7. Das ist Peter. <span class=\"blank\">___</span> Frau heißt Julia. (de él)",
+          "options": [
+            "Sein",
+            "Seine",
+            "Ihre"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s4q8",
+          "question": "8. Das ist Lisa. <span class=\"blank\">___</span> Bruder ist Arzt. (de ella)",
+          "options": [
+            "Ihre",
+            "Sein",
+            "Ihr"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b01-s4q9",
+          "question": "9. «Nuestro profesor es joven.» → <span class=\"blank\">___</span> Lehrer ist jung.",
+          "options": [
+            "Unsere",
+            "Unser",
+            "Euer"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s4q10",
+          "question": "10. «Vuestra casa es grande.» → <span class=\"blank\">___</span> Haus ist groß.",
+          "options": [
+            "Eure",
+            "Euer",
+            "Unser"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s4q11",
+          "question": "11. «¿Es esta su maleta (de usted)?» → Ist das <span class=\"blank\">___</span> Koffer?",
+          "options": [
+            "ihr",
+            "Ihr",
+            "dein"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s4q12",
+          "question": "12. «Mi madre» → <span class=\"blank\">___</span> Mutter",
+          "options": [
+            "meine",
+            "meinen",
+            "mein"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s4q13",
+          "question": "13. «Su coche (de ellos)» → <span class=\"blank\">___</span> Auto",
+          "options": [
+            "Ihre",
+            "ihr",
+            "sein"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b01-s4q14",
+          "question": "14. «Tu libro» → <span class=\"blank\">___</span> Buch",
+          "options": [
+            "dein",
+            "deinen",
+            "deine"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b01-s4q15",
+          "question": "15. «Sus amigos (de él)» → <span class=\"blank\">___</span> Freunde",
+          "options": [
+            "seine",
+            "sein",
+            "ihre"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {

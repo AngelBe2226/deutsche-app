@@ -4,9 +4,21 @@
   "kicker": "Bloque 10 · A1–C1",
   "intro": "El sistema de tiempos alemán es más pequeño que el español, pero con un reparto propio: el <b class=\"hl\">Perfekt</b> es el pasado del <b class=\"hl\">habla</b>, el <b class=\"hl\">Präteritum</b> el de la <b class=\"hl\">escritura</b>, y el futuro muchas veces se dice… en presente.",
   "legend": [
-    { "label": "verbo", "desc": "conjugado, 2ª posición", "role": "verb" },
-    { "label": "cierre verbal", "desc": "participio/infinitivo al final", "role": "sep" },
-    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+    {
+      "label": "verbo",
+      "desc": "conjugado, 2ª posición",
+      "role": "verb"
+    },
+    {
+      "label": "cierre verbal",
+      "desc": "participio/infinitivo al final",
+      "role": "sep"
+    },
+    {
+      "label": "sujeto",
+      "desc": "Nominativ",
+      "role": "nom"
+    }
   ],
   "sections": [
     {
@@ -27,10 +39,102 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">arbeite</span> gerade.", "es": "Estoy trabajando (ahora mismo)." },
-        { "en": "Morgen <span class=\"r-verb\">fliege</span> <span class=\"r-nom\">ich</span> nach Rom.", "es": "Mañana vuelo a Roma. (presente con valor de futuro)" },
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">lerne</span> seit drei Monaten Deutsch.", "es": "Llevo tres meses aprendiendo alemán." },
-        { "en": "<span class=\"r-nom\">Der Kurs</span> <span class=\"r-verb\">beginnt</span> nächste Woche.", "es": "El curso empieza la semana que viene." }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">arbeite</span> gerade.",
+          "es": "Estoy trabajando (ahora mismo)."
+        },
+        {
+          "en": "Morgen <span class=\"r-verb\">fliege</span> <span class=\"r-nom\">ich</span> nach Rom.",
+          "es": "Mañana vuelo a Roma. (presente con valor de futuro)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">lerne</span> seit drei Monaten Deutsch.",
+          "es": "Llevo tres meses aprendiendo alemán."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Kurs</span> <span class=\"r-verb\">beginnt</span> nächste Woche.",
+          "es": "El curso empieza la semana que viene."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">lese</span> gerade ein Buch.",
+          "es": "Estoy leyendo un libro ahora."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">kocht</span> jeden Sonntag für die Familie.",
+          "es": "Ella cocina cada domingo para la familia."
+        },
+        {
+          "en": "Nächste Woche <span class=\"r-verb\">fahre</span> <span class=\"r-nom\">ich</span> nach Paris.",
+          "es": "La semana que viene voy a París. (presente con valor de futuro)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">wohnen</span> seit fünf Jahren in Köln.",
+          "es": "Llevamos cinco años viviendo en Colonia."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> seit Montag bei uns.",
+          "es": "Trabaja con nosotros desde el lunes."
+        },
+        {
+          "en": "Heute Abend <span class=\"r-verb\">gehen</span> <span class=\"r-nom\">wir</span> ins Kino.",
+          "es": "Esta noche vamos al cine."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">warte</span> schon eine Stunde auf dich.",
+          "es": "Llevo ya una hora esperándote."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Bus</span> <span class=\"r-verb\">kommt</span> in fünf Minuten.",
+          "es": "El autobús llega en cinco minutos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Was</span> <span class=\"r-verb\">machst</span> du gerade?",
+          "es": "¿Qué estás haciendo ahora mismo?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">schläft</span> noch.",
+          "es": "Ella todavía duerme."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bin</span> in einer Stunde da.",
+          "es": "Estoy ahí en una hora."
+        },
+        {
+          "en": "Morgen <span class=\"r-verb\">habe</span> <span class=\"r-nom\">ich</span> einen Termin beim Arzt.",
+          "es": "Mañana tengo cita con el médico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">regnet</span>.",
+          "es": "Está lloviendo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">spielt</span> jeden Tag Fußball.",
+          "es": "Él juega al fútbol cada día."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">lernen</span> seit einem Jahr Deutsch.",
+          "es": "Llevamos un año aprendiendo alemán."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Kurs</span> <span class=\"r-verb\">dauert</span> zwei Monate.",
+          "es": "El curso dura dos meses."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ruft</span> gleich zurück.",
+          "es": "Ella devuelve la llamada enseguida."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">fliege</span> im Juli nach Lima.",
+          "es": "En julio vuelo a Lima."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Konzert</span> <span class=\"r-verb\">beginnt</span> um acht Uhr.",
+          "es": "El concierto empieza a las ocho."
+        },
+        {
+          "en": "Seit wann <span class=\"r-verb\">wohnst</span> <span class=\"r-nom\">du</span> hier?",
+          "es": "¿Desde cuándo vives aquí?"
+        }
       ],
       "tables": [],
       "quiz": [
@@ -47,14 +151,142 @@
         {
           "id": "b10-s1q2",
           "question": "2. «Estoy comiendo.» La forma más natural:",
-          "options": ["Ich bin essen.", "Ich esse gerade.", "Ich bin essend."],
+          "options": [
+            "Ich bin essen.",
+            "Ich esse gerade.",
+            "Ich bin essend."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b10-s1q3",
           "question": "3. «Mañana trabajo desde casa.» ¿Qué tiempo usa el alemán cotidiano?",
-          "options": ["Futur I obligatorio", "Präsens + morgen", "Perfekt"],
+          "options": [
+            "Futur I obligatorio",
+            "Präsens + morgen",
+            "Perfekt"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b10-s1q4",
+          "question": "4. «Llevo un mes aprendiendo alemán.» → Ich lerne <span class=\"blank\">___</span> einem Monat Deutsch.",
+          "options": [
+            "seit",
+            "für",
+            "vor"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s1q5",
+          "question": "5. «Estoy trabajando.» → Ich <span class=\"blank\">___</span> gerade.",
+          "options": [
+            "bin arbeiten",
+            "arbeite",
+            "arbeiten"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s1q6",
+          "question": "6. «Mañana viajo a Roma.» → Morgen <span class=\"blank\">___</span> ich nach Rom.",
+          "options": [
+            "bin fahren",
+            "fahre",
+            "fahren wird"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s1q7",
+          "question": "7. «Llevo tres años viviendo aquí.» → Ich wohne hier <span class=\"blank\">___</span> drei Jahren.",
+          "options": [
+            "seit",
+            "vor",
+            "in"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s1q8",
+          "question": "8. ¿Qué forma es más natural en alemán? «Estoy leyendo.»",
+          "options": [
+            "Ich bin lesen.",
+            "Ich lese gerade.",
+            "Ich bin am lesend."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s1q9",
+          "question": "9. «El curso empieza mañana.» → Der Kurs <span class=\"blank\">___</span> morgen.",
+          "options": [
+            "beginnt",
+            "beginnst",
+            "beginnen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s1q10",
+          "question": "10. «Llevo esperando dos horas.» → Ich warte <span class=\"blank\">___</span> zwei Stunden.",
+          "options": [
+            "vor",
+            "für",
+            "seit"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s1q11",
+          "question": "11. «Esta noche salimos.» → Heute Abend <span class=\"blank\">___</span> wir aus.",
+          "options": [
+            "gehen",
+            "geht",
+            "gehst"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s1q12",
+          "question": "12. «¿Desde cuándo vives aquí?» → <span class=\"blank\">___</span> wann wohnst du hier?",
+          "options": [
+            "Seit",
+            "Von",
+            "Für"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s1q13",
+          "question": "13. Für el futuro cotidiano el alemán usa…",
+          "options": [
+            "Präsens + marca temporal",
+            "siempre Perfekt",
+            "siempre Futur I"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s1q14",
+          "question": "14. «Ella está durmiendo.» → Sie <span class=\"blank\">___</span> gerade.",
+          "options": [
+            "am schlafen",
+            "schläft",
+            "ist schlafend"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s1q15",
+          "question": "15. «Nos vemos el lunes.» → Wir <span class=\"blank\">___</span> uns am Montag.",
+          "options": [
+            "sehen",
+            "gesehen",
+            "sah"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -81,18 +313,125 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> gestern Pizza <span class=\"r-sep\">gegessen</span>.", "es": "Ayer comí pizza." },
-        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> nach München <span class=\"r-sep\">gefahren</span>.", "es": "Fuimos a Múnich. (movimiento → sein)" },
-        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ist</span> um 6 Uhr <span class=\"r-sep\">aufgestanden</span>.", "es": "Ella se levantó a las 6. (cambio de estado → sein)" },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> in Madrid <span class=\"r-sep\">studiert</span>.", "es": "Él estudió en Madrid. (-ieren: sin ge-)" },
-        { "en": "Was <span class=\"r-verb\">ist</span> <span class=\"r-sep\">passiert</span>?", "es": "¿Qué ha pasado?" }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> gestern Pizza <span class=\"r-sep\">gegessen</span>.",
+          "es": "Ayer comí pizza."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> nach München <span class=\"r-sep\">gefahren</span>.",
+          "es": "Fuimos a Múnich. (movimiento → sein)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ist</span> um 6 Uhr <span class=\"r-sep\">aufgestanden</span>.",
+          "es": "Ella se levantó a las 6. (cambio de estado → sein)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> in Madrid <span class=\"r-sep\">studiert</span>.",
+          "es": "Él estudió en Madrid. (-ieren: sin ge-)"
+        },
+        {
+          "en": "Was <span class=\"r-verb\">ist</span> <span class=\"r-sep\">passiert</span>?",
+          "es": "¿Qué ha pasado?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> gestern Fußball <span class=\"r-sep\">gespielt</span>.",
+          "es": "Ayer jugué al fútbol."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> einen Brief <span class=\"r-sep\">geschrieben</span>.",
+          "es": "Él ha escrito una carta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">haben</span> lange <span class=\"r-sep\">geschlafen</span>.",
+          "es": "Hemos dormido mucho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> das Fenster <span class=\"r-sep\">geöffnet</span>.",
+          "es": "Ella ha abierto la ventana."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bin</span> nach Hause <span class=\"r-sep\">gegangen</span>.",
+          "es": "Me he ido a casa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ist</span> nach Berlin <span class=\"r-sep\">geflogen</span>.",
+          "es": "Ella ha volado a Berlín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> gestern <span class=\"r-sep\">angekommen</span>.",
+          "es": "Él llegó ayer."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> früh <span class=\"r-sep\">eingeschlafen</span>.",
+          "es": "Nos dormimos pronto."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bin</span> zwei Wochen in Spanien <span class=\"r-sep\">geblieben</span>.",
+          "es": "Me quedé dos semanas en España."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">ist</span> kalt <span class=\"r-sep\">geworden</span>.",
+          "es": "Se ha puesto frío / ha refrescado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> Arzt <span class=\"r-sep\">geworden</span>.",
+          "es": "Se ha hecho médico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> den Film <span class=\"r-sep\">gesehen</span>.",
+          "es": "He visto la película."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> lange <span class=\"r-sep\">gewartet</span>.",
+          "es": "Ella ha esperado mucho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">haben</span> Pizza <span class=\"r-sep\">bestellt</span>.",
+          "es": "Hemos pedido pizza. (be- → sin ge-)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> mich <span class=\"r-sep\">besucht</span>.",
+          "es": "Él me ha visitado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> die Prüfung <span class=\"r-sep\">bestanden</span>.",
+          "es": "Ella ha aprobado el examen."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> einen Kuchen <span class=\"r-sep\">gebacken</span>.",
+          "es": "He hecho un pastel."
+        },
+        {
+          "en": "<span class=\"r-nom\">Was</span> <span class=\"r-verb\">hast</span> du am Wochenende <span class=\"r-sep\">gemacht</span>?",
+          "es": "¿Qué hiciste el fin de semana?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> ihn <span class=\"r-sep\">angerufen</span>.",
+          "es": "Ella lo ha llamado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> das nicht <span class=\"r-sep\">verstanden</span>.",
+          "es": "No lo he entendido."
+        }
       ],
       "tables": [
         {
-          "headers": ["Auxiliar", "Cuándo", "Ejemplos"],
+          "headers": [
+            "Auxiliar",
+            "Cuándo",
+            "Ejemplos"
+          ],
           "rows": [
-            ["<b>haben</b>", "la mayoría: transitivos, reflexivos, modales", "hat gemacht, hat gesehen, hat gekauft"],
-            ["<b>sein</b>", "movimiento A→B, cambio de estado, sein/bleiben/passieren", "ist gegangen, ist aufgewacht, ist geblieben"]
+            [
+              "<b>haben</b>",
+              "la mayoría: transitivos, reflexivos, modales",
+              "hat gemacht, hat gesehen, hat gekauft"
+            ],
+            [
+              "<b>sein</b>",
+              "movimiento A→B, cambio de estado, sein/bleiben/passieren",
+              "ist gegangen, ist aufgewacht, ist geblieben"
+            ]
           ]
         }
       ],
@@ -100,20 +439,152 @@
         {
           "id": "b10-s2q1",
           "question": "1. Wir <span class=\"blank\">___</span> am Samstag ins Kino gegangen.",
-          "options": ["haben", "sind", "waren"],
+          "options": [
+            "haben",
+            "sind",
+            "waren"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b10-s2q2",
           "question": "2. Ich habe das Buch <span class=\"blank\">___</span>. (lesen)",
-          "options": ["gelest", "gelesen", "geliest"],
+          "options": [
+            "gelest",
+            "gelesen",
+            "geliest"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b10-s2q3",
           "question": "3. Er hat Mathematik <span class=\"blank\">___</span>. (studieren)",
-          "options": ["gestudiert", "studiert", "gestudieren"],
+          "options": [
+            "gestudiert",
+            "studiert",
+            "gestudieren"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b10-s2q4",
+          "question": "4. Participio de «machen»: Ich habe das <span class=\"blank\">___</span>.",
+          "options": [
+            "gemachen",
+            "macht",
+            "gemacht"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s2q5",
+          "question": "5. Participio de «trinken»: Er hat Wasser <span class=\"blank\">___</span>.",
+          "options": [
+            "trunken",
+            "getrinkt",
+            "getrunken"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s2q6",
+          "question": "6. Participio de «sehen»: Wir haben den Film <span class=\"blank\">___</span>.",
+          "options": [
+            "gesah",
+            "gesieht",
+            "gesehen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s2q7",
+          "question": "7. Participio de «essen»: Ich habe Pizza <span class=\"blank\">___</span>.",
+          "options": [
+            "geessen",
+            "gegessen",
+            "gegesst"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s2q8",
+          "question": "8. Participio de «kaufen»: Sie hat ein Auto <span class=\"blank\">___</span>.",
+          "options": [
+            "gekaufen",
+            "kauft",
+            "gekauft"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s2q9",
+          "question": "9. Participio de «schreiben»: Er hat einen Brief <span class=\"blank\">___</span>.",
+          "options": [
+            "geschreibt",
+            "geschrieben",
+            "schrieben"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s2q10",
+          "question": "10. Participio de «kommen»: Er ist gestern <span class=\"blank\">___</span>.",
+          "options": [
+            "gekommt",
+            "gekommen",
+            "kommen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s2q11",
+          "question": "11. Participio de «fahren»: Wir sind nach Wien <span class=\"blank\">___</span>.",
+          "options": [
+            "gefahrt",
+            "gefahren ist",
+            "gefahren"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s2q12",
+          "question": "12. Participio de «besuchen» (sin ge-): Ich habe dich <span class=\"blank\">___</span>.",
+          "options": [
+            "besuchen",
+            "besucht",
+            "gebesucht"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s2q13",
+          "question": "13. Participio de «telefonieren»: Sie hat lange <span class=\"blank\">___</span>.",
+          "options": [
+            "telefonieren",
+            "telefoniert",
+            "getelefoniert"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s2q14",
+          "question": "14. Wir <span class=\"blank\">___</span> nach Hause gegangen.",
+          "options": [
+            "sind",
+            "waren",
+            "haben"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s2q15",
+          "question": "15. Er <span class=\"blank\">___</span> das Buch gelesen.",
+          "options": [
+            "ist",
+            "wird",
+            "hat"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -135,21 +606,141 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">war</span> gestern krank und <span class=\"r-verb\">hatte</span> Fieber.", "es": "Ayer estaba enfermo y tenía fiebre." },
-        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">konnten</span> nicht kommen.", "es": "No pudimos venir." },
-        { "en": "Es <span class=\"r-verb\">gab</span> ein Problem mit dem Zug.", "es": "Hubo un problema con el tren." },
-        { "en": "Der Mann <span class=\"r-verb\">öffnete</span> die Tür und <span class=\"r-verb\">sah</span> den Brief.", "es": "El hombre abrió la puerta y vio la carta. (narración escrita)" }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">war</span> gestern krank und <span class=\"r-verb\">hatte</span> Fieber.",
+          "es": "Ayer estaba enfermo y tenía fiebre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">konnten</span> nicht kommen.",
+          "es": "No pudimos venir."
+        },
+        {
+          "en": "Es <span class=\"r-verb\">gab</span> ein Problem mit dem Zug.",
+          "es": "Hubo un problema con el tren."
+        },
+        {
+          "en": "Der Mann <span class=\"r-verb\">öffnete</span> die Tür und <span class=\"r-verb\">sah</span> den Brief.",
+          "es": "El hombre abrió la puerta y vio la carta. (narración escrita)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">war</span> gestern im Kino.",
+          "es": "Ayer estuve en el cine."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hatte</span> keine Zeit.",
+          "es": "Ella no tenía tiempo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">waren</span> müde.",
+          "es": "Estábamos cansados."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">musste</span> früh aufstehen.",
+          "es": "Tuvo que madrugar."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">wollte</span> dich anrufen.",
+          "es": "Quería llamarte."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">konnte</span> nicht kommen.",
+          "es": "Ella no pudo venir."
+        },
+        {
+          "en": "Es <span class=\"r-verb\">gab</span> viele Leute auf der Party.",
+          "es": "Había mucha gente en la fiesta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">wusste</span> die Antwort nicht.",
+          "es": "Él no sabía la respuesta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">dachte</span>, du kommst später.",
+          "es": "Pensaba que vendrías más tarde."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ging</span> langsam nach Hause.",
+          "es": "Se fue despacio a casa. (narración)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">kam</span> spät an.",
+          "es": "Ella llegó tarde."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Mann</span> <span class=\"r-verb\">sah</span> den Hund und <span class=\"r-verb\">lief</span> weg.",
+          "es": "El hombre vio al perro y salió corriendo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">war</span> einmal ein König.",
+          "es": "Érase una vez un rey."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">durften</span> nicht rauchen.",
+          "es": "No podíamos fumar."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">sollte</span> um acht da sein.",
+          "es": "Ella debía estar a las ocho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">nahm</span> seinen Mantel und <span class=\"r-verb\">ging</span>.",
+          "es": "Cogió su abrigo y se fue."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Wetter</span> <span class=\"r-verb\">war</span> schlecht.",
+          "es": "El tiempo era malo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">hatte</span> Hunger.",
+          "es": "Tenía hambre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">sagte</span> nichts.",
+          "es": "Ella no dijo nada."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">schrieb</span> ihr jeden Tag.",
+          "es": "Él le escribía cada día."
+        }
       ],
       "tables": [
         {
-          "headers": ["Verbo", "Präteritum", "Ejemplo hablado"],
+          "headers": [
+            "Verbo",
+            "Präteritum",
+            "Ejemplo hablado"
+          ],
           "rows": [
-            ["sein", "<b>war</b>", "Ich war müde."],
-            ["haben", "<b>hatte</b>", "Wir hatten Glück."],
-            ["können", "<b>konnte</b>", "Er konnte nicht schlafen."],
-            ["müssen", "<b>musste</b>", "Ich musste arbeiten."],
-            ["wollen", "<b>wollte</b>", "Sie wollte helfen."],
-            ["wissen", "<b>wusste</b>", "Das wusste ich nicht!"]
+            [
+              "sein",
+              "<b>war</b>",
+              "Ich war müde."
+            ],
+            [
+              "haben",
+              "<b>hatte</b>",
+              "Wir hatten Glück."
+            ],
+            [
+              "können",
+              "<b>konnte</b>",
+              "Er konnte nicht schlafen."
+            ],
+            [
+              "müssen",
+              "<b>musste</b>",
+              "Ich musste arbeiten."
+            ],
+            [
+              "wollen",
+              "<b>wollte</b>",
+              "Sie wollte helfen."
+            ],
+            [
+              "wissen",
+              "<b>wusste</b>",
+              "Das wusste ich nicht!"
+            ]
           ]
         }
       ],
@@ -157,20 +748,152 @@
         {
           "id": "b10-s3q1",
           "question": "1. En una conversación: «Ayer estuve en casa.» Lo natural es…",
-          "options": ["Gestern bin ich zu Hause gewesen.", "Gestern war ich zu Hause.", "Gestern wurde ich zu Hause."],
+          "options": [
+            "Gestern bin ich zu Hause gewesen.",
+            "Gestern war ich zu Hause.",
+            "Gestern wurde ich zu Hause."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b10-s3q2",
           "question": "2. «No pude dormir.» → Ich <span class=\"blank\">___</span> nicht schlafen.",
-          "options": ["konnte", "kann", "gekonnt"],
+          "options": [
+            "konnte",
+            "kann",
+            "gekonnt"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b10-s3q3",
           "question": "3. ¿Dónde esperas encontrar «Er ging langsam nach Hause»?",
-          "options": ["En una charla de bar", "En una novela o noticia", "Solo en poesía"],
+          "options": [
+            "En una charla de bar",
+            "En una novela o noticia",
+            "Solo en poesía"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b10-s3q4",
+          "question": "4. «Ayer tenía hambre.» → Gestern <span class=\"blank\">___</span> ich Hunger.",
+          "options": [
+            "habe",
+            "hatte",
+            "war"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s3q5",
+          "question": "5. «Él estaba enfermo.» → Er <span class=\"blank\">___</span> krank.",
+          "options": [
+            "hatte",
+            "war",
+            "wurde"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s3q6",
+          "question": "6. «Quería venir.» → Ich <span class=\"blank\">___</span> kommen.",
+          "options": [
+            "wollte",
+            "wollen",
+            "gewollt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s3q7",
+          "question": "7. «No pudimos.» → Wir <span class=\"blank\">___</span> nicht.",
+          "options": [
+            "konnten",
+            "können",
+            "kannten"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s3q8",
+          "question": "8. «Tuvo que trabajar.» → Er <span class=\"blank\">___</span> arbeiten.",
+          "options": [
+            "müsste",
+            "musste",
+            "muss"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s3q9",
+          "question": "9. «Había un problema.» → Es <span class=\"blank\">___</span> ein Problem.",
+          "options": [
+            "gebt",
+            "gibt",
+            "gab"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s3q10",
+          "question": "10. Präteritum de «gehen» (er)",
+          "options": [
+            "ging",
+            "geht",
+            "gegangen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s3q11",
+          "question": "11. Präteritum de «sehen» (er)",
+          "options": [
+            "gesehen",
+            "sieht",
+            "sah"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s3q12",
+          "question": "12. Präteritum de «kommen» (sie)",
+          "options": [
+            "kam",
+            "kommt",
+            "gekommen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s3q13",
+          "question": "13. Präteritum de «sagen» (er)",
+          "options": [
+            "gesagt",
+            "sagte",
+            "sagt"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s3q14",
+          "question": "14. Präteritum de «wissen» (ich)",
+          "options": [
+            "gewusst",
+            "wusste",
+            "weiß"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s3q15",
+          "question": "15. Präteritum de «denken» (ich)",
+          "options": [
+            "denke",
+            "gedacht",
+            "dachte"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -192,29 +915,250 @@
         }
       ],
       "examples": [
-        { "en": "Nachdem ich <span class=\"r-sep\">gegessen</span> <span class=\"r-verb\">hatte</span>, <span class=\"r-verb\">ging</span> ich ins Bett.", "es": "Después de comer, me fui a la cama." },
-        { "en": "<span class=\"r-nom\">Der Zug</span> <span class=\"r-verb\">war</span> schon <span class=\"r-sep\">abgefahren</span>, als wir ankamen.", "es": "El tren ya había salido cuando llegamos." },
-        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hatte</span> das Buch schon <span class=\"r-sep\">gelesen</span>.", "es": "Ella ya había leído el libro." }
+        {
+          "en": "Nachdem ich <span class=\"r-sep\">gegessen</span> <span class=\"r-verb\">hatte</span>, <span class=\"r-verb\">ging</span> ich ins Bett.",
+          "es": "Después de comer, me fui a la cama."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Zug</span> <span class=\"r-verb\">war</span> schon <span class=\"r-sep\">abgefahren</span>, als wir ankamen.",
+          "es": "El tren ya había salido cuando llegamos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hatte</span> das Buch schon <span class=\"r-sep\">gelesen</span>.",
+          "es": "Ella ya había leído el libro."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">hatte</span> schon <span class=\"r-sep\">gegessen</span>, als er anrief.",
+          "es": "Ya había comido cuando él llamó."
+        },
+        {
+          "en": "Nachdem wir <span class=\"r-sep\">angekommen</span> <span class=\"r-verb\">waren</span>, <span class=\"r-verb\">riefen</span> wir an.",
+          "es": "Después de haber llegado, llamamos."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">war</span> schon <span class=\"r-sep\">gegangen</span>, als ich kam.",
+          "es": "Ella ya se había ido cuando yo llegué."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hatte</span> vergessen, dass heute Feiertag war.",
+          "es": "Se había olvidado de que hoy era festivo."
+        },
+        {
+          "en": "Nachdem er <span class=\"r-sep\">geduscht</span> <span class=\"r-verb\">hatte</span>, <span class=\"r-verb\">frühstückte</span> er.",
+          "es": "Después de ducharse, desayunó."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">hatten</span> lange <span class=\"r-sep\">gewartet</span>, bevor der Bus kam.",
+          "es": "Habíamos esperado mucho antes de que llegara el autobús."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">war</span> müde, weil ich schlecht <span class=\"r-sep\">geschlafen</span> <span class=\"r-verb\">hatte</span>.",
+          "es": "Estaba cansado porque había dormido mal."
+        },
+        {
+          "en": "Nachdem sie das Buch <span class=\"r-sep\">gelesen</span> <span class=\"r-verb\">hatte</span>, <span class=\"r-verb\">gab</span> sie es mir.",
+          "es": "Después de leer el libro, me lo dio."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Film</span> <span class=\"r-verb\">hatte</span> schon <span class=\"r-sep\">angefangen</span>.",
+          "es": "La película ya había empezado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">war</span> nie zuvor in Berlin <span class=\"r-sep\">gewesen</span>.",
+          "es": "Nunca antes había estado en Berlín."
+        },
+        {
+          "en": "Nachdem wir <span class=\"r-sep\">gegessen</span> <span class=\"r-verb\">hatten</span>, <span class=\"r-verb\">gingen</span> wir spazieren.",
+          "es": "Después de comer, salimos a pasear."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hatte</span> ihre Tasche <span class=\"r-sep\">vergessen</span>.",
+          "es": "Ella había olvidado su bolso."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">hatte</span> das schon <span class=\"r-sep\">gewusst</span>.",
+          "es": "Eso ya lo había sabido."
+        },
+        {
+          "en": "Als ich <span class=\"r-sep\">ankam</span>, <span class=\"r-verb\">war</span> der Zug schon <span class=\"r-sep\">abgefahren</span>.",
+          "es": "Cuando llegué, el tren ya había salido."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">war</span> nach Hause <span class=\"r-sep\">gegangen</span>, nachdem er lange <span class=\"r-sep\">gearbeitet</span> <span class=\"r-verb\">hatte</span>.",
+          "es": "Se había ido a casa después de haber trabajado mucho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">hatten</span> uns vorher nie <span class=\"r-sep\">gesehen</span>.",
+          "es": "Antes nunca nos habíamos visto."
+        },
+        {
+          "en": "Nachdem ich <span class=\"r-sep\">aufgestanden</span> <span class=\"r-verb\">war</span>, <span class=\"r-verb\">trank</span> ich Kaffee.",
+          "es": "Después de levantarme, bebí café."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hatte</span> schon <span class=\"r-sep\">bezahlt</span>.",
+          "es": "Ella ya había pagado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">war</span> eingeschlafen, bevor der Film zu Ende war.",
+          "es": "Se había dormido antes de que acabara la película."
+        },
+        {
+          "en": "Nachdem er <span class=\"r-sep\">gegangen</span> <span class=\"r-verb\">war</span>, <span class=\"r-verb\">weinte</span> sie.",
+          "es": "Después de que él se fue, ella lloró."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b10-s4q1",
           "question": "1. Nachdem er die Hausaufgaben gemacht <span class=\"blank\">___</span>, sah er fern.",
-          "options": ["hat", "hatte", "ist"],
+          "options": [
+            "hat",
+            "hatte",
+            "ist"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b10-s4q2",
           "question": "2. Als ich ankam, <span class=\"blank\">___</span> das Konzert schon begonnen.",
-          "options": ["hat", "war", "hatte"],
+          "options": [
+            "hat",
+            "war",
+            "hatte"
+          ],
           "correctIndex": 2
         },
         {
           "id": "b10-s4q3",
           "question": "3. «El tren ya se había ido.» → Der Zug <span class=\"blank\">___</span> schon abgefahren.",
-          "options": ["hatte", "war", "ist"],
+          "options": [
+            "hatte",
+            "war",
+            "ist"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b10-s4q4",
+          "question": "4. Nachdem ich gegessen <span class=\"blank\">___</span>, ging ich schlafen.",
+          "options": [
+            "hatte",
+            "habe",
+            "war"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s4q5",
+          "question": "5. Als wir kamen, <span class=\"blank\">___</span> der Film schon vorbei.",
+          "options": [
+            "war",
+            "ist",
+            "hatte"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s4q6",
+          "question": "6. Sie <span class=\"blank\">___</span> schon gegangen, als ich anrief.",
+          "options": [
+            "ist",
+            "war",
+            "hatte"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s4q7",
+          "question": "7. Er <span class=\"blank\">___</span> das Buch schon gelesen.",
+          "options": [
+            "war",
+            "hat",
+            "hatte"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s4q8",
+          "question": "8. Plusquamperfekt de «ich habe gegessen»",
+          "options": [
+            "ich hatte gegessen",
+            "ich war gegessen",
+            "ich aß gehabt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s4q9",
+          "question": "9. Plusquamperfekt de «er ist gegangen»",
+          "options": [
+            "er war gegangen",
+            "er hatte gegangen",
+            "er ging gewesen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s4q10",
+          "question": "10. Nachdem sie angekommen <span class=\"blank\">___</span>, rief sie an.",
+          "options": [
+            "ist",
+            "hatte",
+            "war"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s4q11",
+          "question": "11. Nachdem wir gefrühstückt <span class=\"blank\">___</span>, fuhren wir los.",
+          "options": [
+            "waren",
+            "haben",
+            "hatten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s4q12",
+          "question": "12. Wir <span class=\"blank\">___</span> schon abgefahren, als du kamst.",
+          "options": [
+            "sind",
+            "hatten",
+            "waren"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s4q13",
+          "question": "13. Er <span class=\"blank\">___</span> vergessen, den Schlüssel mitzunehmen.",
+          "options": [
+            "hatte",
+            "hat",
+            "war"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s4q14",
+          "question": "14. ¿Cuál es correcta?",
+          "options": [
+            "Nachdem ich gegessen hatte, ging ich weg.",
+            "Nachdem ich aß, hatte ich weggegangen.",
+            "Nachdem ich gegessen habe, ging ich weg."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s4q15",
+          "question": "15. El Plusquamperfekt se forma con…",
+          "options": [
+            "wurde + Partizip II",
+            "habe/bin + Partizip II",
+            "hatte/war + Partizip II"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -236,30 +1180,254 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">werde</span> dir <span class=\"r-sep\">helfen</span>.", "es": "Te ayudaré. (promesa)" },
-        { "en": "Es <span class=\"r-verb\">wird</span> morgen <span class=\"r-sep\">regnen</span>.", "es": "Mañana lloverá. (predicción)" },
-        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">wird</span> wohl im Büro <span class=\"r-sep\">sein</span>.", "es": "Estará en la oficina, supongo. (suposición)" },
-        { "en": "Bis Freitag <span class=\"r-verb\">werde</span> ich den Bericht <span class=\"r-sep\">geschrieben haben</span>.", "es": "Para el viernes habré escrito el informe. (Futur II)" }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">werde</span> dir <span class=\"r-sep\">helfen</span>.",
+          "es": "Te ayudaré. (promesa)"
+        },
+        {
+          "en": "Es <span class=\"r-verb\">wird</span> morgen <span class=\"r-sep\">regnen</span>.",
+          "es": "Mañana lloverá. (predicción)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">wird</span> wohl im Büro <span class=\"r-sep\">sein</span>.",
+          "es": "Estará en la oficina, supongo. (suposición)"
+        },
+        {
+          "en": "Bis Freitag <span class=\"r-verb\">werde</span> ich den Bericht <span class=\"r-sep\">geschrieben haben</span>.",
+          "es": "Para el viernes habré escrito el informe. (Futur II)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">werde</span> morgen früh <span class=\"r-sep\">aufstehen</span>.",
+          "es": "Mañana me levantaré temprano."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">werden</span> dich <span class=\"r-sep\">besuchen</span>.",
+          "es": "Te visitaremos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">wird</span> bald <span class=\"r-sep\">schneien</span>.",
+          "es": "Pronto nevará."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">wird</span> sicher <span class=\"r-sep\">kommen</span>.",
+          "es": "Seguro que vendrá."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">wird</span> wohl noch <span class=\"r-sep\">schlafen</span>.",
+          "es": "Ella estará durmiendo todavía, supongo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">wird</span> wohl krank <span class=\"r-sep\">sein</span>.",
+          "es": "Estará enfermo, supongo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">werde</span> das nie <span class=\"r-sep\">vergessen</span>.",
+          "es": "Nunca lo olvidaré."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">wirst</span> das <span class=\"r-sep\">schaffen</span>.",
+          "es": "Lo lograrás."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">werden</span> im Sommer nach Italien <span class=\"r-sep\">fahren</span>.",
+          "es": "En verano iremos a Italia."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das</span> <span class=\"r-verb\">wird</span> nicht <span class=\"r-sep\">klappen</span>.",
+          "es": "Eso no saldrá bien."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">werden</span> uns <span class=\"r-sep\">helfen</span>.",
+          "es": "Ellos nos ayudarán."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">werde</span> dich <span class=\"r-sep\">anrufen</span>.",
+          "es": "Te llamaré."
+        },
+        {
+          "en": "Bis morgen <span class=\"r-verb\">werde</span> ich alles <span class=\"r-sep\">gelernt haben</span>.",
+          "es": "Para mañana lo habré aprendido todo. (Futur II)"
+        },
+        {
+          "en": "In zehn Jahren <span class=\"r-verb\">werde</span> ich <span class=\"r-sep\">Arzt geworden sein</span>.",
+          "es": "Dentro de diez años me habré hecho médico. (Futur II)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">wird</span> schon <span class=\"r-sep\">angekommen sein</span>.",
+          "es": "Ya habrá llegado, supongo. (Futur II, suposición)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">wird</span> nicht <span class=\"r-sep\">regnen</span>.",
+          "es": "No lloverá."
+        },
+        {
+          "en": "Nächstes Jahr <span class=\"r-verb\">werde</span> <span class=\"r-nom\">ich</span> mehr <span class=\"r-sep\">reisen</span>.",
+          "es": "El año que viene viajaré más."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">wird</span> bestimmt <span class=\"r-sep\">gewinnen</span>.",
+          "es": "Seguro que ganará."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">werde</span> ihm die Wahrheit <span class=\"r-sep\">sagen</span>.",
+          "es": "Le diré la verdad."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">werden</span> sehen.",
+          "es": "Ya veremos."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b10-s5q1",
           "question": "1. «Te llamaré.» (promesa) → Ich <span class=\"blank\">___</span> dich anrufen.",
-          "options": ["will", "werde", "wurde"],
+          "options": [
+            "will",
+            "werde",
+            "wurde"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b10-s5q2",
           "question": "2. «Estará cansado (supongo).» → Er wird <span class=\"blank\">___</span> müde sein.",
-          "options": ["wohl", "schon gerne", "doch mal"],
+          "options": [
+            "wohl",
+            "schon gerne",
+            "doch mal"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b10-s5q3",
           "question": "3. «Para el lunes lo habré leído.» → Bis Montag werde ich es <span class=\"blank\">___</span>.",
-          "options": ["lesen", "gelesen haben", "gelesen sein"],
+          "options": [
+            "lesen",
+            "gelesen haben",
+            "gelesen sein"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b10-s5q4",
+          "question": "4. «Te ayudaré.» → Ich <span class=\"blank\">___</span> dir helfen.",
+          "options": [
+            "werde",
+            "wurde",
+            "will"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s5q5",
+          "question": "5. «Mañana lloverá.» → Es <span class=\"blank\">___</span> morgen regnen.",
+          "options": [
+            "werde",
+            "wurde",
+            "wird"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s5q6",
+          "question": "6. «Estará en casa (supongo).» → Er wird <span class=\"blank\">___</span> zu Hause sein.",
+          "options": [
+            "wohl",
+            "mal",
+            "gern"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s5q7",
+          "question": "7. «Nunca lo olvidaré.» → Ich <span class=\"blank\">___</span> das nie vergessen.",
+          "options": [
+            "wurde",
+            "wirst",
+            "werde"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s5q8",
+          "question": "8. Futur I se forma con…",
+          "options": [
+            "sein + infinitivo",
+            "werden + infinitivo",
+            "haben + Partizip II"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s5q9",
+          "question": "9. Futur II se forma con…",
+          "options": [
+            "werden + infinitivo",
+            "werden + Partizip II + haben/sein",
+            "wurde + Partizip II"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s5q10",
+          "question": "10. «Ellos vendrán.» → Sie <span class=\"blank\">___</span> kommen.",
+          "options": [
+            "werde",
+            "werden",
+            "wird"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s5q11",
+          "question": "11. «Tú lo lograrás.» → Du <span class=\"blank\">___</span> es schaffen.",
+          "options": [
+            "wirst",
+            "wird",
+            "werde"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b10-s5q12",
+          "question": "12. «Para el viernes habré terminado.» → Bis Freitag <span class=\"blank\">___</span> ich alles gelesen haben.",
+          "options": [
+            "wurde",
+            "bin",
+            "werde"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b10-s5q13",
+          "question": "13. «Ya habrá llegado.» → Er wird schon <span class=\"blank\">___</span> <span class=\"blank\">___</span>.",
+          "options": [
+            "ankommen sein",
+            "angekommen sein",
+            "angekommen haben"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s5q14",
+          "question": "14. «Nos ayudarán.» → Sie <span class=\"blank\">___</span> uns helfen.",
+          "options": [
+            "wird",
+            "werden",
+            "wurden"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b10-s5q15",
+          "question": "15. «Ya veremos.» → Wir <span class=\"blank\">___</span> sehen.",
+          "options": [
+            "werden",
+            "wurden",
+            "wird"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {

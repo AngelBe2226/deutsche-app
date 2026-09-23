@@ -4,8 +4,16 @@
   "kicker": "Bloque 15 · A1–B1",
   "intro": "El sistema verbal alemán en cuatro piezas: los <b class=\"hl\">débiles</b> (regulares), los <b class=\"hl\">fuertes</b> (cambian la vocal — apréndete sus <b class=\"hl\">3 formas principales</b>), los <b class=\"hl\">mixtos</b>, y el imperativo. La tabla completa de verbos fuertes está en el Glosario.",
   "legend": [
-    { "label": "verbo", "desc": "conjugado", "role": "verb" },
-    { "label": "sujeto", "desc": "Nominativ", "role": "nom" }
+    {
+      "label": "verbo",
+      "desc": "conjugado",
+      "role": "verb"
+    },
+    {
+      "label": "sujeto",
+      "desc": "Nominativ",
+      "role": "nom"
+    }
   ],
   "sections": [
     {
@@ -21,20 +29,142 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">mache</span> meine Hausaufgaben.", "es": "Hago mis deberes." },
-        { "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">lernst</span> schnell.", "es": "Aprendes rápido." },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> bei Siemens.", "es": "Él trabaja en Siemens. (-e- de apoyo)" },
-        { "en": "Gestern <span class=\"r-verb\">kauften</span> <span class=\"r-nom\">wir</span> Brot. / Wir <span class=\"r-verb\">haben</span> Brot gekauft.", "es": "Ayer compramos pan. (Präteritum / Perfekt)" }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">mache</span> meine Hausaufgaben.",
+          "es": "Hago mis deberes."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">lernst</span> schnell.",
+          "es": "Aprendes rápido."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">arbeitet</span> bei Siemens.",
+          "es": "Él trabaja en Siemens. (-e- de apoyo)"
+        },
+        {
+          "en": "Gestern <span class=\"r-verb\">kauften</span> <span class=\"r-nom\">wir</span> Brot. / Wir <span class=\"r-verb\">haben</span> Brot gekauft.",
+          "es": "Ayer compramos pan. (Präteritum / Perfekt)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">spiele</span> Fußball.",
+          "es": "Juego al fútbol."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">kaufst</span> Brot.",
+          "es": "Compras pan."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">wohnt</span> in Berlin.",
+          "es": "Él vive en Berlín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">lernen</span> Deutsch.",
+          "es": "Aprendemos alemán."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ihr</span> <span class=\"r-verb\">macht</span> Pause.",
+          "es": "Hacéis una pausa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">kochen</span> heute.",
+          "es": "Ellos cocinan hoy."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">arbeitest</span> zu viel.",
+          "es": "Trabajas demasiado. (-e- de apoyo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">wartet</span> auf den Bus.",
+          "es": "Él espera el autobús. (-e- de apoyo)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ihr</span> <span class=\"r-verb\">badet</span> im See.",
+          "es": "Os bañáis en el lago."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">heißt</span> Anna.",
+          "es": "Te llamas Anna. (tras -ß solo -t)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">tanzt</span> gern.",
+          "es": "Le gusta bailar. (tras -z solo -t)"
+        },
+        {
+          "en": "Gestern <span class=\"r-verb\">spielte</span> <span class=\"r-nom\">ich</span> Tennis.",
+          "es": "Ayer jugué al tenis. (Präteritum)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">machte</span> das Fenster zu.",
+          "es": "Él cerró la ventana. (Präteritum)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">lernten</span> Deutsch in Berlin.",
+          "es": "Aprendimos alemán en Berlín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> Musik <span class=\"r-verb\">gehört</span>.",
+          "es": "He escuchado música. (hören → gehört)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> Brot <span class=\"r-verb\">gekauft</span>.",
+          "es": "Ella ha comprado pan."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> lange <span class=\"r-verb\">gewartet</span>.",
+          "es": "Él ha esperado mucho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">haben</span> Fußball <span class=\"r-verb\">gespielt</span>.",
+          "es": "Hemos jugado al fútbol."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> das <span class=\"r-verb\">gemacht</span>.",
+          "es": "Lo he hecho yo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> in Wien <span class=\"r-verb\">gewohnt</span>.",
+          "es": "Ella ha vivido en Viena."
+        }
       ],
       "tables": [
         {
-          "headers": ["", "machen (Präsens)", "Präteritum", "Partizip II"],
+          "headers": [
+            "",
+            "machen (Präsens)",
+            "Präteritum",
+            "Partizip II"
+          ],
           "rows": [
-            ["ich", "mach<b>e</b>", "mach<b>te</b>", "<b>ge</b>mach<b>t</b>"],
-            ["du", "mach<b>st</b>", "mach<b>test</b>", ""],
-            ["er/sie/es", "mach<b>t</b>", "mach<b>te</b>", ""],
-            ["wir/sie/Sie", "mach<b>en</b>", "mach<b>ten</b>", ""],
-            ["ihr", "mach<b>t</b>", "mach<b>tet</b>", ""]
+            [
+              "ich",
+              "mach<b>e</b>",
+              "mach<b>te</b>",
+              "<b>ge</b>mach<b>t</b>"
+            ],
+            [
+              "du",
+              "mach<b>st</b>",
+              "mach<b>test</b>",
+              ""
+            ],
+            [
+              "er/sie/es",
+              "mach<b>t</b>",
+              "mach<b>te</b>",
+              ""
+            ],
+            [
+              "wir/sie/Sie",
+              "mach<b>en</b>",
+              "mach<b>ten</b>",
+              ""
+            ],
+            [
+              "ihr",
+              "mach<b>t</b>",
+              "mach<b>tet</b>",
+              ""
+            ]
           ]
         }
       ],
@@ -42,20 +172,152 @@
         {
           "id": "b15-s1q1",
           "question": "1. du (arbeiten) → du <span class=\"blank\">___</span>",
-          "options": ["arbeitst", "arbeitest", "arbeitet"],
+          "options": [
+            "arbeitst",
+            "arbeitest",
+            "arbeitet"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b15-s1q2",
           "question": "2. Partizip II de «kaufen»:",
-          "options": ["gekauft", "gekaufen", "kauft"],
+          "options": [
+            "gekauft",
+            "gekaufen",
+            "kauft"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b15-s1q3",
           "question": "3. du (heißen) → du <span class=\"blank\">___</span>",
-          "options": ["heißst", "heißt", "heißest"],
+          "options": [
+            "heißst",
+            "heißt",
+            "heißest"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b15-s1q4",
+          "question": "4. du (spielen) → du <span class=\"blank\">___</span>",
+          "options": [
+            "spielt",
+            "spielest",
+            "spielst"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s1q5",
+          "question": "5. er (wohnen) → er <span class=\"blank\">___</span>",
+          "options": [
+            "wohnst",
+            "wohnt",
+            "wohnet"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s1q6",
+          "question": "6. ihr (machen) → ihr <span class=\"blank\">___</span>",
+          "options": [
+            "machen",
+            "macht",
+            "machst"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s1q7",
+          "question": "7. wir (kochen) → wir <span class=\"blank\">___</span>",
+          "options": [
+            "kochen",
+            "kochst",
+            "kocht"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s1q8",
+          "question": "8. du (warten) → du <span class=\"blank\">___</span>",
+          "options": [
+            "wartet",
+            "wartst",
+            "wartest"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s1q9",
+          "question": "9. er (arbeiten) → er <span class=\"blank\">___</span>",
+          "options": [
+            "arbeitest",
+            "arbeitt",
+            "arbeitet"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s1q10",
+          "question": "10. Partizip II de «spielen»",
+          "options": [
+            "gespielt",
+            "spielt",
+            "gespielen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s1q11",
+          "question": "11. Partizip II de «machen»",
+          "options": [
+            "macht",
+            "gemachen",
+            "gemacht"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s1q12",
+          "question": "12. Partizip II de «wohnen»",
+          "options": [
+            "gewohnt",
+            "wohnt",
+            "gewohnen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s1q13",
+          "question": "13. Präteritum de «machen» (ich)",
+          "options": [
+            "machte",
+            "machete",
+            "mache"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s1q14",
+          "question": "14. Präteritum de «lernen» (er)",
+          "options": [
+            "lernt",
+            "lernete",
+            "lernte"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s1q15",
+          "question": "15. du (tanzen) → du <span class=\"blank\">___</span>",
+          "options": [
+            "tanzt",
+            "tanzest",
+            "tanzst"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -82,20 +344,142 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">sprichst</span> sehr gut Deutsch!", "es": "¡Hablas muy bien alemán! (e→i)" },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">fährt</span> jeden Tag mit dem Rad.", "es": "Él va cada día en bici. (a→ä)" },
-        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">liest</span> gern Krimis.", "es": "A ella le gusta leer novela negra. (e→ie)" },
-        { "en": "Ich <span class=\"r-verb\">trank</span> Wasser. / Ich <span class=\"r-verb\">habe</span> Wasser getrunken.", "es": "Bebí agua. (trinken–trank–getrunken)" }
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">sprichst</span> sehr gut Deutsch!",
+          "es": "¡Hablas muy bien alemán! (e→i)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">fährt</span> jeden Tag mit dem Rad.",
+          "es": "Él va cada día en bici. (a→ä)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">liest</span> gern Krimis.",
+          "es": "A ella le gusta leer novela negra. (e→ie)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">trank</span> Wasser. / Ich <span class=\"r-verb\">habe</span> Wasser getrunken.",
+          "es": "Bebí agua. (trinken–trank–getrunken)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">isst</span> viel Obst.",
+          "es": "Comes mucha fruta. (e→i)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">gibt</span> mir das Buch.",
+          "es": "Él me da el libro. (e→i)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">nimmt</span> den Bus.",
+          "es": "Ella coge el autobús. (e→i)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">hilfst</span> mir.",
+          "es": "Me ayudas. (e→i)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">spricht</span> Spanisch.",
+          "es": "Él habla español. (e→i)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">siehst</span> müde aus.",
+          "es": "Pareces cansado. (e→ie)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">liest</span> ein Buch.",
+          "es": "Ella lee un libro. (e→ie)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">sieht</span> den Film.",
+          "es": "Él ve la película. (e→ie)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">fährst</span> nach Hause.",
+          "es": "Vas a casa. (a→ä)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">schläft</span> noch.",
+          "es": "Él todavía duerme. (a→ä)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">läuft</span> schnell.",
+          "es": "Ella corre rápido. (au→äu)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">trägst</span> eine Jacke.",
+          "es": "Llevas una chaqueta. (a→ä)"
+        },
+        {
+          "en": "Gestern <span class=\"r-verb\">ging</span> <span class=\"r-nom\">ich</span> ins Kino.",
+          "es": "Ayer fui al cine. (gehen–ging–gegangen)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">trank</span> Kaffee.",
+          "es": "Él bebió café. (trinken–trank–getrunken)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sahen</span> den Film.",
+          "es": "Vimos la película. (sehen–sah–gesehen)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">schrieb</span> einen Brief.",
+          "es": "Ella escribió una carta. (schreiben–schrieb–geschrieben)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> viel <span class=\"r-verb\">gelesen</span>.",
+          "es": "He leído mucho. (lesen–las–gelesen)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> nach Hause <span class=\"r-verb\">gefahren</span>.",
+          "es": "Él se ha ido a casa. (fahren–fuhr–gefahren)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">haben</span> Pizza <span class=\"r-verb\">gegessen</span>.",
+          "es": "Hemos comido pizza. (essen–aß–gegessen)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hat</span> mir <span class=\"r-verb\">geholfen</span>.",
+          "es": "Ella me ha ayudado. (helfen–half–geholfen)"
+        }
       ],
       "tables": [
         {
-          "headers": ["Serie", "Infinitiv", "Präteritum", "Partizip II"],
+          "headers": [
+            "Serie",
+            "Infinitiv",
+            "Präteritum",
+            "Partizip II"
+          ],
           "rows": [
-            ["ei – ie – ie", "bleiben", "blieb", "geblieben"],
-            ["i – a – u", "trinken", "trank", "getrunken"],
-            ["e – a – o", "sprechen", "sprach", "gesprochen"],
-            ["a – u – a", "fahren", "fuhr", "gefahren"],
-            ["e – a – e", "essen", "aß", "gegessen"]
+            [
+              "ei – ie – ie",
+              "bleiben",
+              "blieb",
+              "geblieben"
+            ],
+            [
+              "i – a – u",
+              "trinken",
+              "trank",
+              "getrunken"
+            ],
+            [
+              "e – a – o",
+              "sprechen",
+              "sprach",
+              "gesprochen"
+            ],
+            [
+              "a – u – a",
+              "fahren",
+              "fuhr",
+              "gefahren"
+            ],
+            [
+              "e – a – e",
+              "essen",
+              "aß",
+              "gegessen"
+            ]
           ]
         }
       ],
@@ -103,20 +487,152 @@
         {
           "id": "b15-s2q1",
           "question": "1. er (sehen) → er <span class=\"blank\">___</span>",
-          "options": ["seht", "sieht", "sehet"],
+          "options": [
+            "seht",
+            "sieht",
+            "sehet"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b15-s2q2",
           "question": "2. Las 3 formas de «finden»:",
-          "options": ["finden – fand – gefunden", "finden – fund – gefanden", "finden – fandte – gefindet"],
+          "options": [
+            "finden – fand – gefunden",
+            "finden – fund – gefanden",
+            "finden – fandte – gefindet"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b15-s2q3",
           "question": "3. du (fahren) → du <span class=\"blank\">___</span>",
-          "options": ["fahrst", "fährst", "fährt"],
+          "options": [
+            "fahrst",
+            "fährst",
+            "fährt"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b15-s2q4",
+          "question": "4. du (sprechen) → du <span class=\"blank\">___</span>",
+          "options": [
+            "sprichst",
+            "sprecht",
+            "sprechst"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s2q5",
+          "question": "5. er (essen) → er <span class=\"blank\">___</span>",
+          "options": [
+            "ist",
+            "esst",
+            "isst"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s2q6",
+          "question": "6. du (lesen) → du <span class=\"blank\">___</span>",
+          "options": [
+            "lies",
+            "lest",
+            "liest"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s2q7",
+          "question": "7. er (fahren) → er <span class=\"blank\">___</span>",
+          "options": [
+            "fährt",
+            "fährst",
+            "fahrt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s2q8",
+          "question": "8. du (schlafen) → du <span class=\"blank\">___</span>",
+          "options": [
+            "schlafst",
+            "schläfst",
+            "schläft"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s2q9",
+          "question": "9. er (helfen) → er <span class=\"blank\">___</span>",
+          "options": [
+            "helft",
+            "hilfst",
+            "hilft"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s2q10",
+          "question": "10. er (nehmen) → er <span class=\"blank\">___</span>",
+          "options": [
+            "nemmt",
+            "nimmt",
+            "nehmt"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s2q11",
+          "question": "11. Stammformen de «gehen»",
+          "options": [
+            "gehen – ging – gegangen",
+            "gehen – geht – gegehen",
+            "gehen – gehte – gegeht"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s2q12",
+          "question": "12. Stammformen de «sehen»",
+          "options": [
+            "sehen – sehte – gesehen",
+            "sehen – sah – gesahen",
+            "sehen – sah – gesehen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s2q13",
+          "question": "13. Stammformen de «schreiben»",
+          "options": [
+            "schreiben – schrieb – geschrieben",
+            "schreiben – schreibte – geschreibt",
+            "schreiben – schrieb – geschriebt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s2q14",
+          "question": "14. Partizip II de «trinken»",
+          "options": [
+            "getrunken",
+            "trunken",
+            "getrinkt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s2q15",
+          "question": "15. Präteritum de «kommen» (er)",
+          "options": [
+            "kam",
+            "kamm",
+            "kommte"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -138,22 +654,162 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">weiß</span> die Antwort nicht.", "es": "No sé la respuesta." },
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">kenne</span> diesen Mann.", "es": "Conozco a este hombre." },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> an dich <span class=\"r-verb\">gedacht</span>.", "es": "Él pensó en ti. (denken–dachte–gedacht)" },
-        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">brachte</span> mir einen Kaffee.", "es": "Ella me trajo un café. (bringen–brachte–gebracht)" }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">weiß</span> die Antwort nicht.",
+          "es": "No sé la respuesta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">kenne</span> diesen Mann.",
+          "es": "Conozco a este hombre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> an dich <span class=\"r-verb\">gedacht</span>.",
+          "es": "Él pensó en ti. (denken–dachte–gedacht)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">brachte</span> mir einen Kaffee.",
+          "es": "Ella me trajo un café. (bringen–brachte–gebracht)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bin</span> müde.",
+          "es": "Estoy cansado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">bist</span> mein bester Freund.",
+          "es": "Eres mi mejor amigo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> Lehrer.",
+          "es": "Él es profesor."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> zu Hause.",
+          "es": "Estamos en casa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ihr</span> <span class=\"r-verb\">seid</span> nett.",
+          "es": "Sois simpáticos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">sind</span> Ärzte.",
+          "es": "Ellos son médicos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> Hunger.",
+          "es": "Tengo hambre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">hast</span> Recht.",
+          "es": "Tienes razón."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> zwei Kinder.",
+          "es": "Él tiene dos hijos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">werde</span> Arzt.",
+          "es": "Me haré médico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Du</span> <span class=\"r-verb\">wirst</span> müde.",
+          "es": "Te estás cansando."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">wird</span> kalt.",
+          "es": "Se está poniendo frío."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">weiß</span> das nicht.",
+          "es": "Eso no lo sé."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">weiß</span> alles.",
+          "es": "Él lo sabe todo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">wissen</span> die Antwort.",
+          "es": "Ellos saben la respuesta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">kenne</span> ihn.",
+          "es": "Lo conozco."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">dachte</span> an sie.",
+          "es": "Él pensó en ella. (denken–dachte–gedacht)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">brachte</span> das Essen.",
+          "es": "Ella trajo la comida. (bringen–brachte–gebracht)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">kannten</span> den Weg.",
+          "es": "Conocíamos el camino. (kennen–kannte–gekannt)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hat</span> es <span class=\"r-verb\">gewusst</span>.",
+          "es": "Él lo sabía. (wissen–wusste–gewusst)"
+        }
       ],
       "tables": [
         {
-          "headers": ["", "sein", "haben", "werden", "wissen"],
+          "headers": [
+            "",
+            "sein",
+            "haben",
+            "werden",
+            "wissen"
+          ],
           "rows": [
-            ["ich", "bin", "habe", "werde", "weiß"],
-            ["du", "bist", "hast", "wirst", "weißt"],
-            ["er/sie/es", "ist", "hat", "wird", "weiß"],
-            ["wir/sie/Sie", "sind", "haben", "werden", "wissen"],
-            ["ihr", "seid", "habt", "werdet", "wisst"],
-            ["Präteritum", "war", "hatte", "wurde", "wusste"],
-            ["Partizip II", "gewesen", "gehabt", "geworden", "gewusst"]
+            [
+              "ich",
+              "bin",
+              "habe",
+              "werde",
+              "weiß"
+            ],
+            [
+              "du",
+              "bist",
+              "hast",
+              "wirst",
+              "weißt"
+            ],
+            [
+              "er/sie/es",
+              "ist",
+              "hat",
+              "wird",
+              "weiß"
+            ],
+            [
+              "wir/sie/Sie",
+              "sind",
+              "haben",
+              "werden",
+              "wissen"
+            ],
+            [
+              "ihr",
+              "seid",
+              "habt",
+              "werdet",
+              "wisst"
+            ],
+            [
+              "Präteritum",
+              "war",
+              "hatte",
+              "wurde",
+              "wusste"
+            ],
+            [
+              "Partizip II",
+              "gewesen",
+              "gehabt",
+              "geworden",
+              "gewusst"
+            ]
           ]
         }
       ],
@@ -161,20 +817,152 @@
         {
           "id": "b15-s3q1",
           "question": "1. «¿Conoces este restaurante?» → <span class=\"blank\">___</span> du dieses Restaurant?",
-          "options": ["Weißt", "Kennst", "Kannst"],
+          "options": [
+            "Weißt",
+            "Kennst",
+            "Kannst"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b15-s3q2",
           "question": "2. Präteritum de «bringen»:",
-          "options": ["brang", "brachte", "bringte"],
+          "options": [
+            "brang",
+            "brachte",
+            "bringte"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b15-s3q3",
           "question": "3. ihr (sein) → ihr <span class=\"blank\">___</span>",
-          "options": ["sind", "seid", "seit"],
+          "options": [
+            "sind",
+            "seid",
+            "seit"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b15-s3q4",
+          "question": "4. ich <span class=\"blank\">___</span> müde (sein)",
+          "options": [
+            "ist",
+            "bist",
+            "bin"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s3q5",
+          "question": "5. du <span class=\"blank\">___</span> Zeit (haben)",
+          "options": [
+            "habst",
+            "hat",
+            "hast"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s3q6",
+          "question": "6. er <span class=\"blank\">___</span> Lehrer (werden)",
+          "options": [
+            "wird",
+            "wirdt",
+            "wirt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s3q7",
+          "question": "7. ihr <span class=\"blank\">___</span> nett (sein)",
+          "options": [
+            "seit",
+            "sind",
+            "seid"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s3q8",
+          "question": "8. wir <span class=\"blank\">___</span> Hunger (haben)",
+          "options": [
+            "haben",
+            "hat",
+            "habt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s3q9",
+          "question": "9. ich <span class=\"blank\">___</span> es nicht (wissen)",
+          "options": [
+            "wisse",
+            "weiß",
+            "weisse"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s3q10",
+          "question": "10. du <span class=\"blank\">___</span> die Antwort (wissen)",
+          "options": [
+            "weißst",
+            "weißt",
+            "wisst"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s3q11",
+          "question": "11. Präteritum de «sein» (ich)",
+          "options": [
+            "wurde",
+            "bin gewesen",
+            "war"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s3q12",
+          "question": "12. Präteritum de «haben» (ich)",
+          "options": [
+            "hatte",
+            "habte",
+            "haben"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s3q13",
+          "question": "13. Partizip II de «denken»",
+          "options": [
+            "gedacht",
+            "gedenkt",
+            "gedachtet"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s3q14",
+          "question": "14. Partizip II de «bringen»",
+          "options": [
+            "gebracht",
+            "bringt",
+            "gebringt"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s3q15",
+          "question": "15. «¿Conoces a Anna?» → <span class=\"blank\">___</span> du Anna?",
+          "options": [
+            "Kennst",
+            "Weißt",
+            "Kannst"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -196,20 +984,140 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Komm</span> bitte her!", "es": "¡Ven aquí, por favor! (du)" },
-        { "en": "<span class=\"r-verb\">Sprich</span> langsamer!", "es": "¡Habla más despacio! (du, e→i se mantiene)" },
-        { "en": "<span class=\"r-verb\">Macht</span> die Bücher auf!", "es": "¡Abrid los libros! (ihr)" },
-        { "en": "<span class=\"r-verb\">Nehmen</span> Sie bitte Platz!", "es": "Tome asiento, por favor. (Sie)" },
-        { "en": "<span class=\"r-verb\">Sei</span> nicht so streng!", "es": "¡No seas tan estricto! (sein irregular)" }
+        {
+          "en": "<span class=\"r-verb\">Komm</span> bitte her!",
+          "es": "¡Ven aquí, por favor! (du)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sprich</span> langsamer!",
+          "es": "¡Habla más despacio! (du, e→i se mantiene)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Macht</span> die Bücher auf!",
+          "es": "¡Abrid los libros! (ihr)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Nehmen</span> Sie bitte Platz!",
+          "es": "Tome asiento, por favor. (Sie)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sei</span> nicht so streng!",
+          "es": "¡No seas tan estricto! (sein irregular)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Komm</span> mit!",
+          "es": "¡Ven con nosotros! (du)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Geh</span> nach Hause!",
+          "es": "¡Vete a casa! (du)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Lies</span> das Buch!",
+          "es": "¡Lee el libro! (du, e→ie se mantiene)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sprich</span> bitte lauter!",
+          "es": "¡Habla más alto, por favor! (du)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Nimm</span> den Bus!",
+          "es": "¡Coge el autobús! (du, e→i)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Fahr</span> vorsichtig!",
+          "es": "¡Conduce con cuidado! (du, sin Umlaut)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Schlaf</span> gut!",
+          "es": "¡Que duermas bien! (du, sin Umlaut)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sei</span> pünktlich!",
+          "es": "¡Sé puntual! (du, sein irregular)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Hab</span> keine Angst!",
+          "es": "¡No tengas miedo! (du)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Warte</span> einen Moment!",
+          "es": "¡Espera un momento! (du, -e por raíz en -t)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Kommt</span> bitte her!",
+          "es": "¡Venid aquí, por favor! (ihr)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Macht</span> die Tür zu!",
+          "es": "¡Cerrad la puerta! (ihr)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Seid</span> leise!",
+          "es": "¡Sed silenciosos! (ihr)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Kommen</span> Sie bitte herein!",
+          "es": "Pase, por favor. (Sie)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Nehmen</span> Sie Platz!",
+          "es": "Tome asiento. (Sie)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Sprechen</span> Sie bitte langsamer!",
+          "es": "Hable más despacio, por favor. (Sie)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Seien</span> Sie bitte pünktlich!",
+          "es": "Sea puntual, por favor. (Sie, sein)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Ruf</span> mich an!",
+          "es": "¡Llámame! (du, separable: prefijo al final)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Steh</span> auf!",
+          "es": "¡Levántate! (du, separable)"
+        },
+        {
+          "en": "<span class=\"r-verb\">Machen</span> Sie das Fenster bitte zu!",
+          "es": "Cierre la ventana, por favor. (Sie, separable)"
+        }
       ],
       "tables": [
         {
-          "headers": ["Verbo", "du", "ihr", "Sie"],
+          "headers": [
+            "Verbo",
+            "du",
+            "ihr",
+            "Sie"
+          ],
           "rows": [
-            ["kommen", "Komm!", "Kommt!", "Kommen Sie!"],
-            ["sprechen", "Sprich!", "Sprecht!", "Sprechen Sie!"],
-            ["fahren", "Fahr!", "Fahrt!", "Fahren Sie!"],
-            ["sein", "Sei!", "Seid!", "Seien Sie!"]
+            [
+              "kommen",
+              "Komm!",
+              "Kommt!",
+              "Kommen Sie!"
+            ],
+            [
+              "sprechen",
+              "Sprich!",
+              "Sprecht!",
+              "Sprechen Sie!"
+            ],
+            [
+              "fahren",
+              "Fahr!",
+              "Fahrt!",
+              "Fahren Sie!"
+            ],
+            [
+              "sein",
+              "Sei!",
+              "Seid!",
+              "Seien Sie!"
+            ]
           ]
         }
       ],
@@ -217,19 +1125,151 @@
         {
           "id": "b15-s4q1",
           "question": "1. Imperativo de «lesen» para du:",
-          "options": ["Les!", "Lies!", "Liest!"],
+          "options": [
+            "Les!",
+            "Lies!",
+            "Liest!"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b15-s4q2",
           "question": "2. A un cliente (formal): «Espere un momento, por favor.» →",
-          "options": ["Warte mal!", "Wartet bitte!", "Warten Sie bitte einen Moment!"],
+          "options": [
+            "Warte mal!",
+            "Wartet bitte!",
+            "Warten Sie bitte einen Moment!"
+          ],
           "correctIndex": 2
         },
         {
           "id": "b15-s4q3",
           "question": "3. Imperativo du de «fahren»:",
-          "options": ["Fähr!", "Fahr!", "Fahrst!"],
+          "options": [
+            "Fähr!",
+            "Fahr!",
+            "Fahrst!"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s4q4",
+          "question": "4. Imperativo (du) de «kommen»",
+          "options": [
+            "Komm!",
+            "Kommt!",
+            "Kommst!"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s4q5",
+          "question": "5. Imperativo (du) de «nehmen»",
+          "options": [
+            "Nehmt!",
+            "Nehm!",
+            "Nimm!"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s4q6",
+          "question": "6. Imperativo (du) de «sprechen»",
+          "options": [
+            "Sprechst!",
+            "Sprech!",
+            "Sprich!"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s4q7",
+          "question": "7. Imperativo (du) de «lesen»",
+          "options": [
+            "Lies!",
+            "Liest!",
+            "Les!"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s4q8",
+          "question": "8. Imperativo (du) de «fahren»",
+          "options": [
+            "Fähr!",
+            "Fahr!",
+            "Fährt!"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s4q9",
+          "question": "9. Imperativo (ihr) de «kommen»",
+          "options": [
+            "Komm!",
+            "Kommen!",
+            "Kommt!"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s4q10",
+          "question": "10. Imperativo (Sie) de «kommen»",
+          "options": [
+            "Kommt Sie!",
+            "Komm Sie!",
+            "Kommen Sie!"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s4q11",
+          "question": "11. Imperativo (du) de «sein»",
+          "options": [
+            "Sei!",
+            "Sein!",
+            "Bist!"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b15-s4q12",
+          "question": "12. Imperativo (ihr) de «sein»",
+          "options": [
+            "Sei!",
+            "Seid!",
+            "Seit!"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s4q13",
+          "question": "13. Imperativo (Sie) de «sein»",
+          "options": [
+            "Sind Sie!",
+            "Seid Sie!",
+            "Seien Sie!"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b15-s4q14",
+          "question": "14. Imperativo (du) de «anrufen»",
+          "options": [
+            "Rufst an!",
+            "Ruf an!",
+            "Anruf!"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b15-s4q15",
+          "question": "15. Imperativo (du) de «aufstehen»",
+          "options": [
+            "Aufsteh!",
+            "Steh auf!",
+            "Stehst auf!"
+          ],
           "correctIndex": 1
         }
       ],

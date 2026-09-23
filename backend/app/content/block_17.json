@@ -4,8 +4,16 @@
   "kicker": "Bloque 17 · B1–B2",
   "intro": "El alemán está lleno de trampas para quien sabe inglés o español: <b class=\"hl\">Gift es veneno</b>, <b class=\"hl\">bekommen es recibir</b> y <b class=\"hl\">also no es «también»</b>. Además: las colocaciones fijas (qué verbo va con qué sustantivo) y la fábrica de palabras compuestas.",
   "legend": [
-    { "label": "verbo", "desc": "conjugado", "role": "verb" },
-    { "label": "objeto directo", "desc": "Akkusativ", "role": "akk" }
+    {
+      "label": "verbo",
+      "desc": "conjugado",
+      "role": "verb"
+    },
+    {
+      "label": "objeto directo",
+      "desc": "Akkusativ",
+      "role": "akk"
+    }
   ],
   "sections": [
     {
@@ -21,28 +29,188 @@
         }
       ],
       "examples": [
-        { "en": "Vorsicht, das <span class=\"r-verb\">ist</span> <span class=\"r-akk\">Gift</span>!", "es": "¡Cuidado, eso es veneno! (regalo = das Geschenk)" },
-        { "en": "Ich <span class=\"r-verb\">habe</span> <span class=\"r-akk\">deine E-Mail</span> bekommen.", "es": "He recibido tu correo. (convertirse = werden)" },
-        { "en": "Es regnet, <b>also</b> <span class=\"r-verb\">bleiben</span> wir hier.", "es": "Llueve, por lo tanto nos quedamos. (también = auch)" },
-        { "en": "Die <b>aktuellen</b> Nachrichten", "es": "las noticias de actualidad (eventualmente = möglicherweise; eventuell = quizá)" },
-        { "en": "Er <span class=\"r-verb\">will</span> <span class=\"r-akk\">eine Karte</span> für das Konzert.", "es": "Quiere una entrada para el concierto. (die Karte ≠ carta: carta = der Brief)" }
+        {
+          "en": "Vorsicht, das <span class=\"r-verb\">ist</span> <span class=\"r-akk\">Gift</span>!",
+          "es": "¡Cuidado, eso es veneno! (regalo = das Geschenk)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> <span class=\"r-akk\">deine E-Mail</span> bekommen.",
+          "es": "He recibido tu correo. (convertirse = werden)"
+        },
+        {
+          "en": "Es regnet, <b>also</b> <span class=\"r-verb\">bleiben</span> wir hier.",
+          "es": "Llueve, por lo tanto nos quedamos. (también = auch)"
+        },
+        {
+          "en": "Die <b>aktuellen</b> Nachrichten",
+          "es": "las noticias de actualidad (eventualmente = möglicherweise; eventuell = quizá)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">will</span> <span class=\"r-akk\">eine Karte</span> für das Konzert.",
+          "es": "Quiere una entrada para el concierto. (die Karte ≠ carta: carta = der Brief)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">finde</span> ihn sehr <b>sympathisch</b>.",
+          "es": "Me cae muy bien. (sympathisch = simpático/agradable)"
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">hat</span> <span class=\"r-akk\">einen guten Rat</span> gegeben.",
+          "es": "Ella dio un buen consejo. (der Rat = consejo, no rata; rata = die Ratte)"
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">haben</span> <span class=\"r-akk\">ein Kind</span>.",
+          "es": "Tenemos un niño. (das Kind = niño/a; kid = niño)"
+        },
+        {
+          "en": "Mein <b>Chef</b> <span class=\"r-verb\">ist</span> sehr nett.",
+          "es": "Mi jefe es muy simpático. (der Chef = jefe; cocinero = der Koch)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> <span class=\"r-akk\">mein Handy</span> vergessen.",
+          "es": "He olvidado mi móvil. (das Handy = móvil)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">trage</span> gern <span class=\"r-akk\">einen Rock</span>.",
+          "es": "Me gusta llevar falda. (der Rock = falda; rock = die Rockmusik)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">schreibe</span> <span class=\"r-akk\">einen Brief</span>.",
+          "es": "Escribo una carta. (der Brief = carta; die Karte = tarjeta)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> heute keine <b>Lust</b> zu arbeiten.",
+          "es": "Hoy no tengo ganas de trabajar. (die Lust = ganas)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">kommt</span> <b>bald</b>.",
+          "es": "Él viene pronto. (bald = pronto; ojo: en inglés «bald» = calvo)"
+        },
+        {
+          "en": "Es ist <b>fast</b> zehn Uhr.",
+          "es": "Ya son casi las diez. (fast = casi)"
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">haben</span> <span class=\"r-akk\">ein Bad</span> im See genommen.",
+          "es": "Nos hemos bañado en el lago. (das Bad = baño)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">trägt</span> <span class=\"r-akk\">einen Hut</span>.",
+          "es": "Lleva sombrero. (der Hut = sombrero)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">brauche</span> <span class=\"r-akk\">eine neue Hose</span>.",
+          "es": "Necesito unos pantalones nuevos. (die Hose = pantalón)"
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">essen</span> in der <b>Mensa</b>.",
+          "es": "Comemos en el comedor universitario. (die Mensa)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">lese</span> <span class=\"r-akk\">einen Prospekt</span>.",
+          "es": "Leo un folleto. (der Prospekt = folleto)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">arbeitet</span> in der <b>Fabrik</b>.",
+          "es": "Trabaja en la fábrica."
+        },
+        {
+          "en": "Das <span class=\"r-verb\">ist</span> <b>aktuell</b> wichtig.",
+          "es": "Eso es importante ahora mismo. (aktuell = actual/de actualidad)"
+        },
+        {
+          "en": "<b>Eventuell</b> <span class=\"r-verb\">komme</span> ich später.",
+          "es": "Quizá venga más tarde. (eventuell = posiblemente; eventualmente = möglicherweise)"
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">hat</span> <span class=\"r-akk\">eine Note</span> bekommen.",
+          "es": "Ella ha obtenido una nota. (die Note = nota escolar)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> <span class=\"r-akk\">eine Dose</span> Cola gekauft.",
+          "es": "He comprado una lata de cola. (die Dose = lata)"
+        }
       ],
       "tables": [
         {
-          "headers": ["Alemán", "Significa", "NO significa", "Eso se dice"],
+          "headers": [
+            "Alemán",
+            "Significa",
+            "NO significa",
+            "Eso se dice"
+          ],
           "rows": [
-            ["das <b>Gift</b>", "veneno", "regalo", "das Geschenk"],
-            ["<b>bekommen</b>", "recibir", "convertirse (become)", "werden"],
-            ["<b>also</b>", "por lo tanto, o sea", "también", "auch"],
-            ["<b>aktuell</b>", "de actualidad", "actual(mente) = ahora mismo", "zurzeit, gerade"],
-            ["<b>eventuell</b>", "quizá, tal vez", "eventualmente/finalmente", "schließlich"],
-            ["der <b>Rat</b>", "consejo", "rata", "die Ratte"],
-            ["<b>brav</b>", "obediente, bueno (niño)", "valiente (brave)", "mutig"],
-            ["die <b>Mappe</b>", "carpeta", "mapa", "die Landkarte"],
-            ["<b>spenden</b>", "donar", "gastar (spend)", "ausgeben"],
-            ["das <b>Regal</b>", "estantería", "regalo", "das Geschenk"],
-            ["die <b>Firma</b>", "empresa", "firma (rúbrica)", "die Unterschrift"],
-            ["<b>seriös</b>", "serio = de fiar", "serio (carácter)", "ernst"]
+            [
+              "das <b>Gift</b>",
+              "veneno",
+              "regalo",
+              "das Geschenk"
+            ],
+            [
+              "<b>bekommen</b>",
+              "recibir",
+              "convertirse (become)",
+              "werden"
+            ],
+            [
+              "<b>also</b>",
+              "por lo tanto, o sea",
+              "también",
+              "auch"
+            ],
+            [
+              "<b>aktuell</b>",
+              "de actualidad",
+              "actual(mente) = ahora mismo",
+              "zurzeit, gerade"
+            ],
+            [
+              "<b>eventuell</b>",
+              "quizá, tal vez",
+              "eventualmente/finalmente",
+              "schließlich"
+            ],
+            [
+              "der <b>Rat</b>",
+              "consejo",
+              "rata",
+              "die Ratte"
+            ],
+            [
+              "<b>brav</b>",
+              "obediente, bueno (niño)",
+              "valiente (brave)",
+              "mutig"
+            ],
+            [
+              "die <b>Mappe</b>",
+              "carpeta",
+              "mapa",
+              "die Landkarte"
+            ],
+            [
+              "<b>spenden</b>",
+              "donar",
+              "gastar (spend)",
+              "ausgeben"
+            ],
+            [
+              "das <b>Regal</b>",
+              "estantería",
+              "regalo",
+              "das Geschenk"
+            ],
+            [
+              "die <b>Firma</b>",
+              "empresa",
+              "firma (rúbrica)",
+              "die Unterschrift"
+            ],
+            [
+              "<b>seriös</b>",
+              "serio = de fiar",
+              "serio (carácter)",
+              "ernst"
+            ]
           ]
         }
       ],
@@ -50,20 +218,152 @@
         {
           "id": "b17-s1q1",
           "question": "1. «Le he traído un regalo.» → Ich habe ihm <span class=\"blank\">___</span> mitgebracht.",
-          "options": ["ein Gift", "ein Geschenk", "ein Regal"],
+          "options": [
+            "ein Gift",
+            "ein Geschenk",
+            "ein Regal"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b17-s1q2",
           "question": "2. «Ella quiere ser médica.» → Sie will Ärztin <span class=\"blank\">___</span>.",
-          "options": ["bekommen", "werden", "spenden"],
+          "options": [
+            "bekommen",
+            "werden",
+            "spenden"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b17-s1q3",
           "question": "3. «Yo también.» →",
-          "options": ["Ich also.", "Ich auch.", "Auch ich also."],
+          "options": [
+            "Ich also.",
+            "Ich auch.",
+            "Auch ich also."
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b17-s1q4",
+          "question": "4. «El jefe» en alemán es…",
+          "options": [
+            "der Chef",
+            "der Koch",
+            "der Kopf"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s1q5",
+          "question": "5. «Una carta» (para enviar) es…",
+          "options": [
+            "ein Brief",
+            "ein Geschenk",
+            "eine Karte"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s1q6",
+          "question": "6. «Falda» en alemán es…",
+          "options": [
+            "der Rock",
+            "die Hose",
+            "das Kleid"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s1q7",
+          "question": "7. «Un consejo» en alemán es…",
+          "options": [
+            "ein Rat",
+            "eine Ratte",
+            "ein Gift"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s1q8",
+          "question": "8. «Tengo ganas de comer.» → Ich habe <span class=\"blank\">___</span> zu essen.",
+          "options": [
+            "Angst",
+            "Kind",
+            "Lust"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b17-s1q9",
+          "question": "9. «Casi» en alemán es…",
+          "options": [
+            "also",
+            "bald",
+            "fast"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b17-s1q10",
+          "question": "10. «Pronto» en alemán es…",
+          "options": [
+            "bald",
+            "fast",
+            "also"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s1q11",
+          "question": "11. «Móvil» en alemán es…",
+          "options": [
+            "das Handy",
+            "die Hand",
+            "das Bad"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s1q12",
+          "question": "12. «Pantalones» en alemán es…",
+          "options": [
+            "der Rock",
+            "der Hut",
+            "die Hose"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b17-s1q13",
+          "question": "13. «Actualmente» / «de actualidad» en alemán es…",
+          "options": [
+            "aktuell",
+            "also",
+            "eventuell"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s1q14",
+          "question": "14. «Quizá» / «posiblemente» en alemán es…",
+          "options": [
+            "eventuell",
+            "eventual",
+            "aktuell"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s1q15",
+          "question": "15. «Una lata» en alemán es…",
+          "options": [
+            "eine Dose",
+            "eine Karte",
+            "ein Rat"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -85,26 +385,165 @@
         }
       ],
       "examples": [
-        { "en": "Darf ich <span class=\"r-akk\">eine Frage</span> <span class=\"r-verb\">stellen</span>?", "es": "¿Puedo hacer una pregunta? (stellen, no machen)" },
-        { "en": "Wir <span class=\"r-verb\">müssen</span> <span class=\"r-akk\">eine Entscheidung</span> <span class=\"r-verb\">treffen</span>.", "es": "Tenemos que tomar una decisión." },
-        { "en": "Ich <span class=\"r-verb\">möchte</span> <span class=\"r-akk\">einen Termin</span> <span class=\"r-verb\">vereinbaren</span>.", "es": "Querría concertar una cita." },
-        { "en": "Er <span class=\"r-verb\">hält</span> morgen <span class=\"r-akk\">einen Vortrag</span>.", "es": "Él da una charla mañana. (halten, no geben)" },
-        { "en": "Kannst du mir <span class=\"r-akk\">einen Gefallen</span> <span class=\"r-verb\">tun</span>?", "es": "¿Puedes hacerme un favor? (tun)" }
+        {
+          "en": "Darf ich <span class=\"r-akk\">eine Frage</span> <span class=\"r-verb\">stellen</span>?",
+          "es": "¿Puedo hacer una pregunta? (stellen, no machen)"
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">müssen</span> <span class=\"r-akk\">eine Entscheidung</span> <span class=\"r-verb\">treffen</span>.",
+          "es": "Tenemos que tomar una decisión."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">möchte</span> <span class=\"r-akk\">einen Termin</span> <span class=\"r-verb\">vereinbaren</span>.",
+          "es": "Querría concertar una cita."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">hält</span> morgen <span class=\"r-akk\">einen Vortrag</span>.",
+          "es": "Él da una charla mañana. (halten, no geben)"
+        },
+        {
+          "en": "Kannst du mir <span class=\"r-akk\">einen Gefallen</span> <span class=\"r-verb\">tun</span>?",
+          "es": "¿Puedes hacerme un favor? (tun)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">möchte</span> <span class=\"r-akk\">eine Frage</span> <span class=\"r-verb\">stellen</span>.",
+          "es": "Quisiera hacer una pregunta."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">hat</span> <span class=\"r-akk\">einen Fehler</span> <span class=\"r-verb\">gemacht</span>.",
+          "es": "Ella ha cometido un error."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">haben</span> <span class=\"r-akk\">einen Termin</span> <span class=\"r-verb\">vereinbart</span>.",
+          "es": "Hemos acordado una cita."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">hält</span> <span class=\"r-akk\">eine Rede</span>.",
+          "es": "Él pronuncia un discurso."
+        },
+        {
+          "en": "Kannst du mir <span class=\"r-akk\">einen Rat</span> <span class=\"r-verb\">geben</span>?",
+          "es": "¿Puedes darme un consejo?"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> <span class=\"r-akk\">die Prüfung</span> <span class=\"r-verb\">bestanden</span>.",
+          "es": "He aprobado el examen. (bestehen)"
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">machen</span> <span class=\"r-akk\">Urlaub</span> in Spanien.",
+          "es": "Pasamos las vacaciones en España."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">macht</span> <span class=\"r-akk\">Sport</span>. / Sie <span class=\"r-verb\">treibt</span> <span class=\"r-akk\">Sport</span>.",
+          "es": "Ella hace deporte."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> <span class=\"r-akk\">Angst</span> vor Spinnen.",
+          "es": "Tengo miedo a las arañas."
+        },
+        {
+          "en": "Du <span class=\"r-verb\">hast</span> <span class=\"r-akk\">Recht</span>.",
+          "es": "Tienes razón."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">nehme</span> <span class=\"r-akk\">ein Bad</span>.",
+          "es": "Me doy un baño."
+        },
+        {
+          "en": "Bitte <span class=\"r-verb\">nehmen</span> Sie <span class=\"r-akk\">Platz</span>!",
+          "es": "Tome asiento, por favor."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">hat</span> <span class=\"r-akk\">Glück</span> gehabt.",
+          "es": "Ha tenido suerte."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">haben</span> <span class=\"r-akk\">viel Spaß</span> gehabt.",
+          "es": "Nos hemos divertido mucho."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">bucht</span> <span class=\"r-akk\">eine Reise</span> nach Rom.",
+          "es": "Ella reserva un viaje a Roma."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">mache</span> <span class=\"r-akk\">ein Foto</span>.",
+          "es": "Hago una foto."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">trifft</span> <span class=\"r-akk\">eine Entscheidung</span>.",
+          "es": "Él toma una decisión."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">nehmen</span> <span class=\"r-akk\">Rücksicht</span> auf die Nachbarn.",
+          "es": "Tenemos consideración con los vecinos."
+        },
+        {
+          "en": "Sie <span class=\"r-verb\">übernimmt</span> <span class=\"r-akk\">Verantwortung</span>.",
+          "es": "Ella asume responsabilidad."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">macht</span> <span class=\"r-akk\">eine Pause</span>.",
+          "es": "Él hace una pausa."
+        }
       ],
       "tables": [
         {
-          "headers": ["Colocación", "Significado", "Ojo"],
+          "headers": [
+            "Colocación",
+            "Significado",
+            "Ojo"
+          ],
           "rows": [
-            ["eine Frage <b>stellen</b>", "hacer una pregunta", "no «machen»"],
-            ["eine Entscheidung <b>treffen</b>", "tomar una decisión", "no «machen/nehmen»"],
-            ["einen Termin <b>vereinbaren</b>", "concertar una cita", ""],
-            ["einen Vortrag <b>halten</b>", "dar una charla", "no «geben»"],
-            ["einen Gefallen <b>tun</b>", "hacer un favor", "tun, no machen"],
-            ["Sport <b>treiben / machen</b>", "hacer deporte", "ambas valen"],
-            ["Ordnung <b>schaffen</b>", "poner orden", ""],
-            ["Abschied <b>nehmen</b>", "despedirse", ""],
-            ["Rücksicht <b>nehmen</b> auf", "tener consideración con", ""],
-            ["zur Verfügung <b>stehen</b>", "estar a disposición", ""]
+            [
+              "eine Frage <b>stellen</b>",
+              "hacer una pregunta",
+              "no «machen»"
+            ],
+            [
+              "eine Entscheidung <b>treffen</b>",
+              "tomar una decisión",
+              "no «machen/nehmen»"
+            ],
+            [
+              "einen Termin <b>vereinbaren</b>",
+              "concertar una cita",
+              ""
+            ],
+            [
+              "einen Vortrag <b>halten</b>",
+              "dar una charla",
+              "no «geben»"
+            ],
+            [
+              "einen Gefallen <b>tun</b>",
+              "hacer un favor",
+              "tun, no machen"
+            ],
+            [
+              "Sport <b>treiben / machen</b>",
+              "hacer deporte",
+              "ambas valen"
+            ],
+            [
+              "Ordnung <b>schaffen</b>",
+              "poner orden",
+              ""
+            ],
+            [
+              "Abschied <b>nehmen</b>",
+              "despedirse",
+              ""
+            ],
+            [
+              "Rücksicht <b>nehmen</b> auf",
+              "tener consideración con",
+              ""
+            ],
+            [
+              "zur Verfügung <b>stehen</b>",
+              "estar a disposición",
+              ""
+            ]
           ]
         }
       ],
@@ -112,20 +551,152 @@
         {
           "id": "b17-s2q1",
           "question": "1. «¿Puedo hacer una pregunta?» → Darf ich eine Frage <span class=\"blank\">___</span>?",
-          "options": ["machen", "stellen", "geben"],
+          "options": [
+            "machen",
+            "stellen",
+            "geben"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b17-s2q2",
           "question": "2. «Tomamos la decisión ayer.» → Wir haben die Entscheidung gestern <span class=\"blank\">___</span>.",
-          "options": ["gemacht", "genommen", "getroffen"],
+          "options": [
+            "gemacht",
+            "genommen",
+            "getroffen"
+          ],
           "correctIndex": 2
         },
         {
           "id": "b17-s2q3",
           "question": "3. «dar una charla» →",
-          "options": ["einen Vortrag geben", "einen Vortrag halten", "einen Vortrag sagen"],
+          "options": [
+            "einen Vortrag geben",
+            "einen Vortrag halten",
+            "einen Vortrag sagen"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b17-s2q4",
+          "question": "4. Eine Frage <span class=\"blank\">___</span>",
+          "options": [
+            "stellen",
+            "geben",
+            "machen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s2q5",
+          "question": "5. Eine Entscheidung <span class=\"blank\">___</span>",
+          "options": [
+            "treffen",
+            "nehmen",
+            "machen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s2q6",
+          "question": "6. Einen Fehler <span class=\"blank\">___</span>",
+          "options": [
+            "treffen",
+            "machen",
+            "tun"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s2q7",
+          "question": "7. Einen Termin <span class=\"blank\">___</span>",
+          "options": [
+            "treffen",
+            "kaufen",
+            "vereinbaren"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b17-s2q8",
+          "question": "8. Einen Vortrag <span class=\"blank\">___</span>",
+          "options": [
+            "stellen",
+            "geben",
+            "halten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b17-s2q9",
+          "question": "9. Sport <span class=\"blank\">___</span>",
+          "options": [
+            "tun",
+            "treiben",
+            "halten"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s2q10",
+          "question": "10. Die Prüfung <span class=\"blank\">___</span>",
+          "options": [
+            "treffen",
+            "halten",
+            "bestehen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b17-s2q11",
+          "question": "11. Urlaub <span class=\"blank\">___</span>",
+          "options": [
+            "halten",
+            "machen",
+            "treffen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s2q12",
+          "question": "12. Angst <span class=\"blank\">___</span>",
+          "options": [
+            "sein",
+            "machen",
+            "haben"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b17-s2q13",
+          "question": "13. Recht <span class=\"blank\">___</span>",
+          "options": [
+            "sein",
+            "haben",
+            "machen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s2q14",
+          "question": "14. Ein Foto <span class=\"blank\">___</span>",
+          "options": [
+            "treffen",
+            "halten",
+            "machen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b17-s2q15",
+          "question": "15. Rücksicht <span class=\"blank\">___</span>",
+          "options": [
+            "machen",
+            "geben",
+            "nehmen"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -147,30 +718,257 @@
         }
       ],
       "examples": [
-        { "en": "der Hand<b>schuh</b>", "es": "el guante (mano + zapato → género de Schuh: der)" },
-        { "en": "der Kühl<b>schrank</b>", "es": "el frigorífico (frío + armario)" },
-        { "en": "das Wörter<b>buch</b>", "es": "el diccionario (palabras + libro)" },
-        { "en": "die Arbeits<b>woche</b>", "es": "la semana laboral (con -s- de unión)" },
-        { "en": "die Weltmeister<b>schaft</b>", "es": "el campeonato del mundo" }
+        {
+          "en": "der Hand<b>schuh</b>",
+          "es": "el guante (mano + zapato → género de Schuh: der)"
+        },
+        {
+          "en": "der Kühl<b>schrank</b>",
+          "es": "el frigorífico (frío + armario)"
+        },
+        {
+          "en": "das Wörter<b>buch</b>",
+          "es": "el diccionario (palabras + libro)"
+        },
+        {
+          "en": "die Arbeits<b>woche</b>",
+          "es": "la semana laboral (con -s- de unión)"
+        },
+        {
+          "en": "die Weltmeister<b>schaft</b>",
+          "es": "el campeonato del mundo"
+        },
+        {
+          "en": "das Schlaf<b>zimmer</b>",
+          "es": "el dormitorio (Schlaf + Zimmer → das)"
+        },
+        {
+          "en": "der Flug<b>hafen</b>",
+          "es": "el aeropuerto (Flug + Hafen → der)"
+        },
+        {
+          "en": "die Zahn<b>bürste</b>",
+          "es": "el cepillo de dientes (Zahn + Bürste → die)"
+        },
+        {
+          "en": "der Regen<b>schirm</b>",
+          "es": "el paraguas (Regen + Schirm → der)"
+        },
+        {
+          "en": "die Armband<b>uhr</b>",
+          "es": "el reloj de pulsera (Armband + Uhr → die)"
+        },
+        {
+          "en": "die Wasch<b>maschine</b>",
+          "es": "la lavadora (waschen + Maschine → die)"
+        },
+        {
+          "en": "der Geburts<b>tag</b>",
+          "es": "el cumpleaños (Geburt + Tag, con -s- de unión → der)"
+        },
+        {
+          "en": "das Kranken<b>haus</b>",
+          "es": "el hospital (Kranke + Haus → das)"
+        },
+        {
+          "en": "der Stadt<b>plan</b>",
+          "es": "el plano de la ciudad (Stadt + Plan → der)"
+        },
+        {
+          "en": "die Mutter<b>sprache</b>",
+          "es": "la lengua materna (Mutter + Sprache → die)"
+        },
+        {
+          "en": "das Kinder<b>zimmer</b>",
+          "es": "la habitación de los niños (Kinder + Zimmer → das)"
+        },
+        {
+          "en": "die Hand<b>tasche</b>",
+          "es": "el bolso (Hand + Tasche → die)"
+        },
+        {
+          "en": "der Bücher<b>schrank</b>",
+          "es": "la librería (Bücher + Schrank → der)"
+        },
+        {
+          "en": "die Speise<b>karte</b>",
+          "es": "la carta del restaurante (Speise + Karte → die)"
+        },
+        {
+          "en": "der Schreib<b>tisch</b>",
+          "es": "el escritorio (schreiben + Tisch → der)"
+        },
+        {
+          "en": "das Reise<b>büro</b>",
+          "es": "la agencia de viajes (Reise + Büro → das)"
+        },
+        {
+          "en": "die Haus<b>tür</b>",
+          "es": "la puerta de casa (Haus + Tür → die)"
+        },
+        {
+          "en": "der Liebling<b>sfilm</b>",
+          "es": "la película favorita (Liebling + Film, con -s-)"
+        },
+        {
+          "en": "die Geschenk<b>idee</b>",
+          "es": "la idea de regalo (Geschenk + Idee → die)"
+        },
+        {
+          "en": "das Wochen<b>ende</b>",
+          "es": "el fin de semana (Woche + Ende → das)"
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b17-s3q1",
           "question": "1. ¿Qué género tiene «Handschuh» (Hand fem. + Schuh masc.)?",
-          "options": ["die (por Hand)", "der (por Schuh)", "das (neutro por defecto)"],
+          "options": [
+            "die (por Hand)",
+            "der (por Schuh)",
+            "das (neutro por defecto)"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b17-s3q2",
           "question": "2. «Hausschlüssel» significa…",
-          "options": ["casa de llaves", "llave de casa", "cerradura"],
+          "options": [
+            "casa de llaves",
+            "llave de casa",
+            "cerradura"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b17-s3q3",
           "question": "3. Para descifrar un compuesto largo, se lee…",
-          "options": ["de delante hacia atrás", "de atrás hacia delante", "por sílabas"],
+          "options": [
+            "de delante hacia atrás",
+            "de atrás hacia delante",
+            "por sílabas"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q4",
+          "question": "4. ¿Qué género tiene «Schlafzimmer»?",
+          "options": [
+            "der (por Schlaf)",
+            "das (por Zimmer)",
+            "die"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q5",
+          "question": "5. ¿Qué género tiene «Zahnbürste»?",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q6",
+          "question": "6. ¿Qué género tiene «Regenschirm»?",
+          "options": [
+            "der",
+            "das",
+            "die"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s3q7",
+          "question": "7. ¿Qué género tiene «Krankenhaus»?",
+          "options": [
+            "die",
+            "das",
+            "der"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q8",
+          "question": "8. ¿Qué género tiene «Wochenende»?",
+          "options": [
+            "der",
+            "das",
+            "die"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q9",
+          "question": "9. ¿Qué género tiene «Speisekarte»?",
+          "options": [
+            "das",
+            "die",
+            "der"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q10",
+          "question": "10. «Handtasche» significa…",
+          "options": [
+            "bolso",
+            "guante",
+            "mano de tasa"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s3q11",
+          "question": "11. «Flughafen» significa…",
+          "options": [
+            "puerto de peces",
+            "aeropuerto",
+            "vuelo"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q12",
+          "question": "12. «Regenschirm» significa…",
+          "options": [
+            "paraguas",
+            "camino de lluvia",
+            "impermeable"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s3q13",
+          "question": "13. «Zahnbürste» significa…",
+          "options": [
+            "cepillo de dientes",
+            "dentista",
+            "pasta dentífrica"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b17-s3q14",
+          "question": "14. «Reisebüro» significa…",
+          "options": [
+            "hotel",
+            "agencia de viajes",
+            "oficina de correos"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b17-s3q15",
+          "question": "15. En un compuesto, el género lo da…",
+          "options": [
+            "el -s- de unión",
+            "la última palabra",
+            "la primera palabra"
+          ],
           "correctIndex": 1
         }
       ],

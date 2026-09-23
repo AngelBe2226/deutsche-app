@@ -4,9 +4,21 @@
   "kicker": "Bloque 04 · A2–B1",
   "intro": "En alemán cada preposición <b class=\"hl\">rige un caso</b>: unas siempre Acusativo, otras siempre Dativo, y un grupo de nueve (las <b class=\"hl\">Wechselpräpositionen</b>) cambia según haya <b class=\"hl\">movimiento o ubicación</b>. Las listas completas están también en el Glosario.",
   "legend": [
-    { "label": "Akkusativ", "desc": "tras prep. de Akk o con movimiento", "role": "akk" },
-    { "label": "Dativ", "desc": "tras prep. de Dat o con ubicación", "role": "dat" },
-    { "label": "verbo", "desc": "conjugado", "role": "verb" }
+    {
+      "label": "Akkusativ",
+      "desc": "tras prep. de Akk o con movimiento",
+      "role": "akk"
+    },
+    {
+      "label": "Dativ",
+      "desc": "tras prep. de Dat o con ubicación",
+      "role": "dat"
+    },
+    {
+      "label": "verbo",
+      "desc": "conjugado",
+      "role": "verb"
+    }
   ],
   "sections": [
     {
@@ -22,31 +34,258 @@
         }
       ],
       "examples": [
-        { "en": "Wir <span class=\"r-verb\">gehen</span> <span class=\"r-akk\">durch den Park</span>.", "es": "Vamos a través del parque." },
-        { "en": "Das Geschenk <span class=\"r-verb\">ist</span> <span class=\"r-akk\">für meinen Bruder</span>.", "es": "El regalo es para mi hermano." },
-        { "en": "Ich <span class=\"r-verb\">habe</span> nichts <span class=\"r-akk\">gegen den Plan</span>.", "es": "No tengo nada contra el plan." },
-        { "en": "<span class=\"r-akk\">Ohne dich</span> <span class=\"r-verb\">gehe</span> ich nicht.", "es": "Sin ti no voy." },
-        { "en": "Wir <span class=\"r-verb\">sitzen</span> <span class=\"r-akk\">um den Tisch</span>.", "es": "Estamos sentados alrededor de la mesa." }
+        {
+          "en": "Wir <span class=\"r-verb\">gehen</span> <span class=\"r-akk\">durch den Park</span>.",
+          "es": "Vamos a través del parque."
+        },
+        {
+          "en": "Das Geschenk <span class=\"r-verb\">ist</span> <span class=\"r-akk\">für meinen Bruder</span>.",
+          "es": "El regalo es para mi hermano."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">habe</span> nichts <span class=\"r-akk\">gegen den Plan</span>.",
+          "es": "No tengo nada contra el plan."
+        },
+        {
+          "en": "<span class=\"r-akk\">Ohne dich</span> <span class=\"r-verb\">gehe</span> ich nicht.",
+          "es": "Sin ti no voy."
+        },
+        {
+          "en": "Wir <span class=\"r-verb\">sitzen</span> <span class=\"r-akk\">um den Tisch</span>.",
+          "es": "Estamos sentados alrededor de la mesa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">läuft</span> <span class=\"r-akk\">durch den Wald</span>.",
+          "es": "Él corre a través del bosque."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">kaufen</span> Blumen <span class=\"r-akk\">für unsere Mutter</span>.",
+          "es": "Compramos flores para nuestra madre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bin</span> <span class=\"r-akk\">gegen diesen Vorschlag</span>.",
+          "es": "Estoy en contra de esta propuesta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">fährt</span> <span class=\"r-akk\">ohne ihren Mann</span> in den Urlaub.",
+          "es": "Ella se va de vacaciones sin su marido."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Kinder</span> <span class=\"r-verb\">laufen</span> <span class=\"r-akk\">um das Haus</span>.",
+          "es": "Los niños corren alrededor de la casa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Spiel</span> <span class=\"r-verb\">beginnt</span> <span class=\"r-akk\">um drei Uhr</span>.",
+          "es": "El partido empieza a las tres."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">arbeite</span> <span class=\"r-akk\">für eine große Firma</span>.",
+          "es": "Trabajo para una gran empresa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">geht</span> <span class=\"r-akk\">durch die Tür</span>.",
+          "es": "Él pasa por la puerta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">spielen</span> <span class=\"r-akk\">gegen den Nachbarn</span>.",
+          "es": "Jugamos contra el vecino."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">trinkt</span> Kaffee <span class=\"r-akk\">ohne Zucker</span>.",
+          "es": "Ella bebe café sin azúcar."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Zug</span> <span class=\"r-verb\">fährt</span> <span class=\"r-akk\">durch den Tunnel</span>.",
+          "es": "El tren pasa por el túnel."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">kaufe</span> das Buch <span class=\"r-akk\">für dich</span>.",
+          "es": "Compro el libro para ti."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">treffen</span> uns <span class=\"r-akk\">um acht Uhr</span>.",
+          "es": "Quedamos a las ocho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kämpft</span> <span class=\"r-akk\">gegen die Krankheit</span>.",
+          "es": "Él lucha contra la enfermedad."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">reist</span> <span class=\"r-akk\">ohne Gepäck</span>.",
+          "es": "Ella viaja sin equipaje."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">gehen</span> <span class=\"r-akk\">um die Ecke</span>.",
+          "es": "Vamos a la vuelta de la esquina."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Wasser</span> <span class=\"r-verb\">fließt</span> <span class=\"r-akk\">durch die Stadt</span>.",
+          "es": "El agua fluye a través de la ciudad."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> eine Frage <span class=\"r-akk\">für den Lehrer</span>.",
+          "es": "Tengo una pregunta para el profesor."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">fährt</span> <span class=\"r-akk\">gegen den Baum</span>.",
+          "es": "Él choca contra el árbol."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">mache</span> das <span class=\"r-akk\">für meine Kinder</span>.",
+          "es": "Hago esto por mis hijos."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b04-s1q1",
           "question": "1. Das ist ein Geschenk für <span class=\"blank\">___</span> Vater.",
-          "options": ["meinem", "meinen", "mein"],
+          "options": [
+            "meinem",
+            "meinen",
+            "mein"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b04-s1q2",
           "question": "2. Ohne <span class=\"blank\">___</span> Auto komme ich nicht zur Arbeit.",
-          "options": ["das", "dem", "des"],
+          "options": [
+            "das",
+            "dem",
+            "des"
+          ],
           "correctIndex": 0
         },
         {
           "id": "b04-s1q3",
           "question": "3. Der Bus fährt durch <span class=\"blank\">___</span> Stadt.",
-          "options": ["der", "die", "den"],
+          "options": [
+            "der",
+            "die",
+            "den"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b04-s1q4",
+          "question": "4. Das Geschenk ist für <span class=\"blank\">___</span> Mutter. (mi)",
+          "options": [
+            "meinen",
+            "meiner",
+            "meine"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s1q5",
+          "question": "5. Wir gehen durch <span class=\"blank\">___</span> Park. (el)",
+          "options": [
+            "dem",
+            "der",
+            "den"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s1q6",
+          "question": "6. Er kommt ohne <span class=\"blank\">___</span> Frau. (su, de él)",
+          "options": [
+            "seinem",
+            "seiner",
+            "seine"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s1q7",
+          "question": "7. Ich habe nichts gegen <span class=\"blank\">___</span> Idee. (la)",
+          "options": [
+            "die",
+            "der",
+            "den"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s1q8",
+          "question": "8. Die Kinder rennen um <span class=\"blank\">___</span> Haus. (el)",
+          "options": [
+            "den",
+            "dem",
+            "das"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s1q9",
+          "question": "9. Wir treffen uns um <span class=\"blank\">___</span> Uhr. (a las cinco)",
+          "options": [
+            "fünfte",
+            "fünf",
+            "fünfen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s1q10",
+          "question": "10. Das ist für <span class=\"blank\">___</span>. (para mí)",
+          "options": [
+            "mich",
+            "mir",
+            "ich"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s1q11",
+          "question": "11. Sie kommt ohne <span class=\"blank\">___</span>. (sin él)",
+          "options": [
+            "er",
+            "ihm",
+            "ihn"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s1q12",
+          "question": "12. ¿Qué caso rigen durch, für, gegen, ohne, um?",
+          "options": [
+            "Dativ",
+            "Genitiv",
+            "Akkusativ"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s1q13",
+          "question": "13. Ich kaufe das für <span class=\"blank\">___</span>. (para ti)",
+          "options": [
+            "dich",
+            "du",
+            "dir"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s1q14",
+          "question": "14. Wir fahren durch <span class=\"blank\">___</span> Tunnel. (el)",
+          "options": [
+            "dem",
+            "den",
+            "das"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s1q15",
+          "question": "15. Ohne <span class=\"blank\">___</span> Hilfe geht es nicht. (tu)",
+          "options": [
+            "deine",
+            "deiner",
+            "deinen"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -73,31 +312,258 @@
         }
       ],
       "examples": [
-        { "en": "Sie <span class=\"r-verb\">kommt</span> <span class=\"r-dat\">aus der Schweiz</span>.", "es": "Ella viene de Suiza." },
-        { "en": "Ich <span class=\"r-verb\">fahre</span> <span class=\"r-dat\">mit dem Zug</span> <span class=\"r-verb\">nach</span> Hamburg.", "es": "Voy en tren a Hamburgo." },
-        { "en": "Er <span class=\"r-verb\">wohnt</span> noch <span class=\"r-dat\">bei seinen Eltern</span>.", "es": "Todavía vive en casa de sus padres." },
-        { "en": "<span class=\"r-dat\">Seit einem Monat</span> <span class=\"r-verb\">arbeite</span> ich hier.", "es": "Trabajo aquí desde hace un mes." },
-        { "en": "<span class=\"r-verb\">Gehst</span> du morgen <span class=\"r-dat\">zum Arzt</span>?", "es": "¿Vas mañana al médico?" }
+        {
+          "en": "Sie <span class=\"r-verb\">kommt</span> <span class=\"r-dat\">aus der Schweiz</span>.",
+          "es": "Ella viene de Suiza."
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">fahre</span> <span class=\"r-dat\">mit dem Zug</span> <span class=\"r-verb\">nach</span> Hamburg.",
+          "es": "Voy en tren a Hamburgo."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">wohnt</span> noch <span class=\"r-dat\">bei seinen Eltern</span>.",
+          "es": "Todavía vive en casa de sus padres."
+        },
+        {
+          "en": "<span class=\"r-dat\">Seit einem Monat</span> <span class=\"r-verb\">arbeite</span> ich hier.",
+          "es": "Trabajo aquí desde hace un mes."
+        },
+        {
+          "en": "<span class=\"r-verb\">Gehst</span> du morgen <span class=\"r-dat\">zum Arzt</span>?",
+          "es": "¿Vas mañana al médico?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">komme</span> <span class=\"r-dat\">aus der Türkei</span>.",
+          "es": "Vengo de Turquía."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">fährt</span> <span class=\"r-dat\">mit dem Fahrrad</span> <span class=\"r-dat\">zur Arbeit</span>.",
+          "es": "Va en bici al trabajo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">wohnen</span> <span class=\"r-dat\">bei meiner Tante</span>.",
+          "es": "Vivimos en casa de mi tía."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">lerne</span> Deutsch <span class=\"r-dat\">seit einem Jahr</span>.",
+          "es": "Aprendo alemán desde hace un año."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">geht</span> <span class=\"r-dat\">zu ihrer Freundin</span>.",
+          "es": "Ella va a casa de su amiga."
+        },
+        {
+          "en": "<span class=\"r-dat\">Nach dem Essen</span> <span class=\"r-verb\">trinken</span> <span class=\"r-nom\">wir</span> Kaffee.",
+          "es": "Después de comer tomamos café."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Geschenk</span> <span class=\"r-verb\">ist</span> <span class=\"r-dat\">von meinem Bruder</span>.",
+          "es": "El regalo es de mi hermano."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">fliege</span> <span class=\"r-dat\">nach Spanien</span>.",
+          "es": "Vuelo a España."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">spricht</span> <span class=\"r-dat\">mit ihrem Chef</span>.",
+          "es": "Ella habla con su jefe."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kommt</span> <span class=\"r-dat\">aus dem Haus</span>.",
+          "es": "Él sale de la casa."
+        },
+        {
+          "en": "<span class=\"r-dat\">Gegenüber dem Bahnhof</span> <span class=\"r-verb\">gibt</span> es ein Hotel.",
+          "es": "Enfrente de la estación hay un hotel."
+        },
+        {
+          "en": "<span class=\"r-nom\">Alle</span> <span class=\"r-verb\">kommen</span>, <span class=\"r-dat\">außer meinem Bruder</span>.",
+          "es": "Vienen todos, excepto mi hermano."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">warten</span> <span class=\"r-dat\">beim Bäcker</span>.",
+          "es": "Esperamos en la panadería."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bin</span> <span class=\"r-dat\">seit zwei Wochen</span> krank.",
+          "es": "Estoy enfermo desde hace dos semanas."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">geht</span> <span class=\"r-dat\">zum Arzt</span>.",
+          "es": "Él va al médico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Brief</span> <span class=\"r-verb\">ist</span> <span class=\"r-dat\">von der Bank</span>.",
+          "es": "La carta es del banco."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">fährt</span> <span class=\"r-dat\">mit ihren Eltern</span> in den Urlaub.",
+          "es": "Ella se va de vacaciones con sus padres."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gehe</span> <span class=\"r-dat\">nach der Arbeit</span> ins Kino.",
+          "es": "Voy al cine después del trabajo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">gehen</span> <span class=\"r-dat\">zur Schule</span>.",
+          "es": "Vamos a la escuela."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">kommt</span> <span class=\"r-dat\">aus einer kleinen Stadt</span>.",
+          "es": "Ella viene de una ciudad pequeña."
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b04-s2q1",
           "question": "1. Ich fahre mit <span class=\"blank\">___</span> Bus.",
-          "options": ["den", "dem", "der"],
+          "options": [
+            "den",
+            "dem",
+            "der"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b04-s2q2",
           "question": "2. «Llevo tres años viviendo aquí.» → Ich wohne hier seit drei <span class=\"blank\">___</span>.",
-          "options": ["Jahre", "Jahren", "Jahres"],
+          "options": [
+            "Jahre",
+            "Jahren",
+            "Jahres"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b04-s2q3",
           "question": "3. «Voy a casa de mi abuela.» → Ich gehe <span class=\"blank\">___</span> meiner Oma.",
-          "options": ["nach", "zu", "bei"],
+          "options": [
+            "nach",
+            "zu",
+            "bei"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b04-s2q4",
+          "question": "4. Ich komme aus <span class=\"blank\">___</span> Schweiz. (la)",
+          "options": [
+            "dem",
+            "die",
+            "der"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s2q5",
+          "question": "5. Wir fahren mit <span class=\"blank\">___</span> Auto. (el)",
+          "options": [
+            "das",
+            "den",
+            "dem"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s2q6",
+          "question": "6. Er wohnt bei <span class=\"blank\">___</span> Eltern. (sus)",
+          "options": [
+            "seine",
+            "seiner",
+            "seinen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s2q7",
+          "question": "7. Sie geht zu <span class=\"blank\">___</span> Arzt. (al, zu + dem)",
+          "options": [
+            "zum",
+            "zur",
+            "zu"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s2q8",
+          "question": "8. Ich gehe zu <span class=\"blank\">___</span> Bäckerei. (la, zu + der)",
+          "options": [
+            "zum",
+            "zu",
+            "zur"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s2q9",
+          "question": "9. Nach <span class=\"blank\">___</span> Kurs gehe ich nach Hause. (el)",
+          "options": [
+            "der",
+            "den",
+            "dem"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s2q10",
+          "question": "10. Ich fliege <span class=\"blank\">___</span> Italien. (a)",
+          "options": [
+            "in",
+            "nach",
+            "zu"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s2q11",
+          "question": "11. Das Buch ist von <span class=\"blank\">___</span>. (de mí)",
+          "options": [
+            "mir",
+            "mein",
+            "mich"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s2q12",
+          "question": "12. Ich wohne seit zwei <span class=\"blank\">___</span> hier. (Monate)",
+          "options": [
+            "Monats",
+            "Monate",
+            "Monaten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s2q13",
+          "question": "13. ¿Qué caso rigen aus, bei, mit, nach, seit, von, zu?",
+          "options": [
+            "Dativ",
+            "Akkusativ",
+            "Genitiv"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s2q14",
+          "question": "14. Sie geht mit <span class=\"blank\">___</span> zum Kino. (con nosotros)",
+          "options": [
+            "wir",
+            "unser",
+            "uns"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s2q15",
+          "question": "15. Wir sind bei <span class=\"blank\">___</span> Freunden. (los)",
+          "options": [
+            "dem",
+            "die",
+            "den"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -124,18 +590,125 @@
         }
       ],
       "examples": [
-        { "en": "Ich <span class=\"r-verb\">gehe</span> <span class=\"r-akk\">in die Küche</span>.", "es": "Voy a la cocina. (wohin? → Akk)" },
-        { "en": "Ich <span class=\"r-verb\">bin</span> <span class=\"r-dat\">in der Küche</span>.", "es": "Estoy en la cocina. (wo? → Dat)" },
-        { "en": "Er <span class=\"r-verb\">hängt</span> das Bild <span class=\"r-akk\">an die Wand</span>.", "es": "Él cuelga el cuadro en la pared. (movimiento)" },
-        { "en": "Das Bild <span class=\"r-verb\">hängt</span> <span class=\"r-dat\">an der Wand</span>.", "es": "El cuadro cuelga en la pared. (ubicación)" },
-        { "en": "Die Katze <span class=\"r-verb\">springt</span> <span class=\"r-akk\">auf den Tisch</span> und <span class=\"r-verb\">schläft</span> jetzt <span class=\"r-dat\">auf dem Tisch</span>.", "es": "El gato salta a la mesa y ahora duerme sobre la mesa." }
+        {
+          "en": "Ich <span class=\"r-verb\">gehe</span> <span class=\"r-akk\">in die Küche</span>.",
+          "es": "Voy a la cocina. (wohin? → Akk)"
+        },
+        {
+          "en": "Ich <span class=\"r-verb\">bin</span> <span class=\"r-dat\">in der Küche</span>.",
+          "es": "Estoy en la cocina. (wo? → Dat)"
+        },
+        {
+          "en": "Er <span class=\"r-verb\">hängt</span> das Bild <span class=\"r-akk\">an die Wand</span>.",
+          "es": "Él cuelga el cuadro en la pared. (movimiento)"
+        },
+        {
+          "en": "Das Bild <span class=\"r-verb\">hängt</span> <span class=\"r-dat\">an der Wand</span>.",
+          "es": "El cuadro cuelga en la pared. (ubicación)"
+        },
+        {
+          "en": "Die Katze <span class=\"r-verb\">springt</span> <span class=\"r-akk\">auf den Tisch</span> und <span class=\"r-verb\">schläft</span> jetzt <span class=\"r-dat\">auf dem Tisch</span>.",
+          "es": "El gato salta a la mesa y ahora duerme sobre la mesa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">stelle</span> die Lampe <span class=\"r-akk\">auf den Tisch</span>.",
+          "es": "Pongo la lámpara sobre la mesa. (wohin? → Akk)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Lampe</span> <span class=\"r-verb\">steht</span> <span class=\"r-dat\">auf dem Tisch</span>.",
+          "es": "La lámpara está sobre la mesa. (wo? → Dat)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">legt</span> das Buch <span class=\"r-akk\">in die Tasche</span>.",
+          "es": "Ella mete el libro en el bolso."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Buch</span> <span class=\"r-verb\">liegt</span> <span class=\"r-dat\">in der Tasche</span>.",
+          "es": "El libro está en el bolso."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">geht</span> <span class=\"r-akk\">ins Zimmer</span>.",
+          "es": "Él entra en la habitación."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">ist</span> <span class=\"r-dat\">im Zimmer</span>.",
+          "es": "Él está en la habitación."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">fahren</span> <span class=\"r-akk\">an den See</span>.",
+          "es": "Vamos al lago."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> <span class=\"r-dat\">am See</span>.",
+          "es": "Estamos en el lago."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Hund</span> <span class=\"r-verb\">liegt</span> <span class=\"r-dat\">unter dem Tisch</span>.",
+          "es": "El perro está tumbado debajo de la mesa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Hund</span> <span class=\"r-verb\">läuft</span> <span class=\"r-akk\">unter den Tisch</span>.",
+          "es": "El perro corre bajo la mesa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Auto</span> <span class=\"r-verb\">steht</span> <span class=\"r-dat\">vor dem Haus</span>.",
+          "es": "El coche está delante de la casa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">fährt</span> das Auto <span class=\"r-akk\">vor das Haus</span>.",
+          "es": "Él lleva el coche delante de la casa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hängt</span> das Bild <span class=\"r-akk\">über das Sofa</span>.",
+          "es": "Ella cuelga el cuadro encima del sofá."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Bild</span> <span class=\"r-verb\">hängt</span> <span class=\"r-dat\">über dem Sofa</span>.",
+          "es": "El cuadro cuelga sobre el sofá."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">setze</span> mich <span class=\"r-akk\">neben dich</span>.",
+          "es": "Me siento a tu lado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">sitze</span> <span class=\"r-dat\">neben dir</span>.",
+          "es": "Estoy sentado a tu lado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Ball</span> <span class=\"r-verb\">rollt</span> <span class=\"r-akk\">hinter das Tor</span>.",
+          "es": "La pelota rueda detrás de la portería."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Garten</span> <span class=\"r-verb\">ist</span> <span class=\"r-dat\">hinter dem Haus</span>.",
+          "es": "El jardín está detrás de la casa."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Tasche</span> <span class=\"r-verb\">steht</span> <span class=\"r-dat\">zwischen den Stühlen</span>.",
+          "es": "El bolso está entre las sillas."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">stellt</span> den Stuhl <span class=\"r-akk\">zwischen die Tische</span>.",
+          "es": "Él pone la silla entre las mesas."
+        }
       ],
       "tables": [
         {
-          "headers": ["Pregunta", "Caso", "Ejemplo"],
+          "headers": [
+            "Pregunta",
+            "Caso",
+            "Ejemplo"
+          ],
           "rows": [
-            ["<b>Wohin?</b> ¿hacia dónde? (movimiento)", "<b>Akkusativ</b>", "Ich lege das Buch <b>auf den</b> Tisch."],
-            ["<b>Wo?</b> ¿dónde? (ubicación)", "<b>Dativ</b>", "Das Buch liegt <b>auf dem</b> Tisch."]
+            [
+              "<b>Wohin?</b> ¿hacia dónde? (movimiento)",
+              "<b>Akkusativ</b>",
+              "Ich lege das Buch <b>auf den</b> Tisch."
+            ],
+            [
+              "<b>Wo?</b> ¿dónde? (ubicación)",
+              "<b>Dativ</b>",
+              "Das Buch liegt <b>auf dem</b> Tisch."
+            ]
           ]
         }
       ],
@@ -143,20 +716,152 @@
         {
           "id": "b04-s3q1",
           "question": "1. Wir fahren am Wochenende <span class=\"blank\">___</span> Berge. (die Berge, pl.)",
-          "options": ["in den", "in die", "in der"],
+          "options": [
+            "in den",
+            "in die",
+            "in der"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b04-s3q2",
           "question": "2. Der Schlüssel liegt <span class=\"blank\">___</span> Tisch. (der Tisch)",
-          "options": ["auf den", "auf dem", "auf der"],
+          "options": [
+            "auf den",
+            "auf dem",
+            "auf der"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b04-s3q3",
           "question": "3. Ich stelle die Flasche <span class=\"blank\">___</span> Kühlschrank. (der Kühlschrank)",
-          "options": ["in den", "in dem", "in das"],
+          "options": [
+            "in den",
+            "in dem",
+            "in das"
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b04-s3q4",
+          "question": "4. Ich hänge das Bild <span class=\"blank\">___</span> Wand. (en la, wohin)",
+          "options": [
+            "an dem",
+            "an der",
+            "an die"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s3q5",
+          "question": "5. Das Bild hängt <span class=\"blank\">___</span> Wand. (en la, wo)",
+          "options": [
+            "an der",
+            "an die",
+            "an den"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s3q6",
+          "question": "6. Wir gehen <span class=\"blank\">___</span> Kino. (al, wohin)",
+          "options": [
+            "ins",
+            "in dem",
+            "im"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s3q7",
+          "question": "7. Wir sind <span class=\"blank\">___</span> Kino. (en el, wo)",
+          "options": [
+            "ins",
+            "in das",
+            "im"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s3q8",
+          "question": "8. Er legt das Buch <span class=\"blank\">___</span> Tisch. (sobre la mesa, wohin)",
+          "options": [
+            "auf dem",
+            "auf den",
+            "auf der"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s3q9",
+          "question": "9. Das Buch liegt <span class=\"blank\">___</span> Tisch. (sobre la, wo)",
+          "options": [
+            "auf dem",
+            "auf das",
+            "auf den"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s3q10",
+          "question": "10. Die Katze springt <span class=\"blank\">___</span> Sofa. (al, wohin)",
+          "options": [
+            "auf dem",
+            "auf der",
+            "auf das"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s3q11",
+          "question": "11. Die Katze sitzt <span class=\"blank\">___</span> Sofa. (en el, wo)",
+          "options": [
+            "auf dem",
+            "auf das",
+            "auf den"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s3q12",
+          "question": "12. Ich stelle die Vase <span class=\"blank\">___</span> Regal. (en el estante, wohin)",
+          "options": [
+            "in dem",
+            "im",
+            "ins"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s3q13",
+          "question": "13. Die Vase steht <span class=\"blank\">___</span> Regal. (en el, wo)",
+          "options": [
+            "ins",
+            "in das",
+            "im"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s3q14",
+          "question": "14. ¿Qué pregunta lleva Akkusativ con Wechselpräpositionen?",
+          "options": [
+            "Woher?",
+            "Wohin?",
+            "Wo?"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s3q15",
+          "question": "15. Der Hund läuft <span class=\"blank\">___</span> Garten. (al jardín, wohin)",
+          "options": [
+            "in der",
+            "in den",
+            "in dem"
+          ],
+          "correctIndex": 1
         }
       ],
       "produce": {
@@ -178,24 +883,155 @@
         }
       ],
       "examples": [
-        { "en": "Wir <span class=\"r-verb\">gehen</span> heute <span class=\"r-akk\">ins Kino</span>.", "es": "Hoy vamos al cine. (in das → ins, movimiento)" },
-        { "en": "Gestern waren wir <span class=\"r-dat\">im Kino</span>.", "es": "Ayer estuvimos en el cine. (in dem → im, ubicación)" },
-        { "en": "<span class=\"r-dat\">Am Montag</span> <span class=\"r-verb\">fahre</span> ich <span class=\"r-dat\">zur Arbeit</span>.", "es": "El lunes voy al trabajo." },
-        { "en": "Er <span class=\"r-verb\">ist</span> <span class=\"r-dat\">beim Arzt</span>.", "es": "Él está en el médico." },
-        { "en": "Das Brot <span class=\"r-verb\">kommt</span> <span class=\"r-dat\">vom Bäcker</span>.", "es": "El pan viene de la panadería." }
+        {
+          "en": "Wir <span class=\"r-verb\">gehen</span> heute <span class=\"r-akk\">ins Kino</span>.",
+          "es": "Hoy vamos al cine. (in das → ins, movimiento)"
+        },
+        {
+          "en": "Gestern waren wir <span class=\"r-dat\">im Kino</span>.",
+          "es": "Ayer estuvimos en el cine. (in dem → im, ubicación)"
+        },
+        {
+          "en": "<span class=\"r-dat\">Am Montag</span> <span class=\"r-verb\">fahre</span> ich <span class=\"r-dat\">zur Arbeit</span>.",
+          "es": "El lunes voy al trabajo."
+        },
+        {
+          "en": "Er <span class=\"r-verb\">ist</span> <span class=\"r-dat\">beim Arzt</span>.",
+          "es": "Él está en el médico."
+        },
+        {
+          "en": "Das Brot <span class=\"r-verb\">kommt</span> <span class=\"r-dat\">vom Bäcker</span>.",
+          "es": "El pan viene de la panadería."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gehe</span> <span class=\"r-akk\">zum Arzt</span>.",
+          "es": "Voy al médico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> <span class=\"r-dat\">beim Arzt</span>.",
+          "es": "Estamos en el médico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">kommt</span> <span class=\"r-dat\">vom Arzt</span>.",
+          "es": "Él viene del médico."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">geht</span> <span class=\"r-akk\">zur Bank</span>.",
+          "es": "Ella va al banco."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bin</span> <span class=\"r-dat\">in der Bank</span>.",
+          "es": "Estoy en el banco."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">gehen</span> <span class=\"r-akk\">ins Restaurant</span>.",
+          "es": "Vamos al restaurante."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">essen</span> <span class=\"r-dat\">im Restaurant</span>.",
+          "es": "Comemos en el restaurante."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">fährt</span> <span class=\"r-akk\">ans Meer</span>.",
+          "es": "Él va al mar."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ist</span> <span class=\"r-dat\">am Meer</span>.",
+          "es": "Ella está en el mar."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Kinder</span> <span class=\"r-verb\">spielen</span> <span class=\"r-dat\">im Garten</span>.",
+          "es": "Los niños juegan en el jardín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gehe</span> <span class=\"r-akk\">in den Garten</span>.",
+          "es": "Voy al jardín."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">komme</span> <span class=\"r-dat\">vom Supermarkt</span>.",
+          "es": "Vengo del supermercado."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">habe</span> <span class=\"r-dat\">am Sonntag</span> frei.",
+          "es": "El domingo tengo libre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Kurs</span> <span class=\"r-verb\">beginnt</span> <span class=\"r-dat\">im Januar</span>.",
+          "es": "El curso empieza en enero."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">treffen</span> uns <span class=\"r-dat\">am Bahnhof</span>.",
+          "es": "Nos vemos en la estación."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">geht</span> <span class=\"r-akk\">zum Bahnhof</span>.",
+          "es": "Él va a la estación."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">arbeitet</span> <span class=\"r-dat\">im Büro</span>.",
+          "es": "Ella trabaja en la oficina."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gehe</span> <span class=\"r-akk\">ins Büro</span>.",
+          "es": "Voy a la oficina."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Auto</span> <span class=\"r-verb\">steht</span> <span class=\"r-dat\">vorm Haus</span>.",
+          "es": "El coche está delante de la casa. (vor dem → vorm, coloquial)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">ist</span> <span class=\"r-dat\">zum Glück</span> gesund.",
+          "es": "Por suerte ella está sana."
+        }
       ],
       "tables": [
         {
-          "headers": ["Contracción", "Origen", "Caso oculto"],
+          "headers": [
+            "Contracción",
+            "Origen",
+            "Caso oculto"
+          ],
           "rows": [
-            ["<b>im</b>", "in dem", "Dativ"],
-            ["<b>ins</b>", "in das", "Akkusativ"],
-            ["<b>am</b>", "an dem", "Dativ"],
-            ["<b>ans</b>", "an das", "Akkusativ"],
-            ["<b>zum</b>", "zu dem", "Dativ"],
-            ["<b>zur</b>", "zu der", "Dativ"],
-            ["<b>beim</b>", "bei dem", "Dativ"],
-            ["<b>vom</b>", "von dem", "Dativ"]
+            [
+              "<b>im</b>",
+              "in dem",
+              "Dativ"
+            ],
+            [
+              "<b>ins</b>",
+              "in das",
+              "Akkusativ"
+            ],
+            [
+              "<b>am</b>",
+              "an dem",
+              "Dativ"
+            ],
+            [
+              "<b>ans</b>",
+              "an das",
+              "Akkusativ"
+            ],
+            [
+              "<b>zum</b>",
+              "zu dem",
+              "Dativ"
+            ],
+            [
+              "<b>zur</b>",
+              "zu der",
+              "Dativ"
+            ],
+            [
+              "<b>beim</b>",
+              "bei dem",
+              "Dativ"
+            ],
+            [
+              "<b>vom</b>",
+              "von dem",
+              "Dativ"
+            ]
           ]
         }
       ],
@@ -203,20 +1039,152 @@
         {
           "id": "b04-s4q1",
           "question": "1. Ich gehe <span class=\"blank\">___</span> Supermarkt. (movimiento, der Supermarkt → zu + dem)",
-          "options": ["zur", "zum", "ins"],
+          "options": [
+            "zur",
+            "zum",
+            "ins"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b04-s4q2",
           "question": "2. «Estamos en el cine.» → Wir sind <span class=\"blank\">___</span> Kino.",
-          "options": ["ins", "im", "am"],
+          "options": [
+            "ins",
+            "im",
+            "am"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b04-s4q3",
           "question": "3. «ins» esconde el caso…",
-          "options": ["Dativ", "Genitiv", "Akkusativ"],
+          "options": [
+            "Dativ",
+            "Genitiv",
+            "Akkusativ"
+          ],
           "correctIndex": 2
+        },
+        {
+          "id": "b04-s4q4",
+          "question": "4. in + dem →",
+          "options": [
+            "im",
+            "ins",
+            "in"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s4q5",
+          "question": "5. in + das →",
+          "options": [
+            "ins",
+            "im",
+            "ans"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s4q6",
+          "question": "6. an + dem →",
+          "options": [
+            "am",
+            "an",
+            "ans"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s4q7",
+          "question": "7. zu + der →",
+          "options": [
+            "zum",
+            "zu",
+            "zur"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s4q8",
+          "question": "8. zu + dem →",
+          "options": [
+            "zur",
+            "zum",
+            "zu"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s4q9",
+          "question": "9. von + dem →",
+          "options": [
+            "von",
+            "vom",
+            "vor"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s4q10",
+          "question": "10. bei + dem →",
+          "options": [
+            "bei",
+            "beim",
+            "am"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s4q11",
+          "question": "11. Ich gehe <span class=\"blank\">___</span> Kino. (al, movimiento)",
+          "options": [
+            "im",
+            "ins",
+            "am"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b04-s4q12",
+          "question": "12. Ich bin <span class=\"blank\">___</span> Kino. (en el)",
+          "options": [
+            "ins",
+            "ans",
+            "im"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s4q13",
+          "question": "13. Wir fahren <span class=\"blank\">___</span> Meer. (al mar)",
+          "options": [
+            "zum",
+            "am",
+            "ans"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b04-s4q14",
+          "question": "14. Er kommt <span class=\"blank\">___</span> Arzt. (del médico)",
+          "options": [
+            "vom",
+            "von",
+            "beim"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b04-s4q15",
+          "question": "15. Sie ist <span class=\"blank\">___</span> Arzt. (en el médico)",
+          "options": [
+            "zum",
+            "beim",
+            "vom"
+          ],
+          "correctIndex": 1
         }
       ],
       "produce": {

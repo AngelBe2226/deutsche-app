@@ -4,7 +4,11 @@
   "kicker": "Bloque 18 · A2–B2",
   "intro": "El alemán se pronuncia de forma muy <b class=\"hl\">regular</b> — mucho más que el inglés. Domina estos cuatro frentes: los <b class=\"hl\">Umlaute</b> (ä/ö/ü) y la ß, los dos sonidos de <b class=\"hl\">ch</b>, el par <b class=\"hl\">ei/ie</b> con el ensordecimiento final, y el acento de palabra.",
   "legend": [
-    { "label": "verbo", "desc": "conjugado", "role": "verb" }
+    {
+      "label": "verbo",
+      "desc": "conjugado",
+      "role": "verb"
+    }
   ],
   "sections": [
     {
@@ -25,19 +29,131 @@
         }
       ],
       "examples": [
-        { "en": "schon (ya) ≠ sch<b>ö</b>n (bonito)", "es": "Das Wetter ist schön. — El tiempo es bonito." },
-        { "en": "Mutter (madre) → M<b>ü</b>tter (madres)", "es": "El plural muchas veces se marca solo con el Umlaut." },
-        { "en": "zahlen (pagar) ≠ z<b>ä</b>hlen (contar)", "es": "Ich zahle mit Karte. / Ich zähle bis zehn." },
-            { "en": "die Stra<b>ße</b>, hei<b>ß</b>en, gro<b>ß</b>", "es": "ß = s sorda tras vocal larga" }
+        {
+          "en": "schon (ya) ≠ sch<b>ö</b>n (bonito)",
+          "es": "Das Wetter ist schön. — El tiempo es bonito."
+        },
+        {
+          "en": "Mutter (madre) → M<b>ü</b>tter (madres)",
+          "es": "El plural muchas veces se marca solo con el Umlaut."
+        },
+        {
+          "en": "zahlen (pagar) ≠ z<b>ä</b>hlen (contar)",
+          "es": "Ich zahle mit Karte. / Ich zähle bis zehn."
+        },
+        {
+          "en": "die Stra<b>ße</b>, hei<b>ß</b>en, gro<b>ß</b>",
+          "es": "ß = s sorda tras vocal larga"
+        },
+        {
+          "en": "k<b>ü</b>hl (fresco) ≠ k<b>ü</b>ss (besa) — ü siempre con labios redondeados",
+          "es": "Das Wasser ist kühl."
+        },
+        {
+          "en": "sch<b>ö</b>n (bonito), h<b>ö</b>ren (oír), M<b>ö</b>bel (muebles)",
+          "es": "ö = «e» con labios de «o»"
+        },
+        {
+          "en": "<b>Ä</b>pfel (manzanas), K<b>ä</b>se (queso), M<b>ä</b>dchen (niña)",
+          "es": "ä ≈ «e» abierta"
+        },
+        {
+          "en": "f<b>ü</b>nf (cinco), Z<b>ü</b>ge (trenes), T<b>ü</b>r (puerta)",
+          "es": "ü = «i» con labios de «u»"
+        },
+        {
+          "en": "die B<b>ü</b>cher (los libros) — plural de das Buch",
+          "es": "el Umlaut marca el plural"
+        },
+        {
+          "en": "der V<b>a</b>ter → die V<b>ä</b>ter",
+          "es": "padre → padres"
+        },
+        {
+          "en": "der B<b>o</b>gen → die B<b>ö</b>gen",
+          "es": "arco → arcos"
+        },
+        {
+          "en": "gro<b>ß</b> (grande), hei<b>ß</b> (caliente), Fu<b>ß</b> (pie)",
+          "es": "ß tras vocal larga: s sorda"
+        },
+        {
+          "en": "die Stra<b>ß</b>e (calle), der Spa<b>ß</b> (diversión)",
+          "es": "ß = s sorda"
+        },
+        {
+          "en": "der Flu<b>ss</b> (río), das Wa<b>ss</b>er (agua), mü<b>ss</b>en (deber)",
+          "es": "ss tras vocal corta"
+        },
+        {
+          "en": "fl<b>ü</b>ssig (líquido), l<b>ü</b>gen (mentir)",
+          "es": "ü con labios en «u»"
+        },
+        {
+          "en": "M<b>ü</b>nchen, Z<b>ü</b>rich, D<b>ü</b>sseldorf",
+          "es": "ciudades con ü"
+        },
+        {
+          "en": "sch<b>ö</b>n ≠ sch<b>o</b>n",
+          "es": "bonito ≠ ya"
+        },
+        {
+          "en": "<b>ö</b>ffnen (abrir), <b>Ö</b>l (aceite), <b>Ö</b>sterreich (Austria)",
+          "es": "ö al inicio de palabra"
+        },
+        {
+          "en": "T<b>ö</b>chter (hijas), M<b>ü</b>tter (madres), Br<b>ü</b>der (hermanos)",
+          "es": "plurales con Umlaut"
+        },
+        {
+          "en": "<b>ä</b>lter (mayor), j<b>ü</b>nger (más joven), gr<b>ö</b>ßer (más grande)",
+          "es": "comparativos con Umlaut"
+        },
+        {
+          "en": "k<b>ä</b>lter (más frío), w<b>ä</b>rmer (más cálido)",
+          "es": "comparativos con ä"
+        },
+        {
+          "en": "sp<b>ä</b>t (tarde), fr<b>ü</b>h (temprano)",
+          "es": "ä y ü en adverbios"
+        },
+        {
+          "en": "die H<b>ä</b>nde (manos), die F<b>ü</b>ße (pies)",
+          "es": "plurales con Umlaut"
+        },
+        {
+          "en": "der Gast → die G<b>ä</b>ste",
+          "es": "invitado → invitados"
+        }
       ],
       "tables": [
         {
-          "headers": ["Letra", "Cómo producirla", "Ejemplos"],
+          "headers": [
+            "Letra",
+            "Cómo producirla",
+            "Ejemplos"
+          ],
           "rows": [
-            ["<b>ä</b>", "e abierta, como en «perro»", "Mädchen, spät, Käse"],
-            ["<b>ö</b>", "labios en «o», decir «e»", "schön, hören, möchte"],
-            ["<b>ü</b>", "labios en «u», decir «i»", "über, müde, fünf"],
-            ["<b>ß</b>", "s sorda (nunca vibrada)", "Straße, groß, weiß"]
+            [
+              "<b>ä</b>",
+              "e abierta, como en «perro»",
+              "Mädchen, spät, Käse"
+            ],
+            [
+              "<b>ö</b>",
+              "labios en «o», decir «e»",
+              "schön, hören, möchte"
+            ],
+            [
+              "<b>ü</b>",
+              "labios en «u», decir «i»",
+              "über, müde, fünf"
+            ],
+            [
+              "<b>ß</b>",
+              "s sorda (nunca vibrada)",
+              "Straße, groß, weiß"
+            ]
           ]
         }
       ],
@@ -45,20 +161,152 @@
         {
           "id": "b18-s1q1",
           "question": "1. Para pronunciar «ü», pones los labios como para… y dices…",
-          "options": ["«i» y dices «u»", "«u» y dices «i»", "«o» y dices «a»"],
+          "options": [
+            "«i» y dices «u»",
+            "«u» y dices «i»",
+            "«o» y dices «a»"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b18-s1q2",
           "question": "2. «schon» y «schön»…",
-          "options": ["suenan igual", "son palabras distintas: ya / bonito", "son variantes regionales"],
+          "options": [
+            "suenan igual",
+            "son palabras distintas: ya / bonito",
+            "son variantes regionales"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b18-s1q3",
           "question": "3. La ß se pronuncia como…",
-          "options": ["una b suave", "una s sorda", "una z española"],
+          "options": [
+            "una b suave",
+            "una s sorda",
+            "una z española"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b18-s1q4",
+          "question": "4. Para pronunciar «ö», dices «e» con los labios en forma de…",
+          "options": [
+            "«u»",
+            "«o»",
+            "«a»"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s1q5",
+          "question": "5. Para pronunciar «ü», dices «i» con los labios en forma de…",
+          "options": [
+            "«u»",
+            "«o»",
+            "«a»"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s1q6",
+          "question": "6. «ä» suena aproximadamente como…",
+          "options": [
+            "una «u»",
+            "una «a» normal",
+            "una «e» abierta"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s1q7",
+          "question": "7. La ß se pronuncia como…",
+          "options": [
+            "una s sorda",
+            "una z",
+            "una b"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s1q8",
+          "question": "8. «schön» significa…",
+          "options": [
+            "escuela",
+            "bonito",
+            "ya"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s1q9",
+          "question": "9. «schon» significa…",
+          "options": [
+            "ya",
+            "sombra",
+            "bonito"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s1q10",
+          "question": "10. El plural de «das Buch» es…",
+          "options": [
+            "die Buchs",
+            "die Bücher",
+            "die Buche"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s1q11",
+          "question": "11. El plural de «der Vater» es…",
+          "options": [
+            "die Väter",
+            "die Vätern",
+            "die Vater"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s1q12",
+          "question": "12. El plural de «die Mutter» es…",
+          "options": [
+            "die Muttern",
+            "die Mutter",
+            "die Mütter"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s1q13",
+          "question": "13. ß se escribe tras…",
+          "options": [
+            "vocal corta",
+            "consonante",
+            "vocal larga o diptongo"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s1q14",
+          "question": "14. «Fluss» se escribe con ss porque…",
+          "options": [
+            "la vocal es larga",
+            "es un préstamo",
+            "la vocal es corta"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s1q15",
+          "question": "15. «Straße» se escribe con ß porque…",
+          "options": [
+            "la vocal es corta",
+            "es palabra de origen latino",
+            "la vocal es larga"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -85,29 +333,253 @@
         }
       ],
       "examples": [
-        { "en": "<b>ich-Laut</b> [ç]: ich, nicht, richtig, Milch, München", "es": "suave, tras i/e/ä/ö/ü y consonante" },
-        { "en": "<b>ach-Laut</b> [x]: machen, Buch, auch, Nacht", "es": "como j española, tras a/o/u/au" },
-        { "en": "Buch [x] → Bücher [ç]", "es": "la vocal anterior decide el sonido" },
-        { "en": "die T<b>ür</b> ≈ «tüa», der Vat<b>er</b> ≈ «fáta»", "es": "la R final se vocaliza en «a»" }
+        {
+          "en": "<b>ich-Laut</b> [ç]: ich, nicht, richtig, Milch, München",
+          "es": "suave, tras i/e/ä/ö/ü y consonante"
+        },
+        {
+          "en": "<b>ach-Laut</b> [x]: machen, Buch, auch, Nacht",
+          "es": "como j española, tras a/o/u/au"
+        },
+        {
+          "en": "Buch [x] → Bücher [ç]",
+          "es": "la vocal anterior decide el sonido"
+        },
+        {
+          "en": "die T<b>ür</b> ≈ «tüa», der Vat<b>er</b> ≈ «fáta»",
+          "es": "la R final se vocaliza en «a»"
+        },
+        {
+          "en": "<b>ich-Laut</b> [ç]: ich, mich, dich, nicht, Küche",
+          "es": "suave, tras i/e/ä/ö/ü"
+        },
+        {
+          "en": "<b>ich-Laut</b> [ç]: Licht, richtig, Milch, Mädchen",
+          "es": "también tras consonante y en -chen"
+        },
+        {
+          "en": "<b>ach-Laut</b> [x]: Buch, auch, noch, Woche",
+          "es": "tras a/o/u/au"
+        },
+        {
+          "en": "<b>ach-Laut</b> [x]: Nacht, acht, machen, Tochter",
+          "es": "como j española"
+        },
+        {
+          "en": "<b>ich-Laut</b> [ç]: Bücher, Töchter, Kirche",
+          "es": "tras vocal anterior"
+        },
+        {
+          "en": "<b>ach-Laut</b> [x]: Bach, Dach, Sache, Kuchen",
+          "es": "tras a/u"
+        },
+        {
+          "en": "Buch [x] → Bücher [ç]",
+          "es": "al cambiar la vocal cambia el sonido"
+        },
+        {
+          "en": "Nacht [x] → Nächte [ç]",
+          "es": "al cambiar la vocal cambia el sonido"
+        },
+        {
+          "en": "Tochter [x] → Töchter [ç]",
+          "es": "al cambiar la vocal cambia el sonido"
+        },
+        {
+          "en": "-ig al final: fertig [ç], lustig [ç], wichtig [ç]",
+          "es": "-ig final suena [ç]"
+        },
+        {
+          "en": "die T<b>ür</b> ≈ «tüa»",
+          "es": "la R final se vocaliza"
+        },
+        {
+          "en": "der V<b>ater</b> ≈ «fáta»",
+          "es": "la -er final ≈ «a»"
+        },
+        {
+          "en": "der L<b>ehrer</b> ≈ «léara»",
+          "es": "-er final → «a»"
+        },
+        {
+          "en": "<b>R</b> inicial: Rot, Reise, rennen",
+          "es": "R gutural (garganta), no vibrada"
+        },
+        {
+          "en": "<b>R</b> tras vocal: Ohr, Uhr, Jahr",
+          "es": "se vocaliza casi como «a»"
+        },
+        {
+          "en": "<b>r</b> tras consonante: Freund, Brot, Tropfen",
+          "es": "R gutural"
+        },
+        {
+          "en": "<b>ch</b> en préstamos griegos: Chor [k], Chaos [k]",
+          "es": "ch = k en palabras griegas"
+        },
+        {
+          "en": "<b>chs</b> = [ks]: sechs, Fuchs, wachsen",
+          "es": "chs se pronuncia «ks»"
+        },
+        {
+          "en": "<b>sch</b> = [ʃ]: Schule, schön, Tisch",
+          "es": "como «sh» inglés"
+        },
+        {
+          "en": "<b>sp</b>/<b>st</b> inicial = [ʃp]/[ʃt]: sprechen, Stadt",
+          "es": "«schp» / «scht»"
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b18-s2q1",
           "question": "1. «ich» lleva…",
-          "options": ["ach-Laut (j fuerte)", "ich-Laut (suave, palatal)", "sonido k"],
+          "options": [
+            "ach-Laut (j fuerte)",
+            "ich-Laut (suave, palatal)",
+            "sonido k"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b18-s2q2",
           "question": "2. «Nacht» lleva…",
-          "options": ["ich-Laut", "ach-Laut", "sonido sh"],
+          "options": [
+            "ich-Laut",
+            "ach-Laut",
+            "sonido sh"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b18-s2q3",
           "question": "3. La R final de «Vater» suena…",
-          "options": ["vibrada como en español", "vocalizada, casi una «a»", "muda del todo"],
+          "options": [
+            "vibrada como en español",
+            "vocalizada, casi una «a»",
+            "muda del todo"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s2q4",
+          "question": "4. «ich» lleva…",
+          "options": [
+            "ich-Laut (suave)",
+            "sonido k",
+            "ach-Laut (fuerte)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s2q5",
+          "question": "5. «Buch» lleva…",
+          "options": [
+            "ach-Laut",
+            "sonido sh",
+            "ich-Laut"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s2q6",
+          "question": "6. «nicht» lleva…",
+          "options": [
+            "ach-Laut",
+            "sonido k",
+            "ich-Laut"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s2q7",
+          "question": "7. «Nacht» lleva…",
+          "options": [
+            "ich-Laut",
+            "sonido sh",
+            "ach-Laut"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s2q8",
+          "question": "8. «Küche» lleva…",
+          "options": [
+            "ich-Laut",
+            "sonido k",
+            "ach-Laut"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s2q9",
+          "question": "9. «machen» lleva…",
+          "options": [
+            "ach-Laut",
+            "ich-Laut",
+            "sonido k"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s2q10",
+          "question": "10. «-ig» final (fertig) suena…",
+          "options": [
+            "como ach-Laut",
+            "como ich-Laut",
+            "como k"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s2q11",
+          "question": "11. La R inicial (Reise) suena…",
+          "options": [
+            "gutural",
+            "como L",
+            "vibrada como en español"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s2q12",
+          "question": "12. «sechs» se pronuncia…",
+          "options": [
+            "zex",
+            "sechs",
+            "zeks"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s2q13",
+          "question": "13. «Schule» empieza con…",
+          "options": [
+            "ch",
+            "s",
+            "sh (sch)"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s2q14",
+          "question": "14. «Stadt» empieza con…",
+          "options": [
+            "scht",
+            "zt",
+            "st"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s2q15",
+          "question": "15. «sprechen» empieza con…",
+          "options": [
+            "ps",
+            "schp",
+            "sp"
+          ],
           "correctIndex": 1
         }
       ],
@@ -130,30 +602,257 @@
         }
       ],
       "examples": [
-        { "en": "W<b>ei</b>n (vino) = [vain] ≠ W<b>ie</b>n (Viena) = [viin]", "es": "el par mínimo clásico" },
-        { "en": "m<b>ei</b>n, n<b>ei</b>n, dr<b>ei</b> = [ai]", "es": "mío, no, tres" },
-        { "en": "L<b>ie</b>be, v<b>ie</b>r, sp<b>ie</b>len = [iː]", "es": "amor, cuatro, jugar" },
-        { "en": "der Ta<b>g</b> [tak] → die Ta<b>g</b>e [tague]", "es": "ensordecimiento final que desaparece al declinar" },
-        { "en": "die Han<b>d</b> [hant] → die Hän<b>d</b>e [hénde]", "es": "d final → t" }
+        {
+          "en": "W<b>ei</b>n (vino) = [vain] ≠ W<b>ie</b>n (Viena) = [viin]",
+          "es": "el par mínimo clásico"
+        },
+        {
+          "en": "m<b>ei</b>n, n<b>ei</b>n, dr<b>ei</b> = [ai]",
+          "es": "mío, no, tres"
+        },
+        {
+          "en": "L<b>ie</b>be, v<b>ie</b>r, sp<b>ie</b>len = [iː]",
+          "es": "amor, cuatro, jugar"
+        },
+        {
+          "en": "der Ta<b>g</b> [tak] → die Ta<b>g</b>e [tague]",
+          "es": "ensordecimiento final que desaparece al declinar"
+        },
+        {
+          "en": "die Han<b>d</b> [hant] → die Hän<b>d</b>e [hénde]",
+          "es": "d final → t"
+        },
+        {
+          "en": "<b>ei</b> = [ai]: mein, dein, klein, Eis",
+          "es": "«ai»"
+        },
+        {
+          "en": "<b>ie</b> = [iː]: Liebe, viel, Tier, sieben",
+          "es": "«i» larga"
+        },
+        {
+          "en": "<b>eu</b>/<b>äu</b> = [ɔy]: neun, heute, Häuser",
+          "es": "«oi»"
+        },
+        {
+          "en": "<b>au</b> = [au]: Haus, auch, Auto",
+          "es": "«au»"
+        },
+        {
+          "en": "W<b>ei</b>n ≠ W<b>ie</b>n",
+          "es": "vino ≠ Viena"
+        },
+        {
+          "en": "b<b>ei</b>ßen ≠ B<b>ie</b>nen",
+          "es": "morder ≠ abejas (bien-en)"
+        },
+        {
+          "en": "die Z<b>ei</b>t ≠ das Z<b>ie</b>l",
+          "es": "el tiempo ≠ la meta"
+        },
+        {
+          "en": "der Ta<b>g</b> [tak]",
+          "es": "g final → k"
+        },
+        {
+          "en": "das Bro<b>t</b> [bʁoːt] / das Ba<b>d</b> [bat]",
+          "es": "d final → t"
+        },
+        {
+          "en": "die Han<b>d</b> [hant] → die Hän<b>d</b>e [hɛndə]",
+          "es": "d final → t; en el plural vuelve a d"
+        },
+        {
+          "en": "gel<b>b</b> [gɛlp] → gel<b>b</b>e [gɛlbə]",
+          "es": "b final → p"
+        },
+        {
+          "en": "lie<b>b</b> [liːp] → lie<b>b</b>e [liːbə]",
+          "es": "b final → p"
+        },
+        {
+          "en": "der Ber<b>g</b> [bɛʁk] → die Ber<b>g</b>e [bɛʁgə]",
+          "es": "g final → k"
+        },
+        {
+          "en": "<b>z</b> = [ts]: Zeit, Zimmer, zehn",
+          "es": "z = «ts»"
+        },
+        {
+          "en": "<b>v</b> = [f]: Vater, viel, vier",
+          "es": "v = «f» en alemán nativo"
+        },
+        {
+          "en": "<b>w</b> = [v]: Wasser, Wein, wir",
+          "es": "w = «v»"
+        },
+        {
+          "en": "<b>j</b> = [j]: ja, Jahr, jung",
+          "es": "j = «y» consonántica"
+        },
+        {
+          "en": "<b>s</b> inicial sonora [z]: Sonne, sagen, sieben",
+          "es": "s inicial suena como z inglesa"
+        },
+        {
+          "en": "<b>qu</b> = [kv]: Qualität, Quelle",
+          "es": "qu = «kv»"
+        },
+        {
+          "en": "<b>pf</b> = [pf]: Pferd, Apfel, Kopf",
+          "es": "p+f juntas"
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b18-s3q1",
           "question": "1. «Wien» (Viena) se pronuncia…",
-          "options": ["[vain]", "[viin]", "[ven]"],
+          "options": [
+            "[vain]",
+            "[viin]",
+            "[ven]"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b18-s3q2",
           "question": "2. La g final de «Tag» suena…",
-          "options": ["como g suave", "como k", "muda"],
+          "options": [
+            "como g suave",
+            "como k",
+            "muda"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b18-s3q3",
           "question": "3. «drei» se pronuncia…",
-          "options": ["[drai]", "[drii]", "[drei] tal cual"],
+          "options": [
+            "[drai]",
+            "[drii]",
+            "[drei] tal cual"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s3q4",
+          "question": "4. «mein» se pronuncia…",
+          "options": [
+            "[miin]",
+            "[main]",
+            "[men]"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s3q5",
+          "question": "5. «Liebe» se pronuncia…",
+          "options": [
+            "[laibe]",
+            "[liːbe]",
+            "[libe] corta"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s3q6",
+          "question": "6. «Haus» se pronuncia…",
+          "options": [
+            "[hoys]",
+            "[haus]",
+            "[hos]"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s3q7",
+          "question": "7. «heute» se pronuncia…",
+          "options": [
+            "[haute]",
+            "[hite]",
+            "[hɔytə]"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s3q8",
+          "question": "8. «Zeit» empieza con…",
+          "options": [
+            "s",
+            "ts",
+            "z española"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s3q9",
+          "question": "9. «Vater» empieza con…",
+          "options": [
+            "f",
+            "b",
+            "v"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s3q10",
+          "question": "10. «Wasser» empieza con…",
+          "options": [
+            "v",
+            "b",
+            "w inglesa"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s3q11",
+          "question": "11. «Tag» termina en…",
+          "options": [
+            "g",
+            "d",
+            "k"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s3q12",
+          "question": "12. «Hand» termina en…",
+          "options": [
+            "n",
+            "d",
+            "t"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s3q13",
+          "question": "13. «gelb» termina en…",
+          "options": [
+            "p",
+            "v",
+            "b"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s3q14",
+          "question": "14. «Berg» termina en…",
+          "options": [
+            "ch",
+            "g",
+            "k"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s3q15",
+          "question": "15. «ja» empieza con…",
+          "options": [
+            "y consonántica",
+            "j española",
+            "ch"
+          ],
           "correctIndex": 0
         }
       ],
@@ -176,29 +875,245 @@
         }
       ],
       "examples": [
-        { "en": "<b>ÁUF</b>stehen, <b>ÉIN</b>kaufen, <b>ÁN</b>rufen", "es": "separables: acento en el prefijo" },
-        { "en": "be<b>SÚ</b>chen, ver<b>STÉ</b>hen, er<b>KLÄ</b>ren", "es": "inseparables: acento en la raíz" },
-        { "en": "Informati<b>ÓN</b>, Universi<b>TÄT</b>", "es": "préstamos: acento al final" },
-        { "en": "stu<b>DÍE</b>ren, telefo<b>NÍE</b>ren", "es": "-ieren siempre acentuado" }
+        {
+          "en": "<b>ÁUF</b>stehen, <b>ÉIN</b>kaufen, <b>ÁN</b>rufen",
+          "es": "separables: acento en el prefijo"
+        },
+        {
+          "en": "be<b>SÚ</b>chen, ver<b>STÉ</b>hen, er<b>KLÄ</b>ren",
+          "es": "inseparables: acento en la raíz"
+        },
+        {
+          "en": "Informati<b>ÓN</b>, Universi<b>TÄT</b>",
+          "es": "préstamos: acento al final"
+        },
+        {
+          "en": "stu<b>DÍE</b>ren, telefo<b>NÍE</b>ren",
+          "es": "-ieren siempre acentuado"
+        },
+        {
+          "en": "<b>AR</b>beiten, <b>WOH</b>nung, <b>KOM</b>men",
+          "es": "acento en la 1ª sílaba de la raíz"
+        },
+        {
+          "en": "<b>AUS</b>steigen, <b>AB</b>fahren, <b>AN</b>kommen",
+          "es": "separables: acento en el prefijo"
+        },
+        {
+          "en": "<b>MIT</b>kommen, <b>ZURÜCK</b>kommen",
+          "es": "separables: acento en el prefijo"
+        },
+        {
+          "en": "<b>EIN</b>steigen, <b>EIN</b>laden",
+          "es": "separables: acento en el prefijo"
+        },
+        {
+          "en": "be<b>ZAH</b>len, ver<b>KAU</b>fen, ent<b>SCHEI</b>den",
+          "es": "inseparables: acento en la raíz"
+        },
+        {
+          "en": "ver<b>SÜ</b>chen, ge<b>WIN</b>nen, er<b>LAU</b>ben",
+          "es": "inseparables: acento en la raíz"
+        },
+        {
+          "en": "be<b>KOM</b>men, be<b>SU</b>chen",
+          "es": "inseparables: acento en la raíz"
+        },
+        {
+          "en": "Telefo<b>NIEREN</b>, stu<b>DIE</b>ren, ope<b>RIE</b>ren",
+          "es": "-ieren: acento en -ie-"
+        },
+        {
+          "en": "Informati<b>ON</b>, Nati<b>ON</b>, Situati<b>ON</b>",
+          "es": "-ion: acento en -ion"
+        },
+        {
+          "en": "Universi<b>TÄT</b>, Qualiti<b>TÄT</b>, Realiti<b>TÄT</b>",
+          "es": "-ität: acento en -tät"
+        },
+        {
+          "en": "Poli<b>ZEI</b>, Melo<b>DIE</b>, Bäcke<b>REI</b>",
+          "es": "-ei / -ie: acento en la última sílaba"
+        },
+        {
+          "en": "<b>UM</b>ziehen, <b>UM</b>steigen",
+          "es": "umziehen: acento en um-"
+        },
+        {
+          "en": "<b>ÜBER</b>setzen (pasar al otro lado) / über<b>SET</b>zen (traducir)",
+          "es": "el acento cambia el significado"
+        },
+        {
+          "en": "<b>UN</b>terlagen (documentos)",
+          "es": "acento en la 1ª sílaba"
+        },
+        {
+          "en": "<b>KAF</b>fee (norte) / Kaf<b>FEE</b> (sur, Austria)",
+          "es": "dos acentos posibles según la región"
+        },
+        {
+          "en": "Ge<b>SPRÄCH</b>, Ver<b>KÄU</b>fer, Be<b>WER</b>bung",
+          "es": "prefijo be-/ge-/ver- átono"
+        },
+        {
+          "en": "<b>ERS</b>te, <b>ZWEI</b>te, <b>DRIT</b>te",
+          "es": "ordinales: acento en la raíz"
+        },
+        {
+          "en": "Mu<b>SIK</b> (música), <b>MU</b>siker (músico)",
+          "es": "Musik: 2ª sílaba; Musiker: 1ª"
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b18-s4q1",
           "question": "1. ¿Dónde cae el acento en «aufstehen»?",
-          "options": ["auf-STE-hen", "AUF-stehen", "auf-ste-HEN"],
+          "options": [
+            "auf-STE-hen",
+            "AUF-stehen",
+            "auf-ste-HEN"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b18-s4q2",
           "question": "2. ¿Y en «verstehen»?",
-          "options": ["VER-stehen", "ver-STE-hen", "ver-ste-HEN"],
+          "options": [
+            "VER-stehen",
+            "ver-STE-hen",
+            "ver-ste-HEN"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b18-s4q3",
           "question": "3. «Universität» se acentúa…",
-          "options": ["U-ni-ver-si-TÄT", "u-ni-VER-si-tät", "U-ni-ver-SI-tät"],
+          "options": [
+            "U-ni-ver-si-TÄT",
+            "u-ni-VER-si-tät",
+            "U-ni-ver-SI-tät"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s4q4",
+          "question": "4. ¿Dónde cae el acento en «ankommen»?",
+          "options": [
+            "AN-kommen",
+            "an-KOM-men",
+            "an-kom-MEN"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s4q5",
+          "question": "5. ¿Dónde cae el acento en «bezahlen»?",
+          "options": [
+            "be-ZAH-len",
+            "be-zah-LEN",
+            "BE-zahlen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s4q6",
+          "question": "6. ¿Dónde cae el acento en «einsteigen»?",
+          "options": [
+            "EIN-steigen",
+            "ein-stei-GEN",
+            "ein-STEI-gen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s4q7",
+          "question": "7. ¿Dónde cae el acento en «verkaufen»?",
+          "options": [
+            "ver-kau-FEN",
+            "ver-KAU-fen",
+            "VER-kaufen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s4q8",
+          "question": "8. ¿Dónde cae el acento en «telefonieren»?",
+          "options": [
+            "te-le-FO-nieren",
+            "TE-le-fonieren",
+            "te-le-fo-NIE-ren"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s4q9",
+          "question": "9. ¿Dónde cae el acento en «Information»?",
+          "options": [
+            "In-for-ma-TION",
+            "IN-for-mation",
+            "in-FOR-ma-tion"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s4q10",
+          "question": "10. ¿Dónde cae el acento en «Universität»?",
+          "options": [
+            "U-ni-ver-si-TÄT",
+            "u-NI-ver-si-tät",
+            "U-ni-VER-si-tät"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b18-s4q11",
+          "question": "11. ¿Dónde cae el acento en «Polizei»?",
+          "options": [
+            "po-LI-zei",
+            "Po-li-ZEI",
+            "PO-li-zei"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s4q12",
+          "question": "12. ¿Dónde cae el acento en «arbeiten»?",
+          "options": [
+            "ar-BEI-ten",
+            "ar-bei-TEN",
+            "AR-bei-ten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b18-s4q13",
+          "question": "13. Los prefijos separables…",
+          "options": [
+            "son átonos",
+            "se acentúan",
+            "no existen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s4q14",
+          "question": "14. Los prefijos inseparables…",
+          "options": [
+            "se acentúan",
+            "son átonos",
+            "son opcionales"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b18-s4q15",
+          "question": "15. «-ieren» lleva el acento…",
+          "options": [
+            "en -ie-",
+            "en la 1ª sílaba",
+            "en -ren"
+          ],
           "correctIndex": 0
         }
       ],

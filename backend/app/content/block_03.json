@@ -4,11 +4,31 @@
   "kicker": "Bloque 03 · Base A2",
   "intro": "Segunda mitad del sistema de casos: el <b class=\"hl\">Dativo</b> (objeto indirecto, «a quién») y el <b class=\"hl\">Genitivo</b> (posesión, «de quién»). Con esto ya tienes el mapa completo de <b class=\"hl\">los 4 casos</b> — la tabla resumen vive en el Glosario.",
   "legend": [
-    { "label": "sujeto", "desc": "Nominativ", "role": "nom" },
-    { "label": "objeto directo", "desc": "Akkusativ", "role": "akk" },
-    { "label": "objeto indirecto", "desc": "Dativ, el destinatario", "role": "dat" },
-    { "label": "posesión", "desc": "Genitiv, «de quién»", "role": "gen" },
-    { "label": "verbo", "desc": "conjugado", "role": "verb" }
+    {
+      "label": "sujeto",
+      "desc": "Nominativ",
+      "role": "nom"
+    },
+    {
+      "label": "objeto directo",
+      "desc": "Akkusativ",
+      "role": "akk"
+    },
+    {
+      "label": "objeto indirecto",
+      "desc": "Dativ, el destinatario",
+      "role": "dat"
+    },
+    {
+      "label": "posesión",
+      "desc": "Genitiv, «de quién»",
+      "role": "gen"
+    },
+    {
+      "label": "verbo",
+      "desc": "conjugado",
+      "role": "verb"
+    }
   ],
   "sections": [
     {
@@ -29,18 +49,134 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gebe</span> <span class=\"r-dat\">dem Mann</span> <span class=\"r-akk\">das Buch</span>.", "es": "Le doy el libro al hombre." },
-        { "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">schenkt</span> <span class=\"r-dat\">der Lehrerin</span> <span class=\"r-akk\">Blumen</span>.", "es": "Ella le regala flores a la profesora." },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">erklärt</span> <span class=\"r-dat\">dem Kind</span> <span class=\"r-akk\">die Regel</span>.", "es": "Él le explica la regla al niño." },
-        { "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">zeigen</span> <span class=\"r-dat\">den Touristen</span> <span class=\"r-akk\">die Stadt</span>.", "es": "Les enseñamos la ciudad a los turistas. (plural: den + -n)" }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gebe</span> <span class=\"r-dat\">dem Mann</span> <span class=\"r-akk\">das Buch</span>.",
+          "es": "Le doy el libro al hombre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">schenkt</span> <span class=\"r-dat\">der Lehrerin</span> <span class=\"r-akk\">Blumen</span>.",
+          "es": "Ella le regala flores a la profesora."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">erklärt</span> <span class=\"r-dat\">dem Kind</span> <span class=\"r-akk\">die Regel</span>.",
+          "es": "Él le explica la regla al niño."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">zeigen</span> <span class=\"r-dat\">den Touristen</span> <span class=\"r-akk\">die Stadt</span>.",
+          "es": "Les enseñamos la ciudad a los turistas. (plural: den + -n)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gebe</span> <span class=\"r-dat\">der Frau</span> <span class=\"r-akk\">den Schlüssel</span>.",
+          "es": "Le doy la llave a la mujer."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">schickt</span> <span class=\"r-dat\">dem Chef</span> <span class=\"r-akk\">eine E-Mail</span>.",
+          "es": "Él le manda un correo al jefe."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">kauft</span> <span class=\"r-dat\">dem Kind</span> <span class=\"r-akk\">ein Eis</span>.",
+          "es": "Ella le compra un helado al niño."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">schenken</span> <span class=\"r-dat\">den Eltern</span> <span class=\"r-akk\">Blumen</span>.",
+          "es": "Regalamos flores a los padres."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Kellner</span> <span class=\"r-verb\">bringt</span> <span class=\"r-dat\">dem Gast</span> <span class=\"r-akk\">die Karte</span>.",
+          "es": "El camarero le trae la carta al huésped."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">zeige</span> <span class=\"r-dat\">dem Touristen</span> <span class=\"r-akk\">den Weg</span>.",
+          "es": "Le enseño el camino al turista."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Lehrerin</span> <span class=\"r-verb\">erklärt</span> <span class=\"r-dat\">den Schülern</span> <span class=\"r-akk\">die Grammatik</span>.",
+          "es": "La profesora explica la gramática a los alumnos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">erzählt</span> <span class=\"r-dat\">der Oma</span> <span class=\"r-akk\">eine Geschichte</span>.",
+          "es": "Él le cuenta una historia a la abuela."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">gibt</span> <span class=\"r-dat\">dem Hund</span> <span class=\"r-akk\">Wasser</span>.",
+          "es": "Ella le da agua al perro."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">leihen</span> <span class=\"r-dat\">dem Nachbarn</span> <span class=\"r-akk\">die Leiter</span>.",
+          "es": "Le prestamos la escalera al vecino."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">schreibe</span> <span class=\"r-dat\">meiner Freundin</span> <span class=\"r-akk\">einen Brief</span>.",
+          "es": "Le escribo una carta a mi amiga."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Vater</span> <span class=\"r-verb\">liest</span> <span class=\"r-dat\">den Kindern</span> <span class=\"r-akk\">ein Buch</span> vor.",
+          "es": "El padre les lee un libro a los niños."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">bringt</span> <span class=\"r-dat\">dem Mann</span> <span class=\"r-akk\">einen Kaffee</span>.",
+          "es": "Ella le trae un café al hombre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">geben</span> <span class=\"r-dat\">den Freunden</span> <span class=\"r-akk\">ein Geschenk</span>.",
+          "es": "Les damos un regalo a los amigos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">verkauft</span> <span class=\"r-dat\">dem Nachbarn</span> <span class=\"r-akk\">sein Auto</span>.",
+          "es": "Él le vende su coche al vecino."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">empfehle</span> <span class=\"r-dat\">meinem Bruder</span> <span class=\"r-akk\">das Restaurant</span>.",
+          "es": "Le recomiendo el restaurante a mi hermano."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Mutter</span> <span class=\"r-verb\">kocht</span> <span class=\"r-dat\">den Kindern</span> <span class=\"r-akk\">Suppe</span>.",
+          "es": "La madre les cocina sopa a los niños."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">zeigt</span> <span class=\"r-dat\">ihrem Mann</span> <span class=\"r-akk\">das Foto</span>.",
+          "es": "Ella le enseña la foto a su marido."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Arzt</span> <span class=\"r-verb\">gibt</span> <span class=\"r-dat\">dem Patienten</span> <span class=\"r-akk\">ein Rezept</span>.",
+          "es": "El médico le da una receta al paciente."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">bringe</span> <span class=\"r-dat\">der Oma</span> <span class=\"r-akk\">Blumen</span>.",
+          "es": "Le llevo flores a la abuela."
+        }
       ],
       "tables": [
         {
-          "headers": ["", "masculino", "femenino", "neutro", "plural"],
+          "headers": [
+            "",
+            "masculino",
+            "femenino",
+            "neutro",
+            "plural"
+          ],
           "rows": [
-            ["Nominativ", "der / ein", "die / eine", "das / ein", "die"],
-            ["Akkusativ", "den / einen", "die / eine", "das / ein", "die"],
-            ["Dativ", "<b>dem / einem</b>", "<b>der / einer</b>", "<b>dem / einem</b>", "<b>den + -n</b>"]
+            [
+              "Nominativ",
+              "der / ein",
+              "die / eine",
+              "das / ein",
+              "die"
+            ],
+            [
+              "Akkusativ",
+              "den / einen",
+              "die / eine",
+              "das / ein",
+              "die"
+            ],
+            [
+              "Dativ",
+              "<b>dem / einem</b>",
+              "<b>der / einer</b>",
+              "<b>dem / einem</b>",
+              "<b>den + -n</b>"
+            ]
           ]
         }
       ],
@@ -48,19 +184,151 @@
         {
           "id": "b03-s1q1",
           "question": "1. Ich gebe <span class=\"blank\">___</span> Frau die Schlüssel. (die Frau)",
-          "options": ["die", "der", "dem"],
+          "options": [
+            "die",
+            "der",
+            "dem"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b03-s1q2",
           "question": "2. Er zeigt <span class=\"blank\">___</span> Kindern den Garten.",
-          "options": ["die", "der", "den"],
+          "options": [
+            "die",
+            "der",
+            "den"
+          ],
           "correctIndex": 2
         },
         {
           "id": "b03-s1q3",
           "question": "3. En «Sie gibt dem Hund einen Ball», ¿qué es «einen Ball»?",
-          "options": ["Objeto indirecto (Dativ)", "Objeto directo (Akkusativ)", "Sujeto (Nominativ)"],
+          "options": [
+            "Objeto indirecto (Dativ)",
+            "Objeto directo (Akkusativ)",
+            "Sujeto (Nominativ)"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s1q4",
+          "question": "4. Ich gebe <span class=\"blank\">___</span> Kind einen Apfel. (das Kind)",
+          "options": [
+            "den",
+            "das",
+            "dem"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s1q5",
+          "question": "5. Sie schreibt <span class=\"blank\">___</span> Lehrerin einen Brief. (die)",
+          "options": [
+            "der",
+            "dem",
+            "die"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s1q6",
+          "question": "6. Er zeigt <span class=\"blank\">___</span> Freunden das Haus. (los)",
+          "options": [
+            "die",
+            "dem",
+            "den"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s1q7",
+          "question": "7. Wir schenken <span class=\"blank\">___</span> Oma Blumen. (la abuela)",
+          "options": [
+            "die",
+            "dem",
+            "der"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s1q8",
+          "question": "8. Ich erkläre <span class=\"blank\">___</span> Mann die Regel. (el hombre)",
+          "options": [
+            "den",
+            "der",
+            "dem"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s1q9",
+          "question": "9. Sie kauft <span class=\"blank\">___</span> Kindern Eis. (los niños)",
+          "options": [
+            "die",
+            "dem",
+            "den"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s1q10",
+          "question": "10. ¿Cuál es el Dativplural correcto de «die Freunde»?",
+          "options": [
+            "den Freunde",
+            "die Freunden",
+            "den Freunden"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s1q11",
+          "question": "11. «Le doy el libro a mi hermana.» → Ich gebe <span class=\"blank\">___</span> Schwester das Buch.",
+          "options": [
+            "meinem",
+            "meiner",
+            "meine"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s1q12",
+          "question": "12. Er bringt <span class=\"blank\">___</span> Gast das Essen. (el)",
+          "options": [
+            "den",
+            "der",
+            "dem"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s1q13",
+          "question": "13. En «Er schenkt der Frau Rosen», ¿qué es «der Frau»?",
+          "options": [
+            "Objeto indirecto (Dativ)",
+            "Objeto directo (Akkusativ)",
+            "Sujeto (Nominativ)"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s1q14",
+          "question": "14. Der Lehrer erklärt <span class=\"blank\">___</span> Schülerinnen die Regel. (las)",
+          "options": [
+            "den",
+            "der",
+            "die"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s1q15",
+          "question": "15. Ich verkaufe <span class=\"blank\">___</span> Nachbarn mein Fahrrad. (al)",
+          "options": [
+            "der",
+            "dem",
+            "den"
+          ],
           "correctIndex": 1
         }
       ],
@@ -83,16 +351,128 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-verb\">Kannst</span> du <span class=\"r-dat\">mir</span> <span class=\"r-verb\">helfen</span>?", "es": "¿Puedes ayudarme?" },
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">schreibe</span> <span class=\"r-dat\">ihr</span> <span class=\"r-akk\">eine E-Mail</span>.", "es": "Le escribo un correo (a ella)." },
-        { "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">gibt</span> <span class=\"r-akk\">es</span> <span class=\"r-dat\">mir</span>.", "es": "Él me lo da. (Akk pronombre → va primero)" },
-        { "en": "Wie <span class=\"r-verb\">geht</span> es <span class=\"r-dat\">Ihnen</span>?", "es": "¿Cómo está usted? (literalmente: ¿cómo le va a usted?)" }
+        {
+          "en": "<span class=\"r-verb\">Kannst</span> du <span class=\"r-dat\">mir</span> <span class=\"r-verb\">helfen</span>?",
+          "es": "¿Puedes ayudarme?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">schreibe</span> <span class=\"r-dat\">ihr</span> <span class=\"r-akk\">eine E-Mail</span>.",
+          "es": "Le escribo un correo (a ella)."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">gibt</span> <span class=\"r-akk\">es</span> <span class=\"r-dat\">mir</span>.",
+          "es": "Él me lo da. (Akk pronombre → va primero)"
+        },
+        {
+          "en": "Wie <span class=\"r-verb\">geht</span> es <span class=\"r-dat\">Ihnen</span>?",
+          "es": "¿Cómo está usted? (literalmente: ¿cómo le va a usted?)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gebe</span> <span class=\"r-dat\">dir</span> <span class=\"r-akk\">das Buch</span>.",
+          "es": "Te doy el libro."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">zeigt</span> <span class=\"r-dat\">uns</span> <span class=\"r-akk\">die Fotos</span>.",
+          "es": "Ella nos enseña las fotos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">schenkt</span> <span class=\"r-dat\">ihr</span> <span class=\"r-akk\">eine Kette</span>.",
+          "es": "Él le regala un collar (a ella)."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gebe</span> <span class=\"r-akk\">es</span> <span class=\"r-dat\">dir</span>.",
+          "es": "Te lo doy. (pronombre Akk primero)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">zeigt</span> <span class=\"r-akk\">ihn</span> <span class=\"r-dat\">mir</span>.",
+          "es": "Ella me lo enseña. (ihn = der Ring)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">schicken</span> <span class=\"r-akk\">sie</span> <span class=\"r-dat\">euch</span>.",
+          "es": "Os la mandamos."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">erklärt</span> <span class=\"r-dat\">mir</span> <span class=\"r-akk\">die Regel</span>.",
+          "es": "Él me explica la regla. (Dativ-pronombre antes que sustantivo Akk)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">kaufe</span> <span class=\"r-dat\">ihm</span> <span class=\"r-akk\">ein Geschenk</span>.",
+          "es": "Le compro un regalo (a él)."
+        },
+        {
+          "en": "<span class=\"r-verb\">Kannst</span> du <span class=\"r-akk\">es</span> <span class=\"r-dat\">mir</span> <span class=\"r-verb\">erklären</span>?",
+          "es": "¿Puedes explicármelo?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">antwortet</span> <span class=\"r-dat\">ihm</span> nicht.",
+          "es": "Ella no le contesta."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">schenke</span> <span class=\"r-dat\">ihnen</span> <span class=\"r-akk\">ein Buch</span>.",
+          "es": "Les regalo un libro (a ellos)."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Chef</span> <span class=\"r-verb\">gibt</span> <span class=\"r-dat\">uns</span> frei.",
+          "es": "El jefe nos da el día libre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">bringt</span> <span class=\"r-akk\">ihn</span> <span class=\"r-dat\">ihr</span>.",
+          "es": "Él se lo trae a ella. (ihn = der Kaffee)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">leihen</span> <span class=\"r-dat\">dir</span> <span class=\"r-akk\">das Auto</span>.",
+          "es": "Te prestamos el coche."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">erzähle</span> <span class=\"r-dat\">Ihnen</span> <span class=\"r-akk\">die Geschichte</span>.",
+          "es": "Le cuento la historia (a usted)."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">schreibt</span> <span class=\"r-dat\">mir</span> jeden Tag.",
+          "es": "Ella me escribe todos los días."
+        },
+        {
+          "en": "<span class=\"r-verb\">Gefällt</span> <span class=\"r-dat\">dir</span> das Buch?",
+          "es": "¿Te gusta el libro?"
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">hilft</span> <span class=\"r-dat\">uns</span> beim Umzug.",
+          "es": "Él nos ayuda con la mudanza."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">gebe</span> <span class=\"r-akk\">sie</span> <span class=\"r-dat\">ihm</span>.",
+          "es": "Se la doy a él. (sie = die Tasche)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">danken</span> <span class=\"r-dat\">euch</span>.",
+          "es": "Os damos las gracias."
+        }
       ],
       "tables": [
         {
-          "headers": ["Nominativ", "ich", "du", "er", "sie", "es", "wir", "ihr", "sie/Sie"],
+          "headers": [
+            "Nominativ",
+            "ich",
+            "du",
+            "er",
+            "sie",
+            "es",
+            "wir",
+            "ihr",
+            "sie/Sie"
+          ],
           "rows": [
-            ["Dativ", "<b>mir</b>", "<b>dir</b>", "<b>ihm</b>", "<b>ihr</b>", "<b>ihm</b>", "<b>uns</b>", "<b>euch</b>", "<b>ihnen/Ihnen</b>"]
+            [
+              "Dativ",
+              "<b>mir</b>",
+              "<b>dir</b>",
+              "<b>ihm</b>",
+              "<b>ihr</b>",
+              "<b>ihm</b>",
+              "<b>uns</b>",
+              "<b>euch</b>",
+              "<b>ihnen/Ihnen</b>"
+            ]
           ]
         }
       ],
@@ -100,20 +480,152 @@
         {
           "id": "b03-s2q1",
           "question": "1. «¿Me ayudas?» → Hilfst du <span class=\"blank\">___</span>?",
-          "options": ["mich", "mir", "ich"],
+          "options": [
+            "mich",
+            "mir",
+            "ich"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b03-s2q2",
           "question": "2. «Se lo doy (el libro, a él).» ¿Cuál es el orden correcto?",
-          "options": ["Ich gebe ihm es.", "Ich gebe es ihm.", "Ich es ihm gebe."],
+          "options": [
+            "Ich gebe ihm es.",
+            "Ich gebe es ihm.",
+            "Ich es ihm gebe."
+          ],
           "correctIndex": 1
         },
         {
           "id": "b03-s2q3",
           "question": "3. Le escribo a ella: Ich schreibe <span class=\"blank\">___</span> morgen.",
-          "options": ["sie", "ihr", "ihm"],
+          "options": [
+            "sie",
+            "ihr",
+            "ihm"
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b03-s2q4",
+          "question": "4. Ich gebe <span class=\"blank\">___</span> das Buch. (a ti)",
+          "options": [
+            "dir",
+            "dich",
+            "du"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s2q5",
+          "question": "5. Sie zeigt <span class=\"blank\">___</span> die Stadt. (a nosotros)",
+          "options": [
+            "unser",
+            "uns",
+            "wir"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s2q6",
+          "question": "6. Er hilft <span class=\"blank\">___</span>. (a mí)",
+          "options": [
+            "ich",
+            "mir",
+            "mich"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s2q7",
+          "question": "7. Ich schenke <span class=\"blank\">___</span> Blumen. (a ella)",
+          "options": [
+            "ihr",
+            "sie",
+            "ihm"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s2q8",
+          "question": "8. «Se lo doy a ella» (das Buch → es) → Ich gebe <span class=\"blank\">___</span> <span class=\"blank\">___</span>.",
+          "options": [
+            "es ihr",
+            "ihr es",
+            "ihr sie"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s2q9",
+          "question": "9. ¿Cuál es el orden correcto?",
+          "options": [
+            "Ich gebe es dir.",
+            "Ich es dir gebe.",
+            "Ich gebe dir es."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s2q10",
+          "question": "10. Wir schicken <span class=\"blank\">___</span> eine E-Mail. (a ellos)",
+          "options": [
+            "ihn",
+            "sie",
+            "ihnen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s2q11",
+          "question": "11. «Le agradezco» (a usted) → Ich danke <span class=\"blank\">___</span>.",
+          "options": [
+            "Ihr",
+            "Ihnen",
+            "Sie"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s2q12",
+          "question": "12. Ich kaufe <span class=\"blank\">___</span> ein Auto. (a vosotros)",
+          "options": [
+            "ihr",
+            "euch",
+            "eure"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s2q13",
+          "question": "13. Dativ von «er»",
+          "options": [
+            "ihm",
+            "ihr",
+            "ihn"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s2q14",
+          "question": "14. Dativ von «wir»",
+          "options": [
+            "unser",
+            "uns",
+            "wir"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s2q15",
+          "question": "15. ¿Cuál es correcta?",
+          "options": [
+            "Der Chef gibt ihn die Schlüssel.",
+            "Der Chef gibt er die Schlüssel.",
+            "Der Chef gibt ihm die Schlüssel."
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -140,31 +652,258 @@
         }
       ],
       "examples": [
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">helfe</span> <span class=\"r-dat\">meiner Schwester</span>.", "es": "Ayudo a mi hermana. (¡no Akkusativ!)" },
-        { "en": "<span class=\"r-nom\">Das Auto</span> <span class=\"r-verb\">gehört</span> <span class=\"r-dat\">meinem Vater</span>.", "es": "El coche pertenece a mi padre." },
-        { "en": "<span class=\"r-nom\">Berlin</span> <span class=\"r-verb\">gefällt</span> <span class=\"r-dat\">mir</span> sehr.", "es": "Berlín me gusta mucho." },
-        { "en": "<span class=\"r-nom\">Die Suppe</span> <span class=\"r-verb\">schmeckt</span> <span class=\"r-dat\">dem Gast</span>.", "es": "La sopa le sabe bien al huésped." },
-        { "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">danke</span> <span class=\"r-dat\">Ihnen</span> für die Hilfe.", "es": "Le agradezco (a usted) la ayuda." }
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">helfe</span> <span class=\"r-dat\">meiner Schwester</span>.",
+          "es": "Ayudo a mi hermana. (¡no Akkusativ!)"
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Auto</span> <span class=\"r-verb\">gehört</span> <span class=\"r-dat\">meinem Vater</span>.",
+          "es": "El coche pertenece a mi padre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Berlin</span> <span class=\"r-verb\">gefällt</span> <span class=\"r-dat\">mir</span> sehr.",
+          "es": "Berlín me gusta mucho."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Suppe</span> <span class=\"r-verb\">schmeckt</span> <span class=\"r-dat\">dem Gast</span>.",
+          "es": "La sopa le sabe bien al huésped."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">danke</span> <span class=\"r-dat\">Ihnen</span> für die Hilfe.",
+          "es": "Le agradezco (a usted) la ayuda."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Film</span> <span class=\"r-verb\">gefällt</span> <span class=\"r-dat\">meinem Bruder</span>.",
+          "es": "A mi hermano le gusta la película."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">antworte</span> <span class=\"r-dat\">dem Lehrer</span>.",
+          "es": "Respondo al profesor."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Fahrrad</span> <span class=\"r-verb\">gehört</span> <span class=\"r-dat\">meiner Schwester</span>.",
+          "es": "La bici pertenece a mi hermana."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Pullover</span> <span class=\"r-verb\">passt</span> <span class=\"r-dat\">dir</span> gut.",
+          "es": "El jersey te queda bien."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Essen</span> <span class=\"r-verb\">schmeckt</span> <span class=\"r-dat\">uns</span>.",
+          "es": "La comida nos sabe bien."
+        },
+        {
+          "en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">danken</span> <span class=\"r-dat\">unserer Lehrerin</span>.",
+          "es": "Damos las gracias a nuestra profesora."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">glaube</span> <span class=\"r-dat\">dir</span>.",
+          "es": "Te creo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Hund</span> <span class=\"r-verb\">folgt</span> <span class=\"r-dat\">dem Kind</span>.",
+          "es": "El perro sigue al niño."
+        },
+        {
+          "en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">hilft</span> <span class=\"r-dat\">ihrer Mutter</span>.",
+          "es": "Ella ayuda a su madre."
+        },
+        {
+          "en": "<span class=\"r-nom\">Das Buch</span> <span class=\"r-verb\">gehört</span> <span class=\"r-dat\">mir</span>.",
+          "es": "El libro es mío."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Farbe</span> <span class=\"r-verb\">steht</span> <span class=\"r-dat\">dir</span> gut.",
+          "es": "El color te sienta bien."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">vertraue</span> <span class=\"r-dat\">meinem Freund</span>.",
+          "es": "Confío en mi amigo."
+        },
+        {
+          "en": "<span class=\"r-nom\">Er</span> <span class=\"r-verb\">begegnet</span> <span class=\"r-dat\">einem alten Bekannten</span>.",
+          "es": "Él se encuentra con un viejo conocido."
+        },
+        {
+          "en": "<span class=\"r-nom\">Die Musik</span> <span class=\"r-verb\">gefällt</span> <span class=\"r-dat\">den Gästen</span>.",
+          "es": "La música les gusta a los invitados."
+        },
+        {
+          "en": "<span class=\"r-nom\">Es</span> <span class=\"r-verb\">tut</span> <span class=\"r-dat\">mir</span> leid.",
+          "es": "Lo siento."
+        },
+        {
+          "en": "<span class=\"r-dat\">Mir</span> <span class=\"r-verb\">ist</span> kalt.",
+          "es": "Tengo frío."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Kuchen</span> <span class=\"r-verb\">schmeckt</span> <span class=\"r-dat\">den Kindern</span>.",
+          "es": "El pastel les sabe bien a los niños."
+        },
+        {
+          "en": "<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">widerspreche</span> <span class=\"r-dat\">dem Chef</span>.",
+          "es": "Contradigo al jefe."
+        },
+        {
+          "en": "<span class=\"r-nom\">Der Rock</span> <span class=\"r-verb\">passt</span> <span class=\"r-dat\">ihr</span> nicht.",
+          "es": "La falda no le queda bien."
+        },
+        {
+          "en": "<span class=\"r-dat\">Wem</span> <span class=\"r-verb\">gehört</span> <span class=\"r-nom\">das Handy</span>?",
+          "es": "¿De quién es el móvil?"
+        }
       ],
       "tables": [],
       "quiz": [
         {
           "id": "b03-s3q1",
           "question": "1. Ich helfe <span class=\"blank\">___</span> Mann.",
-          "options": ["den", "dem", "der"],
+          "options": [
+            "den",
+            "dem",
+            "der"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b03-s3q2",
           "question": "2. «Esta chaqueta te queda bien.» → Die Jacke passt <span class=\"blank\">___</span> gut.",
-          "options": ["dich", "dir", "du"],
+          "options": [
+            "dich",
+            "dir",
+            "du"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b03-s3q3",
           "question": "3. ¿Cuál es correcta?",
-          "options": ["Der Film gefällt mich.", "Der Film gefällt mir.", "Ich gefalle den Film."],
+          "options": [
+            "Der Film gefällt mich.",
+            "Der Film gefällt mir.",
+            "Ich gefalle den Film."
+          ],
           "correctIndex": 1
+        },
+        {
+          "id": "b03-s3q4",
+          "question": "4. Ich helfe <span class=\"blank\">___</span> Freundin. (mi)",
+          "options": [
+            "meinen",
+            "meine",
+            "meiner"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s3q5",
+          "question": "5. Das Handy gehört <span class=\"blank\">___</span>. (a él)",
+          "options": [
+            "er",
+            "ihm",
+            "ihn"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s3q6",
+          "question": "6. Der Film gefällt <span class=\"blank\">___</span>. (a ella)",
+          "options": [
+            "sie",
+            "ihr",
+            "ihre"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s3q7",
+          "question": "7. «Te creo.» → Ich glaube <span class=\"blank\">___</span>.",
+          "options": [
+            "dir",
+            "du",
+            "dich"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s3q8",
+          "question": "8. Wir danken <span class=\"blank\">___</span> Eltern. (los)",
+          "options": [
+            "den",
+            "dem",
+            "die"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s3q9",
+          "question": "9. ¿Cuál es correcta?",
+          "options": [
+            "Ich antworte dem Lehrer.",
+            "Ich antworte den Lehrer.",
+            "Ich antworte der Lehrer."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s3q10",
+          "question": "10. Das Hemd passt <span class=\"blank\">___</span> gut. (a mí)",
+          "options": [
+            "mich",
+            "mir",
+            "ich"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s3q11",
+          "question": "11. Wem <span class=\"blank\">___</span> das Auto? (pertenece)",
+          "options": [
+            "gehörst",
+            "gehören",
+            "gehört"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s3q12",
+          "question": "12. Die Suppe schmeckt <span class=\"blank\">___</span>. (a nosotros)",
+          "options": [
+            "unser",
+            "uns",
+            "wir"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s3q13",
+          "question": "13. Sie folgt <span class=\"blank\">___</span> Hund. (el perro, der Hund)",
+          "options": [
+            "der",
+            "dem",
+            "den"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s3q14",
+          "question": "14. «Confío en ti.» → Ich vertraue <span class=\"blank\">___</span>.",
+          "options": [
+            "dein",
+            "dir",
+            "dich"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s3q15",
+          "question": "15. Er hilft <span class=\"blank\">___</span> Nachbarin. (la)",
+          "options": [
+            "der",
+            "dem",
+            "die"
+          ],
+          "correctIndex": 0
         }
       ],
       "produce": {
@@ -191,17 +930,124 @@
         }
       ],
       "examples": [
-        { "en": "Das ist das Auto <span class=\"r-gen\">des Mannes</span>.", "es": "Ese es el coche del hombre." },
-        { "en": "Die Farbe <span class=\"r-gen\">der Wände</span> gefällt mir.", "es": "El color de las paredes me gusta." },
-        { "en": "Der Titel <span class=\"r-gen\">des Buches</span> ist lang.", "es": "El título del libro es largo." },
-        { "en": "Wegen <span class=\"r-gen\">des Regens</span> bleiben wir zu Hause.", "es": "Por la lluvia nos quedamos en casa." },
-        { "en": "Das ist das Auto <span class=\"r-dat\">von meinem Vater</span>.", "es": "Es el coche de mi padre. (alternativa coloquial: von + Dativ)" }
+        {
+          "en": "Das ist das Auto <span class=\"r-gen\">des Mannes</span>.",
+          "es": "Ese es el coche del hombre."
+        },
+        {
+          "en": "Die Farbe <span class=\"r-gen\">der Wände</span> gefällt mir.",
+          "es": "El color de las paredes me gusta."
+        },
+        {
+          "en": "Der Titel <span class=\"r-gen\">des Buches</span> ist lang.",
+          "es": "El título del libro es largo."
+        },
+        {
+          "en": "Wegen <span class=\"r-gen\">des Regens</span> bleiben wir zu Hause.",
+          "es": "Por la lluvia nos quedamos en casa."
+        },
+        {
+          "en": "Das ist das Auto <span class=\"r-dat\">von meinem Vater</span>.",
+          "es": "Es el coche de mi padre. (alternativa coloquial: von + Dativ)"
+        },
+        {
+          "en": "Das ist das Haus <span class=\"r-gen\">meines Onkels</span>.",
+          "es": "Es la casa de mi tío."
+        },
+        {
+          "en": "Die Tür <span class=\"r-gen\">des Autos</span> ist kaputt.",
+          "es": "La puerta del coche está rota."
+        },
+        {
+          "en": "Das Ende <span class=\"r-gen\">des Films</span> war traurig.",
+          "es": "El final de la película fue triste."
+        },
+        {
+          "en": "Der Preis <span class=\"r-gen\">der Reise</span> ist hoch.",
+          "es": "El precio del viaje es alto."
+        },
+        {
+          "en": "Die Eltern <span class=\"r-gen\">der Kinder</span> sind nett.",
+          "es": "Los padres de los niños son simpáticos."
+        },
+        {
+          "en": "Trotz <span class=\"r-gen\">des Regens</span> gehen wir spazieren.",
+          "es": "A pesar de la lluvia vamos a pasear."
+        },
+        {
+          "en": "Während <span class=\"r-gen\">der Woche</span> arbeite ich viel.",
+          "es": "Durante la semana trabajo mucho."
+        },
+        {
+          "en": "Wegen <span class=\"r-gen\">des Verkehrs</span> komme ich zu spät.",
+          "es": "Por el tráfico llego tarde."
+        },
+        {
+          "en": "Das ist die Tasche <span class=\"r-gen\">meiner Schwester</span>.",
+          "es": "Es el bolso de mi hermana."
+        },
+        {
+          "en": "Der Name <span class=\"r-gen\">der Firma</span> ist bekannt.",
+          "es": "El nombre de la empresa es conocido."
+        },
+        {
+          "en": "Am Anfang <span class=\"r-gen\">des Jahres</span> ist es kalt.",
+          "es": "Al principio del año hace frío."
+        },
+        {
+          "en": "Die Farbe <span class=\"r-gen\">des Hauses</span> ist gelb.",
+          "es": "El color de la casa es amarillo."
+        },
+        {
+          "en": "Das Zimmer <span class=\"r-gen\">meines Bruders</span> ist klein.",
+          "es": "La habitación de mi hermano es pequeña."
+        },
+        {
+          "en": "Wegen <span class=\"r-gen\">der Krankheit</span> bleibt er zu Hause.",
+          "es": "Por la enfermedad se queda en casa."
+        },
+        {
+          "en": "Die Größe <span class=\"r-gen\">der Stadt</span> überrascht mich.",
+          "es": "El tamaño de la ciudad me sorprende."
+        },
+        {
+          "en": "Das ist die Meinung <span class=\"r-gen\">des Chefs</span>.",
+          "es": "Es la opinión del jefe."
+        },
+        {
+          "en": "Trotz <span class=\"r-gen\">der Kälte</span> trägt er kurze Hosen.",
+          "es": "A pesar del frío lleva pantalones cortos."
+        },
+        {
+          "en": "Während <span class=\"r-gen\">des Films</span> isst er Popcorn.",
+          "es": "Durante la película come palomitas."
+        },
+        {
+          "en": "Das ist das Fahrrad <span class=\"r-gen\">des Mädchens</span>.",
+          "es": "Es la bici de la niña."
+        },
+        {
+          "en": "Das Auto <span class=\"r-dat\">von meiner Mutter</span> ist rot.",
+          "es": "El coche de mi madre es rojo. (coloquial: von + Dativ)"
+        }
       ],
       "tables": [
         {
-          "headers": ["", "masculino", "femenino", "neutro", "plural"],
+          "headers": [
+            "",
+            "masculino",
+            "femenino",
+            "neutro",
+            "plural"
+          ],
           "rows": [
-            ["Genitiv", "<b>des Mannes</b> / eines Mannes", "<b>der Frau</b> / einer Frau", "<b>des Kindes</b> / eines Kindes", "<b>der Kinder</b>"]
+            [
+              "Genitiv",
+              "<b>des Mannes</b> / eines Mannes",
+              "<b>der Frau</b> / einer Frau",
+              "<b>des Kindes</b> / eines Kindes",
+              "<b>der Kinder</b>"
+            ]
           ]
         }
       ],
@@ -209,20 +1055,152 @@
         {
           "id": "b03-s4q1",
           "question": "1. Der Name <span class=\"blank\">___</span> Hotels ist «Zur Post». (das Hotel)",
-          "options": ["dem", "des", "der"],
+          "options": [
+            "dem",
+            "des",
+            "der"
+          ],
           "correctIndex": 1
         },
         {
           "id": "b03-s4q2",
           "question": "2. «A pesar del tiempo» (formal, escrito) → trotz <span class=\"blank\">___</span> Wetters",
-          "options": ["dem", "das", "des"],
+          "options": [
+            "dem",
+            "das",
+            "des"
+          ],
           "correctIndex": 2
         },
         {
           "id": "b03-s4q3",
           "question": "3. ¿Cuál es la versión coloquial de «das Haus meiner Eltern»?",
-          "options": ["das Haus von meinen Eltern", "das Haus von meine Eltern", "das Haus meinen Eltern"],
+          "options": [
+            "das Haus von meinen Eltern",
+            "das Haus von meine Eltern",
+            "das Haus meinen Eltern"
+          ],
           "correctIndex": 0
+        },
+        {
+          "id": "b03-s4q4",
+          "question": "4. Das Haus <span class=\"blank\">___</span> Lehrers ist groß. (del)",
+          "options": [
+            "dem",
+            "des",
+            "der"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s4q5",
+          "question": "5. Die Tasche <span class=\"blank\">___</span> Frau ist rot. (de la)",
+          "options": [
+            "des",
+            "die",
+            "der"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s4q6",
+          "question": "6. Wegen <span class=\"blank\">___</span> Wetters bleiben wir hier. (del)",
+          "options": [
+            "das",
+            "des",
+            "dem"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s4q7",
+          "question": "7. Trotz <span class=\"blank\">___</span> Krankheit arbeitet er. (de la)",
+          "options": [
+            "dem",
+            "der",
+            "die"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s4q8",
+          "question": "8. Der Name <span class=\"blank\">___</span> Kindes ist Paul. (del niño)",
+          "options": [
+            "dem",
+            "des",
+            "das"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b03-s4q9",
+          "question": "9. Das Auto <span class=\"blank\">___</span> Eltern ist alt. (de los)",
+          "options": [
+            "die",
+            "den",
+            "der"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s4q10",
+          "question": "10. Während <span class=\"blank\">___</span> Urlaubs lese ich viel. (del)",
+          "options": [
+            "des",
+            "dem",
+            "den"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s4q11",
+          "question": "11. ¿Qué preposición rige Genitivo?",
+          "options": [
+            "mit",
+            "für",
+            "wegen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b03-s4q12",
+          "question": "12. ¿Cuál es correcta?",
+          "options": [
+            "das Buch des Lehrers",
+            "das Buch der Lehrer",
+            "das Buch dem Lehrer"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s4q13",
+          "question": "13. Genitiv de «der Mann»",
+          "options": [
+            "des Mannes",
+            "den Mann",
+            "dem Mann"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s4q14",
+          "question": "14. Das Zimmer <span class=\"blank\">___</span> Schwester ist groß. (de mi)",
+          "options": [
+            "meiner",
+            "meines",
+            "meine"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b03-s4q15",
+          "question": "15. Der Titel <span class=\"blank\">___</span> Buches ist lang. (del)",
+          "options": [
+            "dem",
+            "das",
+            "des"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
