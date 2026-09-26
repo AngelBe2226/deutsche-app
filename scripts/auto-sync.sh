@@ -21,6 +21,11 @@ LABEL="com.angelbe.german-index"          # el servicio que sirve la app (:8002)
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO_DIR" || exit 1
 
+# launchd arranca con un PATH mínimo que NO incluye Homebrew, donde viven
+# node/npm. Sin esto, el build del frontend falla con "npm: command not found".
+# Cubre Apple Silicon (/opt/homebrew) e Intel (/usr/local).
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
 log() { echo "$(date '+%F %T') [auto-sync] $1"; }
 
 # No tocar nada si hay un rebase/merge a medio resolver de un ciclo anterior.

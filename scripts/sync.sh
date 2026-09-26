@@ -16,6 +16,10 @@ LABEL="com.angelbe.german-index"
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO"
 
+# Asegura node/npm de Homebrew en el PATH (por si se corre fuera de una shell
+# interactiva). Cubre Apple Silicon (/opt/homebrew) e Intel (/usr/local).
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
 say() { printf '\033[1;34m▸ %s\033[0m\n' "$*"; }
 
 say "Sincronizando $REPO"
