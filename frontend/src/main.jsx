@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import { ProgressProvider } from "./progress.jsx";
 import "./styles/tokens.css";
 import "./styles/app.css";
+import "./styles/roadmap.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
