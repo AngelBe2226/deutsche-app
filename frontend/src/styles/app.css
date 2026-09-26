@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 html,
-body {
+body,
+#root {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 body {
   background: var(--bg);
@@ -27,15 +29,14 @@ body {
 .layout {
   display: grid;
   grid-template-columns: 300px 1fr;
-  min-height: 100vh;
+  height: 100%;
+  overflow: hidden;
 }
 
 .sidebar {
-  position: sticky;
-  top: 0;
-  align-self: start;
-  height: 100vh;
+  height: 100%;
   overflow-y: auto;
+  overscroll-behavior: contain;
   background: var(--surface);
   border-right: 1px solid var(--line);
   padding: 1.25rem 0.9rem;
@@ -214,6 +215,9 @@ body {
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
+  height: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 /* ---------- block header ---------- */
@@ -832,6 +836,12 @@ b.hl,
   }
   .content {
     padding: 1.5rem 1.2rem 4rem;
+    height: auto;
+    overflow-y: visible;
+  }
+  .layout {
+    height: auto;
+    overflow: visible;
   }
   .stat-bar {
     grid-template-columns: 1fr 80px auto;

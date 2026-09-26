@@ -63,6 +63,34 @@ export default function Sidebar({ index, current, onSelectBlock, onGoToSection }
         Destacados
       </button>
 
+      <button
+        className={"nav-pin" + (current === "roadmap" ? " current" : "")}
+        onClick={() => onSelectBlock("roadmap")}
+      >
+        <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">
+          <path
+            d="M4 6h10M4 12h16M4 18h7"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            strokeLinecap="round"
+          />
+          <circle
+            cx="18.5" cy="6" r="2"
+            fill={current === "roadmap" ? "currentColor" : "none"}
+            stroke="currentColor"
+            strokeWidth="1.6"
+          />
+          <circle
+            cx="13.5" cy="18" r="2"
+            fill={current === "roadmap" ? "currentColor" : "none"}
+            stroke="currentColor"
+            strokeWidth="1.6"
+          />
+        </svg>
+        Ruta A1–C2
+      </button>
+
       <nav className="toc">
       {index.map((b) => {
         const open = expanded === b.block;

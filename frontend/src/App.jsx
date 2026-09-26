@@ -5,9 +5,12 @@ import Sidebar from "./components/Sidebar";
 import BlockPage from "./components/BlockPage";
 import PracticePage from "./panels/PracticePage";
 import HighlightsPanel from "./panels/HighlightsPanel";
+import RoadmapPanel from "./panels/RoadmapPanel";
 
 // Bloque que funciona como panel de práctica (widgets en vivo, no contenido).
 const PRACTICE_BLOCK = "20";
+// Vistas que no son bloques de contenido (no se piden al backend).
+const PANELS = new Set(["highlights", "roadmap"]);
 
 function scrollToSection(idx) {
   const el = document.getElementById("sec-" + idx.replace(/\./g, "-"));
@@ -21,16 +24,19 @@ export default function App() {
   const [block, setBlock] = useState(null);
   const [loadingBlock, setLoadingBlock] = useState(true);
   const pendingSection = useRef(null);
+  const contentRef = useRef(null);
+
+  const scrollContentTop = () => contentRef.current?.scrollTo({ top: 0 });
 
   useEffect(() => {
     api.listBlocks().then(setIndex).catch(() => setIndex([]));
   }, []);
 
   useEffect(() => {
-    if (current === "highlights") {
+    if (PANELS.has(current)) {
       setBlock(null);
       setLoadingBlock(false);
-      window.scrollTo({ top: 0, behavior: "instant" });
+      requestAnimationFrame(scrollContentTop);
       return;
     }
     setLoadingBlock(true);
@@ -44,7 +50,7 @@ export default function App() {
             scrollToSection(pendingSection.current);
             pendingSection.current = null;
           } else {
-            window.scrollTo({ top: 0, behavior: "instant" });
+            scrollContentTop();
           }
         });
       })
@@ -83,9 +89,11 @@ export default function App() {
         />
       </aside>
 
-      <main className="content">
+      <main className="content" ref={contentRef}>
         {!loaded || loadingBlock ? (
           <p className="muted center">Cargando…</p>
+        ) : current === "roadmap" ? (
+          <RoadmapPanel />
         ) : current === "highlights" ? (
           <HighlightsPanel index={index} onGoToSection={goToSection} />
         ) : !block ? (
