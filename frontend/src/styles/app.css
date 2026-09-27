@@ -376,6 +376,7 @@ kbd {
   position: relative;
   height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
   overscroll-behavior: contain;
   scroll-padding-top: 72px;
 }
@@ -1930,8 +1931,8 @@ b.hl,
     padding: 1.2rem 1.1rem 1.25rem;
     border-radius: var(--r-lg);
   }
-  .section-head {
-    flex-wrap: wrap;
+  .section-head h3 {
+    font-size: 1.1rem;
   }
   .stat-progress {
     grid-column: 1 / -1;
