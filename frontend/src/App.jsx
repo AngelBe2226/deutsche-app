@@ -5,12 +5,11 @@ import Sidebar from "./components/Sidebar";
 import BlockPage from "./components/BlockPage";
 import PracticePage from "./panels/PracticePage";
 import HighlightsPanel from "./panels/HighlightsPanel";
-import RoadmapPanel from "./panels/RoadmapPanel";
 
 // Bloque que funciona como panel de práctica (widgets en vivo, no contenido).
 const PRACTICE_BLOCK = "20";
 // Vistas que no son bloques de contenido (no se piden al backend).
-const PANELS = new Set(["highlights", "roadmap"]);
+const PANELS = new Set(["highlights"]);
 
 function scrollToSection(idx) {
   const el = document.getElementById("sec-" + idx.replace(/\./g, "-"));
@@ -92,8 +91,6 @@ export default function App() {
       <main className="content" ref={contentRef}>
         {!loaded || loadingBlock ? (
           <p className="muted center">Cargando…</p>
-        ) : current === "roadmap" ? (
-          <RoadmapPanel />
         ) : current === "highlights" ? (
           <HighlightsPanel index={index} onGoToSection={goToSection} />
         ) : !block ? (

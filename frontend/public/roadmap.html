@@ -1,0 +1,520 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Ruta del Método Alemán</title>
+<style id="css">
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap");
+
+:root{
+  --bg:#faf8f3; --surface:#fffdf9; --surface-2:#f3efe6;
+  --ink:#211d16; --muted:#756d5e; --faint:#9a9687;
+  --line:#e7e0d2; --line-strong:#d8cfba;
+  --accent:#a9761a; --accent-ink:#7d560e; --accent-soft:#f4e8cd;
+  --done:#2f7d55; --done-soft:#e2efe6; --done-line:#bcdcc8;
+  --gap:#b25a3a;
+  --shadow:0 1px 2px rgba(40,32,16,.05),0 8px 24px rgba(40,32,16,.05);
+  --radius:14px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:"Public Sans",system-ui,-apple-system,Segoe UI,sans-serif;
+  font-size:15px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#14120d; --surface:#1d1a14; --surface-2:#26221a;
+    --ink:#efe9dd; --muted:#a89e8b; --faint:#7d7566;
+    --line:#312c22; --line-strong:#3f3928;
+    --accent:#e0a53a; --accent-ink:#f0c473; --accent-soft:#38300f;
+    --done:#5fb886; --done-soft:#182a20; --done-line:#2c4535;
+    --gap:#d98763;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#14120d; --surface:#1d1a14; --surface-2:#26221a;
+  --ink:#efe9dd; --muted:#a89e8b; --faint:#7d7566;
+  --line:#312c22; --line-strong:#3f3928;
+  --accent:#e0a53a; --accent-ink:#f0c473; --accent-soft:#38300f;
+  --done:#5fb886; --done-soft:#182a20; --done-line:#2c4535;
+  --gap:#d98763;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+}
+
+.wrap{max-width:920px;margin:0 auto;padding:0 20px}
+main{padding-block:8px 64px}
+
+/* top bar */
+.top{
+  position:sticky; top:0; z-index:20;
+  background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+  padding-top:env(safe-area-inset-top,0px);
+}
+.top .row{max-width:920px;margin:0 auto;padding:12px 20px;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.brand{display:flex;flex-direction:column;gap:2px;min-width:0}
+.brand b{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:19px;letter-spacing:-.01em;line-height:1.1}
+.brand .eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.progwrap{display:flex;align-items:center;gap:12px}
+.count{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.count b{color:var(--accent-ink);font-weight:500}
+.bar{width:120px;height:7px;border-radius:99px;background:var(--surface-2);overflow:hidden;border:1px solid var(--line)}
+.bar>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--done));transition:width .4s cubic-bezier(.4,0,.2,1)}
+.themebtn{border:1px solid var(--line-strong);background:var(--surface);color:var(--muted);border-radius:99px;width:34px;height:34px;cursor:pointer;font-size:15px;display:grid;place-items:center;flex:none}
+.themebtn:hover{color:var(--ink);border-color:var(--accent)}
+
+/* section nav */
+nav.jump{max-width:920px;margin:0 auto;padding:12px 20px 0;display:flex;gap:7px;flex-wrap:wrap}
+nav.jump a{font-size:12.5px;color:var(--muted);text-decoration:none;padding:5px 11px;border-radius:99px;border:1px solid var(--line);background:var(--surface);transition:.15s}
+nav.jump a:hover{color:var(--ink);border-color:var(--accent);background:var(--accent-soft)}
+
+/* hero / intro */
+.lede{padding-block:26px 8px}
+.lede h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(28px,5vw,40px);line-height:1.05;letter-spacing:-.02em;margin:0 0 12px;text-wrap:balance}
+.lede p{color:var(--muted);max-width:64ch;margin:0;font-size:16px}
+.lede .stamp{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:14px}
+
+/* diagnosis */
+.diag{margin-top:26px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+.diag h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:15px;margin:0 0 4px}
+.diag p.sub{margin:0 0 18px;color:var(--muted);font-size:13.5px}
+.cefr{display:flex;gap:6px;align-items:flex-end;height:120px;padding-top:8px}
+.cefr .col{flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;justify-content:flex-end;height:100%}
+.cefr .col .track{width:100%;flex:1;display:flex;align-items:flex-end}
+.cefr .col .fill{width:100%;border-radius:6px 6px 3px 3px;min-height:3px;background:linear-gradient(180deg,var(--accent),color-mix(in srgb,var(--accent) 55%,var(--surface-2)));transition:height .5s}
+.cefr .col.zero .fill{background:repeating-linear-gradient(45deg,var(--surface-2),var(--surface-2) 5px,transparent 5px,transparent 10px);border:1px dashed var(--line-strong)}
+.cefr .col .lv{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:500}
+.cefr .col .num{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.cefr .col.zero .num{color:var(--gap)}
+.diag .legend{margin-top:16px;font-size:12.5px;color:var(--muted);display:flex;gap:18px;flex-wrap:wrap}
+.diag .legend span{display:inline-flex;align-items:center;gap:6px}
+.dot{width:9px;height:9px;border-radius:3px;flex:none}
+
+/* group section */
+section.grp{margin-top:40px;scroll-margin-top:120px}
+.grp>header{display:flex;align-items:baseline;gap:12px;margin-bottom:4px;flex-wrap:wrap}
+.grp>header .n{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--accent-ink);letter-spacing:.08em}
+.grp>header h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:22px;margin:0;letter-spacing:-.01em}
+.grp>header .gcount{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--faint);font-variant-numeric:tabular-nums;margin-left:auto}
+.grp>p.intro{color:var(--muted);margin:6px 0 18px;max-width:66ch;font-size:14px}
+
+/* phase card */
+.phase{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 8px;margin-bottom:14px;box-shadow:var(--shadow)}
+.phase .ph-head{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+.phase .badge{flex:none;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-family:"Fraunces",serif;font-weight:600;background:var(--accent-soft);color:var(--accent-ink);border:1px solid var(--line-strong)}
+.phase .ph-title{flex:1;min-width:0}
+.phase .ph-title b{font-size:16px;display:block;line-height:1.25}
+.phase .ph-title .goal{color:var(--muted);font-size:13px;margin-top:2px}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}
+.tag{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:99px;border:1px solid var(--line);color:var(--muted)}
+.tag.imp{color:var(--accent-ink);border-color:var(--line-strong);background:var(--accent-soft)}
+
+/* item / checkbox */
+ul.items{list-style:none;margin:0;padding:0}
+.item{display:flex;gap:12px;align-items:flex-start;padding:11px 6px;border-top:1px solid var(--line);cursor:pointer;transition:background .12s}
+.item:hover{background:var(--surface-2)}
+.grp>.items>.item:first-child{border-top:1px solid var(--line)}
+.box{flex:none;width:20px;height:20px;margin-top:1px;border:1.5px solid var(--line-strong);border-radius:6px;background:var(--surface);display:grid;place-items:center;transition:.15s}
+.box svg{width:12px;height:12px;stroke:#fff;stroke-width:3;fill:none;opacity:0;transform:scale(.5);transition:.15s;stroke-linecap:round;stroke-linejoin:round}
+.item.done .box{background:var(--done);border-color:var(--done)}
+.item.done .box svg{opacity:1;transform:scale(1)}
+.item .txt{flex:1;min-width:0}
+.item .txt .t{font-size:14.5px;line-height:1.4}
+.item.done .txt .t{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--line-strong)}
+.item .txt .note{font-size:12.5px;color:var(--faint);margin-top:2px}
+
+/* plain checklist card */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:6px 16px}
+
+/* vertical grid */
+.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.vcard{background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:14px;display:flex;gap:11px;align-items:flex-start;cursor:pointer;transition:.12s}
+.vcard:hover{border-color:var(--accent);background:var(--accent-soft)}
+.vcard.done{background:var(--done-soft);border-color:var(--done-line)}
+.vcard .txt .t{font-weight:600;font-size:14.5px}
+.vcard.done .txt .t{text-decoration:line-through;text-decoration-color:var(--done-line);color:var(--muted)}
+.vcard .txt .note{font-size:12px;color:var(--faint);margin-top:3px;line-height:1.4}
+
+footer{margin-top:52px;padding:20px;border-top:1px solid var(--line);color:var(--faint);font-size:12.5px;text-align:center;display:flex;flex-direction:column;gap:6px}
+footer .save{color:var(--muted)}
+footer .save b{color:var(--accent-ink);font-weight:500}
+a.ext{color:var(--accent-ink)}
+
+@media (max-width:560px){
+  .bar{width:88px}
+  .cefr{height:96px}
+  nav.jump{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}
+  nav.jump a{white-space:nowrap}
+}
+</style>
+
+<div id="app"></div>
+
+<script id="roadmap-data" type="application/json">
+{
+  "updated": "26 sep 2026",
+  "current": {"A1":19,"A2":37,"B1":33,"B2":9,"C1":0,"C2":0},
+  "groups": [
+    {
+      "id":"fases", "kind":"phases", "title":"Fases de construcción",
+      "intro":"El orden sugerido para pasar de índice de gramática a método completo. Cada fase está ordenada por impacto y esfuerzo; marca los hitos a medida que los construimos.",
+      "phases":[
+        {"n":1,"name":"Audio (TTS) en todo lo existente","goal":"El mayor salto de calidad percibida con el menor esfuerzo.","impact":"impacto alto","effort":"esfuerzo bajo","items":[
+          {"id":"p1a","t":"Motor TTS con voz alemana (Web Speech API o servicio)"},
+          {"id":"p1b","t":"Botón «escuchar» en cada ejemplo y fila de tabla"},
+          {"id":"p1c","t":"Audio en las 200 Redewendungen"},
+          {"id":"p1d","t":"Control de velocidad (normal / lento)"}
+        ]},
+        {"n":2,"name":"Diálogos y textos de lectura","goal":"Abre las destrezas que hoy faltan: leer de verdad, no frases sueltas.","impact":"impacto alto","effort":"esfuerzo medio","items":[
+          {"id":"p2a","t":"Schema + componente «dialog» (turnos, roles, traducción plegable)"},
+          {"id":"p2b","t":"Schema + componente «reading» (texto + preguntas de comprensión)"},
+          {"id":"p2c","t":"Vocabulario glosado al margen del texto"},
+          {"id":"p2d","t":"Piloto: 1 diálogo de recepción + 1 texto con 5 preguntas"}
+        ]},
+        {"n":3,"name":"Verticales temáticas","goal":"Contenido para usar el idioma en contexto profesional real.","impact":"impacto alto","effort":"esfuerzo medio","items":[
+          {"id":"p3a","t":"Patrón de vertical: Wortschatz + Redemittel + Dialoge + Rollenspiel + Szenario"},
+          {"id":"p3b","t":"3 verticales piloto: recepción, inmobiliaria, ventas","note":"Ver la sección «Verticales temáticas» abajo"}
+        ]},
+        {"n":4,"name":"SRS y registro de errores","goal":"Convierte el progreso que ya guardas en aprendizaje dirigido.","impact":"impacto alto","effort":"esfuerzo medio","items":[
+          {"id":"p4a","t":"SRS (repaso espaciado) sobre el motor de progreso actual"},
+          {"id":"p4b","t":"Registro de fallos frecuentes por usuario"},
+          {"id":"p4c","t":"Sesión de repaso dirigida a lo que fallas"}
+        ]},
+        {"n":5,"name":"Análisis sintáctico","goal":"Diferenciador visual que encaja con tu sistema de colores por caso.","impact":"impacto medio","effort":"esfuerzo medio","items":[
+          {"id":"p5a","t":"Schema + componente «syntax»"},
+          {"id":"p5b","t":"Satzglieder: marcar sujeto / predicado / objetos / complementos"},
+          {"id":"p5c","t":"Feldermodell coloreado (Vorfeld · Klammer · Mittelfeld · Nachfeld)"}
+        ]},
+        {"n":6,"name":"B2 completo y C1 / C2","goal":"Hoy B2 tiene 9 secciones y C1/C2 cero: el salto cualitativo.","impact":"impacto alto","effort":"esfuerzo alto","items":[
+          {"id":"p6a","t":"Completar B2 (ampliar las 9 secciones actuales)"},
+          {"id":"p6b","t":"Bloques C1","note":"Ver objetivos concretos en «B2 → C1 → C2»"},
+          {"id":"p6c","t":"Bloques C2 (registro, matiz, textos auténticos)"}
+        ]},
+        {"n":7,"name":"Escritura y simulacros de examen","goal":"Cierra la cuarta destreza y prepara certificaciones.","impact":"impacto medio","effort":"esfuerzo alto","items":[
+          {"id":"p7a","t":"Schema «writing» (tarea + modelo + checklist de autocorrección)"},
+          {"id":"p7b","t":"Corrección automática por IA de lo que escribe el alumno"},
+          {"id":"p7c","t":"Simulacros por examen: Goethe / telc / TestDaF / ÖSD / DSH"}
+        ]}
+      ]
+    },
+    {
+      "id":"tipos", "kind":"checklist", "title":"Tipos de contenido nuevos",
+      "intro":"Cada uno es un «type» de sección o un panel nuevo en el renderizador. Hoy solo existen regla, ejemplos, tablas, quiz y «escribe tu frase».",
+      "items":[
+        {"id":"t-dialog","t":"Diálogos","note":"turnos con rol, traducción plegable, audio por línea, modo «completa el turno»"},
+        {"id":"t-reading","t":"Textos de lectura + comprensión","note":"richtig/falsch, opción múltiple, ordenar; vocabulario glosado"},
+        {"id":"t-excerpt","t":"Fragmentos literarios y periodísticos","note":"con glosas, nivel y notas de estilo; ojo a derechos (dominio público / redactados al estilo)"},
+        {"id":"t-syntax","t":"Análisis sintáctico","note":"Satzglieder + Feldermodell en rejilla coloreada"},
+        {"id":"t-audio","t":"Listening","note":"audio + transcripción oculta + huecos + preguntas"},
+        {"id":"t-cloze","t":"Lückentext a nivel de texto","note":"rellenar huecos en un párrafo, no en una frase suelta"},
+        {"id":"t-writing","t":"Escritura con modelo","note":"tarea + checklist + texto modelo + errores típicos"},
+        {"id":"t-drill","t":"Entrenadores generativos","note":"conjugador y declinador que generan ejercicios infinitos con SRS"}
+      ]
+    },
+    {
+      "id":"verticales", "kind":"verticals", "title":"Verticales temáticas",
+      "intro":"Cada vertical es un paquete de 5 piezas, no una lista de palabras: Wortschatz · Redemittel · Diálogos · Rollenspiel · un Szenario real. Las tres primeras son las que pediste como prioridad de negocio.",
+      "items":[
+        {"id":"v-recep","t":"Recepción / hostelería","note":"check-in/out, incidencias, teléfono · escenario: huésped con problema en la habitación"},
+        {"id":"v-inmo","t":"Inmobiliaria (ventas)","note":"inmueble, contrato, visita, financiación · escenario: presentar un piso y cerrar visita"},
+        {"id":"v-vgen","t":"Ventas en general","note":"pitch, objeciones, cierre, seguimiento · escenario: llamada en frío y negociar precio"},
+        {"id":"v-vtur","t":"Ventas turismo","note":"paquetes, upselling, objeciones · escenario: vender una excursión y rebatir «es caro»"},
+        {"id":"v-tur","t":"Turismo","note":"indicaciones, transporte, reservas · escenario: comprar billete y check-in de hotel"},
+        {"id":"v-gastro","t":"Gastronomía","note":"carta, alérgenos, pedir, quejarse, pagar · escenario: leer un menú alemán y pedir"},
+        {"id":"v-alltag","t":"Alltag (día a día)","note":"compras, citas, teléfono, small talk"},
+        {"id":"v-arbeit","t":"Trabajo / Bewerbung","note":"CV, carta de motivación, entrevista"},
+        {"id":"v-behoerden","t":"Trámites / Behörden","note":"Anmeldung, banco, seguros, correos"},
+        {"id":"v-salud","t":"Salud","note":"síntomas, médico, farmacia, cita"}
+      ]
+    },
+    {
+      "id":"cefr", "kind":"checklist", "title":"B2 → C1 → C2",
+      "intro":"El salto a nivel alto no es «más frases»: es gramática y competencias nuevas. Esto es lo que hoy falta por completo.",
+      "items":[
+        {"id":"c-konj1","t":"Konjunktiv I (estilo indirecto)","note":"imprescindible para prensa e informes"},
+        {"id":"c-nom","t":"Verbalstil ↔ Nominalstil / Nominalisierung"},
+        {"id":"c-fvg","t":"Funktionsverbgefüge","note":"in Frage stellen, zur Verfügung stellen, Anwendung finden…"},
+        {"id":"c-partizip","t":"Partizipial- y erweiterte Attribute","note":"der gestern angekommene Gast"},
+        {"id":"c-konnekt","t":"Konnektoren avanzados y Präpositionaladverbien","note":"dessen ungeachtet, insofern, hierbei"},
+        {"id":"c-partikel","t":"Modalpartikeln","note":"doch, ja, mal, halt, eben, wohl — el matiz que separa B2 de nativo"},
+        {"id":"c-register","t":"Registro","note":"mismo mensaje en formal / informal / burocrático; ironía; eufemismos"},
+        {"id":"c-texttypen","t":"Tipos de texto productivos","note":"Erörterung, Zusammenfassung, formeller Brief, Grafikbeschreibung"},
+        {"id":"c-kollok","t":"Colocaciones y sinonimia fina","note":"a escala de lo que hoy insinúa el bloque 17"},
+        {"id":"c-auth","t":"Textos auténticos largos","note":"prensa, ensayo, literatura, con análisis de estilo"}
+      ]
+    },
+    {
+      "id":"infra", "kind":"checklist", "title":"Infraestructura de método",
+      "intro":"Lo que convierte un índice en un método: progresión, memoria y evaluación.",
+      "items":[
+        {"id":"i-placement","t":"Test de nivel / colocación","note":"te dice por dónde empezar"},
+        {"id":"i-srs","t":"Repaso espaciado (SRS)","note":"reutilizando el progreso en SQLite"},
+        {"id":"i-ruta","t":"Ruta de aprendizaje con progresión y desbloqueo"},
+        {"id":"i-errores","t":"Registro de errores → repaso dirigido"},
+        {"id":"i-examenes","t":"Módulos de preparación de exámenes","note":"formatos reales, simulacros cronometrados"},
+        {"id":"i-audio","t":"Pipeline de audio (TTS) en todo el contenido"},
+        {"id":"i-buscador","t":"Buscador global + etiquetado por tema / nivel / destreza"}
+      ]
+    }
+  ]
+}
+</script>
+<script id="progress-state" type="application/json">{}</script>
+
+<script id="boot">
+(function(){
+  "use strict";
+  var TITLE = "Ruta del Método Alemán";
+  var LS_KEY = "german-roadmap-progress-v1";
+  var DATA, STATE = {}, allIds = [], canPublish = false, artifactNS = null, pubTimer = null;
+
+  try { DATA = JSON.parse(document.getElementById("roadmap-data").textContent); }
+  catch(e){ DATA = {groups:[],current:{}}; }
+
+  var serverState = {};
+  try { serverState = JSON.parse(document.getElementById("progress-state").textContent) || {}; } catch(e){}
+  var localState = {};
+  try { localState = JSON.parse(localStorage.getItem(LS_KEY) || "{}") || {}; } catch(e){}
+  // Server (shared) is the base; local per-viewer overrides layer on top.
+  STATE = Object.assign({}, serverState, localState);
+
+  // collect every checkable id
+  DATA.groups.forEach(function(g){
+    if(g.kind === "phases"){ g.phases.forEach(function(p){ p.items.forEach(function(it){ allIds.push(it.id); }); }); }
+    else { g.items.forEach(function(it){ allIds.push(it.id); }); }
+  });
+
+  function esc(s){ return String(s).replace(/[&<>]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c];}); }
+  function el(tag, cls, html){ var e=document.createElement(tag); if(cls)e.className=cls; if(html!=null)e.innerHTML=html; return e; }
+  var CHECK = '<svg viewBox="0 0 24 24"><polyline points="4 12 10 18 20 6"></polyline></svg>';
+
+  function doneCount(){ var n=0; allIds.forEach(function(id){ if(STATE[id]) n++; }); return n; }
+
+  function render(){
+    var app = document.getElementById("app");
+    app.textContent = "";
+
+    // top bar
+    var top = el("div","top");
+    var row = el("div","row");
+    var brand = el("div","brand");
+    brand.innerHTML = '<b>'+esc(TITLE)+'</b><span class="eyebrow">Índice de Alemán · A1–C2</span>';
+    var pw = el("div","progwrap");
+    pw.innerHTML = '<span class="count"><b id="cnum">0</b> / '+allIds.length+' hechos</span>'
+      + '<div class="bar"><i id="cbar"></i></div>'
+      + '<button class="themebtn" id="tbtn" title="Cambiar tema" aria-label="Cambiar tema">◐</button>';
+    row.appendChild(brand); row.appendChild(pw); top.appendChild(row);
+
+    // jump nav
+    var nav = el("nav","jump");
+    DATA.groups.forEach(function(g){
+      var a = el("a"); a.href = "#"+g.id; a.textContent = g.title; nav.appendChild(a);
+    });
+    top.appendChild(nav);
+    app.appendChild(top);
+
+    var wrap = el("div","wrap");
+    var main = el("main");
+
+    // lede + diagnosis
+    var lede = el("div","lede");
+    lede.innerHTML = '<div class="stamp">Hoja de ruta · act. '+esc(DATA.updated||"")+'</div>'
+      + '<h1>De índice de gramática a método completo</h1>'
+      + '<p>Hoy la app enseña gramática con frases sueltas, tests, glosario y flashcards, y cubre A1–B1 con solidez. Esta ruta marca lo que falta para llegar a un método A1–C2 con las cuatro destrezas, vocabulario temático y niveles altos. Marca cada punto conforme lo construimos: el progreso se guarda y se sincroniza entre tus equipos.</p>';
+    main.appendChild(lede);
+    main.appendChild(buildDiag());
+
+    DATA.groups.forEach(function(g){ main.appendChild(buildGroup(g)); });
+
+    var foot = el("footer");
+    foot.innerHTML = '<div class="save" id="savenote">Guardando el progreso…</div>'
+      + '<div>Índice de Alemán · plan de contenido A1–C2 · redactado por Claude; conviene validar C1/C2 y las verticales con un profe nativo antes de producir en masa.</div>';
+    main.appendChild(foot);
+
+    wrap.appendChild(main);
+    app.appendChild(wrap);
+
+    document.getElementById("tbtn").addEventListener("click", toggleTheme);
+    updateProgress();
+    updateSaveNote();
+  }
+
+  function buildDiag(){
+    var c = DATA.current || {};
+    var order = ["A1","A2","B1","B2","C1","C2"];
+    var max = 0; order.forEach(function(k){ if((c[k]||0)>max) max=c[k]||0; });
+    var diag = el("div","diag");
+    diag.id = "estado";
+    var cols = order.map(function(k){
+      var v = c[k]||0; var h = max? Math.round(v/max*100):0;
+      var zero = v===0? " zero":"";
+      return '<div class="col'+zero+'"><div class="track"><div class="fill" style="height:'+(v===0?4:Math.max(h,6))+'%"></div></div>'
+        + '<div class="lv">'+k+'</div><div class="num">'+v+'</div></div>';
+    }).join("");
+    diag.innerHTML = '<h2>Estado actual · cobertura por nivel</h2>'
+      + '<p class="sub">Secciones de contenido existentes hoy. B2 apenas empieza; C1 y C2 no existen.</p>'
+      + '<div class="cefr">'+cols+'</div>'
+      + '<div class="legend">'
+        + '<span><i class="dot" style="background:var(--accent)"></i> secciones existentes</span>'
+        + '<span><i class="dot" style="background:transparent;border:1px dashed var(--line-strong)"></i> nivel sin contenido</span>'
+      + '</div>';
+    return diag;
+  }
+
+  function buildGroup(g){
+    var sec = el("section","grp"); sec.id = g.id;
+    var ids = g.kind==="phases" ? [].concat.apply([], g.phases.map(function(p){return p.items.map(function(i){return i.id;});})) : g.items.map(function(i){return i.id;});
+    var done = ids.filter(function(id){return STATE[id];}).length;
+    var head = el("header");
+    head.innerHTML = '<span class="n">'+(g.kind==="phases"?"07 fases":ids.length+" ítems")+'</span>'
+      + '<h2>'+esc(g.title)+'</h2>'
+      + '<span class="gcount" data-gc="'+g.id+'">'+done+'/'+ids.length+'</span>';
+    sec.appendChild(head);
+    if(g.intro){ var ip=el("p","intro"); ip.textContent=g.intro; sec.appendChild(ip); }
+
+    if(g.kind==="phases"){
+      g.phases.forEach(function(p){ sec.appendChild(buildPhase(p)); });
+    } else if(g.kind==="verticals"){
+      var grid = el("div","vgrid");
+      g.items.forEach(function(it){ grid.appendChild(buildVCard(it)); });
+      sec.appendChild(grid);
+    } else {
+      var card = el("div","card"); var ul = el("ul","items");
+      g.items.forEach(function(it){ ul.appendChild(buildItem(it)); });
+      card.appendChild(ul); sec.appendChild(card);
+    }
+    return sec;
+  }
+
+  function buildPhase(p){
+    var ph = el("div","phase");
+    var head = el("div","ph-head");
+    head.innerHTML = '<div class="badge">'+p.n+'</div>'
+      + '<div class="ph-title"><b>'+esc(p.name)+'</b><div class="goal">'+esc(p.goal)+'</div>'
+      + '<div class="tags"><span class="tag imp">'+esc(p.impact)+'</span><span class="tag">'+esc(p.effort)+'</span></div></div>';
+    ph.appendChild(head);
+    var ul = el("ul","items");
+    p.items.forEach(function(it){ ul.appendChild(buildItem(it)); });
+    ph.appendChild(ul);
+    return ph;
+  }
+
+  function buildItem(it){
+    var li = el("div","item"+(STATE[it.id]?" done":""));
+    li.setAttribute("data-id", it.id);
+    li.setAttribute("role","button");
+    li.setAttribute("tabindex","0");
+    li.setAttribute("aria-pressed", STATE[it.id]?"true":"false");
+    var note = it.note? '<div class="note">'+esc(it.note)+'</div>':'';
+    li.innerHTML = '<span class="box">'+CHECK+'</span><div class="txt"><div class="t">'+esc(it.t)+'</div>'+note+'</div>';
+    bindToggle(li, it.id);
+    return li;
+  }
+
+  function buildVCard(it){
+    var d = el("div","vcard"+(STATE[it.id]?" done":""));
+    d.setAttribute("data-id", it.id);
+    d.setAttribute("role","button");
+    d.setAttribute("tabindex","0");
+    d.setAttribute("aria-pressed", STATE[it.id]?"true":"false");
+    d.innerHTML = '<span class="box">'+CHECK+'</span><div class="txt"><div class="t">'+esc(it.t)+'</div><div class="note">'+esc(it.note||"")+'</div></div>';
+    bindToggle(d, it.id);
+    return d;
+  }
+
+  function bindToggle(node, id){
+    function fire(e){ e.preventDefault(); toggle(id); }
+    node.addEventListener("click", fire);
+    node.addEventListener("keydown", function(e){ if(e.key===" "||e.key==="Enter") fire(e); });
+  }
+
+  function toggle(id){
+    STATE[id] = !STATE[id];
+    // reflect on every node with this id (an id shows once, but stay safe)
+    document.querySelectorAll('[data-id="'+id+'"]').forEach(function(node){
+      var on = !!STATE[id];
+      node.classList.toggle("done", on);
+      node.setAttribute("aria-pressed", on?"true":"false");
+    });
+    saveLocal();
+    updateProgress();
+    schedulePublish();
+  }
+
+  function updateProgress(){
+    var n = doneCount();
+    var cn = document.getElementById("cnum"); if(cn) cn.textContent = n;
+    var cb = document.getElementById("cbar"); if(cb) cb.style.width = (allIds.length? (n/allIds.length*100):0)+"%";
+    // per-group counters
+    DATA.groups.forEach(function(g){
+      var ids = g.kind==="phases" ? [].concat.apply([], g.phases.map(function(p){return p.items.map(function(i){return i.id;});})) : g.items.map(function(i){return i.id;});
+      var done = ids.filter(function(id){return STATE[id];}).length;
+      var gc = document.querySelector('[data-gc="'+g.id+'"]'); if(gc) gc.textContent = done+"/"+ids.length;
+    });
+  }
+
+  function saveLocal(){ try{ localStorage.setItem(LS_KEY, JSON.stringify(STATE)); }catch(e){} }
+
+  function updateSaveNote(){
+    var n = document.getElementById("savenote"); if(!n) return;
+    if(canPublish) n.innerHTML = 'Progreso <b>guardado y sincronizado</b> entre tus equipos.';
+    else n.innerHTML = 'Progreso guardado en <b>este navegador</b>.';
+  }
+
+  // ---- shared persistence via the artifact capability ----
+  function buildDoc(state){
+    var css = document.getElementById("css").textContent;
+    var data = document.getElementById("roadmap-data").textContent;
+    var boot = document.getElementById("boot").textContent;
+    return '<!doctype html>\n<html lang="es">\n<head>\n'
+      + '<meta charset="utf-8">\n'
+      + '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+      + '<title>'+TITLE+'</title>\n'
+      + '<style id="css">'+css+'</style>\n'
+      + '</head>\n<body>\n'
+      + '<div id="app"></div>\n'
+      + '<script id="roadmap-data" type="application/json">'+data+'<\/script>\n'
+      + '<script id="progress-state" type="application/json">'+JSON.stringify(state)+'<\/script>\n'
+      + '<script id="boot">'+boot+'<\/script>\n'
+      + '</body>\n</html>';
+  }
+
+  function schedulePublish(){
+    if(!canPublish || !artifactNS) return;
+    if(pubTimer) clearTimeout(pubTimer);
+    pubTimer = setTimeout(function(){
+      try {
+        var r = artifactNS.publish(buildDoc(STATE));
+        if(r && typeof r.then==="function") r.catch(function(){ /* conflict/read-only: local copy stands */ });
+      } catch(e){}
+    }, 650);
+  }
+
+  if (window.claude && typeof window.claude.use === "function"){
+    window.claude.use("artifact").then(function(ns){
+      if(ns){ artifactNS = ns; canPublish = true; updateSaveNote(); }
+    }).catch(function(){});
+  }
+
+  // ---- theme toggle (per-viewer convenience) ----
+  function currentTheme(){
+    var attr = document.documentElement.getAttribute("data-theme");
+    if(attr) return attr;
+    return (window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches) ? "dark":"light";
+  }
+  function toggleTheme(){
+    var next = currentTheme()==="dark" ? "light":"dark";
+    document.documentElement.setAttribute("data-theme", next);
+    try{ localStorage.setItem("german-roadmap-theme", next); }catch(e){}
+  }
+  try{ var savedT = localStorage.getItem("german-roadmap-theme"); if(savedT) document.documentElement.setAttribute("data-theme", savedT); }catch(e){}
+
+  render();
+})();
+</script>
+
+</body></html>
