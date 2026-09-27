@@ -1,8 +1,12 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { api } from "./api";
 import { useProgress } from "./progress";
+import { useAllBlocks, useBlockStats } from "./useAllBlocks";
 import Sidebar from "./components/Sidebar";
 import BlockPage from "./components/BlockPage";
+import CommandPalette from "./components/CommandPalette";
+import { GradientDefs } from "./components/ProgressRing";
+import { IconMenu, IconMoon, IconSearch, IconSun, IconClose } from "./components/Icons";
 import PracticePage from "./panels/PracticePage";
 import HighlightsPanel from "./panels/HighlightsPanel";
 
@@ -16,19 +20,74 @@ function scrollToSection(idx) {
   if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+// Tema: "light" | "dark" | null (= seguir al sistema). Se guarda por navegador.
+function useTheme() {
+  const [theme, setTheme] = useState(() => document.documentElement.dataset.theme || null);
+  const systemDark = () => window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const isDark = theme ? theme === "dark" : systemDark();
+
+  const toggle = useCallback(() => {
+    const next = isDark ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try {
+      localStorage.setItem("theme", next);
+    } catch (e) {
+      /* sin almacenamiento: el tema dura hasta recargar */
+    }
+    setTheme(next);
+  }, [isDark]);
+
+  return { isDark, toggle };
+}
+
+function Skeleton() {
+  return (
+    <div className="skeleton" aria-busy="true" aria-label="Cargando">
+      <div className="sk sk-pill" />
+      <div className="sk sk-title" />
+      <div className="sk sk-line" />
+      <div className="sk sk-line short" />
+      <div className="sk-grid">
+        <div className="sk sk-card" />
+        <div className="sk sk-card" />
+        <div className="sk sk-card" />
+      </div>
+      <div className="sk sk-block" />
+    </div>
+  );
+}
+
 export default function App() {
   const { loaded, resetPrefix } = useProgress();
   const [index, setIndex] = useState([]);
   const [current, setCurrent] = useState("01");
   const [block, setBlock] = useState(null);
   const [loadingBlock, setLoadingBlock] = useState(true);
+  const [navOpen, setNavOpen] = useState(false);
+  const [cmdOpen, setCmdOpen] = useState(false);
   const pendingSection = useRef(null);
   const contentRef = useRef(null);
+  const { isDark, toggle: toggleTheme } = useTheme();
+
+  const allBlocks = useAllBlocks(index);
+  const stats = useBlockStats(allBlocks);
 
   const scrollContentTop = () => contentRef.current?.scrollTo({ top: 0 });
 
   useEffect(() => {
     api.listBlocks().then(setIndex).catch(() => setIndex([]));
+  }, []);
+
+  // ⌘K / Ctrl+K abre el buscador desde cualquier sitio.
+  useEffect(() => {
+    function onKey(e) {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        setCmdOpen((o) => !o);
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, []);
 
   useEffect(() => {
@@ -57,7 +116,13 @@ export default function App() {
       .finally(() => setLoadingBlock(false));
   }, [current]);
 
+  function selectBlock(b) {
+    setNavOpen(false);
+    setCurrent(b);
+  }
+
   function goToSection(targetBlock, idx) {
+    setNavOpen(false);
     if (targetBlock === current) {
       scrollToSection(idx); // already loaded — scroll now
     } else {
@@ -73,34 +138,105 @@ export default function App() {
     if (current === "16" || current === PRACTICE_BLOCK) await resetPrefix("idiom:");
   }
 
+  const pos = index.findIndex((b) => b.block === current);
+  const prev = pos > 0 ? index[pos - 1] : null;
+  const next = pos >= 0 && pos < index.length - 1 ? index[pos + 1] : null;
+  const crumb =
+    current === "highlights" ? "Destacados" : index[pos] ? index[pos].title : "";
+
   return (
-    <div className="layout">
+    <div className={"layout" + (navOpen ? " nav-open" : "")}>
+      <GradientDefs />
+
       <aside className="sidebar">
         <div className="brand">
           <span className="brand-mark">DE</span>
-          <span className="brand-name">Índice de Alemán</span>
+          <span className="brand-text">
+            <span className="brand-name">Índice de Alemán</span>
+            <span className="brand-sub">Gramática A1 → C1</span>
+          </span>
+          <button
+            className="icon-btn only-mobile"
+            onClick={() => setNavOpen(false)}
+            aria-label="Cerrar menú"
+          >
+            <IconClose size={18} />
+          </button>
         </div>
         <Sidebar
           index={index}
           current={current}
-          onSelectBlock={setCurrent}
+          stats={stats}
+          onSelectBlock={selectBlock}
           onGoToSection={goToSection}
+          onOpenSearch={() => setCmdOpen(true)}
         />
       </aside>
+      <div className="scrim" onClick={() => setNavOpen(false)} />
 
       <main className="content" ref={contentRef}>
-        {!loaded || loadingBlock ? (
-          <p className="muted center">Cargando…</p>
-        ) : current === "highlights" ? (
-          <HighlightsPanel index={index} onGoToSection={goToSection} />
-        ) : !block ? (
-          <p className="muted center">No se pudo cargar el bloque {current}.</p>
-        ) : current === PRACTICE_BLOCK ? (
-          <PracticePage block={block} index={index} />
-        ) : (
-          <BlockPage block={block} onReset={handleReset} />
-        )}
+        <header className="topbar">
+          <button
+            className="icon-btn only-mobile"
+            onClick={() => setNavOpen(true)}
+            aria-label="Abrir menú"
+          >
+            <IconMenu size={18} />
+          </button>
+          <nav className="crumbs" aria-label="Ruta">
+            <span className="crumb-root">Temario</span>
+            <span className="crumb-sep">/</span>
+            {current !== "highlights" && <span className="crumb-num">{current}</span>}
+            <span className="crumb-cur">{crumb}</span>
+          </nav>
+          <div className="topbar-actions">
+            <button className="search-mini" onClick={() => setCmdOpen(true)}>
+              <IconSearch size={15} />
+              <span>Buscar</span>
+              <kbd>⌘K</kbd>
+            </button>
+            <button
+              className="icon-btn"
+              onClick={toggleTheme}
+              aria-label={isDark ? "Cambiar a modo claro" : "Cambiar a modo oscuro"}
+              title={isDark ? "Modo claro" : "Modo oscuro"}
+            >
+              {isDark ? <IconSun size={17} /> : <IconMoon size={17} />}
+            </button>
+          </div>
+        </header>
+
+        <div className="page">
+          {!loaded || loadingBlock ? (
+            <Skeleton />
+          ) : current === "highlights" ? (
+            <HighlightsPanel index={index} onGoToSection={goToSection} />
+          ) : !block ? (
+            <div className="empty-state">
+              <p>No se pudo cargar el bloque {current}.</p>
+            </div>
+          ) : current === PRACTICE_BLOCK ? (
+            <PracticePage block={block} index={index} prev={prev} onSelectBlock={selectBlock} />
+          ) : (
+            <BlockPage
+              block={block}
+              onReset={handleReset}
+              prev={prev}
+              next={next}
+              onSelectBlock={selectBlock}
+            />
+          )}
+        </div>
       </main>
+
+      <CommandPalette
+        open={cmdOpen}
+        onClose={() => setCmdOpen(false)}
+        index={index}
+        blocks={allBlocks}
+        onSelectBlock={selectBlock}
+        onGoToSection={goToSection}
+      />
     </div>
   );
 }

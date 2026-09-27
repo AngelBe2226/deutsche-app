@@ -1,4 +1,5 @@
 import { useProgress } from "../progress";
+import { IconStar } from "./Icons";
 
 // Toggle button used on rules, notes and examples to mark them as a
 // "Destacado" (highlight). Persisted under the "hl:" key namespace so it
@@ -21,15 +22,7 @@ export default function HighlightButton({ id, label = "destacado" }) {
       aria-pressed={active}
       title={active ? `Quitar de Destacados` : `Marcar como ${label}`}
     >
-      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">
-        <path
-          d="M12 2.5l2.9 6.2 6.8.7-5.1 4.6 1.5 6.7L12 17.6l-6.1 3.1 1.5-6.7-5.1-4.6 6.8-.7z"
-          fill={active ? "currentColor" : "none"}
-          stroke="currentColor"
-          strokeWidth="1.6"
-          strokeLinejoin="round"
-        />
-      </svg>
+      <IconStar size={15} filled={active} />
     </button>
   );
 }

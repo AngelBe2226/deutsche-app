@@ -1,6 +1,7 @@
 import RichText from "./RichText";
 import { useProgress } from "../progress";
 import HighlightButton from "./HighlightButton";
+import { IconCheck, IconX } from "./Icons";
 
 // One multiple-choice question. Once answered it locks: the correct option
 // turns green, a wrong pick turns red, and the choice is persisted by id.
@@ -29,14 +30,16 @@ export default function Quiz({ q }) {
           else if (answered && i === chosen) cls = "wrong";
           return (
             <button key={i} className={cls} disabled={answered} onClick={() => choose(i)}>
-              {opt}
+              <span className="opt-key">{String.fromCharCode(65 + i)}</span>
+              <span className="opt-text">{opt}</span>
             </button>
           );
         })}
       </div>
       {answered && (
         <div className={"fb show " + (wasRight ? "ok" : "no")}>
-          {wasRight ? "✓ ¡Correcto!" : "✗ La respuesta correcta está marcada en verde."}
+          {wasRight ? <IconCheck size={15} /> : <IconX size={15} />}
+          {wasRight ? "¡Correcto!" : "La respuesta correcta está marcada en verde."}
         </div>
       )}
     </div>

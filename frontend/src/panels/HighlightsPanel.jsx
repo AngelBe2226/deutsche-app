@@ -112,17 +112,23 @@ export default function HighlightsPanel({ index, onGoToSection }) {
 
   const shown = filter === "todos" ? items : items.filter((it) => it.category === filter);
 
-  if (!blocks) return <p className="muted center">Cargando destacados…</p>;
+  if (!blocks) return <p className="empty-state">Cargando destacados…</p>;
 
   return (
     <article className="block-page">
-      <div className="block-kicker">Tu selección</div>
-      <h2 className="block-title">Destacados</h2>
-      <p className="block-intro">
+      <header className="hero">
+        <div className="hero-glow" aria-hidden="true" />
+        <div className="block-kicker">
+          <span className="kicker-dot" />
+          Tu selección
+        </div>
+        <h1 className="block-title">Destacados</h1>
+        <p className="block-intro">
         Todo lo que has marcado con <span className="hl-inline-star">★</span> en cualquier bloque:
         reglas, ejemplos, notas, preguntas de quiz y frases. Pulsa la estrella junto a cada uno
         para guardarlo aquí, y vuelve a pulsarla para quitarlo.
-      </p>
+        </p>
+      </header>
 
       {items.length > 0 && (
         <div className="hl-filters">
@@ -140,7 +146,7 @@ export default function HighlightsPanel({ index, onGoToSection }) {
       )}
 
       {items.length === 0 ? (
-        <p className="muted center">
+        <p className="empty-state">
           Aún no has destacado nada. Explora un bloque y pulsa la ★ junto a una regla, nota,
           ejemplo, pregunta de quiz o frase.
         </p>

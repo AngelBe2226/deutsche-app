@@ -4,6 +4,7 @@ import Quiz from "./Quiz";
 import ProduceBox from "./ProduceBox";
 import HighlightButton from "./HighlightButton";
 import { useProgress } from "../progress";
+import { IconAlert, IconEye, IconHelp, IconLightbulb, IconRotate, IconScale } from "./Icons";
 
 // Etiqueta que se muestra en cada tipo de nota (excepción / énfasis / truco).
 const NOTE_LABEL = {
@@ -13,11 +14,28 @@ const NOTE_LABEL = {
   why: "por qué",
 };
 
+const NOTE_ICON = {
+  exception: IconAlert,
+  emphasis: IconEye,
+  tip: IconLightbulb,
+  why: IconHelp,
+};
+
+function NoteTag({ type, children }) {
+  const Icon = NOTE_ICON[type] || IconEye;
+  return (
+    <span className="note-tag">
+      <Icon size={13} />
+      {children}
+    </span>
+  );
+}
+
 function Note({ note, hlId }) {
   const type = note.type || "emphasis";
   return (
     <div className={`note note-${type}`}>
-      <span className="note-tag">{note.title || NOTE_LABEL[type] || type}</span>
+      <NoteTag type={type}>{note.title || NOTE_LABEL[type] || type}</NoteTag>
       <HighlightButton id={hlId} label="destacado" />
       <RichText as="div" className="note-body" html={note.text} />
     </div>
@@ -55,7 +73,10 @@ export default function SectionCard({ section }) {
 
       {section.rule && (
         <div className="rule-box">
-          <span className="rule-tag">regla</span>
+          <span className="rule-tag">
+            <IconScale size={13} />
+            regla
+          </span>
           <HighlightButton id={`hl:${section.idx}-rule`} label="destacado" />
           <RichText as="div" className="rule" html={section.rule} />
         </div>
@@ -63,7 +84,7 @@ export default function SectionCard({ section }) {
 
       {section.reasoning && (
         <div className="note note-why">
-          <span className="note-tag">por qué</span>
+          <NoteTag type="why">por qué</NoteTag>
           <HighlightButton id={`hl:${section.idx}-reasoning`} label="destacado" />
           <RichText as="div" className="note-body" html={section.reasoning} />
         </div>
@@ -74,7 +95,7 @@ export default function SectionCard({ section }) {
       ))}
 
       {section.examples?.length > 0 && (
-        <ul className="examples">
+        <ul className="examples" aria-label="Ejemplos">
           {section.examples.map((ex, i) => (
             <li key={i}>
               <HighlightButton id={`hl:${section.idx}-ex${i}`} label="ejemplo destacado" />
@@ -96,8 +117,10 @@ export default function SectionCard({ section }) {
       {section.quiz?.length > 0 && (
         <div className="quizzes">
           <div className="quizzes-head">
+            <span className="quizzes-title">Comprueba lo aprendido</span>
             <button className="reset-section-btn" onClick={resetSectionQuiz}>
-              ↺ Reiniciar este epígrafe
+              <IconRotate size={12} />
+              Reiniciar epígrafe
             </button>
           </div>
           {section.quiz.map((q) => (
