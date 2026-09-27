@@ -1,37 +1,146 @@
 :root {
-  --bg:#EEF0EA;
+  color-scheme: light;
+  --bg:#F7F7F8;
   --surface:#FFFFFF;
-  --surface-2:#F7F8F4;
-  --ink:#17180F;
-  --ink-soft:#585C4F;
-  --ink-faint:#8A8E7F;
-  --line:#DEE0D5;
-  --line-strong:#C9CCBD;
-  --iris:#3B3E8C;
-  --iris-soft:#EAEBF6;
-  --a1:#5C9A4E;
-  --a2:#2E9187;
-  --b1:#2C6FA6;
-  --b2:#5B4B9C;
-  --c1:#A63F84;
-  --c2:#C0392B;
+  --surface-2:#F4F4F6;
+  --surface-3:#ECECF0;
+  --ink:#0F0F14;
+  --ink-soft:#4B4B57;
+  --ink-faint:#8B8B97;
+  --line:#E7E7EC;
+  --line-strong:#D6D6DE;
+
+  /* Acento de marca: índigo → violeta → rosa (estilo Lovable). */
+  --iris:#5B4FE9;
+  --iris-ink:#4338CA;
+  --iris-soft:#EFEDFE;
+  --iris-line:#D9D5FC;
+  --grad:linear-gradient(135deg,#6366F1 0%,#8B5CF6 45%,#EC4899 100%);
+  --grad-soft:linear-gradient(135deg,rgba(99,102,241,.10),rgba(139,92,246,.08) 45%,rgba(236,72,153,.08));
+  --glow-1:rgba(99,102,241,.22);
+  --glow-2:rgba(236,72,153,.16);
+
+  /* Niveles CEFR */
+  --a1:#16A34A;
+  --a2:#0D9488;
+  --b1:#2563EB;
+  --b2:#7C3AED;
+  --c1:#DB2777;
+  --c2:#DC2626;
+
   /* Roles gramaticales del alemán: el color marca EL CASO o la función
      sintáctica en los ejemplos (pedagógico, no decorativo). */
-  --role-nom:#2C6FA6;   /* sujeto · Nominativ (azul) */
-  --role-akk:#C0603A;   /* objeto directo · Akkusativ (naranja) */
-  --role-dat:#5C9A4E;   /* objeto indirecto · Dativ (verde) */
-  --role-gen:#8A5FB0;   /* posesión · Genitiv (morado) */
-  --role-verb:#C0392B;  /* verbo conjugado / 2ª posición (rojo) */
-  --role-sep:#B07D2B;   /* prefijo separable (ámbar) */
-  --role-sub:#2E9187;   /* conector subordinante (teal) */
-  --role-adj:#A63F84;   /* terminación de adjetivo declinada (magenta) */
-  --ok:#2C7A4B;
-  --ok-bg:#E7F3EB;
-  --no:#B23A3A;
-  --no-bg:#F7E9E7;
-  --display:"Space Grotesk",system-ui,sans-serif;
-  --body:"Inter",system-ui,-apple-system,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,monospace;
-  --shadow-sm:0 1px 2px rgba(23,24,15,.06);
-  --shadow:0 2px 4px rgba(23,24,15,.05),0 8px 24px -12px rgba(23,24,15,.18);
+  --role-nom:#2563EB;   /* sujeto · Nominativ (azul) */
+  --role-akk:#EA580C;   /* objeto directo · Akkusativ (naranja) */
+  --role-dat:#16A34A;   /* objeto indirecto · Dativ (verde) */
+  --role-gen:#9333EA;   /* posesión · Genitiv (morado) */
+  --role-verb:#DC2626;  /* verbo conjugado / 2ª posición (rojo) */
+  --role-sep:#B45309;   /* prefijo separable (ámbar) */
+  --role-sub:#0D9488;   /* conector subordinante (teal) */
+  --role-adj:#C026D3;   /* terminación de adjetivo declinada (magenta) */
+
+  --ok:#15803D;
+  --ok-bg:#ECFDF3;
+  --ok-line:#BBF7D0;
+  --no:#DC2626;
+  --no-bg:#FEF2F2;
+  --no-line:#FECACA;
+  --warn:#B45309;
+  --warn-bg:#FFFBEB;
+  --warn-line:#FDE68A;
+  --star:#F59E0B;
+
+  --display:"Geist","Inter",system-ui,sans-serif;
+  --body:"Geist","Inter",system-ui,-apple-system,sans-serif;
+  --mono:"Geist Mono","IBM Plex Mono",ui-monospace,monospace;
+
+  --r-sm:8px;
+  --r:12px;
+  --r-lg:18px;
+  --r-xl:24px;
+
+  --shadow-xs:0 1px 2px rgba(16,16,24,.04);
+  --shadow-sm:0 1px 2px rgba(16,16,24,.04),0 1px 3px rgba(16,16,24,.04);
+  --shadow:0 1px 2px rgba(16,16,24,.04),0 8px 24px -8px rgba(16,16,24,.10);
+  --shadow-lg:0 2px 4px rgba(16,16,24,.04),0 24px 48px -16px rgba(16,16,24,.22);
+  --ring:0 0 0 4px rgba(91,79,233,.16);
+  --topbar-bg:rgba(247,247,248,.78);
+}
+
+/* Modo oscuro: sigue al sistema salvo que el usuario fije el tema. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg:#0B0B0F;
+    --surface:#131318;
+    --surface-2:#1A1A21;
+    --surface-3:#23232C;
+    --ink:#F4F4F6;
+    --ink-soft:#B4B4C0;
+    --ink-faint:#7C7C89;
+    --line:#26262F;
+    --line-strong:#34343F;
+    --iris:#8B83FF;
+    --iris-ink:#A5A0FF;
+    --iris-soft:rgba(139,131,255,.12);
+    --iris-line:rgba(139,131,255,.30);
+    --grad-soft:linear-gradient(135deg,rgba(99,102,241,.16),rgba(139,92,246,.12) 45%,rgba(236,72,153,.10));
+    --glow-1:rgba(99,102,241,.30);
+    --glow-2:rgba(236,72,153,.18);
+    --role-nom:#60A5FA;
+    --role-akk:#FB923C;
+    --role-dat:#4ADE80;
+    --role-gen:#C084FC;
+    --role-verb:#F87171;
+    --role-sep:#FBBF24;
+    --role-sub:#2DD4BF;
+    --role-adj:#E879F9;
+    --a1:#22C55E; --a2:#14B8A6; --b1:#3B82F6; --b2:#8B5CF6; --c1:#EC4899; --c2:#EF4444;
+    --ok:#4ADE80; --ok-bg:rgba(74,222,128,.10); --ok-line:rgba(74,222,128,.30);
+    --no:#F87171; --no-bg:rgba(248,113,113,.10); --no-line:rgba(248,113,113,.30);
+    --warn:#FBBF24; --warn-bg:rgba(251,191,36,.10); --warn-line:rgba(251,191,36,.28);
+    --shadow-xs:0 1px 2px rgba(0,0,0,.4);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4);
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -8px rgba(0,0,0,.6);
+    --shadow-lg:0 2px 4px rgba(0,0,0,.4),0 24px 48px -16px rgba(0,0,0,.7);
+    --ring:0 0 0 4px rgba(139,131,255,.22);
+    --topbar-bg:rgba(11,11,15,.72);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg:#0B0B0F;
+  --surface:#131318;
+  --surface-2:#1A1A21;
+  --surface-3:#23232C;
+  --ink:#F4F4F6;
+  --ink-soft:#B4B4C0;
+  --ink-faint:#7C7C89;
+  --line:#26262F;
+  --line-strong:#34343F;
+  --iris:#8B83FF;
+  --iris-ink:#A5A0FF;
+  --iris-soft:rgba(139,131,255,.12);
+  --iris-line:rgba(139,131,255,.30);
+  --grad-soft:linear-gradient(135deg,rgba(99,102,241,.16),rgba(139,92,246,.12) 45%,rgba(236,72,153,.10));
+  --glow-1:rgba(99,102,241,.30);
+  --glow-2:rgba(236,72,153,.18);
+  --role-nom:#60A5FA;
+  --role-akk:#FB923C;
+  --role-dat:#4ADE80;
+  --role-gen:#C084FC;
+  --role-verb:#F87171;
+  --role-sep:#FBBF24;
+  --role-sub:#2DD4BF;
+  --role-adj:#E879F9;
+  --a1:#22C55E; --a2:#14B8A6; --b1:#3B82F6; --b2:#8B5CF6; --c1:#EC4899; --c2:#EF4444;
+  --ok:#4ADE80; --ok-bg:rgba(74,222,128,.10); --ok-line:rgba(74,222,128,.30);
+  --no:#F87171; --no-bg:rgba(248,113,113,.10); --no-line:rgba(248,113,113,.30);
+  --warn:#FBBF24; --warn-bg:rgba(251,191,36,.10); --warn-line:rgba(251,191,36,.28);
+  --shadow-xs:0 1px 2px rgba(0,0,0,.4);
+  --shadow-sm:0 1px 2px rgba(0,0,0,.4);
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -8px rgba(0,0,0,.6);
+  --shadow-lg:0 2px 4px rgba(0,0,0,.4),0 24px 48px -16px rgba(0,0,0,.7);
+  --ring:0 0 0 4px rgba(139,131,255,.22);
+  --topbar-bg:rgba(11,11,15,.72);
 }

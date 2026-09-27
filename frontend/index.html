@@ -7,10 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <meta name="theme-color" content="#F7F7F8" />
     <title>Índice de Alemán</title>
+    <script>
+      // Aplica el tema guardado antes del primer pintado (sin parpadeo).
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>
