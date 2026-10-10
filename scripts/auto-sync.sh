@@ -48,9 +48,16 @@ Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>"
     log "Commit local creado."
 fi
 
-# 2. Integrar lo remoto.
-if ! git pull --rebase --autostash origin main >/tmp/german-index-sync-pull.log 2>&1; then
-    log "Conflicto al integrar cambios remotos — se aborta el rebase, requiere resolución manual. Detalle: /tmp/german-index-sync-pull.log"
+# 2. Integrar lo remoto. Primero el fetch por separado: si falla es la red
+#    (el Mac despertando de reposo, wifi caída…), no un conflicto, y basta
+#    con reintentar en el siguiente ciclo.
+if ! git fetch -q origin main >/tmp/german-index-sync-fetch.log 2>&1; then
+    log "Sin conexión con GitHub — se reintenta en el siguiente ciclo. Detalle: /tmp/german-index-sync-fetch.log"
+    exit 0
+fi
+if ! git rebase --autostash origin/main >/tmp/german-index-sync-pull.log 2>&1; then
+    cp /tmp/german-index-sync-pull.log /tmp/german-index-sync-conflict.log
+    log "Conflicto al integrar cambios remotos — se aborta el rebase, requiere resolución manual. Detalle: /tmp/german-index-sync-conflict.log"
     git rebase --abort 2>/dev/null
     exit 1
 fi
