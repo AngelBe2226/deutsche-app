@@ -1,0 +1,132 @@
+{
+  "block": "21",
+  "title": "Diálogos y lecturas",
+  "kicker": "Bloque 21 · Destrezas · A2",
+  "intro": "La gramática en <b class=\"hl\">contexto real</b>: conversaciones completas con audio por turno y textos de lectura con vocabulario glosado y preguntas de comprensión. Escucha primero, lee después y solo al final abre la traducción.",
+  "sections": [
+    {
+      "idx": "21.1",
+      "title": "En la recepción: el check-in",
+      "level": "A2",
+      "rule": "Las fórmulas clave de un check-in: <b>Ich habe ein Zimmer reserviert</b> (tengo una habitación reservada), <b>auf den Namen …</b> (a nombre de …) y, para pedir algo con cortesía, el <b>Konjunktiv II</b>: <i>Könnte ich …? / Könnten Sie …?</i> en lugar de <i>Kann ich …?</i>. Escucha el diálogo entero con «Escuchar todo» y después cada turno por separado.",
+      "dialog": {
+        "id": "recepcion-checkin",
+        "setting": "Hotel Seeblick, Hamburgo · recepción, 15:30",
+        "roles": {
+          "R": { "name": "Frau Keller", "label": "Recepcionista" },
+          "G": { "name": "Herr Martín", "label": "Huésped" }
+        },
+        "lines": [
+          { "who": "R", "de": "Guten Tag! Willkommen im Hotel Seeblick. Wie kann ich Ihnen helfen?", "es": "¡Buenas tardes! Bienvenido al Hotel Seeblick. ¿En qué puedo ayudarle?" },
+          { "who": "G", "de": "Guten Tag. <b>Ich habe ein Zimmer reserviert</b>, <b>auf den Namen</b> Martín.", "es": "Buenas tardes. Tengo una habitación reservada a nombre de Martín." },
+          { "who": "R", "de": "Einen Moment, bitte … Ja, hier habe ich Ihre Reservierung: ein Einzelzimmer für drei Nächte, mit Frühstück.", "es": "Un momento, por favor… Sí, aquí tengo su reserva: una habitación individual para tres noches, con desayuno." },
+          { "who": "G", "de": "Genau. <b>Könnte ich</b> vielleicht ein ruhiges Zimmer bekommen? Bei Lärm schlafe ich sehr schlecht.", "es": "Exacto. ¿Podría darme una habitación tranquila? Con ruido duermo muy mal." },
+          { "who": "R", "de": "Kein Problem. Ich gebe Ihnen ein Zimmer zum Innenhof, im dritten Stock.", "es": "No hay problema. Le doy una habitación que da al patio interior, en la tercera planta." },
+          { "who": "G", "de": "Super, danke. Ab wann gibt es Frühstück?", "es": "Genial, gracias. ¿A partir de qué hora hay desayuno?" },
+          { "who": "R", "de": "Das Frühstück gibt es von sieben bis halb elf im Restaurant im Erdgeschoss.", "es": "El desayuno es de siete a diez y media, en el restaurante de la planta baja." },
+          { "who": "G", "de": "Und bis wann muss ich am Abreisetag auschecken?", "es": "¿Y hasta qué hora tengo que dejar la habitación el día de salida?" },
+          { "who": "R", "de": "Bis elf Uhr. <b>Könnten Sie</b> bitte noch dieses Formular ausfüllen und hier unterschreiben?", "es": "Hasta las once. ¿Podría rellenar este formulario y firmar aquí, por favor?" },
+          { "who": "G", "de": "Natürlich … So, bitte schön.", "es": "Claro… Ya está, aquí tiene." },
+          { "who": "R", "de": "Vielen Dank. Hier ist Ihre Schlüsselkarte, Zimmer 312. Der Aufzug ist gleich links. Einen schönen Aufenthalt!", "es": "Muchas gracias. Aquí tiene su tarjeta-llave, habitación 312. El ascensor está justo a la izquierda. ¡Que disfrute de su estancia!" }
+        ]
+      },
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "<b>halb elf</b> son las <b>10:30</b>, no las 11:30: en alemán la «media» se cuenta hacia la hora siguiente (<i>halb elf</i> = «media hacia las once»). Es el error más típico con las horas."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Pisos: <i>das Erdgeschoss</i> es la planta baja y <i>der erste Stock</i> ya es la primera planta por encima. Por eso <i>im dritten Stock</i> es la tercera planta, igual que en España."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b21-s1q1",
+          "question": "1. ¿Cuántas noches se queda Herr Martín?",
+          "options": ["eine Nacht", "zwei Nächte", "drei Nächte"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b21-s1q2",
+          "question": "2. «<i>Könnte</i> ich ein ruhiges Zimmer bekommen?» — ¿por qué <i>könnte</i> y no <i>kann</i>?",
+          "options": ["Es más cortés (Konjunktiv II)", "Es pasado (Präteritum)", "Lo exige la palabra «Zimmer»"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b21-s1q3",
+          "question": "3. Ich habe ein Zimmer reserviert, <span class=\"blank\">___</span> den Namen Martín.",
+          "options": ["für", "auf", "mit"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s1q4",
+          "question": "4. ¿A qué hora termina el desayuno?",
+          "options": ["a las 10:30", "a las 11:30", "a las 11:00"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b21-s1",
+        "label": "<b>tu turno:</b> eres el huésped. Pide con cortesía una habitación con vistas al mar (<i>mit Meerblick</i>) y pregunta hasta qué hora hay desayuno.",
+        "placeholder": "Ej: Könnte ich vielleicht ein Zimmer mit Meerblick bekommen? Bis wann gibt es …"
+      }
+    },
+    {
+      "idx": "21.2",
+      "title": "Lectura: mi primer día en la recepción",
+      "level": "A2",
+      "rule": "Lee el texto una vez <b>sin ayuda</b>. Después pasa el ratón por las palabras <b>subrayadas</b> para ver su traducción (también están en «Vocabulario») y responde a las preguntas. Fíjate en el <b>Perfekt</b> para contar el pasado: <i>hat … angefangen, sind … gekommen</i>.",
+      "reading": {
+        "id": "erster-tag",
+        "kind": "Blog · texto personal",
+        "title": "Mein erster Tag an der Rezeption",
+        "paragraphs": [
+          "Ich heiße Lena, bin 24 Jahre alt und komme aus Leipzig. Seit Montag arbeite ich als <span class=\"gl\" data-es=\"recepcionista\">Rezeptionistin</span> in einem kleinen Hotel am Hamburger Hafen. Ich war ziemlich <span class=\"gl\" data-es=\"nerviosa, emocionada\">aufgeregt</span>, denn es war mein erster richtiger Job nach der <span class=\"gl\" data-es=\"formación profesional\">Ausbildung</span>.",
+          "Mein <span class=\"gl\" data-es=\"turno (de trabajo)\">Dienst</span> hat um sechs Uhr morgens angefangen. Zuerst hat mir meine Kollegin Aylin alles gezeigt: das Computersystem, die <span class=\"gl\" data-es=\"caja\">Kasse</span> und den Raum für das <span class=\"gl\" data-es=\"equipaje\">Gepäck</span>. Dann sind schon die ersten Gäste gekommen. Ein <span class=\"gl\" data-es=\"matrimonio\">Ehepaar</span> aus Spanien wollte früher einchecken, aber ihr Zimmer war noch nicht fertig. Ich habe ihnen <span class=\"gl\" data-es=\"ofrecido\">angeboten</span>, ihre Koffer bei uns zu lassen, und ihnen ein Café in der Nähe <span class=\"gl\" data-es=\"recomendado\">empfohlen</span>.",
+          "Am Nachmittag gab es ein Problem: Ein Gast hat sich <span class=\"gl\" data-es=\"quejado (sich beschweren)\">beschwert</span>, weil die <span class=\"gl\" data-es=\"calefacción\">Heizung</span> in seinem Zimmer nicht funktioniert hat. Ich bin ein bisschen nervös geworden, aber Aylin hat mir geholfen. Wir haben sofort den <span class=\"gl\" data-es=\"encargado de mantenimiento\">Hausmeister</span> angerufen und dem Gast ein anderes Zimmer gegeben.",
+          "Am Abend war ich sehr müde, aber auch glücklich. An einem einzigen Tag habe ich mehr gelernt als in drei Monaten Unterricht. Morgen habe ich <span class=\"gl\" data-es=\"turno de tarde\">Spätdienst</span> – dann bin ich <span class=\"gl\" data-es=\"por primera vez\">zum ersten Mal</span> allein an der Rezeption."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b21-s2q1",
+          "question": "1. Lena arbeitet seit einem Monat im Hotel.",
+          "options": ["richtig", "falsch"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s2q2",
+          "question": "2. Das Ehepaar aus Spanien konnte sofort in sein Zimmer.",
+          "options": ["richtig", "falsch"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s2q3",
+          "question": "3. Was hat Lena dem Ehepaar angeboten?",
+          "options": ["ein anderes Hotel", "das Gepäck im Hotel zu lassen", "ein kostenloses Frühstück"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s2q4",
+          "question": "4. Warum hat sich ein Gast beschwert?",
+          "options": ["Das Zimmer war zu laut.", "Die Heizung war kaputt.", "Das Frühstück war kalt."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s2q5",
+          "question": "5. Morgen arbeitet Lena allein an der Rezeption.",
+          "options": ["richtig", "falsch"],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b21-s2",
+        "label": "<b>tu turno:</b> escribe 2–3 frases sobre tu primer día en un trabajo usando el Perfekt (<i>habe … gemacht, bin … gekommen</i>).",
+        "placeholder": "Ej: Mein erster Tag hat um acht Uhr angefangen. Ich war sehr aufgeregt …"
+      }
+    }
+  ]
+}
