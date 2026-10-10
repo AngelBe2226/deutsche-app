@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { IDIOMS } from "../data/idioms";
 import { useProgress } from "../progress";
+import SpeakButton from "../components/SpeakButton";
 
 // Flashcards for the 50 idioms. Click to flip; mark "known" or "review".
 // "review" cards float to the top (a light spaced-repetition ordering).
@@ -59,8 +60,11 @@ function FlashCard({ id, idiom, meaning, status, onMark }) {
       }
       onClick={() => setFlipped((f) => !f)}
     >
-      <div className="fidiom">
-        #{id} “{idiom}”
+      <div className="fhead">
+        <div className="fidiom">
+          <span className="fnum">#{id}</span> “{idiom}”
+        </div>
+        <SpeakButton id={`idiom-${id}`} text={idiom} label="Escuchar expresión" />
       </div>
       <div className="fmean">{meaning}</div>
       <div className="factions">

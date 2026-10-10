@@ -6,7 +6,8 @@ import Sidebar from "./components/Sidebar";
 import BlockPage from "./components/BlockPage";
 import CommandPalette from "./components/CommandPalette";
 import { GradientDefs } from "./components/ProgressRing";
-import { IconMenu, IconMoon, IconSearch, IconSun, IconClose } from "./components/Icons";
+import { IconMenu, IconMoon, IconSearch, IconSun, IconClose, IconSpeaker, IconTurtle } from "./components/Icons";
+import { toggleSpeed, useTTS } from "./tts";
 import PracticePage from "./panels/PracticePage";
 import HighlightsPanel from "./panels/HighlightsPanel";
 
@@ -68,6 +69,7 @@ export default function App() {
   const pendingSection = useRef(null);
   const contentRef = useRef(null);
   const { isDark, toggle: toggleTheme } = useTheme();
+  const tts = useTTS();
 
   const allBlocks = useAllBlocks(index);
   const stats = useBlockStats(allBlocks);
@@ -195,6 +197,21 @@ export default function App() {
               <span>Buscar</span>
               <kbd>⌘K</kbd>
             </button>
+            {tts.supported && (
+              <button
+                className={"speed-btn" + (tts.speed === "slow" ? " slow" : "")}
+                onClick={toggleSpeed}
+                title={
+                  tts.speed === "slow"
+                    ? "Audio lento — pulsa para velocidad normal"
+                    : "Audio a velocidad normal — pulsa para lento"
+                }
+                aria-label="Velocidad del audio"
+              >
+                {tts.speed === "slow" ? <IconTurtle size={15} /> : <IconSpeaker size={15} />}
+                <span>{tts.speed === "slow" ? "Lento" : "Normal"}</span>
+              </button>
+            )}
             <button
               className="icon-btn"
               onClick={toggleTheme}

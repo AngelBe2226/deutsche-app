@@ -1957,3 +1957,139 @@ b.hl,
 .examples li .hl-btn:active {
   transform: translateY(-50%) scale(0.88);
 }
+
+/* ================================================================
+   Audio (TTS): botón «escuchar» y selector de velocidad
+   ================================================================ */
+.speak-btn {
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink-faint);
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.speak-btn:hover {
+  color: var(--iris);
+  background: var(--iris-soft);
+  border-color: var(--iris-line);
+}
+.speak-btn:active {
+  transform: scale(0.9);
+}
+.speak-btn.on {
+  color: #fff;
+  background: var(--grad);
+  border-color: transparent;
+  box-shadow: 0 4px 12px -4px rgba(139, 92, 246, 0.7);
+}
+.speak-btn .wave {
+  transition: opacity 0.2s;
+}
+.speak-btn.on .w1 {
+  animation: wave 1s ease-in-out infinite;
+}
+.speak-btn.on .w2 {
+  animation: wave 1s ease-in-out 0.25s infinite;
+}
+@keyframes wave {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+/* En ejemplos: a la izquierda de la estrella, centrado en vertical. */
+.examples li {
+  padding-right: 4.4rem;
+}
+.examples li > .speak-btn {
+  position: absolute;
+  top: 50%;
+  right: 2.15rem;
+  transform: translateY(-50%);
+}
+.examples li > .speak-btn:active {
+  transform: translateY(-50%) scale(0.9);
+}
+
+/* En tablas: columna estrecha al final; visible al pasar por la fila. */
+.ref-table .speak-col {
+  width: 1%;
+  padding: 0.3rem 0.45rem 0.3rem 0;
+  vertical-align: middle;
+}
+.ref-table tbody .speak-btn {
+  width: 26px;
+  height: 26px;
+  opacity: 0.35;
+}
+.ref-table tbody tr:hover .speak-btn,
+.ref-table tbody .speak-btn:focus-visible,
+.ref-table tbody .speak-btn.on {
+  opacity: 1;
+}
+@media (hover: none) {
+  .ref-table tbody .speak-btn {
+    opacity: 0.8;
+  }
+}
+
+/* En flashcards de Redewendungen */
+.fhead {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+.fhead .fidiom {
+  flex: 1;
+}
+.fnum {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--ink-faint);
+  margin-right: 0.15rem;
+}
+.fhead .speak-btn {
+  margin: -0.25rem -0.35rem 0 0;
+}
+
+/* Selector de velocidad en la barra superior */
+.speed-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  height: 34px;
+  padding: 0 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.speed-btn:hover {
+  border-color: var(--line-strong);
+  color: var(--ink);
+}
+.speed-btn.slow {
+  color: var(--iris-ink);
+  background: var(--iris-soft);
+  border-color: var(--iris-line);
+}
+@media (max-width: 900px) {
+  .speed-btn span {
+    display: none;
+  }
+  .speed-btn {
+    width: 34px;
+    padding: 0;
+    justify-content: center;
+  }
+}

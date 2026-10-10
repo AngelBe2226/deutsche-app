@@ -3,6 +3,8 @@ import Table from "./Table";
 import Quiz from "./Quiz";
 import ProduceBox from "./ProduceBox";
 import HighlightButton from "./HighlightButton";
+import SpeakButton from "./SpeakButton";
+import { plainText } from "../tts";
 import { useProgress } from "../progress";
 import { IconAlert, IconEye, IconHelp, IconLightbulb, IconRotate, IconScale } from "./Icons";
 
@@ -98,6 +100,7 @@ export default function SectionCard({ section }) {
         <ul className="examples" aria-label="Ejemplos">
           {section.examples.map((ex, i) => (
             <li key={i}>
+              <SpeakButton id={`${section.idx}-ex${i}`} text={plainText(ex.en)} label="Escuchar ejemplo" />
               <HighlightButton id={`hl:${section.idx}-ex${i}`} label="ejemplo destacado" />
               <RichText className="ex-en" html={ex.en} />
               {ex.es && <span className="ex-es">{ex.es}</span>}
@@ -107,7 +110,7 @@ export default function SectionCard({ section }) {
       )}
 
       {section.tables?.map((t, i) => (
-        <Table key={i} table={t} />
+        <Table key={i} table={t} id={`${section.idx}-t${i}`} />
       ))}
 
       {notesAfter.map((n) => (

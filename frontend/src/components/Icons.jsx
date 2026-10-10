@@ -163,3 +163,16 @@ export const IconHash = (p) => (
     <path d="M5 9h14M5 15h14M10 4L8 20M16 4l-2 16" />
   </Svg>
 );
+export const IconSpeaker = (p) => (
+  <Svg {...p}>
+    <path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" />
+    <path className="wave w1" d="M15.5 9.5a3.5 3.5 0 0 1 0 5" />
+    <path className="wave w2" d="M18 7a7 7 0 0 1 0 10" />
+  </Svg>
+);
+export const IconTurtle = (p) => (
+  <Svg {...p}>
+    <path d="M4 15a8 6 0 0 1 16 0z" />
+    <path d="M20 15h1.5a1.5 1.5 0 0 0 0-3H20M7 15l-1 3M17 15l1 3" />
+  </Svg>
+);
