@@ -9,6 +9,7 @@ const supported = typeof window !== "undefined" && "speechSynthesis" in window;
 
 let state = {
   playing: null, // id del botón que está sonando
+  cursor: null, // en una secuencia, índice de la frase que suena
   speed: readSpeed(),
   hasVoice: false,
 };
@@ -28,8 +29,11 @@ function readSpeed() {
 }
 
 // Elige la mejor voz alemana disponible: las "premium/enhanced" de macOS y
-// las de Google suenan mucho más naturales que las básicas.
+// las de Google suenan mucho más naturales que las básicas. `voices[0]` es la
+// voz principal; `altVoice` es una segunda voz (preferiblemente masculina)
+// para dar un timbre distinto a cada personaje de un diálogo.
 let voice = null;
+let altVoice = null;
 function pickVoice() {
   const voices = window.speechSynthesis.getVoices().filter((v) => /^de(-|_|$)/i.test(v.lang));
   if (!voices.length) return;
@@ -39,12 +43,28 @@ function pickVoice() {
     (/anna|petra|helena|markus|yannick/i.test(v.name) ? 3 : 0) +
     (/de-DE/i.test(v.lang) ? 2 : 0) +
     (v.localService ? 1 : 0);
-  voice = voices.sort((a, b) => score(b) - score(a))[0];
+  const ranked = voices.sort((a, b) => score(b) - score(a));
+  voice = ranked[0];
+  altVoice =
+    ranked.find((v) => v !== voice && /markus|yannick|viktor|martin|male|mann|reed|eddy/i.test(v.name)) ||
+    ranked.find((v) => v !== voice && !/grandma|grandpa|rocko|shelley|sandy|flo/i.test(v.name)) ||
+    null;
   set({ hasVoice: true });
 }
 if (supported) {
   pickVoice();
   window.speechSynthesis.addEventListener?.("voiceschanged", pickVoice);
+}
+
+function utterance(text, alt = false) {
+  const u = new SpeechSynthesisUtterance(text);
+  const v = alt ? altVoice || voice : voice;
+  u.lang = v?.lang || "de-DE";
+  if (v) u.voice = v;
+  // Sin segunda voz, el otro personaje se distingue al menos por el tono.
+  if (alt && !altVoice) u.pitch = 0.8;
+  u.rate = RATES[state.speed];
+  return u;
 }
 
 // Texto plano a partir del HTML del contenido (spans de rol, <b>, <i>…).
@@ -59,24 +79,37 @@ export function plainText(html) {
 }
 
 export function speak(id, text) {
-  if (!supported || !text) return;
+  speakSequence(id, [{ text }]);
+}
+
+// Lee varias frases seguidas (p. ej. un diálogo). `alt: true` usa la segunda
+// voz. `state.cursor` indica qué elemento está sonando, para resaltarlo.
+export function speakSequence(id, items) {
+  if (!supported || !items?.length) return;
   const synth = window.speechSynthesis;
   // Pulsar el mismo botón mientras suena lo detiene.
   if (state.playing === id) {
-    synth.cancel();
-    set({ playing: null });
+    stop();
     return;
   }
   synth.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = voice?.lang || "de-DE";
-  if (voice) u.voice = voice;
-  u.rate = RATES[state.speed];
-  const done = () => state.playing === id && set({ playing: null });
-  u.onend = done;
-  u.onerror = done;
-  set({ playing: id });
-  synth.speak(u);
+  const list = items.filter((it) => it.text);
+  if (!list.length) return;
+  set({ playing: id, cursor: 0 });
+  list.forEach((it, i) => {
+    const u = utterance(it.text, it.alt);
+    u.onstart = () => state.playing === id && set({ cursor: i });
+    const done = () => state.playing === id && set({ playing: null, cursor: null });
+    if (i === list.length - 1) u.onend = done;
+    u.onerror = (e) => e.error !== "interrupted" && e.error !== "canceled" && done();
+    synth.speak(u);
+  });
+}
+
+export function stop() {
+  if (!supported) return;
+  window.speechSynthesis.cancel();
+  set({ playing: null, cursor: null });
 }
 
 export function toggleSpeed() {

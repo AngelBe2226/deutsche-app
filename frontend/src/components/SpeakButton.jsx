@@ -1,8 +1,9 @@
-import { speak, useTTS } from "../tts";
+import { speakSequence, useTTS } from "../tts";
 import { IconSpeaker } from "./Icons";
 
 // Botón «escuchar»: lee `text` en alemán. Vuelve a pulsarlo para parar.
-export default function SpeakButton({ id, text, label = "Escuchar", className = "" }) {
+// `alt` usa la segunda voz (el otro personaje de un diálogo).
+export default function SpeakButton({ id, text, alt = false, label = "Escuchar", className = "" }) {
   const { playing, supported } = useTTS();
   if (!supported || !text) return null;
   const on = playing === id;
@@ -12,7 +13,7 @@ export default function SpeakButton({ id, text, label = "Escuchar", className = 
       className={"speak-btn" + (on ? " on" : "") + (className ? " " + className : "")}
       onClick={(e) => {
         e.stopPropagation();
-        speak(id, text);
+        speakSequence(id, [{ text, alt }]);
       }}
       aria-pressed={on}
       aria-label={on ? "Detener audio" : label}

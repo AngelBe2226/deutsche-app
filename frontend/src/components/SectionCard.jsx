@@ -4,6 +4,8 @@ import Quiz from "./Quiz";
 import ProduceBox from "./ProduceBox";
 import HighlightButton from "./HighlightButton";
 import SpeakButton from "./SpeakButton";
+import Dialog from "./Dialog";
+import Reading from "./Reading";
 import { plainText } from "../tts";
 import { useProgress } from "../progress";
 import { IconAlert, IconEye, IconHelp, IconLightbulb, IconRotate, IconScale } from "./Icons";
@@ -96,6 +98,10 @@ export default function SectionCard({ section }) {
         <Note key={`nb-${n._i}`} note={n} hlId={`hl:${section.idx}-note${n._i}`} />
       ))}
 
+      {section.dialog && <Dialog dialog={section.dialog} />}
+
+      {section.reading && <Reading reading={section.reading} />}
+
       {section.examples?.length > 0 && (
         <ul className="examples" aria-label="Ejemplos">
           {section.examples.map((ex, i) => (
@@ -120,7 +126,9 @@ export default function SectionCard({ section }) {
       {section.quiz?.length > 0 && (
         <div className="quizzes">
           <div className="quizzes-head">
-            <span className="quizzes-title">Comprueba lo aprendido</span>
+            <span className="quizzes-title">
+              {section.reading ? "Comprensión lectora" : "Comprueba lo aprendido"}
+            </span>
             <button className="reset-section-btn" onClick={resetSectionQuiz}>
               <IconRotate size={12} />
               Reiniciar epígrafe
