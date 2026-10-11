@@ -91,7 +91,8 @@ recarga solo al guardar. Esquema de cada sección: `idx`, `title`, `level`
 `at: start|end`), `examples` (`en` = frase alemana con spans de rol, `es` =
 traducción), `tables`, `quiz` (ids **estables**, nunca reordenar) y `produce`.
 
-Un bloque nuevo se registra en `_index.json` (el orden de esa lista es el de
+Las etiquetas del buscador ⌘K (nivel y destreza) se deducen solas de `level` y
+de los campos de cada sección. Un bloque nuevo se registra en `_index.json` (el orden de esa lista es el de
 la barra lateral; el panel de práctica `20` va siempre el último).
 
 ### Tipos de sección para destrezas y verticales
@@ -100,13 +101,14 @@ Campos opcionales que se combinan con los anteriores en la misma sección:
 
 | Campo | Qué muestra | Esquema |
 | --- | --- | --- |
-| `dialog` | Diálogo en burbujas, audio por turno y «Escuchar todo» (2 voces) | `{ id, setting, roles: { R: { name, label }, G: {…} }, lines: [ { who, de, es } ] }` |
+| `dialog` | Diálogo en burbujas, audio por turno, «Escuchar todo» (2 voces) y modo «completa el turno» | `{ id, setting, roles: { R: { name, label }, G: {…} }, lines: [ { who, de, es } ] }` |
 | `reading` | Texto con glosas al pasar el ratón + lista «Vocabulario» | `{ id, kind, title, paragraphs: ["…<span class=\"gl\" data-es=\"traducción\">Wort</span>…"] }` — las preguntas de comprensión van en `quiz` |
 | `vocab` | Tarjetas con artículo coloreado, plural, audio y modo autotest | `{ id: "bXX-voc", items: [ { de: "die Rezeption", pl: "Rezeptionen", es: "la recepción" } ] }` |
 | `roleplay` | Juego de rol guiado: el otro habla, tú escribes y comparas con el modelo | `{ id: "bXX-rp", you, partner: { name, label }, steps: [ { partner, es, task, model } ] }` |
 | `scenario` | Situación real con objetivos marcables | `{ id: "bXX-sc", situation, goals: ["…"] }` |
+| `order` | Ejercicio «ordenar» (hechos de una lectura, pasos…) | `{ id: "bXX-…", prompt, items: ["…"] }` con `items` en el orden correcto |
 
-Los `id` de `roleplay` y `scenario` deben empezar por `bXX-` para que «Reiniciar
+Los `id` de `roleplay`, `scenario` y `order` deben empezar por `bXX-` para que «Reiniciar
 bloque» también los borre.
 
 ### Patrón de vertical temática

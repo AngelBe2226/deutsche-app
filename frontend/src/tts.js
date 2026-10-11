@@ -165,18 +165,39 @@ export function isGerman(text) {
   return !!t && !ES_TEXT.test(t);
 }
 
-// Frase de un quiz lista para leer: hueco relleno con la respuesta correcta,
-// sin numeración ni pistas entre paréntesis. Devuelve "" si no es alemán.
+// Frase de un quiz lista para leer: la parte alemana (lo que va tras «→» o
+// «:»), con los huecos rellenos con la respuesta correcta —repartida si hay
+// varios huecos: «macht … auf» → «Er macht das Fenster auf»—, sin
+// numeración ni pistas. Devuelve "" si no queda una frase alemana limpia.
 export function quizSentence(questionHtml, answer) {
   const el = document.createElement("div");
   el.innerHTML = questionHtml || "";
-  el.querySelectorAll(".blank").forEach((b) => (b.textContent = answer));
+  // Huecos escritos a mano («___») sin su span: se envuelven igual.
+  if (!el.querySelector(".blank")) el.innerHTML = el.innerHTML.replace(/_{2,}/g, '<span class="blank">___</span>');
+  const blanks = [...el.querySelectorAll(".blank")];
+  const parts = answer.includes("…")
+    ? answer.split("…").map((x) => x.trim())
+    : blanks.length > 1 && answer.split(/\s+/).length === blanks.length
+    ? answer.split(/\s+/)
+    : [answer];
+  blanks.forEach((b, i) => (b.textContent = parts.length === blanks.length ? parts[i] : i === 0 ? answer : ""));
+
   let t = (el.textContent || "")
-    .replace(/_{2,}/g, answer)
     .replace(/^\s*\d+\.\s*/, "")
-    .replace(/\([^)]*\)|«[^»]*»/g, " ")
-    .replace(/[→←↔]/g, ",")
+    .replace(/\([^)]*\)|«[^»]*»/g, " ");
+  const segs = t.split(/→|:/).map((x) => x.trim());
+  t = segs[segs.length - 1] || "";
+  if (!t && blanks.length === 0) t = answer; // «Os invitamos.» → (respuesta = frase entera)
+  t = t
+    .replace(/^[\s,;…]+/, "")
+    .replace(/\s+([,.?!])/g, "$1")
     .replace(/\s+/g, " ")
     .trim();
+  // Terminaciones marcadas con guion en los ejercicios: «nett-e» → «nette».
+  t = t.replace(/(\p{Ll})-(e|en|er|es|em)(?!\p{L})/gu, "$1$2");
+  if (!/\p{L}/u.test(t) || /…|\.\.\.|\+|=/.test(t) || /significa|obligatorio/i.test(t)) return "";
+  // Si la frase que queda no contiene la respuesta, no es la frase del ejercicio.
+  const ans = answer.replace(/^-/, "").split("…")[0].trim().toLowerCase();
+  if (blanks.length && ans && !t.toLowerCase().includes(ans)) return "";
   return isGerman(t) ? t : "";
 }

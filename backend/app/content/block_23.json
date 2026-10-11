@@ -2,7 +2,7 @@
   "block": "23",
   "title": "Vertical: Inmobiliaria",
   "kicker": "Bloque 23 · Vertical profesional · B1",
-  "intro": "Para <b class=\"hl\">vender o alquilar inmuebles</b> en alemán: el vocabulario del sector, cómo presentar un piso, responder a las objeciones de precio y, sobre todo, <b>cerrar una visita</b>.",
+  "intro": "Para <b class=\"hl\">vender o alquilar inmuebles</b> en alemán: el vocabulario del sector, cómo presentar un piso, hablar de precio y financiación, responder a las objeciones y, sobre todo, <b>cerrar una visita</b>.",
   "sections": [
     {
       "idx": "23.1",
@@ -92,6 +92,33 @@
             "es": "el notario"
           },
           {
+            "de": "der Kredit",
+            "es": "el préstamo",
+            "pl": "Kredite"
+          },
+          {
+            "de": "das Eigenkapital",
+            "es": "el capital propio, la entrada (sin plural)"
+          },
+          {
+            "de": "die Finanzierungszusage",
+            "es": "la aprobación del préstamo",
+            "pl": "Finanzierungszusagen"
+          },
+          {
+            "de": "die Provision",
+            "es": "la comisión (del agente)",
+            "pl": "Provisionen"
+          },
+          {
+            "de": "die Grunderwerbsteuer",
+            "es": "el impuesto de transmisiones (sin plural)"
+          },
+          {
+            "de": "die Kaufnebenkosten",
+            "es": "los gastos de compra (solo plural)"
+          },
+          {
             "de": "das Exposé",
             "pl": "Exposés",
             "es": "la ficha del inmueble"
@@ -147,7 +174,7 @@
       "idx": "23.2",
       "title": "Redemittel: presentar, argumentar y proponer",
       "level": "B1",
-      "rule": "Las fórmulas de una buena presentación siguen un orden: <b>datos → ventajas → precio → siguiente paso</b>. Nunca termines sin proponer una visita.",
+      "rule": "Las fórmulas de una buena presentación siguen un orden: <b>datos → ventajas → precio y financiación → siguiente paso</b>. Nunca termines sin proponer una visita.",
       "tables": [
         {
           "headers": [
@@ -180,6 +207,22 @@
               "Die Nebenkosten betragen etwa 250 Euro im Monat."
             ],
             [
+              "Hablar de financiación",
+              "Haben Sie schon eine Finanzierungszusage von Ihrer Bank?"
+            ],
+            [
+              "Hablar de financiación",
+              "Banken erwarten in der Regel etwa 20 Prozent Eigenkapital."
+            ],
+            [
+              "Hablar de financiación",
+              "Dazu kommen die Kaufnebenkosten: Grunderwerbsteuer, Notar und Maklerprovision."
+            ],
+            [
+              "Ofrecer ayuda",
+              "Gern empfehle ich Ihnen einen unabhängigen Finanzierungsberater."
+            ],
+            [
               "Responder objeciones",
               "Ich verstehe Ihre Bedenken, aber …"
             ],
@@ -203,6 +246,11 @@
           "type": "tip",
           "at": "end",
           "text": "En Alemania los <b>Zimmer</b> se cuentan sin cocina ni baño: una <i>3-Zimmer-Wohnung</i> tiene salón + 2 dormitorios. Y <b>das Exposé</b> es la ficha con fotos, plano y datos que se envía antes de la visita."
+        },
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Al precio de compra hay que sumar los <b>Kaufnebenkosten</b>: impuesto de transmisiones (<i>Grunderwerbsteuer</i>, entre el 3,5 % y el 6,5 % según el Land), notario y registro (≈ 2 %) y, si la hay, la <i>Maklerprovision</i>. En total suelen ser <b>un 10–15 % extra</b>: dilo pronto para que el cliente no se lleve sorpresas."
         }
       ],
       "quiz": [
@@ -225,6 +273,16 @@
             "3 baños"
           ],
           "correctIndex": 1
+        },
+        {
+          "id": "b23-s2q3",
+          "question": "3. ¿Qué pregunta haces para saber si el cliente ya puede pagar el piso?",
+          "options": [
+            "Haben Sie schon eine Finanzierungszusage von Ihrer Bank?",
+            "Wie viele Zimmer möchten Sie?",
+            "Mögen Sie Balkone?"
+          ],
+          "correctIndex": 0
         }
       ]
     },
