@@ -9,6 +9,7 @@ import Reading from "./Reading";
 import Vocab from "./Vocab";
 import Roleplay from "./Roleplay";
 import Scenario from "./Scenario";
+import OrderExercise from "./OrderExercise";
 import { plainText } from "../tts";
 import { useProgress } from "../progress";
 import { IconAlert, IconEye, IconHelp, IconLightbulb, IconRotate, IconScale } from "./Icons";
@@ -110,6 +111,8 @@ export default function SectionCard({ section }) {
       {section.roleplay && <Roleplay rp={section.roleplay} />}
 
       {section.reading && <Reading reading={section.reading} />}
+
+      {section.order && <OrderExercise ex={section.order} />}
 
       {section.examples?.length > 0 && (
         <ul className="examples" aria-label="Ejemplos">

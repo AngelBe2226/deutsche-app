@@ -2,6 +2,8 @@ import RichText from "./RichText";
 import { useProgress } from "../progress";
 import HighlightButton from "./HighlightButton";
 import { IconCheck, IconX } from "./Icons";
+import SpeakButton from "./SpeakButton";
+import { quizSentence } from "../tts";
 
 // One multiple-choice question. Once answered it locks: the correct option
 // turns green, a wrong pick turns red, and the choice is persisted by id.
@@ -40,6 +42,12 @@ export default function Quiz({ q }) {
         <div className={"fb show " + (wasRight ? "ok" : "no")}>
           {wasRight ? <IconCheck size={15} /> : <IconX size={15} />}
           {wasRight ? "¡Correcto!" : "La respuesta correcta está marcada en verde."}
+          <SpeakButton
+            id={`${q.id}-say`}
+            text={quizSentence(q.question, q.options[q.correctIndex])}
+            label="Escuchar la frase correcta"
+            className="fb-speak"
+          />
         </div>
       )}
     </div>

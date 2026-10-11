@@ -158,3 +158,25 @@ export function germanCells(headers, row) {
   });
   return out;
 }
+
+// ¿El texto está en alemán? (sin glosas en español entre paréntesis/comillas)
+export function isGerman(text) {
+  const t = (text || "").replace(/\([^)]*\)|«[^»]*»/g, " ").trim();
+  return !!t && !ES_TEXT.test(t);
+}
+
+// Frase de un quiz lista para leer: hueco relleno con la respuesta correcta,
+// sin numeración ni pistas entre paréntesis. Devuelve "" si no es alemán.
+export function quizSentence(questionHtml, answer) {
+  const el = document.createElement("div");
+  el.innerHTML = questionHtml || "";
+  el.querySelectorAll(".blank").forEach((b) => (b.textContent = answer));
+  let t = (el.textContent || "")
+    .replace(/_{2,}/g, answer)
+    .replace(/^\s*\d+\.\s*/, "")
+    .replace(/\([^)]*\)|«[^»]*»/g, " ")
+    .replace(/[→←↔]/g, ",")
+    .replace(/\s+/g, " ")
+    .trim();
+  return isGerman(t) ? t : "";
+}
