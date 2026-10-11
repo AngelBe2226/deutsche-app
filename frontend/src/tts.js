@@ -134,7 +134,7 @@ export function useTTS() {
 
 // Columnas cuyo encabezado indica explicación en español.
 const ES_HEADER =
-  /significad|signific|español|literal|uso|cuándo|matiz|pista|mecánica|efecto|ojo|cómo|origen|oculto|equivale|eso se dice|^persona$|^tipo$|^grupo$|^género$|^caso$|^poseedor$|^pregunta$|^frecuencia$|n\.º|cifra|^letra$/i;
+  /significad|signific|función|situación|para qué|español|literal|uso|cuándo|matiz|pista|mecánica|efecto|ojo|cómo|origen|oculto|equivale|eso se dice|^persona$|^tipo$|^grupo$|^género$|^caso$|^poseedor$|^pregunta$|^frecuencia$|n\.º|cifra|^letra$/i;
 // Rasgos de texto en español (el alemán no usa tildes agudas ni ñ).
 const ES_TEXT = /[áéíóúñ¿¡]|\b(el|la|los|las|de|del|que|con|para|por|una?|y|o|se|lo|cuando|sin|más|(in)?definido|masculino|femenino|neutro)\b/i;
 

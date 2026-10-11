@@ -2398,3 +2398,352 @@ b.hl,
     max-width: 100%;
   }
 }
+
+/* ================================================================
+   Verticales: vocabulario, juego de rol y escenario
+   ================================================================ */
+:root {
+  --g-m: var(--role-nom);
+  --g-f: var(--role-verb);
+  --g-n: var(--role-dat);
+}
+.vocab {
+  margin: 0 0 1.1rem;
+}
+.vocab-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.7rem;
+}
+.vocab-legend {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.76rem;
+  color: var(--ink-faint);
+}
+.vocab-legend i,
+.art {
+  font-style: normal;
+  font-weight: 650;
+}
+.vocab-legend i {
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  background: color-mix(in srgb, currentColor 12%, transparent);
+}
+.vocab-legend span {
+  margin-left: 0.3rem;
+}
+.g-m { color: var(--g-m); }
+.g-f { color: var(--g-f); }
+.g-n { color: var(--g-n); }
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 0.5rem;
+}
+.vcab {
+  position: relative;
+  padding: 0.65rem 2.3rem 0.65rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--surface);
+  box-shadow: var(--shadow-xs);
+  transition: border-color 0.15s, transform 0.15s;
+}
+.vcab.testing {
+  cursor: pointer;
+}
+.vcab.testing:hover {
+  border-color: var(--iris-line);
+  transform: translateY(-1px);
+}
+.vcab .speak-btn {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.4rem;
+  opacity: 0.5;
+}
+.vcab:hover .speak-btn,
+.vcab .speak-btn.on {
+  opacity: 1;
+}
+.vcab-de {
+  font-weight: 600;
+  font-size: 0.93rem;
+  letter-spacing: -0.01em;
+}
+.vcab-pl {
+  margin-left: 0.35rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--ink-faint);
+}
+.vcab-es {
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  margin-top: 0.1rem;
+}
+.vcab.hidden-es .vcab-es {
+  letter-spacing: 0.15em;
+  color: var(--line-strong);
+}
+
+/* Juego de rol */
+.roleplay,
+.scenario {
+  margin: 0 0 1.1rem;
+  padding: 1rem 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface-2);
+}
+.rp-head,
+.sc-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.rp-roles {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+.rp-role {
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.rp-role b {
+  color: var(--ink);
+  font-weight: 650;
+  margin-right: 0.2rem;
+}
+.rp-role.you {
+  border-color: var(--iris-line);
+  background: var(--iris-soft);
+}
+.rp-role.you b {
+  color: var(--iris-ink);
+}
+.rp-vs {
+  font-size: 0.74rem;
+  color: var(--ink-faint);
+}
+.rp-count {
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  color: var(--ink-faint);
+}
+.rp-track {
+  margin: 0.8rem 0 1rem;
+  height: 5px;
+}
+.rp-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.rp-step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  animation: fade-up 0.3s ease;
+}
+.rp-step .turn {
+  max-width: 92%;
+}
+.rp-step .turn-es {
+  font-size: 0.8rem;
+}
+.rp-task {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  padding-left: 0.2rem;
+}
+.rp-num {
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: var(--grad);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+.rp-answer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+.rp-answer textarea {
+  width: 100%;
+  resize: vertical;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: 0.65rem 0.8rem;
+  font-family: var(--body);
+  font-size: 0.94rem;
+  color: var(--ink);
+  background: var(--surface);
+}
+.rp-answer textarea:focus {
+  outline: none;
+  border-color: var(--iris);
+  box-shadow: var(--ring);
+}
+.primary-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+  transform: none;
+  filter: none;
+}
+.rp-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.rp-yours,
+.rp-model {
+  padding: 0.6rem 0.8rem;
+  border-radius: var(--r);
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+.rp-model {
+  border-color: var(--ok-line);
+  background: linear-gradient(var(--ok-bg), var(--ok-bg)), var(--surface);
+}
+.rp-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.66rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  min-height: 26px;
+}
+.rp-model .rp-label {
+  color: var(--ok);
+}
+.rp-compare p {
+  margin: 0.1rem 0 0;
+  font-size: 0.92rem;
+}
+.rp-done {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: var(--r);
+  background: var(--ok-bg);
+  border: 1px solid var(--ok-line);
+  color: var(--ok);
+  font-size: 0.86rem;
+  font-weight: 550;
+}
+.rp-done .chip-btn {
+  margin-left: auto;
+}
+
+/* Escenario */
+.scenario {
+  background: var(--grad-soft), var(--surface);
+  border-color: var(--iris-line);
+}
+.sc-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.68rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--iris);
+}
+.sc-situation {
+  margin: 0.6rem 0 0.8rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.sc-goals {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.sc-goal {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.sc-goal:hover {
+  border-color: var(--iris-line);
+}
+.sc-box {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: 0.12rem;
+  border-radius: 5px;
+  border: 1.5px solid var(--line-strong);
+  color: #fff;
+}
+.sc-goal.on {
+  border-color: var(--ok-line);
+  background: var(--ok-bg);
+}
+.sc-goal.on .sc-box {
+  background: var(--ok);
+  border-color: var(--ok);
+}
+.sc-goal.on span:last-child {
+  color: var(--ink-soft);
+}
+@media (max-width: 600px) {
+  .rp-compare {
+    grid-template-columns: 1fr;
+  }
+  .vocab-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

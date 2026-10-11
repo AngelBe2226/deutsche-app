@@ -6,6 +6,9 @@ import HighlightButton from "./HighlightButton";
 import SpeakButton from "./SpeakButton";
 import Dialog from "./Dialog";
 import Reading from "./Reading";
+import Vocab from "./Vocab";
+import Roleplay from "./Roleplay";
+import Scenario from "./Scenario";
 import { plainText } from "../tts";
 import { useProgress } from "../progress";
 import { IconAlert, IconEye, IconHelp, IconLightbulb, IconRotate, IconScale } from "./Icons";
@@ -98,7 +101,13 @@ export default function SectionCard({ section }) {
         <Note key={`nb-${n._i}`} note={n} hlId={`hl:${section.idx}-note${n._i}`} />
       ))}
 
+      {section.vocab && <Vocab vocab={section.vocab} />}
+
+      {section.scenario && <Scenario sc={section.scenario} />}
+
       {section.dialog && <Dialog dialog={section.dialog} />}
+
+      {section.roleplay && <Roleplay rp={section.roleplay} />}
 
       {section.reading && <Reading reading={section.reading} />}
 
