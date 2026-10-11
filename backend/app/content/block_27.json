@@ -366,6 +366,105 @@
               "ein Ziel",
               "verfolgen",
               "perseguir un objetivo"
+            ],
+            [
+              "eine Rolle",
+              "spielen",
+              "desempeñar un papel"
+            ],
+            [
+              "eine Frage",
+              "aufwerfen",
+              "plantear una cuestión"
+            ],
+            [
+              "Einfluss",
+              "nehmen / ausüben (auf)",
+              "influir (en)"
+            ],
+            [
+              "eine Lösung",
+              "erarbeiten",
+              "elaborar una solución"
+            ],
+            [
+              "einen Beitrag",
+              "leisten (zu)",
+              "contribuir (a)"
+            ],
+            [
+              "Bezug",
+              "nehmen (auf)",
+              "hacer referencia (a)"
+            ],
+            [
+              "eine Vereinbarung",
+              "treffen",
+              "llegar a un acuerdo"
+            ],
+            [
+              "Kosten",
+              "senken",
+              "reducir costes"
+            ],
+            [
+              "Erfahrungen",
+              "sammeln",
+              "adquirir experiencia"
+            ],
+            [
+              "einen Vorschlag",
+              "unterbreiten",
+              "presentar una propuesta (formal)"
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Sinónimos",
+            "Matiz",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "ändern / verändern",
+              "ändern: modificar algo concreto · verändern: transformar en profundidad",
+              "Wir ändern den Termin. / Das Internet hat die Welt verändert."
+            ],
+            [
+              "wechseln / tauschen",
+              "wechseln: cambiar por otro del mismo tipo · tauschen: intercambiar con alguien",
+              "Ich wechsle den Job. / Wir tauschen die Plätze."
+            ],
+            [
+              "steigen / zunehmen / wachsen",
+              "steigen: cifras y precios · zunehmen: cantidad o intensidad · wachsen: crecimiento orgánico",
+              "Die Preise steigen. / Der Verkehr nimmt zu. / Die Stadt wächst."
+            ],
+            [
+              "wichtig / wesentlich / entscheidend",
+              "wichtig: neutro · wesentlich: esencial · entscheidend: decisivo",
+              "Das ist ein wesentlicher Punkt. / Der entscheidende Faktor war der Preis."
+            ],
+            [
+              "Problem / Schwierigkeit / Herausforderung",
+              "de lo más negativo a lo más positivo (reto superable)",
+              "Das ist keine Schwierigkeit, sondern eine Herausforderung."
+            ],
+            [
+              "erklären / erläutern / darlegen",
+              "erläutern: explicar con detalle · darlegen: exponer de forma ordenada (formal)",
+              "Ich erläutere kurz die Zahlen. / Der Bericht legt die Gründe dar."
+            ],
+            [
+              "benutzen / verwenden / anwenden",
+              "verwenden: neutro-formal · anwenden: aplicar un método o regla",
+              "Wir verwenden neue Software. / Die Regel wird hier nicht angewendet."
+            ],
+            [
+              "fordern / verlangen / erwarten",
+              "fordern: exigir con fuerza (política) · verlangen: pedir como derecho · erwarten: esperar de alguien",
+              "Die Gewerkschaft fordert mehr Lohn. / Das kann man nicht verlangen."
             ]
           ]
         }
@@ -427,6 +526,36 @@
             "ergreifen"
           ],
           "correctIndex": 0
+        },
+        {
+          "id": "b27-s3q6",
+          "question": "6. Die Stadt <span class=\"blank\">___</span> jedes Jahr um 2 Prozent. (crecimiento)",
+          "options": [
+            "steigt",
+            "wächst",
+            "verändert"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s3q7",
+          "question": "7. Der Bericht <span class=\"blank\">___</span> die Gründe für die Entscheidung <span class=\"blank\">___</span>. (expone de forma ordenada)",
+          "options": [
+            "legt … dar",
+            "erklärt … an",
+            "stellt … zur"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b27-s3q8",
+          "question": "8. Sie hat einen wichtigen Beitrag zum Projekt <span class=\"blank\">___</span>.",
+          "options": [
+            "gemacht",
+            "gegeben",
+            "geleistet"
+          ],
+          "correctIndex": 2
         }
       ],
       "produce": {
@@ -600,6 +729,89 @@
         "id": "b27-s5",
         "label": "<b>tu turno:</b> escribe un párrafo de comentario (5–6 frases) sobre otro tema de debate usando al menos un Konjunktiv I, un conector avanzado y un Funktionsverbgefüge.",
         "placeholder": "Kaum ein Thema wird so kontrovers diskutiert wie …"
+      }
+    },
+    {
+      "idx": "27.6",
+      "title": "Ensayo: Kant, «Beantwortung der Frage: Was ist Aufklärung?» (1784)",
+      "level": "C2",
+      "rule": "Comienzo original del ensayo de Immanuel Kant (texto de <b>dominio público</b>, en ortografía actual). Es uno de los párrafos más citados de la lengua alemana y un modelo de prosa argumentativa: <b>define</b>, <b>matiza</b> y <b>concluye</b> en tres pasos.",
+      "reading": {
+        "id": "kant-aufklaerung",
+        "kind": "Ensayo · Immanuel Kant, 1784",
+        "title": "Was ist Aufklärung?",
+        "paragraphs": [
+          "<span class=\"gl\" data-es=\"Ilustración\">Aufklärung</span> ist der <span class=\"gl\" data-es=\"salida\">Ausgang</span> des Menschen aus seiner <span class=\"gl\" data-es=\"de la que él mismo es culpable\">selbstverschuldeten</span> <span class=\"gl\" data-es=\"minoría de edad (intelectual)\">Unmündigkeit</span>. Unmündigkeit ist das <span class=\"gl\" data-es=\"incapacidad\">Unvermögen</span>, sich seines <span class=\"gl\" data-es=\"entendimiento\">Verstandes</span> ohne <span class=\"gl\" data-es=\"dirección, guía\">Leitung</span> eines anderen zu <span class=\"gl\" data-es=\"servirse de (+ Genitivo)\">bedienen</span>. Selbstverschuldet ist diese Unmündigkeit, wenn die <span class=\"gl\" data-es=\"causa\">Ursache</span> derselben nicht am <span class=\"gl\" data-es=\"falta, carencia\">Mangel</span> des Verstandes, sondern der <span class=\"gl\" data-es=\"decisión, resolución\">Entschließung</span> und des Mutes liegt, sich seiner ohne Leitung eines andern zu bedienen.",
+          "<i>Sapere aude!</i> Habe Mut, dich deines eigenen Verstandes zu bedienen! ist also der <span class=\"gl\" data-es=\"lema\">Wahlspruch</span> der Aufklärung."
+        ]
+      },
+      "notes": [
+        {
+          "type": "why",
+          "at": "end",
+          "text": "<b>Estructura del ensayo:</b> 1) definición del concepto (<i>Aufklärung ist …</i>), 2) definición del término clave (<i>Unmündigkeit ist …</i>), 3) matiz decisivo (<i>selbstverschuldet ist sie, wenn …</i>), 4) conclusión en forma de lema imperativo. Cada frase retoma la última palabra de la anterior: así se construye un argumento encadenado."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>sich + Genitivo</b>: <i>sich <b>seines</b> Verstandes bedienen</i> (servirse de su entendimiento) es uno de los pocos verbos que rigen Genitivo, típico del registro elevado. <i>derselben</i> (de la misma) es un demostrativo arcaico que hoy se sustituiría por <i>ihre</i>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b27-s6q1",
+          "question": "1. Was ist laut Kant Unmündigkeit?",
+          "options": [
+            "das Fehlen von Schulbildung",
+            "das Unvermögen, den eigenen Verstand ohne fremde Leitung zu benutzen",
+            "ein juristischer Status von Kindern"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s6q2",
+          "question": "2. Wann ist die Unmündigkeit selbstverschuldet?",
+          "options": [
+            "wenn andere einen führen",
+            "wenn man nicht zur Schule gegangen ist",
+            "wenn es nicht am Verstand, sondern an Entschluss und Mut fehlt"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b27-s6q3",
+          "question": "3. <i>sich seines Verstandes bedienen</i>: ¿qué caso rige <i>sich bedienen</i>?",
+          "options": [
+            "Genitiv",
+            "Akkusativ",
+            "Dativ"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b27-s6q4",
+          "question": "4. En <i>die Ursache derselben</i>, <i>derselben</i> se refiere a…",
+          "options": [
+            "el entendimiento",
+            "la Unmündigkeit",
+            "el ser humano"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s6q5",
+          "question": "5. Der Wahlspruch der Aufklärung lautet: «Habe Mut, dich deines eigenen Verstandes zu bedienen!»",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b27-s6",
+        "label": "<b>tu turno:</b> define en alemán un concepto (<i>Freiheit, Erfolg, Freundschaft…</i>) imitando la estructura de Kant: definición → término clave → matiz.",
+        "placeholder": "Freiheit ist … Sie ist …, wenn …"
       }
     }
   ]
