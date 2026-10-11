@@ -106,9 +106,10 @@ Campos opcionales que se combinan con los anteriores en la misma sección:
 | `vocab` | Tarjetas con artículo coloreado, plural, audio y modo autotest | `{ id: "bXX-voc", items: [ { de: "die Rezeption", pl: "Rezeptionen", es: "la recepción" } ] }` |
 | `roleplay` | Juego de rol guiado: el otro habla, tú escribes y comparas con el modelo | `{ id: "bXX-rp", you, partner: { name, label }, steps: [ { partner, es, task, model } ] }` |
 | `scenario` | Situación real con objetivos marcables | `{ id: "bXX-sc", situation, goals: ["…"] }` |
+| `syntax` | Análisis sintáctico en 3 pestañas: modelo de campos (rejilla), Satzglieder y «Analízalo tú» | `{ id: "bXX-syn", sentences: [ { de, es, parts: [ { t, f: VF\|LK\|MF\|RK\|NF, r: subj\|pred\|akk\|dat\|gen\|prep\|praed\|adv\|conj, k?: "temporal", pre?: ", " } ] } ], exercises: [ …igual… ] }` |
 | `order` | Ejercicio «ordenar» (hechos de una lectura, pasos…) | `{ id: "bXX-…", prompt, items: ["…"] }` con `items` en el orden correcto |
 
-Los `id` de `roleplay`, `scenario` y `order` deben empezar por `bXX-` para que «Reiniciar
+Los `id` de `roleplay`, `scenario`, `order` y `syntax` deben empezar por `bXX-` para que «Reiniciar
 bloque» también los borre.
 
 ### Patrón de vertical temática

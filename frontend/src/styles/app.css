@@ -3375,3 +3375,359 @@ b.hl,
   align-self: center;
   color: var(--no);
 }
+
+/* ================================================================
+   Análisis sintáctico: Satzglieder + modelo de campos
+   ================================================================ */
+.sr-subj { --sc: var(--role-nom); }
+.sr-pred { --sc: var(--role-verb); }
+.sr-akk { --sc: var(--role-akk); }
+.sr-dat { --sc: var(--role-dat); }
+.sr-gen { --sc: var(--role-gen); }
+.sr-prep { --sc: var(--role-sep); }
+.sr-praed { --sc: var(--role-adj); }
+.sr-adv { --sc: #64748B; }
+.sr-conj { --sc: var(--role-sub); }
+:root[data-theme="dark"] .sr-adv { --sc: #94A3B8; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .sr-adv { --sc: #94A3B8; }
+}
+
+.syntax {
+  margin: 0 0 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface-2);
+  overflow: hidden;
+}
+.syn-tabs {
+  display: flex;
+  gap: 0.25rem;
+  padding: 0.45rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  overflow-x: auto;
+}
+.syn-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 550;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.syn-tab:hover {
+  background: var(--surface-2);
+  color: var(--ink);
+}
+.syn-tab.on {
+  background: var(--iris-soft);
+  color: var(--iris-ink);
+}
+.syn-tab-n {
+  font-size: 0.68rem;
+  padding: 0 0.35rem;
+  border-radius: 999px;
+  background: var(--grad);
+  color: #fff;
+}
+.syn-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.8rem;
+  padding: 0.7rem 0.9rem 0.2rem;
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+}
+.syn-key {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.syn-key i,
+.syn-brush i {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  background: var(--sc);
+}
+.syn-key em {
+  font-style: normal;
+  color: var(--ink-faint);
+}
+
+/* Rejilla de campos */
+.syn-grid-wrap {
+  padding: 0.6rem 0.9rem 0.9rem;
+  overflow-x: auto;
+}
+.syn-grid {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.35rem;
+  font-size: 0.86rem;
+}
+.syn-grid th {
+  padding: 0.2rem 0.45rem 0.35rem;
+  text-align: left;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+.syn-grid th b {
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 650;
+  color: var(--ink);
+}
+.syn-grid th span {
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+}
+.syn-grid th.fh-LK b,
+.syn-grid th.fh-RK b {
+  color: var(--role-verb);
+}
+.syn-grid td {
+  padding: 0.45rem 0.45rem;
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  vertical-align: middle;
+}
+.syn-grid td:first-child {
+  border-left: 1px solid var(--line);
+  border-radius: 10px 0 0 10px;
+}
+.syn-grid td.speak-col {
+  border-right: 1px solid var(--line);
+  border-radius: 0 10px 10px 0;
+  width: 1%;
+}
+/* Las Klammern se ven como «corchetes»: fondo tintado del color del verbo. */
+.syn-grid td.fc-LK,
+.syn-grid td.fc-RK {
+  background: color-mix(in srgb, var(--role-verb) 6%, var(--surface));
+  border-left: 1px dashed color-mix(in srgb, var(--role-verb) 35%, transparent);
+  border-right: 1px dashed color-mix(in srgb, var(--role-verb) 35%, transparent);
+}
+.syn-grid td.empty::after {
+  content: "—";
+  color: var(--line-strong);
+}
+.syn-grid td.fc-LK.empty::after,
+.syn-grid td.fc-RK.empty::after {
+  content: "";
+}
+.syn-chip {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0.12rem 0.2rem 0.12rem 0;
+  padding: 0.18rem 0.5rem;
+  border-radius: 7px;
+  border: 1px solid color-mix(in srgb, var(--sc) 35%, transparent);
+  background: color-mix(in srgb, var(--sc) 11%, transparent);
+  color: var(--sc);
+  font-weight: 600;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+.syn-chip small {
+  font-size: 0.62rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.syn-note {
+  margin: 0.6rem 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+}
+
+/* Vista Satzglieder */
+.syn-lines {
+  list-style: none;
+  margin: 0;
+  padding: 0.6rem 0.9rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.syn-line {
+  padding: 0.75rem 0.9rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--surface);
+}
+.syn-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.6rem 0.35rem;
+  font-size: 1.02rem;
+}
+.syn-seg-wrap {
+  display: inline-flex;
+  align-items: flex-start;
+}
+.syn-pre {
+  font-weight: 500;
+  padding-top: 0.1rem;
+  margin-left: -0.25rem;
+  margin-right: 0.15rem;
+}
+.syn-seg {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+}
+.syn-seg-t {
+  padding: 0.1rem 0.15rem 0.15rem;
+  font-weight: 600;
+  color: var(--sc, var(--ink));
+  border-bottom: 3px solid var(--sc, var(--line-strong));
+  border-radius: 2px;
+}
+.syn-seg-l {
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--sc, var(--ink-faint));
+  white-space: nowrap;
+}
+.syn-es {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.84rem;
+  color: var(--ink-faint);
+}
+
+/* Ejercicio «Analízalo tú» */
+.syn-practice {
+  padding: 0.8rem 0.9rem 0.9rem;
+}
+.syn-pnav {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.8rem;
+}
+.syn-pnav .rp-count {
+  margin-left: auto;
+}
+.syn-dot {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.syn-dot.on {
+  border-color: var(--iris);
+  box-shadow: var(--ring);
+  color: var(--iris-ink);
+}
+.syn-dot.ok {
+  background: var(--ok);
+  border-color: var(--ok);
+  color: #fff;
+}
+.syn-ex {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--surface);
+}
+.syn-ex-es {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.syn-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+}
+.syn-brush {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-size: 0.76rem;
+  font-weight: 550;
+  cursor: pointer;
+}
+.syn-brush.on {
+  border-color: var(--sc);
+  background: color-mix(in srgb, var(--sc) 12%, transparent);
+  color: var(--sc);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--sc) 15%, transparent);
+}
+.syn-flow.practice {
+  gap: 0.8rem 0.45rem;
+  margin-bottom: 1rem;
+  font-size: 1.08rem;
+}
+.syn-seg.tok {
+  border: none;
+  background: none;
+  padding: 0.2rem 0.25rem;
+  border-radius: 8px;
+  font: inherit;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.syn-seg.tok:hover:not(:disabled) {
+  background: var(--surface-2);
+}
+.syn-seg.tok:disabled {
+  cursor: default;
+}
+.syn-seg.tok.blank .syn-seg-t {
+  color: var(--ink);
+  border-bottom-style: dashed;
+}
+.syn-seg.tok.ok {
+  background: var(--ok-bg);
+}
+.syn-seg.tok.no {
+  background: var(--no-bg);
+  outline: 1px solid var(--no-line);
+}
+.syn-hint {
+  font-size: 0.8rem;
+}
+.syn-grid th.fh-MF,
+.syn-grid td.fc-MF {
+  width: 30%;
+}
+.syn-grid {
+  min-width: 600px;
+}
+.syn-grid .syn-chip {
+  white-space: normal;
+}

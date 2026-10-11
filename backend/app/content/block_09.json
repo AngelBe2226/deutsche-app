@@ -1144,6 +1144,335 @@
         "label": "<b>tu turno:</b> escribe una frase que empiece por la subordinada (patrón «…, verbo sujeto…») y otra con clúster verbal final.",
         "placeholder": "Ej: Wenn ich Zeit habe, besuche ich dich. Ich bin froh, dass du gekommen bist."
       }
+    },
+    {
+      "idx": "9.5",
+      "title": "Análisis visual: la subordinada en el modelo de campos",
+      "level": "B1",
+      "rule": "En la <b>subordinada</b> el modelo de campos cambia: el <b>conector</b> (<i>weil, dass, ob, wenn…</i>) ocupa la <b>linke Klammer</b>, el Vorfeld queda vacío y <b>todo el verbo</b> se va a la <b>rechte Klammer</b>, con el conjugado al final. Y una subordinada entera puede ocupar el <b>Vorfeld</b> de la principal (<i>Wenn es regnet, bleiben…</i>) o su <b>Nachfeld</b> (<i>…, weil er krank ist</i>).",
+      "syntax": {
+        "id": "b09-syn",
+        "sentences": [
+          {
+            "de": "weil ich morgen früh arbeiten muss",
+            "es": "porque mañana tengo que trabajar temprano",
+            "parts": [
+              {
+                "t": "weil",
+                "f": "LK",
+                "r": "conj"
+              },
+              {
+                "t": "ich",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "morgen früh",
+                "f": "MF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "arbeiten muss",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "dass er seiner Mutter einen Brief geschrieben hat",
+            "es": "que le ha escrito una carta a su madre",
+            "parts": [
+              {
+                "t": "dass",
+                "f": "LK",
+                "r": "conj"
+              },
+              {
+                "t": "er",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "seiner Mutter",
+                "f": "MF",
+                "r": "dat"
+              },
+              {
+                "t": "einen Brief",
+                "f": "MF",
+                "r": "akk"
+              },
+              {
+                "t": "geschrieben hat",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "ob du am Samstag Zeit hast",
+            "es": "si tienes tiempo el sábado",
+            "parts": [
+              {
+                "t": "ob",
+                "f": "LK",
+                "r": "conj"
+              },
+              {
+                "t": "du",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "am Samstag",
+                "f": "MF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "Zeit",
+                "f": "MF",
+                "r": "akk"
+              },
+              {
+                "t": "hast",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "Er hat gestern angerufen, weil er krank ist.",
+            "es": "Llamó ayer porque está enfermo.",
+            "parts": [
+              {
+                "t": "Er",
+                "f": "VF",
+                "r": "subj"
+              },
+              {
+                "t": "hat",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "gestern",
+                "f": "MF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "angerufen",
+                "f": "RK",
+                "r": "pred"
+              },
+              {
+                "t": "weil er krank ist",
+                "f": "NF",
+                "r": "adv",
+                "k": "kausal",
+                "pre": ", "
+              }
+            ]
+          },
+          {
+            "de": "Wenn es regnet, bleiben wir zu Hause.",
+            "es": "Si llueve, nos quedamos en casa.",
+            "parts": [
+              {
+                "t": "Wenn es regnet,",
+                "f": "VF",
+                "r": "adv",
+                "k": "konditional"
+              },
+              {
+                "t": "bleiben",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "wir",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "zu Hause",
+                "f": "MF",
+                "r": "adv",
+                "k": "lokal"
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "de": "obwohl das Wetter schlecht war",
+            "es": "aunque hacía mal tiempo",
+            "parts": [
+              {
+                "t": "obwohl",
+                "f": "LK",
+                "r": "conj"
+              },
+              {
+                "t": "das Wetter",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "schlecht",
+                "f": "MF",
+                "r": "praed"
+              },
+              {
+                "t": "war",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "dass wir nächste Woche ins Kino gehen",
+            "es": "que la semana que viene vamos al cine",
+            "parts": [
+              {
+                "t": "dass",
+                "f": "LK",
+                "r": "conj"
+              },
+              {
+                "t": "wir",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "nächste Woche",
+                "f": "MF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "ins Kino",
+                "f": "MF",
+                "r": "adv",
+                "k": "lokal"
+              },
+              {
+                "t": "gehen",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "Als ich ankam, hatte der Laden schon geschlossen.",
+            "es": "Cuando llegué, la tienda ya había cerrado.",
+            "parts": [
+              {
+                "t": "Als ich ankam,",
+                "f": "VF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "hatte",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "der Laden",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "schon",
+                "f": "MF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "geschlossen",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "Ich weiß nicht, ob er heute kommt.",
+            "es": "No sé si viene hoy.",
+            "parts": [
+              {
+                "t": "Ich",
+                "f": "VF",
+                "r": "subj"
+              },
+              {
+                "t": "weiß",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "nicht",
+                "f": "MF",
+                "r": "adv",
+                "k": "modal"
+              },
+              {
+                "t": "ob er heute kommt",
+                "f": "NF",
+                "r": "akk",
+                "pre": ", "
+              }
+            ]
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "why",
+          "at": "end",
+          "text": "Por eso tras una subordinada inicial va <b>directamente el verbo</b>: <i>Wenn es regnet, <b>bleiben</b> wir…</i>. La subordinada entera es el Vorfeld (un solo Satzglied) y el verbo conjugado tiene que ir justo después, en la linke Klammer."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Una subordinada también puede ser <b>objeto</b>: en <i>Ich weiß nicht, ob er heute kommt</i>, la frase con <i>ob</i> responde a «¿qué no sé?» → hace de <b>Akkusativobjekt</b> desde el Nachfeld."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b09-s5q1",
+          "question": "1. En una subordinada con <i>weil</i>, ¿qué ocupa la linke Klammer?",
+          "options": [
+            "el sujeto",
+            "el conector weil",
+            "el verbo conjugado"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b09-s5q2",
+          "question": "2. «…, dass er einen Brief geschrieben hat» — ¿qué hay en la rechte Klammer?",
+          "options": [
+            "geschrieben hat",
+            "dass",
+            "einen Brief"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b09-s5q3",
+          "question": "3. En «Wenn es regnet, bleiben wir zu Hause», ¿qué ocupa el Vorfeld?",
+          "options": [
+            "wir",
+            "la subordinada «Wenn es regnet»",
+            "zu Hause"
+          ],
+          "correctIndex": 1
+        }
+      ]
     }
   ]
 }

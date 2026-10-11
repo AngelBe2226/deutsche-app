@@ -1138,6 +1138,421 @@
         "label": "<b>tu turno:</b> escribe una frase con modal + infinitivo final y otra en Perfekt — siente el paréntesis.",
         "placeholder": "Ej: Ich möchte am Wochenende wandern gehen. Ich habe das Buch schon gelesen."
       }
+    },
+    {
+      "idx": "8.5",
+      "title": "Análisis visual: Satzglieder y modelo de campos",
+      "level": "A2",
+      "rule": "Toda frase alemana encaja en <b>5 casillas</b> (el <i>Feldermodell</i>): <b>Vorfeld</b> (lo que abre la frase, un solo elemento) · <b>linke Klammer</b> (el verbo conjugado) · <b>Mittelfeld</b> (casi todo lo demás) · <b>rechte Klammer</b> (participio, infinitivo o prefijo) · <b>Nachfeld</b> (lo que va detrás, a menudo una subordinada). Dentro de esas casillas, cada bloque cumple una <b>función</b> (<i>Satzglied</i>): sujeto, predicado, objetos y complementos. Los colores son los mismos de los casos.",
+      "syntax": {
+        "id": "b08-syn",
+        "sentences": [
+          {
+            "de": "Ich trinke morgens einen Kaffee.",
+            "es": "Por las mañanas me tomo un café.",
+            "parts": [
+              {
+                "t": "Ich",
+                "f": "VF",
+                "r": "subj"
+              },
+              {
+                "t": "trinke",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "morgens",
+                "f": "MF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "einen Kaffee",
+                "f": "MF",
+                "r": "akk"
+              }
+            ]
+          },
+          {
+            "de": "Morgens trinke ich einen Kaffee.",
+            "es": "Por las mañanas me tomo un café. (inversión: el sujeto pasa al Mittelfeld)",
+            "parts": [
+              {
+                "t": "Morgens",
+                "f": "VF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "trinke",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "ich",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "einen Kaffee",
+                "f": "MF",
+                "r": "akk"
+              }
+            ]
+          },
+          {
+            "de": "Gestern hat meine Schwester ihrem Freund ein Buch geschenkt.",
+            "es": "Ayer mi hermana le regaló un libro a su novio.",
+            "parts": [
+              {
+                "t": "Gestern",
+                "f": "VF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "hat",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "meine Schwester",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "ihrem Freund",
+                "f": "MF",
+                "r": "dat"
+              },
+              {
+                "t": "ein Buch",
+                "f": "MF",
+                "r": "akk"
+              },
+              {
+                "t": "geschenkt",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "Der Zug kommt heute wegen des Streiks mit Verspätung an.",
+            "es": "Hoy el tren llega con retraso por la huelga.",
+            "parts": [
+              {
+                "t": "Der Zug",
+                "f": "VF",
+                "r": "subj"
+              },
+              {
+                "t": "kommt",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "heute",
+                "f": "MF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "wegen des Streiks",
+                "f": "MF",
+                "r": "adv",
+                "k": "kausal"
+              },
+              {
+                "t": "mit Verspätung",
+                "f": "MF",
+                "r": "adv",
+                "k": "modal"
+              },
+              {
+                "t": "an",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "Kannst du mir bitte das Salz geben?",
+            "es": "¿Me pasas la sal, por favor?",
+            "parts": [
+              {
+                "t": "Kannst",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "du",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "mir",
+                "f": "MF",
+                "r": "dat"
+              },
+              {
+                "t": "bitte",
+                "f": "MF",
+                "r": "adv",
+                "k": "modal"
+              },
+              {
+                "t": "das Salz",
+                "f": "MF",
+                "r": "akk"
+              },
+              {
+                "t": "geben",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "Wir warten seit einer Stunde auf den Bus.",
+            "es": "Llevamos una hora esperando el autobús.",
+            "parts": [
+              {
+                "t": "Wir",
+                "f": "VF",
+                "r": "subj"
+              },
+              {
+                "t": "warten",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "seit einer Stunde",
+                "f": "MF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "auf den Bus",
+                "f": "MF",
+                "r": "prep"
+              }
+            ]
+          },
+          {
+            "de": "Mein Bruder ist Lehrer.",
+            "es": "Mi hermano es profesor.",
+            "parts": [
+              {
+                "t": "Mein Bruder",
+                "f": "VF",
+                "r": "subj"
+              },
+              {
+                "t": "ist",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "Lehrer",
+                "f": "MF",
+                "r": "praed"
+              }
+            ]
+          }
+        ],
+        "exercises": [
+          {
+            "de": "Am Wochenende besucht Paul seine Großeltern.",
+            "es": "El fin de semana Paul visita a sus abuelos.",
+            "parts": [
+              {
+                "t": "Am Wochenende",
+                "f": "VF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "besucht",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "Paul",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "seine Großeltern",
+                "f": "MF",
+                "r": "akk"
+              }
+            ]
+          },
+          {
+            "de": "Die Lehrerin erklärt den Schülern die Regel.",
+            "es": "La profesora les explica la regla a los alumnos.",
+            "parts": [
+              {
+                "t": "Die Lehrerin",
+                "f": "VF",
+                "r": "subj"
+              },
+              {
+                "t": "erklärt",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "den Schülern",
+                "f": "MF",
+                "r": "dat"
+              },
+              {
+                "t": "die Regel",
+                "f": "MF",
+                "r": "akk"
+              }
+            ]
+          },
+          {
+            "de": "Morgen rufe ich dich an.",
+            "es": "Mañana te llamo.",
+            "parts": [
+              {
+                "t": "Morgen",
+                "f": "VF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "rufe",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "ich",
+                "f": "MF",
+                "r": "subj"
+              },
+              {
+                "t": "dich",
+                "f": "MF",
+                "r": "akk"
+              },
+              {
+                "t": "an",
+                "f": "RK",
+                "r": "pred"
+              }
+            ]
+          },
+          {
+            "de": "Ich denke oft an meine Kindheit.",
+            "es": "Pienso a menudo en mi infancia.",
+            "parts": [
+              {
+                "t": "Ich",
+                "f": "VF",
+                "r": "subj"
+              },
+              {
+                "t": "denke",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "oft",
+                "f": "MF",
+                "r": "adv",
+                "k": "temporal"
+              },
+              {
+                "t": "an meine Kindheit",
+                "f": "MF",
+                "r": "prep"
+              }
+            ]
+          },
+          {
+            "de": "Das Essen war sehr lecker.",
+            "es": "La comida estaba muy rica.",
+            "parts": [
+              {
+                "t": "Das Essen",
+                "f": "VF",
+                "r": "subj"
+              },
+              {
+                "t": "war",
+                "f": "LK",
+                "r": "pred"
+              },
+              {
+                "t": "sehr lecker",
+                "f": "MF",
+                "r": "praed"
+              }
+            ]
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Truco para encontrar el <b>Vorfeld</b>: es todo lo que va <b>antes del verbo conjugado</b>, y solo cabe <b>un</b> Satzglied (por largo que sea: <i>Am letzten Wochenende im August</i> sigue siendo uno). Por eso, si abres con <i>Morgen</i>, el sujeto tiene que irse al Mittelfeld."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>Präpositionalobjekt</b> (<i>auf den Bus warten</i>) vs. <b>complemento circunstancial</b> (<i>im Park warten</i>): el primero lo exige el verbo con esa preposición fija (<i>warten auf</i>, <i>denken an</i>); el segundo es libre y responde a cuándo/por qué/cómo/dónde."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b08-s5q1",
+          "question": "1. En «Gestern <b>hat</b> meine Schwester … <b>geschenkt</b>», ¿qué hay en la <i>rechte Klammer</i>?",
+          "options": [
+            "hat",
+            "geschenkt",
+            "ein Buch"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s5q2",
+          "question": "2. En «Morgens trinke ich einen Kaffee», ¿qué ocupa el Vorfeld?",
+          "options": [
+            "ich",
+            "Morgens",
+            "einen Kaffee"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b08-s5q3",
+          "question": "3. «Kannst du mir das Salz geben?» — ¿qué campo queda vacío?",
+          "options": [
+            "Vorfeld",
+            "linke Klammer",
+            "Mittelfeld"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b08-s5q4",
+          "question": "4. En «Wir warten auf den Bus», <i>auf den Bus</i> es…",
+          "options": [
+            "Präpositionalobjekt (lo pide warten)",
+            "Akkusativobjekt",
+            "Subjekt"
+          ],
+          "correctIndex": 0
+        }
+      ]
     }
   ]
 }
