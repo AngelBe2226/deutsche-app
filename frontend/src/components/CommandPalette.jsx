@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { IconHash, IconLayers, IconSearch, IconStar } from "./Icons";
+import { IconHash, IconLayers, IconRotate, IconSearch, IconStar } from "./Icons";
 
 // Quita acentos y pasa a minúsculas para buscar sin importar tildes/umlauts.
 const norm = (s) =>
@@ -46,6 +46,7 @@ export default function CommandPalette({ open, onClose, index, blocks, onSelectB
   const items = useMemo(() => {
     const all = [
       { type: "panel", key: "highlights", title: "Destacados", sub: "Tu selección" },
+      { type: "panel", key: "review", title: "Repaso", sub: "Repaso espaciado y puntos débiles" },
       ...index.map((b) => ({
         type: "block",
         key: "b" + b.block,
@@ -186,7 +187,9 @@ export default function CommandPalette({ open, onClose, index, blocks, onSelectB
               onClick={() => run(it)}
             >
               <span className={"cmd-icon t-" + it.type}>
-                {it.type === "panel" ? (
+                {it.key === "review" ? (
+                  <IconRotate size={15} />
+                ) : it.type === "panel" ? (
                   <IconStar size={15} />
                 ) : it.type === "block" ? (
                   <IconLayers size={15} />

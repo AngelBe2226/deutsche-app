@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { api } from "../api";
 import ProgressRing from "./ProgressRing";
-import { IconChevronRight, IconRoute, IconSearch, IconStar } from "./Icons";
+import { IconChevronRight, IconRotate, IconRoute, IconSearch, IconStar } from "./Icons";
 
 // Sidebar en cascada: cada capítulo (bloque) tiene un chevrón para desplegar
 // sus epígrafes. Acordeón: al abrir uno se cierra el que estuviera abierto.
@@ -9,6 +9,7 @@ export default function Sidebar({
   index,
   current,
   stats,
+  dueCount = 0,
   onSelectBlock,
   onGoToSection,
   onOpenSearch,
@@ -27,7 +28,7 @@ export default function Sidebar({
 
   // Carga perezosa de los epígrafes del capítulo abierto.
   useEffect(() => {
-    if (expanded && expanded !== "highlights" && !secCache[expanded]) {
+    if (expanded && /^\d+$/.test(expanded) && !secCache[expanded]) {
       api
         .getBlock(expanded)
         .then((d) =>
@@ -68,6 +69,14 @@ export default function Sidebar({
           >
             <IconStar size={16} filled={current === "highlights"} />
             Destacados
+          </button>
+          <button
+            className={"nav-pin" + (current === "review" ? " current" : "")}
+            onClick={() => onSelectBlock("review")}
+          >
+            <IconRotate size={16} />
+            Repaso
+            {dueCount > 0 && <span className="nav-badge">{dueCount}</span>}
           </button>
           <a className="nav-pin" href="/roadmap.html" target="_blank" rel="noopener">
             <IconRoute size={16} />

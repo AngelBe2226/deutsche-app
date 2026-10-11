@@ -10,11 +10,14 @@ import { IconMenu, IconMoon, IconSearch, IconSun, IconClose, IconSpeaker, IconTu
 import { toggleSpeed, useTTS } from "./tts";
 import PracticePage from "./panels/PracticePage";
 import HighlightsPanel from "./panels/HighlightsPanel";
+import ReviewPanel from "./panels/ReviewPanel";
+import { summarize, useReviewItems } from "./srs";
 
 // Bloque que funciona como panel de práctica (widgets en vivo, no contenido).
 const PRACTICE_BLOCK = "20";
 // Vistas que no son bloques de contenido (no se piden al backend).
-const PANELS = new Set(["highlights"]);
+const PANELS = new Set(["highlights", "review"]);
+const PANEL_TITLES = { highlights: "Destacados", review: "Repaso" };
 
 function scrollToSection(idx) {
   const el = document.getElementById("sec-" + idx.replace(/\./g, "-"));
@@ -73,6 +76,8 @@ export default function App() {
 
   const allBlocks = useAllBlocks(index);
   const stats = useBlockStats(allBlocks);
+  const reviewItems = useReviewItems(allBlocks);
+  const dueCount = summarize(reviewItems).due;
 
   const scrollContentTop = () => contentRef.current?.scrollTo({ top: 0 });
 
@@ -143,8 +148,7 @@ export default function App() {
   const pos = index.findIndex((b) => b.block === current);
   const prev = pos > 0 ? index[pos - 1] : null;
   const next = pos >= 0 && pos < index.length - 1 ? index[pos + 1] : null;
-  const crumb =
-    current === "highlights" ? "Destacados" : index[pos] ? index[pos].title : "";
+  const crumb = PANEL_TITLES[current] || (index[pos] ? index[pos].title : "");
 
   return (
     <div className={"layout" + (navOpen ? " nav-open" : "")}>
@@ -169,6 +173,7 @@ export default function App() {
           index={index}
           current={current}
           stats={stats}
+          dueCount={dueCount}
           onSelectBlock={selectBlock}
           onGoToSection={goToSection}
           onOpenSearch={() => setCmdOpen(true)}
@@ -188,7 +193,7 @@ export default function App() {
           <nav className="crumbs" aria-label="Ruta">
             <span className="crumb-root">Temario</span>
             <span className="crumb-sep">/</span>
-            {current !== "highlights" && <span className="crumb-num">{current}</span>}
+            {!PANELS.has(current) && <span className="crumb-num">{current}</span>}
             <span className="crumb-cur">{crumb}</span>
           </nav>
           <div className="topbar-actions">
@@ -228,6 +233,8 @@ export default function App() {
             <Skeleton />
           ) : current === "highlights" ? (
             <HighlightsPanel index={index} onGoToSection={goToSection} />
+          ) : current === "review" ? (
+            <ReviewPanel blocks={allBlocks} onGoToSection={goToSection} />
           ) : !block ? (
             <div className="empty-state">
               <p>No se pudo cargar el bloque {current}.</p>

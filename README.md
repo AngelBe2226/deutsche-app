@@ -124,6 +124,15 @@ Cada vertical es un bloque de 5 secciones, siempre en este orden (ver
 
 ## Progreso y destacados
 
+- **Repaso espaciado (SRS):** cada respuesta de quiz guarda además `srs:<id de la
+  pregunta>` = `{ box, due, lapses, reps, last }` (sistema Leitner: cajas
+  0–6 con intervalos 0, 1, 3, 7, 16, 35 y 90 días). Fallar devuelve la
+  pregunta a la caja 0 y suma un `lapse`: ese contador es el registro de
+  fallos. El panel **Repaso** (`frontend/src/panels/ReviewPanel.jsx`, lógica
+  en `frontend/src/srs.js`) muestra lo pendiente de hoy, la previsión de 7
+  días, los temas más fallados y lanza sesiones generales o dirigidas a un
+  tema. «Reiniciar bloque» no borra el historial `srs:` a propósito.
+
 - Cada quiz se bloquea al responder y se guarda en SQLite por su id (`b02-s1q1`).
 - "↺ Reiniciar este epígrafe" borra solo los ids exactos de esa sección;
   "Reiniciar bloque" borra por prefijo `bXX-`.
