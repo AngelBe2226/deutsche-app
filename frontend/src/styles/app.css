@@ -2474,15 +2474,19 @@ b.hl,
   opacity: 1;
 }
 .vcab-de {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
   font-weight: 600;
   font-size: 0.93rem;
   letter-spacing: -0.01em;
 }
 .vcab-pl {
-  margin-left: 0.35rem;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: break-word;
   font-family: var(--mono);
-  font-size: 0.7rem;
-  font-weight: 400;
+  font-size: 0.68rem;
   color: var(--ink-faint);
 }
 .vcab-es {

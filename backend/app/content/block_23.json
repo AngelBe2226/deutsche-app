@@ -1,0 +1,422 @@
+{
+  "block": "23",
+  "title": "Vertical: Inmobiliaria",
+  "kicker": "Bloque 23 · Vertical profesional · B1",
+  "intro": "Para <b class=\"hl\">vender o alquilar inmuebles</b> en alemán: el vocabulario del sector, cómo presentar un piso, responder a las objeciones de precio y, sobre todo, <b>cerrar una visita</b>.",
+  "sections": [
+    {
+      "idx": "23.1",
+      "title": "Wortschatz: inmuebles, contratos y dinero",
+      "level": "B1",
+      "rule": "El vocabulario que sale en cualquier anuncio, visita o contrato. Ojo con <b>Kaltmiete</b> (alquiler sin gastos) frente a <b>Warmmiete</b> (con calefacción y gastos incluidos).",
+      "vocab": {
+        "id": "b23-voc",
+        "items": [
+          {
+            "de": "die Immobilie",
+            "pl": "Immobilien",
+            "es": "el inmueble"
+          },
+          {
+            "de": "die Wohnung",
+            "pl": "Wohnungen",
+            "es": "el piso"
+          },
+          {
+            "de": "das Haus",
+            "pl": "Häuser",
+            "es": "la casa"
+          },
+          {
+            "de": "der Makler",
+            "pl": "Makler",
+            "es": "el agente inmobiliario"
+          },
+          {
+            "de": "die Besichtigung",
+            "pl": "Besichtigungen",
+            "es": "la visita (a un inmueble)"
+          },
+          {
+            "de": "der Grundriss",
+            "pl": "Grundrisse",
+            "es": "el plano"
+          },
+          {
+            "de": "die Wohnfläche",
+            "pl": "Wohnflächen",
+            "es": "la superficie habitable"
+          },
+          {
+            "de": "die Lage",
+            "pl": "Lagen",
+            "es": "la ubicación"
+          },
+          {
+            "de": "der Balkon",
+            "pl": "Balkone",
+            "es": "el balcón"
+          },
+          {
+            "de": "die Kaltmiete",
+            "pl": "Kaltmieten",
+            "es": "el alquiler sin gastos"
+          },
+          {
+            "de": "die Nebenkosten",
+            "es": "los gastos adicionales (solo plural)"
+          },
+          {
+            "de": "die Kaution",
+            "pl": "Kautionen",
+            "es": "la fianza"
+          },
+          {
+            "de": "der Kaufpreis",
+            "pl": "Kaufpreise",
+            "es": "el precio de compra"
+          },
+          {
+            "de": "der Kaufvertrag",
+            "pl": "Kaufverträge",
+            "es": "el contrato de compraventa"
+          },
+          {
+            "de": "die Finanzierung",
+            "pl": "Finanzierungen",
+            "es": "la financiación"
+          },
+          {
+            "de": "der Notar",
+            "pl": "Notare",
+            "es": "el notario"
+          },
+          {
+            "de": "das Exposé",
+            "pl": "Exposés",
+            "es": "la ficha del inmueble"
+          },
+          {
+            "de": "besichtigen",
+            "es": "visitar (un inmueble)"
+          },
+          {
+            "de": "renoviert",
+            "es": "reformado"
+          },
+          {
+            "de": "bezugsfrei",
+            "es": "libre para entrar a vivir"
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b23-s1q1",
+          "question": "1. <i>die Besichtigung</i> es…",
+          "options": [
+            "la visita",
+            "la fianza",
+            "el plano"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b23-s1q2",
+          "question": "2. <i>die Nebenkosten</i> son…",
+          "options": [
+            "los gastos adicionales (comunidad, agua, calefacción…)",
+            "el precio de compra",
+            "la comisión del agente"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b23-s1q3",
+          "question": "3. ¿Qué artículo lleva <i>Grundriss</i>?",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "23.2",
+      "title": "Redemittel: presentar, argumentar y proponer",
+      "level": "B1",
+      "rule": "Las fórmulas de una buena presentación siguen un orden: <b>datos → ventajas → precio → siguiente paso</b>. Nunca termines sin proponer una visita.",
+      "tables": [
+        {
+          "headers": [
+            "Función",
+            "Redemittel"
+          ],
+          "rows": [
+            [
+              "Presentar el inmueble",
+              "Die Wohnung hat drei Zimmer und ist etwa 85 Quadratmeter groß."
+            ],
+            [
+              "Destacar ventajas",
+              "Ein großer Vorteil ist die ruhige Lage."
+            ],
+            [
+              "Destacar ventajas",
+              "Die Wohnung ist frisch renoviert und sofort bezugsfrei."
+            ],
+            [
+              "Describir la ubicación",
+              "Die U-Bahn-Station ist nur fünf Minuten zu Fuß entfernt."
+            ],
+            [
+              "Hablar de precio",
+              "Der Kaufpreis liegt bei 420.000 Euro."
+            ],
+            [
+              "Hablar de precio",
+              "Die Nebenkosten betragen etwa 250 Euro im Monat."
+            ],
+            [
+              "Responder objeciones",
+              "Ich verstehe Ihre Bedenken, aber …"
+            ],
+            [
+              "Proponer siguiente paso",
+              "Wann hätten Sie Zeit für eine Besichtigung?"
+            ],
+            [
+              "Proponer siguiente paso",
+              "Soll ich Ihnen das Exposé per E-Mail schicken?"
+            ],
+            [
+              "Cerrar la cita",
+              "Darf ich Ihnen einen Termin am Samstag vorschlagen?"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "En Alemania los <b>Zimmer</b> se cuentan sin cocina ni baño: una <i>3-Zimmer-Wohnung</i> tiene salón + 2 dormitorios. Y <b>das Exposé</b> es la ficha con fotos, plano y datos que se envía antes de la visita."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b23-s2q1",
+          "question": "1. Para proponer una visita dices:",
+          "options": [
+            "Wann hätten Sie Zeit für eine Besichtigung?",
+            "Wo ist die Besichtigung?",
+            "Haben Sie eine Kaution?"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b23-s2q2",
+          "question": "2. Una <i>3-Zimmer-Wohnung</i> tiene normalmente…",
+          "options": [
+            "3 dormitorios",
+            "salón + 2 dormitorios",
+            "3 baños"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "23.3",
+      "title": "Diálogo: presentar un piso y cerrar la visita",
+      "level": "B1",
+      "rule": "Un interesado llama por un anuncio y le parece caro. Fíjate en cómo la agente <b>no discute el precio</b>: argumenta con un dato y vuelve siempre a la visita.",
+      "dialog": {
+        "id": "inmo-llamada",
+        "setting": "Inmobiliaria Lindner, Berlín · llamada entrante",
+        "roles": {
+          "M": {
+            "name": "Frau Lindner",
+            "label": "Agente inmobiliaria"
+          },
+          "K": {
+            "name": "Herr Becker",
+            "label": "Interesado"
+          }
+        },
+        "lines": [
+          {
+            "who": "K",
+            "de": "Guten Tag, Becker hier. Ich rufe wegen der Wohnung in der Gartenstraße an. Ist sie noch frei?",
+            "es": "Buenas tardes, soy Becker. Llamo por el piso de la Gartenstraße. ¿Sigue libre?"
+          },
+          {
+            "who": "M",
+            "de": "Guten Tag, Herr Becker! Ja, die Wohnung ist noch verfügbar. Was möchten Sie gern wissen?",
+            "es": "¡Buenas tardes, señor Becker! Sí, el piso sigue disponible. ¿Qué le gustaría saber?"
+          },
+          {
+            "who": "K",
+            "de": "Wie groß ist sie genau, und wie viele Zimmer hat sie?",
+            "es": "¿Cuánto mide exactamente y cuántas habitaciones tiene?"
+          },
+          {
+            "who": "M",
+            "de": "Sie hat drei Zimmer, Küche und Bad, insgesamt 85 Quadratmeter. Dazu kommt ein Südbalkon mit Blick ins Grüne.",
+            "es": "Tiene tres habitaciones, cocina y baño, 85 metros cuadrados en total. Además, un balcón orientado al sur con vistas a zonas verdes."
+          },
+          {
+            "who": "K",
+            "de": "Das klingt gut. Und der Preis? In der Anzeige stehen 420.000 Euro.",
+            "es": "Suena bien. ¿Y el precio? En el anuncio pone 420.000 euros."
+          },
+          {
+            "who": "M",
+            "de": "Richtig. Die Wohnung wurde letztes Jahr komplett renoviert: neue Fenster, neue Heizung, neues Bad. Sie müssen also nichts mehr investieren.",
+            "es": "Correcto. El piso se reformó por completo el año pasado: ventanas, calefacción y baño nuevos. Así que no tiene que invertir nada más."
+          },
+          {
+            "who": "K",
+            "de": "Hm, das ist trotzdem ziemlich viel für 85 Quadratmeter.",
+            "es": "Mmm, aun así es bastante para 85 metros."
+          },
+          {
+            "who": "M",
+            "de": "<b>Ich verstehe Ihre Bedenken.</b> Aber in dieser Lage zahlt man für unrenovierte Wohnungen oft genauso viel. Am besten schauen Sie sie sich selbst an.",
+            "es": "Entiendo sus dudas. Pero en esta zona se paga a menudo lo mismo por pisos sin reformar. Lo mejor es que lo vea usted mismo."
+          },
+          {
+            "who": "K",
+            "de": "Na gut. Wann wäre eine Besichtigung möglich?",
+            "es": "Bueno. ¿Cuándo se podría visitar?"
+          },
+          {
+            "who": "M",
+            "de": "<b>Darf ich Ihnen Samstag um elf Uhr vorschlagen?</b> Dann sehen Sie die Wohnung auch bei Tageslicht.",
+            "es": "¿Le propongo el sábado a las once? Así verá el piso también con luz de día."
+          },
+          {
+            "who": "K",
+            "de": "Samstag um elf passt mir gut.",
+            "es": "El sábado a las once me viene bien."
+          },
+          {
+            "who": "M",
+            "de": "Wunderbar. Ich schicke Ihnen das Exposé und die Adresse per E-Mail. Bis Samstag, Herr Becker!",
+            "es": "Estupendo. Le envío la ficha y la dirección por correo. ¡Hasta el sábado, señor Becker!"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Técnica ante la objeción de precio: <b>empatizar</b> (<i>Ich verstehe Ihre Bedenken</i>) → <b>argumentar con un dato</b> (reforma, ubicación) → <b>volver al siguiente paso</b> (la visita). El precio se defiende mejor con el cliente dentro del piso."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b23-s3q1",
+          "question": "1. Was ist in der Wohnung neu?",
+          "options": [
+            "nur die Küche",
+            "Fenster, Heizung und Bad",
+            "der Balkon"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b23-s3q2",
+          "question": "2. ¿Qué objeción pone Herr Becker?",
+          "options": [
+            "la ubicación",
+            "el precio",
+            "el tamaño del balcón"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b23-s3q3",
+          "question": "3. Wann ist die Besichtigung?",
+          "options": [
+            "Freitag um elf",
+            "Samstag um elf",
+            "Samstag um zwölf"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "23.4",
+      "title": "Rollenspiel: una interesada en alquilar",
+      "level": "B1",
+      "rule": "Tú eres el agente. Responde a cada pregunta de la clienta según la instrucción y compara con el modelo.",
+      "roleplay": {
+        "id": "b23-rp",
+        "you": "Agente inmobiliario/a",
+        "partner": {
+          "name": "Frau Yilmaz",
+          "label": "Interesada en alquilar"
+        },
+        "steps": [
+          {
+            "partner": "Guten Tag! Ich interessiere mich für die Wohnung in der Lindenallee. Ist die noch zu haben?",
+            "es": "¡Buenas tardes! Me interesa el piso de la Lindenallee. ¿Sigue disponible?",
+            "task": "Saluda, confirma que está disponible y pregunta qué quiere saber.",
+            "model": "Guten Tag! Ja, die Wohnung ist noch frei. Was möchten Sie gern wissen?"
+          },
+          {
+            "partner": "Wie hoch ist die Miete, und kommen noch Nebenkosten dazu?",
+            "es": "¿Cuánto es el alquiler? ¿Hay gastos aparte?",
+            "task": "Di que la Kaltmiete son 1.150 € y que hay unos 200 € de gastos al mes.",
+            "model": "Die Kaltmiete beträgt 1.150 Euro, dazu kommen etwa 200 Euro Nebenkosten im Monat."
+          },
+          {
+            "partner": "Gibt es einen Aufzug? Ich habe ein kleines Kind und einen Kinderwagen.",
+            "es": "¿Hay ascensor? Tengo un niño pequeño y un carrito.",
+            "task": "Di que sí hay ascensor y destaca que justo al lado hay un parque infantil.",
+            "model": "Ja, es gibt einen Aufzug. Und ein großer Vorteil für Familien: Direkt nebenan ist ein Spielplatz."
+          },
+          {
+            "partner": "Und wie hoch ist die Kaution?",
+            "es": "¿Y de cuánto es la fianza?",
+            "task": "Explica que son tres mensualidades de alquiler sin gastos (3.450 €).",
+            "model": "Die Kaution beträgt drei Kaltmieten, also 3.450 Euro."
+          },
+          {
+            "partner": "Okay. Ich würde die Wohnung gern sehen.",
+            "es": "Vale. Me gustaría ver el piso.",
+            "task": "Propón una visita el jueves a las 18:00.",
+            "model": "Sehr gern! Darf ich Ihnen Donnerstag um 18 Uhr vorschlagen?"
+          }
+        ]
+      }
+    },
+    {
+      "idx": "23.5",
+      "title": "Szenario: presentar un piso difícil",
+      "level": "B1",
+      "rule": "Un caso con dos objeciones reales. Tu único objetivo es conseguir la visita.",
+      "scenario": {
+        "id": "b23-sc",
+        "situation": "Un cliente ha visto en internet un <b>piso de 2 habitaciones (65 m²)</b> en un cuarto <b>sin ascensor</b>, por <b>310.000 €</b>. Es muy luminoso, está reformado y a 3 minutos del metro. Llama dudando: «es caro y no tiene ascensor». Tu objetivo: <b>cerrar una visita</b>.",
+        "goals": [
+          "Saludar y presentarte con el nombre de tu inmobiliaria",
+          "Describir el piso con tres datos (tamaño, Zimmer, estado)",
+          "Destacar dos ventajas (luz, metro, reforma…)",
+          "Responder a la objeción del precio o del ascensor: empatía + argumento",
+          "Proponer día y hora concretos para la visita",
+          "Confirmar el siguiente paso (Exposé por e-mail)"
+        ]
+      },
+      "produce": {
+        "id": "b23-s5",
+        "label": "<b>tu turno:</b> escribe tus intervenciones de la llamada, sobre todo la respuesta a «zu teuer» y a «kein Aufzug».",
+        "placeholder": "Ich verstehe Ihre Bedenken. Dafür ist die Wohnung …"
+      }
+    }
+  ]
+}

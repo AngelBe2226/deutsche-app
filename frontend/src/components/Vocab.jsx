@@ -50,7 +50,7 @@ export default function Vocab({ vocab }) {
               className={"vcab" + (hideEs ? " testing" : "") + (reveal ? "" : " hidden-es")}
               onClick={() => hideEs && toggleCard(i)}
             >
-              <div className="vcab-de">
+              <div className="vcab-de" lang="de">
                 {g ? (
                   <>
                     <span className={"art g-" + g}>{first}</span> {rest.join(" ")}
@@ -58,8 +58,8 @@ export default function Vocab({ vocab }) {
                 ) : (
                   it.de
                 )}
-                {it.pl && <span className="vcab-pl">{it.pl}</span>}
               </div>
+              {it.pl && <div className="vcab-pl" lang="de">Pl. {it.pl}</div>}
               <div className="vcab-es">{reveal ? it.es : "· · ·"}</div>
               <SpeakButton id={`${vocab.id}-${i}`} text={it.de} label="Escuchar palabra" />
             </div>

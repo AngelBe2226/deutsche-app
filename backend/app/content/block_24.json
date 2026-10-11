@@ -1,0 +1,432 @@
+{
+  "block": "24",
+  "title": "Vertical: Ventas",
+  "kicker": "Bloque 24 · Vertical profesional · B1",
+  "intro": "Vender en alemán por teléfono o en persona: <b class=\"hl\">llamada en frío</b>, preguntas de necesidades, objeciones («es caro», «no tengo tiempo», «ya tenemos proveedor») y cierre. La estructura sirve para cualquier producto.",
+  "sections": [
+    {
+      "idx": "24.1",
+      "title": "Wortschatz: el vocabulario de la venta",
+      "level": "B1",
+      "rule": "Fíjate en la diferencia entre <b>der Vorteil</b> (ventaja del producto) y <b>der Nutzen</b> (beneficio para el cliente): en ventas se habla del <b>Nutzen</b>.",
+      "vocab": {
+        "id": "b24-voc",
+        "items": [
+          {
+            "de": "der Kunde",
+            "pl": "Kunden",
+            "es": "el cliente"
+          },
+          {
+            "de": "das Angebot",
+            "pl": "Angebote",
+            "es": "la oferta, el presupuesto"
+          },
+          {
+            "de": "der Preis",
+            "pl": "Preise",
+            "es": "el precio"
+          },
+          {
+            "de": "der Rabatt",
+            "pl": "Rabatte",
+            "es": "el descuento"
+          },
+          {
+            "de": "das Produkt",
+            "pl": "Produkte",
+            "es": "el producto"
+          },
+          {
+            "de": "die Dienstleistung",
+            "pl": "Dienstleistungen",
+            "es": "el servicio"
+          },
+          {
+            "de": "der Vorteil",
+            "pl": "Vorteile",
+            "es": "la ventaja"
+          },
+          {
+            "de": "der Nutzen",
+            "es": "el beneficio (para el cliente)"
+          },
+          {
+            "de": "der Einwand",
+            "pl": "Einwände",
+            "es": "la objeción"
+          },
+          {
+            "de": "die Bedarfsanalyse",
+            "pl": "Bedarfsanalysen",
+            "es": "el análisis de necesidades"
+          },
+          {
+            "de": "der Termin",
+            "pl": "Termine",
+            "es": "la cita, la reunión"
+          },
+          {
+            "de": "der Vertrag",
+            "pl": "Verträge",
+            "es": "el contrato"
+          },
+          {
+            "de": "die Lieferung",
+            "pl": "Lieferungen",
+            "es": "la entrega"
+          },
+          {
+            "de": "der Lieferant",
+            "pl": "Lieferanten",
+            "es": "el proveedor"
+          },
+          {
+            "de": "der Abschluss",
+            "pl": "Abschlüsse",
+            "es": "el cierre (de la venta)"
+          },
+          {
+            "de": "die Kaltakquise",
+            "es": "la captación en frío"
+          },
+          {
+            "de": "überzeugen",
+            "es": "convencer"
+          },
+          {
+            "de": "verhandeln",
+            "es": "negociar"
+          },
+          {
+            "de": "nachfassen",
+            "es": "hacer seguimiento"
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b24-s1q1",
+          "question": "1. <i>der Einwand</i> es…",
+          "options": [
+            "la objeción",
+            "la entrega",
+            "el descuento"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b24-s1q2",
+          "question": "2. ¿Qué artículo lleva <i>Rabatt</i>?",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b24-s1q3",
+          "question": "3. <i>nachfassen</i> significa…",
+          "options": [
+            "hacer seguimiento",
+            "negociar",
+            "rebajar el precio"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "24.2",
+      "title": "Redemittel: de la apertura al cierre",
+      "level": "B1",
+      "rule": "Una frase para cada fase de la venta. Las de objeción tienen siempre la misma forma: <b>entender + preguntar</b>, nunca contradecir.",
+      "tables": [
+        {
+          "headers": [
+            "Función",
+            "Redemittel"
+          ],
+          "rows": [
+            [
+              "Abrir una llamada en frío",
+              "Guten Tag, Frau Weber, hier ist … von der Firma … Haben Sie zwei Minuten Zeit?"
+            ],
+            [
+              "Motivo de la llamada",
+              "Ich rufe an, weil wir Unternehmen wie Ihrem helfen, Kosten zu sparen."
+            ],
+            [
+              "Preguntar necesidades",
+              "Wie lösen Sie das im Moment?"
+            ],
+            [
+              "Preguntar necesidades",
+              "Was ist Ihnen dabei besonders wichtig?"
+            ],
+            [
+              "Presentar el beneficio",
+              "Das bedeutet für Sie konkret: weniger Aufwand und mehr Zeit."
+            ],
+            [
+              "Responder a «es caro»",
+              "Ich verstehe. Darf ich fragen, womit Sie den Preis vergleichen?"
+            ],
+            [
+              "Responder a «no tengo tiempo»",
+              "Verstehe ich gut. Wann passt es Ihnen besser, Dienstag oder Donnerstag?"
+            ],
+            [
+              "Negociar",
+              "Wenn Sie heute unterschreiben, kann ich Ihnen fünf Prozent Rabatt geben."
+            ],
+            [
+              "Cerrar",
+              "Sollen wir das so festhalten?"
+            ],
+            [
+              "Seguimiento",
+              "Ich melde mich nächste Woche noch einmal bei Ihnen."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>Pregunta alternativa:</b> en vez de «¿Tiene tiempo?» (respuesta fácil: <i>nein</i>), ofrece dos opciones: <i>Dienstag oder Donnerstag?</i> El cliente elige… y ya está diciendo sí a la reunión."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b24-s2q1",
+          "question": "1. Respuesta a «Das ist zu teuer»:",
+          "options": [
+            "Dann eben nicht.",
+            "Darf ich fragen, womit Sie den Preis vergleichen?",
+            "Das stimmt nicht."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b24-s2q2",
+          "question": "2. <i>Wann passt es Ihnen besser, Dienstag oder Donnerstag?</i> es una…",
+          "options": [
+            "pregunta alternativa",
+            "pregunta de sí o no",
+            "despedida"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "24.3",
+      "title": "Diálogo: llamada en frío y negociación de precio",
+      "level": "B1",
+      "rule": "Un comercial llama a la dueña de un restaurante para venderle un software de reservas. Escucha cómo convierte un «no lo necesito» en una cita.",
+      "dialog": {
+        "id": "ventas-llamada",
+        "setting": "Llamada de ventas · software de reservas para restaurantes",
+        "roles": {
+          "V": {
+            "name": "Herr Costa",
+            "label": "Comercial"
+          },
+          "W": {
+            "name": "Frau Weber",
+            "label": "Dueña del restaurante"
+          }
+        },
+        "lines": [
+          {
+            "who": "V",
+            "de": "Guten Tag, Frau Weber, hier ist Daniel Costa von TischPlan. <b>Haben Sie zwei Minuten Zeit?</b>",
+            "es": "Buenas tardes, señora Weber, soy Daniel Costa, de TischPlan. ¿Tiene dos minutos?"
+          },
+          {
+            "who": "W",
+            "de": "Zwei Minuten, ja. Worum geht es?",
+            "es": "Dos minutos, sí. ¿De qué se trata?"
+          },
+          {
+            "who": "V",
+            "de": "Wir helfen Restaurants, Reservierungen online zu verwalten. Darf ich fragen, wie Sie das im Moment machen?",
+            "es": "Ayudamos a los restaurantes a gestionar las reservas online. ¿Puedo preguntarle cómo lo hacen ahora?"
+          },
+          {
+            "who": "W",
+            "de": "Ganz klassisch: per Telefon und mit einem Buch. Das funktioniert eigentlich gut.",
+            "es": "A la antigua: por teléfono y con un libro. La verdad es que funciona bien."
+          },
+          {
+            "who": "V",
+            "de": "Verstehe. <b>Passiert es manchmal, dass Gäste nicht kommen, ohne abzusagen?</b>",
+            "es": "Entiendo. ¿Le pasa a veces que los clientes no vienen y no avisan?"
+          },
+          {
+            "who": "W",
+            "de": "Ja, leider ziemlich oft, besonders am Wochenende. Das kostet uns viel Geld.",
+            "es": "Sí, por desgracia bastante a menudo, sobre todo el fin de semana. Nos cuesta mucho dinero."
+          },
+          {
+            "who": "V",
+            "de": "Genau da hilft TischPlan: Die Gäste bekommen automatisch eine Erinnerung per SMS. Unsere Kunden haben dadurch bis zu 40 Prozent weniger leere Tische.",
+            "es": "Justo ahí ayuda TischPlan: los clientes reciben automáticamente un recordatorio por SMS. Así nuestros clientes tienen hasta un 40 % menos de mesas vacías."
+          },
+          {
+            "who": "W",
+            "de": "Interessant. Aber was kostet das?",
+            "es": "Interesante. Pero ¿cuánto cuesta?"
+          },
+          {
+            "who": "V",
+            "de": "Das Paket kostet 89 Euro im Monat.",
+            "es": "El paquete cuesta 89 euros al mes."
+          },
+          {
+            "who": "W",
+            "de": "Hm, das ist mir ehrlich gesagt zu teuer.",
+            "es": "Mmm, sinceramente me parece demasiado caro."
+          },
+          {
+            "who": "V",
+            "de": "<b>Ich verstehe.</b> Rechnen wir kurz: Wenn nur zwei Tische pro Monat nicht leer bleiben, haben Sie die Kosten schon wieder drin. Und den ersten Monat können Sie kostenlos testen.",
+            "es": "Lo entiendo. Hagamos una cuenta rápida: si solo dos mesas al mes dejan de quedarse vacías, ya ha recuperado el coste. Y el primer mes lo puede probar gratis."
+          },
+          {
+            "who": "W",
+            "de": "Kostenlos testen? Das klingt fair.",
+            "es": "¿Probarlo gratis? Me parece justo."
+          },
+          {
+            "who": "V",
+            "de": "Wunderbar. <b>Wann passt es Ihnen besser für eine kurze Vorführung, Dienstag oder Donnerstag?</b>",
+            "es": "Estupendo. ¿Cuándo le viene mejor una demostración corta, el martes o el jueves?"
+          },
+          {
+            "who": "W",
+            "de": "Donnerstagnachmittag.",
+            "es": "El jueves por la tarde."
+          },
+          {
+            "who": "V",
+            "de": "Perfekt, dann Donnerstag um 15 Uhr. Ich schicke Ihnen gleich eine Bestätigung per E-Mail.",
+            "es": "Perfecto, entonces el jueves a las 15:00. Ahora mismo le envío la confirmación por correo."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Estructura de la llamada: <b>permiso</b> (<i>zwei Minuten?</i>) → <b>situación</b> (<i>wie machen Sie das?</i>) → <b>problema</b> (<i>Passiert es manchmal …?</i>) → <b>beneficio con cifra</b> → <b>objeción</b> → <b>cálculo y reducir el riesgo</b> (prueba gratis) → <b>cierre con alternativa</b>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b24-s3q1",
+          "question": "1. Was ist Frau Webers Problem?",
+          "options": [
+            "Sie hat zu wenig Personal.",
+            "Gäste kommen nicht und sagen nicht ab.",
+            "Das Telefon funktioniert nicht."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b24-s3q2",
+          "question": "2. ¿Cómo rebate Herr Costa el «zu teuer»?",
+          "options": [
+            "Baja el precio a la mitad",
+            "Calcula el beneficio y ofrece un mes gratis",
+            "Cambia de tema"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b24-s3q3",
+          "question": "3. Wann ist die Vorführung?",
+          "options": [
+            "Dienstag um 15 Uhr",
+            "Donnerstag um 15 Uhr",
+            "Donnerstag um 13 Uhr"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "24.4",
+      "title": "Rollenspiel: «ya tenemos proveedor»",
+      "level": "B1",
+      "rule": "Tú eres el comercial de EcoPrint (papel reciclado para oficinas). El jefe de compras pone pegas: respóndelas sin discutir y consigue enviarle una oferta.",
+      "roleplay": {
+        "id": "b24-rp",
+        "you": "Comercial",
+        "partner": {
+          "name": "Herr Vogel",
+          "label": "Jefe de compras"
+        },
+        "steps": [
+          {
+            "partner": "Vogel, guten Tag.",
+            "es": "Vogel, buenos días.",
+            "task": "Preséntate (tu nombre y EcoPrint) y pide dos minutos.",
+            "model": "Guten Tag, Herr Vogel, hier ist … von EcoPrint. Haben Sie kurz zwei Minuten Zeit?"
+          },
+          {
+            "partner": "Ja, aber wirklich nur kurz.",
+            "es": "Sí, pero de verdad que solo un momento.",
+            "task": "Explica que ayudáis a empresas a ahorrar en papel y pregunta dónde lo compran ahora.",
+            "model": "Danke! Wir helfen Firmen, beim Büropapier Kosten zu sparen. Darf ich fragen, wo Sie Ihr Papier im Moment bestellen?"
+          },
+          {
+            "partner": "Wir haben schon einen Lieferanten und sind eigentlich zufrieden.",
+            "es": "Ya tenemos proveedor y estamos bastante contentos.",
+            "task": "Responde a la objeción con empatía y propón comparar con una oferta sin compromiso.",
+            "model": "Das verstehe ich gut. Viele unserer Kunden waren auch zufrieden, bis sie die Preise verglichen haben. Darf ich Ihnen ein unverbindliches Angebot schicken?"
+          },
+          {
+            "partner": "Na gut. Aber Ihr Papier ist bestimmt teurer, weil es recycelt ist.",
+            "es": "Bueno. Pero seguro que su papel es más caro por ser reciclado.",
+            "task": "Rebate: el precio es igual o más bajo y además mejora la imagen ecológica de la empresa.",
+            "model": "Tatsächlich nicht: Unser Preis liegt auf dem gleichen Niveau oder sogar darunter. Und gleichzeitig verbessern Sie Ihre Umweltbilanz."
+          },
+          {
+            "partner": "Okay, schicken Sie mir das Angebot.",
+            "es": "Vale, envíeme la oferta.",
+            "task": "Cierra: confirma su e-mail y di que lo llamarás la semana que viene.",
+            "model": "Sehr gern! Ich schicke es an Ihre E-Mail-Adresse und melde mich nächste Woche noch einmal bei Ihnen."
+          }
+        ]
+      }
+    },
+    {
+      "idx": "24.5",
+      "title": "Szenario: llamada en frío con dos objeciones",
+      "level": "B1",
+      "rule": "Hazlo con alguien que haga de clienta difícil, o escríbelo tú. Marca los objetivos cumplidos.",
+      "scenario": {
+        "id": "b24-sc",
+        "situation": "Vendes un <b>servicio de limpieza de oficinas</b> (390 €/mes). Llamas a una gestoría de 12 empleados que no te conoce. La responsable te dirá primero que <b>no tiene tiempo</b> y después que <b>es caro</b>. Puedes ofrecer como máximo un <b>10 % de descuento</b>, y solo con un contrato de 12 meses.",
+        "goals": [
+          "Pedir permiso para hablar (<i>Haben Sie zwei Minuten Zeit?</i>)",
+          "Hacer al menos dos preguntas de necesidades",
+          "Presentar un beneficio con un dato concreto",
+          "Rebatir «no tengo tiempo» con una pregunta alternativa",
+          "Rebatir «es caro» sin bajar el precio de inmediato",
+          "Negociar: descuento solo a cambio de algo (contrato de 12 meses)",
+          "Cerrar con un siguiente paso concreto (cita, oferta o llamada)"
+        ]
+      },
+      "produce": {
+        "id": "b24-s5",
+        "label": "<b>tu turno:</b> escribe tu guion de llamada: apertura, dos preguntas, el beneficio y tus respuestas a las dos objeciones.",
+        "placeholder": "Guten Tag, Frau …, hier ist … Haben Sie zwei Minuten Zeit? …"
+      }
+    }
+  ]
+}

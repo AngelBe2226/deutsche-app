@@ -91,6 +91,35 @@ recarga solo al guardar. Esquema de cada sección: `idx`, `title`, `level`
 `at: start|end`), `examples` (`en` = frase alemana con spans de rol, `es` =
 traducción), `tables`, `quiz` (ids **estables**, nunca reordenar) y `produce`.
 
+Un bloque nuevo se registra en `_index.json` (el orden de esa lista es el de
+la barra lateral; el panel de práctica `20` va siempre el último).
+
+### Tipos de sección para destrezas y verticales
+
+Campos opcionales que se combinan con los anteriores en la misma sección:
+
+| Campo | Qué muestra | Esquema |
+| --- | --- | --- |
+| `dialog` | Diálogo en burbujas, audio por turno y «Escuchar todo» (2 voces) | `{ id, setting, roles: { R: { name, label }, G: {…} }, lines: [ { who, de, es } ] }` |
+| `reading` | Texto con glosas al pasar el ratón + lista «Vocabulario» | `{ id, kind, title, paragraphs: ["…<span class=\"gl\" data-es=\"traducción\">Wort</span>…"] }` — las preguntas de comprensión van en `quiz` |
+| `vocab` | Tarjetas con artículo coloreado, plural, audio y modo autotest | `{ id: "bXX-voc", items: [ { de: "die Rezeption", pl: "Rezeptionen", es: "la recepción" } ] }` |
+| `roleplay` | Juego de rol guiado: el otro habla, tú escribes y comparas con el modelo | `{ id: "bXX-rp", you, partner: { name, label }, steps: [ { partner, es, task, model } ] }` |
+| `scenario` | Situación real con objetivos marcables | `{ id: "bXX-sc", situation, goals: ["…"] }` |
+
+Los `id` de `roleplay` y `scenario` deben empezar por `bXX-` para que «Reiniciar
+bloque» también los borre.
+
+### Patrón de vertical temática
+
+Cada vertical es un bloque de 5 secciones, siempre en este orden (ver
+`block_22.json` como plantilla):
+
+1. **Wortschatz** — `vocab` + `quiz` corto
+2. **Redemittel** — tabla `Función | Redemittel` + nota con la frase clave
+3. **Diálogo** — `dialog` + nota con la técnica + `quiz` de comprensión
+4. **Rollenspiel** — `roleplay` de 5 pasos
+5. **Szenario** — `scenario` + `produce`
+
 ## Progreso y destacados
 
 - Cada quiz se bloquea al responder y se guarda en SQLite por su id (`b02-s1q1`).

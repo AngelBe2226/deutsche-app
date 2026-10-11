@@ -1,0 +1,411 @@
+{
+  "block": "22",
+  "title": "Vertical: Recepción y hostelería",
+  "kicker": "Bloque 22 · Vertical profesional · A2–B1",
+  "intro": "Paquete completo para trabajar en la <b class=\"hl\">recepción de un hotel</b>: vocabulario, fórmulas, una queja real por teléfono, un juego de rol de check-out y un escenario para practicar sin red. Mismo patrón en todas las verticales: <b>Wortschatz → Redemittel → diálogo → Rollenspiel → Szenario</b>.",
+  "sections": [
+    {
+      "idx": "22.1",
+      "title": "Wortschatz: el vocabulario de la recepción",
+      "level": "A2",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (el color te ayuda: <span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Cuando lo tengas, pulsa «Ocultar español» y ponte a prueba.",
+      "vocab": {
+        "id": "b22-voc",
+        "items": [
+          {
+            "de": "die Rezeption",
+            "pl": "Rezeptionen",
+            "es": "la recepción"
+          },
+          {
+            "de": "der Gast",
+            "pl": "Gäste",
+            "es": "el huésped, el cliente"
+          },
+          {
+            "de": "die Buchung",
+            "pl": "Buchungen",
+            "es": "la reserva"
+          },
+          {
+            "de": "das Einzelzimmer",
+            "pl": "Einzelzimmer",
+            "es": "la habitación individual"
+          },
+          {
+            "de": "das Doppelzimmer",
+            "pl": "Doppelzimmer",
+            "es": "la habitación doble"
+          },
+          {
+            "de": "die Schlüsselkarte",
+            "pl": "Schlüsselkarten",
+            "es": "la tarjeta-llave"
+          },
+          {
+            "de": "der Aufenthalt",
+            "pl": "Aufenthalte",
+            "es": "la estancia"
+          },
+          {
+            "de": "die Anreise",
+            "pl": "Anreisen",
+            "es": "la llegada"
+          },
+          {
+            "de": "die Abreise",
+            "pl": "Abreisen",
+            "es": "la salida"
+          },
+          {
+            "de": "die Rechnung",
+            "pl": "Rechnungen",
+            "es": "la factura, la cuenta"
+          },
+          {
+            "de": "das Gepäck",
+            "es": "el equipaje (sin plural)"
+          },
+          {
+            "de": "der Aufzug",
+            "pl": "Aufzüge",
+            "es": "el ascensor"
+          },
+          {
+            "de": "die Beschwerde",
+            "pl": "Beschwerden",
+            "es": "la queja"
+          },
+          {
+            "de": "die Klimaanlage",
+            "pl": "Klimaanlagen",
+            "es": "el aire acondicionado"
+          },
+          {
+            "de": "der Ausweis",
+            "pl": "Ausweise",
+            "es": "el documento de identidad"
+          },
+          {
+            "de": "einchecken",
+            "es": "hacer el check-in"
+          },
+          {
+            "de": "auschecken",
+            "es": "hacer el check-out"
+          },
+          {
+            "de": "sich beschweren",
+            "es": "quejarse"
+          },
+          {
+            "de": "verlängern",
+            "es": "prolongar (la estancia)"
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b22-s1q1",
+          "question": "1. ¿Qué artículo lleva <i>Rechnung</i>?",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b22-s1q2",
+          "question": "2. <i>die Abreise</i> es…",
+          "options": [
+            "la llegada",
+            "la salida",
+            "la reserva"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b22-s1q3",
+          "question": "3. Plural de <i>der Gast</i>:",
+          "options": [
+            "die Gasts",
+            "die Gäste",
+            "die Gasten"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "22.2",
+      "title": "Redemittel: fórmulas para atender al cliente",
+      "level": "A2",
+      "rule": "Frases hechas para cada momento del servicio. Escúchalas fila a fila y repítelas en voz alta: en recepción se habla siempre de <b>Sie</b>.",
+      "tables": [
+        {
+          "headers": [
+            "Función",
+            "Redemittel"
+          ],
+          "rows": [
+            [
+              "Saludar y ofrecer ayuda",
+              "Guten Morgen! Wie kann ich Ihnen helfen?"
+            ],
+            [
+              "Pedir datos",
+              "Darf ich bitte Ihren Ausweis sehen?"
+            ],
+            [
+              "Pedir datos",
+              "Auf welchen Namen haben Sie gebucht?"
+            ],
+            [
+              "Informar",
+              "Das Frühstück gibt es von sieben bis zehn Uhr."
+            ],
+            [
+              "Ofrecer",
+              "Möchten Sie einen Tisch im Restaurant reservieren?"
+            ],
+            [
+              "Disculparse",
+              "Das tut mir sehr leid. Bitte entschuldigen Sie die Unannehmlichkeiten."
+            ],
+            [
+              "Comprometerse",
+              "Ich kümmere mich sofort darum."
+            ],
+            [
+              "Pedir paciencia",
+              "Einen Moment, bitte. Ich schaue kurz nach."
+            ],
+            [
+              "Despedir",
+              "Ich wünsche Ihnen einen schönen Aufenthalt!"
+            ],
+            [
+              "Despedir",
+              "Gute Reise und bis bald!"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>Ich kümmere mich darum</b> (me encargo de ello) es la frase estrella del servicio al cliente: tranquiliza y te compromete. Va con <i>um</i> + Akkusativ: <i>Ich kümmere mich um Ihr Gepäck.</i>"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b22-s2q1",
+          "question": "1. Un cliente se queja. ¿Qué dices primero?",
+          "options": [
+            "Das ist nicht mein Problem.",
+            "Das tut mir sehr leid.",
+            "Gute Reise!"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b22-s2q2",
+          "question": "2. Ich kümmere mich <span class=\"blank\">___</span> Ihr Problem.",
+          "options": [
+            "um",
+            "für",
+            "an"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "22.3",
+      "title": "Diálogo: una queja por teléfono",
+      "level": "B1",
+      "rule": "Una huésped llama porque el aire acondicionado no funciona. Escucha el diálogo entero y fíjate en <b>cómo</b> responde el recepcionista: el orden de sus frases es una técnica.",
+      "dialog": {
+        "id": "recepcion-queja",
+        "setting": "Hotel am Park, Múnich · llamada interna desde la habitación 214, 22:10",
+        "roles": {
+          "R": {
+            "name": "Herr Schulz",
+            "label": "Recepcionista"
+          },
+          "G": {
+            "name": "Frau Brandt",
+            "label": "Huésped"
+          }
+        },
+        "lines": [
+          {
+            "who": "R",
+            "de": "Rezeption, Schulz am Apparat. Guten Abend!",
+            "es": "Recepción, al habla Schulz. ¡Buenas noches!"
+          },
+          {
+            "who": "G",
+            "de": "Guten Abend, hier ist Brandt, Zimmer 214. Ich habe leider ein Problem: Die Klimaanlage funktioniert nicht, und im Zimmer ist es sehr heiß.",
+            "es": "Buenas noches, soy Brandt, habitación 214. Tengo un problema: el aire acondicionado no funciona y en la habitación hace mucho calor."
+          },
+          {
+            "who": "R",
+            "de": "Oh, <b>das tut mir sehr leid</b>, Frau Brandt. Haben Sie die Fernbedienung schon ausprobiert?",
+            "es": "Vaya, lo siento mucho, señora Brandt. ¿Ha probado ya el mando a distancia?"
+          },
+          {
+            "who": "G",
+            "de": "Ja, natürlich. Das Display geht an, aber es kommt keine kalte Luft.",
+            "es": "Sí, claro. La pantalla se enciende, pero no sale aire frío."
+          },
+          {
+            "who": "R",
+            "de": "Verstehe. <b>Ich kümmere mich sofort darum.</b> Leider ist unser Techniker erst morgen früh wieder im Haus.",
+            "es": "Entiendo. Me encargo enseguida. Por desgracia, nuestro técnico no vuelve hasta mañana por la mañana."
+          },
+          {
+            "who": "G",
+            "de": "Und was mache ich jetzt? So kann ich wirklich nicht schlafen.",
+            "es": "¿Y qué hago ahora? Así no puedo dormir, de verdad."
+          },
+          {
+            "who": "R",
+            "de": "Ich kann Ihnen ein anderes Zimmer anbieten, im fünften Stock, mit Blick auf den Park. <b>Wäre das in Ordnung?</b>",
+            "es": "Puedo ofrecerle otra habitación en la quinta planta, con vistas al parque. ¿Le parece bien?"
+          },
+          {
+            "who": "G",
+            "de": "Ja, das wäre super. Muss ich meine Sachen selbst hinbringen?",
+            "es": "Sí, sería genial. ¿Tengo que llevar mis cosas yo misma?"
+          },
+          {
+            "who": "R",
+            "de": "Nein, keine Sorge. Ein Kollege kommt in fünf Minuten mit der neuen Schlüsselkarte und hilft Ihnen mit dem Gepäck.",
+            "es": "No, no se preocupe. Un compañero sube en cinco minutos con la nueva tarjeta y le ayuda con el equipaje."
+          },
+          {
+            "who": "G",
+            "de": "Vielen Dank, das ist sehr nett.",
+            "es": "Muchas gracias, es muy amable."
+          },
+          {
+            "who": "R",
+            "de": "Gern geschehen. Und als kleine Entschuldigung ist Ihr Frühstück morgen natürlich kostenlos. Gute Nacht, Frau Brandt!",
+            "es": "De nada. Y como pequeña disculpa, el desayuno de mañana corre de nuestra cuenta, por supuesto. ¡Buenas noches, señora Brandt!"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "La técnica para cualquier queja: <b>1) disculpa</b> (<i>das tut mir leid</i>) → <b>2) comprobar</b> (<i>Haben Sie … ausprobiert?</i>) → <b>3) compromiso</b> (<i>Ich kümmere mich darum</i>) → <b>4) solución concreta</b> → <b>5) gesto</b> (desayuno gratis). Sirve igual en ventas o inmobiliaria."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b22-s3q1",
+          "question": "1. Was ist das Problem?",
+          "options": [
+            "Das WLAN geht nicht.",
+            "Die Klimaanlage funktioniert nicht.",
+            "Das Zimmer ist zu laut."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b22-s3q2",
+          "question": "2. Was bietet Herr Schulz an?",
+          "options": [
+            "sofort einen Techniker",
+            "ein anderes Zimmer",
+            "50 Prozent Rabatt"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b22-s3q3",
+          "question": "3. <i>Wäre das in Ordnung?</i> es…",
+          "options": [
+            "una pregunta cortés (Konjunktiv II)",
+            "una orden",
+            "un reproche"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "22.4",
+      "title": "Rollenspiel: el check-out",
+      "level": "A2",
+      "rule": "Ahora tú eres el recepcionista. El huésped habla (puedes escucharlo), tú escribes tu respuesta siguiendo la instrucción y después la comparas con el modelo. Repite el modelo en voz alta.",
+      "roleplay": {
+        "id": "b22-rp",
+        "you": "Recepcionista",
+        "partner": {
+          "name": "Herr Okafor",
+          "label": "Huésped"
+        },
+        "steps": [
+          {
+            "partner": "Guten Morgen! Ich möchte gern auschecken. Zimmer 108.",
+            "es": "¡Buenos días! Quisiera hacer el check-out. Habitación 108.",
+            "task": "Saluda y pide la tarjeta-llave.",
+            "model": "Guten Morgen, Herr Okafor! Darf ich bitte Ihre Schlüsselkarte haben?"
+          },
+          {
+            "partner": "Hier, bitte. Wie viel macht das insgesamt?",
+            "es": "Aquí tiene. ¿Cuánto es en total?",
+            "task": "Dile que son tres noches con desayuno, 345 euros, y pregunta si ha tomado algo del minibar.",
+            "model": "Das sind drei Nächte mit Frühstück, also 345 Euro. Haben Sie etwas aus der Minibar genommen?"
+          },
+          {
+            "partner": "Nein, nichts. Kann ich mit Karte zahlen?",
+            "es": "No, nada. ¿Puedo pagar con tarjeta?",
+            "task": "Responde que sí y pregunta si quiere la factura a nombre de una empresa.",
+            "model": "Ja, natürlich. Möchten Sie die Rechnung auf eine Firma ausstellen lassen?"
+          },
+          {
+            "partner": "Nein, privat, danke. Ach, mein Zug fährt erst um 16 Uhr. Kann ich mein Gepäck hierlassen?",
+            "es": "No, a título personal, gracias. Ah, mi tren no sale hasta las 16:00. ¿Puedo dejar aquí el equipaje?",
+            "task": "Dile que sí, que lo guardáis en la consigna, y dale su número.",
+            "model": "Selbstverständlich. Wir bewahren Ihr Gepäck in unserem Gepäckraum auf. Hier ist Ihre Nummer."
+          },
+          {
+            "partner": "Perfekt. Vielen Dank für alles!",
+            "es": "Perfecto. ¡Muchas gracias por todo!",
+            "task": "Despídete deseándole buen viaje e invítalo a volver.",
+            "model": "Gern geschehen! Gute Reise, Herr Okafor, und besuchen Sie uns bald wieder!"
+          }
+        ]
+      }
+    },
+    {
+      "idx": "22.5",
+      "title": "Szenario: un huésped con un problema",
+      "level": "B1",
+      "rule": "Situación real para practicar sola/o o con alguien que haga de huésped. Hazla en voz alta o por escrito y marca cada objetivo cuando lo cumplas.",
+      "scenario": {
+        "id": "b22-sc",
+        "situation": "Son las <b>23:30</b>. Una huésped llama a recepción: en la habitación 305 <b>no hay agua caliente</b> y mañana a las 7:00 tiene una reunión importante. El técnico no llega hasta las 8:00 y el hotel está <b>casi completo</b>: solo queda libre una suite (más cara). Gestiona la llamada en alemán.",
+        "goals": [
+          "Saludar con la fórmula de teléfono (<i>Rezeption, … am Apparat</i>)",
+          "Disculparte y mostrar empatía (<i>Das tut mir sehr leid …</i>)",
+          "Hacer una pregunta para comprobar el problema",
+          "Comprometerte (<i>Ich kümmere mich darum</i>)",
+          "Ofrecer una solución concreta (la suite sin coste adicional u otra alternativa)",
+          "Cerrar con un gesto y una despedida cortés"
+        ]
+      },
+      "produce": {
+        "id": "b22-s5",
+        "label": "<b>tu turno:</b> escribe la conversación completa (6–10 turnos) o, si la practicaste en voz alta, apunta aquí las frases que te costaron.",
+        "placeholder": "Rezeption, … am Apparat. Guten Abend! …"
+      }
+    }
+  ]
+}

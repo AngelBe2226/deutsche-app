@@ -16,9 +16,13 @@ export default function Sidebar({
   const [expanded, setExpanded] = useState(current);
   const [secCache, setSecCache] = useState({});
 
-  // El capítulo actual se abre solo al cambiar de bloque.
+  // El capítulo actual se abre solo al cambiar de bloque, y la lista se
+  // desplaza para que quede a la vista (útil al saltar desde ⌘K o el pager).
   useEffect(() => {
     setExpanded(current);
+    requestAnimationFrame(() =>
+      document.querySelector(".nav-row.current")?.scrollIntoView({ block: "nearest" })
+    );
   }, [current]);
 
   // Carga perezosa de los epígrafes del capítulo abierto.
