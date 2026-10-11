@@ -1,0 +1,606 @@
+{
+  "block": "27",
+  "title": "C2: registro, matiz y textos auténticos",
+  "kicker": "Bloque 27 · C1–C2",
+  "intro": "En el nivel más alto ya no se trata de qué es correcto, sino de qué es <b class=\"hl\">adecuado</b>: el registro, el matiz entre sinónimos, la estructura de cada tipo de texto y la lectura de <b>literatura y prensa</b> con su estilo.",
+  "sections": [
+    {
+      "idx": "27.1",
+      "title": "Registro: el mismo mensaje en cuatro tonos",
+      "level": "C2",
+      "rule": "En C2 no basta con decir algo correctamente: hay que decirlo en el <b>registro</b> adecuado. El mismo mensaje cambia de vocabulario, sintaxis y longitud según sea <b>coloquial</b> (amigos), <b>neutral</b>, <b>formal</b> (trabajo, clientes) o <b>burocrático</b> (administración). Además, el alemán usa mucho la <b>ironía</b> y los <b>eufemismos</b>, sobre todo en el mundo laboral.",
+      "tables": [
+        {
+          "headers": [
+            "Registro",
+            "«Hoy no puedo ir a la reunión»"
+          ],
+          "rows": [
+            [
+              "coloquial",
+              "Sorry, ich schaff's heute nicht zum Treffen."
+            ],
+            [
+              "neutral",
+              "Leider kann ich heute nicht an der Besprechung teilnehmen."
+            ],
+            [
+              "formal",
+              "Bedauerlicherweise ist es mir nicht möglich, an der heutigen Besprechung teilzunehmen."
+            ],
+            [
+              "burocrático",
+              "Eine Teilnahme an der heutigen Sitzung ist meinerseits leider nicht möglich."
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Eufemismo laboral",
+            "Lo que significa"
+          ],
+          "rows": [
+            [
+              "Er war stets bemüht.",
+              "Se esforzó… pero no lo consiguió (fórmula negativa en un certificado de trabajo)."
+            ],
+            [
+              "Wir müssen uns neu aufstellen.",
+              "Habrá reestructuración: recortes o despidos."
+            ],
+            [
+              "Freisetzung von Mitarbeitern",
+              "Despidos."
+            ],
+            [
+              "Das ist suboptimal gelaufen.",
+              "Ha salido mal."
+            ],
+            [
+              "Wir melden uns bei Ihnen.",
+              "Probablemente no le llamarán."
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Na, das hast du ja <b>toll</b> hingekriegt!",
+          "es": "Vaya, ¡qué bien lo has hecho! (ironía: lo ha hecho fatal)"
+        },
+        {
+          "en": "Ihr Antrag konnte leider nicht positiv beschieden werden.",
+          "es": "Su solicitud no ha podido resolverse favorablemente (= ha sido rechazada)."
+        }
+      ],
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Los <b>certificados de trabajo</b> (<i>Arbeitszeugnis</i>) usan un código: por ley deben sonar positivos, así que la nota está en los matices. <i>«stets zu unserer vollsten Zufriedenheit»</i> = sobresaliente; <i>«zu unserer Zufriedenheit»</i> = aprobado justo."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b27-s1q1",
+          "question": "1. ¿Qué versión es burocrática?",
+          "options": [
+            "Ich kann leider nicht kommen.",
+            "Eine Teilnahme ist meinerseits nicht möglich.",
+            "Ich schaff's nicht."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s1q2",
+          "question": "2. <i>Ihr Antrag konnte nicht positiv beschieden werden</i> quiere decir…",
+          "options": [
+            "Su solicitud está en trámite",
+            "Su solicitud ha sido aceptada",
+            "Su solicitud ha sido rechazada"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b27-s1q3",
+          "question": "3. En un Arbeitszeugnis, <i>Er war stets bemüht</i> es…",
+          "options": [
+            "una crítica encubierta",
+            "el máximo elogio",
+            "neutral"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b27-s1q4",
+          "question": "4. Versión coloquial de «Ich habe keine Zeit»:",
+          "options": [
+            "Mir fehlt die zeitliche Kapazität.",
+            "Es steht mir keine Zeit zur Verfügung.",
+            "Ich hab keine Zeit."
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b27-s1",
+        "label": "<b>tu turno:</b> escribe «Llego 20 minutos tarde» en registro coloquial (a un amigo) y formal (a un cliente).",
+        "placeholder": "Coloquial: Sorry, ich komm 20 Minuten später! — Formal: …"
+      }
+    },
+    {
+      "idx": "27.2",
+      "title": "Tipos de texto: Erörterung, resumen, carta y gráficos",
+      "level": "C1",
+      "rule": "Cada tipo de texto tiene su <b>estructura</b> y sus <b>Redemittel</b> fijos, y los exámenes C1/C2 (Goethe, TestDaF, telc) los evalúan expresamente. Domina cuatro: la <b>Erörterung</b> (argumentar a favor y en contra), la <b>Zusammenfassung</b> (resumir con distancia), la <b>carta formal</b> y la <b>descripción de gráficos</b>.",
+      "tables": [
+        {
+          "headers": [
+            "Tipo de texto",
+            "Función",
+            "Redemittel"
+          ],
+          "rows": [
+            [
+              "Erörterung",
+              "Introducir el tema",
+              "Die Frage, ob …, wird derzeit kontrovers diskutiert."
+            ],
+            [
+              "Erörterung",
+              "Argumentar a favor",
+              "Für … spricht vor allem, dass …"
+            ],
+            [
+              "Erörterung",
+              "Argumentar en contra",
+              "Dagegen lässt sich einwenden, dass …"
+            ],
+            [
+              "Erörterung",
+              "Concluir",
+              "Alles in allem bin ich der Ansicht, dass …"
+            ],
+            [
+              "Zusammenfassung",
+              "Presentar la fuente",
+              "Der Artikel „…“ aus der … befasst sich mit …"
+            ],
+            [
+              "Zusammenfassung",
+              "Reproducir con distancia",
+              "Der Autor vertritt die These, dass …"
+            ],
+            [
+              "Formeller Brief",
+              "Abrir",
+              "Sehr geehrte Damen und Herren, …"
+            ],
+            [
+              "Formeller Brief",
+              "Motivo",
+              "Ich wende mich an Sie, weil …"
+            ],
+            [
+              "Formeller Brief",
+              "Cerrar",
+              "Für eine baldige Antwort wäre ich Ihnen dankbar. Mit freundlichen Grüßen"
+            ],
+            [
+              "Grafikbeschreibung",
+              "Presentar",
+              "Die Grafik zeigt, wie sich … zwischen 2015 und 2025 entwickelt hat."
+            ],
+            [
+              "Grafikbeschreibung",
+              "Describir tendencias",
+              "Der Anteil ist um 12 Prozent gestiegen / auf 30 Prozent gesunken."
+            ],
+            [
+              "Grafikbeschreibung",
+              "Comparar",
+              "Im Vergleich zu … liegt der Wert deutlich höher."
+            ]
+          ]
+        }
+      ],
+      "order": {
+        "id": "b27-s2o",
+        "prompt": "Ordena los párrafos de esta Erörterung sobre el teletrabajo.",
+        "items": [
+          "Einleitung: Die Frage, ob Homeoffice die Produktivität steigert, wird derzeit kontrovers diskutiert.",
+          "Pro: Für das Homeoffice spricht vor allem, dass lange Arbeitswege entfallen.",
+          "Contra: Dagegen lässt sich einwenden, dass der direkte Austausch im Team leidet.",
+          "Abwägung: Beide Positionen haben ihre Berechtigung, hängen aber stark von der Tätigkeit ab.",
+          "Schluss: Alles in allem bin ich der Ansicht, dass ein hybrides Modell die beste Lösung ist."
+        ]
+      },
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "En la <b>Zusammenfassung</b> no opines y marca distancia con <b>Konjunktiv I</b> o fórmulas como <i>laut dem Autor, dem Artikel zufolge</i> (ver 26.1): estás contando lo que dice otro."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Gráficos: <b>um</b> indica la diferencia y <b>auf</b> el valor final. <i>Der Anteil ist <b>um</b> 5 Prozentpunkte <b>auf</b> 30 Prozent gestiegen</i> = ha subido 5 puntos hasta el 30 %."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b27-s2q1",
+          "question": "1. Para introducir un argumento en contra:",
+          "options": [
+            "Alles in allem …",
+            "Dagegen lässt sich einwenden, dass …",
+            "Sehr geehrte Damen und Herren"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s2q2",
+          "question": "2. En una Zusammenfassung…",
+          "options": [
+            "das tu opinión desde el principio",
+            "usas registro coloquial",
+            "no opinas y marcas distancia"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b27-s2q3",
+          "question": "3. Der Anteil ist <span class=\"blank\">___</span> 30 Prozent gestiegen. (= hasta el 30 %)",
+          "options": [
+            "auf",
+            "um",
+            "bei"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b27-s2q4",
+          "question": "4. Der Anteil ist <span class=\"blank\">___</span> 5 Prozent gestiegen. (= sube 5 puntos)",
+          "options": [
+            "auf",
+            "um",
+            "von"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b27-s2",
+        "label": "<b>tu turno:</b> escribe la introducción y un argumento a favor de una Erörterung: «Sollten Unternehmen die Vier-Tage-Woche einführen?»",
+        "placeholder": "Die Frage, ob … wird derzeit …"
+      }
+    },
+    {
+      "idx": "27.3",
+      "title": "Sinonimia fina y colocaciones formales",
+      "level": "C2",
+      "rule": "En C2 el reto ya no es qué significa una palabra, sino <b>qué sinónimo encaja</b> y <b>con qué palabras se combina</b>. <i>sagen, meinen, behaupten, äußern, betonen</i> no son intercambiables: cada uno añade una actitud. Y las <b>colocaciones</b> del bloque 17.2 se amplían al registro formal: <i>einen Antrag <b>stellen</b>, Maßnahmen <b>ergreifen</b>, Bedenken <b>äußern</b></i>.",
+      "tables": [
+        {
+          "headers": [
+            "Verbo",
+            "Matiz",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "sagen",
+              "neutro",
+              "Sie sagt, dass sie kommt."
+            ],
+            [
+              "meinen",
+              "opinión personal",
+              "Ich meine, wir sollten warten."
+            ],
+            [
+              "behaupten",
+              "afirmar algo dudoso o sin pruebas",
+              "Er behauptet, nichts gewusst zu haben."
+            ],
+            [
+              "betonen",
+              "subrayar algo importante",
+              "Die Ministerin betonte die Bedeutung der Bildung."
+            ],
+            [
+              "äußern",
+              "expresar (formal: críticas, reservas, deseos)",
+              "Mehrere Kollegen äußerten Bedenken."
+            ],
+            [
+              "einräumen",
+              "admitir algo que no te favorece",
+              "Der Chef räumte Fehler ein."
+            ],
+            [
+              "andeuten",
+              "insinuar",
+              "Sie deutete an, dass sie kündigen will."
+            ]
+          ]
+        },
+        {
+          "headers": [
+            "Sustantivo",
+            "Verbo",
+            "Significado"
+          ],
+          "rows": [
+            [
+              "einen Antrag",
+              "stellen",
+              "presentar una solicitud"
+            ],
+            [
+              "Maßnahmen",
+              "ergreifen",
+              "tomar medidas"
+            ],
+            [
+              "eine Frist",
+              "einhalten / versäumen",
+              "cumplir / dejar pasar un plazo"
+            ],
+            [
+              "Verantwortung",
+              "übernehmen",
+              "asumir la responsabilidad"
+            ],
+            [
+              "einen Kompromiss",
+              "eingehen / schließen",
+              "llegar a un acuerdo"
+            ],
+            [
+              "Bedenken",
+              "äußern",
+              "expresar reservas"
+            ],
+            [
+              "ein Ziel",
+              "verfolgen",
+              "perseguir un objetivo"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Sinónimos de <b>beginnen</b>: <i>anfangen</i> (neutro), <i>starten</i> (proyectos, informal), <i>einleiten</i> (procesos formales: <i>Maßnahmen einleiten</i>), <i>aufnehmen</i> (<i>die Arbeit / Verhandlungen aufnehmen</i>). Fíjate siempre en el sustantivo con el que va."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b27-s3q1",
+          "question": "1. Die Regierung will neue Maßnahmen <span class=\"blank\">___</span>.",
+          "options": [
+            "machen",
+            "ergreifen",
+            "nehmen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s3q2",
+          "question": "2. Er <span class=\"blank\">___</span>, das Geld nie bekommen zu haben. (sin pruebas)",
+          "options": [
+            "behauptet",
+            "betont",
+            "räumt ein"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b27-s3q3",
+          "question": "3. Der Direktor <span class=\"blank\">___</span> Fehler <span class=\"blank\">___</span>. (los admite)",
+          "options": [
+            "deutete … an",
+            "räumte … ein",
+            "äußerte … an"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s3q4",
+          "question": "4. Sie hat die Frist leider <span class=\"blank\">___</span>.",
+          "options": [
+            "verloren",
+            "verbracht",
+            "versäumt"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b27-s3q5",
+          "question": "5. Wir müssen einen Kompromiss <span class=\"blank\">___</span>.",
+          "options": [
+            "eingehen",
+            "stellen",
+            "ergreifen"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b27-s3",
+        "label": "<b>tu turno:</b> resume una reunión reciente en 3 frases usando <i>betonen</i>, <i>Bedenken äußern</i> y <i>einräumen</i>.",
+        "placeholder": "Die Chefin betonte, dass … Einige Kollegen äußerten Bedenken …"
+      }
+    },
+    {
+      "idx": "27.4",
+      "title": "Literatura: Kafka, «Die Verwandlung» (1915)",
+      "level": "C2",
+      "rule": "Fragmento original del comienzo de <i>La metamorfosis</i> de Franz Kafka (texto de <b>dominio público</b>). Léelo primero sin ayuda; después pasa el ratón por las palabras subrayadas y lee las notas de estilo. Fíjate en cómo cuenta lo imposible con la calma de un informe.",
+      "reading": {
+        "id": "kafka-verwandlung",
+        "kind": "Literatura · Franz Kafka, 1915",
+        "title": "Die Verwandlung",
+        "paragraphs": [
+          "Als Gregor Samsa eines Morgens aus <span class=\"gl\" data-es=\"intranquilos, agitados\">unruhigen</span> Träumen <span class=\"gl\" data-es=\"despertó\">erwachte</span>, fand er sich in seinem Bett zu einem <span class=\"gl\" data-es=\"monstruoso\">ungeheueren</span> <span class=\"gl\" data-es=\"bicho, alimaña\">Ungeziefer</span> <span class=\"gl\" data-es=\"transformado\">verwandelt</span>. Er lag auf seinem <span class=\"gl\" data-es=\"como una coraza\">panzerartig</span> harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen <span class=\"gl\" data-es=\"abombado\">gewölbten</span>, braunen, von bogenförmigen <span class=\"gl\" data-es=\"nervaduras, refuerzos\">Versteifungen</span> geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen <span class=\"gl\" data-es=\"deslizarse hacia abajo\">Niedergleiten</span> bereit, kaum noch erhalten konnte. Seine vielen, im Vergleich zu seinem sonstigen Umfang <span class=\"gl\" data-es=\"lamentablemente\">kläglich</span> dünnen Beine <span class=\"gl\" data-es=\"temblaban, parpadeaban\">flimmerten</span> ihm hilflos vor den Augen.",
+          "»Was ist mit mir <span class=\"gl\" data-es=\"ocurrido, pasado\">geschehen</span>?«, dachte er. Es war kein Traum."
+        ]
+      },
+      "notes": [
+        {
+          "type": "why",
+          "at": "end",
+          "text": "<b>Estilo:</b> Kafka narra lo absurdo con la <b>sobriedad de un informe</b>: frases largas y exactas, sin exclamaciones ni asombro. Ese contraste entre lo que pasa y cómo se cuenta es lo «kafkiano»."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Gramática que ya conoces, en acción: el <b>atributo de participio</b> <i>seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch</i> (26.4), la relativa con genitivo <i>auf dessen Höhe</i> (25.1), el <b>Präteritum</b> narrativo (<i>erwachte, fand, lag</i>, 10.3) y el estilo nominal <i>zum gänzlichen Niedergleiten bereit</i> (26.2)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b27-s4q1",
+          "question": "1. Was ist mit Gregor passiert?",
+          "options": [
+            "Er ist krank geworden.",
+            "Er ist in ein Ungeziefer verwandelt.",
+            "Er hat verschlafen."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s4q2",
+          "question": "2. Was kann sich kaum noch auf seinem Bauch halten?",
+          "options": [
+            "die Bettdecke",
+            "das Kissen",
+            "seine Beine"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b27-s4q3",
+          "question": "3. <i>von bogenförmigen Versteifungen geteilten Bauch</i> es…",
+          "options": [
+            "una subordinada",
+            "un Konjunktiv I",
+            "un atributo de participio"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b27-s4q4",
+          "question": "4. En <i>auf dessen Höhe</i>, <i>dessen</i> se refiere a…",
+          "options": [
+            "Gregor",
+            "el vientre (Bauch)",
+            "la cama"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s4q5",
+          "question": "5. Gregor glaubt, dass alles nur ein Traum ist.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b27-s4",
+        "label": "<b>tu turno:</b> escribe la primera frase de un relato propio imitando el tono de Kafka: algo imposible contado con total calma.",
+        "placeholder": "Als ich an diesem Morgen …"
+      }
+    },
+    {
+      "idx": "27.5",
+      "title": "Prensa: un comentario sobre la semana de cuatro días",
+      "level": "C1",
+      "rule": "Comentario <b>redactado al estilo</b> de la prensa alemana (no es un artículo real). Concentra casi todo el C1: estilo indirecto, alternativas a la pasiva, conectores finos y partículas. Léelo, usa las glosas y fíjate en las notas de estilo.",
+      "reading": {
+        "id": "kommentar-4-tage",
+        "kind": "Prensa · comentario (texto modelo)",
+        "title": "Die Vier-Tage-Woche: Luxus oder Zukunftsmodell?",
+        "paragraphs": [
+          "Kaum ein arbeitspolitisches Thema wird derzeit so <span class=\"gl\" data-es=\"apasionadamente\">leidenschaftlich</span> diskutiert wie die Vier-Tage-Woche. <span class=\"gl\" data-es=\"partidarios\">Befürworter</span> verweisen auf Pilotprojekte, in denen die Produktivität trotz <span class=\"gl\" data-es=\"reducida\">verkürzter</span> Arbeitszeit stabil geblieben sei. Kritiker hingegen warnen vor höheren Kosten und einem <span class=\"gl\" data-es=\"agravada, más aguda\">verschärften</span> <span class=\"gl\" data-es=\"escasez de personal cualificado\">Fachkräftemangel</span>.",
+          "Tatsächlich zeigen die bisher <span class=\"gl\" data-es=\"disponibles\">vorliegenden</span> Studien ein gemischtes Bild. Während Beschäftigte von weniger Stress und mehr Zufriedenheit berichten, stehen insbesondere kleine Betriebe vor <span class=\"gl\" data-es=\"considerables\">erheblichen</span> organisatorischen Herausforderungen. Ein Pflegeheim oder eine Arztpraxis lässt sich eben nicht einfach an einem Tag pro Woche schließen.",
+          "Dessen ungeachtet dürfte die Debatte nicht so schnell <span class=\"gl\" data-es=\"acallarse\">verstummen</span>. Denn hinter der Frage nach der Arbeitszeit steht eine grundsätzlichere: Welchen <span class=\"gl\" data-es=\"importancia, lugar\">Stellenwert</span> räumen wir der Arbeit in unserem Leben ein? Eine Antwort darauf wird nicht per Gesetz zu finden sein, sondern nur im Dialog zwischen Unternehmen und Beschäftigten."
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Rasgos de C1 en el texto: <b>Konjunktiv I</b> para citar con distancia (<i>stabil geblieben sei</i>), <b>alternativas a la pasiva</b> (<i>lässt sich … schließen</i>, <i>wird … zu finden sein</i>), conectores finos (<i>hingegen, dessen ungeachtet</i>), la partícula <i>eben</i>, <i>dürfte</i> para suposiciones prudentes y el Funktionsverbgefüge <i>einen Stellenwert einräumen</i>."
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Estructura típica de un <b>Kommentar</b>: presentar el debate con las dos posturas → matizar con datos → elevar la cuestión a algo más general → cierre abierto. Es el mismo esqueleto que la Erörterung (27.2)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b27-s5q1",
+          "question": "1. Laut Befürwortern ist die Produktivität …",
+          "options": [
+            "stark gesunken",
+            "stabil geblieben",
+            "nicht gemessen worden"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s5q2",
+          "question": "2. Welches Problem haben kleine Betriebe?",
+          "options": [
+            "zu viele Bewerber",
+            "zu wenig Kunden",
+            "organisatorische Herausforderungen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b27-s5q3",
+          "question": "3. ¿Por qué <i>geblieben sei</i> y no <i>geblieben ist</i>?",
+          "options": [
+            "Konjunktiv I: reproduce lo que dicen otros",
+            "Es un error",
+            "Es Konjunktiv II irreal"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b27-s5q4",
+          "question": "4. <i>Dessen ungeachtet</i> equivale a…",
+          "options": [
+            "Deshalb",
+            "Trotzdem",
+            "Außerdem"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b27-s5q5",
+          "question": "5. Der Autor glaubt, dass ein Gesetz die Frage lösen wird.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b27-s5",
+        "label": "<b>tu turno:</b> escribe un párrafo de comentario (5–6 frases) sobre otro tema de debate usando al menos un Konjunktiv I, un conector avanzado y un Funktionsverbgefüge.",
+        "placeholder": "Kaum ein Thema wird so kontrovers diskutiert wie …"
+      }
+    }
+  ]
+}

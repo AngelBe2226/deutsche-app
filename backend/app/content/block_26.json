@@ -1,0 +1,892 @@
+{
+  "block": "26",
+  "title": "C1: gramática de nivel alto",
+  "kicker": "Bloque 26 · C1",
+  "intro": "La gramática que aparece en la <b class=\"hl\">prensa, los informes y los exámenes C1</b>: estilo indirecto, estilo nominal, Funktionsverbgefüge, atributos de participio, conectores finos y las partículas que hacen sonar natural el alemán hablado.",
+  "sections": [
+    {
+      "idx": "26.1",
+      "title": "Konjunktiv I: el estilo indirecto",
+      "level": "C1",
+      "rule": "La prensa, los informes y los textos académicos reproducen lo que dijo otra persona con el <b>Konjunktiv I</b>, para marcar <b>distancia</b> («según él…»). Se forma con la raíz del infinitivo + <b>-e, -est, -e, -en, -et, -en</b>. En la práctica casi solo se usa la <b>3.ª persona</b>: <i>er habe, er sei, er komme, er könne, er werde</i>. Si la forma coincide con el indicativo (<i>sie haben</i>), se sustituye por el <b>Konjunktiv II</b> (<i>sie hätten</i>).",
+      "examples": [
+        {
+          "en": "Der Minister sagt, er <b>sei</b> mit dem Ergebnis zufrieden.",
+          "es": "El ministro dice que está satisfecho con el resultado."
+        },
+        {
+          "en": "Die Sprecherin erklärte, das Unternehmen <b>habe</b> keine Fehler gemacht.",
+          "es": "La portavoz declaró que la empresa no había cometido errores."
+        },
+        {
+          "en": "Laut Polizei <b>komme</b> der Täter aus der Region.",
+          "es": "Según la policía, el autor procede de la región."
+        },
+        {
+          "en": "Er behauptet, er <b>könne</b> das Problem bis Montag lösen.",
+          "es": "Afirma que puede resolver el problema antes del lunes."
+        },
+        {
+          "en": "Die Experten meinen, die Preise <b>würden</b> weiter steigen.",
+          "es": "Los expertos opinan que los precios seguirán subiendo (Konj. II, porque «steigen» coincide con el indicativo)."
+        },
+        {
+          "en": "Sie fragte, ob er Zeit <b>habe</b>.",
+          "es": "Preguntó si tenía tiempo."
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Persona",
+            "sein",
+            "haben",
+            "können",
+            "werden"
+          ],
+          "rows": [
+            [
+              "er / sie / es",
+              "<b>sei</b>",
+              "<b>habe</b>",
+              "<b>könne</b>",
+              "<b>werde</b>"
+            ],
+            [
+              "ich",
+              "sei",
+              "(hätte)",
+              "könne",
+              "(würde)"
+            ],
+            [
+              "du",
+              "seist",
+              "habest",
+              "könnest",
+              "werdest"
+            ],
+            [
+              "wir / sie / Sie",
+              "seien",
+              "(hätten)",
+              "(könnten)",
+              "(würden)"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Pasado en estilo indirecto: <b>habe / sei + Partizip II</b> sirve para cualquier pasado del original (Präteritum, Perfekt o Plusquamperfekt): <i>«Ich kam spät» → Er sagt, er <b>sei</b> spät <b>gekommen</b>.</i>"
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "En la conversación casi nadie usa Konjunktiv I: se dice <i>Er hat gesagt, dass er keine Zeit hat</i>. Apréndelo sobre todo para <b>leer y escribir</b> textos formales."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b26-s1q1",
+          "question": "1. Er sagt, er <span class=\"blank\">___</span> krank.",
+          "options": [
+            "ist",
+            "sei",
+            "wäre"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s1q2",
+          "question": "2. Sie erklärt, sie <span class=\"blank\">___</span> keine Zeit.",
+          "options": [
+            "habe",
+            "hat",
+            "hatte"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b26-s1q3",
+          "question": "3. «Wir haben keine Zeit» → Sie sagen, sie <span class=\"blank\">___</span> keine Zeit.",
+          "options": [
+            "haben",
+            "habe",
+            "hätten"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b26-s1q4",
+          "question": "4. «Ich kam zu spät» → Er sagt, er <span class=\"blank\">___</span> zu spät gekommen.",
+          "options": [
+            "habe",
+            "sei",
+            "wäre"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s1q5",
+          "question": "5. ¿Para qué se usa sobre todo el Konjunktiv I?",
+          "options": [
+            "Deseos irreales",
+            "Órdenes",
+            "Estilo indirecto en prensa e informes"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b26-s1q6",
+          "question": "6. Laut Bericht <span class=\"blank\">___</span> die Firma 200 Mitarbeiter.",
+          "options": [
+            "hat",
+            "habe",
+            "hatte"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b26-s1",
+        "label": "<b>tu turno:</b> pasa a estilo indirecto: «Wir werden die Preise senken», sagte der Chef. «Die Kunden sind zufrieden.»",
+        "placeholder": "Der Chef sagte, man werde …"
+      }
+    },
+    {
+      "idx": "26.2",
+      "title": "Nominalstil: de verbo a sustantivo",
+      "level": "C1",
+      "rule": "Los textos formales (informes, ciencia, administración) prefieren el <b>Nominalstil</b>: lo que en el habla sería un verbo o una subordinada se convierte en <b>sustantivo + preposición</b>. <i>Weil die Preise steigen</i> → <b>wegen des Anstiegs der Preise</b>. Saber pasar de un estilo a otro (<i>Verbalstil ↔ Nominalstil</i>) es una destreza típica de C1.",
+      "tables": [
+        {
+          "headers": [
+            "Verbalstil (hablado)",
+            "Nominalstil (formal)",
+            "Conector → preposición"
+          ],
+          "rows": [
+            [
+              "Weil die Preise steigen, …",
+              "Wegen des Anstiegs der Preise …",
+              "weil → wegen"
+            ],
+            [
+              "Nachdem er angekommen war, …",
+              "Nach seiner Ankunft …",
+              "nachdem → nach"
+            ],
+            [
+              "Während wir das Projekt planen, …",
+              "Während der Planung des Projekts …",
+              "während → während"
+            ],
+            [
+              "Obwohl es regnete, …",
+              "Trotz des Regens …",
+              "obwohl → trotz"
+            ],
+            [
+              "Wenn man die Regeln nicht beachtet, …",
+              "Bei Nichtbeachtung der Regeln …",
+              "wenn → bei"
+            ],
+            [
+              "Um Kosten zu sparen, …",
+              "Zur Senkung der Kosten …",
+              "um … zu → zu(r)"
+            ],
+            [
+              "Bevor das Meeting beginnt, …",
+              "Vor Beginn des Meetings …",
+              "bevor → vor"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Die <b>Untersuchung</b> des Falls dauert noch an.",
+          "es": "La investigación del caso sigue en curso. (≈ Man untersucht den Fall noch.)"
+        },
+        {
+          "en": "Nach <b>Abschluss</b> der Bauarbeiten wird die Straße geöffnet.",
+          "es": "Tras finalizar las obras, se abrirá la calle."
+        },
+        {
+          "en": "<b>Bei Interesse</b> melden Sie sich bitte bis Freitag.",
+          "es": "Si está interesado, póngase en contacto antes del viernes."
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Patrones de nominalización: infinitivo sustantivado (<i>das Lesen</i>), <b>-ung</b> (<i>planen → die Planung</i>), raíz sin terminación (<i>beginnen → der Beginn</i>), <b>-e</b> (<i>suchen → die Suche</i>). El sujeto del verbo pasa a <b>Genitivo</b>: <i>die Preise steigen → der Anstieg <b>der Preise</b></i>."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "No abuses: cuatro nominalizaciones seguidas hacen el texto pesado (<i>Amtsdeutsch</i>). En C1 se valora <b>alternar</b> ambos estilos."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b26-s2q1",
+          "question": "1. «Nachdem sie angekommen war» → <span class=\"blank\">___</span> ihrer Ankunft",
+          "options": [
+            "Nach",
+            "Seit",
+            "Vor"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b26-s2q2",
+          "question": "2. «Obwohl es regnete» →",
+          "options": [
+            "Wegen des Regens",
+            "Trotz des Regens",
+            "Bei Regen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s2q3",
+          "question": "3. Sustantivo de <i>planen</i>:",
+          "options": [
+            "das Planung",
+            "der Planen",
+            "die Planung"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b26-s2q4",
+          "question": "4. «Weil der Zug Verspätung hatte» →",
+          "options": [
+            "Wegen der Verspätung des Zuges",
+            "Trotz der Verspätung des Zuges",
+            "Nach dem Zug"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b26-s2q5",
+          "question": "5. «Bevor die Sitzung beginnt» → Vor <span class=\"blank\">___</span> der Sitzung",
+          "options": [
+            "Beginnung",
+            "Beginn",
+            "dem Beginnen"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b26-s2",
+        "label": "<b>tu turno:</b> pasa a Nominalstil: «Weil die Kosten gestiegen sind, müssen wir sparen. Nachdem das Projekt abgeschlossen ist, machen wir eine Pause.»",
+        "placeholder": "Wegen des Anstiegs …"
+      }
+    },
+    {
+      "idx": "26.3",
+      "title": "Funktionsverbgefüge: verbo vacío + sustantivo",
+      "level": "C1",
+      "rule": "Un <b>Funktionsverbgefüge</b> combina un verbo casi «vacío» (<i>bringen, kommen, stellen, stehen, nehmen, treffen, finden…</i>) con un sustantivo que aporta el significado: <i>eine Entscheidung <b>treffen</b></i> = <i>entscheiden</i>. Son típicos del lenguaje formal y de la prensa, muchos no se traducen palabra por palabra y se aprenden como <b>bloques fijos</b>.",
+      "tables": [
+        {
+          "headers": [
+            "Funktionsverbgefüge",
+            "Equivale a",
+            "Significado"
+          ],
+          "rows": [
+            [
+              "eine Entscheidung treffen",
+              "entscheiden",
+              "tomar una decisión"
+            ],
+            [
+              "in Frage stellen",
+              "bezweifeln",
+              "poner en duda"
+            ],
+            [
+              "zur Verfügung stellen",
+              "bereitstellen",
+              "poner a disposición"
+            ],
+            [
+              "zur Verfügung stehen",
+              "verfügbar sein",
+              "estar disponible"
+            ],
+            [
+              "Anwendung finden",
+              "angewendet werden",
+              "aplicarse"
+            ],
+            [
+              "in Kraft treten",
+              "gültig werden",
+              "entrar en vigor"
+            ],
+            [
+              "zum Ausdruck bringen",
+              "ausdrücken",
+              "expresar"
+            ],
+            [
+              "in Betracht ziehen",
+              "erwägen",
+              "tomar en consideración"
+            ],
+            [
+              "Kritik üben (an)",
+              "kritisieren",
+              "criticar"
+            ],
+            [
+              "zur Sprache kommen",
+              "besprochen werden",
+              "salir a colación"
+            ],
+            [
+              "Rücksicht nehmen (auf)",
+              "berücksichtigen",
+              "tener en cuenta"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Die Regierung hat noch keine Entscheidung <b>getroffen</b>.",
+          "es": "El gobierno aún no ha tomado una decisión."
+        },
+        {
+          "en": "Das neue Gesetz <b>tritt</b> am 1. Januar <b>in Kraft</b>.",
+          "es": "La nueva ley entra en vigor el 1 de enero."
+        },
+        {
+          "en": "Wir <b>stellen</b> Ihnen gern weitere Informationen <b>zur Verfügung</b>.",
+          "es": "Con gusto le facilitamos más información."
+        },
+        {
+          "en": "Niemand <b>stellt</b> seine Kompetenz <b>in Frage</b>.",
+          "es": "Nadie pone en duda su competencia."
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Muchos tienen <b>pareja activa / pasiva</b>: <i>zur Verfügung <b>stellen</b></i> (alguien pone a disposición) ↔ <i>zur Verfügung <b>stehen</b></i> (algo está disponible); <i>in Gang <b>bringen</b></i> ↔ <i>in Gang <b>kommen</b></i>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b26-s3q1",
+          "question": "1. Das Gesetz tritt nächste Woche in <span class=\"blank\">___</span>.",
+          "options": [
+            "Frage",
+            "Kraft",
+            "Betracht"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s3q2",
+          "question": "2. Wir müssen bald eine Entscheidung <span class=\"blank\">___</span>.",
+          "options": [
+            "machen",
+            "nehmen",
+            "treffen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b26-s3q3",
+          "question": "3. Die Firma stellt den Mitarbeitern Laptops zur <span class=\"blank\">___</span>.",
+          "options": [
+            "Verfügung",
+            "Sprache",
+            "Anwendung"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b26-s3q4",
+          "question": "4. <i>in Frage stellen</i> quiere decir…",
+          "options": [
+            "hacer una pregunta",
+            "poner en duda",
+            "plantear un tema"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s3q5",
+          "question": "5. Das Thema kam in der Sitzung zur <span class=\"blank\">___</span>.",
+          "options": [
+            "Kraft",
+            "Ausdruck",
+            "Sprache"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b26-s3q6",
+          "question": "6. Er hat Kritik an dem Plan <span class=\"blank\">___</span>.",
+          "options": [
+            "geübt",
+            "gemacht",
+            "gestellt"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b26-s3",
+        "label": "<b>tu turno:</b> escribe un breve aviso formal para tu empresa con tres Funktionsverbgefüge.",
+        "placeholder": "Ab dem 1. März tritt eine neue Regelung in Kraft …"
+      }
+    },
+    {
+      "idx": "26.4",
+      "title": "Atributos de participio: «der gestern angekommene Gast»",
+      "level": "C1",
+      "rule": "En lugar de una relativa, el alemán escrito puede poner toda la información <b>delante</b> del sustantivo, en un <b>atributo de participio</b> (<i>erweitertes Partizipialattribut</i>): <i>der Gast, der gestern angekommen ist</i> → <i>der <b>gestern angekommene</b> Gast</i>. Con <b>Partizip I</b> (infinitivo + <b>-d</b>) la acción es simultánea y activa (<i>der lachende Junge</i>); con <b>Partizip II</b>, terminada o pasiva (<i>das reparierte Auto</i>); con <b>zu + Partizip I</b>, algo que se puede o se debe hacer (<i>die zu lösende Aufgabe</i>). El participio lleva la terminación del adjetivo.",
+      "tables": [
+        {
+          "headers": [
+            "Relativsatz",
+            "Partizipialattribut"
+          ],
+          "rows": [
+            [
+              "der Gast, der gestern angekommen ist",
+              "der gestern angekommene Gast"
+            ],
+            [
+              "die Kinder, die im Garten spielen",
+              "die im Garten spielenden Kinder"
+            ],
+            [
+              "das Problem, das schnell gelöst wurde",
+              "das schnell gelöste Problem"
+            ],
+            [
+              "die Aufgabe, die man noch lösen muss",
+              "die noch zu lösende Aufgabe"
+            ],
+            [
+              "der Preis, der seit Jahren steigt",
+              "der seit Jahren steigende Preis"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Die <b>seit Monaten geplante</b> Reform wurde verschoben.",
+          "es": "La reforma, planeada desde hace meses, se ha aplazado."
+        },
+        {
+          "en": "Wir suchen eine <b>fließend Deutsch sprechende</b> Mitarbeiterin.",
+          "es": "Buscamos una empleada que hable alemán con fluidez."
+        },
+        {
+          "en": "Die <b>bis Freitag zu erledigenden</b> Aufgaben stehen auf der Liste.",
+          "es": "Las tareas que hay que terminar antes del viernes están en la lista."
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Para <b>leer</b> estos bloques: si tras un artículo viene algo que no es un sustantivo (<i>die seit Monaten…</i>), salta hasta el <b>participio</b> y el sustantivo (<i>…geplante Reform</i>) y luego vuelve a leer lo de en medio."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b26-s4q1",
+          "question": "1. «der Zug, der gerade ankommt» →",
+          "options": [
+            "der gerade angekommene Zug",
+            "der gerade ankommende Zug",
+            "der ankommte Zug"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s4q2",
+          "question": "2. «das Haus, das 1900 gebaut wurde» →",
+          "options": [
+            "das 1900 gebaute Haus",
+            "das 1900 bauende Haus",
+            "das gebaut 1900 Haus"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b26-s4q3",
+          "question": "3. «die Probleme, die man noch lösen muss» →",
+          "options": [
+            "die noch gelösten Probleme",
+            "die noch lösenden Probleme",
+            "die noch zu lösenden Probleme"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b26-s4q4",
+          "question": "4. El Partizip I indica…",
+          "options": [
+            "acción simultánea y activa",
+            "acción terminada o pasiva",
+            "futuro"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b26-s4q5",
+          "question": "5. Wir haben die <span class=\"blank\">___</span> Dokumente geschickt. (= que ya se firmaron)",
+          "options": [
+            "unterschreibenden",
+            "unterschriebenen",
+            "unterschriebene"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b26-s4",
+        "label": "<b>tu turno:</b> convierte en atributo de participio: «die Wohnung, die letztes Jahr renoviert wurde» y «die Kunden, die auf eine Antwort warten».",
+        "placeholder": "die letztes Jahr …"
+      }
+    },
+    {
+      "idx": "26.5",
+      "title": "Conectores avanzados y Präpositionaladverbien",
+      "level": "C1",
+      "rule": "Escribir con precisión en C1 exige conectores más finos que <i>aber</i> o <i>deshalb</i>. Muchos son <b>adverbios</b> (en posición 1 provocan inversión): <b>dennoch</b>, <b>folglich</b>, <b>demzufolge</b>, <b>insofern</b>, <b>dessen ungeachtet</b>, <b>hingegen</b>. Otros son <b>subordinantes</b> (verbo al final): <b>indem</b> (mediante), <b>sofern</b> (siempre que), <b>zumal</b> (sobre todo porque), <b>wohingegen</b> (mientras que). Y los <b>Präpositionaladverbien</b> (<i>hierbei, hierfür, dabei, dadurch</i>) retoman lo dicho antes.",
+      "tables": [
+        {
+          "headers": [
+            "Conector",
+            "Significado",
+            "Tipo"
+          ],
+          "rows": [
+            [
+              "dennoch",
+              "no obstante, aun así",
+              "adverbio (inversión)"
+            ],
+            [
+              "folglich / demzufolge",
+              "por consiguiente",
+              "adverbio (inversión)"
+            ],
+            [
+              "insofern",
+              "en ese sentido; en la medida en que",
+              "adverbio (insofern … als)"
+            ],
+            [
+              "dessen ungeachtet",
+              "pese a ello",
+              "adverbio (inversión)"
+            ],
+            [
+              "hingegen",
+              "en cambio",
+              "adverbio (posición 1 o Mittelfeld)"
+            ],
+            [
+              "indem",
+              "al + infinitivo, mediante",
+              "subordinante (verbo al final)"
+            ],
+            [
+              "sofern",
+              "siempre que, en caso de que",
+              "subordinante"
+            ],
+            [
+              "zumal",
+              "sobre todo porque",
+              "subordinante"
+            ],
+            [
+              "wohingegen",
+              "mientras que (contraste)",
+              "subordinante"
+            ],
+            [
+              "hierbei / dabei",
+              "en este caso, al hacerlo",
+              "Präpositionaladverb"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Die Kosten sind gestiegen. <b>Dennoch</b> bleiben die Preise stabil.",
+          "es": "Los costes han subido. Aun así, los precios se mantienen estables."
+        },
+        {
+          "en": "Man spart Energie, <b>indem</b> man die Heizung herunterdreht.",
+          "es": "Se ahorra energía bajando la calefacción."
+        },
+        {
+          "en": "Wir liefern morgen, <b>sofern</b> die Ware rechtzeitig ankommt.",
+          "es": "Entregamos mañana, siempre que la mercancía llegue a tiempo."
+        },
+        {
+          "en": "Er nimmt das Angebot an, <b>zumal</b> das Gehalt deutlich höher ist.",
+          "es": "Acepta la oferta, sobre todo porque el sueldo es bastante más alto."
+        },
+        {
+          "en": "Die Nachfrage ist gesunken. <b>Folglich</b> wurde die Produktion reduziert.",
+          "es": "La demanda ha bajado. Por consiguiente, se redujo la producción."
+        },
+        {
+          "en": "Wir haben ein neues System eingeführt. <b>Hierbei</b> gab es anfangs Probleme.",
+          "es": "Introdujimos un sistema nuevo; en ese proceso hubo problemas al principio."
+        }
+      ],
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>indem</b> responde a «¿cómo?» (el medio): <i>Man lernt eine Sprache, indem man sie spricht.</i> No lo confundas con <i>in dem</i> (en el cual)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b26-s5q1",
+          "question": "1. Es regnete stark. <span class=\"blank\">___</span> fand das Konzert statt.",
+          "options": [
+            "Indem",
+            "Dennoch",
+            "Sofern"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s5q2",
+          "question": "2. Er verbesserte sein Deutsch, <span class=\"blank\">___</span> er jeden Tag Podcasts hörte.",
+          "options": [
+            "dennoch",
+            "zumal",
+            "indem"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b26-s5q3",
+          "question": "3. Wir kommen gern, <span class=\"blank\">___</span> das Wetter gut ist.",
+          "options": [
+            "sofern",
+            "folglich",
+            "hingegen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b26-s5q4",
+          "question": "4. Mein Bruder liebt Sport, ich <span class=\"blank\">___</span> lese lieber.",
+          "options": [
+            "indem",
+            "hingegen",
+            "sofern"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s5q5",
+          "question": "5. Die Firma machte Verluste. <span class=\"blank\">___</span> wurden Stellen gestrichen.",
+          "options": [
+            "Zumal",
+            "Wohingegen",
+            "Folglich"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b26-s5q6",
+          "question": "6. Tras <i>Dennoch</i> en posición 1, el verbo conjugado…",
+          "options": [
+            "va al final",
+            "va justo después (inversión)",
+            "va en posición 1"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b26-s5",
+        "label": "<b>tu turno:</b> escribe un pequeño párrafo sobre un problema de tu trabajo usando <i>dennoch</i>, <i>indem</i> y <i>sofern</i>.",
+        "placeholder": "Die Abläufe sind kompliziert. Dennoch …"
+      }
+    },
+    {
+      "idx": "26.6",
+      "title": "Modalpartikeln: doch, ja, mal, halt, eben, wohl",
+      "level": "C1",
+      "rule": "Las <b>partículas modales</b> no cambian el contenido de la frase, sino la <b>actitud</b> del hablante: insistencia, sorpresa, suavidad, resignación… Van en el <b>Mittelfeld</b>, no llevan acento y no se traducen palabra por palabra. Son la marca del alemán hablado natural: lo que separa a un B2 de alguien que suena nativo.",
+      "tables": [
+        {
+          "headers": [
+            "Partícula",
+            "Matiz",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "doch",
+              "insistencia, reproche suave o recordar algo sabido",
+              "Komm doch mit! / Das weißt du doch!"
+            ],
+            [
+              "ja",
+              "algo evidente o compartido; sorpresa",
+              "Das ist ja interessant! / Du weißt ja, wie er ist."
+            ],
+            [
+              "mal",
+              "suaviza una petición",
+              "Kannst du mal kommen?"
+            ],
+            [
+              "halt / eben",
+              "resignación: es lo que hay",
+              "Das ist halt so. / Dann musst du eben früher aufstehen."
+            ],
+            [
+              "wohl",
+              "suposición (seguramente)",
+              "Er ist wohl krank."
+            ],
+            [
+              "denn",
+              "interés o sorpresa en preguntas",
+              "Was ist denn los?"
+            ],
+            [
+              "eigentlich",
+              "cambia de tema o matiza en preguntas",
+              "Wie spät ist es eigentlich?"
+            ],
+            [
+              "schon",
+              "tranquilizar: ya verás",
+              "Das schaffst du schon!"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Mach <b>doch</b> eine Pause!",
+          "es": "¡Haz una pausa, hombre!"
+        },
+        {
+          "en": "Das habe ich dir <b>doch</b> gestern gesagt!",
+          "es": "¡Pero si te lo dije ayer!"
+        },
+        {
+          "en": "Gib mir <b>mal</b> das Salz, bitte.",
+          "es": "Pásame la sal, porfa."
+        },
+        {
+          "en": "Wo warst du <b>denn</b>?",
+          "es": "¿Pero dónde estabas?"
+        },
+        {
+          "en": "Es regnet. Dann bleiben wir <b>eben</b> zu Hause.",
+          "es": "Llueve. Pues nada, nos quedamos en casa."
+        },
+        {
+          "en": "Du bist <b>ja</b> schon da!",
+          "es": "¡Anda, si ya estás aquí!"
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Combinaciones muy frecuentes: <i>doch mal</i> (<i>Komm doch mal vorbei!</i> = pásate cuando quieras) y <i>ja wohl</i> (<i>Das ist ja wohl ein Witz!</i> = esto tiene que ser una broma)."
+        },
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "<i>doch</i> <b>con acento</b> es otra cosa: la respuesta positiva a una pregunta negativa. <i>Kommst du nicht mit? — <b>Doch!</b></i> (¡Claro que sí!)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b26-s6q1",
+          "question": "1. Para suavizar «Kannst du kommen?» añades…",
+          "options": [
+            "wohl",
+            "mal",
+            "halt"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s6q2",
+          "question": "2. <i>Er ist wohl krank</i> expresa…",
+          "options": [
+            "una orden",
+            "una certeza absoluta",
+            "una suposición"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b26-s6q3",
+          "question": "3. <i>Das ist halt so</i> transmite…",
+          "options": [
+            "resignación",
+            "sorpresa",
+            "enfado"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b26-s6q4",
+          "question": "4. Was ist <span class=\"blank\">___</span> los? (interés, sorpresa)",
+          "options": [
+            "mal",
+            "denn",
+            "eben"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b26-s6q5",
+          "question": "5. Kommst du nicht mit? — <span class=\"blank\">___</span>! (sí que voy)",
+          "options": [
+            "Ja",
+            "Nein",
+            "Doch"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b26-s6",
+        "label": "<b>tu turno:</b> escribe un pequeño diálogo de WhatsApp con un amigo usando <i>doch, mal, denn</i> y <i>halt</i>.",
+        "placeholder": "Was machst du denn heute? — …"
+      }
+    }
+  ]
+}

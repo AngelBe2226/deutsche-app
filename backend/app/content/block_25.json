@@ -1,0 +1,892 @@
+{
+  "block": "25",
+  "title": "B2: estructuras avanzadas",
+  "kicker": "Bloque 25 · B2",
+  "intro": "Las estructuras que separan un B1 de un <b class=\"hl\">B2 sólido</b>: relativos con preposición y genitivo, alternativas a la pasiva, el Konjunktiv II en pasado, la n-Deklination, conectores dobles, verbos con preposición y los modales para expresar suposición o rumor.",
+  "sections": [
+    {
+      "idx": "25.1",
+      "title": "Relativos avanzados: preposición, dessen/deren, was, wo(r)-",
+      "level": "B2",
+      "rule": "El pronombre relativo toma <b>género y número</b> del sustantivo al que se refiere, pero el <b>caso</b> de su función dentro de la subordinada. Con preposición, la preposición va <b>delante</b> del relativo (<i>der Freund, <b>mit dem</b> ich…</i>). En Genitivo: <b>dessen</b> (masc./neutro) y <b>deren</b> (fem./plural). Tras <i>alles, etwas, nichts, das</i> o una frase entera se usa <b>was</b>; para lugares, <b>wo</b>; y si la preposición se refiere a «algo» o a toda la frase, <b>wo(r)- + preposición</b> (<i>worüber, womit</i>).",
+      "examples": [
+        {
+          "en": "Das ist der Kollege, <b>mit dem</b> ich das Projekt leite.",
+          "es": "Es el compañero con el que dirijo el proyecto."
+        },
+        {
+          "en": "Die Firma, <b>für die</b> sie arbeitet, sitzt in Hamburg.",
+          "es": "La empresa para la que trabaja tiene su sede en Hamburgo."
+        },
+        {
+          "en": "Der Mann, <b>dessen</b> Auto vor der Tür steht, ist mein Nachbar.",
+          "es": "El hombre cuyo coche está delante de la puerta es mi vecino."
+        },
+        {
+          "en": "Die Kinder, <b>deren</b> Eltern arbeiten, essen in der Schule.",
+          "es": "Los niños cuyos padres trabajan comen en el colegio."
+        },
+        {
+          "en": "Das ist alles, <b>was</b> ich weiß.",
+          "es": "Es todo lo que sé."
+        },
+        {
+          "en": "Er hat die Prüfung bestanden, <b>worüber</b> sich alle freuen.",
+          "es": "Ha aprobado el examen, de lo que todos se alegran."
+        },
+        {
+          "en": "Die Stadt, <b>wo</b> ich geboren bin, ist sehr klein.",
+          "es": "La ciudad donde nací es muy pequeña."
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "",
+            "masculino",
+            "femenino",
+            "neutro",
+            "plural"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "der",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "Akkusativ",
+              "den",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "Dativ",
+              "dem",
+              "der",
+              "dem",
+              "<b>denen</b>"
+            ],
+            [
+              "Genitiv",
+              "<b>dessen</b>",
+              "<b>deren</b>",
+              "<b>dessen</b>",
+              "<b>deren</b>"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Solo tres formas <b>no</b> coinciden con el artículo definido: Dativ plural <b>denen</b> (no <i>den</i>) y Genitiv <b>dessen / deren</b>. Todo lo demás es igual que <i>der, die, das</i>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b25-s1q1",
+          "question": "1. Das ist die Frau, <span class=\"blank\">___</span> ich gestern geholfen habe.",
+          "options": [
+            "die",
+            "der",
+            "denen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s1q2",
+          "question": "2. Die Freunde, mit <span class=\"blank\">___</span> ich in Urlaub fahre, kommen aus Wien.",
+          "options": [
+            "den",
+            "die",
+            "denen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b25-s1q3",
+          "question": "3. Der Autor, <span class=\"blank\">___</span> Buch ich lese, wohnt in Berlin.",
+          "options": [
+            "dessen",
+            "deren",
+            "dem"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b25-s1q4",
+          "question": "4. Es gibt nichts, <span class=\"blank\">___</span> ich bereue.",
+          "options": [
+            "das",
+            "was",
+            "wo"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s1q5",
+          "question": "5. Er kommt immer zu spät, <span class=\"blank\">___</span> ich mich ärgere.",
+          "options": [
+            "über den",
+            "was",
+            "worüber"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b25-s1q6",
+          "question": "6. Die Kollegin, <span class=\"blank\">___</span> Projekt so erfolgreich war, bekommt einen Preis.",
+          "options": [
+            "dessen",
+            "deren",
+            "der"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b25-s1",
+        "label": "<b>tu turno:</b> describe a dos personas de tu entorno: una con un relativo con preposición (<i>mit dem, für die…</i>) y otra con <i>dessen/deren</i>.",
+        "placeholder": "Ej: Meine Chefin, mit der ich jeden Tag spreche, … / Mein Nachbar, dessen Hund …"
+      }
+    },
+    {
+      "idx": "25.2",
+      "title": "Pasiva sin «werden»: las alternativas",
+      "level": "B2",
+      "rule": "Además de <i>werden + Partizip II</i>, el alemán expresa la idea pasiva con: <b>man</b> + verbo activo; <b>sich lassen + infinitivo</b> (= se puede hacer); <b>sein + zu + infinitivo</b> (= se puede o se debe hacer, según el contexto); y adjetivos en <b>-bar</b> (<i>machbar, lesbar</i>) o <b>-lich</b> (<i>verständlich</i>). Son muy frecuentes en textos formales, normas e instrucciones.",
+      "examples": [
+        {
+          "en": "Das Problem <b>lässt sich</b> leicht <b>lösen</b>.",
+          "es": "El problema se puede resolver fácilmente."
+        },
+        {
+          "en": "Das Formular <b>ist</b> bis Freitag <b>auszufüllen</b>.",
+          "es": "El formulario hay que rellenarlo antes del viernes."
+        },
+        {
+          "en": "Der Fehler <b>ist</b> kaum <b>zu erkennen</b>.",
+          "es": "El error apenas se puede ver."
+        },
+        {
+          "en": "Das Ziel ist <b>erreichbar</b>.",
+          "es": "El objetivo es alcanzable."
+        },
+        {
+          "en": "<b>Man</b> spricht hier Deutsch und Englisch.",
+          "es": "Aquí se habla alemán e inglés."
+        },
+        {
+          "en": "Seine Handschrift ist kaum <b>lesbar</b>.",
+          "es": "Su letra apenas es legible."
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Pasiva con werden",
+            "Alternativa",
+            "Matiz"
+          ],
+          "rows": [
+            [
+              "Das kann leicht gelöst werden.",
+              "Das lässt sich leicht lösen.",
+              "posibilidad"
+            ],
+            [
+              "Das kann nicht verstanden werden.",
+              "Das ist nicht zu verstehen. / Das ist unverständlich.",
+              "imposibilidad"
+            ],
+            [
+              "Das muss bis Montag erledigt werden.",
+              "Das ist bis Montag zu erledigen.",
+              "obligación"
+            ],
+            [
+              "Das kann gewaschen werden.",
+              "Das ist waschbar.",
+              "posibilidad (adjetivo)"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "<b>sein + zu</b> es ambiguo: <i>Die Aufgabe ist zu lösen</i> puede ser «se puede resolver» o «hay que resolverla». Decide el contexto: en normas e instrucciones casi siempre es <b>obligación</b>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b25-s2q1",
+          "question": "1. «El texto se puede traducir fácilmente.» → Der Text <span class=\"blank\">___</span> sich leicht übersetzen.",
+          "options": [
+            "ist",
+            "lässt",
+            "wird"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s2q2",
+          "question": "2. «Hay que pagar la factura en 14 días.» → Die Rechnung ist innerhalb von 14 Tagen <span class=\"blank\">___</span>.",
+          "options": [
+            "zahlen",
+            "gezahlt",
+            "zu zahlen"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b25-s2q3",
+          "question": "3. Algo que se puede comer es…",
+          "options": [
+            "essbar",
+            "esslich",
+            "gegessen"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b25-s2q4",
+          "question": "4. <i>Das lässt sich nicht ändern</i> quiere decir…",
+          "options": [
+            "No hay que cambiarlo",
+            "No se puede cambiar",
+            "No se lo dejan cambiar"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s2q5",
+          "question": "5. Das Problem ist leicht zu <span class=\"blank\">___</span>.",
+          "options": [
+            "gelöst",
+            "lösbar",
+            "lösen"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b25-s2",
+        "label": "<b>tu turno:</b> escribe tres normas de tu trabajo o de tu casa con <i>sein + zu</i> y <i>sich lassen</i>.",
+        "placeholder": "Ej: Die Küche ist nach dem Essen aufzuräumen. Das lässt sich …"
+      }
+    },
+    {
+      "idx": "25.3",
+      "title": "Konjunktiv II en pasado: lo que habría pasado",
+      "level": "B2",
+      "rule": "Para hablar de algo <b>irreal en el pasado</b> (lo que habría pasado, lo que deberías haber hecho) se usa <b>hätte / wäre + Partizip II</b>, con el mismo auxiliar que en el Perfekt. Con verbos modales aparece el <b>doble infinitivo</b>: <i>Ich hätte früher kommen <b>sollen</b></i> (debería haber venido antes). En la subordinada, <i>hätte</i> va <b>delante</b> del doble infinitivo: <i>…, weil ich <b>hätte</b> lernen müssen</i>.",
+      "examples": [
+        {
+          "en": "Wenn ich mehr gelernt <b>hätte</b>, <b>hätte</b> ich die Prüfung bestanden.",
+          "es": "Si hubiera estudiado más, habría aprobado el examen."
+        },
+        {
+          "en": "Wenn du früher gekommen <b>wärst</b>, <b>hättest</b> du ihn getroffen.",
+          "es": "Si hubieras llegado antes, lo habrías visto."
+        },
+        {
+          "en": "Ich <b>hätte</b> dich anrufen <b>sollen</b>.",
+          "es": "Debería haberte llamado."
+        },
+        {
+          "en": "Das <b>hättest</b> du nicht sagen <b>dürfen</b>.",
+          "es": "Eso no deberías haberlo dicho."
+        },
+        {
+          "en": "Fast <b>wäre</b> ich zu spät gekommen.",
+          "es": "Casi llego tarde."
+        },
+        {
+          "en": "Er tut so, als <b>hätte</b> er nichts gehört.",
+          "es": "Hace como si no hubiera oído nada."
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>Fast wäre …</b> / <b>Beinahe hätte …</b> = «casi…» (algo que no llegó a pasar). Es un uso muy natural del Konjunktiv II en pasado que los hispanohablantes casi nunca aprovechan."
+        },
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "En la subordinada con doble infinitivo el verbo conjugado <b>no</b> va al final: <i>…, dass ich das <b>hätte</b> wissen müssen</i> (no <i>wissen müssen hätte</i>)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b25-s3q1",
+          "question": "1. Wenn ich Zeit gehabt <span class=\"blank\">___</span>, wäre ich gekommen.",
+          "options": [
+            "hätte",
+            "wäre",
+            "würde"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b25-s3q2",
+          "question": "2. Wenn wir früher losgefahren <span class=\"blank\">___</span>, hätten wir den Flug erreicht.",
+          "options": [
+            "hätten",
+            "wären",
+            "würden"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s3q3",
+          "question": "3. «Deberías haberme avisado.» → Du <span class=\"blank\">___</span> mir Bescheid sagen sollen.",
+          "options": [
+            "wärst",
+            "würdest",
+            "hättest"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b25-s3q4",
+          "question": "4. Orden correcto: «Ich war müde, weil ich die ganze Nacht <span class=\"blank\">___</span>.»",
+          "options": [
+            "arbeiten müssen hätte",
+            "hätte arbeiten müssen",
+            "arbeiten hätte müssen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s3q5",
+          "question": "5. <i>Fast hätte ich es vergessen</i> quiere decir…",
+          "options": [
+            "Casi lo olvido (pero no)",
+            "Lo olvidé casi todo",
+            "Lo habría olvidado pronto"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b25-s3q6",
+          "question": "6. Wenn sie den Zug nicht verpasst <span class=\"blank\">___</span>, wäre sie pünktlich gewesen.",
+          "options": [
+            "wäre",
+            "hätte",
+            "hat"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b25-s3",
+        "label": "<b>tu turno:</b> escribe dos cosas que harías distinto en tu último año (<i>Ich hätte … sollen / Wenn ich …, hätte ich …</i>).",
+        "placeholder": "Ej: Ich hätte früher mit Deutsch anfangen sollen. Wenn ich …"
+      }
+    },
+    {
+      "idx": "25.4",
+      "title": "La n-Deklination: masculinos que añaden -n",
+      "level": "B2",
+      "rule": "Un grupo de sustantivos <b>masculinos</b> añade <b>-(e)n</b> en todos los casos menos el Nominativo singular: <i>der Student → den / dem / des Student<b>en</b></i>. Son sobre todo: seres vivos acabados en <b>-e</b> (<i>der Junge, der Kunde, der Kollege</i>); profesiones y nacionalidades en <b>-ent, -ant, -ist, -oge, -at</b> (<i>der Präsident, der Polizist, der Biologe, der Soldat</i>); y unos pocos más (<i>der Mensch, der Herr, der Nachbar, der Bär</i>).",
+      "examples": [
+        {
+          "en": "Ich habe den Kunde<b>n</b> angerufen.",
+          "es": "He llamado al cliente."
+        },
+        {
+          "en": "Wir sprechen mit dem Präsident<b>en</b>.",
+          "es": "Hablamos con el presidente."
+        },
+        {
+          "en": "Das ist das Auto des Nachbar<b>n</b>.",
+          "es": "Es el coche del vecino."
+        },
+        {
+          "en": "Kennst du diesen Mensch<b>en</b>?",
+          "es": "¿Conoces a esta persona?"
+        },
+        {
+          "en": "Ich habe Herr<b>n</b> Müller gestern gesehen.",
+          "es": "Ayer vi al señor Müller."
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Caso",
+            "der Kunde",
+            "der Student",
+            "der Herr"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "der Kunde",
+              "der Student",
+              "der Herr"
+            ],
+            [
+              "Akkusativ",
+              "den Kunde<b>n</b>",
+              "den Student<b>en</b>",
+              "den Herr<b>n</b>"
+            ],
+            [
+              "Dativ",
+              "dem Kunde<b>n</b>",
+              "dem Student<b>en</b>",
+              "dem Herr<b>n</b>"
+            ],
+            [
+              "Genitiv",
+              "des Kunde<b>n</b>",
+              "des Student<b>en</b>",
+              "des Herr<b>n</b>"
+            ],
+            [
+              "Plural",
+              "die Kunden",
+              "die Studenten",
+              "die Herren"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Unos pocos añaden además <b>-s</b> en Genitivo: <i>der Name → des Namen<b>s</b></i>, <i>der Gedanke → des Gedankens</i>, <i>der Glaube</i>, <i>der Buchstabe</i>. Y <i>das Herz</i> (el único neutro): <i>des Herzens, dem Herzen</i>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b25-s4q1",
+          "question": "1. Ich frage den <span class=\"blank\">___</span>.",
+          "options": [
+            "Polizist",
+            "Polizisten",
+            "Polizists"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s4q2",
+          "question": "2. Das ist die Tasche des <span class=\"blank\">___</span>.",
+          "options": [
+            "Kollegen",
+            "Kollege",
+            "Kolleges"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b25-s4q3",
+          "question": "3. Der <span class=\"blank\">___</span> wartet draußen.",
+          "options": [
+            "Kunden",
+            "Kundes",
+            "Kunde"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b25-s4q4",
+          "question": "4. Ich habe den Anfang des <span class=\"blank\">___</span> nicht verstanden.",
+          "options": [
+            "Name",
+            "Namen",
+            "Namens"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b25-s4q5",
+          "question": "5. ¿Cuál <b>no</b> pertenece a la n-Deklination?",
+          "options": [
+            "der Student",
+            "der Lehrer",
+            "der Junge"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b25-s4",
+        "label": "<b>tu turno:</b> escribe tres frases con <i>der Kunde, der Kollege</i> y <i>der Nachbar</i> en Akkusativ o Dativ.",
+        "placeholder": "Ej: Ich habe dem Kunden ein Angebot geschickt …"
+      }
+    },
+    {
+      "idx": "25.5",
+      "title": "Conectores de dos partes",
+      "level": "B2",
+      "rule": "Algunos conectores van en <b>pareja</b> y unen dos elementos o frases: <b>nicht nur … sondern auch</b> (no solo… sino también), <b>sowohl … als auch</b> (tanto… como), <b>weder … noch</b> (ni… ni), <b>zwar … aber</b> (es verdad que…, pero). <i>entweder … oder</i> y <i>je … desto</i> ya los viste en 14.4. Ojo: <i>weder … noch</i> ya es negativo y no lleva <i>nicht</i>.",
+      "examples": [
+        {
+          "en": "Sie spricht <b>nicht nur</b> Deutsch, <b>sondern auch</b> Japanisch.",
+          "es": "No solo habla alemán, sino también japonés."
+        },
+        {
+          "en": "<b>Sowohl</b> die Lage <b>als auch</b> der Preis sind ideal.",
+          "es": "Tanto la ubicación como el precio son ideales."
+        },
+        {
+          "en": "Ich habe <b>weder</b> Zeit <b>noch</b> Geld.",
+          "es": "No tengo ni tiempo ni dinero."
+        },
+        {
+          "en": "Die Wohnung ist <b>zwar</b> klein, <b>aber</b> sehr hell.",
+          "es": "Es verdad que el piso es pequeño, pero es muy luminoso."
+        },
+        {
+          "en": "<b>Zwar</b> habe ich viel gelernt, <b>aber</b> die Prüfung war trotzdem schwer.",
+          "es": "Sí estudié mucho, pero el examen fue difícil de todos modos."
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>zwar … aber</b> es la fórmula perfecta para <b>matizar</b> en un debate o en ventas: reconoces el punto del otro (<i>Der Preis ist zwar hoch</i>) y das tu argumento (<i>aber die Qualität überzeugt</i>)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b25-s5q1",
+          "question": "1. Er trinkt <span class=\"blank\">___</span> Kaffee noch Tee.",
+          "options": [
+            "weder",
+            "nicht",
+            "entweder"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b25-s5q2",
+          "question": "2. Wir brauchen sowohl Erfahrung <span class=\"blank\">___</span> Motivation.",
+          "options": [
+            "sondern auch",
+            "als auch",
+            "noch"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s5q3",
+          "question": "3. Das Hotel ist zwar teuer, <span class=\"blank\">___</span> der Service ist exzellent.",
+          "options": [
+            "sondern",
+            "oder",
+            "aber"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b25-s5q4",
+          "question": "4. Sie ist nicht nur intelligent, <span class=\"blank\">___</span> auch sehr fleißig.",
+          "options": [
+            "aber",
+            "sondern",
+            "als"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s5q5",
+          "question": "5. <i>Ich habe weder Hunger noch Durst</i>: ¿hace falta añadir <i>nicht</i>?",
+          "options": [
+            "Sí: «nicht weder»",
+            "Solo en pasado",
+            "No: weder…noch ya niega"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b25-s5",
+        "label": "<b>tu turno:</b> describe tu ciudad con <i>nicht nur … sondern auch</i> y <i>zwar … aber</i>.",
+        "placeholder": "Ej: Meine Stadt ist zwar klein, aber …"
+      }
+    },
+    {
+      "idx": "25.6",
+      "title": "Verbos con preposición y el correlato da(r)-",
+      "level": "B2",
+      "rule": "Muchos verbos rigen una preposición fija (<i>sich freuen <b>auf</b>, warten <b>auf</b>, denken <b>an</b>, abhängen <b>von</b></i>). Cuando lo que sigue es una <b>frase entera</b> (con <i>dass</i>, <i>ob</i> o <i>zu</i> + infinitivo), la preposición se convierte en <b>da(r)- + preposición</b> dentro de la principal: <i>Ich freue mich <b>darauf</b>, dich zu sehen</i>. Para preguntar por cosas: <b>wo(r)- + preposición</b> (<i>Worauf wartest du?</i>); por personas: preposición + pronombre (<i>Auf wen wartest du?</i>).",
+      "examples": [
+        {
+          "en": "Ich freue mich <b>darauf</b>, dass du kommst.",
+          "es": "Me hace ilusión que vengas."
+        },
+        {
+          "en": "Es hängt <b>davon</b> ab, ob wir das Budget bekommen.",
+          "es": "Depende de si conseguimos el presupuesto."
+        },
+        {
+          "en": "Hast du <b>daran</b> gedacht, die Tickets zu kaufen?",
+          "es": "¿Te has acordado de comprar las entradas?"
+        },
+        {
+          "en": "<b>Worauf</b> wartest du? — Auf den Bus.",
+          "es": "¿Qué estás esperando? — El autobús."
+        },
+        {
+          "en": "<b>Auf wen</b> wartest du? — Auf meine Schwester.",
+          "es": "¿A quién esperas? — A mi hermana."
+        },
+        {
+          "en": "Wir sprechen später <b>darüber</b>.",
+          "es": "Lo hablamos más tarde."
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Verbo + preposición",
+            "Significado",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "sich interessieren für",
+              "interesarse por",
+              "Ich interessiere mich dafür, wie das funktioniert."
+            ],
+            [
+              "sich kümmern um",
+              "ocuparse de",
+              "Kümmerst du dich darum?"
+            ],
+            [
+              "achten auf",
+              "prestar atención a",
+              "Achte darauf, dass die Tür zu ist."
+            ],
+            [
+              "bestehen auf",
+              "insistir en",
+              "Er besteht darauf, selbst zu zahlen."
+            ],
+            [
+              "sich gewöhnen an",
+              "acostumbrarse a",
+              "Ich habe mich daran gewöhnt, früh aufzustehen."
+            ],
+            [
+              "träumen von",
+              "soñar con",
+              "Sie träumt davon, eine Weltreise zu machen."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "La <b>-r-</b> aparece cuando la preposición empieza por vocal: <i>da<b>r</b>auf, da<b>r</b>an, wo<b>r</b>über</i>. Si empieza por consonante, no: <i>dafür, davon, womit</i>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b25-s6q1",
+          "question": "1. Ich warte <span class=\"blank\">___</span>, dass du anrufst.",
+          "options": [
+            "darauf",
+            "worauf",
+            "auf das"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b25-s6q2",
+          "question": "2. <span class=\"blank\">___</span> denkst du gerade? — An den Urlaub.",
+          "options": [
+            "Daran",
+            "Woran",
+            "An wem"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s6q3",
+          "question": "3. <span class=\"blank\">___</span> hast du gesprochen? — Mit meinem Chef.",
+          "options": [
+            "Womit",
+            "Damit",
+            "Mit wem"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b25-s6q4",
+          "question": "4. Es hängt <span class=\"blank\">___</span> ab, wie viel Zeit wir haben.",
+          "options": [
+            "davon",
+            "darauf",
+            "dafür"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b25-s6q5",
+          "question": "5. Ich habe mich <span class=\"blank\">___</span> gewöhnt, im Homeoffice zu arbeiten.",
+          "options": [
+            "darauf",
+            "davon",
+            "daran"
+          ],
+          "correctIndex": 2
+        }
+      ],
+      "produce": {
+        "id": "b25-s6",
+        "label": "<b>tu turno:</b> escribe algo que esperas con ilusión y algo a lo que te has acostumbrado (<i>sich freuen auf, sich gewöhnen an</i> + <i>da(r)-</i>).",
+        "placeholder": "Ej: Ich freue mich darauf, im Sommer nach Berlin zu fahren …"
+      }
+    },
+    {
+      "idx": "25.7",
+      "title": "Modales subjetivos: suposición y rumor",
+      "level": "B2",
+      "rule": "Los modales tienen un segundo uso, <b>subjetivo</b>: no hablan de obligación o capacidad, sino de <b>lo seguro que está el hablante</b> o de <b>quién lo afirma</b>. <b>muss</b> (seguro que), <b>dürfte</b> (probablemente), <b>kann / könnte</b> (puede que), <b>soll</b> (dicen que: rumor o noticia), <b>will</b> (lo afirma él mismo, y yo lo dudo). Para el pasado: modal + <b>infinitivo perfecto</b> (<i>gemacht haben / gekommen sein</i>).",
+      "examples": [
+        {
+          "en": "Er antwortet nicht. Er <b>muss</b> schon schlafen.",
+          "es": "No contesta. Seguro que ya está durmiendo."
+        },
+        {
+          "en": "Sie <b>dürfte</b> jetzt im Büro sein.",
+          "es": "Probablemente esté ahora en la oficina."
+        },
+        {
+          "en": "Das <b>könnte</b> stimmen.",
+          "es": "Puede que sea verdad."
+        },
+        {
+          "en": "Der neue Chef <b>soll</b> sehr streng sein.",
+          "es": "Dicen que el nuevo jefe es muy estricto."
+        },
+        {
+          "en": "Er <b>will</b> das Geld nicht genommen <b>haben</b>.",
+          "es": "Él asegura no haber cogido el dinero (yo lo dudo)."
+        },
+        {
+          "en": "Sie <b>muss</b> den Zug verpasst <b>haben</b>.",
+          "es": "Seguro que ha perdido el tren."
+        }
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Modal",
+            "Significado",
+            "Ejemplo"
+          ],
+          "rows": [
+            [
+              "muss",
+              "seguro que (≈ 90 %)",
+              "Das muss ein Fehler sein."
+            ],
+            [
+              "dürfte",
+              "probablemente (≈ 70 %)",
+              "Das dürfte teuer werden."
+            ],
+            [
+              "kann / könnte",
+              "puede que (≈ 50 %)",
+              "Er könnte recht haben."
+            ],
+            [
+              "soll",
+              "dicen que (rumor, noticia)",
+              "Das Hotel soll sehr schön sein."
+            ],
+            [
+              "will",
+              "afirma (y lo dudo)",
+              "Sie will ihn nie gesehen haben."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "En prensa, <b>soll</b> es la forma de dar una noticia no confirmada: <i>Der Täter soll aus Berlin stammen</i> (según las informaciones…). Es pariente del Konjunktiv I (26.1)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b25-s7q1",
+          "question": "1. «Dicen que es millonario» →",
+          "options": [
+            "Er will Millionär sein.",
+            "Er soll Millionär sein.",
+            "Er muss Millionär sein."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s7q2",
+          "question": "2. Das Licht ist an. Sie <span class=\"blank\">___</span> zu Hause sein. (seguro)",
+          "options": [
+            "muss",
+            "soll",
+            "will"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b25-s7q3",
+          "question": "3. <i>Er will nichts gewusst haben</i> quiere decir…",
+          "options": [
+            "Él quiere no saber nada",
+            "Él afirma que no sabía nada (y lo dudo)",
+            "Él debería saberlo todo"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b25-s7q4",
+          "question": "4. «Seguro que lo ha olvidado» → Er muss es vergessen <span class=\"blank\">___</span>.",
+          "options": [
+            "sein",
+            "werden",
+            "haben"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "b25-s7q5",
+          "question": "5. <i>Das dürfte schwierig werden</i> expresa…",
+          "options": [
+            "permiso",
+            "probabilidad",
+            "obligación"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b25-s7",
+        "label": "<b>tu turno:</b> cuenta un rumor de tu entorno con <i>soll</i> y una suposición con <i>muss</i> o <i>dürfte</i>.",
+        "placeholder": "Ej: Unser neuer Nachbar soll Pilot sein. Er muss viel reisen …"
+      }
+    }
+  ]
+}

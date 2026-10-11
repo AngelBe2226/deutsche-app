@@ -134,7 +134,7 @@ export function useTTS() {
 
 // Columnas cuyo encabezado indica explicación en español.
 const ES_HEADER =
-  /significad|signific|función|situación|para qué|español|literal|uso|cuándo|matiz|pista|mecánica|efecto|ojo|cómo|origen|oculto|equivale|eso se dice|^persona$|^tipo$|^grupo$|^género$|^caso$|^poseedor$|^pregunta$|n\.º|cifra|^letra$/i;
+  /significad|signific|función|situación|para qué|español|literal|uso|cuándo|matiz|pista|mecánica|efecto|ojo|cómo|origen|oculto|equivale|eso se dice|^persona$|^tipo$|^grupo$|^género$|^caso$|^poseedor$|^pregunta$|^registro$|^nivel$|n\.º|cifra|^letra$/i;
 // Rasgos de texto en español (el alemán no usa tildes agudas ni ñ).
 // Límites de palabra con \p{L}: el \b clásico no considera letra la «ä» y
 // encontraría «se» dentro de «Käse».
