@@ -4,6 +4,7 @@ import HighlightButton from "./HighlightButton";
 import { IconCheck, IconX } from "./Icons";
 import SpeakButton from "./SpeakButton";
 import { quizSentence } from "../tts";
+import { next, parse, srsKey } from "../srs";
 
 // One multiple-choice question. Once answered it locks: the correct option
 // turns green, a wrong pick turns red, and the choice is persisted by id.
@@ -16,6 +17,10 @@ export default function Quiz({ q }) {
   function choose(i) {
     if (answered) return;
     setVal(q.id, String(i));
+    // La respuesta alimenta el repaso espaciado (fallo = repasar hoy). Se
+    // parte del estado previo para no perder el historial si se reinició.
+    const prev = parse(getVal(srsKey(q.id)));
+    setVal(srsKey(q.id), JSON.stringify(next(prev, i === q.correctIndex)));
   }
 
   const wasRight = answered && chosen === q.correctIndex;
