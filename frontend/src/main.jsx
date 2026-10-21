@@ -12,3 +12,13 @@ createRoot(document.getElementById("root")).render(
     </ProgressProvider>
   </React.StrictMode>
 );
+
+// Service worker solo en el build estático (PWA/GitHub Pages). En el modo
+// backend no se registra, para no cachear respuestas de /api que cambian
+// con cada sync.
+if (import.meta.env.VITE_STATIC === "1" && "serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register(import.meta.env.BASE_URL + "sw.js").catch(() => {});
+  });
+}
+

@@ -78,7 +78,7 @@ export default function Sidebar({
             Repaso
             {dueCount > 0 && <span className="nav-badge">{dueCount}</span>}
           </button>
-          <a className="nav-pin" href="/roadmap.html" target="_blank" rel="noopener">
+          <a className="nav-pin" href={import.meta.env.BASE_URL + "roadmap.html"} target="_blank" rel="noopener">
             <IconRoute size={16} />
             Ruta A1–C2
             <span className="nav-pin-ext">↗</span>
