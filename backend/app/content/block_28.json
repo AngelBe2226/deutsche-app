@@ -1,0 +1,231 @@
+{
+  "block": "28",
+  "title": "Vertical: Turismo y viajes",
+  "kicker": "Bloque 28 · Vertical profesional · A2–B1",
+  "intro": "Paquete completo para <b class=\"hl\">viajar por un país de habla alemana</b>: vocabulario, fórmulas para moverte y preguntar, un diálogo en la estación, un juego de rol en la oficina de turismo y un escenario para resolver sola/o. Mismo patrón que las demás verticales: <b>Wortschatz → Redemittel → diálogo → Rollenspiel → Szenario</b>.",
+  "sections": [
+    {
+      "idx": "28.1",
+      "title": "Wortschatz: viajes, transporte y ciudad",
+      "level": "A2",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Cuando lo tengas, pulsa «Ocultar español» y ponte a prueba.",
+      "vocab": {
+        "id": "b28-voc",
+        "items": [
+          { "de": "die Sehenswürdigkeit", "pl": "Sehenswürdigkeiten", "es": "el lugar de interés" },
+          { "de": "die Fahrkarte", "pl": "Fahrkarten", "es": "el billete (de transporte)" },
+          { "de": "der Bahnhof", "pl": "Bahnhöfe", "es": "la estación de tren" },
+          { "de": "das Gleis", "pl": "Gleise", "es": "la vía / el andén (número)" },
+          { "de": "der Bahnsteig", "pl": "Bahnsteige", "es": "el andén" },
+          { "de": "die Haltestelle", "pl": "Haltestellen", "es": "la parada" },
+          { "de": "die Unterkunft", "pl": "Unterkünfte", "es": "el alojamiento" },
+          { "de": "die Stadtführung", "pl": "Stadtführungen", "es": "la visita guiada" },
+          { "de": "die Eintrittskarte", "pl": "Eintrittskarten", "es": "la entrada (museo, etc.)" },
+          { "de": "der Reiseführer", "pl": "Reiseführer", "es": "la guía (libro o persona)" },
+          { "de": "die Altstadt", "pl": "Altstädte", "es": "el casco antiguo" },
+          { "de": "der Stadtplan", "pl": "Stadtpläne", "es": "el plano de la ciudad" },
+          { "de": "die Rückfahrkarte", "pl": "Rückfahrkarten", "es": "el billete de ida y vuelta" },
+          { "de": "die Ermäßigung", "pl": "Ermäßigungen", "es": "el descuento" },
+          { "de": "die Verspätung", "pl": "Verspätungen", "es": "el retraso" },
+          { "de": "umsteigen", "es": "hacer transbordo" },
+          { "de": "buchen", "es": "reservar" },
+          { "de": "besichtigen", "es": "visitar (un monumento)" },
+          { "de": "sich verlaufen", "es": "perderse (a pie)" },
+          { "de": "empfehlen", "es": "recomendar" }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b28-s1q1",
+          "question": "1. ¿Qué artículo lleva <i>Fahrkarte</i>?",
+          "options": ["der", "die", "das"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b28-s1q2",
+          "question": "2. <i>umsteigen</i> significa…",
+          "options": ["reservar", "hacer transbordo", "perderse"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b28-s1q3",
+          "question": "3. Plural de <i>der Bahnhof</i>:",
+          "options": ["die Bahnhofs", "die Bahnhöfe", "die Bahnhofen"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "28.2",
+      "title": "Redemittel: moverte y preguntar",
+      "level": "A2",
+      "rule": "Frases hechas para cada situación del viaje. Escúchalas fila a fila y repítelas en voz alta. Con desconocidos se usa siempre <b>Sie</b>.",
+      "tables": [
+        {
+          "headers": ["Función", "Redemittel"],
+          "rows": [
+            ["Pedir indicaciones", "Entschuldigung, wie komme ich zum Bahnhof?"],
+            ["Preguntar distancia", "Ist es weit von hier?"],
+            ["Comprar billete", "Einmal nach Berlin, bitte. — Einfach oder hin und zurück?"],
+            ["Preguntar andén", "Von welchem Gleis fährt der Zug?"],
+            ["Transbordo", "Muss ich umsteigen?"],
+            ["Horario", "Wann fährt der nächste Zug nach Hamburg?"],
+            ["Reservar", "Ich möchte eine Stadtführung für morgen buchen."],
+            ["Descuento", "Gibt es eine Ermäßigung für Studenten?"],
+            ["Pedir consejo", "Was können Sie uns hier empfehlen?"],
+            ["Agradecer", "Vielen Dank für die Auskunft!"]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Para comprar billetes, la fórmula corta es <b>«Einmal nach … , bitte»</b> (un billete a…) o <b>«Zweimal nach …»</b> (dos). Y recuerda: <b>einfach</b> = solo ida, <b>hin und zurück</b> = ida y vuelta."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b28-s2q1",
+          "question": "1. Quieres saber por qué andén sale tu tren. Preguntas:",
+          "options": [
+            "Wie viel kostet die Fahrkarte?",
+            "Von welchem Gleis fährt der Zug?",
+            "Muss ich umsteigen?"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b28-s2q2",
+          "question": "2. «Un billete a Colonia, de ida y vuelta.» →",
+          "options": [
+            "Einmal nach Köln, hin und zurück.",
+            "Einmal nach Köln, einfach.",
+            "Zweimal nach Köln, bitte."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "28.3",
+      "title": "Diálogo: comprar un billete en la estación",
+      "level": "B1",
+      "rule": "Un viajero compra un billete a Dresden y pregunta por el andén y el transbordo. Escucha el diálogo entero y fíjate en cómo el empleado da la información <b>paso a paso</b>.",
+      "dialog": {
+        "id": "turismo-fahrkarte",
+        "setting": "Hauptbahnhof Leipzig · ventanilla de información, 09:40",
+        "roles": {
+          "M": { "name": "Herr Vogel", "label": "Empleado" },
+          "T": { "name": "Viajero", "label": "Tú" }
+        },
+        "lines": [
+          { "who": "T", "de": "Guten Morgen! Ich möchte nach Dresden fahren. Wann fährt der nächste Zug?", "es": "¡Buenos días! Quiero ir a Dresde. ¿Cuándo sale el próximo tren?" },
+          { "who": "M", "de": "Guten Morgen. Der nächste fährt um 10:04 Uhr, von Gleis 12. Sie sind in etwa anderthalb Stunden da.", "es": "Buenos días. El próximo sale a las 10:04, de la vía 12. Llega en hora y media aproximadamente." },
+          { "who": "T", "de": "Muss ich umsteigen?", "es": "¿Tengo que hacer transbordo?" },
+          { "who": "M", "de": "Nein, der Zug fährt direkt. <b>Einfach oder hin und zurück?</b>", "es": "No, el tren va directo. ¿Solo ida o ida y vuelta?" },
+          { "who": "T", "de": "Hin und zurück, bitte. Ich komme heute Abend wieder. Gibt es eine Ermäßigung für Studenten?", "es": "Ida y vuelta, por favor. Vuelvo esta noche. ¿Hay descuento para estudiantes?" },
+          { "who": "M", "de": "Ja, mit Studentenausweis zehn Prozent. <b>Haben Sie eine BahnCard?</b>", "es": "Sí, con carné de estudiante un diez por ciento. ¿Tiene una BahnCard?" },
+          { "who": "T", "de": "Nein, leider nicht.", "es": "No, por desgracia no." },
+          { "who": "M", "de": "Kein Problem. Das macht dann 38 Euro. Bitte steigen Sie rechtzeitig ein, der Zug hat heute keine Verspätung.", "es": "No pasa nada. Son entonces 38 euros. Suba con tiempo, hoy el tren no lleva retraso." },
+          { "who": "T", "de": "Von welchem Gleis noch mal?", "es": "¿De qué vía, otra vez?" },
+          { "who": "M", "de": "Von Gleis 12, die Treppe hoch und nach rechts. Gute Reise!", "es": "De la vía 12, suba las escaleras y a la derecha. ¡Buen viaje!" },
+          { "who": "T", "de": "Vielen Dank für die Auskunft!", "es": "¡Muchas gracias por la información!" }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Para pedir que te repitan un dato sin sonar brusco, añade <b>«noch mal»</b>: <i>Von welchem Gleis noch mal?</i> (¿de qué vía, otra vez?). Más suave aún: <i>Könnten Sie das bitte wiederholen?</i>"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b28-s3q1",
+          "question": "1. Von welchem Gleis fährt der Zug?",
+          "options": ["von Gleis 2", "von Gleis 12", "von Gleis 20"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b28-s3q2",
+          "question": "2. Muss der Reisende umsteigen?",
+          "options": ["Ja, einmal.", "Nein, der Zug fährt direkt.", "Ja, zweimal."],
+          "correctIndex": 1
+        },
+        {
+          "id": "b28-s3q3",
+          "question": "3. «Hin und zurück» significa…",
+          "options": ["solo ida", "ida y vuelta", "con transbordo"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "28.4",
+      "title": "Rollenspiel: en la oficina de turismo",
+      "level": "A2",
+      "rule": "Ahora tú eres el turista. La empleada habla (puedes escucharla), tú escribes tu respuesta siguiendo la instrucción y después la comparas con el modelo. Repite el modelo en voz alta.",
+      "roleplay": {
+        "id": "b28-rp",
+        "you": "Turista",
+        "partner": { "name": "Frau Keller", "label": "Oficina de turismo" },
+        "steps": [
+          {
+            "partner": "Guten Tag! Willkommen in Dresden. Wie kann ich Ihnen helfen?",
+            "es": "¡Buenos días! Bienvenido a Dresde. ¿En qué puedo ayudarle?",
+            "task": "Saluda y pide un plano de la ciudad y pregunta por el casco antiguo.",
+            "model": "Guten Tag! Könnte ich bitte einen Stadtplan haben? Und wie komme ich in die Altstadt?"
+          },
+          {
+            "partner": "Sehr gern, hier ist der Plan. Die Altstadt ist zu Fuß nur zehn Minuten entfernt, immer geradeaus.",
+            "es": "Con mucho gusto, aquí tiene el plano. El casco antiguo está solo a diez minutos a pie, todo recto.",
+            "task": "Pregunta si hay una visita guiada para hoy y cuánto cuesta.",
+            "model": "Gibt es heute eine Stadtführung? Und wie viel kostet sie?"
+          },
+          {
+            "partner": "Ja, um 15 Uhr auf Deutsch, 12 Euro pro Person. Möchten Sie buchen?",
+            "es": "Sí, a las 15:00 en alemán, 12 euros por persona. ¿Quiere reservar?",
+            "task": "Reserva dos plazas y pregunta si hay descuento para estudiantes.",
+            "model": "Ja, zwei Plätze, bitte. Gibt es eine Ermäßigung für Studenten?"
+          },
+          {
+            "partner": "Mit Studentenausweis zahlen Sie neun Euro. Treffpunkt ist vor der Frauenkirche.",
+            "es": "Con carné de estudiante paga nueve euros. El punto de encuentro es delante de la Frauenkirche.",
+            "task": "Pregunta qué más merece la pena ver en un día.",
+            "model": "Was können Sie uns sonst noch empfehlen, wenn wir nur einen Tag haben?"
+          },
+          {
+            "partner": "Auf jeden Fall den Zwinger und die Brühlsche Terrasse. Viel Spaß in Dresden!",
+            "es": "Sin falta el Zwinger y la Terraza de Brühl. ¡Que disfrute de Dresde!",
+            "task": "Da las gracias y despídete.",
+            "model": "Vielen Dank für Ihre Hilfe! Auf Wiedersehen."
+          }
+        ]
+      }
+    },
+    {
+      "idx": "28.5",
+      "title": "Szenario: llegada de noche a una ciudad nueva",
+      "level": "B1",
+      "rule": "Situación real para practicar sola/o o con alguien que haga de empleado. Hazla en voz alta o por escrito y marca cada objetivo cuando lo cumplas.",
+      "scenario": {
+        "id": "b28-sc",
+        "situation": "Llegas a <b>Dresden Hauptbahnhof</b> a las <b>21:30</b>. Tu hotel está en el otro extremo de la ciudad y <b>el último tranvía</b> sale en 20 minutos, pero no sabes de qué parada ni qué línea. Además quieres una <b>entrada para la Frauenkirche</b> para mañana por la mañana. Vas a la oficina de información y lo resuelves todo en alemán.",
+        "goals": [
+          "Saludar y explicar adónde quieres ir (<i>Ich möchte zum Hotel … in …</i>)",
+          "Preguntar qué línea y qué parada (<i>Welche Linie / Haltestelle …?</i>)",
+          "Confirmar el horario del último tranvía (<i>Wann fährt die letzte Bahn?</i>)",
+          "Preguntar si necesitas un billete y dónde comprarlo",
+          "Pedir una entrada o info para la Frauenkirche para mañana",
+          "Dar las gracias y despedirte con cortesía"
+        ]
+      },
+      "produce": {
+        "id": "b28-s5",
+        "label": "<b>tu turno:</b> escribe la conversación completa (6–10 turnos) o, si la practicaste en voz alta, apunta aquí las frases que te costaron.",
+        "placeholder": "Guten Abend! Ich möchte zum Hotel Elbflorenz. Welche Linie fährt dorthin? …"
+      }
+    }
+  ]
+}
