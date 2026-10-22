@@ -3731,3 +3731,218 @@ b.hl,
 .syn-grid .syn-chip {
   white-space: normal;
 }
+
+/* ---------- Writing (tarea de escritura) ---------- */
+.writing {
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface);
+}
+.wr-head {
+  margin-bottom: 0.6rem;
+}
+.wr-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.wr-task {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.wr-hints {
+  margin-top: 0.8rem;
+  padding: 0.7rem 0.9rem;
+  background: var(--iris-soft);
+  border: 1px solid var(--iris-line, var(--line));
+  border-radius: var(--r);
+}
+.wr-hints-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--iris-ink, var(--iris));
+}
+.wr-hints ul {
+  margin: 0.45rem 0 0;
+  padding-left: 1.1rem;
+}
+.wr-hints li {
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  margin: 0.2rem 0;
+}
+.wr-textarea {
+  width: 100%;
+  margin-top: 0.9rem;
+  resize: vertical;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: 0.7rem 0.85rem;
+  font-family: var(--body);
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--surface-2);
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+.wr-textarea::placeholder {
+  color: var(--ink-faint);
+}
+.wr-textarea:focus {
+  outline: none;
+  background: var(--surface);
+  border-color: var(--iris);
+  box-shadow: var(--ring);
+}
+.wr-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.6rem;
+}
+.wr-save {
+  border: none;
+  background: var(--grad);
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem 1.05rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 16px -8px rgba(139, 92, 246, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: transform 0.15s, filter 0.15s;
+}
+.wr-save:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+.wr-words {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  font-variant-numeric: tabular-nums;
+}
+.wr-saved {
+  font-size: 0.78rem;
+  color: var(--ok);
+}
+.wr-checklist {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--line);
+}
+.wr-checklist-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.wr-checklist-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.wr-checklist-count {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  font-variant-numeric: tabular-nums;
+}
+.wr-checklist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wr-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0.35rem 0;
+  cursor: pointer;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+.wr-check:hover {
+  color: var(--ink);
+}
+.wr-check-box {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  transition: 0.15s;
+}
+.wr-check.on .wr-check-box {
+  background: var(--ok);
+  border-color: var(--ok);
+}
+.wr-check.on span:last-child {
+  text-decoration: line-through;
+  text-decoration-color: var(--line-strong);
+  color: var(--ink-faint);
+}
+.wr-model-wrap {
+  margin-top: 1rem;
+}
+.wr-model-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--line-strong);
+  background: var(--surface-2);
+  color: var(--ink-soft);
+  border-radius: 99px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.wr-model-toggle:hover {
+  color: var(--iris);
+  border-color: var(--iris);
+}
+.wr-model {
+  margin-top: 0.7rem;
+  padding: 0.9rem 1rem;
+  background: var(--ok-bg);
+  border: 1px solid var(--ok-line, var(--line));
+  border-radius: var(--r);
+}
+.wr-model-label {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ok);
+  margin-bottom: 0.45rem;
+}
+.wr-model-body {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--ink);
+  white-space: pre-line;
+}
