@@ -1,0 +1,244 @@
+{
+  "block": "32",
+  "title": "Vertical: Trabajo y Bewerbung",
+  "kicker": "Bloque 32 · Vertical profesional · B1–B2",
+  "intro": "Paquete para <b class=\"hl\">buscar trabajo en Alemania</b>: el vocabulario de la candidatura, las fórmulas de la entrevista, un <b>Vorstellungsgespräch</b> completo, un juego de rol como candidato/a y un escenario para preparar tu propia entrevista. Mismo patrón: <b>Wortschatz → Redemittel → diálogo → Rollenspiel → Szenario</b>.",
+  "sections": [
+    {
+      "idx": "32.1",
+      "title": "Wortschatz: la candidatura",
+      "level": "B1",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Cuando lo tengas, pulsa «Ocultar español» y ponte a prueba.",
+      "vocab": {
+        "id": "b32-voc",
+        "items": [
+          { "de": "die Bewerbung", "pl": "Bewerbungen", "es": "la candidatura / solicitud" },
+          { "de": "der Lebenslauf", "pl": "Lebensläufe", "es": "el currículum" },
+          { "de": "das Anschreiben", "pl": "Anschreiben", "es": "la carta de presentación" },
+          { "de": "das Vorstellungsgespräch", "pl": "Vorstellungsgespräche", "es": "la entrevista de trabajo" },
+          { "de": "die Stelle", "pl": "Stellen", "es": "el puesto" },
+          { "de": "die Stellenanzeige", "pl": "Stellenanzeigen", "es": "la oferta de empleo" },
+          { "de": "die Erfahrung", "pl": "Erfahrungen", "es": "la experiencia" },
+          { "de": "die Kenntnisse", "es": "los conocimientos (plural)" },
+          { "de": "die Stärke", "pl": "Stärken", "es": "la fortaleza" },
+          { "de": "die Schwäche", "pl": "Schwächen", "es": "la debilidad" },
+          { "de": "das Gehalt", "pl": "Gehälter", "es": "el sueldo" },
+          { "de": "die Probezeit", "pl": "Probezeiten", "es": "el período de prueba" },
+          { "de": "die Vollzeit", "es": "la jornada completa" },
+          { "de": "die Teilzeit", "es": "la jornada parcial" },
+          { "de": "die Kündigung", "pl": "Kündigungen", "es": "el despido / la dimisión" },
+          { "de": "der Arbeitgeber", "pl": "Arbeitgeber", "es": "el empleador" },
+          { "de": "der Arbeitnehmer", "pl": "Arbeitnehmer", "es": "el empleado" },
+          { "de": "sich bewerben", "es": "presentar la candidatura (um + Akk)" },
+          { "de": "einstellen", "es": "contratar" },
+          { "de": "sich einarbeiten", "es": "familiarizarse con el trabajo" }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b32-s1q1",
+          "question": "1. ¿Qué artículo lleva <i>Lebenslauf</i>?",
+          "options": ["der", "die", "das"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b32-s1q2",
+          "question": "2. <i>das Anschreiben</i> es…",
+          "options": ["el currículum", "la carta de presentación", "la entrevista"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b32-s1q3",
+          "question": "3. «Me presento al puesto» → Ich <span class=\"blank\">___</span> mich um die Stelle.",
+          "options": ["bewerbe", "einstelle", "kündige"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "32.2",
+      "title": "Redemittel: la entrevista",
+      "level": "B2",
+      "rule": "Fórmulas para el <b>Vorstellungsgespräch</b>. Todo va en <b>Sie</b>. La regla de oro al hablar de ti: frases concretas con un ejemplo, no adjetivos sueltos.",
+      "tables": [
+        {
+          "headers": ["Momento", "Redemittel"],
+          "rows": [
+            ["Presentarte", "Ich bin ausgebildete Köchin und habe fünf Jahre Erfahrung in der Gastronomie."],
+            ["Motivación", "Mich reizt an der Stelle besonders die Arbeit im Team."],
+            ["Por qué esta empresa", "Ihr Unternehmen ist für seine Qualität bekannt — da möchte ich mitarbeiten."],
+            ["Fortalezas", "Zu meinen Stärken gehört, dass ich auch unter Druck ruhig bleibe."],
+            ["Debilidades", "Ich war früher sehr ungeduldig, daran habe ich aber gezielt gearbeitet."],
+            ["Disponibilidad", "Ich könnte ab dem ersten Mai anfangen."],
+            ["Sueldo (con tacto)", "Meine Gehaltsvorstellung liegt bei etwa … Euro brutto."],
+            ["Preguntar tú", "Wie sieht ein typischer Arbeitstag auf dieser Stelle aus?"],
+            ["Preguntar tú", "Gibt es Möglichkeiten zur Weiterbildung?"],
+            ["Cerrar", "Vielen Dank für das Gespräch — ich habe einen sehr guten Eindruck."]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "La pregunta de la debilidad es una trampa clásica. La fórmula que funciona: <b>una debilidad real pero no fatal + lo que haces para mejorarla</b> (<i>… daran arbeite ich</i>). Nunca «soy perfeccionista» a secas (suena a cliché) ni algo que hunda tu candidatura."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b32-s2q1",
+          "question": "1. Mejor forma de hablar de una fortaleza:",
+          "options": [
+            "Ich bin einfach der Beste.",
+            "Zu meinen Stärken gehört, dass ich unter Druck ruhig bleibe.",
+            "Ich habe keine Schwächen."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b32-s2q2",
+          "question": "2. «Mi pretensión salarial es de unos … » →",
+          "options": [
+            "Ich will viel Geld.",
+            "Meine Gehaltsvorstellung liegt bei etwa … Euro brutto.",
+            "Das Gehalt ist mir egal."
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "32.3",
+      "title": "Diálogo: un Vorstellungsgespräch",
+      "level": "B2",
+      "rule": "Una candidata entrevista para un puesto en atención al cliente. Escucha el diálogo entero y fíjate en cómo responde con <b>ejemplos concretos</b>, no con adjetivos vacíos.",
+      "dialog": {
+        "id": "arbeit-gespraech",
+        "setting": "TechSupport GmbH, Fráncfort · sala de reuniones, 14:00",
+        "roles": {
+          "P": { "name": "Frau Weiß", "label": "Reclutadora" },
+          "B": { "name": "Frau Costa", "label": "Candidata" }
+        },
+        "lines": [
+          { "who": "P", "de": "Schön, dass Sie da sind, Frau Costa. Erzählen Sie doch kurz etwas über sich.", "es": "Me alegra que esté aquí, señora Costa. Cuéntenos brevemente algo sobre usted." },
+          { "who": "B", "de": "Gern. Ich arbeite seit drei Jahren im Kundenservice und spreche Deutsch, Spanisch und Englisch. Der Kontakt mit Menschen macht mir großen Spaß.", "es": "Con gusto. Llevo tres años trabajando en atención al cliente y hablo alemán, español e inglés. El trato con la gente me gusta mucho." },
+          { "who": "P", "de": "<b>Warum möchten Sie gerade bei uns arbeiten?</b>", "es": "¿Por qué quiere trabajar precisamente con nosotros?" },
+          { "who": "B", "de": "Ihr Unternehmen ist für guten Service bekannt, und ich möchte in einem Team arbeiten, das Qualität ernst nimmt.", "es": "Su empresa es conocida por el buen servicio, y quiero trabajar en un equipo que se toma en serio la calidad." },
+          { "who": "P", "de": "Was würden Sie als Ihre größte Stärke bezeichnen?", "es": "¿Qué diría que es su mayor fortaleza?" },
+          { "who": "B", "de": "Dass ich auch bei schwierigen Kunden ruhig bleibe. In meiner letzten Stelle habe ich oft Beschwerden gelöst, bevor sie eskaliert sind.", "es": "Que mantengo la calma incluso con clientes difíciles. En mi último puesto resolvía a menudo quejas antes de que escalaran." },
+          { "who": "P", "de": "Und eine Schwäche?", "es": "¿Y una debilidad?" },
+          { "who": "B", "de": "Früher habe ich zu viel selbst gemacht, statt Aufgaben abzugeben. <b>Daran arbeite ich</b> — inzwischen delegiere ich bewusster.", "es": "Antes hacía demasiado yo misma en vez de delegar tareas. En eso estoy trabajando: ahora delego de forma más consciente." },
+          { "who": "P", "de": "Gut. Haben Sie noch Fragen an uns?", "es": "Bien. ¿Tiene usted alguna pregunta para nosotros?" },
+          { "who": "B", "de": "Ja — wie sieht ein typischer Arbeitstag auf dieser Stelle aus, und gibt es Möglichkeiten zur Weiterbildung?", "es": "Sí: ¿cómo es un día de trabajo típico en este puesto, y hay posibilidades de formación continua?" },
+          { "who": "P", "de": "Sehr gute Fragen. Das erkläre ich Ihnen gern. Wir melden uns bis Ende der Woche.", "es": "Muy buenas preguntas. Se lo explico con gusto. Les contactaremos a finales de semana." },
+          { "who": "B", "de": "Vielen Dank für das Gespräch — ich habe einen sehr guten Eindruck.", "es": "Muchas gracias por la entrevista: me llevo muy buena impresión." }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Fíjate en la estructura de sus respuestas: <b>afirmación + ejemplo concreto del pasado</b> (<i>In meiner letzten Stelle habe ich …</i>). Y haz SIEMPRE una pregunta al final: no preguntar nada se interpreta como falta de interés."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b32-s3q1",
+          "question": "1. Wie begründet Frau Costa ihre Stärke?",
+          "options": [
+            "mit einem Adjektiv ohne Beispiel",
+            "mit einem konkreten Beispiel aus der letzten Stelle",
+            "sie nennt keine Stärke"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b32-s3q2",
+          "question": "2. Wie geht sie mit der Schwäche um?",
+          "options": [
+            "Sie sagt, sie habe keine.",
+            "Sie nennt eine und sagt, woran sie arbeitet.",
+            "Sie wechselt das Thema."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b32-s3q3",
+          "question": "3. Warum stellt sie am Ende Fragen?",
+          "options": [
+            "um Zeit zu gewinnen",
+            "weil Interesse erwartet wird",
+            "das ist unhöflich"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "32.4",
+      "title": "Rollenspiel: tú en la entrevista",
+      "level": "B1",
+      "rule": "Ahora el candidato eres tú. La reclutadora pregunta (puedes escucharla), tú escribes tu respuesta siguiendo la instrucción y después la comparas con el modelo. Todo en <b>Sie</b>. Repite el modelo en voz alta.",
+      "roleplay": {
+        "id": "b32-rp",
+        "you": "Candidato/a",
+        "partner": { "name": "Herr Klein", "label": "Reclutador" },
+        "steps": [
+          {
+            "partner": "Guten Tag! Schön, dass Sie da sind. Stellen Sie sich doch bitte kurz vor.",
+            "es": "¡Buenos días! Me alegra que esté aquí. Preséntese brevemente, por favor.",
+            "task": "Preséntate: tu profesión, años de experiencia y qué te gusta de tu trabajo.",
+            "model": "Guten Tag! Ich bin Buchhalterin und habe vier Jahre Erfahrung. Mir gefällt es, mit Zahlen genau zu arbeiten."
+          },
+          {
+            "partner": "Warum haben Sie sich bei uns beworben?",
+            "es": "¿Por qué se ha presentado a nuestra empresa?",
+            "task": "Explica tu motivación: te atrae el puesto y lo que valoras de la empresa.",
+            "model": "Mich reizt an der Stelle die Verantwortung, und Ihr Unternehmen ist für ein gutes Arbeitsklima bekannt."
+          },
+          {
+            "partner": "Was ist eine Ihrer Schwächen?",
+            "es": "¿Cuál es una de sus debilidades?",
+            "task": "Nombra una debilidad real pero no grave y di qué haces para mejorarla.",
+            "model": "Ich habe früher zu selten um Hilfe gebeten. Daran arbeite ich und frage inzwischen rechtzeitig nach."
+          },
+          {
+            "partner": "Ab wann könnten Sie bei uns anfangen?",
+            "es": "¿A partir de cuándo podría empezar con nosotros?",
+            "task": "Di tu disponibilidad (por ejemplo, a partir del 1 de junio).",
+            "model": "Ich könnte ab dem ersten Juni anfangen, gern auch mit einer Probezeit."
+          },
+          {
+            "partner": "Haben Sie noch Fragen an uns?",
+            "es": "¿Tiene alguna pregunta para nosotros?",
+            "task": "Haz una buena pregunta sobre el día a día o la formación, y agradece la entrevista.",
+            "model": "Ja — wie sieht die Einarbeitung aus? Und vielen Dank für das Gespräch, ich habe einen guten Eindruck."
+          }
+        ]
+      }
+    },
+    {
+      "idx": "32.5",
+      "title": "Szenario: prepara tu entrevista",
+      "level": "B2",
+      "rule": "Situación real para prepararte de verdad. Hazla en voz alta o por escrito y marca cada objetivo cuando lo tengas listo.",
+      "scenario": {
+        "id": "b32-sc",
+        "situation": "Tienes el <b>viernes</b> un Vorstellungsgespräch para un puesto que te interesa de verdad. Prepara tus respuestas en alemán a las cuatro preguntas clave: <b>preséntate</b>, <b>por qué esta empresa</b>, <b>una fortaleza con ejemplo</b> y <b>una debilidad con mejora</b>. Añade <b>dos preguntas</b> que harás tú al final.",
+        "goals": [
+          "Presentación de 3–4 frases (profesión, experiencia, idiomas, qué te gusta)",
+          "Motivación concreta para esa empresa/puesto (no genérica)",
+          "Una fortaleza respaldada con un ejemplo real del pasado",
+          "Una debilidad real + qué haces para mejorarla",
+          "Mencionar disponibilidad y, si procede, pretensión salarial con tacto",
+          "Dos preguntas tuyas (día a día, equipo, formación…)"
+        ]
+      },
+      "produce": {
+        "id": "b32-s5",
+        "label": "<b>tu turno:</b> escribe tus respuestas a las cuatro preguntas y tus dos preguntas finales, como las dirías en la entrevista.",
+        "placeholder": "Über mich: Ich bin … und habe … Jahre Erfahrung. / Warum Ihr Unternehmen: … / Meine Stärke: … / Meine Schwäche: … / Meine Fragen: …"
+      }
+    }
+  ]
+}
