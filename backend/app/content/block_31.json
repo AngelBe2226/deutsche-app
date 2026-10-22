@@ -1,0 +1,227 @@
+{
+  "block": "31",
+  "title": "Vertical: Alltag (día a día)",
+  "kicker": "Bloque 31 · Vertical · A2–B1",
+  "intro": "Paquete para el <b class=\"hl\">día a día en Alemania</b>: las compras, las citas, el teléfono y el small talk con vecinos y amigos. Aquí practicas el salto de registro: <b>Sie</b> con desconocidos y <b>du</b> con amistades. Mismo patrón: <b>Wortschatz → Redemittel → diálogo → Rollenspiel → Szenario</b>.",
+  "sections": [
+    {
+      "idx": "31.1",
+      "title": "Wortschatz: la vida cotidiana",
+      "level": "A2",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Cuando lo tengas, pulsa «Ocultar español» y ponte a prueba.",
+      "vocab": {
+        "id": "b31-voc",
+        "items": [
+          { "de": "der Einkauf", "pl": "Einkäufe", "es": "la compra" },
+          { "de": "der Termin", "pl": "Termine", "es": "la cita" },
+          { "de": "die Quittung", "pl": "Quittungen", "es": "el recibo" },
+          { "de": "die Kasse", "pl": "Kassen", "es": "la caja" },
+          { "de": "das Pfand", "es": "el depósito / casco retornable" },
+          { "de": "die Öffnungszeiten", "es": "el horario de apertura (plural)" },
+          { "de": "der Feierabend", "pl": "Feierabende", "es": "el fin de la jornada laboral" },
+          { "de": "die Besorgung", "pl": "Besorgungen", "es": "el recado" },
+          { "de": "der Haushalt", "pl": "Haushalte", "es": "las tareas de casa / el hogar" },
+          { "de": "die Nachbarschaft", "pl": "Nachbarschaften", "es": "el vecindario" },
+          { "de": "die Mülltrennung", "es": "la separación de la basura" },
+          { "de": "der Stau", "pl": "Staus", "es": "el atasco" },
+          { "de": "die Verabredung", "pl": "Verabredungen", "es": "la quedada / cita con alguien" },
+          { "de": "pünktlich", "es": "puntual" },
+          { "de": "besorgen", "es": "conseguir / comprar (un recado)" },
+          { "de": "erledigen", "es": "hacer / resolver (una gestión)" },
+          { "de": "sich verabreden", "es": "quedar (con alguien)" },
+          { "de": "abholen", "es": "recoger (algo o a alguien)" },
+          { "de": "sich melden", "es": "dar señales / ponerse en contacto" },
+          { "de": "klappen", "es": "salir bien / cuadrar" }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b31-s1q1",
+          "question": "1. ¿Qué artículo lleva <i>Termin</i>?",
+          "options": ["der", "die", "das"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b31-s1q2",
+          "question": "2. <i>eine Besorgung machen</i> es…",
+          "options": ["hacer un recado", "pedir una cita", "separar la basura"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b31-s1q3",
+          "question": "3. «quedar con alguien» en alemán es…",
+          "options": ["sich verabreden", "abholen", "erledigen"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "31.2",
+      "title": "Redemittel: compras, citas y small talk",
+      "level": "A2",
+      "rule": "Fórmulas para lo de cada día. La columna derecha marca el <b>registro</b>: <b>Sie</b> con desconocidos (tienda, teléfono) y <b>du</b> con amistades. Fíjate en el cambio.",
+      "tables": [
+        {
+          "headers": ["Situación", "Redemittel"],
+          "rows": [
+            ["En la caja (Sie)", "Zahlen Sie bar oder mit Karte? — Mit Karte, bitte."],
+            ["En la caja (Sie)", "Möchten Sie eine Quittung / einen Kassenbon?"],
+            ["Pedir cita (Sie)", "Ich hätte gern einen Termin für nächste Woche."],
+            ["Preguntar horario (Sie)", "Wie sind Ihre Öffnungszeiten?"],
+            ["Small talk (Sie)", "Schönes Wetter heute, nicht wahr?"],
+            ["Quedar (du)", "Hast du am Samstag Zeit? Wollen wir uns treffen?"],
+            ["Proponer (du)", "Wollen wir einen Kaffee trinken gehen?"],
+            ["Confirmar (du)", "Passt dir 15 Uhr? — Ja, das klappt."],
+            ["Avisar de retraso (du)", "Ich komme ein bisschen später, ich stehe im Stau."],
+            ["Despedirse (du)", "Bis dann! Melde dich, wenn was ist."]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "El verbo comodín del día a día es <b>klappen</b> (salir bien, cuadrar): <i>Passt dir Samstag? — Ja, das klappt.</i> Y para despedirte de forma natural entre amigos: <b>«Melde dich!»</b> (¡da señales de vida!)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b31-s2q1",
+          "question": "1. A una amiga, para proponerle quedar el sábado:",
+          "options": [
+            "Haben Sie am Samstag Zeit?",
+            "Hast du am Samstag Zeit?",
+            "Hätten Sie am Samstag einen Termin?"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b31-s2q2",
+          "question": "2. «Me viene bien» / «cuadra» se dice…",
+          "options": ["das klappt", "das kostet", "das stimmt nicht"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "31.3",
+      "title": "Diálogo: pedir cita por teléfono",
+      "level": "B1",
+      "rule": "Una llamada a la peluquería para pedir cita. Es una situación de <b>Sie</b> muy frecuente. Fíjate en cómo se dan y confirman la fecha, la hora y el nombre.",
+      "dialog": {
+        "id": "alltag-termin",
+        "setting": "Friseursalon Schnittpunkt, Hamburgo · llamada telefónica, 10:15",
+        "roles": {
+          "S": { "name": "Salon", "label": "Peluquería" },
+          "A": { "name": "Anrufer", "label": "Tú" }
+        },
+        "lines": [
+          { "who": "S", "de": "Friseursalon Schnittpunkt, guten Tag. Was kann ich für Sie tun?", "es": "Peluquería Schnittpunkt, buenos días. ¿Qué puedo hacer por usted?" },
+          { "who": "A", "de": "Guten Tag. Ich hätte gern einen Termin zum Haareschneiden.", "es": "Buenos días. Querría una cita para cortarme el pelo." },
+          { "who": "S", "de": "Sehr gern. <b>Wann würde es Ihnen denn passen?</b>", "es": "Con mucho gusto. ¿Cuándo le vendría bien?" },
+          { "who": "A", "de": "Diese Woche, am besten nachmittags. Geht Donnerstag?", "es": "Esta semana, mejor por la tarde. ¿Puede ser el jueves?" },
+          { "who": "S", "de": "Donnerstag … um 16 Uhr hätte ich noch etwas frei. Passt Ihnen das?", "es": "El jueves… a las 16:00 me queda algo libre. ¿Le viene bien?" },
+          { "who": "A", "de": "Ja, 16 Uhr ist super.", "es": "Sí, las 16:00 es perfecto." },
+          { "who": "S", "de": "Auf welchen Namen darf ich den Termin eintragen?", "es": "¿A nombre de quién apunto la cita?" },
+          { "who": "A", "de": "Auf Morales, M-O-R-A-L-E-S.", "es": "A nombre de Morales, M-O-R-A-L-E-S." },
+          { "who": "S", "de": "Danke. Also Donnerstag, 16 Uhr, Herr Morales. <b>Falls etwas dazwischenkommt, sagen Sie bitte rechtzeitig Bescheid.</b>", "es": "Gracias. Entonces el jueves, 16:00, señor Morales. Si surge algo, avise con tiempo, por favor." },
+          { "who": "A", "de": "Mache ich. Vielen Dank, bis Donnerstag!", "es": "Lo haré. Muchas gracias, ¡hasta el jueves!" },
+          { "who": "S", "de": "Bis dann, schönen Tag noch!", "es": "Hasta entonces, ¡que tenga buen día!" }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Para cancelar o cambiar una cita sin quedar mal: <b>«Ich muss meinen Termin leider absagen / verschieben»</b> (tengo que cancelar / posponer mi cita). Y deletrear el nombre es habitual: practica el alfabeto alemán, sobre todo <i>Ypsilon</i> (Y) y las dobles (<i>doppel-L</i>)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b31-s3q1",
+          "question": "1. Wofür ruft Herr Morales an?",
+          "options": ["für eine Beschwerde", "für einen Termin zum Haareschneiden", "für eine Lieferung"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b31-s3q2",
+          "question": "2. Wann ist der Termin?",
+          "options": ["Donnerstag um 16 Uhr", "Mittwoch um 14 Uhr", "Freitag um 16 Uhr"],
+          "correctIndex": 0
+        },
+        {
+          "id": "b31-s3q3",
+          "question": "3. «einen Termin absagen» significa…",
+          "options": ["pedir una cita", "cancelar una cita", "confirmar una cita"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "31.4",
+      "title": "Rollenspiel: quedar con un amigo (du)",
+      "level": "A2",
+      "rule": "Ahora es informal: hablas con un amigo, así que todo va en <b>du</b>. Tu amigo escribe/dice algo, tú respondes siguiendo la instrucción y lo comparas con el modelo. Repite el modelo en voz alta.",
+      "roleplay": {
+        "id": "b31-rp",
+        "you": "Tú",
+        "partner": { "name": "Jonas", "label": "Tu amigo" },
+        "steps": [
+          {
+            "partner": "Hey! Lange nicht gesehen. Wie geht's dir?",
+            "es": "¡Eh! Cuánto tiempo. ¿Qué tal estás?",
+            "task": "Responde que bien, con mucho que hacer, y pregúntale a él qué tal.",
+            "model": "Hey! Mir geht's gut, viel zu tun gerade. Und dir, wie läuft's?"
+          },
+          {
+            "partner": "Auch gut! Hast du am Wochenende schon was vor?",
+            "es": "¡También bien! ¿Tienes ya algún plan para el finde?",
+            "task": "Di que todavía no, y propón quedar para un café el sábado.",
+            "model": "Noch nichts Festes. Wollen wir am Samstag einen Kaffee trinken gehen?"
+          },
+          {
+            "partner": "Klingt gut! Passt dir nachmittags, so um drei?",
+            "es": "¡Suena bien! ¿Te viene bien por la tarde, hacia las tres?",
+            "task": "Confirma que te cuadra y propón el café de siempre.",
+            "model": "Ja, drei passt mir. Treffen wir uns im Café wie immer?"
+          },
+          {
+            "partner": "Perfekt. Vielleicht komme ich ein paar Minuten später, ich hol noch was ab.",
+            "es": "Perfecto. Igual llego unos minutos tarde, tengo que recoger una cosa.",
+            "task": "Dile que no pasa nada y que te avise si cambia algo.",
+            "model": "Kein Problem! Melde dich einfach, wenn sich was ändert."
+          },
+          {
+            "partner": "Mach ich. Bis Samstag dann!",
+            "es": "Lo hago. ¡Hasta el sábado entonces!",
+            "task": "Despídete con ganas de verlo.",
+            "model": "Bis Samstag, ich freu mich! Tschüss!"
+          }
+        ]
+      }
+    },
+    {
+      "idx": "31.5",
+      "title": "Szenario: un recado que se complica",
+      "level": "B1",
+      "rule": "Situación real para practicar sola/o o con alguien. Hazla en voz alta o por escrito y marca cada objetivo cuando lo cumplas.",
+      "scenario": {
+        "id": "b31-sc",
+        "situation": "Vas a recoger un paquete a una tienda de recogida (<b>Paketshop</b>), pero te das cuenta de que <b>has olvidado el documento</b> y solo tienes el código en el móvil. Además la cola es larga y en diez minutos cierran. Resuélvelo en alemán con el/la dependiente/a, con cortesía pero con decisión.",
+        "goals": [
+          "Saludar y explicar a qué vienes (<i>Ich möchte ein Paket abholen</i>)",
+          "Dar el código y explicar que no llevas el documento físico",
+          "Preguntar si el código del móvil es suficiente",
+          "Reaccionar con calma si te ponen una pega y proponer una alternativa",
+          "Dar las gracias y despedirte",
+          "Mantener el registro formal (Sie) todo el tiempo"
+        ]
+      },
+      "produce": {
+        "id": "b31-s5",
+        "label": "<b>tu turno:</b> escribe la conversación completa (6–10 turnos) o, si la practicaste en voz alta, apunta aquí las frases que te costaron.",
+        "placeholder": "Guten Tag! Ich möchte ein Paket abholen. Hier ist mein Abholcode auf dem Handy …"
+      }
+    }
+  ]
+}
