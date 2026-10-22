@@ -1,0 +1,240 @@
+{
+  "block": "33",
+  "title": "Vertical: Trámites y Behörden",
+  "kicker": "Bloque 33 · Vertical · B1",
+  "intro": "Paquete para sobrevivir a la <b class=\"hl\">burocracia alemana</b>: empadronarse (Anmeldung), abrir una cuenta, rellenar formularios y pedir citas. Vocabulario, fórmulas de ventanilla, un diálogo en el Bürgeramt, un juego de rol en el banco y un escenario con un documento que falta. Mismo patrón: <b>Wortschatz → Redemittel → diálogo → Rollenspiel → Szenario</b>.",
+  "sections": [
+    {
+      "idx": "33.1",
+      "title": "Wortschatz: oficinas y documentos",
+      "level": "B1",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Cuando lo tengas, pulsa «Ocultar español» y ponte a prueba.",
+      "vocab": {
+        "id": "b33-voc",
+        "items": [
+          { "de": "das Amt", "pl": "Ämter", "es": "la oficina pública" },
+          { "de": "die Behörde", "pl": "Behörden", "es": "la administración / organismo" },
+          { "de": "die Anmeldung", "pl": "Anmeldungen", "es": "el empadronamiento / registro" },
+          { "de": "der Antrag", "pl": "Anträge", "es": "la solicitud" },
+          { "de": "das Formular", "pl": "Formulare", "es": "el formulario" },
+          { "de": "die Unterschrift", "pl": "Unterschriften", "es": "la firma" },
+          { "de": "die Bescheinigung", "pl": "Bescheinigungen", "es": "el certificado / justificante" },
+          { "de": "die Meldebescheinigung", "pl": "Meldebescheinigungen", "es": "el certificado de empadronamiento" },
+          { "de": "der Aufenthaltstitel", "pl": "Aufenthaltstitel", "es": "el permiso de residencia" },
+          { "de": "der Personalausweis", "pl": "Personalausweise", "es": "el DNI (alemán)" },
+          { "de": "der Reisepass", "pl": "Reisepässe", "es": "el pasaporte" },
+          { "de": "die Gebühr", "pl": "Gebühren", "es": "la tasa" },
+          { "de": "der Termin", "pl": "Termine", "es": "la cita" },
+          { "de": "die Wartenummer", "pl": "Wartenummern", "es": "el número de turno" },
+          { "de": "das Konto", "pl": "Konten", "es": "la cuenta (bancaria)" },
+          { "de": "der Nachweis", "pl": "Nachweise", "es": "el comprobante / prueba" },
+          { "de": "beantragen", "es": "solicitar (formalmente)" },
+          { "de": "ausfüllen", "es": "rellenar (un formulario)" },
+          { "de": "unterschreiben", "es": "firmar" },
+          { "de": "vorlegen", "es": "presentar (un documento)" }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b33-s1q1",
+          "question": "1. Plural de <i>das Amt</i>:",
+          "options": ["die Amts", "die Ämter", "die Amten"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b33-s1q2",
+          "question": "2. <i>die Meldebescheinigung</i> es…",
+          "options": [
+            "el certificado de empadronamiento",
+            "el permiso de residencia",
+            "la cuenta bancaria"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b33-s1q3",
+          "question": "3. «rellenar un formulario» → ein Formular <span class=\"blank\">___</span>.",
+          "options": ["ausfüllen", "vorlegen", "unterschreiben"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "33.2",
+      "title": "Redemittel: en la ventanilla",
+      "level": "B1",
+      "rule": "Fórmulas para cualquier Amt. Todo en <b>Sie</b>. La frase más útil cuando no entiendes algo: pedir que te lo repitan o te lo expliquen más despacio — no te quedes con la duda.",
+      "tables": [
+        {
+          "headers": ["Función", "Redemittel"],
+          "rows": [
+            ["Explicar a qué vienes", "Ich möchte mich anmelden. / Ich möchte ein Konto eröffnen."],
+            ["Decir que tienes cita", "Ich habe einen Termin um 10 Uhr auf den Namen …"],
+            ["Entregar documentos", "Hier sind mein Pass und der Mietvertrag."],
+            ["Preguntar qué falta", "Welche Unterlagen brauchen Sie noch von mir?"],
+            ["Pedir aclaración", "Entschuldigung, das habe ich nicht ganz verstanden. Könnten Sie das bitte wiederholen?"],
+            ["Pedir que hable más despacio", "Könnten Sie bitte etwas langsamer sprechen?"],
+            ["Preguntar por la tasa", "Was kostet das, und kann ich mit Karte zahlen?"],
+            ["Preguntar por plazos", "Wann bekomme ich die Bescheinigung?"],
+            ["Pedir ayuda con el formulario", "Könnten Sie mir beim Ausfüllen helfen?"],
+            ["Despedirse", "Vielen Dank für Ihre Hilfe!"]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Regla de oro de las Behörden: <b>pide cita online antes de ir</b> (<i>einen Termin vereinbaren</i>) y <b>lleva siempre todo por duplicado</b>. Y si no entiendes, no asientas por vergüenza: <i>«Könnten Sie das bitte wiederholen?»</i> es perfectamente normal y educado."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b33-s2q1",
+          "question": "1. No entiendes lo que te dicen. Dices:",
+          "options": [
+            "Ja, ja, alles klar.",
+            "Könnten Sie das bitte wiederholen?",
+            "Das ist mir egal."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b33-s2q2",
+          "question": "2. Para preguntar qué documentos faltan:",
+          "options": [
+            "Welche Unterlagen brauchen Sie noch?",
+            "Wie viel kostet das?",
+            "Wo ist der Ausgang?"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "33.3",
+      "title": "Diálogo: la Anmeldung en el Bürgeramt",
+      "level": "B1",
+      "rule": "Empadronarse es lo primero que haces al llegar a Alemania. Escucha el diálogo entero: fíjate en qué <b>documentos</b> se piden y en el certificado que se recibe al final.",
+      "dialog": {
+        "id": "behoerden-anmeldung",
+        "setting": "Bürgeramt Mitte, Berlín · ventanilla 7, cita de las 09:30",
+        "roles": {
+          "S": { "name": "Herr Franke", "label": "Funcionario" },
+          "B": { "name": "Frau Ortiz", "label": "Ciudadana" }
+        },
+        "lines": [
+          { "who": "S", "de": "Guten Morgen. Wie kann ich Ihnen helfen?", "es": "Buenos días. ¿En qué puedo ayudarle?" },
+          { "who": "B", "de": "Guten Morgen. Ich möchte mich anmelden. Ich habe einen Termin um 9:30 auf den Namen Ortiz.", "es": "Buenos días. Quiero empadronarme. Tengo cita a las 9:30 a nombre de Ortiz." },
+          { "who": "S", "de": "Sehr gut, Frau Ortiz. Haben Sie das Anmeldeformular schon ausgefüllt?", "es": "Muy bien, señora Ortiz. ¿Ha rellenado ya el formulario de registro?" },
+          { "who": "B", "de": "Ja, hier bitte. Welche Unterlagen brauchen Sie noch?", "es": "Sí, aquí tiene. ¿Qué documentos necesita todavía?" },
+          { "who": "S", "de": "Ihren Pass und die <b>Wohnungsgeberbestätigung</b> vom Vermieter.", "es": "Su pasaporte y la confirmación del arrendador (Wohnungsgeberbestätigung)." },
+          { "who": "B", "de": "Hier ist mein Pass. Und die Bestätigung … Moment … ja, hier.", "es": "Aquí está mi pasaporte. Y la confirmación… un momento… sí, aquí." },
+          { "who": "S", "de": "Danke. <b>Einen Moment, bitte</b>, ich trage alles ein.", "es": "Gracias. Un momento, por favor, lo registro todo." },
+          { "who": "B", "de": "Kostet die Anmeldung etwas?", "es": "¿Cuesta algo el empadronamiento?" },
+          { "who": "S", "de": "Nein, die Anmeldung ist kostenlos. Hier ist Ihre Meldebescheinigung. Bitte unterschreiben Sie noch hier unten.", "es": "No, el empadronamiento es gratuito. Aquí tiene su certificado de empadronamiento. Firme aquí abajo, por favor." },
+          { "who": "B", "de": "Gern. Brauche ich die Bescheinigung für die Bank?", "es": "Con gusto. ¿Necesito el certificado para el banco?" },
+          { "who": "S", "de": "Ja, genau — für das Konto und oft auch für den Arbeitsvertrag. Bewahren Sie sie gut auf. Alles erledigt!", "es": "Sí, exacto: para la cuenta y a menudo también para el contrato de trabajo. Guárdelo bien. ¡Todo listo!" },
+          { "who": "B", "de": "Vielen Dank für Ihre Hilfe!", "es": "¡Muchas gracias por su ayuda!" }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "La <b>Meldebescheinigung</b> que recibes es oro: la necesitarás para abrir cuenta, firmar el contrato de trabajo, pedir el número fiscal… Y recuerda la palabra temida: <b>Wohnungsgeberbestätigung</b> (confirmación del casero de que vives ahí) — sin ella no te empadronan."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b33-s3q1",
+          "question": "1. Was möchte Frau Ortiz machen?",
+          "options": ["ein Konto eröffnen", "sich anmelden", "einen Pass beantragen"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b33-s3q2",
+          "question": "2. Was kostet die Anmeldung?",
+          "options": ["30 Euro", "nichts, sie ist kostenlos", "10 Euro"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b33-s3q3",
+          "question": "3. Wofür braucht man die Meldebescheinigung?",
+          "options": [
+            "für das Bankkonto und den Arbeitsvertrag",
+            "nur zum Reisen",
+            "für gar nichts"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "33.4",
+      "title": "Rollenspiel: abrir una cuenta en el banco",
+      "level": "B1",
+      "rule": "Ahora tú haces el trámite. El/la empleado/a habla (puedes escucharlo), tú escribes tu respuesta siguiendo la instrucción y después la comparas con el modelo. Todo en <b>Sie</b>. Repite el modelo en voz alta.",
+      "roleplay": {
+        "id": "b33-rp",
+        "you": "Cliente",
+        "partner": { "name": "Frau Daum", "label": "Empleada del banco" },
+        "steps": [
+          {
+            "partner": "Guten Tag! Was kann ich für Sie tun?",
+            "es": "¡Buenos días! ¿En qué puedo ayudarle?",
+            "task": "Saluda y di que quieres abrir una cuenta corriente (Girokonto).",
+            "model": "Guten Tag! Ich möchte gern ein Girokonto eröffnen."
+          },
+          {
+            "partner": "Sehr gern. Dafür brauche ich Ihren Ausweis und eine Meldebescheinigung. Haben Sie beides dabei?",
+            "es": "Con mucho gusto. Para eso necesito su documento y un certificado de empadronamiento. ¿Tiene ambos?",
+            "task": "Di que sí, entrégalos y pregunta si la cuenta tiene comisiones.",
+            "model": "Ja, hier sind mein Reisepass und die Meldebescheinigung. Fallen für das Konto Gebühren an?"
+          },
+          {
+            "partner": "Das Konto ist bei einem Mindesteingang kostenlos, sonst fünf Euro im Monat.",
+            "es": "La cuenta es gratuita con un ingreso mínimo, si no, cinco euros al mes.",
+            "task": "Pregunta cuándo recibirás la tarjeta y el PIN.",
+            "model": "Alles klar. Wann bekomme ich die Karte und die PIN?"
+          },
+          {
+            "partner": "Die Karte kommt in etwa einer Woche per Post, die PIN getrennt davon.",
+            "es": "La tarjeta llega en una semana por correo, el PIN por separado.",
+            "task": "Pregunta si puedes hacer transferencias online y si hay una app.",
+            "model": "Kann ich auch online Überweisungen machen, und gibt es eine App?"
+          },
+          {
+            "partner": "Ja, mit unserem Online-Banking und der App. Dann unterschreiben Sie bitte hier.",
+            "es": "Sí, con nuestra banca online y la app. Entonces firme aquí, por favor.",
+            "task": "Firma, da las gracias y despídete.",
+            "model": "Gern. So, unterschrieben. Vielen Dank für Ihre Hilfe! Auf Wiedersehen."
+          }
+        ]
+      }
+    },
+    {
+      "idx": "33.5",
+      "title": "Szenario: te falta un documento",
+      "level": "B1",
+      "rule": "Situación real para practicar sola/o o con alguien que haga de funcionario. Hazla en voz alta o por escrito y marca cada objetivo cuando lo cumplas.",
+      "scenario": {
+        "id": "b33-sc",
+        "situation": "Tienes cita en el Ausländerbehörde para renovar tu <b>permiso de residencia</b>, pero al llegar te das cuenta de que <b>te falta un justificante</b> (el certificado de empadronamiento actualizado). El funcionario es correcto pero estricto, y conseguir otra cita lleva semanas. Gestiona la situación en alemán: explica, pregunta qué opciones hay y busca una salida.",
+        "goals": [
+          "Saludar y decir a qué vienes y que tienes cita",
+          "Explicar con calma que te falta un documento concreto",
+          "Preguntar si puedes enviarlo después (por correo o email) o traerlo otro día",
+          "Preguntar si el resto de documentos ya se pueden ir tramitando",
+          "Pedir una nueva cita o un plazo si no hay otra opción",
+          "Mantener el tono cortés y dar las gracias aunque la respuesta no sea ideal"
+        ]
+      },
+      "produce": {
+        "id": "b33-s5",
+        "label": "<b>tu turno:</b> escribe la conversación completa (6–10 turnos) o, si la practicaste en voz alta, apunta aquí las frases que te costaron.",
+        "placeholder": "Guten Tag! Ich habe einen Termin um … zur Verlängerung meines Aufenthaltstitels. Leider fehlt mir …"
+      }
+    }
+  ]
+}
