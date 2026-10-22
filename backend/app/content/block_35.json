@@ -1,0 +1,122 @@
+{
+  "block": "35",
+  "title": "Schreiben: tareas de redacción",
+  "kicker": "Bloque 35 · Escritura · A2–C1",
+  "intro": "Aquí <b class=\"hl\">escribes tú</b>. Cada tarea te da el encargo, unas ideas para empezar y una lista de autocorrección. Escribe primero tu texto, márcate el checklist y <b>solo al final</b> abre el «modelo» para comparar. El modelo es <i>una</i> forma de resolverlo, no la única. Tu texto se guarda solo.",
+  "sections": [
+    {
+      "idx": "35.1",
+      "title": "E-Mail informal a una amiga (A2)",
+      "level": "A2",
+      "rule": "Un correo <b>informal</b> va en <b>du</b>, empieza con <i>«Liebe/r …»</i> y termina con <i>«Liebe Grüße»</i>. Tono cercano y frases cortas.",
+      "writing": {
+        "id": "b35-wr1",
+        "task": "Tu amiga <b>Lena</b> cumple años el sábado y hace una fiesta. Escríbele un correo <b>informal (du)</b> de <b>40–60 palabras</b>: agradece la invitación, di que vas, pregunta si tienes que llevar algo y propón ir juntas.",
+        "hints": [
+          "Liebe Lena, …",
+          "Vielen Dank für die Einladung!",
+          "Ich komme sehr gern.",
+          "Soll ich etwas mitbringen?",
+          "Wollen wir zusammen hinfahren?",
+          "Liebe Grüße, …"
+        ],
+        "placeholder": "Liebe Lena, …",
+        "checklist": [
+          "Empiezo con «Liebe/r …» y cierro con «Liebe Grüße»",
+          "Uso <b>du / dein / dich</b> en todo el correo",
+          "Agradezco la invitación",
+          "Confirmo que voy",
+          "Pregunto si llevo algo o propongo ir juntas",
+          "Entre 40 y 60 palabras aprox."
+        ],
+        "model": "Liebe Lena,\n\nvielen Dank für die Einladung zu deiner Geburtstagsparty! Ich komme sehr gern. Soll ich etwas mitbringen, vielleicht einen Salat oder ein paar Getränke? Und wollen wir zusammen hinfahren? Dann hole ich dich um sieben ab.\n\nIch freue mich schon riesig!\nLiebe Grüße\nMaría"
+      }
+    },
+    {
+      "idx": "35.2",
+      "title": "Correo de reclamación (B1)",
+      "level": "B1",
+      "rule": "Una <b>Beschwerde</b> formal va en <b>Sie</b>, empieza con <i>«Sehr geehrte Damen und Herren»</i> y termina con <i>«Mit freundlichen Grüßen»</i>. Sé claro y cortés, pero firme.",
+      "writing": {
+        "id": "b35-wr2",
+        "task": "Compraste por internet una <b>cafetera</b> que llegó <b>defectuosa</b> (no calienta el agua). Escribe un correo <b>formal (Sie)</b> de <b>80–100 palabras</b> al servicio de atención al cliente: explica el problema, da el <b>número de pedido</b> y la fecha, di qué quieres (reparación, cambio o devolución) y pon un <b>plazo</b> con cortesía.",
+        "hints": [
+          "Sehr geehrte Damen und Herren,",
+          "ich habe am 3. Mai eine Kaffeemaschine bestellt (Bestellnummer 48291).",
+          "Leider funktioniert das Gerät nicht: Es wird nicht heiß.",
+          "Ich möchte Sie bitten, … (zu reparieren / umzutauschen / zu erstatten).",
+          "Ich erwarte Ihre Antwort bis zum …",
+          "Mit freundlichen Grüßen"
+        ],
+        "placeholder": "Sehr geehrte Damen und Herren,\n\nich habe am … eine Kaffeemaschine bestellt …",
+        "checklist": [
+          "Saludo formal: «Sehr geehrte Damen und Herren»",
+          "Doy el número de pedido y la fecha",
+          "Explico el defecto con claridad",
+          "Digo qué solución quiero (cambio / reparación / devolución)",
+          "Pongo un plazo de forma educada",
+          "Cierro con «Mit freundlichen Grüßen» + mi nombre",
+          "Uso <b>Sie</b> en todo el correo"
+        ],
+        "model": "Sehr geehrte Damen und Herren,\n\nam 3. Mai habe ich bei Ihnen eine Kaffeemaschine bestellt (Bestellnummer 48291). Leider funktioniert das Gerät nicht: Das Wasser wird überhaupt nicht heiß.\n\nDa es sich um einen Mangel handelt, möchte ich Sie bitten, mir das Gerät umzutauschen oder den Kaufpreis zu erstatten. Über eine Rückmeldung bis zum 20. Mai würde ich mich freuen.\n\nVielen Dank im Voraus.\n\nMit freundlichen Grüßen\nCarlos Núñez"
+      }
+    },
+    {
+      "idx": "35.3",
+      "title": "Anschreiben: carta de presentación (B2)",
+      "level": "B2",
+      "rule": "El <b>Anschreiben</b> acompaña al CV. Va en <b>Sie</b>, con saludo nominal si conoces el nombre. Estructura: puesto y dónde lo viste → por qué te interesa → qué aportas (con ejemplo) → petición de entrevista. Conecta con la vertical de <b>Trabajo/Bewerbung</b> (bloque 32).",
+      "writing": {
+        "id": "b35-wr3",
+        "task": "Has visto una oferta de <b>recepcionista de hotel</b>. Escribe la introducción y el cuerpo de tu <b>Anschreiben (Sie)</b>, <b>100–120 palabras</b>: di a qué puesto te presentas y dónde viste la oferta, por qué te interesa, qué experiencia o competencias aportas (con <b>un ejemplo</b>) y cierra pidiendo una entrevista.",
+        "hints": [
+          "Sehr geehrte Frau …, / Sehr geehrter Herr …,",
+          "mit großem Interesse habe ich Ihre Stellenanzeige für … gelesen.",
+          "Die Stelle reizt mich besonders, weil …",
+          "In meiner bisherigen Tätigkeit habe ich … (konkretes Beispiel)",
+          "Über eine Einladung zu einem Vorstellungsgespräch würde ich mich sehr freuen.",
+          "Mit freundlichen Grüßen"
+        ],
+        "placeholder": "Sehr geehrte Frau Weber,\n\nmit großem Interesse habe ich Ihre Stellenanzeige für …",
+        "checklist": [
+          "Saludo formal (con nombre si lo hay)",
+          "Menciono el puesto y dónde vi la oferta",
+          "Explico por qué me interesa (concreto, no genérico)",
+          "Aporto una competencia respaldada con un ejemplo",
+          "Pido una entrevista al final",
+          "Cierro con «Mit freundlichen Grüßen» + nombre",
+          "100–120 palabras, registro formal"
+        ],
+        "model": "Sehr geehrte Frau Weber,\n\nmit großem Interesse habe ich Ihre Stellenanzeige für eine Rezeptionistin auf Ihrer Webseite gelesen. Die Stelle reizt mich besonders, weil ich gern mit Menschen arbeite und Ihr Haus für seinen Service bekannt ist.\n\nIn den letzten drei Jahren habe ich an der Rezeption eines Stadthotels gearbeitet. Dabei habe ich auch bei vollem Haus den Überblick behalten und Beschwerden ruhig gelöst, bevor sie eskaliert sind. Ich spreche fließend Deutsch, Spanisch und Englisch.\n\nÜber eine Einladung zu einem Vorstellungsgespräch würde ich mich sehr freuen.\n\nMit freundlichen Grüßen\nLucía Fernández"
+      }
+    },
+    {
+      "idx": "35.4",
+      "title": "Stellungnahme: opinión argumentada (C1)",
+      "level": "C1",
+      "rule": "Una <b>Stellungnahme</b> (toma de postura) defiende una opinión con argumentos. Estructura típica: postura → argumentos con ejemplos → contraargumento + refutación → conclusión. Punto clave de C1: los <b>conectores</b> (einerseits…andererseits, zwar…dennoch, dem lässt sich entgegnen…).",
+      "writing": {
+        "id": "b35-wr4",
+        "task": "Da tu opinión argumentada sobre esta afirmación, <b>120–150 palabras</b>:<br><i>«Homeoffice sollte für alle Büroangestellten ein Recht sein.»</i><br>Expón tu postura, da <b>dos argumentos</b> con ejemplos, menciona un <b>contraargumento</b> y refútalo, y cierra con una conclusión.",
+        "hints": [
+          "Meiner Ansicht nach / Ich bin der Überzeugung, dass …",
+          "Einerseits … Andererseits …",
+          "Ein gewichtiges Argument dafür ist, dass …",
+          "Kritiker wenden ein, dass … Dem lässt sich jedoch entgegnen, dass …",
+          "Zwar …, dennoch …",
+          "Zusammenfassend lässt sich festhalten, dass …"
+        ],
+        "placeholder": "Meiner Ansicht nach sollte Homeoffice … weil …",
+        "checklist": [
+          "Expongo mi postura con claridad al principio",
+          "Doy dos argumentos, cada uno con un ejemplo",
+          "Incluyo un contraargumento y lo refuto",
+          "Uso conectores avanzados (einerseits…andererseits, zwar…dennoch, dem lässt sich entgegnen)",
+          "Cierro con una conclusión que recoge mi postura",
+          "Registro formal/culto, 120–150 palabras"
+        ],
+        "model": "Meiner Ansicht nach sollte Homeoffice für Büroangestellte zumindest teilweise ein Recht sein.\n\nEinerseits spart das Arbeiten von zu Hause lange Pendelzeiten: Wer täglich zwei Stunden im Zug sitzt, gewinnt diese Zeit für Erholung oder Familie. Andererseits zeigen viele Unternehmen, dass die Produktivität nicht sinkt, sondern bei konzentrierten Aufgaben sogar steigt.\n\nKritiker wenden ein, der Teamzusammenhalt leide, wenn sich alle nur noch per Bildschirm sehen. Dem lässt sich jedoch entgegnen, dass ein hybrides Modell mit festen Bürotagen genau dieses Problem löst.\n\nZusammenfassend lässt sich festhalten, dass ein Recht auf Homeoffice – mit Augenmaß und klaren Regeln – sowohl den Beschäftigten als auch den Betrieben nützt."
+      }
+    }
+  ]
+}
