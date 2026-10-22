@@ -222,6 +222,204 @@
           "Am Abend war Lena müde, aber glücklich."
         ]
       }
+    },
+    {
+      "idx": "21.3",
+      "title": "Diálogo: preguntar por el camino",
+      "level": "A2",
+      "rule": "Para orientarte: <b>Wie komme ich zum/zur …?</b> (¿cómo llego a…?), y las direcciones clave: <b>geradeaus</b> (todo recto), <b>rechts/links</b> (derecha/izquierda), <b>bis zur Ampel</b> (hasta el semáforo). Con desconocidos, siempre <b>Sie</b>.",
+      "dialog": {
+        "id": "weg-fragen",
+        "setting": "Centro de Colonia · en la calle, 12:15",
+        "roles": {
+          "T": {
+            "name": "Turista",
+            "label": "Tú"
+          },
+          "P": {
+            "name": "Frau Berg",
+            "label": "Transeúnte"
+          }
+        },
+        "lines": [
+          {
+            "who": "T",
+            "de": "Entschuldigung, können Sie mir helfen? Ich suche den Dom.",
+            "es": "Perdone, ¿puede ayudarme? Busco la catedral."
+          },
+          {
+            "who": "P",
+            "de": "Aber klar! Den Kölner Dom? Der ist ganz in der Nähe.",
+            "es": "¡Claro! ¿La catedral de Colonia? Está muy cerca."
+          },
+          {
+            "who": "T",
+            "de": "Super. <b>Wie komme ich</b> am besten dahin?",
+            "es": "Genial. ¿Cómo llego mejor hasta allí?"
+          },
+          {
+            "who": "P",
+            "de": "Gehen Sie hier <b>geradeaus bis zur Ampel</b>, dann <b>rechts</b>. Nach etwa fünf Minuten sehen Sie ihn schon.",
+            "es": "Vaya todo recto hasta el semáforo y luego a la derecha. En unos cinco minutos ya lo verá."
+          },
+          {
+            "who": "T",
+            "de": "Also geradeaus und dann rechts. Ist es weit zu Fuß?",
+            "es": "O sea, recto y luego a la derecha. ¿Está lejos a pie?"
+          },
+          {
+            "who": "P",
+            "de": "Nein, überhaupt nicht. Höchstens zehn Minuten.",
+            "es": "No, para nada. Como mucho diez minutos."
+          },
+          {
+            "who": "T",
+            "de": "Und gibt es dort in der Nähe eine Toilette?",
+            "es": "¿Y hay un aseo cerca de allí?"
+          },
+          {
+            "who": "P",
+            "de": "Ja, direkt am Hauptbahnhof neben dem Dom.",
+            "es": "Sí, justo en la estación central, al lado de la catedral."
+          },
+          {
+            "who": "T",
+            "de": "Vielen Dank für Ihre Hilfe!",
+            "es": "¡Muchas gracias por su ayuda!"
+          },
+          {
+            "who": "P",
+            "de": "Gern geschehen. Schönen Tag noch!",
+            "es": "De nada. ¡Que tenga buen día!"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Dos preposiciones para «a»: <b>zum</b> (zu dem, masc./neutro: <i>zum Dom, zum Bahnhof</i>) y <b>zur</b> (zu der, fem.: <i>zur Ampel, zur Post</i>). Y si no entiendes la respuesta, pide que la repita: <i>«Könnten Sie das bitte noch einmal sagen?»</i>"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b21-s3q1",
+          "question": "1. Was sucht der Tourist?",
+          "options": [
+            "den Bahnhof",
+            "den Dom",
+            "die Toilette"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s3q2",
+          "question": "2. Wie kommt er zum Dom?",
+          "options": [
+            "links und dann geradeaus",
+            "geradeaus und dann rechts",
+            "immer nur rechts"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s3q3",
+          "question": "3. Wie lange dauert es zu Fuß?",
+          "options": [
+            "eine halbe Stunde",
+            "höchstens zehn Minuten",
+            "fünf Sekunden"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s3q4",
+          "question": "4. «Gern geschehen» bedeutet…",
+          "options": [
+            "de nada",
+            "por favor",
+            "lo siento"
+          ],
+          "correctIndex": 0
+        }
+      ],
+      "produce": {
+        "id": "b21-s3",
+        "label": "<b>tu turno:</b> alguien te pregunta cómo llegar de tu casa a la parada o estación más cercana. Explícale el camino en alemán (geradeaus, rechts, links, bis zu…).",
+        "placeholder": "Ej: Gehen Sie hier geradeaus bis zur Bäckerei, dann links. Die Haltestelle ist …"
+      }
+    },
+    {
+      "idx": "21.4",
+      "title": "Lectura: la puntualidad alemana",
+      "level": "B1",
+      "rule": "Lee el texto una vez <b>sin ayuda</b>. Después pasa el ratón por las palabras <b>subrayadas</b> para ver su traducción y resuelve las preguntas de comprensión (richtig/falsch y opción múltiple). Fíjate en los conectores: <i>deshalb, besonders, doch</i>.",
+      "reading": {
+        "id": "puenktlichkeit",
+        "kind": "Texto cultural",
+        "title": "Warum Pünktlichkeit in Deutschland so wichtig ist",
+        "paragraphs": [
+          "In Deutschland gilt Pünktlichkeit als Zeichen von <span class=\"gl\" data-es=\"respeto\">Respekt</span>. Wer zu einem Termin zu spät kommt, zeigt — oft ohne es zu wollen —, dass ihm die Zeit des anderen nicht wichtig ist. Deshalb versuchen die meisten Menschen, immer <span class=\"gl\" data-es=\"a tiempo, con puntualidad\">rechtzeitig</span> zu sein.",
+          "Besonders im <span class=\"gl\" data-es=\"vida laboral\">Berufsleben</span> ist das wichtig. Zu einem <span class=\"gl\" data-es=\"entrevista de trabajo\">Vorstellungsgespräch</span> sollte man lieber zehn Minuten zu früh kommen als eine Minute zu spät. Auch Busse und Bahnen fahren meistens <span class=\"gl\" data-es=\"con precisión de minuto\">auf die Minute genau</span> — auch wenn sich viele Deutsche über <span class=\"gl\" data-es=\"retrasos\">Verspätungen</span> trotzdem gern beschweren.",
+          "Im <span class=\"gl\" data-es=\"ámbito privado\">privaten Bereich</span> ist man etwas <span class=\"gl\" data-es=\"más relajado\">entspannter</span>. Bei einer Einladung zum Essen gilt: Ein paar Minuten zu spät sind in Ordnung. Aber wer sich mehr als eine Viertelstunde <span class=\"gl\" data-es=\"retrasarse\">verspätet</span>, sollte vorher kurz <span class=\"gl\" data-es=\"avisar\">Bescheid sagen</span> — ein Anruf oder eine Nachricht reicht.",
+          "Für viele Menschen aus anderen Ländern ist diese <span class=\"gl\" data-es=\"precisión, exactitud\">Genauigkeit</span> am Anfang ungewohnt. Doch sie hat auch einen Vorteil: Man kann sich darauf <span class=\"gl\" data-es=\"fiarse de\">verlassen</span>, dass Termine und Verabredungen wirklich stattfinden — und zwar genau dann, wann sie geplant sind."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b21-s4q1",
+          "question": "1. In Deutschland ist Zuspätkommen ein Zeichen von Respekt.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s4q2",
+          "question": "2. Zu einem Vorstellungsgespräch kommt man am besten…",
+          "options": [
+            "etwas zu früh",
+            "genau auf die Sekunde",
+            "ein bisschen zu spät"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "b21-s4q3",
+          "question": "3. Was soll man im Privaten tun, wenn man mehr als 15 Minuten zu spät kommt?",
+          "options": [
+            "nichts sagen",
+            "vorher kurz Bescheid sagen",
+            "gar nicht mehr kommen"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s4q4",
+          "question": "4. Welchen Vorteil nennt der Text?",
+          "options": [
+            "Alles ist billiger.",
+            "Man kann sich auf Termine verlassen.",
+            "Man muss nie warten."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b21-s4q5",
+          "question": "5. Im privaten Bereich ist man genauso streng wie im Beruf.",
+          "options": [
+            "richtig",
+            "falsch"
+          ],
+          "correctIndex": 1
+        }
+      ],
+      "produce": {
+        "id": "b21-s4",
+        "label": "<b>tu turno:</b> ¿cómo es la puntualidad en tu país? Escribe 2–3 frases comparándola con Alemania (usa <i>bei uns …, in Deutschland …, pünktlicher/entspannter als …</i>).",
+        "placeholder": "Ej: Bei uns ist man entspannter als in Deutschland. Wenn man zum Essen eingeladen ist, …"
+      }
     }
   ]
 }
