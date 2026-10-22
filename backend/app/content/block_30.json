@@ -1,0 +1,240 @@
+{
+  "block": "30",
+  "title": "Vertical: Ventas de turismo",
+  "kicker": "Bloque 30 · Vertical profesional · B1",
+  "intro": "Paquete completo para <b class=\"hl\">vender viajes y excursiones</b> (agencia de viajes, recepción de hotel, oficina de excursiones): vocabulario del producto turístico, fórmulas para presentar y cerrar, un diálogo de venta con objeción de precio, un juego de rol de upselling y un escenario con presupuesto ajustado. Mismo patrón: <b>Wortschatz → Redemittel → diálogo → Rollenspiel → Szenario</b>.",
+  "sections": [
+    {
+      "idx": "30.1",
+      "title": "Wortschatz: el producto turístico",
+      "level": "B1",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Cuando lo tengas, pulsa «Ocultar español» y ponte a prueba.",
+      "vocab": {
+        "id": "b30-voc",
+        "items": [
+          { "de": "das Angebot", "pl": "Angebote", "es": "la oferta" },
+          { "de": "die Pauschalreise", "pl": "Pauschalreisen", "es": "el viaje combinado / paquete" },
+          { "de": "der Ausflug", "pl": "Ausflüge", "es": "la excursión" },
+          { "de": "die Unterkunft", "pl": "Unterkünfte", "es": "el alojamiento" },
+          { "de": "die Verpflegung", "es": "la manutención / régimen de comidas" },
+          { "de": "der Reisepreis", "pl": "Reisepreise", "es": "el precio del viaje" },
+          { "de": "die Anzahlung", "pl": "Anzahlungen", "es": "la señal / el anticipo" },
+          { "de": "die Rate", "pl": "Raten", "es": "el plazo (pago aplazado)" },
+          { "de": "der Zuschlag", "pl": "Zuschläge", "es": "el suplemento" },
+          { "de": "der Rabatt", "pl": "Rabatte", "es": "el descuento" },
+          { "de": "die Reiseversicherung", "pl": "Reiseversicherungen", "es": "el seguro de viaje" },
+          { "de": "die Stornogebühr", "pl": "Stornogebühren", "es": "los gastos de cancelación" },
+          { "de": "der Reiseverlauf", "pl": "Reiseverläufe", "es": "el itinerario" },
+          { "de": "der Aufpreis", "pl": "Aufpreise", "es": "el coste adicional" },
+          { "de": "inklusive", "es": "incluido" },
+          { "de": "buchen", "es": "reservar" },
+          { "de": "stornieren", "es": "cancelar (una reserva)" },
+          { "de": "empfehlen", "es": "recomendar" },
+          { "de": "sich lohnen", "es": "merecer la pena" },
+          { "de": "überzeugen", "es": "convencer" }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b30-s1q1",
+          "question": "1. ¿Qué artículo lleva <i>Angebot</i>?",
+          "options": ["der", "die", "das"],
+          "correctIndex": 2
+        },
+        {
+          "id": "b30-s1q2",
+          "question": "2. <i>die Anzahlung</i> es…",
+          "options": ["el descuento", "la señal / el anticipo", "el suplemento"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b30-s1q3",
+          "question": "3. «merecer la pena» en alemán es…",
+          "options": ["sich lohnen", "stornieren", "überzeugen"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "30.2",
+      "title": "Redemittel: presentar, rebatir y cerrar",
+      "level": "B1",
+      "rule": "Fórmulas para cada fase de la venta. La clave del upselling cortés: presenta el valor <b>antes</b> que el precio, y responde a «es caro» con lo que el cliente <b>recibe</b>, no bajando de inmediato.",
+      "tables": [
+        {
+          "headers": ["Fase", "Redemittel"],
+          "rows": [
+            ["Detectar la necesidad", "Was ist Ihnen bei der Reise am wichtigsten?"],
+            ["Presentar el valor", "Im Preis sind Flug, Hotel und Frühstück bereits inklusive."],
+            ["Recomendar (upsell)", "Ich würde Ihnen die Variante mit Halbpension empfehlen — das lohnt sich."],
+            ["Crear urgencia (suave)", "Dieses Angebot gilt nur noch bis Freitag."],
+            ["Rebatir «es caro»", "Ich verstehe. Dafür ist aber auch alles inklusive — Sie haben keine Extrakosten vor Ort."],
+            ["Ofrecer alternativa", "Wenn das Budget knapp ist, hätte ich auch eine günstigere Variante."],
+            ["Facilitar el pago", "Sie können in drei Raten zahlen, mit einer kleinen Anzahlung."],
+            ["Pedir el compromiso", "Soll ich die Reise für Sie reservieren?"],
+            ["Cerrar", "Dann buche ich das so für Sie. Sie bekommen gleich die Bestätigung."],
+            ["Fidelizar", "Beim nächsten Mal bekommen Sie als Stammkunde einen Rabatt."]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Ante «<i>Das ist mir zu teuer</i>», nunca empieces bajando el precio. Primero <b>valida</b> (<i>Ich verstehe</i>), luego <b>reencuadra</b> hacia el valor (<i>Dafür ist alles inklusive…</i>) y solo al final, si hace falta, ofrece una <b>alternativa</b> más barata. Bajar de inmediato le dice al cliente que el primer precio estaba inflado."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b30-s2q1",
+          "question": "1. El cliente dice «es demasiado caro». ¿Mejor primera reacción?",
+          "options": [
+            "Gut, ich gebe Ihnen 30 Prozent Rabatt.",
+            "Ich verstehe. Dafür ist aber alles inklusive.",
+            "Dann ist das wohl nichts für Sie."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b30-s2q2",
+          "question": "2. Para pedir el compromiso de compra:",
+          "options": [
+            "Soll ich die Reise für Sie reservieren?",
+            "Was ist Ihnen am wichtigsten?",
+            "Das Angebot gilt bis Freitag."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "30.3",
+      "title": "Diálogo: vender una excursión",
+      "level": "B1",
+      "rule": "Una clienta pregunta por una excursión de un día; duda por el precio. Escucha cómo el vendedor <b>presenta el valor</b>, <b>rebate la objeción</b> y <b>cierra</b> sin presionar.",
+      "dialog": {
+        "id": "ventas-ausflug",
+        "setting": "Reisebüro Alpenblick, Salzburgo · mostrador, 11:20",
+        "roles": {
+          "V": { "name": "Herr Berger", "label": "Vendedor" },
+          "K": { "name": "Frau Lang", "label": "Clienta" }
+        },
+        "lines": [
+          { "who": "K", "de": "Guten Tag. Ich interessiere mich für einen Tagesausflug in die Berge. Was haben Sie da?", "es": "Buenos días. Me interesa una excursión de un día a la montaña. ¿Qué tiene?" },
+          { "who": "V", "de": "Guten Tag! Da kann ich Ihnen unseren Ausflug zum Königssee empfehlen. <b>Was ist Ihnen denn am wichtigsten</b> — die Natur oder eher eine Wanderung?", "es": "¡Buenos días! Ahí le recomiendo nuestra excursión al Königssee. ¿Qué es lo más importante para usted: el paisaje o más bien una ruta a pie?" },
+          { "who": "K", "de": "Vor allem die Natur. Mit viel Wandern wäre es mir zu anstrengend.", "es": "Sobre todo el paisaje. Con mucha caminata sería demasiado cansado para mí." },
+          { "who": "V", "de": "Dann passt das perfekt. Die Fahrt geht mit dem Bus, dann eine entspannte Bootsfahrt über den See. <b>Im Preis sind Bus, Boot und ein Mittagessen inklusive.</b>", "es": "Entonces encaja perfecto. Se va en autobús y luego un tranquilo paseo en barco por el lago. En el precio van incluidos el bus, el barco y una comida." },
+          { "who": "K", "de": "Klingt schön. Und was kostet das?", "es": "Suena bonito. ¿Y cuánto cuesta?" },
+          { "who": "V", "de": "89 Euro pro Person.", "es": "89 euros por persona." },
+          { "who": "K", "de": "Hm, das ist mir ehrlich gesagt etwas zu teuer.", "es": "Mmm, sinceramente me parece algo caro." },
+          { "who": "V", "de": "<b>Das kann ich verstehen.</b> Dafür haben Sie aber wirklich keine Extrakosten vor Ort — Essen und alle Tickets sind schon dabei. Und ehrlich: Der Königssee <b>lohnt sich</b>.", "es": "Lo entiendo. Pero a cambio no tiene ningún gasto extra allí: la comida y todas las entradas ya están incluidas. Y sinceramente: el Königssee merece la pena." },
+          { "who": "K", "de": "Das stimmt. Gibt es denn eine Ermäßigung, wenn wir zu zweit buchen?", "es": "Es verdad. ¿Y hay descuento si reservamos dos personas?" },
+          { "who": "V", "de": "Ja, zu zweit mache ich Ihnen zehn Prozent. <b>Soll ich das für Sie reservieren?</b>", "es": "Sí, para dos les hago un diez por ciento. ¿Se lo reservo?" },
+          { "who": "K", "de": "Ja, gern. Dann buchen wir das.", "es": "Sí, con gusto. Entonces lo reservamos." },
+          { "who": "V", "de": "Wunderbar. Ich brauche nur eine kleine Anzahlung, den Rest zahlen Sie am Tag der Fahrt. Sie bekommen gleich die Bestätigung per E-Mail.", "es": "Estupendo. Solo necesito una pequeña señal, el resto lo pagan el día de la excursión. Enseguida reciben la confirmación por correo." }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "La secuencia completa de venta: <b>1) necesidad</b> (<i>Was ist Ihnen am wichtigsten?</i>) → <b>2) valor antes que precio</b> (<i>inklusive …</i>) → <b>3) validar la objeción</b> (<i>Das kann ich verstehen</i>) → <b>4) reencuadrar</b> (<i>Dafür …</i>) → <b>5) cierre con pregunta</b> (<i>Soll ich … reservieren?</i>). Es la misma lógica que en la vertical de Ventas (bloque 24)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b30-s3q1",
+          "question": "1. Was ist Frau Lang am wichtigsten?",
+          "options": ["eine lange Wanderung", "die Natur", "der niedrige Preis"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b30-s3q2",
+          "question": "2. Wie reagiert der Verkäufer auf «zu teuer»?",
+          "options": [
+            "Er senkt sofort den Preis stark.",
+            "Er betont, dass alles inklusive ist.",
+            "Er sagt, das Angebot sei nichts für sie."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b30-s3q3",
+          "question": "3. Wie schließt er den Verkauf ab?",
+          "options": [
+            "mit der Frage «Soll ich das reservieren?»",
+            "mit einer Beschwerde",
+            "indem er das Gespräch beendet"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "30.4",
+      "title": "Rollenspiel: upselling con tacto",
+      "level": "B1",
+      "rule": "Ahora tú vendes. El cliente habla (puedes escucharlo), tú escribes tu respuesta siguiendo la instrucción y después la comparas con el modelo. Repite el modelo en voz alta.",
+      "roleplay": {
+        "id": "b30-rp",
+        "you": "Vendedor/a de viajes",
+        "partner": { "name": "Herr Sommer", "label": "Cliente" },
+        "steps": [
+          {
+            "partner": "Guten Tag. Ich suche eine Woche Sonne, am liebsten am Meer, nicht zu teuer.",
+            "es": "Buenos días. Busco una semana de sol, preferiblemente en la playa, no muy caro.",
+            "task": "Saluda, pregunta cuántas personas viajan y en qué fechas, para afinar la oferta.",
+            "model": "Guten Tag! Sehr gern. Für wie viele Personen und in welchem Zeitraum darf es denn sein?"
+          },
+          {
+            "partner": "Zwei Personen, Ende September. Was haben Sie da?",
+            "es": "Dos personas, a finales de septiembre. ¿Qué tiene?",
+            "task": "Presenta un paquete a Mallorca con vuelo y hotel, destacando que el desayuno va incluido.",
+            "model": "Da hätte ich eine Woche Mallorca mit Flug und Hotel. Das Frühstück ist bereits inklusive."
+          },
+          {
+            "partner": "Klingt gut. Aber Halbpension wäre uns eigentlich lieber.",
+            "es": "Suena bien. Pero la media pensión nos vendría mejor en realidad.",
+            "task": "Haz upselling con tacto: la media pensión por un pequeño suplemento, y di que merece la pena.",
+            "model": "Kein Problem — Halbpension gibt es gegen einen kleinen Aufpreis. Das lohnt sich, dann müssen Sie abends nichts suchen."
+          },
+          {
+            "partner": "Und was kostet das Ganze dann zusammen?",
+            "es": "¿Y cuánto cuesta todo junto entonces?",
+            "task": "Di el precio (1.290 € los dos) y ofrece pago en tres plazos con una señal.",
+            "model": "Für beide zusammen sind das 1.290 Euro. Sie können in drei Raten zahlen, mit einer kleinen Anzahlung heute."
+          },
+          {
+            "partner": "In Ordnung, das machen wir.",
+            "es": "De acuerdo, lo hacemos.",
+            "task": "Cierra: confírmalo, di que recibirá la confirmación por correo y ofrece el seguro de viaje.",
+            "model": "Wunderbar, dann buche ich das so. Die Bestätigung kommt gleich per E-Mail. Möchten Sie noch eine Reiseversicherung dazu?"
+          }
+        ]
+      }
+    },
+    {
+      "idx": "30.5",
+      "title": "Szenario: presupuesto ajustado",
+      "level": "B1",
+      "rule": "Situación real para practicar sola/o o con alguien que haga de cliente. Hazla en voz alta o por escrito y marca cada objetivo cuando lo cumplas.",
+      "scenario": {
+        "id": "b30-sc",
+        "situation": "Una pareja quiere un <b>fin de semana romántico</b> en una ciudad europea, pero su presupuesto es <b>limitado</b> (unos 400 € en total). Tu oferta estrella cuesta 650 €. Atiende la venta en alemán: entiende lo que buscan, presenta el valor, maneja la objeción de precio con honestidad y, si hace falta, ofrece una <b>alternativa más barata</b> sin que parezca de peor calidad.",
+        "goals": [
+          "Detectar la necesidad (<i>Was ist Ihnen am wichtigsten?</i>)",
+          "Presentar el valor antes que el precio (qué va incluido)",
+          "Validar la objeción de presupuesto (<i>Das kann ich verstehen</i>)",
+          "Ofrecer una alternativa dentro del presupuesto sin menospreciarla",
+          "Facilitar el pago (anticipo, plazos) si ayuda a cerrar",
+          "Cerrar con una pregunta y ofrecer un extra (seguro, upgrade) solo si encaja"
+        ]
+      },
+      "produce": {
+        "id": "b30-s5",
+        "label": "<b>tu turno:</b> escribe la conversación completa (6–10 turnos) o, si la practicaste en voz alta, apunta aquí las frases que te costaron.",
+        "placeholder": "Guten Tag! Schön, dass Sie da sind. Was ist Ihnen bei dem Wochenende am wichtigsten? …"
+      }
+    }
+  ]
+}
