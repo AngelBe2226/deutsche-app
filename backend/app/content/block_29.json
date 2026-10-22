@@ -1,0 +1,239 @@
+{
+  "block": "29",
+  "title": "Vertical: Gastronomía y restaurante",
+  "kicker": "Bloque 29 · Vertical profesional · A2–B1",
+  "intro": "Paquete completo para la <b class=\"hl\">mesa y la cocina alemanas</b>: vocabulario de la carta, fórmulas para pedir y pagar, un diálogo en un restaurante, un juego de rol como camarero/a y un escenario para resolver una incidencia. Mismo patrón que las demás verticales: <b>Wortschatz → Redemittel → diálogo → Rollenspiel → Szenario</b>.",
+  "sections": [
+    {
+      "idx": "29.1",
+      "title": "Wortschatz: la carta y la mesa",
+      "level": "A2",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Cuando lo tengas, pulsa «Ocultar español» y ponte a prueba.",
+      "vocab": {
+        "id": "b29-voc",
+        "items": [
+          { "de": "die Speisekarte", "pl": "Speisekarten", "es": "la carta" },
+          { "de": "die Vorspeise", "pl": "Vorspeisen", "es": "el entrante" },
+          { "de": "das Hauptgericht", "pl": "Hauptgerichte", "es": "el plato principal" },
+          { "de": "die Nachspeise", "pl": "Nachspeisen", "es": "el postre" },
+          { "de": "das Getränk", "pl": "Getränke", "es": "la bebida" },
+          { "de": "die Rechnung", "pl": "Rechnungen", "es": "la cuenta" },
+          { "de": "das Trinkgeld", "pl": "Trinkgelder", "es": "la propina" },
+          { "de": "die Bedienung", "pl": "Bedienungen", "es": "el servicio / el/la camarero/a" },
+          { "de": "der Tisch", "pl": "Tische", "es": "la mesa" },
+          { "de": "die Beilage", "pl": "Beilagen", "es": "la guarnición" },
+          { "de": "das Besteck", "es": "los cubiertos (sin plural)" },
+          { "de": "die Serviette", "pl": "Servietten", "es": "la servilleta" },
+          { "de": "das Leitungswasser", "es": "el agua del grifo" },
+          { "de": "die Allergie", "pl": "Allergien", "es": "la alergia" },
+          { "de": "vegetarisch", "es": "vegetariano" },
+          { "de": "scharf", "es": "picante" },
+          { "de": "bestellen", "es": "pedir" },
+          { "de": "empfehlen", "es": "recomendar" },
+          { "de": "probieren", "es": "probar" },
+          { "de": "bezahlen", "es": "pagar" }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b29-s1q1",
+          "question": "1. ¿Qué artículo lleva <i>Speisekarte</i>?",
+          "options": ["der", "die", "das"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b29-s1q2",
+          "question": "2. <i>die Nachspeise</i> es…",
+          "options": ["el entrante", "el postre", "la guarnición"],
+          "correctIndex": 1
+        },
+        {
+          "id": "b29-s1q3",
+          "question": "3. «picante» en alemán es…",
+          "options": ["scharf", "salzig", "sauer"],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "29.2",
+      "title": "Redemittel: pedir, preguntar y pagar",
+      "level": "A2",
+      "rule": "Frases hechas para cada momento de la comida. En el restaurante, al camarero se le habla de <b>Sie</b>. Fíjate en que «querría» (<b>ich hätte gern / ich möchte</b>) es más cortés que «quiero».",
+      "tables": [
+        {
+          "headers": ["Función", "Redemittel"],
+          "rows": [
+            ["Reservar / llegar", "Ein Tisch für zwei Personen, bitte."],
+            ["Pedir la carta", "Könnten wir bitte die Speisekarte haben?"],
+            ["Pedir consejo", "Was können Sie empfehlen?"],
+            ["Pedir (cortés)", "Ich hätte gern das Schnitzel mit Pommes."],
+            ["Pedir bebida", "Ein großes Bier und ein stilles Wasser, bitte."],
+            ["Preguntar por alergias", "Enthält das Gericht Nüsse? Ich habe eine Allergie."],
+            ["Preguntar vegetariano", "Ist das vegetarisch?"],
+            ["Durante la comida", "Entschuldigung, könnte ich noch etwas Brot haben?"],
+            ["Pedir la cuenta", "Die Rechnung, bitte. — Zusammen oder getrennt?"],
+            ["Pagar y propina", "Stimmt so. / Machen Sie 30, bitte."]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Al pagar: <b>«Zusammen oder getrennt?»</b> = ¿todo junto o por separado? Para dejar propina redondeando, di el total que quieres pagar: si la cuenta es 27 €, <i>«Machen Sie 30, bitte»</i> (cóbreme 30). Y <b>«Stimmt so»</b> = quédese con el cambio."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b29-s2q1",
+          "question": "1. Forma cortés de pedir: «Querría el pescado.»",
+          "options": [
+            "Ich will den Fisch.",
+            "Ich hätte gern den Fisch.",
+            "Gib mir den Fisch."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b29-s2q2",
+          "question": "2. La cuenta es 18 € y quieres dejar propina. Dices:",
+          "options": [
+            "Machen Sie 20, bitte.",
+            "18 Euro, genau.",
+            "Das ist zu teuer."
+          ],
+          "correctIndex": 0
+        }
+      ]
+    },
+    {
+      "idx": "29.3",
+      "title": "Diálogo: una cena en el restaurante",
+      "level": "B1",
+      "rule": "Dos clientes cenan en un restaurante de Viena. Escucha el diálogo entero y fíjate en cómo la camarera <b>recomienda</b> y <b>pregunta por alergias</b> antes de tomar nota.",
+      "dialog": {
+        "id": "gastro-abendessen",
+        "setting": "Gasthaus zur Linde, Viena · mesa 7, 20:00",
+        "roles": {
+          "K": { "name": "Frau Huber", "label": "Camarera" },
+          "G": { "name": "Herr Díaz", "label": "Cliente" }
+        },
+        "lines": [
+          { "who": "K", "de": "Guten Abend! Haben Sie schon gewählt, oder darf ich Ihnen etwas empfehlen?", "es": "¡Buenas noches! ¿Ya han elegido, o les recomiendo algo?" },
+          { "who": "G", "de": "Empfehlen Sie uns gern etwas. Wir sind zum ersten Mal hier.", "es": "Recomiéndenos algo, por favor. Es la primera vez que venimos." },
+          { "who": "K", "de": "Dann probieren Sie unbedingt das Wiener Schnitzel mit Kartoffelsalat. <b>Das ist unsere Spezialität.</b>", "es": "Entonces prueben sin falta el escalope vienés con ensalada de patata. Es nuestra especialidad." },
+          { "who": "G", "de": "Klingt gut. Eine Frage: <b>Enthält der Kartoffelsalat Ei?</b> Meine Frau hat eine Allergie.", "es": "Suena bien. Una pregunta: ¿la ensalada de patata lleva huevo? Mi mujer tiene alergia." },
+          { "who": "K", "de": "Nein, unser Kartoffelsalat ist ohne Ei, mit Essig und Öl. Ich sage es trotzdem der Küche.", "es": "No, nuestra ensalada de patata es sin huevo, con vinagre y aceite. Aun así se lo digo a la cocina." },
+          { "who": "G", "de": "Perfekt. Dann zweimal das Schnitzel, bitte. Und gibt es etwas Vegetarisches für danach?", "es": "Perfecto. Entonces dos escalopes, por favor. ¿Y hay algo vegetariano para después?" },
+          { "who": "K", "de": "Zum Nachtisch empfehle ich den Apfelstrudel, hausgemacht. Und zu trinken?", "es": "De postre les recomiendo el strudel de manzana, casero. ¿Y para beber?" },
+          { "who": "G", "de": "Ein großes Bier und ein stilles Wasser, bitte.", "es": "Una cerveza grande y un agua sin gas, por favor." },
+          { "who": "K", "de": "Sehr gern. Kommt sofort.", "es": "Con mucho gusto. Enseguida se lo traigo." },
+          { "who": "G", "de": "Danke! Ach, und könnten wir später getrennt zahlen?", "es": "¡Gracias! Ah, ¿y podríamos pagar por separado luego?" },
+          { "who": "K", "de": "Natürlich, kein Problem. Ich bringe Ihnen dann zwei Rechnungen.", "es": "Claro, ningún problema. Les traigo entonces dos cuentas." }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Antes de pedir, dos preguntas de oro para evitar sustos: <b>«Enthält das … ?»</b> (¿lleva…?) para alergias, y <b>«Ist das vegetarisch/vegan?»</b>. Y al final, decide pronto <b>«zusammen oder getrennt»</b>: en Alemania se paga casi siempre en la mesa, no en la barra."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b29-s3q1",
+          "question": "1. Was ist die Spezialität des Hauses?",
+          "options": [
+            "der Apfelstrudel",
+            "das Wiener Schnitzel",
+            "der Kartoffelsalat"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b29-s3q2",
+          "question": "2. Warum fragt Herr Díaz nach dem Kartoffelsalat?",
+          "options": [
+            "Er mag keine Kartoffeln.",
+            "Seine Frau hat eine Allergie.",
+            "Er findet ihn zu teuer."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "b29-s3q3",
+          "question": "3. Wie möchten die Gäste zahlen?",
+          "options": ["zusammen", "getrennt", "mit Trinkgeld"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "idx": "29.4",
+      "title": "Rollenspiel: tú eres el camarero",
+      "level": "A2",
+      "rule": "Ahora tú atiendes la mesa. El cliente habla (puedes escucharlo), tú escribes tu respuesta siguiendo la instrucción y después la comparas con el modelo. Repite el modelo en voz alta.",
+      "roleplay": {
+        "id": "b29-rp",
+        "you": "Camarero/a",
+        "partner": { "name": "Frau Novak", "label": "Clienta" },
+        "steps": [
+          {
+            "partner": "Guten Abend! Wir hätten gern einen Tisch für zwei.",
+            "es": "¡Buenas noches! Querríamos una mesa para dos.",
+            "task": "Salúdala, ofrece una mesa junto a la ventana y entrégale la carta.",
+            "model": "Guten Abend! Gern, hier am Fenster ist ein Tisch frei. Hier ist die Speisekarte."
+          },
+          {
+            "partner": "Danke. Was können Sie denn empfehlen?",
+            "es": "Gracias. ¿Y qué nos recomienda?",
+            "task": "Recomienda el plato del día (sopa de calabaza y trucha) y pregunta si hay alguna alergia.",
+            "model": "Heute empfehle ich das Tagesmenü: Kürbissuppe und Forelle. Haben Sie Allergien?"
+          },
+          {
+            "partner": "Nein, keine Allergien. Dann nehmen wir zweimal das Tagesmenü.",
+            "es": "No, ninguna alergia. Entonces tomamos dos menús del día.",
+            "task": "Confirma el pedido y pregunta qué quieren beber.",
+            "model": "Sehr gern, zweimal das Tagesmenü. Und was möchten Sie trinken?"
+          },
+          {
+            "partner": "Eine Flasche Weißwein und eine Karaffe Wasser, bitte.",
+            "es": "Una botella de vino blanco y una jarra de agua, por favor.",
+            "task": "Repite el pedido para confirmar y di que viene enseguida.",
+            "model": "Also eine Flasche Weißwein und eine Karaffe Wasser. Kommt sofort!"
+          },
+          {
+            "partner": "Vielen Dank. Später zahlen wir zusammen.",
+            "es": "Muchas gracias. Luego pagamos todo junto.",
+            "task": "Confirma, desea buen provecho y ofrece avisar si necesitan algo.",
+            "model": "In Ordnung, zusammen. Ich wünsche Ihnen einen guten Appetit — sagen Sie Bescheid, wenn Sie etwas brauchen."
+          }
+        ]
+      }
+    },
+    {
+      "idx": "29.5",
+      "title": "Szenario: un plato que llega mal",
+      "level": "B1",
+      "rule": "Situación real para practicar sola/o o con alguien que haga de cliente o camarero. Hazla en voz alta o por escrito y marca cada objetivo cuando lo cumplas.",
+      "scenario": {
+        "id": "b29-sc",
+        "situation": "Estás cenando en un restaurante. Pediste tu carne <b>bien hecha</b>, pero llega <b>casi cruda</b>, y además la guarnición no es la que elegiste. La camarera está muy ocupada. Llama su atención con educación, explica el problema y resuélvelo en alemán sin perder las buenas formas.",
+        "goals": [
+          "Llamar la atención con cortesía (<i>Entschuldigung, …</i>)",
+          "Explicar el problema con claridad (carne cruda, guarnición equivocada)",
+          "Pedir una solución concreta (que lo preparen de nuevo o lo cambien)",
+          "Reaccionar con cortesía a la disculpa de la camarera",
+          "Al final, decidir sobre la cuenta o un gesto (p. ej. no cobrar ese plato)",
+          "Cerrar sin dramatizar, manteniendo el tono amable"
+        ]
+      },
+      "produce": {
+        "id": "b29-s5",
+        "label": "<b>tu turno:</b> escribe la conversación completa (6–10 turnos) o, si la practicaste en voz alta, apunta aquí las frases que te costaron.",
+        "placeholder": "Entschuldigung, könnten Sie bitte kurz kommen? Das Fleisch ist leider noch ganz roh …"
+      }
+    }
+  ]
+}
