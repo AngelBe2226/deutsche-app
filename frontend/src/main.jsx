@@ -2,14 +2,21 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import { ProgressProvider } from "./progress.jsx";
+import { AuthGate } from "./auth.jsx";
 import "./styles/tokens.css";
 import "./styles/app.css";
 
+// AuthGate pide login en la web/PWA (Supabase); en los Macs no hace nada.
+// El `key` recarga el progreso cuando cambia la persona que ha entrado.
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ProgressProvider>
-      <App />
-    </ProgressProvider>
+    <AuthGate>
+      {(session) => (
+        <ProgressProvider key={session?.user?.id || "local"}>
+          <App />
+        </ProgressProvider>
+      )}
+    </AuthGate>
   </React.StrictMode>
 );
 

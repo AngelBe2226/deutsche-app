@@ -10,6 +10,10 @@ export default defineConfig(() => ({
   plugins: [react()],
   define: {
     "import.meta.env.VITE_STATIC": JSON.stringify(process.env.VITE_STATIC || ""),
+    // Supabase (login + progreso por usuario en la web). Valores públicos:
+    // la URL del proyecto y la clave anon/publishable, protegida por RLS.
+    "import.meta.env.VITE_SUPABASE_URL": JSON.stringify(process.env.VITE_SUPABASE_URL || ""),
+    "import.meta.env.VITE_SUPABASE_ANON_KEY": JSON.stringify(process.env.VITE_SUPABASE_ANON_KEY || ""),
   },
   server: {
     port: 5174,

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { api } from "../api";
 import ProgressRing from "./ProgressRing";
+import { AUTH_ENABLED, useAuth } from "../auth";
 import { IconChevronRight, IconRotate, IconRoute, IconSearch, IconStar } from "./Icons";
 
 // Sidebar en cascada: cada capítulo (bloque) tiene un chevrón para desplegar
@@ -16,6 +17,7 @@ export default function Sidebar({
 }) {
   const [expanded, setExpanded] = useState(current);
   const [secCache, setSecCache] = useState({});
+  const { session, signOut } = useAuth();
 
   // El capítulo actual se abre solo al cambiar de bloque, y la lista se
   // desplaza para que quede a la vista (útil al saltar desde ⌘K o el pager).
@@ -148,6 +150,16 @@ export default function Sidebar({
             </div>
           </div>
         </div>
+        {AUTH_ENABLED && session && (
+          <div className="foot-user">
+            <span className="foot-email" title={session.user.email}>
+              {session.user.email}
+            </span>
+            <button className="foot-signout" onClick={signOut}>
+              Salir
+            </button>
+          </div>
+        )}
       </div>
     </>
   );

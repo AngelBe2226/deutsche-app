@@ -3946,3 +3946,146 @@ b.hl,
   color: var(--ink);
   white-space: pre-line;
 }
+
+/* ---------- Login (Supabase, web/PWA) ---------- */
+.login-wrap {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: max(24px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom));
+  background: var(--bg);
+}
+.login-card {
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 1.6rem 1.4rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-xl, 18px);
+  box-shadow: var(--shadow);
+}
+.login-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+.login-mark {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--grad);
+  color: #fff;
+  font-family: var(--display);
+  font-weight: 700;
+}
+.login-title {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--ink);
+}
+.login-sub {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+.login-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.login-input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  padding: 0.75rem 0.9rem;
+  font-family: var(--body);
+  font-size: 1rem; /* 16px: evita el zoom automático en iOS */
+  color: var(--ink);
+  background: var(--surface-2);
+}
+.login-input:focus {
+  outline: none;
+  border-color: var(--iris);
+  box-shadow: var(--ring);
+  background: var(--surface);
+}
+.login-code {
+  font-family: var(--mono);
+  letter-spacing: 0.3em;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.login-btn {
+  margin-top: 0.3rem;
+  border: none;
+  background: var(--grad);
+  color: #fff;
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.login-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.login-link {
+  background: none;
+  border: none;
+  color: var(--iris);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+.login-info {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+.login-error {
+  margin: 0.2rem 0 0;
+  padding: 0.6rem 0.75rem;
+  border-radius: var(--r);
+  background: var(--no-bg);
+  color: var(--no);
+  font-size: 0.85rem;
+}
+
+/* ---------- Usuario en el pie del sidebar ---------- */
+.foot-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  padding: 0 0.3rem;
+}
+.foot-email {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+.foot-signout {
+  flex: none;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--ink-soft);
+  border-radius: 99px;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.foot-signout:hover {
+  color: var(--no);
+  border-color: var(--no);
+}
