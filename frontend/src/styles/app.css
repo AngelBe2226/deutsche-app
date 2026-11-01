@@ -4089,3 +4089,28 @@ b.hl,
   color: var(--no);
   border-color: var(--no);
 }
+
+.login-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  padding: 4px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.login-tab {
+  border: none;
+  background: none;
+  border-radius: 9px;
+  padding: 0.5rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.login-tab.on {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow-xs, var(--shadow-sm));
+}
