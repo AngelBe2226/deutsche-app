@@ -36,12 +36,13 @@ jobs:
         env:
           VITE_STATIC: "1"
           BASE_PATH: "/deutsche-app/"
-          # Login + progreso por usuario. Se definen en GitHub → Settings →
-          # Secrets and variables → Actions → Variables. Sin ellas, la web
-          # funciona igual pero con el progreso solo en el dispositivo.
-          # Sirven igual si se guardaron como Variables o como Secrets.
-          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL || secrets.SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ vars.SUPABASE_ANON_KEY || secrets.SUPABASE_ANON_KEY }}
+          # Login + progreso por usuario (Supabase). Ambos valores son
+          # públicos por diseño (la clave publishable acaba en el bundle de
+          # la web); la seguridad la ponen RLS y el registro cerrado.
+          # Una variable/secret SUPABASE_URL o SUPABASE_ANON_KEY en GitHub
+          # tiene prioridad sobre estos valores.
+          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL || secrets.SUPABASE_URL || 'https://fvskktohsrizlyqxgikm.supabase.co' }}
+          VITE_SUPABASE_ANON_KEY: ${{ vars.SUPABASE_ANON_KEY || secrets.SUPABASE_ANON_KEY || 'sb_publishable_FzoQtVT5cm3UUq8DsvYB6Q_yehYSmP4' }}
         run: npm run build
 
       - name: Upload Pages artifact
