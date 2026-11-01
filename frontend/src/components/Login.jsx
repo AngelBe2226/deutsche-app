@@ -5,10 +5,30 @@ import { supabase } from "../supabase";
 // instalada en iPhone el enlace se abriría en Safari, fuera de la app).
 // «Crear cuenta» solo funciona para los emails de la lista autorizada
 // (tabla allowed_emails en Supabase, ver supabase/schema.sql).
+// Último email con el que se entró en este dispositivo: se rellena solo la
+// próxima vez (tras crear la cuenta o al volver después de «Salir»).
+const LAST_EMAIL_KEY = "german-last-email";
+
+function readLastEmail() {
+  try {
+    return localStorage.getItem(LAST_EMAIL_KEY) || "";
+  } catch {
+    return "";
+  }
+}
+
+function rememberEmail(addr) {
+  try {
+    localStorage.setItem(LAST_EMAIL_KEY, addr);
+  } catch {
+    /* sin almacenamiento local */
+  }
+}
+
 export default function Login() {
   const [mode, setMode] = useState("login"); // "login" | "signup"
   const [step, setStep] = useState("email"); // "email" | "code"
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState(readLastEmail);
   const [code, setCode] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
@@ -70,8 +90,10 @@ export default function Login() {
           ? "El código ha caducado. Pide uno nuevo."
           : "Código incorrecto. Revisa el email e inténtalo otra vez."
       );
+      return;
     }
-    // Si va bien, AuthGate recibe la sesión y abre la app.
+    rememberEmail(email);
+    // AuthGate recibe la sesión y abre la app.
   }
 
   return (
