@@ -11,6 +11,13 @@ create table if not exists public.progress (
 
 alter table public.progress enable row level security;
 
+-- Permisos explícitos: en proyectos nuevos las tablas creadas por SQL no
+-- siempre se exponen solas a la API. Solo para usuarios con sesión; las
+-- políticas de abajo limitan a cada uno a sus propias filas.
+grant usage on schema public to authenticated;
+grant select, insert, update, delete on public.progress to authenticated;
+revoke all on public.progress from anon;
+
 -- Cada usuario solo ve y toca sus propias filas.
 drop policy if exists "progress_select_own" on public.progress;
 drop policy if exists "progress_insert_own" on public.progress;
