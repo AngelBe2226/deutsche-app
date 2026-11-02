@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { supabase } from "./supabase";
+import { supabase, openedFromRecoveryLink } from "./supabase";
 import { migrateLocalProgress } from "./api";
-import Login from "./components/Login";
+import Login, { SetPassword } from "./components/Login";
 
 // Solo hay login en el build estático (web/PWA) con Supabase configurado.
 // En los Macs (modo backend) o sin configuración, la app abre directamente.
@@ -18,11 +18,16 @@ export function useAuth() {
 export function AuthGate({ children }) {
   const [session, setSession] = useState(undefined); // undefined = comprobando
   const [ready, setReady] = useState(!AUTH_ENABLED);
+  // Abierta desde el enlace de recuperación: pedir contraseña nueva primero.
+  const [recovery, setRecovery] = useState(AUTH_ENABLED && openedFromRecoveryLink);
 
   useEffect(() => {
     if (!AUTH_ENABLED) return;
     supabase.auth.getSession().then(({ data }) => setSession(data.session ?? null));
-    const { data: sub } = supabase.auth.onAuthStateChange((_event, s) => setSession(s ?? null));
+    const { data: sub } = supabase.auth.onAuthStateChange((event, s) => {
+      if (event === "PASSWORD_RECOVERY") setRecovery(true);
+      setSession(s ?? null);
+    });
     return () => sub.subscription.unsubscribe();
   }, []);
 
@@ -52,6 +57,7 @@ export function AuthGate({ children }) {
       return <p className="muted center">Cargando…</p>;
     }
     if (!session) return <Login />;
+    if (recovery) return <SetPassword onDone={() => setRecovery(false)} />;
   }
 
   return (

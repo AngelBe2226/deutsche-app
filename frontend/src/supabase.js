@@ -6,6 +6,12 @@ import { createClient } from "@supabase/supabase-js";
 const url = import.meta.env.VITE_SUPABASE_URL;
 const anonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
+// ¿Se ha abierto la app desde el enlace de «¿Olvidaste la contraseña?»?
+// Se lee antes de crear el cliente, que limpia la URL al recoger la sesión.
+export const openedFromRecoveryLink =
+  typeof window !== "undefined" &&
+  /type=recovery/.test(window.location.hash + window.location.search);
+
 export const supabase =
   url && anonKey
     ? createClient(url, anonKey, {

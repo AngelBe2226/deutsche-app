@@ -4114,3 +4114,23 @@ b.hl,
   color: var(--ink);
   box-shadow: var(--shadow-xs, var(--shadow-sm));
 }
+
+.login-pw {
+  position: relative;
+}
+.login-pw .login-input {
+  padding-right: 5rem;
+}
+.login-pw-toggle {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  color: var(--iris);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
