@@ -1,0 +1,403 @@
+<title>Auditoría comercial del Índice de Alemán</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: informe de una columna (≈760px) con bloques de estado por severidad y una rejilla de 3 planes; mismos tokens visuales que la app (Geist + índigo→rosa). */
+:root {
+  --bg: #F7F7F8;
+  --surface: #FFFFFF;
+  --surface-2: #F1F1F5;
+  --ink: #16161D;
+  --muted: #5B5B6B;
+  --faint: #8A8A9A;
+  --line: #E4E4EC;
+  --accent: #5B5EE6;
+  --accent-2: #D9468F;
+  --accent-soft: #ECECFD;
+  --crit: #C93434;
+  --crit-soft: #FBECEC;
+  --warn: #B26A00;
+  --warn-soft: #FBF2E3;
+  --ok: #1F7A47;
+  --ok-soft: #E7F4EC;
+  --display: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --body: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E0E14; --surface: #17171F; --surface-2: #1F1F29; --ink: #ECECF3; --muted: #A4A4B6; --faint: #7A7A8C;
+    --line: #2A2A36; --accent: #8E90F9; --accent-2: #F07AB6; --accent-soft: #23234A;
+    --crit: #F07070; --crit-soft: #3A1E22; --warn: #E8A84A; --warn-soft: #3A2C17; --ok: #5BC98A; --ok-soft: #173326;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E0E14; --surface: #17171F; --surface-2: #1F1F29; --ink: #ECECF3; --muted: #A4A4B6; --faint: #7A7A8C;
+  --line: #2A2A36; --accent: #8E90F9; --accent-2: #F07AB6; --accent-soft: #23234A;
+  --crit: #F07070; --crit-soft: #3A1E22; --warn: #E8A84A; --warn-soft: #3A2C17; --ok: #5BC98A; --ok-soft: #173326;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+.page {
+  max-width: 820px;
+  margin: 0 auto;
+  padding-block: 48px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+section { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2rem, 5vw, 2.9rem); line-height: 1.08; letter-spacing: -0.03em; font-weight: 800; }
+h2 { font-size: 1.45rem; letter-spacing: -0.02em; font-weight: 700; }
+h3 { font-size: 1.05rem; font-weight: 650; letter-spacing: -0.01em; }
+p { margin: 0; max-width: 66ch; }
+.muted { color: var(--muted); }
+.eyebrow {
+  font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint);
+}
+.grad { background: linear-gradient(95deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+code, .mono { font-family: var(--mono); font-size: 0.88em; }
+code { background: var(--surface-2); padding: 0.08em 0.35em; border-radius: 5px; }
+a { color: var(--accent); }
+
+/* hero */
+.hero { gap: 18px; }
+.lede { font-size: 1.12rem; color: var(--muted); }
+.verdict {
+  display: grid; grid-template-columns: auto 1fr; gap: 14px; align-items: start;
+  padding: 18px 20px; border-radius: 14px; background: var(--crit-soft); border: 1px solid color-mix(in srgb, var(--crit) 30%, transparent);
+}
+.verdict .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--crit); margin-top: 7px; }
+.verdict b { color: var(--crit); }
+
+/* numbers */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.stat .n { font-family: var(--display); font-size: 1.7rem; font-weight: 750; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.stat .l { font-size: 0.82rem; color: var(--muted); }
+@media (max-width: 620px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* lists of strengths */
+.plain { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: 8px; }
+.plain li { max-width: 66ch; }
+
+/* findings */
+.findings { display: flex; flex-direction: column; gap: 12px; }
+.finding {
+  display: grid; grid-template-columns: 4px 1fr; gap: 0 16px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+}
+.finding .stripe { background: var(--faint); }
+.finding.crit .stripe { background: var(--crit); }
+.finding.warn .stripe { background: var(--warn); }
+.finding .body { padding: 14px 16px 16px 0; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.finding .head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.pill {
+  font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 99px; white-space: nowrap;
+}
+.pill.crit { color: var(--crit); background: var(--crit-soft); }
+.pill.warn { color: var(--warn); background: var(--warn-soft); }
+.pill.ok { color: var(--ok); background: var(--ok-soft); }
+.finding .fix { color: var(--muted); font-size: 0.94rem; }
+.finding .fix b { color: var(--ink); font-weight: 600; }
+
+/* level chart */
+.levels { display: flex; flex-direction: column; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 18px 14px; }
+.lv { display: grid; grid-template-columns: 34px 1fr 44px; gap: 12px; align-items: center; }
+.lv .k { font-family: var(--mono); font-size: 0.85rem; font-weight: 600; }
+.lv .track { height: 14px; background: var(--surface-2); border-radius: 4px; overflow: hidden; }
+.lv .bar { height: 100%; border-radius: 4px; background: linear-gradient(90deg, var(--accent), var(--accent-2)); }
+.lv.thin .bar { background: var(--warn); }
+.lv .v { font-family: var(--mono); font-size: 0.85rem; text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+.levels .note { font-size: 0.82rem; color: var(--faint); margin-top: 4px; }
+
+/* plans */
+.plans { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; align-items: stretch; }
+@media (max-width: 760px) { .plans { grid-template-columns: 1fr; } }
+.plan { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.plan.top { border: 2px solid var(--accent); box-shadow: 0 10px 30px -18px color-mix(in srgb, var(--accent) 70%, transparent); }
+.plan .tier { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--faint); }
+.plan.top .tier { color: var(--accent); }
+.plan .price { font-family: var(--display); font-size: 1.9rem; font-weight: 800; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.plan .price small { font-size: 0.85rem; font-weight: 500; color: var(--muted); letter-spacing: 0; }
+.plan .year { font-size: 0.82rem; color: var(--muted); margin-top: -8px; }
+.plan .scope { font-weight: 600; }
+.plan ul { margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 5px; font-size: 0.9rem; }
+.plan .meta { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--line); font-size: 0.82rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.free { background: var(--accent-soft); border-radius: 12px; padding: 14px 16px; font-size: 0.94rem; }
+
+/* tables */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; min-width: 520px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--faint); font-weight: 500; background: var(--surface-2); }
+tr:last-child td { border-bottom: none; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* phases */
+.phases { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0; counter-reset: ph; }
+.phases li { counter-increment: ph; display: grid; grid-template-columns: 40px 1fr; gap: 14px; padding: 14px 0; border-top: 1px solid var(--line); }
+.phases li:first-child { border-top: none; }
+.phases li::before {
+  content: counter(ph); font-family: var(--mono); font-weight: 600; font-size: 0.9rem;
+  width: 30px; height: 30px; border-radius: 9px; display: grid; place-items: center;
+  background: var(--accent-soft); color: var(--accent);
+}
+.phases .ph-head { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; }
+.phases .dur { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); }
+.phases p { font-size: 0.94rem; color: var(--muted); margin-top: 4px; }
+
+.diagram { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; overflow-x: auto; }
+.diagram pre.mermaid { margin: 0; background: none; text-align: center; }
+
+.disclaimer { font-size: 0.85rem; color: var(--faint); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+
+<main class="page">
+
+  <section class="hero">
+    <span class="eyebrow">Auditoría comercial · 2 de noviembre de 2026</span>
+    <h1>¿Lista para cobrar? <span class="grad">Casi, faltan cinco cosas.</span></h1>
+    <p class="lede">El producto ya tiene contenido para justificar una suscripción. Lo que falta es la capa de negocio: proteger el contenido, cobrar, abrir el registro, cambiar de hosting y cumplir con la parte legal.</p>
+    <div class="verdict">
+      <span class="dot" aria-hidden="true"></span>
+      <p><b>Hoy no se puede cobrar.</b> Todo el contenido, incluido el que iría en el plan más caro, se descarga sin iniciar sesión desde la web pública. Cualquier muro de pago que se ponga en la pantalla se saltaría escribiendo una URL. Es lo primero que hay que resolver.</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Lo que hay hoy</span>
+    <h2>Inventario del producto</h2>
+    <div class="stats">
+      <div class="stat"><div class="n">35</div><div class="l">bloques temáticos</div></div>
+      <div class="stat"><div class="n">1.227</div><div class="l">ejercicios con corrección</div></div>
+      <div class="stat"><div class="n">1.736</div><div class="l">frases de ejemplo</div></div>
+      <div class="stat"><div class="n">10</div><div class="l">verticales profesionales</div></div>
+    </div>
+    <h3>Lo que ya vale dinero</h3>
+    <ul class="plain">
+      <li><b>Un nicho claro.</b> Método de alemán A1–C2 explicado en español para hispanohablantes. Las apps grandes son generalistas.</li>
+      <li><b>Verticales profesionales.</b> Recepción, inmobiliaria, ventas, turismo, gastronomía, salud, trámites y entrevista de trabajo, cada una con vocabulario, fórmulas, diálogo, juego de rol y escenario. Es el diferencial más fuerte y abre la puerta a vender a empresas y escuelas.</li>
+      <li><b>Las cuatro destrezas.</b> Audio en alemán, diálogos, lecturas con glosario, tareas de escritura con modelo y simulador de speaking.</li>
+      <li><b>Pedagogía visible.</b> Colores por caso gramatical y análisis sintáctico (Feldermodell), algo que casi nadie ofrece.</li>
+      <li><b>Retención.</b> Repaso espaciado, destacados, buscador y progreso sincronizado entre dispositivos.</li>
+      <li><b>Sin comisión de App Store.</b> Es una web instalable (PWA): se cobra por web, sin el 15–30 % de Apple o Google.</li>
+      <li><b>Base de cuentas hecha.</b> Login y progreso por usuario en Supabase con seguridad por filas. La suscripción se monta encima de esto.</li>
+    </ul>
+  </section>
+
+  <section>
+    <span class="eyebrow">Bloquean el cobro</span>
+    <h2>Cinco bloqueantes</h2>
+    <div class="findings">
+      <div class="finding crit"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>El contenido de pago es público</h3><span class="pill crit">Bloqueante</span></div>
+        <p>Comprobado hoy: <code>/content/block_27.json</code> (C2), <code>block_35.json</code> (escritura) y <code>block_22.json</code> (recepción) responden sin sesión. Los 35 bloques van dentro del build de la web.</p>
+        <p class="fix"><b>Arreglo:</b> mover el contenido a Supabase, con el nivel y el plan mínimo de cada sección, y que la base de datos solo lo entregue si la suscripción lo cubre. Quitarlo del build y no guardarlo en la caché offline sin sesión.</p>
+      </div></div>
+      <div class="finding crit"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>GitHub Pages no admite negocio</h3><span class="pill crit">Bloqueante</span></div>
+        <p>Sus condiciones excluyen usarlo para sitios comerciales o software como servicio. Además, la web vive en <code>angelbe2226.github.io</code>, sin marca propia.</p>
+        <p class="fix"><b>Arreglo:</b> pasar a Cloudflare Pages (su plan gratis permite uso comercial) con un dominio propio. Es el mismo build estático, así que el cambio es pequeño.</p>
+      </div></div>
+      <div class="finding crit"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>No hay pagos ni planes</h3><span class="pill crit">Bloqueante</span></div>
+        <p>No existe nada de cobro, planes, renovación ni cancelación.</p>
+        <p class="fix"><b>Arreglo:</b> Stripe Checkout y Portal de cliente; un aviso de Stripe (webhook) actualiza una tabla de suscripciones en Supabase. En la app: pantalla de planes, candados en lo no incluido y botón «Mejorar plan».</p>
+      </div></div>
+      <div class="finding crit"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>Registro cerrado a dos emails</h3><span class="pill crit">Bloqueante</span></div>
+        <p>Hoy solo pueden crear cuenta los emails de la lista autorizada, sin verificar el correo, y Supabase envía los emails con su servidor de pruebas: muy pocos envíos por hora y plantillas en inglés que no se pueden editar.</p>
+        <p class="fix"><b>Arreglo:</b> abrir el registro, activar la verificación de email y conectar un servidor de correo propio (Resend tiene un plan gratis) con plantillas en español.</p>
+      </div></div>
+      <div class="finding crit"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>Falta toda la parte legal y fiscal</h3><span class="pill crit">Bloqueante</span></div>
+        <p>No hay aviso legal, privacidad, condiciones de contratación ni facturación. Vender a consumidores en España sin esto expone a sanciones y devoluciones.</p>
+        <p class="fix"><b>Arreglo:</b> ver la lista legal más abajo. La forma más simple de no lidiar con el IVA de cada país es un «comerciante registrado» (Paddle o Lemon Squeezy), que vende en tu nombre y gestiona el IVA.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Antes de lanzar</span>
+    <h2>Riesgos importantes</h2>
+    <div class="findings">
+      <div class="finding warn"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>Contenido sin revisión nativa</h3><span class="pill warn">Calidad</span></div>
+        <p>Casi todo el contenido se ha generado con IA. Para algo de pago, un error de alemán en una regla es un reembolso y una mala reseña.</p>
+        <p class="fix"><b>Arreglo:</b> revisión de un profesor nativo, empezando por C1–C2, las verticales y pronunciación.</p>
+      </div></div>
+      <div class="finding warn"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>Cobertura desigual en los niveles altos</h3><span class="pill warn">Producto</span></div>
+        <p>B1 tiene 68 secciones; C1 tiene 9 y C2 solo 4. El plan más caro promete «hasta C2» y hoy C2 es casi una muestra.</p>
+        <p class="fix"><b>Arreglo:</b> ampliar C1–C2 antes de anunciarlo o presentarlo con honestidad como «C1–C2 introductorio».</p>
+      </div></div>
+      <div class="finding warn"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>Supabase en plan gratis</h3><span class="pill warn">Fiabilidad</span></div>
+        <p>El proyecto está en el plan Free, que se pausa tras una semana sin actividad y tiene límites de uso. Con clientes de pago no puede pararse. Comprueba también que la región sea europea (RGPD).</p>
+        <p class="fix"><b>Arreglo:</b> plan Pro al lanzar.</p>
+      </div></div>
+      <div class="finding warn"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>Sin analítica, sin alertas de errores, sin tests</h3><span class="pill warn">Operación</span></div>
+        <p>No se sabe cuánta gente entra, dónde abandona ni si algo falla. No hay ni un test. Un fallo en el login o en el pago es dinero perdido sin enterarte.</p>
+        <p class="fix"><b>Arreglo:</b> analítica sin cookies (evita el banner), alertas de errores (Sentry, plan gratis) y tests del registro, el pago y el muro.</p>
+      </div></div>
+      <div class="finding warn"><span class="stripe"></span><div class="body">
+        <div class="head"><h3>Detalles que no deben verse en producción</h3><span class="pill warn">Limpieza</span></div>
+        <p><code>/roadmap.html</code> (planes internos) es público en la web. Los Macs usan otro backend (FastAPI y SQLite) distinto del de la web, y el contenido se publica con commits automáticos desde dos ordenadores, sin revisión.</p>
+        <p class="fix"><b>Arreglo:</b> retirar el roadmap de la web, dejar Supabase como única fuente y publicar contenido con revisión antes de que llegue a clientes.</p>
+      </div></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Cobertura por nivel</span>
+    <h2>Dónde está el contenido</h2>
+    <div class="levels" role="img" aria-label="Secciones por nivel: A1 19, A2 57, B1 68, B2 20, C1 9, C2 4">
+      <div class="lv"><span class="k">A1</span><div class="track"><div class="bar" style="width:28%"></div></div><span class="v">19</span></div>
+      <div class="lv"><span class="k">A2</span><div class="track"><div class="bar" style="width:84%"></div></div><span class="v">57</span></div>
+      <div class="lv"><span class="k">B1</span><div class="track"><div class="bar" style="width:100%"></div></div><span class="v">68</span></div>
+      <div class="lv"><span class="k">B2</span><div class="track"><div class="bar" style="width:29%"></div></div><span class="v">20</span></div>
+      <div class="lv thin"><span class="k">C1</span><div class="track"><div class="bar" style="width:13%"></div></div><span class="v">9</span></div>
+      <div class="lv thin"><span class="k">C2</span><div class="track"><div class="bar" style="width:6%"></div></div><span class="v">4</span></div>
+      <div class="note">Secciones de contenido por nivel MCER, sin contar el panel de práctica.</div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Propuesta</span>
+    <h2>Tres planes, de mayor a menor</h2>
+    <p class="muted">Cada sección ya lleva su nivel MCER, así que el corte más natural es por nivel: es lo que entiende quien estudia un idioma. Las verticales profesionales y la escritura se reservan para el plan alto, que es donde está el diferencial. Precios orientativos, con IVA.</p>
+    <div class="plans">
+      <div class="plan top">
+        <span class="tier">Completo · recomendado</span>
+        <div class="price">14,99 € <small>/mes</small></div>
+        <div class="year">o 149,90 € al año</div>
+        <div class="scope">Todo, de A1 a C2</div>
+        <ul>
+          <li>Todo lo del plan Avanzado</li>
+          <li>C1 y C2 (bloques 26 y 27)</li>
+          <li>Verticales profesionales: Recepción, Inmobiliaria, Ventas, Ventas de turismo y Trabajo/Bewerbung</li>
+          <li>Escritura con modelo y checklist (bloque 35)</li>
+          <li>Lo que venga: corrección con IA, simulacros de examen</li>
+        </ul>
+        <div class="meta">35 bloques · 1.227 ejercicios</div>
+      </div>
+      <div class="plan">
+        <span class="tier">Avanzado</span>
+        <div class="price">9,99 € <small>/mes</small></div>
+        <div class="year">o 99,90 € al año</div>
+        <div class="scope">De A1 a B2 y vida diaria</div>
+        <ul>
+          <li>Todo lo del plan Esencial</li>
+          <li>Secciones B1 y B2, y bloque B2 (25)</li>
+          <li>Diálogos y lecturas (21)</li>
+          <li>Verticales de vida diaria: Turismo, Gastronomía, Alltag, Trámites y Salud</li>
+          <li>Repaso espaciado, 200 Redewendungen y simulador de speaking</li>
+        </ul>
+        <div class="meta">27 bloques · 1.122 ejercicios</div>
+      </div>
+      <div class="plan">
+        <span class="tier">Esencial</span>
+        <div class="price">4,99 € <small>/mes</small></div>
+        <div class="year">o 49,90 € al año</div>
+        <div class="scope">Base sólida A1–A2</div>
+        <ul>
+          <li>Secciones A1 y A2 de la gramática (bloques 01–18)</li>
+          <li>Glosario y tablas de referencia</li>
+          <li>Ejercicios con corrección y progreso</li>
+          <li>Audio en alemán, destacados y buscador</li>
+        </ul>
+        <div class="meta">37 secciones A1–A2 · 544 ejercicios</div>
+      </div>
+    </div>
+    <div class="free"><b>Para que la prueben:</b> bloques 01 y 02 gratis siempre, sin tarjeta, y 7 días del plan Completo al registrarse. Las apps generalistas cobran del orden de 7–15 € al mes; 14,99 € se justifica por el nicho y las verticales. Más adelante: un plan «Equipos» por usuario para escuelas de hostelería, inmobiliarias y equipos de ventas.</div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Cómo encaja todo</span>
+    <h2>Arquitectura propuesta</h2>
+    <p class="muted">La app sigue siendo estática y barata de servir. Lo que cambia es que el contenido llega desde Supabase según el plan de cada usuario, y Stripe avisa a Supabase de cada alta, renovación o baja.</p>
+    <div class="diagram">
+<pre class="mermaid">
+flowchart LR
+  U["Usuario<br/>(web o app instalada)"] --> H["Cloudflare Pages<br/>app estática + dominio"]
+  U -->|login| A["Supabase Auth"]
+  U -->|"contenido según plan<br/>y progreso"| DB[("Supabase DB<br/>content · progress · subscriptions")]
+  U -->|pagar o gestionar plan| S["Stripe Checkout<br/>y Portal"]
+  S -->|"aviso de pago (webhook)"| F["Supabase Edge Function"]
+  F --> DB
+</pre>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Hoja de ruta</span>
+    <h2>Plan por fases</h2>
+    <p class="muted">Duraciones orientativas de desarrollo. La revisión del contenido y los trámites van en paralelo.</p>
+    <ol class="phases">
+      <li><div><div class="ph-head"><h3>Decisiones de negocio</h3><span class="dur">tú · 1 semana</span></div><p>Nombre y dominio, alta como autónomo o sociedad, Stripe o comerciante registrado (Paddle / Lemon Squeezy), precios definitivos.</p></div></li>
+      <li><div><div class="ph-head"><h3>Infraestructura</h3><span class="dur">1–2 días</span></div><p>Dominio en Cloudflare Pages, Supabase Pro en región europea, servidor de correo propio y plantillas en español.</p></div></li>
+      <li><div><div class="ph-head"><h3>Contenido detrás del login</h3><span class="dur">2–3 días</span></div><p>Tabla de contenido con nivel y plan por sección, reglas de acceso por plan, migrar los 35 bloques, quitarlos del build y ajustar la caché offline.</p></div></li>
+      <li><div><div class="ph-head"><h3>Suscripciones</h3><span class="dur">3–4 días</span></div><p>Productos y precios en Stripe, Checkout, Portal de cliente, webhook, tabla de suscripciones, candados y «Mejorar plan».</p></div></li>
+      <li><div><div class="ph-head"><h3>Registro abierto</h3><span class="dur">1 día</span></div><p>Quitar la lista de dos emails, verificación de email, prueba de 7 días y bloques gratis.</p></div></li>
+      <li><div><div class="ph-head"><h3>Legal y facturación</h3><span class="dur">con gestoría</span></div><p>Textos legales, casilla de desistimiento en el pago, facturas e IVA.</p></div></li>
+      <li><div><div class="ph-head"><h3>Calidad</h3><span class="dur">1–2 semanas</span></div><p>Revisión nativa del contenido, ampliar C1–C2, analítica, alertas de errores y tests del registro, el pago y el muro.</p></div></li>
+      <li><div><div class="ph-head"><h3>Lanzamiento</h3><span class="dur">2–3 días</span></div><p>Página de inicio con planes y demo, bienvenida para nuevos usuarios y retirar lo interno (roadmap).</p></div></li>
+    </ol>
+  </section>
+
+  <section>
+    <span class="eyebrow">Números</span>
+    <h2>Costes mensuales aproximados</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Concepto</th><th>Opción</th><th>Coste</th></tr></thead>
+        <tbody>
+          <tr><td>Hosting de la app</td><td>Cloudflare Pages</td><td class="num">0 €</td></tr>
+          <tr><td>Base de datos y cuentas</td><td>Supabase Pro</td><td class="num">≈ 25 $/mes</td></tr>
+          <tr><td>Dominio</td><td>.com o .es</td><td class="num">≈ 10–15 €/año</td></tr>
+          <tr><td>Email de la app</td><td>Resend, plan gratis</td><td class="num">0 € hasta 3.000/mes</td></tr>
+          <tr><td>Cobros</td><td>Stripe (tú gestionas el IVA)</td><td class="num">≈ 1,5 % + 0,25 € por cobro</td></tr>
+          <tr><td>Cobros, alternativa</td><td>Paddle / Lemon Squeezy (gestionan el IVA)</td><td class="num">≈ 5 % + 0,50 $ por cobro</td></tr>
+          <tr><td>Errores y analítica</td><td>Sentry gratis + analítica sin cookies</td><td class="num">0–9 €/mes</td></tr>
+          <tr><td>Gestoría</td><td>autónomo o sociedad</td><td class="num">según gestoría</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted">Con unos 40 € al mes de costes fijos, el punto de equilibrio está en torno a 4–5 suscriptores del plan Completo.</p>
+  </section>
+
+  <section>
+    <span class="eyebrow">España y UE</span>
+    <h2>Lista legal mínima</h2>
+    <ul class="plain">
+      <li><b>Alta fiscal</b> como autónomo o sociedad, con el epígrafe adecuado.</li>
+      <li><b>Aviso legal</b> (LSSI): titular, NIF y contacto.</li>
+      <li><b>Política de privacidad</b> (RGPD): qué datos se guardan (email y progreso), Supabase y Stripe como encargados del tratamiento, y derechos del usuario.</li>
+      <li><b>Cookies:</b> con analítica sin cookies y solo almacenamiento técnico no hace falta banner.</li>
+      <li><b>Condiciones de contratación:</b> precio con IVA, renovación automática y cómo cancelar.</li>
+      <li><b>Desistimiento de 14 días:</b> en contenido digital se puede renunciar, pero solo con consentimiento expreso en el momento del pago (una casilla en el checkout).</li>
+      <li><b>IVA de servicios digitales:</b> se aplica el IVA del país del comprador (régimen OSS), salvo que uses un comerciante registrado, que lo hace por ti.</li>
+      <li><b>Facturas</b> para cada cobro.</li>
+    </ul>
+  </section>
+
+  <p class="disclaimer">Diagnóstico hecho sobre el código y la web publicada el 2 de noviembre de 2026. Precios de proveedores y de la competencia aproximados: verifícalos antes de decidir. No es asesoramiento legal ni fiscal; para la parte legal, consulta con una gestoría o un abogado.</p>
+
+</main>
