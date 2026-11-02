@@ -53,7 +53,11 @@ export default function Login() {
     setBusy(true);
     const { error: err } = await supabase.auth.signInWithOtp({
       email: addr,
-      options: { shouldCreateUser: isSignup },
+      options: {
+        shouldCreateUser: isSignup,
+        // El botón del correo vuelve a la app (no a la raíz de github.io).
+        emailRedirectTo: window.location.origin + import.meta.env.BASE_URL,
+      },
     });
     setBusy(false);
     if (err) {

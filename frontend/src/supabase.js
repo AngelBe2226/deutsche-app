@@ -9,6 +9,8 @@ const anonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 export const supabase =
   url && anonKey
     ? createClient(url, anonKey, {
-        auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false },
+        // detectSessionInUrl: si alguien pulsa el botón del correo en vez de
+        // escribir el código, la app recoge la sesión de la URL y entra.
+        auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },
       })
     : null;
