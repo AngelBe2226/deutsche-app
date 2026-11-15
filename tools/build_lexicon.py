@@ -291,6 +291,12 @@ def main():
     for lid, e in lemmas.items():
         if e["pos"] != "verb":
             e["es"] = es_for(e["w"], e["pos"])
+        if not e.get("es") and ":in" in e["w"]:
+            base = e["w"].split(":")[0]
+            b = lemmas.get(f"{base}|noun") or {}
+            bes = es_for(base, "noun")
+            if bes:
+                e["es"] = [f"{bes[0]} (forma inclusiva: {base}/{base}in)"]
         e["es"] = list(dict.fromkeys(e.get("es") or []))
         if e.get("es"):
             e.pop("en", None)
@@ -346,6 +352,8 @@ def main():
         # sin significado ni datos útiles → al final
         items.sort(key=lambda kv: 0 if (lemmas[kv[0]].get("es") or lemmas[kv[0]].get("en")) else 1)
         items = [kv for kv in items if lemmas[kv[0]].get("es") or lemmas[kv[0]].get("en") or kv[1][1]]
+        if any(lemmas[kv[0]].get("es") for kv in items):
+            items = [kv for kv in items if lemmas[kv[0]].get("es")]
         if not items:
             continue
         row = []

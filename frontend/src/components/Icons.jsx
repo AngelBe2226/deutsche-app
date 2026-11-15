@@ -47,13 +47,6 @@ export const IconArrowRight = (p) => (
     <path d="M5 12h14M13 6l6 6-6 6" />
   </Svg>
 );
-export const IconRoute = (p) => (
-  <Svg {...p}>
-    <circle cx="6" cy="19" r="2.5" />
-    <circle cx="18" cy="5" r="2.5" />
-    <path d="M8.5 19H16a3.5 3.5 0 0 0 0-7H8a3.5 3.5 0 0 1 0-7h7.5" />
-  </Svg>
-);
 export const IconSun = (p) => (
   <Svg {...p}>
     <circle cx="12" cy="12" r="4" />

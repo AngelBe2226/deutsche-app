@@ -62,7 +62,9 @@ def load_tables():
         for line in f:
             d = json.loads(line)
             forms = d.get("forms") or []
-            if not forms or any("form_of" in s for s in d.get("senses", [])):
+            # Las entradas de formas flexionadas no traen tabla; las de lema sí
+            # (aunque alguna acepción diga «causative of liegen», p. ej. legen).
+            if not forms:
                 continue
             w = d["word"]
             if " " in w or not re.fullmatch(r"[A-Za-zÄÖÜäöüß-]+", w):
@@ -248,9 +250,33 @@ AUX_FORMS = {"haben": {"habe", "hast", "hat", "haben", "habt", "hatte", "hatten"
              "sein": {"bin", "bist", "ist", "sind", "seid", "war", "waren"}}
 
 
+# Auxiliar estándar revisado a mano (el sur de Alemania y Austria usan sein
+# con stehen/sitzen/liegen; aquí damos el estándar primero).
+AUX_FIX = {"stehen": ["haben", "sein"], "sitzen": ["haben", "sein"], "liegen": ["haben", "sein"],
+           "aufstehen": ["sein"], "bekommen": ["haben"], "setzen": ["haben"], "passieren": ["sein"],
+           "rennen": ["sein"], "schneien": ["haben"], "tanzen": ["haben"], "anziehen": ["haben"],
+           "hängen": ["haben"], "fahren": ["sein", "haben"], "schwimmen": ["sein", "haben"],
+           "fliegen": ["sein", "haben"], "ziehen": ["haben", "sein"]}
+
+
 def order_aux(v, sents, index):
     """Con dos auxiliares (haben/sein), pone primero el que más aparece en Tatoeba
     y reordena las formas compuestas en consecuencia."""
+    if v.get("_lemma") in AUX_FIX:
+        want = AUX_FIX[v["_lemma"]]
+        v["aux"] = want
+        first = want[0]
+        sein_starts = ("bin ", "bist ", "ist ", "sind ", "seid ", "war ", "warst ", "waren ", "wart ",
+                       "sei ", "seist ", "seiest ", "seien ", "seiet ", "wäre ", "wärst ", "wärest ",
+                       "wären ", "wärt ", "wäret ")
+        is_sein = lambda f: f.startswith(sein_starts) or f.endswith(" sein")
+        for rows in v["t"].values():
+            for i, cell in enumerate(rows):
+                if len(cell) > 1:
+                    keep = [f for f in cell if (is_sein(f) and "sein" in want) or (not is_sein(f) and "haben" in want)] or cell
+                    keep.sort(key=lambda f: 0 if is_sein(f) == (first == "sein") else 1)
+                    rows[i] = keep
+        return
     if len(v["aux"]) < 2 or not v["p2"]:
         return
     p2 = v["p2"][0].lower()
@@ -290,6 +316,7 @@ def main():
     n_ex = 0
     for w in sorted(verbs, key=lambda x: x.lower()):
         v = verbs[w]
+        v["_lemma"] = w
         order_aux(v, sents, index)
         used = set()
         ex = {}
