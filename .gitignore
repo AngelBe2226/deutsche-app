@@ -15,3 +15,6 @@ frontend/dist/
 
 # OS / editor
 .DS_Store
+
+# Datos descargados para generar léxico y conjugador
+tools/.cache/

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { api } from "../api";
 import ProgressRing from "./ProgressRing";
 import { AUTH_ENABLED, useAuth } from "../auth";
-import { IconChevronRight, IconRotate, IconRoute, IconSearch, IconStar } from "./Icons";
+import { IconBook, IconChevronRight, IconRotate, IconSearch, IconStar } from "./Icons";
 
 // Sidebar en cascada: cada capítulo (bloque) tiene un chevrón para desplegar
 // sus epígrafes. Acordeón: al abrir uno se cierra el que estuviera abierto.
@@ -80,11 +80,13 @@ export default function Sidebar({
             Repaso
             {dueCount > 0 && <span className="nav-badge">{dueCount}</span>}
           </button>
-          <a className="nav-pin" href={import.meta.env.BASE_URL + "roadmap.html"} target="_blank" rel="noopener">
-            <IconRoute size={16} />
-            Ruta A1–C2
-            <span className="nav-pin-ext">↗</span>
-          </a>
+          <button
+            className={"nav-pin" + (current === "verbs" ? " current" : "")}
+            onClick={() => onSelectBlock("verbs")}
+          >
+            <IconBook size={16} />
+            Conjugador
+          </button>
         </div>
       </div>
 
