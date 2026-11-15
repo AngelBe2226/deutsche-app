@@ -223,7 +223,8 @@
             "ein Geschenk",
             "ein Regal"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Regalo» = <b>das Geschenk</b>. Falsos amigos: <i>das Gift</i> = veneno; <i>das Regal</i> = estantería."
         },
         {
           "id": "b17-s1q2",
@@ -233,7 +234,8 @@
             "werden",
             "spenden"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Llegar a ser» = <b>werden</b>. <i>bekommen</i> = recibir (no «convertirse»)."
         },
         {
           "id": "b17-s1q3",
@@ -243,7 +245,8 @@
             "Ich auch.",
             "Auch ich also."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«También» = <b>auch</b>. <i>also</i> significa «o sea, así que»."
         },
         {
           "id": "b17-s1q4",
@@ -253,7 +256,8 @@
             "der Koch",
             "der Kopf"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Jefe» = <b>der Chef</b>. <i>der Koch</i> = cocinero; <i>der Kopf</i> = cabeza."
         },
         {
           "id": "b17-s1q5",
@@ -263,7 +267,8 @@
             "ein Geschenk",
             "eine Karte"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Una carta que se envía = <b>der Brief</b>. <i>die Karte</i> = tarjeta, mapa o carta de restaurante."
         },
         {
           "id": "b17-s1q6",
@@ -273,7 +278,8 @@
             "die Hose",
             "das Kleid"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Falda» = <b>der Rock</b>."
         },
         {
           "id": "b17-s1q7",
@@ -283,7 +289,8 @@
             "eine Ratte",
             "ein Gift"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Consejo» = <b>der Rat</b>. <i>die Ratte</i> = rata."
         },
         {
           "id": "b17-s1q8",
@@ -293,7 +300,8 @@
             "Kind",
             "Lust"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Tener ganas» = <b>Lust haben</b>. <i>Angst</i> = miedo."
         },
         {
           "id": "b17-s1q9",
@@ -303,7 +311,8 @@
             "bald",
             "fast"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Casi» = <b>fast</b>."
         },
         {
           "id": "b17-s1q10",
@@ -313,7 +322,8 @@
             "fast",
             "also"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Pronto» = <b>bald</b>."
         },
         {
           "id": "b17-s1q11",
@@ -323,7 +333,8 @@
             "die Hand",
             "das Bad"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Móvil» = <b>das Handy</b>."
         },
         {
           "id": "b17-s1q12",
@@ -333,7 +344,8 @@
             "der Hut",
             "die Hose"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Pantalones» = <b>die Hose</b> (singular en alemán)."
         },
         {
           "id": "b17-s1q13",
@@ -343,7 +355,8 @@
             "also",
             "eventuell"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>aktuell</b> = actual, de actualidad."
         },
         {
           "id": "b17-s1q14",
@@ -353,7 +366,8 @@
             "eventual",
             "aktuell"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>eventuell</b> = quizá, posiblemente (no «eventual»)."
         },
         {
           "id": "b17-s1q15",
@@ -363,7 +377,8 @@
             "eine Karte",
             "ein Rat"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Lata» = <b>die Dose</b>."
         }
       ],
       "produce": {
@@ -556,7 +571,8 @@
             "stellen",
             "geben"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En alemán una pregunta se «pone»: <b>eine Frage stellen</b>."
         },
         {
           "id": "b17-s2q2",
@@ -566,7 +582,8 @@
             "genommen",
             "getroffen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Una decisión se «encuentra»: <b>eine Entscheidung treffen</b>."
         },
         {
           "id": "b17-s2q3",
@@ -576,7 +593,8 @@
             "einen Vortrag halten",
             "einen Vortrag sagen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Una charla se «sostiene»: <b>einen Vortrag halten</b>."
         },
         {
           "id": "b17-s2q4",
@@ -586,7 +604,8 @@
             "geben",
             "machen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>eine Frage stellen</b>."
         },
         {
           "id": "b17-s2q5",
@@ -596,7 +615,8 @@
             "nehmen",
             "machen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>eine Entscheidung treffen</b>."
         },
         {
           "id": "b17-s2q6",
@@ -606,7 +626,8 @@
             "machen",
             "tun"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>einen Fehler machen</b>."
         },
         {
           "id": "b17-s2q7",
@@ -616,7 +637,8 @@
             "kaufen",
             "vereinbaren"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Pedir/acordar cita = <b>einen Termin vereinbaren</b>."
         },
         {
           "id": "b17-s2q8",
@@ -626,7 +648,8 @@
             "geben",
             "halten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>einen Vortrag halten</b>."
         },
         {
           "id": "b17-s2q9",
@@ -636,7 +659,8 @@
             "treiben",
             "halten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Hacer deporte = <b>Sport treiben</b> (o machen, coloquial)."
         },
         {
           "id": "b17-s2q10",
@@ -646,7 +670,8 @@
             "halten",
             "bestehen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Aprobar = <b>die Prüfung bestehen</b>."
         },
         {
           "id": "b17-s2q11",
@@ -656,7 +681,8 @@
             "machen",
             "treffen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Urlaub machen</b> = irse de vacaciones."
         },
         {
           "id": "b17-s2q12",
@@ -666,7 +692,8 @@
             "machen",
             "haben"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Angst haben</b>, como «tener miedo»."
         },
         {
           "id": "b17-s2q13",
@@ -676,7 +703,8 @@
             "haben",
             "machen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Recht haben</b> = tener razón."
         },
         {
           "id": "b17-s2q14",
@@ -686,7 +714,8 @@
             "halten",
             "machen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>ein Foto machen</b>."
         },
         {
           "id": "b17-s2q15",
@@ -696,7 +725,8 @@
             "geben",
             "nehmen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Rücksicht nehmen</b> = tener consideración."
         }
       ],
       "produce": {
@@ -829,7 +859,8 @@
             "der (por Schuh)",
             "das (neutro por defecto)"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En los compuestos el género lo da la <b>última palabra</b>: der Schuh → <b>der</b> Handschuh."
         },
         {
           "id": "b17-s3q2",
@@ -839,7 +870,8 @@
             "llave de casa",
             "cerradura"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Se lee de atrás hacia delante: Schlüssel (llave) de Haus (casa) → <b>llave de casa</b>."
         },
         {
           "id": "b17-s3q3",
@@ -849,7 +881,8 @@
             "de atrás hacia delante",
             "por sílabas"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La última palabra es la principal, así que se descifra <b>de atrás hacia delante</b>."
         },
         {
           "id": "b17-s3q4",
@@ -859,7 +892,8 @@
             "das (por Zimmer)",
             "die"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "das Zimmer → <b>das</b> Schlafzimmer."
         },
         {
           "id": "b17-s3q5",
@@ -869,7 +903,8 @@
             "die",
             "das"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "die Bürste → <b>die</b> Zahnbürste."
         },
         {
           "id": "b17-s3q6",
@@ -879,7 +914,8 @@
             "das",
             "die"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "der Schirm → <b>der</b> Regenschirm."
         },
         {
           "id": "b17-s3q7",
@@ -889,7 +925,8 @@
             "das",
             "der"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "das Haus → <b>das</b> Krankenhaus."
         },
         {
           "id": "b17-s3q8",
@@ -899,7 +936,8 @@
             "das",
             "die"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "das Ende → <b>das</b> Wochenende."
         },
         {
           "id": "b17-s3q9",
@@ -909,7 +947,8 @@
             "die",
             "der"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "die Karte → <b>die</b> Speisekarte."
         },
         {
           "id": "b17-s3q10",
@@ -919,7 +958,8 @@
             "guante",
             "mano de tasa"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tasche (bolso) de Hand (mano) → <b>bolso</b>."
         },
         {
           "id": "b17-s3q11",
@@ -929,7 +969,8 @@
             "aeropuerto",
             "vuelo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Hafen (puerto) de Flug (vuelo) → <b>aeropuerto</b>."
         },
         {
           "id": "b17-s3q12",
@@ -939,7 +980,8 @@
             "camino de lluvia",
             "impermeable"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Schirm (pantalla, protección) contra Regen (lluvia) → <b>paraguas</b>."
         },
         {
           "id": "b17-s3q13",
@@ -949,7 +991,8 @@
             "dentista",
             "pasta dentífrica"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Bürste (cepillo) de Zahn (diente) → <b>cepillo de dientes</b>."
         },
         {
           "id": "b17-s3q14",
@@ -959,7 +1002,8 @@
             "agencia de viajes",
             "oficina de correos"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Büro (oficina) de Reise (viaje) → <b>agencia de viajes</b>."
         },
         {
           "id": "b17-s3q15",
@@ -969,7 +1013,8 @@
             "la última palabra",
             "la primera palabra"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El género lo da <b>la última palabra</b>."
         }
       ],
       "produce": {

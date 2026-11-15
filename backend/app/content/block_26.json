@@ -97,7 +97,8 @@
             "sei",
             "wäre"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Estilo indirecto → Konjunktiv I de sein: er <b>sei</b>."
         },
         {
           "id": "b26-s1q2",
@@ -107,7 +108,8 @@
             "hat",
             "hatte"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Konjunktiv I de haben (3.ª sing.): sie <b>habe</b>, distinto del indicativo hat."
         },
         {
           "id": "b26-s1q3",
@@ -117,7 +119,8 @@
             "habe",
             "hätten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Si el Konjunktiv I coincide con el indicativo (sie haben), se usa el Konjunktiv II: <b>hätten</b>."
         },
         {
           "id": "b26-s1q4",
@@ -127,7 +130,8 @@
             "sei",
             "wäre"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pasado en estilo indirecto: Konjunktiv I del auxiliar + participio; kommen va con sein → <b>sei</b> gekommen."
         },
         {
           "id": "b26-s1q5",
@@ -137,7 +141,8 @@
             "Órdenes",
             "Estilo indirecto en prensa e informes"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "El Konjunktiv I se usa sobre todo para el <b>estilo indirecto</b> en prensa e informes."
         },
         {
           "id": "b26-s1q6",
@@ -147,7 +152,8 @@
             "habe",
             "hatte"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Laut Bericht» = según el informe → Konjunktiv I: <b>habe</b>."
         }
       ],
       "produce": {
@@ -242,7 +248,8 @@
             "Seit",
             "Vor"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>nachdem</i> → <b>nach</b> + dativo: nach ihrer Ankunft."
         },
         {
           "id": "b26-s2q2",
@@ -252,7 +259,8 @@
             "Trotz des Regens",
             "Bei Regen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>obwohl</i> → <b>trotz</b> + genitivo."
         },
         {
           "id": "b26-s2q3",
@@ -262,7 +270,8 @@
             "der Planen",
             "die Planung"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "planen → <b>die Planung</b> (-ung, femenino)."
         },
         {
           "id": "b26-s2q4",
@@ -272,7 +281,8 @@
             "Trotz der Verspätung des Zuges",
             "Nach dem Zug"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>weil</i> → <b>wegen</b> + genitivo."
         },
         {
           "id": "b26-s2q5",
@@ -282,7 +292,8 @@
             "Beginn",
             "dem Beginnen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "beginnen → <b>der Beginn</b>; vor dem Beginn → <i>vor Beginn</i> der Sitzung."
         }
       ],
       "produce": {
@@ -396,7 +407,8 @@
             "Kraft",
             "Betracht"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>in Kraft treten</b> = entrar en vigor."
         },
         {
           "id": "b26-s3q2",
@@ -406,7 +418,8 @@
             "nehmen",
             "treffen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>eine Entscheidung treffen</b>."
         },
         {
           "id": "b26-s3q3",
@@ -416,7 +429,8 @@
             "Sprache",
             "Anwendung"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>zur Verfügung stellen</b> = poner a disposición."
         },
         {
           "id": "b26-s3q4",
@@ -426,7 +440,8 @@
             "poner en duda",
             "plantear un tema"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>in Frage stellen</b> = poner en duda."
         },
         {
           "id": "b26-s3q5",
@@ -436,7 +451,8 @@
             "Ausdruck",
             "Sprache"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>zur Sprache kommen</b> = tratarse, salir a colación."
         },
         {
           "id": "b26-s3q6",
@@ -446,7 +462,8 @@
             "gemacht",
             "gestellt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Kritik üben</b> = criticar (registro formal)."
         }
       ],
       "produce": {
@@ -520,7 +537,8 @@
             "der gerade ankommende Zug",
             "der ankommte Zug"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Acción simultánea y activa → Partizip I: der gerade an<b>kommende</b> Zug."
         },
         {
           "id": "b26-s4q2",
@@ -530,7 +548,8 @@
             "das 1900 bauende Haus",
             "das gebaut 1900 Haus"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Acción pasiva y terminada → Partizip II: das 1900 <b>gebaute</b> Haus."
         },
         {
           "id": "b26-s4q3",
@@ -540,7 +559,8 @@
             "die noch lösenden Probleme",
             "die noch zu lösenden Probleme"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Necesidad pasiva → <b>zu</b> + Partizip I: die noch zu lösenden Probleme."
         },
         {
           "id": "b26-s4q4",
@@ -550,7 +570,8 @@
             "acción terminada o pasiva",
             "futuro"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Partizip I = acción <b>simultánea y activa</b> (der lachende Mann)."
         },
         {
           "id": "b26-s4q5",
@@ -560,7 +581,8 @@
             "unterschriebenen",
             "unterschriebene"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pasivo y terminado → Partizip II, con terminación de plural tras artículo: unterschrieb<b>enen</b>."
         }
       ],
       "produce": {
@@ -677,7 +699,8 @@
             "Dennoch",
             "Sofern"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Dennoch</b> = sin embargo; invierte el orden (fand das Konzert statt)."
         },
         {
           "id": "b26-s5q2",
@@ -687,7 +710,8 @@
             "zumal",
             "indem"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>indem</b> = el modo (escuchando podcasts); verbo al final."
         },
         {
           "id": "b26-s5q3",
@@ -697,7 +721,8 @@
             "folglich",
             "hingegen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>sofern</b> = siempre que, en caso de que."
         },
         {
           "id": "b26-s5q4",
@@ -707,7 +732,8 @@
             "hingegen",
             "sofern"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>hingegen</b> = en cambio; puede ir tras el sujeto."
         },
         {
           "id": "b26-s5q5",
@@ -717,7 +743,8 @@
             "Wohingegen",
             "Folglich"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Folglich</b> = por consiguiente."
         },
         {
           "id": "b26-s5q6",
@@ -727,7 +754,8 @@
             "va justo después (inversión)",
             "va en posición 1"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los adverbios conectores en posición 1 provocan <b>inversión</b>: Dennoch fand…"
         }
       ],
       "produce": {
@@ -839,7 +867,8 @@
             "mal",
             "halt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>mal</b> suaviza peticiones: Kannst du mal kommen?"
         },
         {
           "id": "b26-s6q2",
@@ -849,7 +878,8 @@
             "una certeza absoluta",
             "una suposición"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>wohl</b> = probablemente: suposición."
         },
         {
           "id": "b26-s6q3",
@@ -859,7 +889,8 @@
             "sorpresa",
             "enfado"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>halt</b> expresa resignación: «es lo que hay»."
         },
         {
           "id": "b26-s6q4",
@@ -869,7 +900,8 @@
             "denn",
             "eben"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>denn</b> en preguntas añade interés o sorpresa."
         },
         {
           "id": "b26-s6q5",
@@ -879,7 +911,8 @@
             "Nein",
             "Doch"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Doch</b> contesta «sí» a una pregunta negativa."
         }
       ],
       "produce": {

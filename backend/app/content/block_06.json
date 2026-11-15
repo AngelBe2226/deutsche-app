@@ -141,7 +141,8 @@
             "schneller",
             "schnellst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El comparativo se forma con <b>-er</b>, nunca con <i>mehr</i> + adjetivo: <b>schneller</b> als."
         },
         {
           "id": "b06-s1q2",
@@ -151,7 +152,8 @@
             "älter",
             "am ältesten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Muchos monosílabos con a/o/u añaden diéresis: alt → <b>älter</b>. <i>am ältesten</i> es superlativo."
         },
         {
           "id": "b06-s1q3",
@@ -161,7 +163,8 @@
             "mehr als ich",
             "mehr dass ich"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La comparación de superioridad usa <b>als</b>: mehr als ich. <i>wie</i> es para la igualdad."
         },
         {
           "id": "b06-s1q4",
@@ -171,7 +174,8 @@
             "kalter",
             "kälter"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "kalt → <b>kälter</b> (monosílabo con a → ä)."
         },
         {
           "id": "b06-s1q5",
@@ -181,7 +185,8 @@
             "jünger",
             "junger"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "jung → <b>jünger</b>, con diéresis."
         },
         {
           "id": "b06-s1q6",
@@ -191,7 +196,8 @@
             "interessanter",
             "interessantest"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Incluso los adjetivos largos forman el comparativo con -er: <b>interessanter</b>."
         },
         {
           "id": "b06-s1q7",
@@ -201,7 +207,8 @@
             "grösser",
             "größer"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "groß → <b>größer</b> (con ß y diéresis; <i>grösser</i> es la grafía suiza)."
         },
         {
           "id": "b06-s1q8",
@@ -211,7 +218,8 @@
             "länger",
             "langer"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "lang → <b>länger</b>."
         },
         {
           "id": "b06-s1q9",
@@ -221,7 +229,8 @@
             "alter",
             "mehr alt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "alt → <b>älter</b> als du."
         },
         {
           "id": "b06-s1q10",
@@ -231,7 +240,8 @@
             "besser",
             "mehr gut"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "gut es irregular: gut – <b>besser</b> – am besten."
         },
         {
           "id": "b06-s1q11",
@@ -241,7 +251,8 @@
             "mehr teuer",
             "teuerer"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Los adjetivos en <b>-er</b> pierden la e: teuer → <b>teurer</b>."
         },
         {
           "id": "b06-s1q12",
@@ -251,7 +262,8 @@
             "wie",
             "dass"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Comparativo + <b>als</b>."
         },
         {
           "id": "b06-s1q13",
@@ -261,7 +273,8 @@
             "größer",
             "größeres"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Delante del sustantivo el comparativo se declina como cualquier adjetivo: eine größer<b>e</b> Wohnung."
         },
         {
           "id": "b06-s1q14",
@@ -271,7 +284,8 @@
             "jünger",
             "jüngerer"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Acusativo masculino tras <i>einen</i> → jünger<b>en</b>."
         },
         {
           "id": "b06-s1q15",
@@ -281,7 +295,8 @@
             "leichtere",
             "leichter"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Comparativo predicativo (tras <i>ist</i>) sin terminación: <b>leichter</b> als gedacht."
         }
       ],
       "produce": {
@@ -445,7 +460,8 @@
             "der kürzeste",
             "kürzer als"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Superlativo tras <i>ist</i> (predicativo) → <b>am</b> + -sten: am kürzesten."
         },
         {
           "id": "b06-s2q2",
@@ -455,7 +471,8 @@
             "der längste",
             "länger"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Delante de un sustantivo se usa artículo + superlativo declinado: <b>der längste</b> Tag."
         },
         {
           "id": "b06-s2q3",
@@ -465,7 +482,8 @@
             "am ältesten",
             "am ältsten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras t se intercala -e- y alt lleva diéresis: <b>am ältesten</b>."
         },
         {
           "id": "b06-s2q4",
@@ -475,7 +493,8 @@
             "höchster",
             "höchste"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "hoch es irregular (höher, am höchsten); tras <i>der</i> en nominativo → <b>höchste</b>."
         },
         {
           "id": "b06-s2q5",
@@ -485,7 +504,8 @@
             "wärmsten",
             "wärmesten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>am</i> siempre va con <b>-sten</b>: am wärmsten."
         },
         {
           "id": "b06-s2q6",
@@ -495,7 +515,8 @@
             "jüngeste",
             "jüngstes"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras <i>die</i> en nominativo el superlativo termina en <b>-e</b>: die jüngste."
         },
         {
           "id": "b06-s2q7",
@@ -505,7 +526,8 @@
             "besste",
             "beste"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "gut → besser → <b>beste</b> (irregular)."
         },
         {
           "id": "b06-s2q8",
@@ -515,7 +537,8 @@
             "am kaltesten",
             "am kältesten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Tras -t se añade -e-: <b>am kältesten</b>."
         },
         {
           "id": "b06-s2q9",
@@ -525,7 +548,8 @@
             "am großsten",
             "am größesten"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras ß no se añade -e-: <b>am größten</b>."
         },
         {
           "id": "b06-s2q10",
@@ -535,7 +559,8 @@
             "am kürzesten",
             "am kürzsten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras -z se añade -e- y kurz lleva diéresis: <b>am kürzesten</b>."
         },
         {
           "id": "b06-s2q11",
@@ -545,7 +570,8 @@
             "längste",
             "der längste"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Delante de sustantivo: <b>der längste</b> Fluss."
         },
         {
           "id": "b06-s2q12",
@@ -555,7 +581,8 @@
             "gute",
             "bessere"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Mejor» como superlativo delante de sustantivo = <b>beste</b> (meine beste Freundin)."
         },
         {
           "id": "b06-s2q13",
@@ -565,7 +592,8 @@
             "schnellesten",
             "schneller"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "am + <b>schnellsten</b> (sin -e- tras ll)."
         },
         {
           "id": "b06-s2q14",
@@ -575,7 +603,8 @@
             "kleinste",
             "kleinesten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras <i>das</i> en nominativo → <b>kleinste</b>."
         },
         {
           "id": "b06-s2q15",
@@ -585,7 +614,8 @@
             "fleißigsten",
             "fleißigesten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>am</i> + -sten: <b>am fleißigsten</b>."
         }
       ],
       "produce": {
@@ -764,7 +794,8 @@
             "besser",
             "am besten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Se comparan dos idiomas con <i>als</i> → comparativo: <b>besser</b>."
         },
         {
           "id": "b06-s3q2",
@@ -774,7 +805,8 @@
             "wie",
             "so"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Igualdad: <b>genauso / so … wie</b>. <i>als</i> solo va tras comparativo."
         },
         {
           "id": "b06-s3q3",
@@ -784,7 +816,8 @@
             "Am liebsten",
             "Lieber"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Lo que más me gusta hacer» = <b>am liebsten</b> (superlativo de <i>gern</i>)."
         },
         {
           "id": "b06-s3q4",
@@ -794,7 +827,8 @@
             "mehr",
             "besser"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Preferencia = <b>lieber</b> (comparativo de <i>gern</i>)."
         },
         {
           "id": "b06-s3q5",
@@ -804,7 +838,8 @@
             "besten",
             "liebsten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Am <b>liebsten</b> = lo que más me gusta."
         },
         {
           "id": "b06-s3q6",
@@ -814,7 +849,8 @@
             "mehr",
             "meist"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "viel → <b>mehr</b> → am meisten."
         },
         {
           "id": "b06-s3q7",
@@ -824,7 +860,8 @@
             "dass",
             "wie"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "so … <b>wie</b> para la igualdad."
         },
         {
           "id": "b06-s3q8",
@@ -834,7 +871,8 @@
             "wie",
             "so"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Comparativo + <b>als</b>."
         },
         {
           "id": "b06-s3q9",
@@ -844,7 +882,8 @@
             "nächer",
             "mehr nah"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "nah es irregular: <b>näher</b>, am nächsten."
         },
         {
           "id": "b06-s3q10",
@@ -854,7 +893,8 @@
             "besser",
             "guter"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "gut → <b>besser</b>."
         },
         {
           "id": "b06-s3q11",
@@ -864,7 +904,8 @@
             "am meisten",
             "am viellsten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "viel → mehr → <b>am meisten</b>."
         },
         {
           "id": "b06-s3q12",
@@ -874,7 +915,8 @@
             "mehr gern",
             "lieber"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "gern → <b>lieber</b> → am liebsten."
         },
         {
           "id": "b06-s3q13",
@@ -884,7 +926,8 @@
             "mehr hoch",
             "höher"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "hoch pierde la c en comparativo: <b>höher</b>."
         },
         {
           "id": "b06-s3q14",
@@ -894,7 +937,8 @@
             "näheste",
             "nächste"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "nah → näher → <b>nächste</b> (con ch)."
         },
         {
           "id": "b06-s3q15",
@@ -904,7 +948,8 @@
             "wie",
             "als"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "nicht so … <b>wie</b>: la igualdad negada sigue usando <i>wie</i>."
         }
       ],
       "produce": {

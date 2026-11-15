@@ -101,7 +101,8 @@
             "zwei Nächte",
             "drei Nächte"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "La recepcionista lo dice: «ein Einzelzimmer für <b>drei Nächte</b>»."
         },
         {
           "id": "b21-s1q2",
@@ -111,7 +112,8 @@
             "Es pasado (Präteritum)",
             "Lo exige la palabra «Zimmer»"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>könnte</b> es Konjunktiv II: suaviza la petición y la hace más cortés que <i>kann</i>."
         },
         {
           "id": "b21-s1q3",
@@ -121,7 +123,8 @@
             "auf",
             "mit"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La fórmula fija es <b>auf den Namen</b> … («a nombre de»)."
         },
         {
           "id": "b21-s1q4",
@@ -131,7 +134,8 @@
             "a las 11:30",
             "a las 11:00"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«von sieben bis <b>halb elf</b>»: halb elf = las 10:30 (media hora antes de las once)."
         }
       ],
       "produce": {
@@ -164,7 +168,8 @@
             "richtig",
             "falsch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Falsch</b>: «Seit Montag arbeite ich…»; es su primera semana, no lleva un mes."
         },
         {
           "id": "b21-s2q2",
@@ -173,7 +178,8 @@
             "richtig",
             "falsch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Falsch</b>: «ihr Zimmer war noch nicht fertig»."
         },
         {
           "id": "b21-s2q3",
@@ -183,7 +189,8 @@
             "das Gepäck im Hotel zu lassen",
             "ein kostenloses Frühstück"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Lena les ofreció dejar las maletas: «ihre Koffer bei uns zu lassen»."
         },
         {
           "id": "b21-s2q4",
@@ -193,7 +200,8 @@
             "Die Heizung war kaputt.",
             "Das Frühstück war kalt."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«…weil die <b>Heizung</b> in seinem Zimmer nicht funktioniert hat»."
         },
         {
           "id": "b21-s2q5",
@@ -202,7 +210,8 @@
             "richtig",
             "falsch"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Richtig</b>: «Morgen habe ich Spätdienst – dann bin ich zum ersten Mal allein an der Rezeption»."
         }
       ],
       "produce": {
@@ -310,7 +319,8 @@
             "den Dom",
             "die Toilette"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Ich suche <b>den Dom</b>.»"
         },
         {
           "id": "b21-s3q2",
@@ -320,7 +330,8 @@
             "geradeaus und dann rechts",
             "immer nur rechts"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Gehen Sie hier <b>geradeaus</b> bis zur Ampel, dann <b>rechts</b>.»"
         },
         {
           "id": "b21-s3q3",
@@ -330,7 +341,8 @@
             "höchstens zehn Minuten",
             "fünf Sekunden"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«<b>Höchstens zehn Minuten.</b>»"
         },
         {
           "id": "b21-s3q4",
@@ -340,7 +352,8 @@
             "por favor",
             "lo siento"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Gern geschehen</b> responde a un «danke»: = de nada."
         }
       ],
       "produce": {
@@ -373,7 +386,8 @@
             "richtig",
             "falsch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Falsch</b>: el texto dice que la <b>puntualidad</b> es el signo de respeto, no llegar tarde."
         },
         {
           "id": "b21-s4q2",
@@ -383,7 +397,8 @@
             "genau auf die Sekunde",
             "ein bisschen zu spät"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«lieber zehn Minuten <b>zu früh</b> … als eine Minute zu spät»."
         },
         {
           "id": "b21-s4q3",
@@ -393,7 +408,8 @@
             "vorher kurz Bescheid sagen",
             "gar nicht mehr kommen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«…sollte <b>vorher kurz Bescheid sagen</b>» (avisar antes)."
         },
         {
           "id": "b21-s4q4",
@@ -403,7 +419,8 @@
             "Man kann sich auf Termine verlassen.",
             "Man muss nie warten."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Man kann sich darauf <b>verlassen</b>, dass Termine … wirklich stattfinden.»"
         },
         {
           "id": "b21-s4q5",
@@ -412,7 +429,8 @@
             "richtig",
             "falsch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Falsch</b>: «Im privaten Bereich ist man etwas <b>entspannter</b>.»"
         }
       ],
       "produce": {

@@ -146,7 +146,8 @@
             "wird",
             "hat"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pasiva de proceso = <b>werden</b> + participio: die Brücke <b>wird</b> gebaut."
         },
         {
           "id": "b13-s1q2",
@@ -156,7 +157,8 @@
             "von + Dativ",
             "durch + Dativ"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El agente de la pasiva va con <b>von + dativo</b>. <i>durch</i> indica el medio."
         },
         {
           "id": "b13-s1q3",
@@ -166,7 +168,8 @@
             "Hier arbeitet man wird viel.",
             "Hier ist viel gearbeitet."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Pasiva impersonal: <b>es</b> (omitido) + wird + participio: Hier wird viel gearbeitet."
         },
         {
           "id": "b13-s1q4",
@@ -176,7 +179,8 @@
             "hat",
             "ist"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Das Haus (singular) → <b>wird</b> verkauft."
         },
         {
           "id": "b13-s1q5",
@@ -186,7 +190,8 @@
             "werden",
             "sind"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Die Bücher (plural) → <b>werden</b> gelesen."
         },
         {
           "id": "b13-s1q6",
@@ -196,7 +201,8 @@
             "ist",
             "werden"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Se habla» → <b>wird</b> gesprochen."
         },
         {
           "id": "b13-s1q7",
@@ -206,7 +212,8 @@
             "en posición 2",
             "tras el sujeto"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Como en toda Satzklammer, el participio va <b>al final</b>."
         },
         {
           "id": "b13-s1q8",
@@ -216,7 +223,8 @@
             "für + Akkusativ",
             "von + Dativ"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Agente = <b>von + dativo</b>."
         },
         {
           "id": "b13-s1q9",
@@ -226,7 +234,8 @@
             "von",
             "mit"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Agente personal → <b>von</b> meinem Bruder."
         },
         {
           "id": "b13-s1q10",
@@ -236,7 +245,8 @@
             "wird",
             "wurde"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Die Pizza (singular) → <b>wird</b> gemacht."
         },
         {
           "id": "b13-s1q11",
@@ -246,7 +256,8 @@
             "hat",
             "ist"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Pasiva de proceso → <b>wird</b> geschlossen."
         },
         {
           "id": "b13-s1q12",
@@ -256,7 +267,8 @@
             "wird",
             "ist"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Plural → <b>werden</b> geschickt."
         },
         {
           "id": "b13-s1q13",
@@ -266,7 +278,8 @@
             "Der Kuchen wird gebacken.",
             "Der Kuchen wird backen."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "werden + participio: <b>gebacken</b> (backen es fuerte)."
         },
         {
           "id": "b13-s1q14",
@@ -276,7 +289,8 @@
             "wirst",
             "wird"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ich → <b>werde</b> eingeladen."
         },
         {
           "id": "b13-s1q15",
@@ -286,7 +300,8 @@
             "wurde ist",
             "wird"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>helfen</i> pide dativo, así que no hay sujeto: el verbo va en 3.ª singular (<b>wird</b>)."
         }
       ],
       "produce": {
@@ -450,7 +465,8 @@
             "war",
             "ist"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Pasiva en Präteritum → <b>wurde</b> + participio."
         },
         {
           "id": "b13-s2q2",
@@ -460,7 +476,8 @@
             "ist",
             "wurde"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Estado resultante → <b>sein</b> + participio: ist geöffnet."
         },
         {
           "id": "b13-s2q3",
@@ -470,7 +487,8 @@
             "worden",
             "werden"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En el Perfekt pasivo, werden pierde el ge-: ist geschickt <b>worden</b>."
         },
         {
           "id": "b13-s2q4",
@@ -480,7 +498,8 @@
             "wurde",
             "hat"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Präteritum pasivo → <b>wurde</b> verkauft."
         },
         {
           "id": "b13-s2q5",
@@ -490,7 +509,8 @@
             "wurde",
             "war"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Präteritum pasivo → sie <b>wurde</b> eingeladen."
         },
         {
           "id": "b13-s2q6",
@@ -500,7 +520,8 @@
             "werden",
             "worden"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Perfekt pasivo → ist repariert <b>worden</b>."
         },
         {
           "id": "b13-s2q7",
@@ -510,7 +531,8 @@
             "wurde",
             "wird"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Estado → <b>ist</b> geschlossen."
         },
         {
           "id": "b13-s2q8",
@@ -520,7 +542,8 @@
             "hatte",
             "wurde"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Acción en el pasado → <b>wurde</b> geöffnet."
         },
         {
           "id": "b13-s2q9",
@@ -530,7 +553,8 @@
             "geworden",
             "worden"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "sind geschickt <b>worden</b>."
         },
         {
           "id": "b13-s2q10",
@@ -540,7 +564,8 @@
             "von",
             "durch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Agente → <b>von</b> Picasso."
         },
         {
           "id": "b13-s2q11",
@@ -550,7 +575,8 @@
             "wird",
             "ist"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>offen</i> es adjetivo; estado → <b>ist</b>."
         },
         {
           "id": "b13-s2q12",
@@ -560,7 +586,8 @@
             "ist + Partizip II + worden",
             "war + Partizip II"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Perfekt pasivo = <b>ist + Partizip II + worden</b>."
         },
         {
           "id": "b13-s2q13",
@@ -570,7 +597,8 @@
             "el resultado",
             "la acción en curso"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La pasiva de estado describe <b>el resultado</b> de una acción."
         },
         {
           "id": "b13-s2q14",
@@ -580,7 +608,8 @@
             "Er wurde gestern operiert.",
             "Er ist gestern operiert geworden."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Präteritum pasivo: wurde + <b>operiert</b>."
         },
         {
           "id": "b13-s2q15",
@@ -590,7 +619,8 @@
             "war",
             "hat"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Estado en pasado → <b>war</b> geschlossen."
         }
       ],
       "produce": {
@@ -759,7 +789,8 @@
             "hätte",
             "hatte"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Condición irreal → Konjunktiv II: <b>hätte</b>."
         },
         {
           "id": "b13-s3q2",
@@ -769,7 +800,8 @@
             "würde",
             "war"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Konjunktiv II de sein → <b>wäre</b>."
         },
         {
           "id": "b13-s3q3",
@@ -779,7 +811,8 @@
             "ich würde gehen",
             "ich gehte"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En el habla, la mayoría de verbos usan <b>würde + infinitivo</b>; <i>ginge</i> suena literario."
         },
         {
           "id": "b13-s3q4",
@@ -789,7 +822,8 @@
             "hatte",
             "hätte"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Konjunktiv II de haben → <b>hätte</b>."
         },
         {
           "id": "b13-s3q5",
@@ -799,7 +833,8 @@
             "wäre",
             "bin"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Konjunktiv II de sein → <b>wäre</b>."
         },
         {
           "id": "b13-s3q6",
@@ -809,7 +844,8 @@
             "würde",
             "wäre"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>wäre</b> = sería."
         },
         {
           "id": "b13-s3q7",
@@ -819,7 +855,8 @@
             "hätte",
             "habe"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Petición cortés: Ich <b>hätte</b> gern…"
         },
         {
           "id": "b13-s3q8",
@@ -829,7 +866,8 @@
             "können",
             "könnten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "können → <b>könnten</b> (con diéresis)."
         },
         {
           "id": "b13-s3q9",
@@ -839,7 +877,8 @@
             "werde",
             "wurde"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Condicional → ich <b>würde</b> gehen."
         },
         {
           "id": "b13-s3q10",
@@ -849,7 +888,8 @@
             "wurde",
             "wäre"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "sein → <b>wäre</b>."
         },
         {
           "id": "b13-s3q11",
@@ -859,7 +899,8 @@
             "hatte",
             "habe"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "haben → <b>hätte</b>."
         },
         {
           "id": "b13-s3q12",
@@ -869,7 +910,8 @@
             "kannte",
             "konnte"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "können → <b>könnte</b>."
         },
         {
           "id": "b13-s3q13",
@@ -879,7 +921,8 @@
             "war",
             "wäre"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Wenn ich du <b>wäre</b>…"
         },
         {
           "id": "b13-s3q14",
@@ -889,7 +932,8 @@
             "hatten",
             "hätten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "wir → <b>hätten</b>."
         },
         {
           "id": "b13-s3q15",
@@ -899,7 +943,8 @@
             "Würdest",
             "Wirst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "du → <b>Würdest</b> du…? (con diéresis)."
         }
       ],
       "produce": {
@@ -1028,7 +1073,8 @@
             "Ich hätte gern",
             "Gib mir"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pedir con cortesía en una tienda: <b>Ich hätte gern</b>…"
         },
         {
           "id": "b13-s4q2",
@@ -1038,7 +1084,8 @@
             "sollst",
             "willst"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Consejo → <b>solltest</b> (Konjunktiv II de sollen)."
         },
         {
           "id": "b13-s4q3",
@@ -1048,7 +1095,8 @@
             "Können Sie mir helfen?",
             "Könnten Sie mir bitte helfen?"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Konjunktiv II + bitte es lo más cortés: <b>Könnten Sie mir bitte helfen?</b>"
         },
         {
           "id": "b13-s4q4",
@@ -1058,7 +1106,8 @@
             "Ich hätte gern",
             "Gib mir"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Ich hätte gern</b> ein Brot."
         },
         {
           "id": "b13-s4q5",
@@ -1068,7 +1117,8 @@
             "Können",
             "Könnten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Könnten</b> (Konjunktiv II) es más cortés que <i>können</i>."
         },
         {
           "id": "b13-s4q6",
@@ -1078,7 +1128,8 @@
             "sollst",
             "solltest"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "du → <b>solltest</b>."
         },
         {
           "id": "b13-s4q7",
@@ -1088,7 +1139,8 @@
             "bin",
             "war"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Deseo irreal → Wenn ich nur reich <b>wäre</b>!"
         },
         {
           "id": "b13-s4q8",
@@ -1098,7 +1150,8 @@
             "Hatte",
             "Hätte"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Deseo irreal → <b>Hätte</b> ich nur Zeit!"
         },
         {
           "id": "b13-s4q9",
@@ -1108,7 +1161,8 @@
             "War",
             "Wäre"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Wäre</b> es möglich?"
         },
         {
           "id": "b13-s4q10",
@@ -1118,7 +1172,8 @@
             "würde",
             "werde"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Consejo hipotético → ich <b>würde</b>."
         },
         {
           "id": "b13-s4q11",
@@ -1128,7 +1183,8 @@
             "sollte",
             "solltest"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "du → <b>solltest</b>."
         },
         {
           "id": "b13-s4q12",
@@ -1138,7 +1194,8 @@
             "werden",
             "würden"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "wir → <b>würden</b>."
         },
         {
           "id": "b13-s4q13",
@@ -1148,7 +1205,8 @@
             "Könntest",
             "Kannst du"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Könntest</b> du…?"
         },
         {
           "id": "b13-s4q14",
@@ -1158,7 +1216,8 @@
             "Können Sie mir helfen?",
             "Könnten Sie mir helfen?"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Konjunktiv II es la forma más cortés."
         },
         {
           "id": "b13-s4q15",
@@ -1168,7 +1227,8 @@
             "kann",
             "könnte"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Wenn ich nur <b>könnte</b>!"
         }
       ],
       "produce": {

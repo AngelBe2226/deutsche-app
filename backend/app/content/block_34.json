@@ -12,46 +12,134 @@
       "vocab": {
         "id": "b34-voc",
         "items": [
-          { "de": "der Arzt", "pl": "Ärzte", "es": "el médico" },
-          { "de": "die Ärztin", "pl": "Ärztinnen", "es": "la médica" },
-          { "de": "die Praxis", "pl": "Praxen", "es": "la consulta" },
-          { "de": "die Krankenkasse", "pl": "Krankenkassen", "es": "la mutua / seguro médico" },
-          { "de": "die Versichertenkarte", "pl": "Versichertenkarten", "es": "la tarjeta sanitaria" },
-          { "de": "die Beschwerden", "es": "las molestias / síntomas (plural)" },
-          { "de": "die Schmerzen", "es": "los dolores (plural)" },
-          { "de": "das Fieber", "es": "la fiebre" },
-          { "de": "die Erkältung", "pl": "Erkältungen", "es": "el resfriado" },
-          { "de": "der Husten", "es": "la tos" },
-          { "de": "das Rezept", "pl": "Rezepte", "es": "la receta" },
-          { "de": "die Apotheke", "pl": "Apotheken", "es": "la farmacia" },
-          { "de": "das Medikament", "pl": "Medikamente", "es": "el medicamento" },
-          { "de": "die Tablette", "pl": "Tabletten", "es": "la pastilla" },
-          { "de": "die Krankschreibung", "pl": "Krankschreibungen", "es": "la baja médica" },
-          { "de": "die Überweisung", "pl": "Überweisungen", "es": "el volante / derivación" },
-          { "de": "der Notfall", "pl": "Notfälle", "es": "la urgencia" },
-          { "de": "wehtun", "es": "doler" },
-          { "de": "sich fühlen", "es": "sentirse" },
-          { "de": "verschreiben", "es": "recetar" }
+          {
+            "de": "der Arzt",
+            "pl": "Ärzte",
+            "es": "el médico"
+          },
+          {
+            "de": "die Ärztin",
+            "pl": "Ärztinnen",
+            "es": "la médica"
+          },
+          {
+            "de": "die Praxis",
+            "pl": "Praxen",
+            "es": "la consulta"
+          },
+          {
+            "de": "die Krankenkasse",
+            "pl": "Krankenkassen",
+            "es": "la mutua / seguro médico"
+          },
+          {
+            "de": "die Versichertenkarte",
+            "pl": "Versichertenkarten",
+            "es": "la tarjeta sanitaria"
+          },
+          {
+            "de": "die Beschwerden",
+            "es": "las molestias / síntomas (plural)"
+          },
+          {
+            "de": "die Schmerzen",
+            "es": "los dolores (plural)"
+          },
+          {
+            "de": "das Fieber",
+            "es": "la fiebre"
+          },
+          {
+            "de": "die Erkältung",
+            "pl": "Erkältungen",
+            "es": "el resfriado"
+          },
+          {
+            "de": "der Husten",
+            "es": "la tos"
+          },
+          {
+            "de": "das Rezept",
+            "pl": "Rezepte",
+            "es": "la receta"
+          },
+          {
+            "de": "die Apotheke",
+            "pl": "Apotheken",
+            "es": "la farmacia"
+          },
+          {
+            "de": "das Medikament",
+            "pl": "Medikamente",
+            "es": "el medicamento"
+          },
+          {
+            "de": "die Tablette",
+            "pl": "Tabletten",
+            "es": "la pastilla"
+          },
+          {
+            "de": "die Krankschreibung",
+            "pl": "Krankschreibungen",
+            "es": "la baja médica"
+          },
+          {
+            "de": "die Überweisung",
+            "pl": "Überweisungen",
+            "es": "el volante / derivación"
+          },
+          {
+            "de": "der Notfall",
+            "pl": "Notfälle",
+            "es": "la urgencia"
+          },
+          {
+            "de": "wehtun",
+            "es": "doler"
+          },
+          {
+            "de": "sich fühlen",
+            "es": "sentirse"
+          },
+          {
+            "de": "verschreiben",
+            "es": "recetar"
+          }
         ]
       },
       "quiz": [
         {
           "id": "b34-s1q1",
           "question": "1. ¿Qué artículo lleva <i>Rezept</i>?",
-          "options": ["der", "die", "das"],
-          "correctIndex": 2
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "correctIndex": 2,
+          "explain": "<b>das</b> Rezept (la receta médica)."
         },
         {
           "id": "b34-s1q2",
           "question": "2. <i>die Krankschreibung</i> es…",
-          "options": ["la receta", "la baja médica", "la farmacia"],
-          "correctIndex": 1
+          "options": [
+            "la receta",
+            "la baja médica",
+            "la farmacia"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>die Krankschreibung</b> = la baja médica."
         },
         {
           "id": "b34-s1q3",
           "question": "3. «Me duele» → Es <span class=\"blank\">___</span> weh.",
-          "options": ["tut", "macht", "gibt"],
-          "correctIndex": 0
+          "options": [
+            "tut",
+            "macht",
+            "gibt"
+          ],
+          "correctIndex": 0,
+          "explain": "«Me duele» = <b>Es tut weh</b> (wehtun)."
         }
       ]
     },
@@ -62,18 +150,51 @@
       "rule": "Fórmulas para la consulta y la farmacia (todo en <b>Sie</b>). Dos patrones clave para el dolor: <b>«Ich habe … schmerzen»</b> (Kopf-, Hals-, Bauch-) y <b>«Mein/e … tut weh»</b>.",
       "tables": [
         {
-          "headers": ["Función", "Redemittel"],
+          "headers": [
+            "Función",
+            "Redemittel"
+          ],
           "rows": [
-            ["Pedir cita (teléfono)", "Ich hätte gern einen Termin, ich fühle mich nicht gut."],
-            ["Decir el síntoma", "Ich habe seit zwei Tagen Halsschmerzen und Fieber."],
-            ["Localizar el dolor", "Mein Rücken tut weh, besonders morgens."],
-            ["Describir cómo es", "Die Schmerzen sind stechend / dumpf / kommen und gehen."],
-            ["Responder al médico", "Nein, ich bin gegen nichts allergisch."],
-            ["En la farmacia", "Haben Sie etwas gegen Husten? Ohne Rezept?"],
-            ["Preguntar la toma", "Wie oft und wie lange muss ich das nehmen?"],
-            ["Pedir la baja", "Könnten Sie mich bitte krankschreiben?"],
-            ["Urgencia", "Es ist dringend — ich glaube, es ist ein Notfall."],
-            ["Agradecer", "Vielen Dank, Herr Doktor."]
+            [
+              "Pedir cita (teléfono)",
+              "Ich hätte gern einen Termin, ich fühle mich nicht gut."
+            ],
+            [
+              "Decir el síntoma",
+              "Ich habe seit zwei Tagen Halsschmerzen und Fieber."
+            ],
+            [
+              "Localizar el dolor",
+              "Mein Rücken tut weh, besonders morgens."
+            ],
+            [
+              "Describir cómo es",
+              "Die Schmerzen sind stechend / dumpf / kommen und gehen."
+            ],
+            [
+              "Responder al médico",
+              "Nein, ich bin gegen nichts allergisch."
+            ],
+            [
+              "En la farmacia",
+              "Haben Sie etwas gegen Husten? Ohne Rezept?"
+            ],
+            [
+              "Preguntar la toma",
+              "Wie oft und wie lange muss ich das nehmen?"
+            ],
+            [
+              "Pedir la baja",
+              "Könnten Sie mich bitte krankschreiben?"
+            ],
+            [
+              "Urgencia",
+              "Es ist dringend — ich glaube, es ist ein Notfall."
+            ],
+            [
+              "Agradecer",
+              "Vielen Dank, Herr Doktor."
+            ]
           ]
         }
       ],
@@ -93,7 +214,8 @@
             "Ich habe Halsschmerzen.",
             "Ich habe Zahnschmerzen."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Hals = garganta → <b>Halsschmerzen</b>. Kopf = cabeza; Zahn = diente."
         },
         {
           "id": "b34-s2q2",
@@ -103,7 +225,8 @@
             "Könnten Sie mich krankschreiben?",
             "Ich hätte gern einen Termin."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "En la farmacia: <b>Haben Sie etwas gegen Husten</b> (+ ohne Rezept)."
         }
       ]
     },
@@ -116,22 +239,76 @@
         "id": "gesundheit-praxis",
         "setting": "Hausarztpraxis Dr. Meier, Colonia · consulta, 11:00",
         "roles": {
-          "A": { "name": "Dr. Meier", "label": "Médico" },
-          "P": { "name": "Herr Yilmaz", "label": "Paciente" }
+          "A": {
+            "name": "Dr. Meier",
+            "label": "Médico"
+          },
+          "P": {
+            "name": "Herr Yilmaz",
+            "label": "Paciente"
+          }
         },
         "lines": [
-          { "who": "A", "de": "Guten Tag, Herr Yilmaz. Was führt Sie zu mir?", "es": "Buenos días, señor Yilmaz. ¿Qué le trae por aquí?" },
-          { "who": "P", "de": "Guten Tag. Ich fühle mich seit drei Tagen schlecht. Ich habe Halsschmerzen, Husten und etwas Fieber.", "es": "Buenos días. Llevo tres días sintiéndome mal. Tengo dolor de garganta, tos y algo de fiebre." },
-          { "who": "A", "de": "<b>Wie hoch ist das Fieber denn?</b>", "es": "¿Cuánta fiebre tiene?" },
-          { "who": "P", "de": "Heute Morgen waren es 38,5 Grad.", "es": "Esta mañana eran 38,5 grados." },
-          { "who": "A", "de": "Und der Husten — ist er trocken oder mit Schleim?", "es": "Y la tos, ¿es seca o con mucosidad?" },
-          { "who": "P", "de": "Eher trocken. Und das Schlucken tut weh.", "es": "Más bien seca. Y al tragar me duele." },
-          { "who": "A", "de": "Sind Sie gegen Medikamente allergisch?", "es": "¿Es alérgico a algún medicamento?" },
-          { "who": "P", "de": "Nein, gegen nichts.", "es": "No, a nada." },
-          { "who": "A", "de": "Gut. Das ist ein <b>grippaler Infekt</b>, nichts Schlimmes. Ich verschreibe Ihnen etwas gegen die Halsschmerzen. Trinken Sie viel und ruhen Sie sich aus.", "es": "Bien. Es un cuadro gripal, nada grave. Le receto algo para el dolor de garganta. Beba mucho y descanse." },
-          { "who": "P", "de": "Danke. Könnten Sie mich auch krankschreiben? Ich arbeite im Büro.", "es": "Gracias. ¿Podría darme también la baja? Trabajo en oficina." },
-          { "who": "A", "de": "Natürlich. Ich schreibe Sie für drei Tage krank. Wenn es nach einer Woche nicht besser ist, kommen Sie bitte wieder.", "es": "Por supuesto. Le doy la baja por tres días. Si en una semana no mejora, vuelva, por favor." },
-          { "who": "P", "de": "Vielen Dank, Herr Doktor.", "es": "Muchas gracias, doctor." }
+          {
+            "who": "A",
+            "de": "Guten Tag, Herr Yilmaz. Was führt Sie zu mir?",
+            "es": "Buenos días, señor Yilmaz. ¿Qué le trae por aquí?"
+          },
+          {
+            "who": "P",
+            "de": "Guten Tag. Ich fühle mich seit drei Tagen schlecht. Ich habe Halsschmerzen, Husten und etwas Fieber.",
+            "es": "Buenos días. Llevo tres días sintiéndome mal. Tengo dolor de garganta, tos y algo de fiebre."
+          },
+          {
+            "who": "A",
+            "de": "<b>Wie hoch ist das Fieber denn?</b>",
+            "es": "¿Cuánta fiebre tiene?"
+          },
+          {
+            "who": "P",
+            "de": "Heute Morgen waren es 38,5 Grad.",
+            "es": "Esta mañana eran 38,5 grados."
+          },
+          {
+            "who": "A",
+            "de": "Und der Husten — ist er trocken oder mit Schleim?",
+            "es": "Y la tos, ¿es seca o con mucosidad?"
+          },
+          {
+            "who": "P",
+            "de": "Eher trocken. Und das Schlucken tut weh.",
+            "es": "Más bien seca. Y al tragar me duele."
+          },
+          {
+            "who": "A",
+            "de": "Sind Sie gegen Medikamente allergisch?",
+            "es": "¿Es alérgico a algún medicamento?"
+          },
+          {
+            "who": "P",
+            "de": "Nein, gegen nichts.",
+            "es": "No, a nada."
+          },
+          {
+            "who": "A",
+            "de": "Gut. Das ist ein <b>grippaler Infekt</b>, nichts Schlimmes. Ich verschreibe Ihnen etwas gegen die Halsschmerzen. Trinken Sie viel und ruhen Sie sich aus.",
+            "es": "Bien. Es un cuadro gripal, nada grave. Le receto algo para el dolor de garganta. Beba mucho y descanse."
+          },
+          {
+            "who": "P",
+            "de": "Danke. Könnten Sie mich auch krankschreiben? Ich arbeite im Büro.",
+            "es": "Gracias. ¿Podría darme también la baja? Trabajo en oficina."
+          },
+          {
+            "who": "A",
+            "de": "Natürlich. Ich schreibe Sie für drei Tage krank. Wenn es nach einer Woche nicht besser ist, kommen Sie bitte wieder.",
+            "es": "Por supuesto. Le doy la baja por tres días. Si en una semana no mejora, vuelva, por favor."
+          },
+          {
+            "who": "P",
+            "de": "Vielen Dank, Herr Doktor.",
+            "es": "Muchas gracias, doctor."
+          }
         ]
       },
       "notes": [
@@ -145,20 +322,35 @@
         {
           "id": "b34-s3q1",
           "question": "1. Seit wann fühlt sich Herr Yilmaz schlecht?",
-          "options": ["seit heute", "seit drei Tagen", "seit einer Woche"],
-          "correctIndex": 1
+          "options": [
+            "seit heute",
+            "seit drei Tagen",
+            "seit einer Woche"
+          ],
+          "correctIndex": 1,
+          "explain": "«Ich fühle mich <b>seit drei Tagen</b> schlecht.»"
         },
         {
           "id": "b34-s3q2",
           "question": "2. Was hat er laut dem Arzt?",
-          "options": ["einen grippalen Infekt", "eine Allergie", "nichts"],
-          "correctIndex": 0
+          "options": [
+            "einen grippalen Infekt",
+            "eine Allergie",
+            "nichts"
+          ],
+          "correctIndex": 0,
+          "explain": "«Das ist <b>ein grippaler Infekt</b>, nichts Schlimmes.»"
         },
         {
           "id": "b34-s3q3",
           "question": "3. «krankschreiben» bedeutet…",
-          "options": ["recetar", "dar la baja médica", "derivar al especialista"],
-          "correctIndex": 1
+          "options": [
+            "recetar",
+            "dar la baja médica",
+            "derivar al especialista"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>krankschreiben</b> = dar la baja médica. Recetar = <i>verschreiben</i>."
         }
       ]
     },
@@ -170,7 +362,10 @@
       "roleplay": {
         "id": "b34-rp",
         "you": "Cliente",
-        "partner": { "name": "Herr Pohl", "label": "Farmacéutico" },
+        "partner": {
+          "name": "Herr Pohl",
+          "label": "Farmacéutico"
+        },
         "steps": [
           {
             "partner": "Guten Tag! Was kann ich für Sie tun?",

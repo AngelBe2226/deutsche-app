@@ -177,7 +177,8 @@
             "arbeitest",
             "arbeitet"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Si la raíz termina en <b>-t/-d</b> se intercala una <b>e</b>: du arbeit<b>e</b>st."
         },
         {
           "id": "b15-s1q2",
@@ -187,7 +188,8 @@
             "gekaufen",
             "kauft"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Verbo débil: ge- + raíz + -t → <b>gekauft</b>."
         },
         {
           "id": "b15-s1q3",
@@ -197,7 +199,8 @@
             "heißt",
             "heißest"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Si la raíz acaba en <b>-ß/-s/-z</b>, la terminación de du es solo <b>-t</b>: du heißt."
         },
         {
           "id": "b15-s1q4",
@@ -207,7 +210,8 @@
             "spielest",
             "spielst"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "du → <b>-st</b>: spielst."
         },
         {
           "id": "b15-s1q5",
@@ -217,7 +221,8 @@
             "wohnt",
             "wohnet"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "er → <b>-t</b>: wohnt."
         },
         {
           "id": "b15-s1q6",
@@ -227,7 +232,8 @@
             "macht",
             "machst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "ihr → <b>-t</b>: macht."
         },
         {
           "id": "b15-s1q7",
@@ -237,7 +243,8 @@
             "kochst",
             "kocht"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "wir → <b>-en</b>: kochen."
         },
         {
           "id": "b15-s1q8",
@@ -247,7 +254,8 @@
             "wartst",
             "wartest"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Raíz en -t → e intercalada: <b>wartest</b>."
         },
         {
           "id": "b15-s1q9",
@@ -257,7 +265,8 @@
             "arbeitt",
             "arbeitet"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "er + raíz en -t → <b>arbeitet</b>."
         },
         {
           "id": "b15-s1q10",
@@ -267,7 +276,8 @@
             "spielt",
             "gespielen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>gespielt</b>: ge- + raíz + -t."
         },
         {
           "id": "b15-s1q11",
@@ -277,7 +287,8 @@
             "gemachen",
             "gemacht"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>gemacht</b>."
         },
         {
           "id": "b15-s1q12",
@@ -287,7 +298,8 @@
             "wohnt",
             "gewohnen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>gewohnt</b>."
         },
         {
           "id": "b15-s1q13",
@@ -297,7 +309,8 @@
             "machete",
             "mache"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Präteritum débil: raíz + <b>-te</b> → machte."
         },
         {
           "id": "b15-s1q14",
@@ -307,7 +320,8 @@
             "lernete",
             "lernte"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "er lern<b>te</b>."
         },
         {
           "id": "b15-s1q15",
@@ -317,7 +331,8 @@
             "tanzest",
             "tanzst"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Raíz en -z → du <b>tanzt</b>."
         }
       ],
       "produce": {
@@ -492,7 +507,8 @@
             "sieht",
             "sehet"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Verbo fuerte e→ie con du/er: er <b>sieht</b>."
         },
         {
           "id": "b15-s2q2",
@@ -502,7 +518,8 @@
             "finden – fund – gefanden",
             "finden – fandte – gefindet"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Formas básicas de un fuerte: <b>finden – fand – gefunden</b>."
         },
         {
           "id": "b15-s2q3",
@@ -512,7 +529,8 @@
             "fährst",
             "fährt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "a→ä con du/er: du <b>fährst</b>."
         },
         {
           "id": "b15-s2q4",
@@ -522,7 +540,8 @@
             "sprecht",
             "sprechst"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "e→i: du <b>sprichst</b>."
         },
         {
           "id": "b15-s2q5",
@@ -532,7 +551,8 @@
             "esst",
             "isst"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "e→i: er <b>isst</b>."
         },
         {
           "id": "b15-s2q6",
@@ -542,7 +562,8 @@
             "lest",
             "liest"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "e→ie y raíz en -s: du <b>liest</b>."
         },
         {
           "id": "b15-s2q7",
@@ -552,7 +573,8 @@
             "fährst",
             "fahrt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "a→ä: er <b>fährt</b>."
         },
         {
           "id": "b15-s2q8",
@@ -562,7 +584,8 @@
             "schläfst",
             "schläft"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "a→ä: du <b>schläfst</b>."
         },
         {
           "id": "b15-s2q9",
@@ -572,7 +595,8 @@
             "hilfst",
             "hilft"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "e→i: er <b>hilft</b>."
         },
         {
           "id": "b15-s2q10",
@@ -582,7 +606,8 @@
             "nimmt",
             "nehmt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "e→i con doble m: er <b>nimmt</b>."
         },
         {
           "id": "b15-s2q11",
@@ -592,7 +617,8 @@
             "gehen – geht – gegehen",
             "gehen – gehte – gegeht"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>gehen – ging – gegangen</b>."
         },
         {
           "id": "b15-s2q12",
@@ -602,7 +628,8 @@
             "sehen – sah – gesahen",
             "sehen – sah – gesehen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>sehen – sah – gesehen</b>."
         },
         {
           "id": "b15-s2q13",
@@ -612,7 +639,8 @@
             "schreiben – schreibte – geschreibt",
             "schreiben – schrieb – geschriebt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ei→ie: <b>schreiben – schrieb – geschrieben</b>."
         },
         {
           "id": "b15-s2q14",
@@ -622,7 +650,8 @@
             "trunken",
             "getrinkt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "i→u: <b>getrunken</b>."
         },
         {
           "id": "b15-s2q15",
@@ -632,7 +661,8 @@
             "kamm",
             "kommte"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "kommen → <b>kam</b>."
         }
       ],
       "produce": {
@@ -822,7 +852,8 @@
             "Kennst",
             "Kannst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Conocer un lugar o persona = <b>kennen</b>. <i>wissen</i> es saber un dato."
         },
         {
           "id": "b15-s3q2",
@@ -832,7 +863,8 @@
             "brachte",
             "bringte"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "bringen es mixto: <b>brachte</b>."
         },
         {
           "id": "b15-s3q3",
@@ -842,7 +874,8 @@
             "seid",
             "seit"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "ihr <b>seid</b> (con d). <i>seit</i> es la preposición «desde»."
         },
         {
           "id": "b15-s3q4",
@@ -852,7 +885,8 @@
             "bist",
             "bin"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ich <b>bin</b>."
         },
         {
           "id": "b15-s3q5",
@@ -862,7 +896,8 @@
             "hat",
             "hast"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "du <b>hast</b>."
         },
         {
           "id": "b15-s3q6",
@@ -872,7 +907,8 @@
             "wirdt",
             "wirt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "er <b>wird</b>."
         },
         {
           "id": "b15-s3q7",
@@ -882,7 +918,8 @@
             "sind",
             "seid"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ihr <b>seid</b>."
         },
         {
           "id": "b15-s3q8",
@@ -892,7 +929,8 @@
             "hat",
             "habt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "wir <b>haben</b>."
         },
         {
           "id": "b15-s3q9",
@@ -902,7 +940,8 @@
             "weiß",
             "weisse"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "wissen: ich <b>weiß</b>."
         },
         {
           "id": "b15-s3q10",
@@ -912,7 +951,8 @@
             "weißt",
             "wisst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "du <b>weißt</b>."
         },
         {
           "id": "b15-s3q11",
@@ -922,7 +962,8 @@
             "bin gewesen",
             "war"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "sein → <b>war</b>."
         },
         {
           "id": "b15-s3q12",
@@ -932,7 +973,8 @@
             "habte",
             "haben"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "haben → <b>hatte</b>."
         },
         {
           "id": "b15-s3q13",
@@ -942,7 +984,8 @@
             "gedenkt",
             "gedachtet"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "denken es mixto: <b>gedacht</b>."
         },
         {
           "id": "b15-s3q14",
@@ -952,7 +995,8 @@
             "bringt",
             "gebringt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "bringen → <b>gebracht</b>."
         },
         {
           "id": "b15-s3q15",
@@ -962,7 +1006,8 @@
             "Weißt",
             "Kannst"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Conocer a una persona = <b>kennen</b>."
         }
       ],
       "produce": {
@@ -1130,7 +1175,8 @@
             "Lies!",
             "Liest!"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los verbos con e→ie mantienen el cambio en el imperativo de du: <b>Lies!</b>"
         },
         {
           "id": "b15-s4q2",
@@ -1140,7 +1186,8 @@
             "Wartet bitte!",
             "Warten Sie bitte einen Moment!"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Imperativo formal = infinitivo + <b>Sie</b>: Warten Sie bitte…"
         },
         {
           "id": "b15-s4q3",
@@ -1150,7 +1197,8 @@
             "Fahr!",
             "Fahrst!"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El cambio a→ä <b>no</b> pasa al imperativo: <b>Fahr!</b>"
         },
         {
           "id": "b15-s4q4",
@@ -1160,7 +1208,8 @@
             "Kommt!",
             "Kommst!"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Imperativo de du = raíz: <b>Komm!</b>"
         },
         {
           "id": "b15-s4q5",
@@ -1170,7 +1219,8 @@
             "Nehm!",
             "Nimm!"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "e→i se mantiene: <b>Nimm!</b>"
         },
         {
           "id": "b15-s4q6",
@@ -1180,7 +1230,8 @@
             "Sprech!",
             "Sprich!"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "e→i se mantiene: <b>Sprich!</b>"
         },
         {
           "id": "b15-s4q7",
@@ -1190,7 +1241,8 @@
             "Liest!",
             "Les!"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "e→ie se mantiene: <b>Lies!</b>"
         },
         {
           "id": "b15-s4q8",
@@ -1200,7 +1252,8 @@
             "Fahr!",
             "Fährt!"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Sin diéresis: <b>Fahr!</b>"
         },
         {
           "id": "b15-s4q9",
@@ -1210,7 +1263,8 @@
             "Kommen!",
             "Kommt!"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ihr → forma del presente sin pronombre: <b>Kommt!</b>"
         },
         {
           "id": "b15-s4q10",
@@ -1220,7 +1274,8 @@
             "Komm Sie!",
             "Kommen Sie!"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Sie → <b>Kommen Sie!</b>"
         },
         {
           "id": "b15-s4q11",
@@ -1230,7 +1285,8 @@
             "Sein!",
             "Bist!"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "sein (du) → <b>Sei!</b>"
         },
         {
           "id": "b15-s4q12",
@@ -1240,7 +1296,8 @@
             "Seid!",
             "Seit!"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "sein (ihr) → <b>Seid!</b>"
         },
         {
           "id": "b15-s4q13",
@@ -1250,7 +1307,8 @@
             "Seid Sie!",
             "Seien Sie!"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "sein (Sie) → <b>Seien Sie!</b>"
         },
         {
           "id": "b15-s4q14",
@@ -1260,7 +1318,8 @@
             "Ruf an!",
             "Anruf!"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Separable: el prefijo va al final → <b>Ruf an!</b>"
         },
         {
           "id": "b15-s4q15",
@@ -1270,7 +1329,8 @@
             "Steh auf!",
             "Stehst auf!"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Steh auf!</b>"
         }
       ],
       "produce": {

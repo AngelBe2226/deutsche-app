@@ -73,18 +73,27 @@ export default function WordTip() {
     };
   }, [open, close]);
 
-  // Posición: debajo de la palabra o, si no cabe, encima.
+  // Posición: debajo de la palabra o, si no cabe, encima. Se recalcula si
+  // la caja cambia de tamaño (p. ej. al cargar la conjugación).
   const [pos, setPos] = useState(null);
   useLayoutEffect(() => {
     if (!tip || !boxRef.current) return setPos(null);
-    const b = boxRef.current.getBoundingClientRect();
-    const r = tip.rect;
-    const vw = window.innerWidth;
-    const vh = window.innerHeight;
-    let left = Math.min(Math.max(8, r.left + r.width / 2 - b.width / 2), vw - b.width - 8);
-    let top = r.bottom + 8;
-    if (top + b.height > vh - 8 && r.top - b.height - 8 > 8) top = r.top - b.height - 8;
-    setPos({ left, top });
+    const place = () => {
+      const box = boxRef.current;
+      if (!box) return;
+      const b = box.getBoundingClientRect();
+      const r = tip.rect;
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const left = Math.min(Math.max(8, r.left + r.width / 2 - b.width / 2), vw - b.width - 8);
+      let top = r.bottom + 8;
+      if (top + b.height > vh - 8 && r.top - b.height - 8 > 8) top = r.top - b.height - 8;
+      setPos({ left, top });
+    };
+    place();
+    const ro = typeof ResizeObserver !== "undefined" ? new ResizeObserver(place) : null;
+    ro?.observe(boxRef.current);
+    return () => ro?.disconnect();
   }, [tip]);
 
   if (!tip) return null;

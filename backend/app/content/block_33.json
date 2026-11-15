@@ -12,34 +12,115 @@
       "vocab": {
         "id": "b33-voc",
         "items": [
-          { "de": "das Amt", "pl": "Ämter", "es": "la oficina pública" },
-          { "de": "die Behörde", "pl": "Behörden", "es": "la administración / organismo" },
-          { "de": "die Anmeldung", "pl": "Anmeldungen", "es": "el empadronamiento / registro" },
-          { "de": "der Antrag", "pl": "Anträge", "es": "la solicitud" },
-          { "de": "das Formular", "pl": "Formulare", "es": "el formulario" },
-          { "de": "die Unterschrift", "pl": "Unterschriften", "es": "la firma" },
-          { "de": "die Bescheinigung", "pl": "Bescheinigungen", "es": "el certificado / justificante" },
-          { "de": "die Meldebescheinigung", "pl": "Meldebescheinigungen", "es": "el certificado de empadronamiento" },
-          { "de": "der Aufenthaltstitel", "pl": "Aufenthaltstitel", "es": "el permiso de residencia" },
-          { "de": "der Personalausweis", "pl": "Personalausweise", "es": "el DNI (alemán)" },
-          { "de": "der Reisepass", "pl": "Reisepässe", "es": "el pasaporte" },
-          { "de": "die Gebühr", "pl": "Gebühren", "es": "la tasa" },
-          { "de": "der Termin", "pl": "Termine", "es": "la cita" },
-          { "de": "die Wartenummer", "pl": "Wartenummern", "es": "el número de turno" },
-          { "de": "das Konto", "pl": "Konten", "es": "la cuenta (bancaria)" },
-          { "de": "der Nachweis", "pl": "Nachweise", "es": "el comprobante / prueba" },
-          { "de": "beantragen", "es": "solicitar (formalmente)" },
-          { "de": "ausfüllen", "es": "rellenar (un formulario)" },
-          { "de": "unterschreiben", "es": "firmar" },
-          { "de": "vorlegen", "es": "presentar (un documento)" }
+          {
+            "de": "das Amt",
+            "pl": "Ämter",
+            "es": "la oficina pública"
+          },
+          {
+            "de": "die Behörde",
+            "pl": "Behörden",
+            "es": "la administración / organismo"
+          },
+          {
+            "de": "die Anmeldung",
+            "pl": "Anmeldungen",
+            "es": "el empadronamiento / registro"
+          },
+          {
+            "de": "der Antrag",
+            "pl": "Anträge",
+            "es": "la solicitud"
+          },
+          {
+            "de": "das Formular",
+            "pl": "Formulare",
+            "es": "el formulario"
+          },
+          {
+            "de": "die Unterschrift",
+            "pl": "Unterschriften",
+            "es": "la firma"
+          },
+          {
+            "de": "die Bescheinigung",
+            "pl": "Bescheinigungen",
+            "es": "el certificado / justificante"
+          },
+          {
+            "de": "die Meldebescheinigung",
+            "pl": "Meldebescheinigungen",
+            "es": "el certificado de empadronamiento"
+          },
+          {
+            "de": "der Aufenthaltstitel",
+            "pl": "Aufenthaltstitel",
+            "es": "el permiso de residencia"
+          },
+          {
+            "de": "der Personalausweis",
+            "pl": "Personalausweise",
+            "es": "el DNI (alemán)"
+          },
+          {
+            "de": "der Reisepass",
+            "pl": "Reisepässe",
+            "es": "el pasaporte"
+          },
+          {
+            "de": "die Gebühr",
+            "pl": "Gebühren",
+            "es": "la tasa"
+          },
+          {
+            "de": "der Termin",
+            "pl": "Termine",
+            "es": "la cita"
+          },
+          {
+            "de": "die Wartenummer",
+            "pl": "Wartenummern",
+            "es": "el número de turno"
+          },
+          {
+            "de": "das Konto",
+            "pl": "Konten",
+            "es": "la cuenta (bancaria)"
+          },
+          {
+            "de": "der Nachweis",
+            "pl": "Nachweise",
+            "es": "el comprobante / prueba"
+          },
+          {
+            "de": "beantragen",
+            "es": "solicitar (formalmente)"
+          },
+          {
+            "de": "ausfüllen",
+            "es": "rellenar (un formulario)"
+          },
+          {
+            "de": "unterschreiben",
+            "es": "firmar"
+          },
+          {
+            "de": "vorlegen",
+            "es": "presentar (un documento)"
+          }
         ]
       },
       "quiz": [
         {
           "id": "b33-s1q1",
           "question": "1. Plural de <i>das Amt</i>:",
-          "options": ["die Amts", "die Ämter", "die Amten"],
-          "correctIndex": 1
+          "options": [
+            "die Amts",
+            "die Ämter",
+            "die Amten"
+          ],
+          "correctIndex": 1,
+          "explain": "das Amt → <b>die Ämter</b>: diéresis + -er, como Haus → Häuser."
         },
         {
           "id": "b33-s1q2",
@@ -49,13 +130,19 @@
             "el permiso de residencia",
             "la cuenta bancaria"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>die Meldebescheinigung</b> = certificado de empadronamiento. El permiso de residencia es <i>der Aufenthaltstitel</i>."
         },
         {
           "id": "b33-s1q3",
           "question": "3. «rellenar un formulario» → ein Formular <span class=\"blank\">___</span>.",
-          "options": ["ausfüllen", "vorlegen", "unterschreiben"],
-          "correctIndex": 0
+          "options": [
+            "ausfüllen",
+            "vorlegen",
+            "unterschreiben"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>ein Formular ausfüllen</b> = rellenarlo. <i>vorlegen</i> = presentar; <i>unterschreiben</i> = firmar."
         }
       ]
     },
@@ -66,18 +153,51 @@
       "rule": "Fórmulas para cualquier Amt. Todo en <b>Sie</b>. La frase más útil cuando no entiendes algo: pedir que te lo repitan o te lo expliquen más despacio — no te quedes con la duda.",
       "tables": [
         {
-          "headers": ["Función", "Redemittel"],
+          "headers": [
+            "Función",
+            "Redemittel"
+          ],
           "rows": [
-            ["Explicar a qué vienes", "Ich möchte mich anmelden. / Ich möchte ein Konto eröffnen."],
-            ["Decir que tienes cita", "Ich habe einen Termin um 10 Uhr auf den Namen …"],
-            ["Entregar documentos", "Hier sind mein Pass und der Mietvertrag."],
-            ["Preguntar qué falta", "Welche Unterlagen brauchen Sie noch von mir?"],
-            ["Pedir aclaración", "Entschuldigung, das habe ich nicht ganz verstanden. Könnten Sie das bitte wiederholen?"],
-            ["Pedir que hable más despacio", "Könnten Sie bitte etwas langsamer sprechen?"],
-            ["Preguntar por la tasa", "Was kostet das, und kann ich mit Karte zahlen?"],
-            ["Preguntar por plazos", "Wann bekomme ich die Bescheinigung?"],
-            ["Pedir ayuda con el formulario", "Könnten Sie mir beim Ausfüllen helfen?"],
-            ["Despedirse", "Vielen Dank für Ihre Hilfe!"]
+            [
+              "Explicar a qué vienes",
+              "Ich möchte mich anmelden. / Ich möchte ein Konto eröffnen."
+            ],
+            [
+              "Decir que tienes cita",
+              "Ich habe einen Termin um 10 Uhr auf den Namen …"
+            ],
+            [
+              "Entregar documentos",
+              "Hier sind mein Pass und der Mietvertrag."
+            ],
+            [
+              "Preguntar qué falta",
+              "Welche Unterlagen brauchen Sie noch von mir?"
+            ],
+            [
+              "Pedir aclaración",
+              "Entschuldigung, das habe ich nicht ganz verstanden. Könnten Sie das bitte wiederholen?"
+            ],
+            [
+              "Pedir que hable más despacio",
+              "Könnten Sie bitte etwas langsamer sprechen?"
+            ],
+            [
+              "Preguntar por la tasa",
+              "Was kostet das, und kann ich mit Karte zahlen?"
+            ],
+            [
+              "Preguntar por plazos",
+              "Wann bekomme ich die Bescheinigung?"
+            ],
+            [
+              "Pedir ayuda con el formulario",
+              "Könnten Sie mir beim Ausfüllen helfen?"
+            ],
+            [
+              "Despedirse",
+              "Vielen Dank für Ihre Hilfe!"
+            ]
           ]
         }
       ],
@@ -97,7 +217,8 @@
             "Könnten Sie das bitte wiederholen?",
             "Das ist mir egal."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Si no entiendes, pide que lo repitan con cortesía: <b>Könnten Sie das bitte wiederholen?</b>"
         },
         {
           "id": "b33-s2q2",
@@ -107,7 +228,8 @@
             "Wie viel kostet das?",
             "Wo ist der Ausgang?"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>die Unterlagen</b> = los documentos: Welche Unterlagen brauchen Sie noch?"
         }
       ]
     },
@@ -120,22 +242,76 @@
         "id": "behoerden-anmeldung",
         "setting": "Bürgeramt Mitte, Berlín · ventanilla 7, cita de las 09:30",
         "roles": {
-          "S": { "name": "Herr Franke", "label": "Funcionario" },
-          "B": { "name": "Frau Ortiz", "label": "Ciudadana" }
+          "S": {
+            "name": "Herr Franke",
+            "label": "Funcionario"
+          },
+          "B": {
+            "name": "Frau Ortiz",
+            "label": "Ciudadana"
+          }
         },
         "lines": [
-          { "who": "S", "de": "Guten Morgen. Wie kann ich Ihnen helfen?", "es": "Buenos días. ¿En qué puedo ayudarle?" },
-          { "who": "B", "de": "Guten Morgen. Ich möchte mich anmelden. Ich habe einen Termin um 9:30 auf den Namen Ortiz.", "es": "Buenos días. Quiero empadronarme. Tengo cita a las 9:30 a nombre de Ortiz." },
-          { "who": "S", "de": "Sehr gut, Frau Ortiz. Haben Sie das Anmeldeformular schon ausgefüllt?", "es": "Muy bien, señora Ortiz. ¿Ha rellenado ya el formulario de registro?" },
-          { "who": "B", "de": "Ja, hier bitte. Welche Unterlagen brauchen Sie noch?", "es": "Sí, aquí tiene. ¿Qué documentos necesita todavía?" },
-          { "who": "S", "de": "Ihren Pass und die <b>Wohnungsgeberbestätigung</b> vom Vermieter.", "es": "Su pasaporte y la confirmación del arrendador (Wohnungsgeberbestätigung)." },
-          { "who": "B", "de": "Hier ist mein Pass. Und die Bestätigung … Moment … ja, hier.", "es": "Aquí está mi pasaporte. Y la confirmación… un momento… sí, aquí." },
-          { "who": "S", "de": "Danke. <b>Einen Moment, bitte</b>, ich trage alles ein.", "es": "Gracias. Un momento, por favor, lo registro todo." },
-          { "who": "B", "de": "Kostet die Anmeldung etwas?", "es": "¿Cuesta algo el empadronamiento?" },
-          { "who": "S", "de": "Nein, die Anmeldung ist kostenlos. Hier ist Ihre Meldebescheinigung. Bitte unterschreiben Sie noch hier unten.", "es": "No, el empadronamiento es gratuito. Aquí tiene su certificado de empadronamiento. Firme aquí abajo, por favor." },
-          { "who": "B", "de": "Gern. Brauche ich die Bescheinigung für die Bank?", "es": "Con gusto. ¿Necesito el certificado para el banco?" },
-          { "who": "S", "de": "Ja, genau — für das Konto und oft auch für den Arbeitsvertrag. Bewahren Sie sie gut auf. Alles erledigt!", "es": "Sí, exacto: para la cuenta y a menudo también para el contrato de trabajo. Guárdelo bien. ¡Todo listo!" },
-          { "who": "B", "de": "Vielen Dank für Ihre Hilfe!", "es": "¡Muchas gracias por su ayuda!" }
+          {
+            "who": "S",
+            "de": "Guten Morgen. Wie kann ich Ihnen helfen?",
+            "es": "Buenos días. ¿En qué puedo ayudarle?"
+          },
+          {
+            "who": "B",
+            "de": "Guten Morgen. Ich möchte mich anmelden. Ich habe einen Termin um 9:30 auf den Namen Ortiz.",
+            "es": "Buenos días. Quiero empadronarme. Tengo cita a las 9:30 a nombre de Ortiz."
+          },
+          {
+            "who": "S",
+            "de": "Sehr gut, Frau Ortiz. Haben Sie das Anmeldeformular schon ausgefüllt?",
+            "es": "Muy bien, señora Ortiz. ¿Ha rellenado ya el formulario de registro?"
+          },
+          {
+            "who": "B",
+            "de": "Ja, hier bitte. Welche Unterlagen brauchen Sie noch?",
+            "es": "Sí, aquí tiene. ¿Qué documentos necesita todavía?"
+          },
+          {
+            "who": "S",
+            "de": "Ihren Pass und die <b>Wohnungsgeberbestätigung</b> vom Vermieter.",
+            "es": "Su pasaporte y la confirmación del arrendador (Wohnungsgeberbestätigung)."
+          },
+          {
+            "who": "B",
+            "de": "Hier ist mein Pass. Und die Bestätigung … Moment … ja, hier.",
+            "es": "Aquí está mi pasaporte. Y la confirmación… un momento… sí, aquí."
+          },
+          {
+            "who": "S",
+            "de": "Danke. <b>Einen Moment, bitte</b>, ich trage alles ein.",
+            "es": "Gracias. Un momento, por favor, lo registro todo."
+          },
+          {
+            "who": "B",
+            "de": "Kostet die Anmeldung etwas?",
+            "es": "¿Cuesta algo el empadronamiento?"
+          },
+          {
+            "who": "S",
+            "de": "Nein, die Anmeldung ist kostenlos. Hier ist Ihre Meldebescheinigung. Bitte unterschreiben Sie noch hier unten.",
+            "es": "No, el empadronamiento es gratuito. Aquí tiene su certificado de empadronamiento. Firme aquí abajo, por favor."
+          },
+          {
+            "who": "B",
+            "de": "Gern. Brauche ich die Bescheinigung für die Bank?",
+            "es": "Con gusto. ¿Necesito el certificado para el banco?"
+          },
+          {
+            "who": "S",
+            "de": "Ja, genau — für das Konto und oft auch für den Arbeitsvertrag. Bewahren Sie sie gut auf. Alles erledigt!",
+            "es": "Sí, exacto: para la cuenta y a menudo también para el contrato de trabajo. Guárdelo bien. ¡Todo listo!"
+          },
+          {
+            "who": "B",
+            "de": "Vielen Dank für Ihre Hilfe!",
+            "es": "¡Muchas gracias por su ayuda!"
+          }
         ]
       },
       "notes": [
@@ -149,14 +325,24 @@
         {
           "id": "b33-s3q1",
           "question": "1. Was möchte Frau Ortiz machen?",
-          "options": ["ein Konto eröffnen", "sich anmelden", "einen Pass beantragen"],
-          "correctIndex": 1
+          "options": [
+            "ein Konto eröffnen",
+            "sich anmelden",
+            "einen Pass beantragen"
+          ],
+          "correctIndex": 1,
+          "explain": "«Ich möchte <b>mich anmelden</b>» (empadronarse)."
         },
         {
           "id": "b33-s3q2",
           "question": "2. Was kostet die Anmeldung?",
-          "options": ["30 Euro", "nichts, sie ist kostenlos", "10 Euro"],
-          "correctIndex": 1
+          "options": [
+            "30 Euro",
+            "nichts, sie ist kostenlos",
+            "10 Euro"
+          ],
+          "correctIndex": 1,
+          "explain": "«Nein, die Anmeldung ist <b>kostenlos</b>.»"
         },
         {
           "id": "b33-s3q3",
@@ -166,7 +352,8 @@
             "nur zum Reisen",
             "für gar nichts"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«…für das <b>Konto</b> und oft auch für den <b>Arbeitsvertrag</b>.»"
         }
       ]
     },
@@ -178,7 +365,10 @@
       "roleplay": {
         "id": "b33-rp",
         "you": "Cliente",
-        "partner": { "name": "Frau Daum", "label": "Empleada del banco" },
+        "partner": {
+          "name": "Frau Daum",
+          "label": "Empleada del banco"
+        },
         "steps": [
           {
             "partner": "Guten Tag! Was kann ich für Sie tun?",

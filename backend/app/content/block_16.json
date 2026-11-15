@@ -215,7 +215,8 @@
             "Das ist mir Wurst!",
             "Du hast einen Vogel!"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Ich drücke dir die Daumen</b> («te aprieto los pulgares») = te deseo suerte. <i>Das ist mir Wurst</i> = me da igual."
         },
         {
           "id": "b16-s1q2",
@@ -225,7 +226,8 @@
             "No entiendo nada",
             "Entiendo un poco"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Ich verstehe nur Bahnhof</b> = «no entiendo nada», como «me suena a chino»."
         },
         {
           "id": "b16-s1q3",
@@ -235,7 +237,8 @@
             "Das ist mir Käse.",
             "Das ist mir Brot."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "La expresión fija es <b>Das ist mir Wurst</b> («me es salchicha»); las otras no existen."
         },
         {
           "id": "b16-s1q4",
@@ -245,7 +248,8 @@
             "Klacks",
             "Hammer"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>ein Klacks</b> = algo facilísimo, «pan comido». <i>der Hammer</i> = algo impresionante."
         },
         {
           "id": "b16-s1q5",
@@ -255,7 +259,8 @@
             "no es asunto mío",
             "no tengo sed"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>nicht mein Bier</b> = no es asunto mío."
         },
         {
           "id": "b16-s1q6",
@@ -265,7 +270,8 @@
             "estoy listo para salir",
             "estoy muy contento"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>fix und fertig</b> = agotado, hecho polvo."
         },
         {
           "id": "b16-s1q7",
@@ -275,7 +281,8 @@
             "hace frío",
             "es lo mismo"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Jacke wie Hose</b> («chaqueta como pantalón») = da lo mismo."
         },
         {
           "id": "b16-s1q8",
@@ -285,7 +292,8 @@
             "Das ist Jacke wie Hose.",
             "Das ist der Hammer."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Si te da igual: <b>Das ist Jacke wie Hose</b>."
         },
         {
           "id": "b16-s1q9",
@@ -295,7 +303,8 @@
             "estar enfadado",
             "tener fiebre"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Feuer und Flamme</b> = entusiasmado."
         },
         {
           "id": "b16-s1q10",
@@ -305,7 +314,8 @@
             "no te preocupes",
             "no pienses en nada"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Mach dir keinen Kopf</b> = no te preocupes."
         },
         {
           "id": "b16-s1q11",
@@ -315,7 +325,8 @@
             "¡es pesado!",
             "¡es caro!"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Das ist der Hammer!</b> = ¡es genial! (o increíble)."
         },
         {
           "id": "b16-s1q12",
@@ -325,7 +336,8 @@
             "todo termina mal",
             "bien está lo que bien acaba"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Ende gut, alles gut</b> = bien está lo que bien acaba."
         },
         {
           "id": "b16-s1q13",
@@ -335,7 +347,8 @@
             "ya es hora",
             "es demasiado pronto"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>höchste Zeit</b> = ya es hora (incluso tarde)."
         },
         {
           "id": "b16-s1q14",
@@ -345,7 +358,8 @@
             "Das kannst du vergessen!",
             "Das ist ein Klacks!"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Das kannst du vergessen!</b> = ¡ni hablar!"
         },
         {
           "id": "b16-s1q15",
@@ -355,7 +369,8 @@
             "todo en orden",
             "estar gordo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Alles in Butter</b> = todo en orden."
         }
       ],
       "produce": {
@@ -548,7 +563,8 @@
             "die Katze im Sack",
             "einen bunten Hund"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>aus einer Mücke einen Elefanten machen</b> = hacer una montaña de un grano de arena."
         },
         {
           "id": "b16-s2q2",
@@ -558,7 +574,8 @@
             "die Katze im Sack kaufen",
             "Schwein haben"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>die Katze im Sack kaufen</b> = comprar sin ver, «a ciegas»."
         },
         {
           "id": "b16-s2q3",
@@ -568,7 +585,8 @@
             "auf die Palme bringen",
             "ein Hühnchen rupfen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>die Flinte ins Korn werfen</b> («tirar la escopeta al trigo») = rendirse."
         },
         {
           "id": "b16-s2q4",
@@ -578,7 +596,8 @@
             "miedo",
             "incredulidad burlona"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Da lachen ja die Hühner</b> = «¡no me hagas reír!»: incredulidad burlona."
         },
         {
           "id": "b16-s2q5",
@@ -588,7 +607,8 @@
             "atar algo",
             "cazar un oso"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>jemandem einen Bären aufbinden</b> = tomar el pelo con una mentira."
         },
         {
           "id": "b16-s2q6",
@@ -598,7 +618,8 @@
             "cazador",
             "miedoso"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Angsthase</b> («liebre del miedo») = miedica."
         },
         {
           "id": "b16-s2q7",
@@ -608,7 +629,8 @@
             "muy caro",
             "para el gato"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>für die Katz</b> = en vano, para nada."
         },
         {
           "id": "b16-s2q8",
@@ -618,7 +640,8 @@
             "estar enamorado/nervioso",
             "estar enfermo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Schmetterlinge im Bauch</b> = mariposas en el estómago: enamorado o nervioso."
         },
         {
           "id": "b16-s2q9",
@@ -628,7 +651,8 @@
             "tener un gato",
             "tener resaca"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>einen Kater haben</b> = tener resaca (Kater = gato macho)."
         },
         {
           "id": "b16-s2q10",
@@ -638,7 +662,8 @@
             "mudo",
             "mojado"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>wie ein Fisch im Wasser</b> = como pez en el agua, muy a gusto."
         },
         {
           "id": "b16-s2q11",
@@ -648,7 +673,8 @@
             "robar caballos",
             "ser un ladrón"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>mit jemandem Pferde stehlen können</b> = poder contar con él para lo que sea."
         },
         {
           "id": "b16-s2q12",
@@ -658,7 +684,8 @@
             "hay un problema",
             "el ratón tiene hambre"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Da beißt die Maus keinen Faden ab</b> = no hay nada que hacer, es así."
         },
         {
           "id": "b16-s2q13",
@@ -668,7 +695,8 @@
             "Ich arbeite wie eine Katze.",
             "Ich arbeite wie ein Fisch."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Trabajar mucho = <b>wie ein Pferd arbeiten</b>."
         },
         {
           "id": "b16-s2q14",
@@ -678,7 +706,8 @@
             "wie eine Maus",
             "wie ein Fisch im Wasser"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>wie ein Elefant im Porzellanladen</b> = como elefante en cacharrería."
         },
         {
           "id": "b16-s2q15",
@@ -688,7 +717,8 @@
             "Ich habe einen Vogel.",
             "Ich habe einen Frosch im Hals."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>einen Frosch im Hals haben</b> = tener carraspera."
         }
       ],
       "produce": {
@@ -881,7 +911,8 @@
             "hat kalte Füße",
             "hat Haare auf den Zähnen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Hand und Fuß haben</b> = estar bien fundado, tener sentido."
         },
         {
           "id": "b16-s3q2",
@@ -891,7 +922,8 @@
             "kalte Füße",
             "lange Beine"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>kalte Füße bekommen</b> = echarse atrás por miedo."
         },
         {
           "id": "b16-s3q3",
@@ -901,7 +933,8 @@
             "auf großem Fuß leben",
             "die Ohren spitzen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>ins kalte Wasser springen</b> = lanzarse sin preparación."
         },
         {
           "id": "b16-s3q4",
@@ -911,7 +944,8 @@
             "no oigo",
             "tengo una oreja grande"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>ganz Ohr sein</b> = ser todo oídos."
         },
         {
           "id": "b16-s3q5",
@@ -921,7 +955,8 @@
             "tener frío",
             "ignorar a alguien"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>jemandem die kalte Schulter zeigen</b> = ignorar a alguien."
         },
         {
           "id": "b16-s3q6",
@@ -931,7 +966,8 @@
             "llevar mochila",
             "cargar poco"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>auf die leichte Schulter nehmen</b> = tomarse a la ligera."
         },
         {
           "id": "b16-s3q7",
@@ -941,7 +977,8 @@
             "me quito un peso de encima",
             "tengo una piedra"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Mir fällt ein Stein vom Herzen</b> = me quito un peso de encima."
         },
         {
           "id": "b16-s3q8",
@@ -951,7 +988,8 @@
             "tomar el pelo",
             "abrazar"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>jemanden auf den Arm nehmen</b> = tomar el pelo."
         },
         {
           "id": "b16-s3q9",
@@ -961,7 +999,8 @@
             "tener labia",
             "callarse"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>nicht auf den Mund gefallen sein</b> = tener labia."
         },
         {
           "id": "b16-s3q10",
@@ -971,7 +1010,8 @@
             "Hals- und Beinbruch!",
             "Kopf hoch!"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Hals- und Beinbruch!</b> = ¡mucha suerte! (como «¡rómpete una pierna!»)."
         },
         {
           "id": "b16-s3q11",
@@ -981,7 +1021,8 @@
             "Mir platzt der Kragen!",
             "Hals- und Beinbruch!"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Kopf hoch!</b> = ¡ánimo!"
         },
         {
           "id": "b16-s3q12",
@@ -991,7 +1032,8 @@
             "salir corriendo",
             "pedir ayuda"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>die Beine in die Hand nehmen</b> = salir corriendo."
         },
         {
           "id": "b16-s3q13",
@@ -1001,7 +1043,8 @@
             "tengo el cuello roto",
             "me quito el abrigo"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Mir platzt der Kragen</b> = se me acaba la paciencia."
         },
         {
           "id": "b16-s3q14",
@@ -1011,7 +1054,8 @@
             "abrazar",
             "agarrar por debajo"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>jemandem unter die Arme greifen</b> = echar una mano."
         },
         {
           "id": "b16-s3q15",
@@ -1021,7 +1065,8 @@
             "se me hace la boca agua",
             "estoy llorando"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Das Wasser läuft mir im Mund zusammen</b> = se me hace la boca agua."
         }
       ],
       "produce": {

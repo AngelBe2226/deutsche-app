@@ -146,7 +146,8 @@
             "Ich wohne seit zwei Jahren in Berlin.",
             "Ich wohnte seit zwei Jahren in Berlin."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Una acción que empezó en el pasado y sigue se expresa con <b>Präsens + seit</b> (+ dativo): seit zwei Jahren."
         },
         {
           "id": "b10-s1q2",
@@ -156,7 +157,8 @@
             "Ich esse gerade.",
             "Ich bin essend."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El alemán no tiene gerundio: «estoy comiendo» = Präsens (+ <b>gerade</b>, si se quiere subrayar)."
         },
         {
           "id": "b10-s1q3",
@@ -166,7 +168,8 @@
             "Präsens + morgen",
             "Perfekt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Para planes concretos basta el <b>Präsens + marca temporal</b> (morgen). El Futur I no es obligatorio."
         },
         {
           "id": "b10-s1q4",
@@ -176,7 +179,8 @@
             "für",
             "vor"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Llevar … haciendo» = Präsens + <b>seit</b>. <i>vor</i> = hace; <i>für</i> = durante (planificado)."
         },
         {
           "id": "b10-s1q5",
@@ -186,7 +190,8 @@
             "arbeite",
             "arbeiten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Sin gerundio: ich <b>arbeite</b> gerade."
         },
         {
           "id": "b10-s1q6",
@@ -196,7 +201,8 @@
             "fahre",
             "fahren wird"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Futuro cercano = Präsens: Morgen <b>fahre</b> ich (verbo en 2.ª posición)."
         },
         {
           "id": "b10-s1q7",
@@ -206,7 +212,8 @@
             "vor",
             "in"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Präsens + <b>seit</b> + dativo plural."
         },
         {
           "id": "b10-s1q8",
@@ -216,7 +223,8 @@
             "Ich lese gerade.",
             "Ich bin am lesend."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Präsens + <b>gerade</b>; <i>Ich bin lesen</i> no existe."
         },
         {
           "id": "b10-s1q9",
@@ -226,7 +234,8 @@
             "beginnst",
             "beginnen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Futuro con Präsens; der Kurs (es) → <b>beginnt</b>."
         },
         {
           "id": "b10-s1q10",
@@ -236,7 +245,8 @@
             "für",
             "seit"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Acción que continúa → <b>seit</b>."
         },
         {
           "id": "b10-s1q11",
@@ -246,7 +256,8 @@
             "geht",
             "gehst"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>ausgehen</i> con wir → <b>gehen</b> … aus."
         },
         {
           "id": "b10-s1q12",
@@ -256,7 +267,8 @@
             "Von",
             "Für"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«¿Desde cuándo?» = <b>Seit wann</b>."
         },
         {
           "id": "b10-s1q13",
@@ -266,7 +278,8 @@
             "siempre Perfekt",
             "siempre Futur I"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "El futuro cotidiano se expresa con <b>Präsens + marca temporal</b>."
         },
         {
           "id": "b10-s1q14",
@@ -276,7 +289,8 @@
             "schläft",
             "ist schlafend"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Simplemente <b>schläft</b> (+ gerade); <i>am schlafen</i> es coloquial regional."
         },
         {
           "id": "b10-s1q15",
@@ -286,7 +300,8 @@
             "gesehen",
             "sah"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Futuro con Präsens: wir <b>sehen</b> uns am Montag."
         }
       ],
       "produce": {
@@ -444,7 +459,8 @@
             "sind",
             "waren"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>gehen</i> es un verbo de movimiento → Perfekt con <b>sein</b>: wir <b>sind</b> gegangen."
         },
         {
           "id": "b10-s2q2",
@@ -454,7 +470,8 @@
             "gelesen",
             "geliest"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>lesen</i> es fuerte: participio en <b>-en</b>: <b>gelesen</b>."
         },
         {
           "id": "b10-s2q3",
@@ -464,7 +481,8 @@
             "studiert",
             "gestudieren"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los verbos en <b>-ieren</b> no llevan ge-: <b>studiert</b>."
         },
         {
           "id": "b10-s2q4",
@@ -474,7 +492,8 @@
             "macht",
             "gemacht"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Verbo débil: ge- + raíz + <b>-t</b> → <b>gemacht</b>."
         },
         {
           "id": "b10-s2q5",
@@ -484,7 +503,8 @@
             "getrinkt",
             "getrunken"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Fuerte con cambio vocálico i→u: <b>getrunken</b>."
         },
         {
           "id": "b10-s2q6",
@@ -494,7 +514,8 @@
             "gesieht",
             "gesehen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Fuerte: <b>gesehen</b> (participio en -en)."
         },
         {
           "id": "b10-s2q7",
@@ -504,7 +525,8 @@
             "gegessen",
             "gegesst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Irregular: <b>gegessen</b> (con -g- intercalada)."
         },
         {
           "id": "b10-s2q8",
@@ -514,7 +536,8 @@
             "kauft",
             "gekauft"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Débil: <b>gekauft</b>."
         },
         {
           "id": "b10-s2q9",
@@ -524,7 +547,8 @@
             "geschrieben",
             "schrieben"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Fuerte ei→ie: <b>geschrieben</b>."
         },
         {
           "id": "b10-s2q10",
@@ -534,7 +558,8 @@
             "gekommen",
             "kommen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Fuerte: <b>gekommen</b>, con sein."
         },
         {
           "id": "b10-s2q11",
@@ -544,7 +569,8 @@
             "gefahren ist",
             "gefahren"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Fuerte: <b>gefahren</b>; el auxiliar <i>sind</i> ya está en la frase."
         },
         {
           "id": "b10-s2q12",
@@ -554,7 +580,8 @@
             "besucht",
             "gebesucht"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Prefijo inseparable be- → sin ge-: <b>besucht</b>."
         },
         {
           "id": "b10-s2q13",
@@ -564,7 +591,8 @@
             "telefoniert",
             "getelefoniert"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "-ieren → sin ge-: <b>telefoniert</b>."
         },
         {
           "id": "b10-s2q14",
@@ -574,7 +602,8 @@
             "waren",
             "haben"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Movimiento (gehen) → <b>sind</b>."
         },
         {
           "id": "b10-s2q15",
@@ -584,7 +613,8 @@
             "wird",
             "hat"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>lesen</i> lleva objeto (transitivo) → <b>hat</b>."
         }
       ],
       "produce": {
@@ -753,7 +783,8 @@
             "Gestern war ich zu Hause.",
             "Gestern wurde ich zu Hause."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Con <i>sein</i> (y haben y modales) se prefiere el Präteritum incluso hablando: <b>war</b>."
         },
         {
           "id": "b10-s3q2",
@@ -763,7 +794,8 @@
             "kann",
             "gekonnt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Los modales usan Präteritum en el habla: <b>konnte</b>."
         },
         {
           "id": "b10-s3q3",
@@ -773,7 +805,8 @@
             "En una novela o noticia",
             "Solo en poesía"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El Präteritum de verbos como <i>gehen</i> es típico de la <b>lengua escrita</b> (narración, noticias)."
         },
         {
           "id": "b10-s3q4",
@@ -783,7 +816,8 @@
             "hatte",
             "war"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "haben → Präteritum <b>hatte</b>."
         },
         {
           "id": "b10-s3q5",
@@ -793,7 +827,8 @@
             "war",
             "wurde"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "sein → <b>war</b>."
         },
         {
           "id": "b10-s3q6",
@@ -803,7 +838,8 @@
             "wollen",
             "gewollt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "wollen → <b>wollte</b>."
         },
         {
           "id": "b10-s3q7",
@@ -813,7 +849,8 @@
             "können",
             "kannten"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "können → wir <b>konnten</b> (sin diéresis). <i>kannten</i> es de kennen."
         },
         {
           "id": "b10-s3q8",
@@ -823,7 +860,8 @@
             "musste",
             "muss"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "müssen → <b>musste</b>. <i>müsste</i> es Konjunktiv II."
         },
         {
           "id": "b10-s3q9",
@@ -833,7 +871,8 @@
             "gibt",
             "gab"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "geben → <b>gab</b>: es gab = había."
         },
         {
           "id": "b10-s3q10",
@@ -843,7 +882,8 @@
             "geht",
             "gegangen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "gehen → <b>ging</b>."
         },
         {
           "id": "b10-s3q11",
@@ -853,7 +893,8 @@
             "sieht",
             "sah"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "sehen → <b>sah</b>."
         },
         {
           "id": "b10-s3q12",
@@ -863,7 +904,8 @@
             "kommt",
             "gekommen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "kommen → <b>kam</b>."
         },
         {
           "id": "b10-s3q13",
@@ -873,7 +915,8 @@
             "sagte",
             "sagt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Verbo débil: sag + <b>-te</b>."
         },
         {
           "id": "b10-s3q14",
@@ -883,7 +926,8 @@
             "wusste",
             "weiß"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "wissen es mixto: <b>wusste</b>."
         },
         {
           "id": "b10-s3q15",
@@ -893,7 +937,8 @@
             "gedacht",
             "dachte"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "denken es mixto: <b>dachte</b>."
         }
       ],
       "produce": {
@@ -1018,7 +1063,8 @@
             "hatte",
             "ist"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Lo anterior a otro pasado → Plusquamperfekt: <b>hatte</b> + participio (machen va con haben)."
         },
         {
           "id": "b10-s4q2",
@@ -1028,7 +1074,8 @@
             "war",
             "hatte"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>beginnen</i> va con haben → <b>hatte</b> begonnen."
         },
         {
           "id": "b10-s4q3",
@@ -1038,7 +1085,8 @@
             "war",
             "ist"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>abfahren</i> (movimiento) va con sein → <b>war</b> abgefahren."
         },
         {
           "id": "b10-s4q4",
@@ -1048,7 +1096,8 @@
             "habe",
             "war"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "essen va con haben → nachdem ich gegessen <b>hatte</b>."
         },
         {
           "id": "b10-s4q5",
@@ -1058,7 +1107,8 @@
             "ist",
             "hatte"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>vorbei sein</i>: aquí <b>war</b> es el verbo sein en Präteritum (estaba terminado)."
         },
         {
           "id": "b10-s4q6",
@@ -1068,7 +1118,8 @@
             "war",
             "hatte"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "gehen con sein → <b>war</b> gegangen."
         },
         {
           "id": "b10-s4q7",
@@ -1078,7 +1129,8 @@
             "hat",
             "hatte"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "lesen con haben → <b>hatte</b> gelesen."
         },
         {
           "id": "b10-s4q8",
@@ -1088,7 +1140,8 @@
             "ich war gegessen",
             "ich aß gehabt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Se cambia el auxiliar al Präteritum: <b>hatte gegessen</b>."
         },
         {
           "id": "b10-s4q9",
@@ -1098,7 +1151,8 @@
             "er hatte gegangen",
             "er ging gewesen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Con sein: <b>war gegangen</b>."
         },
         {
           "id": "b10-s4q10",
@@ -1108,7 +1162,8 @@
             "hatte",
             "war"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ankommen va con sein → angekommen <b>war</b>."
         },
         {
           "id": "b10-s4q11",
@@ -1118,7 +1173,8 @@
             "haben",
             "hatten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "frühstücken va con haben → gefrühstückt <b>hatten</b>."
         },
         {
           "id": "b10-s4q12",
@@ -1128,7 +1184,8 @@
             "hatten",
             "waren"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "abfahren con sein → <b>waren</b> abgefahren."
         },
         {
           "id": "b10-s4q13",
@@ -1138,7 +1195,8 @@
             "hat",
             "war"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "vergessen con haben → <b>hatte</b> vergessen."
         },
         {
           "id": "b10-s4q14",
@@ -1148,7 +1206,8 @@
             "Nachdem ich aß, hatte ich weggegangen.",
             "Nachdem ich gegessen habe, ging ich weg."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras <i>nachdem</i> + Plusquamperfekt (gegessen hatte), la principal en Präteritum (ging)."
         },
         {
           "id": "b10-s4q15",
@@ -1158,7 +1217,8 @@
             "habe/bin + Partizip II",
             "hatte/war + Partizip II"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Plusquamperfekt = <b>hatte/war</b> + Partizip II."
         }
       ],
       "produce": {
@@ -1287,7 +1347,8 @@
             "werde",
             "wurde"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Futur I = <b>werden</b> + infinitivo: Ich werde dich anrufen."
         },
         {
           "id": "b10-s5q2",
@@ -1297,7 +1358,8 @@
             "schon gerne",
             "doch mal"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>werden</i> + <b>wohl</b> expresa suposición sobre el presente."
         },
         {
           "id": "b10-s5q3",
@@ -1307,7 +1369,8 @@
             "gelesen haben",
             "gelesen sein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Futur II = werden + participio + <b>haben</b>: gelesen haben."
         },
         {
           "id": "b10-s5q4",
@@ -1317,7 +1380,8 @@
             "wurde",
             "will"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ich → <b>werde</b>."
         },
         {
           "id": "b10-s5q5",
@@ -1327,7 +1391,8 @@
             "wurde",
             "wird"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "es → <b>wird</b>."
         },
         {
           "id": "b10-s5q6",
@@ -1337,7 +1402,8 @@
             "mal",
             "gern"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Suposición: wird <b>wohl</b>."
         },
         {
           "id": "b10-s5q7",
@@ -1347,7 +1413,8 @@
             "wirst",
             "werde"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ich <b>werde</b>."
         },
         {
           "id": "b10-s5q8",
@@ -1357,7 +1424,8 @@
             "werden + infinitivo",
             "haben + Partizip II"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Futur I = <b>werden + infinitivo</b>."
         },
         {
           "id": "b10-s5q9",
@@ -1367,7 +1435,8 @@
             "werden + Partizip II + haben/sein",
             "wurde + Partizip II"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Futur II = werden + Partizip II + haben/sein."
         },
         {
           "id": "b10-s5q10",
@@ -1377,7 +1446,8 @@
             "werden",
             "wird"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "sie (ellos) → <b>werden</b>."
         },
         {
           "id": "b10-s5q11",
@@ -1387,7 +1457,8 @@
             "wird",
             "werde"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "du → <b>wirst</b>."
         },
         {
           "id": "b10-s5q12",
@@ -1397,7 +1468,8 @@
             "bin",
             "werde"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ich → <b>werde</b> … gelesen haben."
         },
         {
           "id": "b10-s5q13",
@@ -1407,7 +1479,8 @@
             "angekommen sein",
             "angekommen haben"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "ankommen va con sein → <b>angekommen sein</b>."
         },
         {
           "id": "b10-s5q14",
@@ -1417,7 +1490,8 @@
             "werden",
             "wurden"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "sie (ellos) → <b>werden</b>."
         },
         {
           "id": "b10-s5q15",
@@ -1427,7 +1501,8 @@
             "wurden",
             "wird"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "wir → <b>werden</b> sehen."
         }
       ],
       "produce": {

@@ -195,7 +195,8 @@
             "aufmacht … —",
             "macht … zu"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>aufmachen</i> se separa: <b>macht</b> … <b>auf</b>. <i>zu</i> significaría cerrar."
         },
         {
           "id": "b11-s1q2",
@@ -205,7 +206,8 @@
             "Ich rufe dich heute Abend an.",
             "Ich rufe an dich heute Abend."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>anrufen</i>: el verbo va 2.º y el prefijo <b>an</b> al final."
         },
         {
           "id": "b11-s1q3",
@@ -215,7 +217,8 @@
             "Ich muss kaufen ein.",
             "Ich einkaufen muss."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Con modal, el separable va entero en infinitivo al final: muss <b>einkaufen</b>."
         },
         {
           "id": "b11-s1q4",
@@ -225,7 +228,8 @@
             "anfängt … —",
             "fängt … ab"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>anfangen</i> → <b>fängt</b> … <b>an</b>."
         },
         {
           "id": "b11-s1q5",
@@ -235,7 +239,8 @@
             "kaufen … ein",
             "einkaufen … —"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>einkaufen</i> → kaufen … <b>ein</b>."
         },
         {
           "id": "b11-s1q6",
@@ -245,7 +250,8 @@
             "mit",
             "ein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>mitkommen</i> → kommst du <b>mit</b>?"
         },
         {
           "id": "b11-s1q7",
@@ -255,7 +261,8 @@
             "stehe … an",
             "stehe … auf"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>aufstehen</i> → <b>stehe</b> … <b>auf</b>."
         },
         {
           "id": "b11-s1q8",
@@ -265,7 +272,8 @@
             "hole … ab",
             "hole … aus"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>abholen</i> → <b>hole</b> … <b>ab</b>."
         },
         {
           "id": "b11-s1q9",
@@ -275,7 +283,8 @@
             "macht … zu",
             "macht … auf"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>zumachen</i> (cerrar) → macht … <b>zu</b>."
         },
         {
           "id": "b11-s1q10",
@@ -285,7 +294,8 @@
             "sieht … fern",
             "fernsieht … —"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>fernsehen</i> → sieht … <b>fern</b>."
         },
         {
           "id": "b11-s1q11",
@@ -295,7 +305,8 @@
             "ankommt … —",
             "kommt … an"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>ankommen</i> → kommt … <b>an</b>. <i>ab</i> sería salir."
         },
         {
           "id": "b11-s1q12",
@@ -305,7 +316,8 @@
             "Ich rufe dich morgen an.",
             "Ich rufe an dich morgen."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Prefijo al final: Ich rufe dich morgen <b>an</b>."
         },
         {
           "id": "b11-s1q13",
@@ -315,7 +327,8 @@
             "Ich muss anrufen dich.",
             "Ich muss dich anrufen."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Modal + infinitivo completo al final: muss dich <b>anrufen</b>."
         },
         {
           "id": "b11-s1q14",
@@ -325,7 +338,8 @@
             "Wir laden ein euch.",
             "Wir einladen euch."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>einladen</i> → laden euch <b>ein</b>."
         },
         {
           "id": "b11-s1q15",
@@ -335,7 +349,8 @@
             "En posición 1",
             "Al final de la frase"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "En presente (frase principal) el prefijo separable va <b>al final</b>."
         }
       ],
       "produce": {
@@ -464,7 +479,8 @@
             "angerufen",
             "anrufen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En separables, <b>ge-</b> va entre el prefijo y la raíz: an<b>ge</b>rufen."
         },
         {
           "id": "b11-s2q2",
@@ -474,7 +490,8 @@
             "aufzustehen",
             "auf zu stehen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>zu</b> se intercala entre prefijo y raíz, todo junto: auf<b>zu</b>stehen."
         },
         {
           "id": "b11-s2q3",
@@ -484,7 +501,8 @@
             "abfährt",
             "ab fährt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En subordinada el separable vuelve a unirse al final: <b>abfährt</b>."
         },
         {
           "id": "b11-s2q4",
@@ -494,7 +512,8 @@
             "einkaufen",
             "eingekauft"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ein + ge + kauft → <b>eingekauft</b>."
         },
         {
           "id": "b11-s2q5",
@@ -504,7 +523,8 @@
             "aufgemacht",
             "aufmachen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "auf + ge + macht → <b>aufgemacht</b>."
         },
         {
           "id": "b11-s2q6",
@@ -514,7 +534,8 @@
             "abfahren",
             "geabfahren"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ab + ge + fahren → <b>abgefahren</b>."
         },
         {
           "id": "b11-s2q7",
@@ -524,7 +545,8 @@
             "mitkommen",
             "gemitkommen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "mit + ge + kommen → <b>mitgekommen</b>."
         },
         {
           "id": "b11-s2q8",
@@ -534,7 +556,8 @@
             "ferngesehen",
             "ferngeseht"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "fern + ge + sehen → <b>ferngesehen</b>."
         },
         {
           "id": "b11-s2q9",
@@ -544,7 +567,8 @@
             "zu aufstehen",
             "auf zustehen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "zu-infinitivo de un separable: <b>aufzustehen</b>."
         },
         {
           "id": "b11-s2q10",
@@ -554,7 +578,8 @@
             "an zurufen",
             "zu anrufen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>anzurufen</b>, en una sola palabra."
         },
         {
           "id": "b11-s2q11",
@@ -564,7 +589,8 @@
             "ein zu kaufen",
             "zu einkaufen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>einzukaufen</b>."
         },
         {
           "id": "b11-s2q12",
@@ -574,7 +600,8 @@
             "kommt an",
             "an kommt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Subordinada → separable unido al final: <b>ankommt</b>."
         },
         {
           "id": "b11-s2q13",
@@ -584,7 +611,8 @@
             "auf macht",
             "aufmacht"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "weil … <b>aufmacht</b>."
         },
         {
           "id": "b11-s2q14",
@@ -594,7 +622,8 @@
             "angerufen",
             "anrufen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "an + ge + rufen → <b>angerufen</b>."
         },
         {
           "id": "b11-s2q15",
@@ -604,7 +633,8 @@
             "ausgestiegen",
             "aussteigen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "aus + ge + stiegen → <b>ausgestiegen</b>."
         }
       ],
       "produce": {
@@ -801,7 +831,8 @@
             "verstanden",
             "verstehen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>ver-</i> es inseparable → participio sin ge-: <b>verstanden</b>."
         },
         {
           "id": "b11-s3q2",
@@ -811,7 +842,8 @@
             "Ich besuche dich morgen.",
             "Ich buche dich morgen se."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>be-</i> nunca se separa: <b>Ich besuche dich</b>."
         },
         {
           "id": "b11-s3q3",
@@ -821,7 +853,8 @@
             "Porque be- es prefijo inseparable átono",
             "Porque termina en -en"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los prefijos inseparables son átonos y el participio no lleva <b>ge-</b>."
         },
         {
           "id": "b11-s3q4",
@@ -831,7 +864,8 @@
             "gebekommen",
             "bekommt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "be- → sin ge-: <b>bekommen</b> (igual que el infinitivo)."
         },
         {
           "id": "b11-s3q5",
@@ -841,7 +875,8 @@
             "geerklärt",
             "erklärt"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "er- → sin ge-: <b>erklärt</b>."
         },
         {
           "id": "b11-s3q6",
@@ -851,7 +886,8 @@
             "geverkauft",
             "verkauft"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ver- → <b>verkauft</b>."
         },
         {
           "id": "b11-s3q7",
@@ -861,7 +897,8 @@
             "vergessene",
             "gevergessen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ver- → <b>vergessen</b>."
         },
         {
           "id": "b11-s3q8",
@@ -871,7 +908,8 @@
             "besuchen",
             "besucht"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "be- → <b>besucht</b>."
         },
         {
           "id": "b11-s3q9",
@@ -881,7 +919,8 @@
             "gegehört",
             "gehört"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ge- ya es prefijo inseparable → <b>gehört</b>."
         },
         {
           "id": "b11-s3q10",
@@ -891,7 +930,8 @@
             "empfehlt",
             "geempfohlen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "emp- inseparable; fuerte e→o: <b>empfohlen</b>."
         },
         {
           "id": "b11-s3q11",
@@ -901,7 +941,8 @@
             "verlieren",
             "verloren"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ver- → <b>verloren</b>."
         },
         {
           "id": "b11-s3q12",
@@ -911,7 +952,8 @@
             "verstehen",
             "geverstanden"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ver- → <b>verstanden</b>."
         },
         {
           "id": "b11-s3q13",
@@ -921,7 +963,8 @@
             "Ich besuche dich morgen.",
             "Ich suche dich morgen be."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>besuchen</b> es inseparable: no se parte."
         },
         {
           "id": "b11-s3q14",
@@ -931,7 +974,8 @@
             "Er hat mich gebesucht.",
             "Er hat mich besucht."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>besuchen</i> es transitivo → haben; inseparable → sin ge-: <b>hat mich besucht</b>."
         },
         {
           "id": "b11-s3q15",
@@ -941,7 +985,8 @@
             "inseparables",
             "separables"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "be-, ver-, er-, ent-, emp-, ge-, miss-, zer- son <b>inseparables</b>."
         }
       ],
       "produce": {
@@ -1070,7 +1115,8 @@
             "Wir ziehen nach Köln um.",
             "Wir ziehen um nach Köln um."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>umziehen</i> (mudarse, literal y acentuado) es separable: ziehen … <b>um</b>."
         },
         {
           "id": "b11-s4q2",
@@ -1080,7 +1126,8 @@
             "Sie übersetzt den Roman.",
             "Sie setzt über den Roman."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>übersetzen</i> (traducir, figurado) es inseparable: <b>übersetzt</b>; «novela» es <i>der Roman</i>."
         },
         {
           "id": "b11-s4q3",
@@ -1090,7 +1137,8 @@
             "el acento: literal-acentuado-separable / figurado-átono-inseparable",
             "la longitud del verbo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Literal y acentuado en el prefijo → separable; figurado y átono → inseparable."
         },
         {
           "id": "b11-s4q4",
@@ -1100,7 +1148,8 @@
             "Wir ziehen um um.",
             "Wir ziehen um."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Wir ziehen um</b>."
         },
         {
           "id": "b11-s4q5",
@@ -1110,7 +1159,8 @@
             "Ich übersetz.",
             "Ich setze über."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Traducir» es inseparable: <b>Ich übersetze</b>."
         },
         {
           "id": "b11-s4q6",
@@ -1120,7 +1170,8 @@
             "Er unterschreibt hier.",
             "Er unterschreibt unter."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>unterschreiben</i> es inseparable: <b>unterschreibt</b>."
         },
         {
           "id": "b11-s4q7",
@@ -1130,7 +1181,8 @@
             "Ich übernachte hier.",
             "Ich nachte hier über."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>übernachten</i> es inseparable: <b>übernachte</b>."
         },
         {
           "id": "b11-s4q8",
@@ -1140,7 +1192,8 @@
             "übergesetzt",
             "übersetzt"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Inseparable → sin ge-: <b>übersetzt</b>."
         },
         {
           "id": "b11-s4q9",
@@ -1150,7 +1203,8 @@
             "umgezogen",
             "geumzogen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Separable → ge- en medio: <b>umgezogen</b>."
         },
         {
           "id": "b11-s4q10",
@@ -1160,7 +1214,8 @@
             "geunterschrieben",
             "untergeschrieben"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Inseparable → <b>unterschrieben</b>."
         },
         {
           "id": "b11-s4q11",
@@ -1170,7 +1225,8 @@
             "wiederholt",
             "gewiederholt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Repetir» es inseparable → <b>wiederholt</b>."
         },
         {
           "id": "b11-s4q12",
@@ -1180,7 +1236,8 @@
             "übergeraschen",
             "geüberrascht"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Inseparable → <b>überrascht</b>."
         },
         {
           "id": "b11-s4q13",
@@ -1190,7 +1247,8 @@
             "inseparable, átono",
             "siempre inseparable"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Significado literal → <b>separable</b> y con acento en el prefijo."
         },
         {
           "id": "b11-s4q14",
@@ -1200,7 +1258,8 @@
             "siempre separable",
             "inseparable, átono"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Significado figurado → <b>inseparable</b> y átono."
         },
         {
           "id": "b11-s4q15",
@@ -1210,7 +1269,8 @@
             "Er dreht um sich.",
             "Er umdreht sich."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>sich umdrehen</i> es separable: dreht sich <b>um</b>."
         }
       ],
       "produce": {

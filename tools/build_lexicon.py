@@ -18,6 +18,7 @@ import glob, json, os, re, sys, collections
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import lex_tokens  # noqa: E402
+from lex_core import BLOCK, CORE  # noqa: E402
 
 CACHE = os.path.join(HERE, ".cache")
 PUBLIC = os.path.join(HERE, "..", "frontend", "public")
@@ -263,6 +264,14 @@ def main():
                     continue
                 add(f, lid, POS_RANK.get(pos, 9) + 1, tags_es(fo.get("tags", [])))
 
+    # Lemas bloqueados
+    for f in list(form_map):
+        for lid in list(form_map[f]):
+            if lid in BLOCK or (lemmas.get(lid, {}).get("en") or [""])[0].startswith("nominalization of"):
+                del form_map[f][lid]
+        if not form_map[f]:
+            del form_map[f]
+
     # Sustantivos basura: siglas y letras sueltas («AB», «A») que chocan con
     # palabras corrientes a principio de frase.
     for f in list(form_map):
@@ -341,6 +350,27 @@ def main():
             used.add(lid)
         out_forms[f] = row
     out_lemmas = {lid: {k: v for k, v in lemmas[lid].items() if v} for lid in used}
+
+    # Diccionario base revisado a mano: sustituye a lo automático
+    core_ids = {}
+    for f, entries in CORE.items():
+        if f not in forms_set:
+            continue
+        row = []
+        for lemma, pos, es, desc in entries:
+            key = (lemma, pos, es)
+            if key not in core_ids:
+                core_ids[key] = f"{lemma}|{pos}|c{len(core_ids)}"
+            lid = core_ids[key]
+            out_lemmas[lid] = {"w": lemma, "pos": pos, "es": [es]}
+            row.append([lid, desc] if desc else [lid])
+        # conserva la entrada verbal automática si existe (p. ej. «sein» verbo)
+        for r in out_forms.get(f, []):
+            if out_lemmas.get(r[0], {}).get("pos") == "verb" and len(row) < 3:
+                row.append(r)
+        out_forms[f] = row
+    used = {r[0] for rows in out_forms.values() for r in rows}
+    out_lemmas = {k: v for k, v in out_lemmas.items() if k in used}
 
     missing_forms = sorted(forms_set - set(out_forms))
     no_meaning = sorted({l["w"] + "|" + l["pos"] for l in out_lemmas.values() if not l.get("es")})

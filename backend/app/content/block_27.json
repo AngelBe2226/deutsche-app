@@ -89,7 +89,8 @@
             "Eine Teilnahme ist meinerseits nicht möglich.",
             "Ich schaff's nicht."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La nominalización (Teilnahme) y <i>meinerseits</i> son típicas del registro <b>burocrático</b>."
         },
         {
           "id": "b27-s1q2",
@@ -99,7 +100,8 @@
             "Su solicitud ha sido aceptada",
             "Su solicitud ha sido rechazada"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>nicht positiv beschieden</b> es un eufemismo administrativo: la solicitud ha sido <b>rechazada</b>."
         },
         {
           "id": "b27-s1q3",
@@ -109,7 +111,8 @@
             "el máximo elogio",
             "neutral"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "En el lenguaje cifrado de los certificados de trabajo, <b>stets bemüht</b> («siempre se esforzó») insinúa que no lo logró."
         },
         {
           "id": "b27-s1q4",
@@ -119,7 +122,8 @@
             "Es steht mir keine Zeit zur Verfügung.",
             "Ich hab keine Zeit."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Ich hab keine Zeit</b>: forma breve y directa (hab sin -e) del registro coloquial."
         }
       ],
       "produce": {
@@ -236,7 +240,8 @@
             "Dagegen lässt sich einwenden, dass …",
             "Sehr geehrte Damen und Herren"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Dagegen lässt sich einwenden</b> introduce un contraargumento."
         },
         {
           "id": "b27-s2q2",
@@ -246,7 +251,8 @@
             "usas registro coloquial",
             "no opinas y marcas distancia"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Un resumen es <b>neutral</b>: sin opinión propia y marcando distancia (Konjunktiv I, «laut»)."
         },
         {
           "id": "b27-s2q3",
@@ -256,7 +262,8 @@
             "um",
             "bei"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>auf</b> + cifra = el valor final («hasta el 30 %»)."
         },
         {
           "id": "b27-s2q4",
@@ -266,7 +273,8 @@
             "um",
             "von"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>um</b> + cifra = la diferencia («en 5 puntos»)."
         }
       ],
       "produce": {
@@ -485,7 +493,8 @@
             "ergreifen",
             "nehmen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Maßnahmen ergreifen</b> = tomar medidas (colocación formal)."
         },
         {
           "id": "b27-s3q2",
@@ -495,7 +504,8 @@
             "betont",
             "räumt ein"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>behaupten</b> = afirmar algo sin pruebas."
         },
         {
           "id": "b27-s3q3",
@@ -505,7 +515,8 @@
             "räumte … ein",
             "äußerte … an"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>einräumen</b> = admitir, reconocer: räumte … ein."
         },
         {
           "id": "b27-s3q4",
@@ -515,7 +526,8 @@
             "verbracht",
             "versäumt"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>eine Frist versäumen</b> = dejar pasar un plazo."
         },
         {
           "id": "b27-s3q5",
@@ -525,7 +537,8 @@
             "stellen",
             "ergreifen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>einen Kompromiss eingehen</b>."
         },
         {
           "id": "b27-s3q6",
@@ -535,7 +548,8 @@
             "wächst",
             "verändert"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Una ciudad <b>wächst</b> (crece en población); <i>steigen</i> se usa para cifras y precios."
         },
         {
           "id": "b27-s3q7",
@@ -545,7 +559,8 @@
             "erklärt … an",
             "stellt … zur"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>darlegen</b> = exponer de forma ordenada: legt … dar."
         },
         {
           "id": "b27-s3q8",
@@ -555,7 +570,8 @@
             "gegeben",
             "geleistet"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>einen Beitrag leisten</b> = hacer una contribución."
         }
       ],
       "produce": {
@@ -599,7 +615,8 @@
             "Er ist in ein Ungeziefer verwandelt.",
             "Er hat verschlafen."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«…fand er sich … zu einem ungeheueren <b>Ungeziefer verwandelt</b>»."
         },
         {
           "id": "b27-s4q2",
@@ -609,7 +626,8 @@
             "das Kissen",
             "seine Beine"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«…auf dessen Höhe sich <b>die Bettdecke</b> … kaum noch erhalten konnte»."
         },
         {
           "id": "b27-s4q3",
@@ -619,7 +637,8 @@
             "un Konjunktiv I",
             "un atributo de participio"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Es un <b>atributo de participio</b> ampliado: von … Versteifungen geteilt<b>en</b> Bauch = el vientre dividido por…"
         },
         {
           "id": "b27-s4q4",
@@ -629,7 +648,8 @@
             "el vientre (Bauch)",
             "la cama"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>dessen</b> remite al último masculino nombrado: <b>Bauch</b>."
         },
         {
           "id": "b27-s4q5",
@@ -638,7 +658,8 @@
             "richtig",
             "falsch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Falsch</b>: el texto termina «Es war <b>kein</b> Traum»."
         }
       ],
       "produce": {
@@ -683,7 +704,8 @@
             "stabil geblieben",
             "nicht gemessen worden"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los defensores citan pilotos «in denen die Produktivität … <b>stabil geblieben</b> sei»."
         },
         {
           "id": "b27-s5q2",
@@ -693,7 +715,8 @@
             "zu wenig Kunden",
             "organisatorische Herausforderungen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«…stehen insbesondere kleine Betriebe vor erheblichen <b>organisatorischen Herausforderungen</b>»."
         },
         {
           "id": "b27-s5q3",
@@ -703,7 +726,8 @@
             "Es un error",
             "Es Konjunktiv II irreal"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>sei</b> es Konjunktiv I: el autor reproduce la opinión de los defensores sin hacerla suya."
         },
         {
           "id": "b27-s5q4",
@@ -713,7 +737,8 @@
             "Trotzdem",
             "Außerdem"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Dessen ungeachtet</b> = a pesar de ello → <b>Trotzdem</b>."
         },
         {
           "id": "b27-s5q5",
@@ -722,7 +747,8 @@
             "richtig",
             "falsch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Falsch</b>: «Eine Antwort darauf wird <b>nicht per Gesetz</b> zu finden sein»."
         }
       ],
       "produce": {
@@ -766,7 +792,8 @@
             "das Unvermögen, den eigenen Verstand ohne fremde Leitung zu benutzen",
             "ein juristischer Status von Kindern"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Kant: «Unmündigkeit ist das <b>Unvermögen, sich seines Verstandes ohne Leitung eines anderen zu bedienen</b>»."
         },
         {
           "id": "b27-s6q2",
@@ -776,7 +803,8 @@
             "wenn man nicht zur Schule gegangen ist",
             "wenn es nicht am Verstand, sondern an Entschluss und Mut fehlt"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Es culpa propia cuando la causa está «nicht am Mangel des Verstandes, sondern der <b>Entschließung und des Mutes</b>»."
         },
         {
           "id": "b27-s6q3",
@@ -786,7 +814,8 @@
             "Akkusativ",
             "Dativ"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>sich bedienen</b> rige <b>genitivo</b>: seines Verstandes."
         },
         {
           "id": "b27-s6q4",
@@ -796,7 +825,8 @@
             "la Unmündigkeit",
             "el ser humano"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>derselben</b> (femenino, genitivo) retoma <b>die Unmündigkeit</b>."
         },
         {
           "id": "b27-s6q5",
@@ -805,7 +835,8 @@
             "richtig",
             "falsch"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Richtig</b>: es literalmente el lema que cita Kant."
         }
       ],
       "produce": {

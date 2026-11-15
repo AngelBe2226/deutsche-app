@@ -176,7 +176,8 @@
             "müde bin",
             "bin ich"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>denn</b> es ADUSO (posición cero): no cuenta como posición y el orden sigue siendo normal: ich <b>bin</b> müde."
         },
         {
           "id": "b14-s1q2",
@@ -186,7 +187,8 @@
             "aber",
             "obwohl"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>aber</b> es ADUSO y no altera el orden. <i>weil</i> y <i>obwohl</i> mandan el verbo al final."
         },
         {
           "id": "b14-s1q3",
@@ -196,7 +198,8 @@
             "als, dann, und, so, ob",
             "auf, durch, um, seit, ohne"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ADUSO = <b>aber, denn, und, sondern, oder</b>."
         },
         {
           "id": "b14-s1q4",
@@ -206,7 +209,8 @@
             "arbeitet",
             "arbeitet er"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras <i>aber</i>, orden normal: er <b>arbeitet</b> weiter."
         },
         {
           "id": "b14-s1q5",
@@ -216,7 +220,8 @@
             "bin ich",
             "ich bin"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>denn</i> + orden normal: ich <b>bin</b> krank."
         },
         {
           "id": "b14-s1q6",
@@ -226,7 +231,8 @@
             "ist deckt",
             "deckt"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>und</i> no cambia nada: er <b>deckt</b> den Tisch."
         },
         {
           "id": "b14-s1q7",
@@ -236,7 +242,8 @@
             "Wir bleiben, denn regnet es.",
             "Wir bleiben, denn es regnet nicht mehr."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>denn es regnet</b>: sujeto + verbo, sin inversión."
         },
         {
           "id": "b14-s1q8",
@@ -246,7 +253,8 @@
             "Ich habe Hunger, aber kein Geld habe ich.",
             "Ich habe Hunger, aber habe ich kein Geld."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras <i>aber</i>, orden normal: aber <b>ich habe</b> kein Geld."
         },
         {
           "id": "b14-s1q9",
@@ -256,7 +264,8 @@
             "weil",
             "dass"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>und</b> es ADUSO. <i>weil</i> y <i>dass</i> son subordinantes."
         },
         {
           "id": "b14-s1q10",
@@ -266,7 +275,8 @@
             "obwohl",
             "wenn"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>denn</b> es ADUSO; <i>obwohl</i> y <i>wenn</i> mandan el verbo al final."
         },
         {
           "id": "b14-s1q11",
@@ -276,7 +286,8 @@
             "damit",
             "oder"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>oder</b> es ADUSO."
         },
         {
           "id": "b14-s1q12",
@@ -286,7 +297,8 @@
             "und",
             "dass"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«y» = <b>und</b>. <i>dann</i> = luego; <i>dass</i> = que."
         },
         {
           "id": "b14-s1q13",
@@ -296,7 +308,8 @@
             "weil",
             "wenn"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>denn</b> = porque, sin mover el verbo. <i>weil</i> lo manda al final."
         },
         {
           "id": "b14-s1q14",
@@ -306,7 +319,8 @@
             "trotzdem",
             "jedoch"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«pero» = <b>aber</b>. <i>trotzdem</i> y <i>jedoch</i> provocan inversión."
         },
         {
           "id": "b14-s1q15",
@@ -316,7 +330,8 @@
             "und",
             "oder"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«o» = <b>oder</b>."
         }
       ],
       "produce": {
@@ -445,7 +460,8 @@
             "sondern",
             "denn"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras una negación (nicht heute), la corrección se hace con <b>sondern</b> = «sino»."
         },
         {
           "id": "b14-s2q2",
@@ -455,7 +471,8 @@
             "aber",
             "oder"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "No hay negación que corregir: se añade un contraste → <b>aber</b>."
         },
         {
           "id": "b14-s2q3",
@@ -465,7 +482,8 @@
             "al principio de frase",
             "con el verbo al final"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>sondern</b> solo aparece tras una negación (nicht/kein)."
         },
         {
           "id": "b14-s2q4",
@@ -475,7 +493,8 @@
             "aber",
             "sondern"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "nicht dumm, <b>sondern</b> faul: corrige la negación."
         },
         {
           "id": "b14-s2q5",
@@ -485,7 +504,8 @@
             "aber",
             "sondern"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Sin negación previa → <b>aber</b>."
         },
         {
           "id": "b14-s2q6",
@@ -495,7 +515,8 @@
             "sondern",
             "und"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "nicht mit dem Bus, <b>sondern</b> mit dem Rad."
         },
         {
           "id": "b14-s2q7",
@@ -505,7 +526,8 @@
             "denn",
             "aber"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Contraste sin negación → <b>aber</b>."
         },
         {
           "id": "b14-s2q8",
@@ -515,7 +537,8 @@
             "oder",
             "sondern"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "nicht in Bonn, <b>sondern</b> in Köln."
         },
         {
           "id": "b14-s2q9",
@@ -525,7 +548,8 @@
             "denn",
             "sondern"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Sin negación → <b>aber</b>."
         },
         {
           "id": "b14-s2q10",
@@ -535,7 +559,8 @@
             "oder",
             "aber"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>kein</i> también es negación → <b>sondern</b>."
         },
         {
           "id": "b14-s2q11",
@@ -545,7 +570,8 @@
             "denn",
             "sondern"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Sin negación → <b>aber</b>."
         },
         {
           "id": "b14-s2q12",
@@ -555,7 +581,8 @@
             "una negación previa",
             "una afirmación"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>sondern</b> corrige una negación previa."
         },
         {
           "id": "b14-s2q13",
@@ -565,7 +592,8 @@
             "sondern",
             "aber"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«no…, sino…» = <b>sondern</b>."
         },
         {
           "id": "b14-s2q14",
@@ -575,7 +603,8 @@
             "denn",
             "aber"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«pero» sin negación → <b>aber</b>."
         },
         {
           "id": "b14-s2q15",
@@ -585,7 +614,8 @@
             "Er ist nicht Arzt, aber Lehrer.",
             "Er ist nicht Arzt, sondern Lehrer."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "nicht Arzt, <b>sondern</b> Lehrer."
         }
       ],
       "produce": {
@@ -753,7 +783,8 @@
             "koche ich",
             "ich kochen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>deshalb</i> ocupa la posición 1 → inversión: <b>koche ich</b>."
         },
         {
           "id": "b14-s3q2",
@@ -763,7 +794,8 @@
             "trotzdem",
             "deshalb"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Aun así» = <b>trotzdem</b>, con inversión (hat sie)."
         },
         {
           "id": "b14-s3q3",
@@ -773,7 +805,8 @@
             "trotzdem invierte (posición 1); obwohl manda el verbo al final",
             "Ninguna, son intercambiables"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>trotzdem</b> ocupa la posición 1 e invierte; <b>obwohl</b> es subordinante y manda el verbo al final."
         },
         {
           "id": "b14-s3q4",
@@ -783,7 +816,8 @@
             "ziehe",
             "zieh ich zu"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "deshalb + verbo: <b>ziehe</b> ich … an."
         },
         {
           "id": "b14-s3q5",
@@ -793,7 +827,8 @@
             "er nicht arbeitet",
             "er arbeitet"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "trotzdem + verbo + sujeto: <b>arbeitet</b> er."
         },
         {
           "id": "b14-s3q6",
@@ -803,7 +838,8 @@
             "gehen",
             "gehen sind"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>dann</i> invierte: dann <b>gehen</b> wir."
         },
         {
           "id": "b14-s3q7",
@@ -813,7 +849,8 @@
             "hat",
             "sie hat"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>außerdem</i> invierte: außerdem <b>hat</b> sie."
         },
         {
           "id": "b14-s3q8",
@@ -823,7 +860,8 @@
             "deshalb",
             "obwohl"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Por eso» = <b>deshalb</b>."
         },
         {
           "id": "b14-s3q9",
@@ -833,7 +871,8 @@
             "deshalb",
             "trotzdem"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Aun así» = <b>trotzdem</b>."
         },
         {
           "id": "b14-s3q10",
@@ -843,7 +882,8 @@
             "außerdem",
             "sonst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Además» = <b>außerdem</b>."
         },
         {
           "id": "b14-s3q11",
@@ -853,7 +893,8 @@
             "sonst",
             "dass"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Si no» = <b>sonst</b>."
         },
         {
           "id": "b14-s3q12",
@@ -863,7 +904,8 @@
             "trotzdem",
             "danach"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Después» = <b>danach</b>."
         },
         {
           "id": "b14-s3q13",
@@ -873,7 +915,8 @@
             "obwohl",
             "weil"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Consecuencia + inversión (esse ich) → <b>deshalb</b>."
         },
         {
           "id": "b14-s3q14",
@@ -883,7 +926,8 @@
             "trotzdem",
             "deshalb"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Contraste + inversión → <b>trotzdem</b>."
         },
         {
           "id": "b14-s3q15",
@@ -893,7 +937,8 @@
             "Ich bin krank, deshalb ich bleibe zu Hause.",
             "Ich bin krank, deshalb bleibe zu Hause ich."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "deshalb + <b>bleibe ich</b> (verbo en 2.ª posición)."
         }
       ],
       "produce": {
@@ -1022,7 +1067,8 @@
             "entweder … oder",
             "zwar … aber"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Ni… ni» = <b>weder … noch</b>."
         },
         {
           "id": "b14-s4q2",
@@ -1032,7 +1078,8 @@
             "Zwar … aber",
             "Sowohl … als auch"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Cuanto más… más» = <b>je … desto</b>."
         },
         {
           "id": "b14-s4q3",
@@ -1042,7 +1089,8 @@
             "No: ya es negativo por sí mismo",
             "Solo en pasado"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>weder … noch</b> ya niega: añadir <i>nicht</i> sería doble negación."
         },
         {
           "id": "b14-s4q4",
@@ -1052,7 +1100,8 @@
             "weder … noch",
             "entweder … oder"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«ni tiempo ni ganas» = <b>weder … noch</b>."
         },
         {
           "id": "b14-s4q5",
@@ -1062,7 +1111,8 @@
             "Entweder … oder",
             "Weder … noch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«O… o» = <b>entweder … oder</b>."
         },
         {
           "id": "b14-s4q6",
@@ -1072,7 +1122,8 @@
             "Weder … noch",
             "Zwar … aber"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Je</b> + verbo al final, <b>desto</b> + inversión."
         },
         {
           "id": "b14-s4q7",
@@ -1082,7 +1133,8 @@
             "entweder … oder",
             "weder … noch"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Tanto… como» = <b>sowohl … als auch</b>."
         },
         {
           "id": "b14-s4q8",
@@ -1092,7 +1144,8 @@
             "Zwar … aber",
             "Weder … noch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Es cierto que… pero» = <b>zwar … aber</b>."
         },
         {
           "id": "b14-s4q9",
@@ -1102,7 +1155,8 @@
             "entweder … oder",
             "weder … noch"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>weder … noch</b>."
         },
         {
           "id": "b14-s4q10",
@@ -1112,7 +1166,8 @@
             "weder … noch",
             "entweder … oder"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>entweder … oder</b>."
         },
         {
           "id": "b14-s4q11",
@@ -1122,7 +1177,8 @@
             "weder … noch",
             "sowohl … als auch"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>sowohl … als auch</b>."
         },
         {
           "id": "b14-s4q12",
@@ -1132,7 +1188,8 @@
             "je … desto",
             "zwar … aber"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>je … desto</b>."
         },
         {
           "id": "b14-s4q13",
@@ -1142,7 +1199,8 @@
             "Er hat weder nicht Zeit noch Geld.",
             "Er hat weder Zeit noch Geld."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>weder</b> ya es negativo: sin <i>nicht</i>."
         },
         {
           "id": "b14-s4q14",
@@ -1152,7 +1210,8 @@
             "desto",
             "so"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Je früher, <b>desto</b> besser."
         },
         {
           "id": "b14-s4q15",
@@ -1162,7 +1221,8 @@
             "Je älter er wird, desto er wird klüger.",
             "Je älter er wird, desto klüger wird er."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>je</b> + verbo al final (er wird), <b>desto</b> + comparativo + verbo + sujeto (klüger wird er)."
         }
       ],
       "produce": {
