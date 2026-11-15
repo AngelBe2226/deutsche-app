@@ -35,7 +35,11 @@ export function loadLexicon() {
 export function useLexicon() {
   const [value, setValue] = useState(lex);
   useEffect(() => {
-    if (lex) return;
+    // Pudo cargarse entre el render y este efecto: sincroniza.
+    if (lex) {
+      setValue(lex);
+      return;
+    }
     subs.add(setValue);
     loadLexicon().catch(() => {});
     return () => subs.delete(setValue);

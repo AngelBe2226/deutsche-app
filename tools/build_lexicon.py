@@ -264,6 +264,10 @@ def main():
                     continue
                 add(f, lid, POS_RANK.get(pos, 9) + 1, tags_es(fo.get("tags", [])))
 
+    # Formas que en la app son siempre español o abreviaturas raras
+    for f in ("se", "el", "para", "son", "las", "real"):
+        form_map.pop(f, None)
+
     # Lemas bloqueados
     for f in list(form_map):
         for lid in list(form_map[f]):

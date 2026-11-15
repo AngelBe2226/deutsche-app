@@ -33,7 +33,8 @@ function readLast() {
 // Anexo de verbos: buscador sobre ~9.300 verbos alemanes con su conjugación
 // completa (Indikativ, Konjunktiv I y II, Imperativ, formas nominales) y un
 // ejemplo por forma: real (Tatoeba, con traducción) o frase modelo.
-export default function VerbsPanel({ initialVerb }) {
+export default function VerbsPanel({ initialVerb: target }) {
+  const initialVerb = target ? target.split("#")[0] : null;
   const [idx, setIdx] = useState(null);
   const [error, setError] = useState(false);
   const [q, setQ] = useState("");
@@ -64,9 +65,20 @@ export default function VerbsPanel({ initialVerb }) {
       .catch(() => setError(true));
   }, []);
 
+  // Abierto desde el tooltip de una palabra: muestra ese verbo y baja a él.
+  const jumpRef = useRef(false);
   useEffect(() => {
-    if (initialVerb) setLemma(initialVerb);
-  }, [initialVerb]);
+    if (initialVerb) {
+      setLemma(initialVerb);
+      jumpRef.current = true;
+    }
+  }, [target]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    if (verb && jumpRef.current && verb.lemma === initialVerb) {
+      jumpRef.current = false;
+      requestAnimationFrame(() => tableRef.current?.scrollIntoView({ block: "start" }));
+    }
+  }, [verb, target]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!lemma) return;

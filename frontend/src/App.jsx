@@ -94,7 +94,7 @@ export default function App() {
     () =>
       onOpenVerb((lemma) => {
         setNavOpen(false);
-        setVerbTarget(lemma);
+        setVerbTarget(lemma + "#" + Date.now()); // nonce: reabrir el mismo verbo también salta
         setCurrent("verbs");
       }),
     []
