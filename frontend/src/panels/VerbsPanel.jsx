@@ -11,6 +11,14 @@ import {
   searchVerbs,
 } from "../verbs";
 
+// Lista inicial (sin búsqueda): los verbos más usados, revisada a mano.
+const TOP = ("sein haben werden können müssen wollen sollen dürfen mögen gehen kommen machen sagen sehen " +
+  "wissen geben nehmen finden sprechen essen trinken fahren lesen schreiben arbeiten wohnen leben lernen " +
+  "spielen hören kaufen bezahlen brauchen fragen antworten denken glauben kennen verstehen helfen bleiben " +
+  "stehen liegen sitzen schlafen laufen bringen tragen halten lassen beginnen anfangen aufstehen anrufen " +
+  "einkaufen einladen ankommen fernsehen mitkommen vorstellen kennenlernen gefallen treffen besuchen " +
+  "suchen warten zeigen öffnen schließen vergessen erzählen bekommen verlieren gewinnen reisen kochen tun").split(" ");
+
 const KIND_ES = { strong: "fuerte", weak: "débil", irregular: "irregular", mixed: "mixto" };
 const LAST_KEY = "conj-last-verb";
 
@@ -77,7 +85,11 @@ export default function VerbsPanel({ initialVerb }) {
     };
   }, [lemma]);
 
-  const results = useMemo(() => (idx ? searchVerbs(idx, q, q ? 60 : 36) : []), [idx, q]);
+  const results = useMemo(() => {
+    if (!idx) return [];
+    if (!q.trim()) return TOP.map((l) => idx.byLemma.get(l)).filter(Boolean);
+    return searchVerbs(idx, q, 60);
+  }, [idx, q]);
 
   function pick(l) {
     setLemma(l);
