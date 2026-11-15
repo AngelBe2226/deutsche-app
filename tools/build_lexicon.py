@@ -257,6 +257,16 @@ def main():
                     if t == ["superlative"] and "sup" not in e:
                         e["sup"] = fo["form"].replace("am ", "")
             add(w, lid, POS_RANK.get(pos, 9))
+            if pos == "adj" and w.islower():
+                # formas declinadas (las tablas de Wiktionary vienen recortadas)
+                stems = [(w[:-1] if w.endswith("e") else w, "")]
+                if e.get("cmp"):
+                    stems.append((e["cmp"], "comparativo "))
+                if e.get("sup"):
+                    stems.append((e["sup"][:-2] if e["sup"].endswith("en") else e["sup"], "superlativo "))
+                for stem, kind in stems:
+                    for end in ("e", "en", "er", "em", "es"):
+                        add(stem + end, lid, POS_RANK["adj"] + 1, kind + "declinado (-" + end + ")")
             for fo in d.get("forms", []):
                 f = fo.get("form") or ""
                 if " " in f or f == w:
