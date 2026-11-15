@@ -55,6 +55,7 @@ export default function Quiz({ q }) {
           />
         </div>
       )}
+      {answered && q.explain && <RichText as="p" className="q-explain" html={q.explain} de="mixed" />}
     </div>
   );
 }

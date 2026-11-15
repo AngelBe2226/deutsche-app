@@ -4526,3 +4526,16 @@ b.hl,
   font-size: 0.8rem;
   margin: 0;
 }
+
+/* Explicación breve tras responder un quiz */
+.q-explain {
+  margin: 0.5rem 0 0;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  background: var(--surface-2);
+  border-left: 3px solid var(--iris-line);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+  animation: fade-up 0.25s ease;
+}

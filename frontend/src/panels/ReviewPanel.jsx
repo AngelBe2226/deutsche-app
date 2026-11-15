@@ -308,6 +308,7 @@ function ReviewSession({ session, onExit, onGoToSection }) {
               {right ? "¡Correcto! Vuelve en unos días." : "Fallada: la repetirás al final de la sesión."}
               <SpeakButton id={`rs-${it.q.id}`} text={say} label="Escuchar la frase correcta" className="fb-speak" />
             </div>
+            {it.q.explain && <RichText as="p" className="q-explain" html={it.q.explain} de="mixed" />}
             <div className="rs-actions">
               <button className="ghost-btn" onClick={() => onGoToSection(it.block, it.idx)}>
                 Ver la regla
