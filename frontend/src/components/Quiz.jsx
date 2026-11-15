@@ -28,7 +28,7 @@ export default function Quiz({ q }) {
   return (
     <div className="quiz" data-qid={q.id}>
       <HighlightButton id={`hl:${q.id}`} label="quiz destacado" />
-      <RichText as="p" className="q-question" html={q.question} />
+      <RichText as="p" className="q-question" html={q.question} de="mixed" />
       <div className="opts">
         {q.options.map((opt, i) => {
           const isCorrect = i === q.correctIndex;

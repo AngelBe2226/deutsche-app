@@ -286,7 +286,7 @@ function ReviewSession({ session, onExit, onGoToSection }) {
           </span>
           {it.st?.lapses > 0 && <span className="rs-lapses">{it.st.lapses}× fallada</span>}
         </div>
-        <RichText as="p" className="q-question rs-q" html={it.q.question} />
+        <RichText as="p" className="q-question rs-q" html={it.q.question} de="mixed" />
         <div className="opts">
           {it.q.options.map((opt, i) => {
             let cls = "";

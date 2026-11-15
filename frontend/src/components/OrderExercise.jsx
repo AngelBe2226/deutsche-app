@@ -41,7 +41,7 @@ export default function OrderExercise({ ex }) {
     <div className={"order-ex" + (solved ? " solved" : "")}>
       <div className="order-head">
         <span className="order-tag">Ordena</span>
-        <RichText html={ex.prompt} />
+        <RichText html={ex.prompt} de="mixed" />
       </div>
       <ol className="order-list">
         {shown.map((itemIdx, pos) => {

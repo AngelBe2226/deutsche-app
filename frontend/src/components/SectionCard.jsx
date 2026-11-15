@@ -47,7 +47,7 @@ function Note({ note, hlId }) {
     <div className={`note note-${type}`}>
       <NoteTag type={type}>{note.title || NOTE_LABEL[type] || type}</NoteTag>
       <HighlightButton id={hlId} label="destacado" />
-      <RichText as="div" className="note-body" html={note.text} />
+      <RichText as="div" className="note-body" html={note.text} de="mixed" />
     </div>
   );
 }
@@ -88,7 +88,7 @@ export default function SectionCard({ section }) {
             regla
           </span>
           <HighlightButton id={`hl:${section.idx}-rule`} label="destacado" />
-          <RichText as="div" className="rule" html={section.rule} />
+          <RichText as="div" className="rule" html={section.rule} de="mixed" />
         </div>
       )}
 
@@ -96,7 +96,7 @@ export default function SectionCard({ section }) {
         <div className="note note-why">
           <NoteTag type="why">por qué</NoteTag>
           <HighlightButton id={`hl:${section.idx}-reasoning`} label="destacado" />
-          <RichText as="div" className="note-body" html={section.reasoning} />
+          <RichText as="div" className="note-body" html={section.reasoning} de="mixed" />
         </div>
       )}
 
@@ -126,7 +126,7 @@ export default function SectionCard({ section }) {
             <li key={i}>
               <SpeakButton id={`${section.idx}-ex${i}`} text={plainText(ex.en)} label="Escuchar ejemplo" />
               <HighlightButton id={`hl:${section.idx}-ex${i}`} label="ejemplo destacado" />
-              <RichText className="ex-en" html={ex.en} />
+              <RichText className="ex-en" html={ex.en} de="de" />
               {ex.es && <span className="ex-es">{ex.es}</span>}
             </li>
           ))}

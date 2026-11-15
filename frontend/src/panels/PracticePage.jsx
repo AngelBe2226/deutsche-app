@@ -38,7 +38,7 @@ export default function PracticePage({ block, index, prev, onSelectBlock }) {
                 </h3>
                 {s.level && <span className="level-badge level-goflu">{s.level}</span>}
               </header>
-              {s.rule && <RichText as="div" className="rule practice-rule" html={s.rule} />}
+              {s.rule && <RichText as="div" className="rule practice-rule" html={s.rule} de="mixed" />}
               {Panel && <Panel index={index} />}
               {s.produce && <ProduceBox produce={s.produce} />}
             </section>

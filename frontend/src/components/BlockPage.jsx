@@ -53,7 +53,7 @@ export default function BlockPage({ block, onReset, prev, next, onSelectBlock })
           {block.kicker}
         </div>
         <h1 className="block-title">{block.title}</h1>
-        <RichText as="p" className="block-intro" html={block.intro} />
+        <RichText as="p" className="block-intro" html={block.intro} de="mixed" />
 
         <div className="stat-cards">
           {total > 0 && (

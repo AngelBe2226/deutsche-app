@@ -47,7 +47,7 @@ export default function Writing({ w }) {
         </span>
       </div>
 
-      <RichText as="div" className="wr-task" html={w.task} />
+      <RichText as="div" className="wr-task" html={w.task} de="mixed" />
 
       {w.hints?.length > 0 && (
         <div className="wr-hints">
@@ -58,7 +58,7 @@ export default function Writing({ w }) {
           <ul>
             {w.hints.map((h, i) => (
               <li key={i}>
-                <RichText html={h} />
+                <RichText html={h} de="mixed" />
               </li>
             ))}
           </ul>
@@ -127,7 +127,7 @@ export default function Writing({ w }) {
           {showModel && (
             <div className="wr-model">
               <div className="wr-model-label">Texto modelo (una forma de resolverlo, no la única)</div>
-              <RichText as="div" className="wr-model-body" html={w.model} />
+              <RichText as="div" className="wr-model-body" html={w.model} de="de" />
             </div>
           )}
         </div>

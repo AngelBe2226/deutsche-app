@@ -82,7 +82,7 @@ function RoleplayStep({ i, st, id, saved, onSave, partner }) {
       <div className="turn left">
         <span className="avatar sm">{partner.name.replace(/^(Herr|Frau)\s+/, "")[0]}</span>
         <div className="bubble">
-          <RichText as="div" className="turn-de" html={st.partner} />
+          <RichText as="div" className="turn-de" html={st.partner} de="de" />
           {st.es && <div className="turn-es">{st.es}</div>}
         </div>
         <SpeakButton id={`${id}-p`} text={plainText(st.partner)} label="Escuchar" />
@@ -90,7 +90,7 @@ function RoleplayStep({ i, st, id, saved, onSave, partner }) {
 
       <div className="rp-task">
         <span className="rp-num">{i + 1}</span>
-        <RichText html={st.task} />
+        <RichText html={st.task} de="mixed" />
       </div>
 
       {!answered ? (
@@ -116,7 +116,7 @@ function RoleplayStep({ i, st, id, saved, onSave, partner }) {
               Modelo
               <SpeakButton id={`${id}-m`} text={plainText(st.model)} alt label="Escuchar modelo" />
             </span>
-            <RichText as="p" html={st.model} />
+            <RichText as="p" html={st.model} de="de" />
           </div>
         </div>
       )}

@@ -28,7 +28,7 @@ export default function Table({ table, id = "t" }) {
               <tr key={r}>
                 {row.map((cell, c) => (
                   <td key={c}>
-                    <RichText html={cell} />
+                    <RichText html={cell} de="de" />
                   </td>
                 ))}
                 <td className="speak-col">

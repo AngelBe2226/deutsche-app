@@ -12,6 +12,7 @@ import PracticePage from "./panels/PracticePage";
 import HighlightsPanel from "./panels/HighlightsPanel";
 import ReviewPanel from "./panels/ReviewPanel";
 import VerbsPanel from "./panels/VerbsPanel";
+import WordTip from "./components/WordTip";
 import { onOpenVerb } from "./verbs";
 import { summarize, useReviewItems } from "./srs";
 
@@ -268,6 +269,8 @@ export default function App() {
           )}
         </div>
       </main>
+
+      <WordTip />
 
       <CommandPalette
         open={cmdOpen}

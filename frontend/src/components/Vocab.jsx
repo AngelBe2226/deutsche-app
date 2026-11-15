@@ -1,3 +1,5 @@
+import RichText from "./RichText";
+import { escapeHtml } from "../lexicon";
 import { useState } from "react";
 import SpeakButton from "./SpeakButton";
 
@@ -50,15 +52,16 @@ export default function Vocab({ vocab }) {
               className={"vcab" + (hideEs ? " testing" : "") + (reveal ? "" : " hidden-es")}
               onClick={() => hideEs && toggleCard(i)}
             >
-              <div className="vcab-de" lang="de">
-                {g ? (
-                  <>
-                    <span className={"art g-" + g}>{first}</span> {rest.join(" ")}
-                  </>
-                ) : (
-                  it.de
-                )}
-              </div>
+              <RichText
+                as="div"
+                className="vcab-de"
+                de={hideEs ? undefined : "de"}
+                html={
+                  g
+                    ? `<span class="art g-${g}">${escapeHtml(first)}</span> ${escapeHtml(rest.join(" "))}`
+                    : escapeHtml(it.de)
+                }
+              />
               {it.pl && <div className="vcab-pl" lang="de">Pl. {it.pl}</div>}
               <div className="vcab-es">{reveal ? it.es : "· · ·"}</div>
               <SpeakButton id={`${vocab.id}-${i}`} text={it.de} label="Escuchar palabra" />
