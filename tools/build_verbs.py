@@ -308,6 +308,12 @@ def main():
                 n_ex += 1
         b = zlib.crc32(w.encode("utf-8")) % N_BUCKETS
         es = meanings.get(w)
+        if not es:  # grafías alternativas (suiza «ss», sin diéresis, arcaicas con «y»)
+            for alt in (w.replace("ss", "ß"), w.replace("ue", "ü").replace("ae", "ä").replace("oe", "ö"),
+                        w.replace("y", "i"), w.replace("th", "t")):
+                if alt != w and meanings.get(alt):
+                    es = meanings[alt]
+                    break
         entry = {
             "t": {k: [" / ".join(c) if c else "" for c in rows] for k, rows in v["t"].items()},
             "imp": {k: " / ".join(x) for k, x in v["imp"].items() if x},
@@ -324,9 +330,17 @@ def main():
             entry["ex"] = ex
         buckets[b][w] = entry
         short = ", ".join((es or v["en"] or [])[:2])
-        probes = {w.lower(), *(tokens(v["t"]["ind_pres"][2][0])[:1] if v["t"]["ind_pres"][2] and not v["sep"] else []),
-                  *(tokens(v["p2"][0])[:1] if v["p2"] else [])}
-        freq = max(len(index.get(x, [])) for x in probes)
+        cnt = lambda form: len(index.get(tokens(form)[0], [])) if form and tokens(form) else 0
+        first = lambda key: (v["t"][key][2][0] if v["t"][key][2] else "")
+        if v["sep"]:
+            freq = max(cnt(w), cnt(v["p2"][0] if v["p2"] else ""))
+        else:
+            # el infinitivo choca con sustantivos/adjetivos («einen», «weißen»): lo
+            # acotamos con las formas conjugadas
+            conj = max(cnt(first("ind_pres")), cnt(first("ind_prat")), cnt(v["p2"][0] if v["p2"] else ""))
+            freq = min(cnt(w), conj)
+        if w != w.lower() or any(x in w for x in ("ss", "ue", "y")) and not es:
+            freq = freq // 4
         idx_rows.append([w, short, "/".join(v["aux"]), v["kind"] or "", b, freq, 1 if es else 0])
 
     for b, data in buckets.items():
