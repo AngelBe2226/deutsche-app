@@ -198,5 +198,5 @@ BLOCK = {
     "Tage|noun", "Hauß|noun", "frau|pron", "mensch|pron", "sonne|pron", "dat|article", "n|article", "'n|article",
     "'ne|article", "'nen|article", "'n|adv", "Dir|pron", "Er|pron", "o|intj", "ei|intj", "weg|conj", "zeit|prep",
     "gen|prep", "dar|adv", "Ara|noun", "Ar|noun", "As|noun", "Au|noun", "Aue|noun", "Ambo|noun", "Antal|noun",
-    "Bachen|noun", "Aug|noun", "Altes|noun", "Pasta|noun", "Abhang|noun",
+    "Bachen|noun", "Aug|noun", "weißen|verb", "einen|verb", "Altes|noun", "Pasta|noun", "Abhang|noun",
 }

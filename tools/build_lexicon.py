@@ -209,6 +209,13 @@ def main():
             if " " in w:
                 continue
             senses = d.get("senses", [])
+            for sn in senses:  # «inflection of schön:» sin campo form_of
+                g0 = (sn.get("glosses") or [""])[0]
+                m = re.match(r"(?:inflection|plural|.*form) of ([^\s:]+):?$", g0)
+                if not sn.get("form_of") and m:
+                    sn["form_of"] = [{"word": m.group(1)}]
+                    extra = " ".join((sn.get("glosses") or [])[1:2])
+                    sn["tags"] = sn.get("tags", []) + extra.replace("/", " ").split()
             form_of = [fo.get("word") for s in senses for fo in s.get("form_of", []) if fo.get("word")]
             only_form = senses and all(s.get("form_of") for s in senses)
             if only_form:
@@ -266,7 +273,7 @@ def main():
                     stems.append((e["sup"][:-2] if e["sup"].endswith("en") else e["sup"], "superlativo "))
                 for stem, kind in stems:
                     for end in ("e", "en", "er", "em", "es"):
-                        add(stem + end, lid, POS_RANK["adj"] + 1, kind + "declinado (-" + end + ")")
+                        add(stem + end, lid, 5, kind + "declinado (-" + end + ")")
             for fo in d.get("forms", []):
                 f = fo.get("form") or ""
                 if " " in f or f == w:
@@ -291,7 +298,7 @@ def main():
         for lid in list(form_map[f]):
             e = lemmas.get(lid, {})
             w = e.get("w", "")
-            if e.get("pos") in ("noun", "name") and (len(w) <= 2 or w.isupper()):
+            if e.get("pos") in ("noun", "name") and (len(w) <= 2 or w.isupper() or w[:1].islower()):
                 del form_map[f][lid]
         if not form_map[f]:
             del form_map[f]
@@ -364,8 +371,8 @@ def main():
         if any(lemmas[kv[0]].get("es") for kv in items):
             items = [kv for kv in items if lemmas[kv[0]].get("es")]
         # si hay una lectura frecuente, fuera los verbos rarísimos («weißt» ≠ weißen)
-        if items and min(kv[1][0] for kv in items) <= 4:
-            items = [kv for kv in items if kv[1][0] < 9]
+        if items and min(kv[1][0] for kv in items) <= 5:
+            items = [kv for kv in items if kv[1][0] < 8 or kv[1][0] <= min(k[1][0] for k in items)]
         if not items:
             continue
         row = []
