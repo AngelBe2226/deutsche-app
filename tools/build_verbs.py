@@ -90,7 +90,7 @@ def load_tables():
                     extra["part1"].append(form); continue
                 if tags == {"participle", "past"}:
                     extra["part2"].append(form); continue
-                if "zu" in tags and "infinitive" in tags:
+                if "infinitive-zu" in tags or ("zu" in tags and "infinitive" in tags):
                     extra["zu"].append(form); continue
                 if "imperative" in tags:
                     key = "du" if "singular" in tags else "ihr" if "plural" in tags else None

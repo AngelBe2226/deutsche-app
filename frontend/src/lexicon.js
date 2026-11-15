@@ -43,24 +43,40 @@ export function useLexicon() {
   return value;
 }
 
-export function lookup(word) {
+// `initial`: la palabra abre la frase (entonces la mayúscula no indica sustantivo).
+export function lookup(word, initial = false) {
   if (!lex) return [];
   const rows = lex.forms[word.toLowerCase()] || [];
   const out = rows.map(([id, desc]) => ({ id, desc, ...lex.lemmas[id] })).filter((e) => e.w);
-  // Los sustantivos van siempre con mayúscula: en minúscula no son sustantivo.
   const cap = word[0] !== word[0].toLowerCase();
+  const isNoun = (e) => e.pos === "noun" || e.pos === "name";
   if (!cap) {
-    const rest = out.filter((e) => e.pos !== "noun");
-    if (rest.length) return rest;
-  } else {
-    out.sort((a, b) => (b.pos === "noun") - (a.pos === "noun"));
+    // En minúscula nunca es sustantivo (ni «Sie» de usted).
+    const rest = out.filter((e) => !isNoun(e));
+    const list = rest.length ? rest : out;
+    return list.sort((a, b) => (b.w[0] === b.w[0].toLowerCase()) - (a.w[0] === a.w[0].toLowerCase()));
+  }
+  if (!initial) {
+    // Con mayúscula a mitad de frase: casi seguro un sustantivo o nombre.
+    const nouns = out.filter(isNoun);
+    if (nouns.length) return [...nouns, ...out.filter((e) => !isNoun(e))];
   }
   return out;
 }
 
+// ¿Empieza frase el elemento `el`? Mira el texto anterior dentro del bloque.
+export function isSentenceInitial(el) {
+  const block = el.closest("p, li, div, td, th, h1, h2, h3, h4, dd, dt, label") || el.parentNode;
+  const range = document.createRange();
+  range.setStart(block, 0);
+  range.setEndBefore(el);
+  const before = range.toString().replace(/[\s«»"„“”'‚‘’()\-–—]+$/u, "");
+  return before === "" || /[.!?:…]$/.test(before);
+}
+
 // ---------- Subrayado de palabras dentro de HTML ----------
 
-const WORD = /[A-Za-zÄÖÜäöüß]+(?:-[A-Za-zÄÖÜäöüß]+)*/g;
+const WORD = /[A-Za-zÀ-ÖØ-öø-ÿ]+(?:-[A-Za-zÀ-ÖØ-öø-ÿ]+)*/g;
 const EMPH = new Set(["B", "I", "EM", "STRONG"]);
 const SKIP = new Set(["BUTTON", "A", "SCRIPT", "STYLE", "TEXTAREA", "INPUT", "SELECT"]);
 const cache = new Map();

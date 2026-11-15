@@ -9,7 +9,7 @@ import glob, html, json, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(HERE, "..", "backend", "app", "content")
-WORD = re.compile(r"[A-Za-zÄÖÜäöüß]+(?:-[A-Za-zÄÖÜäöüß]+)*")
+WORD = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿ]+(?:-[A-Za-zÀ-ÖØ-öø-ÿ]+)*")
 TAG = re.compile(r"<[^>]+>")
 EMPH = re.compile(r"<(b|i|em|strong)\b[^>]*>(.*?)</\1>|<span class=\"r-[^\"]*\">(.*?)</span>", re.S)
 
@@ -97,4 +97,9 @@ def collect():
 
 if __name__ == "__main__":
     f = collect()
+    cache = os.path.join(HERE, ".cache")
+    json.dump(sorted(f), open(os.path.join(cache, "lex_forms.json"), "w"), ensure_ascii=False)
+    # forma con mayúscula (posible sustantivo), para deducir compuestos
+    caps = {k: next((x for x in sorted(v) if x[0].isupper()), "") for k, v in f.items()}
+    json.dump(caps, open(os.path.join(cache, "lex_caps.json"), "w"), ensure_ascii=False)
     print(len(f))

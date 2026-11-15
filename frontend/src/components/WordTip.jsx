@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
-import { ARTICLE, POS_ES, lookup, useLexicon } from "../lexicon";
+import { ARTICLE, POS_ES, isSentenceInitial, lookup, useLexicon } from "../lexicon";
 import { loadVerb, openVerb } from "../verbs";
 import SpeakButton from "./SpeakButton";
 
@@ -23,7 +23,7 @@ export default function WordTip() {
     anchorRef.current?.classList.remove("w-on");
     anchorRef.current = el;
     el.classList.add("w-on");
-    setTip({ word: el.textContent, rect: el.getBoundingClientRect() });
+    setTip({ word: el.textContent, rect: el.getBoundingClientRect(), initial: isSentenceInitial(el) });
   }, []);
 
   useEffect(() => {
@@ -88,7 +88,7 @@ export default function WordTip() {
   }, [tip]);
 
   if (!tip) return null;
-  const entries = lookup(tip.word);
+  const entries = lookup(tip.word, tip.initial);
 
   return (
     <div

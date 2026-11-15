@@ -21,10 +21,10 @@ import lex_tokens  # noqa: E402
 
 CACHE = os.path.join(HERE, ".cache")
 PUBLIC = os.path.join(HERE, "..", "frontend", "public")
-POSES = ["noun", "adj", "adv", "prep", "pron", "det", "article", "conj", "num", "particle", "intj", "contraction"]
+POSES = ["noun", "adj", "adv", "prep", "pron", "det", "article", "conj", "num", "particle", "intj", "contraction", "name"]
 # Prioridad al mostrar varias entradas para la misma forma
 POS_RANK = {"article": 0, "det": 1, "pron": 2, "prep": 3, "contraction": 3, "conj": 4, "particle": 5,
-            "adv": 6, "verb": 7, "noun": 7, "adj": 8, "num": 9, "intj": 10}
+            "adv": 6, "verb": 7, "noun": 7, "adj": 8, "num": 9, "intj": 10, "name": 11}
 
 TENSE_DE = {
     "ind_pres": "Präsens", "ind_prat": "Präteritum", "k1_pres": "Konjunktiv I",
@@ -158,13 +158,13 @@ def main():
         # rango: los verbos frecuentes antes; los raros (p. ej. «einen» = unir) al final
         base = 2 if row[5] >= 50 else 5 if row[5] >= 5 else 9
         hits = collections.defaultdict(list)
-        for key, label in TENSE_DE.items():
+        for key, label in ([] if v.get("sep") else TENSE_DE.items()):
             for i, cell in enumerate(v["t"].get(key, [])):
                 for alt in cell.split(" / "):
                     parts = alt.split()
                     if parts:
                         hits[parts[0].lower()].append((label, PERS[i]))
-        for k in ("du", "ihr"):
+        for k in ([] if v.get("sep") else ("du", "ihr")):
             for alt in v.get("imp", {}).get(k, "").split(" / "):
                 if alt:
                     hits[alt.split()[0].lower()].append(("Imperativ", k))
@@ -176,6 +176,18 @@ def main():
             add(p1, lid, base + 1, "participio de presente")
         for z in v.get("zu", []):
             add(z, lid, base, "infinitivo con zu")
+        if v.get("sep"):
+            # verbo separable: en subordinada se escribe junto («…, dass er ankommt»)
+            for key, label in TENSE_DE.items():
+                for i, cell in enumerate(v["t"].get(key, [])):
+                    for alt in cell.split(" / "):
+                        parts = alt.split()
+                        if len(parts) == 2:
+                            hits[(parts[1] + parts[0]).lower()].append((label + " (subordinada)", PERS[i]))
+            p2 = (v.get("p2") or [""])[0]
+            m = re.match(r"(.+?)ge(.+)$", p2) if p2 else None
+            if m and lemma.startswith(m.group(1)):
+                add(m.group(1) + "zu" + lemma[len(m.group(1)):], lid, base, "infinitivo con zu")
         for f, hs in hits.items():
             if f not in forms_set:
                 continue
@@ -215,11 +227,22 @@ def main():
             gl = []
             for s in senses:
                 for g in s.get("glosses", []) or []:
-                    if g not in gl and len(g) < 90:
+                    g = re.split(r"\s*[;(]", g)[0].strip()[:70]
+                    if g and g not in gl:
                         gl.append(g)
-            e.setdefault("en", gl[:3])
+            if not e.get("en"):
+                e["en"] = gl[:3]
             if pos == "noun":
                 g, gen, pl = parse_head((d.get("head") or [None])[0], w)
+                stags = {t for s in senses for t in s.get("tags", [])}
+                if not g:
+                    g = "m" if "masculine" in stags else "f" if "feminine" in stags else "n" if "neuter" in stags else None
+                for fo in d.get("forms", []):
+                    t = set(fo.get("tags", []))
+                    if not gen and t == {"genitive"}:
+                        gen = fo["form"]
+                    if not pl and (t == {"plural"} or t == {"nominative", "plural"}):
+                        pl = fo["form"]
                 if g:
                     e["g"] = g
                 if gen:
@@ -240,12 +263,67 @@ def main():
                     continue
                 add(f, lid, POS_RANK.get(pos, 9) + 1, tags_es(fo.get("tags", [])))
 
+    # Sustantivos basura: siglas y letras sueltas («AB», «A») que chocan con
+    # palabras corrientes a principio de frase.
+    for f in list(form_map):
+        for lid in list(form_map[f]):
+            e = lemmas.get(lid, {})
+            w = e.get("w", "")
+            if e.get("pos") in ("noun", "name") and (len(w) <= 2 or w.isupper()):
+                del form_map[f][lid]
+        if not form_map[f]:
+            del form_map[f]
+
     # Significados en español
     for lid, e in lemmas.items():
         if e["pos"] != "verb":
             e["es"] = es_for(e["w"], e["pos"])
+        e["es"] = list(dict.fromkeys(e.get("es") or []))
         if e.get("es"):
             e.pop("en", None)
+
+    # Compuestos que no están en el diccionario: Abreise|tag, Arbeits|klima
+    def noun_of(f):
+        for lid in form_map.get(f, {}):
+            if lemmas[lid]["pos"] == "noun" and lemmas[lid].get("es"):
+                return lid
+        return None
+
+    def any_of(f):
+        for lid in form_map.get(f, {}):
+            if lemmas[lid].get("es"):
+                return lid
+        return None
+
+    caps = json.load(open(os.path.join(CACHE, "lex_caps.json"), encoding="utf-8"))
+    n_cmp = 0
+    for f in sorted(forms_set - set(form_map)):
+        if not caps.get(f) or len(f) < 7 or "-" in f:
+            continue
+        best = None
+        for i in range(3, len(f) - 2):
+            head = noun_of(f[i:])
+            if not head:
+                continue
+            mod = f[:i]
+            for cand in (mod, mod[:-1] if mod.endswith("s") else None, mod[:-1] if mod.endswith("n") else None,
+                         mod[:-2] if mod.endswith("en") else None, mod + "en", mod + "e"):
+                if cand and len(cand) >= 3 and any_of(cand):
+                    best = (any_of(cand), head)
+                    break
+            if best:
+                break
+        if not best:
+            continue
+        mid, hid = best
+        hm, mm = lemmas[hid], lemmas[mid]
+        lid = f"{caps[f]}|noun"
+        lemmas[lid] = {"w": caps[f], "pos": "noun", "g": hm.get("g"),
+                       "es": [f"{hm['es'][0]} (de {mm['es'][0]})"],
+                       "parts": [mm["w"], hm["w"]]}
+        form_map[f][lid] = (7, f"compuesto: {mm['w']} + {hm['w']}")
+        n_cmp += 1
+    print(f"compuestos deducidos: {n_cmp}", file=sys.stderr)
 
     # Salida: solo lemas usados; máx. 3 entradas por forma
     out_forms = {}
@@ -254,6 +332,9 @@ def main():
         items = sorted(cands.items(), key=lambda kv: (kv[1][0], kv[0]))
         # sin significado ni datos útiles → al final
         items.sort(key=lambda kv: 0 if (lemmas[kv[0]].get("es") or lemmas[kv[0]].get("en")) else 1)
+        items = [kv for kv in items if lemmas[kv[0]].get("es") or lemmas[kv[0]].get("en") or kv[1][1]]
+        if not items:
+            continue
         row = []
         for lid, (rank, desc) in items[:3]:
             row.append([lid, desc] if desc else [lid])
