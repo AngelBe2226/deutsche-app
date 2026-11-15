@@ -132,7 +132,7 @@ def main():
         key = f"{word}|{pos}"
         if key in manual:
             return manual[key]
-        if word in manual and pos != "verb":
+        if word in manual:
             return manual[word]
         return by_pos.get((word, pos)) or by_word.get(word) or []
 
@@ -149,8 +149,7 @@ def main():
     vrow = {r[0]: r for r in vidx}
     buckets = {}
     for lemma, row in vrow.items():
-        if row[5] < 3 and lemma.lower() not in forms_set:
-            continue  # verbos rarísimos: solo si el propio infinitivo aparece
+
         b = row[4]
         if b not in buckets:
             buckets[b] = json.load(open(os.path.join(PUBLIC, "verbs", "b", f"{b}.json"), encoding="utf-8"))
@@ -201,7 +200,7 @@ def main():
             add(f, lid, base, desc)
         if any(lid in form_map[f] for f in form_map):
             pass
-        lemmas[lid] = {"w": lemma, "pos": "verb", "es": es_for(lemma, "verb") or (row[1].split(", ") if row[1] else [])}
+        lemmas[lid] = {"w": lemma, "pos": "verb", "es": es_for(lemma, "verb") or (row[1].split(", ") if row[1] and row[6] else [])}
 
     # ---------- Resto de categorías (Wiktionary inglés) ----------
     for pos in POSES:
@@ -354,6 +353,9 @@ def main():
         items = [kv for kv in items if lemmas[kv[0]].get("es") or lemmas[kv[0]].get("en") or kv[1][1]]
         if any(lemmas[kv[0]].get("es") for kv in items):
             items = [kv for kv in items if lemmas[kv[0]].get("es")]
+        # si hay una lectura frecuente, fuera los verbos rarísimos («weißt» ≠ weißen)
+        if items and min(kv[1][0] for kv in items) <= 4:
+            items = [kv for kv in items if kv[1][0] < 9]
         if not items:
             continue
         row = []
