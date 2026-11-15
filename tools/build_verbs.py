@@ -41,6 +41,7 @@ TENSES = [
     ("k2_fut2", {"subjunctive-ii", "future-ii"}, set()),
 ]
 
+SIMPLE = {"ind_pres", "ind_prat", "k1_pres", "k2_prat"}
 PRON = ["ich", "du", None, "wir", "ihr", None]
 
 
@@ -205,8 +206,9 @@ def load_tatoeba():
     return sents, index
 
 
-def find_example(form, sents, index, pron=None, used=None, imperative=False):
+def find_example(form, sents, index, pron=None, used=None, imperative=False, particle=None):
     ftoks = tokens(form)
+    part_re = re.compile(r"\b" + re.escape(particle) + r"\s*[.!?,;:]", re.I) if particle else None
     if not ftoks:
         return None
     lists = [index.get(tk, []) for tk in ftoks]
@@ -217,9 +219,13 @@ def find_example(form, sents, index, pron=None, used=None, imperative=False):
         de, es, toks = sents[i]
         if used is not None and i in used:
             continue
-        if imperative and not de.endswith("!"):
-            continue
+        if imperative != de.endswith("!"):
+            continue  # imperativos solo para el imperativo (y viceversa)
         if pron and pron not in toks:
+            continue
+        # verbo separable: la partícula debe cerrar la oración («Ich stehe früh auf.»),
+        # no ser una preposición («Ich stehe auf dich» = stehen auf)
+        if part_re and not part_re.search(de):
             continue
         # todas las piezas de la forma, en orden (permite huecos: «stehe … auf»)
         pos = -1
@@ -290,14 +296,19 @@ def main():
         for key, _, _ in TENSES:
             row = []
             for pi, cell in enumerate(v["t"][key]):
-                e = find_example(cell[0], sents, index, PRON[pi], used) if cell else None
+                part = None
+                if cell and v["sep"] and len(cell[0].split()) == 2 and key in SIMPLE:
+                    part = cell[0].split()[1]
+                e = find_example(cell[0], sents, index, PRON[pi], used, particle=part) if cell else None
                 row.append(e)
             if any(row):
                 ex[key] = row
                 n_ex += sum(1 for e in row if e)
         for k in ("du", "ihr"):
             if v["imp"][k]:
-                e = find_example(v["imp"][k][0], sents, index, None, used, imperative=True)
+                f0 = v["imp"][k][0]
+                part = f0.split()[1] if v["sep"] and len(f0.split()) == 2 else None
+                e = find_example(f0, sents, index, None, used, imperative=True, particle=part)
                 if e:
                     ex["imp_" + k] = e
                     n_ex += 1
