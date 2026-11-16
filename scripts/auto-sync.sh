@@ -84,7 +84,7 @@ while IFS= read -r f; do
     case "$f" in
         backend/requirements.txt)     need_pip=1; need_restart=1 ;;
         backend/*.py|backend/**/*.py) need_restart=1 ;;
-        frontend/src/*|frontend/src/**|\
+        frontend/src/*|frontend/src/**|backend/app/content/*|\
         frontend/index.html|frontend/public/*|frontend/public/**|\
         frontend/package.json|frontend/package-lock.json|frontend/vite.config.js)
                                       need_build=1; need_restart=1 ;;
@@ -115,7 +115,7 @@ if [ "$need_restart" = 1 ]; then
         exit 1
     fi
 else
-    log "Solo cambió contenido — el backend lo recarga solo, sin reinicio."
+    log "Sin cambios que requieran reinicio."
 fi
 
 log "OK."

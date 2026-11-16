@@ -197,6 +197,31 @@ export async function migrateLocalProgress() {
   }
 }
 
+// Progreso que quedó en la base de datos local de un Mac (SQLite, de antes de
+// unificar en Supabase). Solo existe si la app la sirve el FastAPI del Mac.
+export async function macLocalProgress() {
+  if (!STATIC) return null;
+  try {
+    const r = await fetch("/api/progress", { cache: "no-store" });
+    if (!r.ok || !(r.headers.get("content-type") || "").includes("json")) return null;
+    const d = await r.json();
+    return d && typeof d === "object" && !Array.isArray(d) && Object.keys(d).length ? d : null;
+  } catch {
+    return null;
+  }
+}
+
+// Sube a la cuenta las claves que aún no tenga (no pisa nada de la nube). La
+// base local del Mac no se toca.
+export async function importMacProgress(items) {
+  const uid = await currentUserId();
+  if (!uid) throw new Error("sin sesión");
+  const remote = await cloudProgress.getProgress(uid);
+  const missing = Object.fromEntries(Object.entries(items).filter(([k]) => !(k in remote)));
+  if (Object.keys(missing).length) await runOp(uid, { type: "import", items: missing });
+  return Object.keys(missing).length;
+}
+
 if (typeof window !== "undefined") {
   window.addEventListener("online", async () => {
     const uid = await currentUserId();

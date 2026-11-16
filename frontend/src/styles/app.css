@@ -4539,3 +4539,25 @@ b.hl,
   border-radius: 0 var(--r-sm) var(--r-sm) 0;
   animation: fade-up 0.25s ease;
 }
+
+/* Aviso: subir el progreso local de un Mac a la cuenta */
+.mac-import {
+  margin: 0 0 1.25rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--iris-line);
+  background: var(--iris-soft);
+  border-radius: var(--r-lg);
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+.mac-import p {
+  margin: 0 0 0.6rem;
+}
+.mac-import-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.mac-import-err {
+  color: var(--no);
+}

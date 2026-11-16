@@ -13,6 +13,7 @@ import HighlightsPanel from "./panels/HighlightsPanel";
 import ReviewPanel from "./panels/ReviewPanel";
 import VerbsPanel from "./panels/VerbsPanel";
 import WordTip from "./components/WordTip";
+import MacImportBanner from "./components/MacImportBanner";
 import { onOpenVerb } from "./verbs";
 import { summarize, useReviewItems } from "./srs";
 
@@ -244,6 +245,7 @@ export default function App() {
         </header>
 
         <div className="page">
+          <MacImportBanner />
           {!loaded || loadingBlock ? (
             <Skeleton />
           ) : current === "highlights" ? (

@@ -25,7 +25,13 @@ export function rememberEmail(addr) {
   }
 }
 
-const appUrl = () => window.location.origin + import.meta.env.BASE_URL;
+// Los enlaces de los correos van siempre a la WPA pública: si se piden desde
+// un Mac (localhost), el enlace no funcionaría en el móvil.
+const PUBLIC_URL = "https://angelbe2226.github.io/deutsche-app/";
+const appUrl = () =>
+  /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname)
+    ? PUBLIC_URL
+    : window.location.origin + import.meta.env.BASE_URL;
 
 function friendlyError(msg, mode) {
   if (/Database error saving new user|signup_not_allowed/i.test(msg))

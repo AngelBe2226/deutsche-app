@@ -3,8 +3,8 @@ import { supabase, openedFromRecoveryLink } from "./supabase";
 import { migrateLocalProgress } from "./api";
 import Login, { SetPassword } from "./components/Login";
 
-// Solo hay login en el build estático (web/PWA) con Supabase configurado.
-// En los Macs (modo backend) o sin configuración, la app abre directamente.
+// Hay login en el build estático (WPA y Macs) con Supabase configurado.
+// En modo backend (VITE_STATIC=0) o sin configuración, abre directamente.
 export const AUTH_ENABLED = import.meta.env.VITE_STATIC === "1" && !!supabase;
 
 const AuthCtx = createContext({ session: null, signOut: async () => {} });

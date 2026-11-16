@@ -6,7 +6,7 @@ import { AuthGate } from "./auth.jsx";
 import "./styles/tokens.css";
 import "./styles/app.css";
 
-// AuthGate pide login en la web/PWA (Supabase); en los Macs no hace nada.
+// AuthGate pide login (Supabase) en la WPA y en los Macs: un solo progreso.
 // El `key` recarga el progreso cuando cambia la persona que ha entrado.
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -3,7 +3,7 @@
 # sync.sh — trae los cambios del repo (deutsche-app) y deja la app siempre-on
 # actualizada en esta máquina. Hace solo lo necesario según lo que haya cambiado:
 #
-#   - contenido (backend/app/content/*.json) ......... nada: el server lo recarga solo
+#   - contenido (backend/app/content/*.json) ......... recompila (va empaquetado)
 #   - código backend (*.py) o requirements.txt ....... pip install (si toca) + reinicio
 #   - frontend (src/, index.html, public/, config) ... npm build + reinicio
 #
@@ -40,7 +40,7 @@ while IFS= read -r f; do
   case "$f" in
     backend/requirements.txt)                 need_pip=1;   need_restart=1 ;;
     backend/*.py|backend/**/*.py)             need_restart=1 ;;
-    frontend/src/*|frontend/src/**|\
+    frontend/src/*|frontend/src/**|backend/app/content/*|\
     frontend/index.html|frontend/public/*|frontend/public/**|\
     frontend/package.json|frontend/package-lock.json|frontend/vite.config.js)
                                               need_build=1; need_restart=1 ;;
