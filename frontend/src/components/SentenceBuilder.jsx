@@ -33,7 +33,7 @@ const MODALS = [
 // es: infinitivo con complemento y presente de las 6 personas
 const VERBS = [
   { inf: "arbeiten", de: ["arbeite", "arbeitest", "arbeitet", "arbeiten", "arbeitet", "arbeiten"], obj: "heute", neg: "end", esInf: "trabajar hoy", es: ["trabajo hoy", "trabajas hoy", "trabaja hoy", "trabajamos hoy", "trabajáis hoy", "trabajan hoy"] },
-  { inf: "Deutsch lernen", v: "lernen", de: ["lerne", "lernst", "lernt", "lernen", "lernt", "lernen"], obj: "Deutsch", neg: "pre", esInf: "aprender alemán", es: ["aprendo alemán", "aprendes alemán", "aprende alemán", "aprendemos alemán", "aprendéis alemán", "aprenden alemán"] },
+  { inf: "Deutsch lernen", v: "lernen", de: ["lerne", "lernst", "lernt", "lernen", "lernt", "lernen"], obj: "Deutsch", neg: "pre", negObj: "kein Deutsch", esInf: "aprender alemán", es: ["aprendo alemán", "aprendes alemán", "aprende alemán", "aprendemos alemán", "aprendéis alemán", "aprenden alemán"] },
   { inf: "den Film sehen", v: "sehen", de: ["sehe", "siehst", "sieht", "sehen", "seht", "sehen"], obj: "den Film", neg: "end", esInf: "ver la película", es: ["veo la película", "ves la película", "ve la película", "vemos la película", "veis la película", "ven la película"] },
   { inf: "das Buch lesen", v: "lesen", de: ["lese", "liest", "liest", "lesen", "lest", "lesen"], obj: "das Buch", neg: "end", esInf: "leer el libro", es: ["leo el libro", "lees el libro", "lee el libro", "leemos el libro", "leéis el libro", "leen el libro"] },
   { inf: "Brot kaufen", v: "kaufen", de: ["kaufe", "kaufst", "kauft", "kaufen", "kauft", "kaufen"], obj: "das Brot", neg: "end", esInf: "comprar el pan", es: ["compro el pan", "compras el pan", "compra el pan", "compramos el pan", "compráis el pan", "compran el pan"] },
@@ -80,7 +80,8 @@ function build(subj, modal, verb, type) {
   }
   // Orden: [V1] sujeto … objeto … (nicht) … final
   const middle = [];
-  if (type === "neg" && verb.neg === "pre") middle.push("nicht", objDe);
+  if (type === "neg" && verb.negObj) middle.push(verb.negObj); // sustantivo sin artículo → kein
+  else if (type === "neg" && verb.neg === "pre") middle.push("nicht", objDe);
   else if (type === "neg") middle.push(objDe, "nicht");
   else middle.push(objDe);
   const subjDe = subj.de;

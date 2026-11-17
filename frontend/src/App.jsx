@@ -69,7 +69,7 @@ function Skeleton() {
 export default function App() {
   const { loaded, resetPrefix } = useProgress();
   const [index, setIndex] = useState([]);
-  const [current, setCurrent] = useState("01");
+  const [current, setCurrent] = useState("00");
   const [block, setBlock] = useState(null);
   const [loadingBlock, setLoadingBlock] = useState(true);
   const [navOpen, setNavOpen] = useState(false);

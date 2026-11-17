@@ -1,0 +1,529 @@
+{
+  "block": "36",
+  "title": "Primeros pasos: el alemán que ya sabes",
+  "kicker": "Bloque 36 · Supervivencia · A1",
+  "intro": "Sabes más alemán del que crees. Hay <b class=\"hl\">cientos de palabras transparentes</b> (Hotel, Taxi, Problem), préstamos del inglés y reglas fijas para pasar del español al alemán (<i>-ción → -tion</i>, <i>-dad → -tät</i>, <i>-ar → -ieren</i>). Empieza por aquí para ganar confianza: en una hora tendrás un vocabulario de cientos de palabras.",
+  "sections": [
+    {
+      "idx": "36.1",
+      "title": "Wortschatz: palabras transparentes",
+      "level": "A1",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Usa el <b>modo eco</b> para repetir en voz alta y luego <b>Ocultar español</b> para ponerte a prueba.",
+      "vocab": {
+        "id": "b36-voc",
+        "items": [
+          {
+            "de": "das Hotel",
+            "es": "el hotel",
+            "pl": "Hotels"
+          },
+          {
+            "de": "das Taxi",
+            "es": "el taxi",
+            "pl": "Taxis"
+          },
+          {
+            "de": "das Restaurant",
+            "es": "el restaurante",
+            "pl": "Restaurants"
+          },
+          {
+            "de": "die Information",
+            "es": "la información",
+            "pl": "Informationen"
+          },
+          {
+            "de": "die Musik",
+            "es": "la música"
+          },
+          {
+            "de": "das Problem",
+            "es": "el problema",
+            "pl": "Probleme"
+          },
+          {
+            "de": "das Telefon",
+            "es": "el teléfono",
+            "pl": "Telefone"
+          },
+          {
+            "de": "die Adresse",
+            "es": "la dirección (postal)",
+            "pl": "Adressen"
+          },
+          {
+            "de": "der Tourist",
+            "es": "el turista",
+            "pl": "Touristen"
+          },
+          {
+            "de": "das Konzert",
+            "es": "el concierto",
+            "pl": "Konzerte"
+          },
+          {
+            "de": "die Familie",
+            "es": "la familia",
+            "pl": "Familien"
+          },
+          {
+            "de": "der Kaffee",
+            "es": "el café"
+          },
+          {
+            "de": "die Universität",
+            "es": "la universidad",
+            "pl": "Universitäten"
+          },
+          {
+            "de": "das Zentrum",
+            "es": "el centro",
+            "pl": "Zentren"
+          },
+          {
+            "de": "der Supermarkt",
+            "es": "el supermercado",
+            "pl": "Supermärkte"
+          },
+          {
+            "de": "die Bank",
+            "es": "el banco (dinero) · el banco (asiento)",
+            "pl": "Banken / Bänke"
+          },
+          {
+            "de": "die Polizei",
+            "es": "la policía"
+          },
+          {
+            "de": "das Museum",
+            "es": "el museo",
+            "pl": "Museen"
+          },
+          {
+            "de": "die Apotheke",
+            "es": "la farmacia (¡no «apoteca»!)",
+            "pl": "Apotheken"
+          },
+          {
+            "de": "der Doktor",
+            "es": "el doctor",
+            "pl": "Doktoren"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "Las palabras se parecen, pero el <b>género no siempre coincide</b>: <i>das</i> Problem (el problema), <i>die</i> Information… y <b>se pronuncian a la alemana</b>: <i>Restaurant</i> [restorán], <i>Zentrum</i> [tséntrum]. Mira la figurada en cada tarjeta."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b36-s1q1",
+          "question": "1. ¿Qué artículo lleva Problem?",
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "correctIndex": 2,
+          "explain": "<b>das</b> Problem: muchas palabras extranjeras en <b>-em</b> son neutras (das System, das Thema)."
+        },
+        {
+          "id": "b36-s1q2",
+          "question": "2. die Apotheke es…",
+          "options": [
+            "la bodega",
+            "la farmacia",
+            "la biblioteca"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>die Apotheke</b> = la farmacia. La biblioteca es <i>die Bibliothek</i>."
+        },
+        {
+          "id": "b36-s1q3",
+          "question": "3. Plural de das Museum:",
+          "options": [
+            "die Museums",
+            "die Museen",
+            "die Musea"
+          ],
+          "correctIndex": 1,
+          "explain": "Las palabras latinas en <b>-um</b> cambian a <b>-en</b>: Museum → Museen, Zentrum → Zentren."
+        }
+      ]
+    },
+    {
+      "idx": "36.2",
+      "title": "Reglas de parecido: del español al alemán",
+      "level": "A1",
+      "rule": "Muchas terminaciones españolas tienen una pareja fija en alemán. Con estas seis reglas puedes <b>adivinar</b> (y casi siempre acertar) cientos de palabras. Ojo al género: las de <b>-tion, -tät, -ie, -ik</b> son siempre <b>femeninas</b>.",
+      "tables": [
+        {
+          "headers": [
+            "Español",
+            "Alemán",
+            "Ejemplos"
+          ],
+          "rows": [
+            [
+              "-ción",
+              "<span class=\"g-f\">die</span> -tion",
+              "die Nation, die Situation, die Organisation, die Reaktion"
+            ],
+            [
+              "-dad",
+              "<span class=\"g-f\">die</span> -tät",
+              "die Universität, die Qualität, die Realität, die Nationalität"
+            ],
+            [
+              "-ía / -ia",
+              "<span class=\"g-f\">die</span> -ie",
+              "die Biologie, die Fotografie, die Fantasie, die Energie"
+            ],
+            [
+              "-ica",
+              "<span class=\"g-f\">die</span> -ik",
+              "die Musik, die Politik, die Technik, die Grafik"
+            ],
+            [
+              "-ismo",
+              "<span class=\"g-m\">der</span> -ismus",
+              "der Tourismus, der Realismus, der Optimismus"
+            ],
+            [
+              "-ar / -er / -ir (verbos cultos)",
+              "-ieren",
+              "telefonieren, reparieren, organisieren, studieren, akzeptieren"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Los verbos en <b>-ieren</b> son regulares, llevan el acento en <b>-íe-</b> y su participio no lleva <i>ge-</i>: <i>ich habe telefoniert</i>, <i>wir haben studiert</i>."
+        },
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Falsos amigos a la vista: <i>eventuell</i> = quizá (no «eventual»), <i>aktuell</i> = actual. Mira el bloque 17."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Die <b>Situation</b> ist kompliziert.",
+          "es": "La situación es complicada."
+        },
+        {
+          "en": "Die <b>Qualität</b> ist sehr gut.",
+          "es": "La calidad es muy buena."
+        },
+        {
+          "en": "Ich studiere <b>Biologie</b>.",
+          "es": "Estudio biología."
+        },
+        {
+          "en": "Wir organisieren eine <b>Party</b>.",
+          "es": "Organizamos una fiesta."
+        },
+        {
+          "en": "Der <b>Tourismus</b> ist wichtig für die Schweiz.",
+          "es": "El turismo es importante para Suiza."
+        },
+        {
+          "en": "Kannst du das Fahrrad <b>reparieren</b>?",
+          "es": "¿Puedes arreglar la bici?"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b36-s2q1",
+          "question": "1. ¿Cómo se dice «la nacionalidad»?",
+          "options": [
+            "die Nationalidad",
+            "die Nationalität",
+            "das Nationalität"
+          ],
+          "correctIndex": 1,
+          "explain": "-dad → <b>-tät</b>, y estas palabras son siempre femeninas: <b>die</b> Nationalität."
+        },
+        {
+          "id": "b36-s2q2",
+          "question": "2. «la reacción» →",
+          "options": [
+            "die Reaktion",
+            "der Reaktion",
+            "die Reakzion"
+          ],
+          "correctIndex": 0,
+          "explain": "-ción → <b>-tion</b> (femenino): die Reaktion."
+        },
+        {
+          "id": "b36-s2q3",
+          "question": "3. «organizar» →",
+          "options": [
+            "organisen",
+            "organisieren",
+            "organiseren"
+          ],
+          "correctIndex": 1,
+          "explain": "Verbos cultos en -ar → <b>-ieren</b>: organisieren."
+        },
+        {
+          "id": "b36-s2q4",
+          "question": "4. Participio de telefonieren:",
+          "options": [
+            "getelefoniert",
+            "telefoniert",
+            "telefonieren"
+          ],
+          "correctIndex": 1,
+          "explain": "Los verbos en <b>-ieren</b> no llevan <i>ge-</i>: ich habe <b>telefoniert</b>."
+        },
+        {
+          "id": "b36-s2q5",
+          "question": "5. «la fotografía» →",
+          "options": [
+            "die Fotografie",
+            "die Fotografía",
+            "das Foto-grafik"
+          ],
+          "correctIndex": 0,
+          "explain": "-ía → <b>-ie</b> (femenino): die Fotografie."
+        }
+      ]
+    },
+    {
+      "idx": "36.3",
+      "title": "Préstamos: inglés en alemán y alemán en español",
+      "level": "A1",
+      "rule": "El alemán actual usa muchas palabras inglesas (lo llaman <b>Denglisch</b>), y el español ha tomado algunas alemanas. Todas se escriben con mayúscula si son sustantivos y se conjugan como verbos alemanes: <i>ich jogge, wir haben gechattet</i>.",
+      "tables": [
+        {
+          "headers": [
+            "Palabra",
+            "Significa",
+            "Ojo"
+          ],
+          "rows": [
+            [
+              "das Handy",
+              "el móvil",
+              "en inglés no existe con este sentido"
+            ],
+            [
+              "der Job",
+              "el trabajo (informal)",
+              "das Meeting, das Team, das Ticket, der Computer"
+            ],
+            [
+              "joggen · chatten · googeln",
+              "correr · chatear · buscar en Google",
+              "ich jogge, ich habe gegoogelt"
+            ],
+            [
+              "cool · okay · sorry",
+              "guay · vale · perdón",
+              "muy usados entre jóvenes"
+            ],
+            [
+              "der Kindergarten",
+              "la guardería / el parvulario",
+              "en español: kindergarten"
+            ],
+            [
+              "der Bunker · der Kitsch · die Angst",
+              "búnker · cursilería · el miedo",
+              "palabras alemanas que usa el mundo entero"
+            ]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b36-s3q1",
+          "question": "1. das Handy es…",
+          "options": [
+            "el manitas",
+            "el móvil",
+            "la mano"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>das Handy</b> = el teléfono móvil. Parece inglés, pero los ingleses no lo usan así."
+        },
+        {
+          "id": "b36-s3q2",
+          "question": "2. «Ayer busqué en Google» →",
+          "options": [
+            "Gestern habe ich gegoogelt.",
+            "Gestern habe ich googelt.",
+            "Gestern ich habe gegoogelt."
+          ],
+          "correctIndex": 0,
+          "explain": "Los préstamos se conjugan a la alemana: participio <b>ge-…-t</b>, y el verbo en 2.ª posición."
+        },
+        {
+          "id": "b36-s3q3",
+          "question": "3. ¿Cuál es una palabra alemana que se usa en español?",
+          "options": [
+            "Handy",
+            "Kindergarten",
+            "Meeting"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Kindergarten</b> («jardín de niños») viene del alemán."
+        }
+      ]
+    },
+    {
+      "idx": "36.4",
+      "title": "Expresiones para el primer día",
+      "level": "A1",
+      "rule": "Veinte palabras que oirás y dirás desde el primer día. Apréndelas como bloques fijos, sin analizar la gramática: son <b>fórmulas</b>.",
+      "examples": [
+        {
+          "en": "Hallo! / Grüezi! (Suiza)",
+          "es": "¡Hola! (Grüezi es el saludo suizo formal)"
+        },
+        {
+          "en": "Tschüss! / Auf Wiedersehen!",
+          "es": "¡Adiós! (informal / formal)"
+        },
+        {
+          "en": "Danke! — Bitte!",
+          "es": "¡Gracias! — ¡De nada!"
+        },
+        {
+          "en": "Danke schön! — Bitte schön!",
+          "es": "¡Muchas gracias! — ¡No hay de qué!"
+        },
+        {
+          "en": "Entschuldigung!",
+          "es": "¡Perdón! / ¡Disculpe!"
+        },
+        {
+          "en": "Wie bitte?",
+          "es": "¿Cómo? (no he entendido)"
+        },
+        {
+          "en": "Alles klar!",
+          "es": "¡Entendido! / ¡Todo bien!"
+        },
+        {
+          "en": "Kein Problem!",
+          "es": "¡Ningún problema!"
+        },
+        {
+          "en": "Genau!",
+          "es": "¡Exacto!"
+        },
+        {
+          "en": "Schade!",
+          "es": "¡Qué pena!"
+        },
+        {
+          "en": "Prost! / Zum Wohl!",
+          "es": "¡Salud! (al brindar)"
+        },
+        {
+          "en": "Guten Appetit! / En Guete! (Suiza)",
+          "es": "¡Que aproveche!"
+        },
+        {
+          "en": "Gesundheit!",
+          "es": "¡Salud! (cuando alguien estornuda)"
+        },
+        {
+          "en": "Viel Glück!",
+          "es": "¡Mucha suerte!"
+        },
+        {
+          "en": "Gute Besserung!",
+          "es": "¡Que te mejores!"
+        },
+        {
+          "en": "Herzlichen Glückwunsch!",
+          "es": "¡Felicidades!"
+        }
+      ],
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Ojo con los dos «¡salud!»: <b>Prost!</b> al brindar (mirando a los ojos) y <b>Gesundheit!</b> cuando alguien estornuda. Y <b>bitte</b> vale para «por favor», «de nada» y «¿perdone?»."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b36-s4q1",
+          "question": "1. Alguien estornuda. Dices:",
+          "options": [
+            "Prost!",
+            "Gesundheit!",
+            "Guten Appetit!"
+          ],
+          "correctIndex": 1,
+          "explain": "Al estornudar: <b>Gesundheit!</b> <i>Prost!</i> es para brindar."
+        },
+        {
+          "id": "b36-s4q2",
+          "question": "2. No has entendido lo que te dicen. Dices:",
+          "options": [
+            "Wie bitte?",
+            "Bitte schön!",
+            "Alles klar!"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>Wie bitte?</b> = ¿cómo?, ¿perdón? <i>Alles klar</i> significaría que lo has entendido todo."
+        },
+        {
+          "id": "b36-s4q3",
+          "question": "3. Te dan las gracias. Respondes:",
+          "options": [
+            "Danke!",
+            "Bitte!",
+            "Schade!"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Bitte</b> (o <i>Bitte schön</i>, <i>Gern geschehen</i>) = de nada."
+        },
+        {
+          "id": "b36-s4q4",
+          "question": "4. Un amigo tiene un examen mañana:",
+          "options": [
+            "Gute Besserung!",
+            "Viel Glück!",
+            "Herzlichen Glückwunsch!"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Viel Glück!</b> = ¡suerte! <i>Gute Besserung</i> es para un enfermo y <i>Herzlichen Glückwunsch</i>, para felicitar."
+        }
+      ]
+    },
+    {
+      "idx": "36.5",
+      "title": "Szenario: tu primera hora en Suiza",
+      "level": "A1",
+      "rule": "Ponte a prueba solo con lo de este bloque. Hazlo en voz alta y marca cada objetivo.",
+      "scenario": {
+        "id": "b36-sc",
+        "situation": "Acabas de llegar a la estación de <b>Zúrich</b>. Tienes que saludar en un quiosco, comprar un café, pedir que te repitan algo que no entiendes, preguntar por un <b>hotel</b> y un <b>taxi</b>, y despedirte. Usa solo palabras transparentes y fórmulas fijas.",
+        "goals": [
+          "Saludar a la suiza (<i>Grüezi!</i>)",
+          "Pedir <i>einen Kaffee, bitte</i>",
+          "Decir que no has entendido (<i>Wie bitte?</i>) y pedir que hablen despacio",
+          "Preguntar <i>Wo ist ein Hotel?</i> / <i>Wo ist ein Taxi?</i>",
+          "Dar las gracias y despedirte (<i>Danke! Auf Wiedersehen!</i>)"
+        ]
+      },
+      "produce": {
+        "id": "b36-s5",
+        "label": "<b>tu turno:</b> escribe la conversación (5–8 frases) usando solo lo de este bloque.",
+        "placeholder": "Grüezi! Einen Kaffee, bitte. — Wie bitte? Langsam, bitte …"
+      }
+    }
+  ]
+}

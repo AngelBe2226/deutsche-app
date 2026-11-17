@@ -1,0 +1,541 @@
+{
+  "block": "37",
+  "title": "Números, hora y fechas",
+  "kicker": "Bloque 37 · Supervivencia · A1",
+  "intro": "Precios, horarios, citas y fechas: lo usarás a diario. Dos sorpresas que hay que dominar: los números se dicen <b class=\"hl\">al revés</b> (<i>einundzwanzig</i> = «uno y veinte») y <b class=\"hl\">«halb drei» son las 2:30</b>, no las 3:30.",
+  "sections": [
+    {
+      "idx": "37.1",
+      "title": "Los números: unidades antes que decenas",
+      "level": "A1",
+      "rule": "Del 13 al 19 se forman con <b>-zehn</b> (<i>dreizehn</i>), las decenas con <b>-zig</b> (<i>vierzig</i>) y, a partir del 21, las <b>unidades van primero</b> unidas por <b>und</b>: 21 = <i>einundzwanzig</i> («uno y veinte»). Todo número se escribe en una sola palabra.",
+      "tables": [
+        {
+          "headers": [
+            "Número",
+            "Alemán",
+            "Truco"
+          ],
+          "rows": [
+            [
+              "0 · 1 · 2 · 3",
+              "null · eins · zwei · drei",
+              "por teléfono se dice <b>zwo</b> para no confundir zwei con drei"
+            ],
+            [
+              "4 · 5 · 6 · 7",
+              "vier · fünf · sechs · sieben",
+              "sechs [seks]"
+            ],
+            [
+              "8 · 9 · 10 · 11 · 12",
+              "acht · neun · zehn · elf · zwölf",
+              "elf y zwölf son irregulares"
+            ],
+            [
+              "13 · 16 · 17",
+              "dreizehn · sechzehn · siebzehn",
+              "sechzehn y siebzehn pierden letras"
+            ],
+            [
+              "20 · 30 · 40",
+              "zwanzig · dreißig · vierzig",
+              "¡dreißig con ß!"
+            ],
+            [
+              "21 · 35 · 99",
+              "einundzwanzig · fünfunddreißig · neunundneunzig",
+              "unidad + und + decena"
+            ],
+            [
+              "100 · 101 · 1000",
+              "(ein)hundert · hunderteins · (ein)tausend",
+              "2026 = zweitausendsechsundzwanzig"
+            ],
+            [
+              "1. · 2. · 3. · 7. · 20.",
+              "erste · zweite · dritte · siebte · zwanzigste",
+              "ordinales: -te hasta 19, -ste desde 20"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Para no liarte con los números largos, escribe primero las unidades: 47 → <b>sieben</b>und<b>vierzig</b>. Al escuchar un número, espera al final para saber la decena."
+        },
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "En Suiza y Alemania los decimales llevan <b>coma</b> y los miles, punto o apóstrofo: <i>3,50 Fr.</i>, <i>1'200 Fr.</i> (Suiza), <i>1.200 €</i> (Alemania)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b37-s1q1",
+          "question": "1. 24 →",
+          "options": [
+            "zwanzigvier",
+            "vierundzwanzig",
+            "vierzwanzig"
+          ],
+          "correctIndex": 1,
+          "explain": "Unidades primero: <b>vier</b>und<b>zwanzig</b>."
+        },
+        {
+          "id": "b37-s1q2",
+          "question": "2. 30 →",
+          "options": [
+            "dreizig",
+            "dreißig",
+            "dreizehn"
+          ],
+          "correctIndex": 1,
+          "explain": "Es la decena irregular: <b>dreißig</b>. <i>dreizehn</i> es 13."
+        },
+        {
+          "id": "b37-s1q3",
+          "question": "3. siebzehn es…",
+          "options": [
+            "70",
+            "17",
+            "7"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>siebzehn</b> = 17 (sieben pierde -en). 70 = <i>siebzig</i>."
+        },
+        {
+          "id": "b37-s1q4",
+          "question": "4. 56 →",
+          "options": [
+            "sechsundfünfzig",
+            "fünfundsechzig",
+            "fünfzigsechs"
+          ],
+          "correctIndex": 0,
+          "explain": "6 + und + 50 = <b>sechsundfünfzig</b>. <i>fünfundsechzig</i> sería 65."
+        },
+        {
+          "id": "b37-s1q5",
+          "question": "5. «el tercero» →",
+          "options": [
+            "der dreite",
+            "der dritte",
+            "der dreiste"
+          ],
+          "correctIndex": 1,
+          "explain": "Ordinal irregular: <b>dritte</b> (como <i>erste</i> y <i>siebte</i>)."
+        }
+      ]
+    },
+    {
+      "idx": "37.2",
+      "title": "La hora: oficial y de la calle",
+      "level": "A1",
+      "rule": "Hay dos sistemas. El <b>oficial</b> (estaciones, radio, citas) usa 24 horas: <i>14:30 = vierzehn Uhr dreißig</i>. El <b>coloquial</b> usa 12 horas con <b>Viertel</b> (cuarto) y <b>halb</b> (media)… pero <b>halb</b> mira a la hora <b>siguiente</b>: <i>halb drei</i> = «media hacia las tres» = <b>2:30</b>. Pregunta: <i>Wie spät ist es? / Wie viel Uhr ist es?</i>",
+      "tables": [
+        {
+          "headers": [
+            "Hora",
+            "Oficial",
+            "Coloquial"
+          ],
+          "rows": [
+            [
+              "8:00",
+              "acht Uhr",
+              "acht (Uhr)"
+            ],
+            [
+              "8:15",
+              "acht Uhr fünfzehn",
+              "Viertel nach acht"
+            ],
+            [
+              "8:30",
+              "acht Uhr dreißig",
+              "<b>halb neun</b> ⚠"
+            ],
+            [
+              "8:45",
+              "acht Uhr fünfundvierzig",
+              "Viertel vor neun"
+            ],
+            [
+              "8:10",
+              "acht Uhr zehn",
+              "zehn nach acht"
+            ],
+            [
+              "8:25",
+              "acht Uhr fünfundzwanzig",
+              "fünf vor halb neun"
+            ],
+            [
+              "20:00",
+              "zwanzig Uhr",
+              "acht Uhr abends"
+            ],
+            [
+              "0:00 · 12:00",
+              "null Uhr · zwölf Uhr",
+              "Mitternacht · Mittag"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "<b>halb</b> es la trampa número uno de los hispanohablantes: <i>Wir treffen uns um halb acht</i> = a las <b>7:30</b>. Si dudas, pregunta por la versión oficial: <i>Also um sieben Uhr dreißig?</i>"
+        },
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Preposición para la hora: <b>um</b> (um acht Uhr). Aproximada: <b>gegen</b> acht (hacia las ocho). Duración: <b>von</b> neun <b>bis</b> fünf."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b37-s2q1",
+          "question": "1. «halb vier» son las…",
+          "options": [
+            "4:30",
+            "3:30",
+            "3:15"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>halb</b> apunta a la hora siguiente: media hacia las cuatro = <b>3:30</b>."
+        },
+        {
+          "id": "b37-s2q2",
+          "question": "2. 6:45 en coloquial →",
+          "options": [
+            "Viertel nach sechs",
+            "Viertel vor sieben",
+            "halb sieben"
+          ],
+          "correctIndex": 1,
+          "explain": "Faltan 15 minutos para las siete: <b>Viertel vor sieben</b>."
+        },
+        {
+          "id": "b37-s2q3",
+          "question": "3. El tren sale a las 17:20 (anuncio oficial) →",
+          "options": [
+            "fünf Uhr zwanzig",
+            "siebzehn Uhr zwanzig",
+            "zwanzig nach fünf"
+          ],
+          "correctIndex": 1,
+          "explain": "En estaciones se usa el sistema de 24 h: <b>siebzehn Uhr zwanzig</b>."
+        },
+        {
+          "id": "b37-s2q4",
+          "question": "4. «Nos vemos a las 8» → Wir treffen uns ___ acht Uhr.",
+          "options": [
+            "am",
+            "um",
+            "im"
+          ],
+          "correctIndex": 1,
+          "explain": "Para la hora exacta: <b>um</b>. <i>am</i> es para días y <i>im</i> para meses."
+        },
+        {
+          "id": "b37-s2q5",
+          "question": "5. 9:25 en coloquial →",
+          "options": [
+            "fünf vor halb zehn",
+            "fünf nach halb neun",
+            "fünfundzwanzig vor neun"
+          ],
+          "correctIndex": 0,
+          "explain": "Cinco minutos antes de la media hacia las diez: <b>fünf vor halb zehn</b>."
+        }
+      ]
+    },
+    {
+      "idx": "37.3",
+      "title": "Días, meses, estaciones y fechas",
+      "level": "A1",
+      "rule": "Días, meses y estaciones son <b>masculinos</b>. Preposiciones: <b>am</b> + día o fecha (<i>am Montag, am 3. Mai</i>), <b>im</b> + mes o estación (<i>im Juli, im Winter</i>) y sin preposición para el año (<i>2026</i>) o <i>im Jahr 2026</i>. La fecha se dice con ordinal: <i>am dritten Mai</i>.",
+      "tables": [
+        {
+          "headers": [
+            "",
+            "Alemán"
+          ],
+          "rows": [
+            [
+              "Días",
+              "Montag · Dienstag · Mittwoch · Donnerstag · Freitag · Samstag (Sonnabend) · Sonntag"
+            ],
+            [
+              "Meses",
+              "Januar · Februar · März · April · Mai · Juni · Juli · August · September · Oktober · November · Dezember"
+            ],
+            [
+              "Estaciones",
+              "der Frühling · der Sommer · der Herbst · der Winter"
+            ],
+            [
+              "Partes del día",
+              "am Morgen · am Vormittag · am Mittag · am Nachmittag · am Abend · in der Nacht"
+            ],
+            [
+              "Hábitos (-s)",
+              "montags (los lunes) · morgens · abends · nachts"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Heute ist <b>Dienstag, der 17. November</b>.",
+          "es": "Hoy es martes, 17 de noviembre."
+        },
+        {
+          "en": "Ich habe <b>am Freitag</b> einen Termin.",
+          "es": "Tengo una cita el viernes."
+        },
+        {
+          "en": "Wir fahren <b>im August</b> in die Berge.",
+          "es": "En agosto vamos a la montaña."
+        },
+        {
+          "en": "Der Nationalfeiertag ist <b>am ersten August</b>.",
+          "es": "La fiesta nacional (suiza) es el 1 de agosto."
+        },
+        {
+          "en": "<b>Montags</b> arbeite ich von zu Hause.",
+          "es": "Los lunes trabajo desde casa."
+        },
+        {
+          "en": "Ich bin <b>1990</b> geboren.",
+          "es": "Nací en 1990 (neunzehnhundertneunzig)."
+        }
+      ],
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Los años antes de 2000 se dicen en centenas: <b>1990 = neunzehnhundertneunzig</b> («diecinueve cientos noventa»). Desde 2000: <i>zweitausend…</i>"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b37-s3q1",
+          "question": "1. «en julio» →",
+          "options": [
+            "am Juli",
+            "im Juli",
+            "um Juli"
+          ],
+          "correctIndex": 1,
+          "explain": "Meses y estaciones: <b>im</b> (in + dem)."
+        },
+        {
+          "id": "b37-s3q2",
+          "question": "2. «el sábado» →",
+          "options": [
+            "am Samstag",
+            "im Samstag",
+            "um Samstag"
+          ],
+          "correctIndex": 0,
+          "explain": "Días y fechas: <b>am</b>."
+        },
+        {
+          "id": "b37-s3q3",
+          "question": "3. «el 3 de octubre» →",
+          "options": [
+            "am drei Oktober",
+            "am dritten Oktober",
+            "im dritten Oktober"
+          ],
+          "correctIndex": 1,
+          "explain": "La fecha lleva ordinal declinado: <b>am dritten</b> Oktober."
+        },
+        {
+          "id": "b37-s3q4",
+          "question": "4. 1985 →",
+          "options": [
+            "eintausendneunhundertfünfundachtzig",
+            "neunzehnhundertfünfundachtzig",
+            "neunzehnhundertachtzigfünf"
+          ],
+          "correctIndex": 1,
+          "explain": "Años anteriores a 2000: <b>neunzehnhundert</b> + 85 (fünfundachtzig)."
+        },
+        {
+          "id": "b37-s3q5",
+          "question": "5. «los domingos (siempre)» →",
+          "options": [
+            "am Sonntag",
+            "sonntags",
+            "Sonntagen"
+          ],
+          "correctIndex": 1,
+          "explain": "Para hábitos: día + <b>-s</b> en minúscula: <b>sonntags</b>."
+        }
+      ]
+    },
+    {
+      "idx": "37.4",
+      "title": "Diálogo: precios en el mercado",
+      "level": "A1",
+      "rule": "En el mercado de Berna. Fíjate en cómo se dicen los precios en francos: <i>4.50 Fr.</i> = <b>vier Franken fünfzig</b> (los céntimos son <b>Rappen</b>) y en las cantidades: <i>ein Kilo, ein halbes Kilo, 200 Gramm</i>.",
+      "dialog": {
+        "id": "b37-markt",
+        "setting": "Mercado de la Bundesplatz, Berna · sábado, 9:30",
+        "roles": {
+          "V": {
+            "name": "Verkäuferin",
+            "label": "Vendedora"
+          },
+          "K": {
+            "name": "Kundin",
+            "label": "Tú"
+          }
+        },
+        "lines": [
+          {
+            "who": "V",
+            "de": "Grüezi! Was darf es sein?",
+            "es": "¡Buenos días! ¿Qué le pongo?"
+          },
+          {
+            "who": "K",
+            "de": "Grüezi! Was kosten die Äpfel?",
+            "es": "¡Buenos días! ¿Cuánto cuestan las manzanas?"
+          },
+          {
+            "who": "V",
+            "de": "Ein Kilo kostet <b>vier Franken fünfzig</b>.",
+            "es": "El kilo cuesta 4,50 francos."
+          },
+          {
+            "who": "K",
+            "de": "Dann nehme ich <b>ein halbes Kilo</b>, bitte. Und 200 Gramm Käse.",
+            "es": "Entonces me llevo medio kilo, por favor. Y 200 gramos de queso."
+          },
+          {
+            "who": "V",
+            "de": "Gern. Den Emmentaler oder den Gruyère?",
+            "es": "Con gusto. ¿El Emmental o el Gruyère?"
+          },
+          {
+            "who": "K",
+            "de": "Den Gruyère, bitte. Wie viel macht das zusammen?",
+            "es": "El Gruyère, por favor. ¿Cuánto es todo?"
+          },
+          {
+            "who": "V",
+            "de": "Das macht <b>neun Franken achtzig</b>.",
+            "es": "Son 9,80 francos."
+          },
+          {
+            "who": "K",
+            "de": "Hier sind zehn Franken. Stimmt so!",
+            "es": "Aquí tiene diez francos. ¡Quédese el cambio!"
+          },
+          {
+            "who": "V",
+            "de": "Merci vielmal! Schönes Wochenende!",
+            "es": "¡Muchas gracias! ¡Buen fin de semana!"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>Stimmt so!</b> = «quédese el cambio». <b>Merci vielmal</b> es el «muchas gracias» suizo (en Alemania: <i>Vielen Dank</i>)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b37-s4q1",
+          "question": "1. ¿Cuánto cuesta el kilo de manzanas?",
+          "options": [
+            "4,15 Fr.",
+            "4,50 Fr.",
+            "5,40 Fr."
+          ],
+          "correctIndex": 1,
+          "explain": "«vier Franken fünfzig» = <b>4,50</b> francos."
+        },
+        {
+          "id": "b37-s4q2",
+          "question": "2. ¿Cuánto compra de manzanas?",
+          "options": [
+            "un kilo",
+            "medio kilo",
+            "200 gramos"
+          ],
+          "correctIndex": 1,
+          "explain": "«ein <b>halbes</b> Kilo» = medio kilo; los 200 gramos son de queso."
+        },
+        {
+          "id": "b37-s4q3",
+          "question": "3. «Stimmt so!» significa…",
+          "options": [
+            "Es correcto el precio",
+            "Quédese el cambio",
+            "Está bien así, no quiero más"
+          ],
+          "correctIndex": 1,
+          "explain": "Al pagar, <b>Stimmt so</b> indica que el resto es propina."
+        }
+      ]
+    },
+    {
+      "idx": "37.5",
+      "title": "Rollenspiel: concertar una hora",
+      "level": "A1",
+      "rule": "Llamas a una academia para una prueba de nivel. Responde a cada turno y compara con el modelo. Practica en voz alta las horas y las fechas.",
+      "roleplay": {
+        "id": "b37-rp",
+        "you": "Tú",
+        "partner": {
+          "name": "Sekretariat",
+          "label": "Academia de idiomas"
+        },
+        "steps": [
+          {
+            "partner": "Sprachschule Bern, guten Tag! Wie kann ich helfen?",
+            "es": "Escuela de idiomas Berna, buenos días. ¿En qué puedo ayudar?",
+            "task": "Di que quieres una prueba de nivel (Einstufungstest).",
+            "model": "Guten Tag! Ich möchte einen Einstufungstest machen."
+          },
+          {
+            "partner": "Gern. Passt Ihnen Mittwoch, der 25. November?",
+            "es": "Con gusto. ¿Le va bien el miércoles 25 de noviembre?",
+            "task": "Di que el miércoles no puedes y propón el jueves.",
+            "model": "Am Mittwoch kann ich leider nicht. Geht auch Donnerstag?"
+          },
+          {
+            "partner": "Donnerstag geht. Um halb zehn oder um vierzehn Uhr?",
+            "es": "El jueves sí. ¿A las nueve y media o a las 14:00?",
+            "task": "Elige las nueve y media y confirma la hora con el sistema oficial.",
+            "model": "Um halb zehn, bitte. Also um neun Uhr dreißig, richtig?"
+          },
+          {
+            "partner": "Genau. Wie ist Ihr Name, bitte?",
+            "es": "Exacto. ¿Cuál es su nombre, por favor?",
+            "task": "Da tu nombre y deletrea el apellido.",
+            "model": "Mein Name ist Ana López. López: L-O-P-E-Z."
+          },
+          {
+            "partner": "Danke, Frau López. Dann bis Donnerstag!",
+            "es": "Gracias, señora López. ¡Hasta el jueves!",
+            "task": "Da las gracias y despídete.",
+            "model": "Vielen Dank! Bis Donnerstag, auf Wiederhören!"
+          }
+        ]
+      }
+    }
+  ]
+}

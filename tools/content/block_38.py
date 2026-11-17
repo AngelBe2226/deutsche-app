@@ -1,0 +1,80 @@
+from common import *
+
+B = {"block": "38", "title": "Saludos, presentaciones y países", "kicker": "Bloque 38 · Supervivencia · A1",
+ "intro": "Saludar bien abre puertas. Aquí aprendes a elegir entre <b class=\"hl\">du y Sie</b>, los saludos según la hora y la región (en Suiza, <i>Grüezi</i>), a presentarte, presentar a otros y a hablar de países, nacionalidades e idiomas.",
+ "sections": [
+  {"idx": "38.1", "title": "Wortschatz: países, nacionalidades e idiomas", "level": "A1",
+   "rule": "Para cada país hay tres palabras: el país, la persona (masculino y femenino) y el idioma (con mayúscula, sin artículo). Casi todos los países son neutros y van <b>sin artículo</b> (<i>aus Spanien</i>), pero algunos lo llevan: <b>die Schweiz</b>, die Türkei, die USA (plural). Por eso: <i>in <b>der</b> Schweiz</i>, <i>aus <b>der</b> Schweiz</i>.",
+   "vocab": vocab("b38-voc", [
+     ("Spanien", "España"), ("der Spanier / die Spanierin", "el español / la española"), ("Spanisch", "el español (idioma)"),
+     ("die Schweiz", "Suiza (¡con artículo!)"), ("der Schweizer / die Schweizerin", "el suizo / la suiza"), ("Schweizerdeutsch", "el alemán de Suiza"),
+     ("Deutschland", "Alemania"), ("der Deutsche / die Deutsche", "el alemán / la alemana"), ("Deutsch", "el alemán (idioma)"),
+     ("Österreich", "Austria"), ("Frankreich · Französisch", "Francia · francés"), ("Italien · Italienisch", "Italia · italiano"),
+     ("Mexiko · der Mexikaner", "México · el mexicano"), ("Argentinien · der Argentinier", "Argentina · el argentino"), ("Kolumbien · der Kolumbianer", "Colombia · el colombiano"),
+     ("England · Englisch", "Inglaterra · inglés"), ("die Muttersprache", "la lengua materna", "Muttersprachen"), ("die Heimat", "la tierra natal", "")]),
+   "notes": [note("emphasis", "La persona femenina suele añadir <b>-in</b> (<i>Spanierin, Schweizerin</i>). <b>Deutsch</b> es especial porque funciona como un adjetivo: <i>der Deutsche, ein Deutscher, die Deutsche</i>.")],
+   "quiz": [
+     q("b38-s1q1", "1. «Vivo en Suiza» →", ["Ich wohne in Schweiz.", "Ich wohne in der Schweiz.", "Ich wohne in die Schweiz."], 1, "<b>die</b> Schweiz lleva artículo; con <i>in</i> + lugar (wo?) va en dativo: <b>in der Schweiz</b>."),
+     q("b38-s1q2", "2. «Soy española» (mujer) →", ["Ich bin Spanier.", "Ich bin Spanierin.", "Ich bin Spanisch."], 1, "Persona femenina: <b>Spanierin</b>. <i>Spanisch</i> es el idioma. La profesión y la nacionalidad van sin artículo."),
+     q("b38-s1q3", "3. «Vengo de España» →", ["Ich komme aus Spanien.", "Ich komme von Spanien.", "Ich komme aus der Spanien."], 0, "Procedencia: <b>aus</b> + país sin artículo."),
+     q("b38-s1q4", "4. «Hablo español y un poco de alemán» →", ["Ich spreche spanisch und ein bisschen deutsch.", "Ich spreche Spanisch und ein bisschen Deutsch.", "Ich spreche der Spanisch und das Deutsch."], 1, "Los idiomas son sustantivos: <b>con mayúscula</b> y sin artículo.")]},
+  {"idx": "38.2", "title": "Redemittel: saludar y despedirse", "level": "A1",
+   "rule": "El saludo depende de la hora, del registro y de la región. Regla de oro del registro: <b>Sie</b> con adultos que no conoces, en tiendas, oficinas y en el trabajo (hasta que te ofrezcan el <i>du</i>); <b>du</b> con amigos, familia, niños y entre jóvenes.",
+   "tables": table(["Situación", "Formal (Sie)", "Informal (du)"], [
+     ["Saludo general", "Guten Tag! · Grüezi! (CH) · Grüß Gott! (sur de Alemania, Austria)", "Hallo! · Hoi! / Sali! (CH) · Servus! (sur)"],
+     ["Por la mañana", "Guten Morgen!", "Morgen!"],
+     ["Por la tarde-noche", "Guten Abend!", "'n Abend!"],
+     ["¿Qué tal?", "Wie geht es Ihnen?", "Wie geht's (dir)?"],
+     ["Respuesta", "Danke, gut. Und Ihnen?", "Gut, und dir?"],
+     ["Despedida", "Auf Wiedersehen! · Auf Wiederhören! (teléfono) · Uf Widerluege (CH)", "Tschüss! · Ciao! · Bis bald! · Adieu (CH)"],
+     ["Al irse a dormir", "Gute Nacht!", "Gute Nacht! / Schlaf gut!"]]),
+   "notes": [note("tip", "En Suiza oirás <b>Grüezi</b> (a una persona, formal), <b>Grüezi mitenand</b> (a varias), <b>Hoi</b> o <b>Sali</b> (informal) y para despedirte <b>Adieu</b> o <b>Tschüss</b>. Úsalos y te ganarás una sonrisa."),
+             note("why", "Si alguien te dice «<i>Wollen wir uns duzen?</i>» («¿nos tuteamos?»), te está ofreciendo el <i>du</i>. Lo propone normalmente la persona mayor o de más rango.")],
+   "quiz": [
+     q("b38-s2q1", "1. Entras en una tienda de Zúrich. Dices:", ["Hoi!", "Grüezi!", "Servus!"], 1, "A un dependiente (formal) en Suiza: <b>Grüezi!</b> <i>Hoi</i> es informal y <i>Servus</i>, del sur de Alemania/Austria."),
+     q("b38-s2q2", "2. «¿Cómo está usted?» →", ["Wie geht's dir?", "Wie geht es Ihnen?", "Wie geht es Sie?"], 1, "Formal: <b>Wie geht es Ihnen?</b> (Ihnen es el dativo de Sie)."),
+     q("b38-s2q3", "3. Te despides al final de una llamada formal:", ["Auf Wiedersehen!", "Auf Wiederhören!", "Tschüss!"], 1, "Por teléfono no «nos vemos», «nos oímos»: <b>Auf Wiederhören!</b>"),
+     q("b38-s2q4", "4. Un compañero te propone «Wollen wir uns duzen?». Significa:", ["¿Quedamos?", "¿Nos tuteamos?", "¿Nos damos dos besos?"], 1, "<b>duzen</b> = tratarse de <i>du</i>. Lo contrario es <i>siezen</i>.")]},
+  {"idx": "38.3", "title": "Presentarse y presentar a otros", "level": "A1",
+   "rule": "Fórmulas para presentarte: <b>Ich heiße …</b> / <b>Mein Name ist …</b>, <b>Ich komme aus …</b>, <b>Ich wohne in …</b>, <b>Ich bin … von Beruf</b> (o <i>Ich arbeite als …</i>). Para presentar a alguien: <b>Das ist …</b>. Al conocer a alguien: <b>Freut mich!</b> / <b>Sehr erfreut</b> (más formal).",
+   "examples": examples([
+     ("<span class=\"r-nom\">Ich</span> <span class=\"r-verb\">heiße</span> Carlos. <span class=\"r-nom\">Ich</span> <span class=\"r-verb\">komme</span> aus Sevilla.", "Me llamo Carlos. Soy de Sevilla."),
+     ("Ich wohne seit zwei Monaten in Basel.", "Vivo en Basilea desde hace dos meses."),
+     ("Ich bin Krankenpflegerin von Beruf.", "Soy enfermera de profesión."),
+     ("Ich arbeite als Ingenieur bei einer Bank.", "Trabajo como ingeniero en un banco."),
+     ("<b>Das ist</b> mein Mann, Javier.", "Este es mi marido, Javier."),
+     ("<b>Darf ich vorstellen?</b> Das ist Frau Meier.", "¿Me permite que le presente? Esta es la señora Meier."),
+     ("Freut mich, Sie kennenzulernen!", "¡Encantado/a de conocerle!"),
+     ("Woher kommen Sie? — Aus Valencia, in Spanien.", "¿De dónde es usted? — De Valencia, en España.")]),
+   "notes": [note("exception", "La profesión va <b>sin artículo</b>: <i>Ich bin Lehrerin</i> (no «eine Lehrerin»). Y con <i>Frau / Herr</i> + apellido se habla siempre de <i>Sie</i>.")],
+   "quiz": [
+     q("b38-s3q1", "1. «Soy profesor» →", ["Ich bin ein Lehrer.", "Ich bin Lehrer.", "Ich bin der Lehrer."], 1, "Profesión tras <i>sein</i>: <b>sin artículo</b>."),
+     q("b38-s3q2", "2. Presentas a tu mujer: «Esta es mi mujer» →", ["Das ist meine Frau.", "Sie ist meine Frau.", "Dies meine Frau."], 0, "Para presentar: <b>Das ist</b> + persona (das no cambia aunque sea femenino)."),
+     q("b38-s3q3", "3. Al conocer a alguien dices:", ["Freut mich!", "Gute Besserung!", "Bitte schön!"], 0, "<b>Freut mich</b> = encantado/a."),
+     q("b38-s3q4", "4. «Vivo en Basilea desde hace un año» →", ["Ich wohne in Basel seit einem Jahr.", "Ich wohne seit einem Jahr in Basel.", "Ich habe seit einem Jahr in Basel gewohnt."], 1, "Acción que continúa: <b>Präsens + seit</b> (dativo). Orden TeKaMoLo: el tiempo antes que el lugar.")]},
+  {"idx": "38.4", "title": "Diálogo: conocer a la vecina", "level": "A1",
+   "rule": "Primer encuentro en la escalera con la vecina, en Lucerna. Fíjate en el paso de <i>Sie</i> a <i>du</i> y en los saludos suizos.",
+   "dialog": dialog("b38-nachbarin", "Escalera de un edificio en Lucerna · sábado por la mañana", {"N": ("Frau Huber", "Vecina"), "A": ("Ana", "Tú")}, [
+     ("N", "Grüezi! Sind Sie neu hier im Haus?", "¡Buenos días! ¿Es usted nueva en el edificio?"),
+     ("A", "Grüezi! Ja, wir sind letzte Woche eingezogen. Ich heiße Ana López.", "¡Buenos días! Sí, nos mudamos la semana pasada. Me llamo Ana López."),
+     ("N", "Freut mich! Ich bin Regula Huber, ich wohne im zweiten Stock. Woher kommen Sie?", "¡Encantada! Soy Regula Huber, vivo en el segundo. ¿De dónde es usted?"),
+     ("A", "Aus Spanien, aus Málaga. Mein Mann arbeitet hier bei einer Versicherung.", "De España, de Málaga. Mi marido trabaja aquí en una aseguradora."),
+     ("N", "Ah, Málaga! Da war ich mal in den Ferien. Sie sprechen aber schon gut Deutsch!", "¡Ah, Málaga! Estuve allí una vez de vacaciones. ¡Pero ya habla usted bien alemán!"),
+     ("A", "Danke, ich lerne jeden Tag. Aber Schweizerdeutsch verstehe ich noch nicht so gut.", "Gracias, aprendo cada día. Pero el suizo alemán todavía no lo entiendo muy bien."),
+     ("N", "Das kommt schon! Übrigens, wir sind hier alle per du. Ich bin Regula.", "¡Ya llegará! Por cierto, aquí todos nos tuteamos. Yo soy Regula."),
+     ("A", "Sehr gern! Ich bin Ana. Bis bald, Regula!", "¡Con mucho gusto! Yo soy Ana. ¡Hasta pronto, Regula!"),
+     ("N", "Tschüss, Ana! Und wenn du etwas brauchst, klingel einfach!", "¡Adiós, Ana! Y si necesitas algo, llama al timbre sin más.")]),
+   "quiz": [
+     q("b38-s4q1", "1. ¿Cuándo llegaron Ana y su marido?", ["ayer", "la semana pasada", "hace un mes"], 1, "«Wir sind <b>letzte Woche</b> eingezogen.»"),
+     q("b38-s4q2", "2. «Wir sind hier alle per du» significa…", ["Aquí todos nos tratamos de usted", "Aquí todos nos tuteamos", "Aquí todos somos de fuera"], 1, "<b>per du sein</b> = tutearse."),
+     q("b38-s4q3", "3. ¿Qué le cuesta todavía a Ana?", ["el alemán estándar", "el suizo alemán", "el francés"], 1, "«<b>Schweizerdeutsch</b> verstehe ich noch nicht so gut.»")]},
+  {"idx": "38.5", "title": "Rollenspiel: tu primer día en el trabajo", "level": "A2",
+   "rule": "Llegas a tu nuevo trabajo y te presentan a una compañera. Empieza en <i>Sie</i>; si te ofrecen el <i>du</i>, cámbiate.",
+   "roleplay": roleplay("b38-rp", "Frau Keller", "Compañera de trabajo", [
+     ("Guten Morgen! Sie sind bestimmt die neue Kollegin?", "¡Buenos días! ¿Usted es la nueva compañera, verdad?", "Confirma, saluda y di tu nombre.", "Guten Morgen! Ja, genau. Ich heiße Ana López."),
+     ("Herzlich willkommen! Ich bin Sandra Keller aus der Buchhaltung. Woher kommen Sie?", "¡Bienvenida! Soy Sandra Keller, de contabilidad. ¿De dónde es usted?", "Di de dónde eres y desde cuándo vives en Suiza.", "Ich komme aus Spanien und wohne seit zwei Monaten in Zürich."),
+     ("Schön! Und was machen Sie hier bei uns?", "¡Qué bien! ¿Y qué hace usted aquí con nosotros?", "Explica tu puesto (por ejemplo, en marketing).", "Ich arbeite im Marketing, als Projektmanagerin."),
+     ("Super. Wollen wir uns duzen? Hier duzen sich fast alle.", "Genial. ¿Nos tuteamos? Aquí casi todos se tutean.", "Acepta y pásate al du.", "Ja, gern! Ich bin Ana."),
+     ("Freut mich, Ana. Wenn du Fragen hast, komm einfach vorbei!", "Encantada, Ana. Si tienes preguntas, pásate cuando quieras.", "Da las gracias en du y despídete.", "Danke, Sandra, das ist sehr nett von dir! Bis später!")])}
+ ]}
+write(B)

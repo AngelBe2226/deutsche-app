@@ -146,6 +146,12 @@ function figWord(word) {
       if ("eiäöüy".includes(w[i + 1] || "")) { out += "gu"; i += 1; continue; }
       out += "g"; i += 1; continue;
     }
+    // r final tras vocal: se vocaliza (wir → vía, der → déa, Bar → ba:)
+    if (end && c === "r" && (isV(prev(i)) || (prev(i) === "h" && isV(w[i - 2] || "")))) {
+      const v0 = prev(i) === "h" ? w[i - 2] : prev(i);
+      out += v0 === "a" ? (prev(i) === "h" ? "" : ":") : "a";
+      i += 1; continue;
+    }
     if (end && c === "d") { out += "t"; i += 1; continue; }
     if (end && c === "b") { out += "p"; i += 1; continue; }
     if (c === "s") { out += "s"; i += w[i + 1] === "s" ? 2 : 1; continue; }
