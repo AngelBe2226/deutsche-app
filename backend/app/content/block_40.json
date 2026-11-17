@@ -1,0 +1,557 @@
+{
+  "block": "40",
+  "title": "De compras: ropa, tallas, colores y tiendas",
+  "kicker": "Bloque 40 · Supervivencia · A1–A2",
+  "intro": "Comprar es la mejor clase práctica: preguntas, pruebas, comparas y pagas. Aquí tienes la ropa, las tallas, los colores (con la terminación correcta del adjetivo), las frases de la tienda y dónde comprar cada cosa… teniendo en cuenta que <b class=\"hl\">en Suiza casi todo cierra el domingo</b>.",
+  "sections": [
+    {
+      "idx": "40.1",
+      "title": "Wortschatz: la ropa",
+      "level": "A1",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Usa el <b>modo eco</b> para repetir en voz alta y luego <b>Ocultar español</b> para ponerte a prueba.",
+      "vocab": {
+        "id": "b40-voc",
+        "items": [
+          {
+            "de": "die Hose",
+            "es": "el pantalón (¡singular!)",
+            "pl": "Hosen"
+          },
+          {
+            "de": "das Hemd",
+            "es": "la camisa",
+            "pl": "Hemden"
+          },
+          {
+            "de": "die Bluse",
+            "es": "la blusa",
+            "pl": "Blusen"
+          },
+          {
+            "de": "der Pullover",
+            "es": "el jersey",
+            "pl": "Pullover"
+          },
+          {
+            "de": "die Jacke",
+            "es": "la chaqueta",
+            "pl": "Jacken"
+          },
+          {
+            "de": "der Mantel",
+            "es": "el abrigo",
+            "pl": "Mäntel"
+          },
+          {
+            "de": "das Kleid",
+            "es": "el vestido",
+            "pl": "Kleider"
+          },
+          {
+            "de": "der Rock",
+            "es": "la falda",
+            "pl": "Röcke"
+          },
+          {
+            "de": "der Schuh",
+            "es": "el zapato",
+            "pl": "Schuhe"
+          },
+          {
+            "de": "die Socke",
+            "es": "el calcetín",
+            "pl": "Socken"
+          },
+          {
+            "de": "die Mütze",
+            "es": "el gorro",
+            "pl": "Mützen"
+          },
+          {
+            "de": "der Schal",
+            "es": "la bufanda",
+            "pl": "Schals"
+          },
+          {
+            "de": "der Handschuh",
+            "es": "el guante",
+            "pl": "Handschuhe"
+          },
+          {
+            "de": "die Größe",
+            "es": "la talla",
+            "pl": "Größen"
+          },
+          {
+            "de": "die Umkleidekabine",
+            "es": "el probador",
+            "pl": "Umkleidekabinen"
+          },
+          {
+            "de": "das Sonderangebot",
+            "es": "la oferta",
+            "pl": "Sonderangebote"
+          },
+          {
+            "de": "reduziert",
+            "es": "rebajado"
+          },
+          {
+            "de": "die Kasse",
+            "es": "la caja",
+            "pl": "Kassen"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Las prendas que en español van en plural suelen ir en <b>singular</b> en alemán: <i>die Hose</i> (los pantalones), <i>die Brille</i> (las gafas). <i>der Handschuh</i> = «zapato de mano»."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b40-s1q1",
+          "question": "1. «Busco unos pantalones» →",
+          "options": [
+            "Ich suche Hosen.",
+            "Ich suche eine Hose.",
+            "Ich suche einen Hose."
+          ],
+          "correctIndex": 1,
+          "explain": "Un pantalón = <b>eine Hose</b> (femenino singular)."
+        },
+        {
+          "id": "b40-s1q2",
+          "question": "2. der Rock es…",
+          "options": [
+            "la roca",
+            "la falda",
+            "el abrigo"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>der Rock</b> = la falda (falso amigo). El abrigo es <i>der Mantel</i>."
+        },
+        {
+          "id": "b40-s1q3",
+          "question": "3. Plural de der Mantel:",
+          "options": [
+            "die Mantels",
+            "die Mäntel",
+            "die Mantele"
+          ],
+          "correctIndex": 1,
+          "explain": "Mantel → <b>Mäntel</b>: solo diéresis."
+        }
+      ]
+    },
+    {
+      "idx": "40.2",
+      "title": "Colores, materiales y la terminación del adjetivo",
+      "level": "A2",
+      "rule": "Los colores son adjetivos: solos no cambian (<i>Die Jacke ist <b>blau</b></i>), pero delante del sustantivo llevan terminación (bloque 05). En la tienda casi siempre vas a usar el <b>acusativo</b>: <i>Ich suche einen blau<b>en</b> Pullover / eine blau<b>e</b> Jacke / ein blau<b>es</b> Hemd</i>. El material va con <b>aus</b>: <i>aus Wolle</i>.",
+      "tables": [
+        {
+          "headers": [
+            "",
+            "Alemán"
+          ],
+          "rows": [
+            [
+              "Colores",
+              "rot · blau · grün · gelb · schwarz · weiß · grau · braun · rosa · lila · beige · orange"
+            ],
+            [
+              "Matices",
+              "hellblau (azul claro) · dunkelgrün (verde oscuro) · bunt (de colores)"
+            ],
+            [
+              "Materiales",
+              "aus Baumwolle (algodón) · aus Wolle (lana) · aus Leder (cuero) · aus Seide (seda)"
+            ],
+            [
+              "Acusativo tras ein-",
+              "einen schwarzen Mantel · eine weiße Bluse · ein rotes Kleid · (Pl.) graue Socken"
+            ],
+            [
+              "Acusativo tras der-",
+              "den schwarzen Mantel · die weiße Bluse · das rote Kleid · die grauen Socken"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "<b>rosa, lila, beige, orange</b> (de origen extranjero) normalmente no se declinan en la lengua estándar: <i>ein rosa Kleid</i>. En la lengua hablada oirás también <i>ein rosanes Kleid</i>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b40-s2q1",
+          "question": "1. Ich suche einen schwarz___ Mantel.",
+          "options": [
+            "-e",
+            "-en",
+            "-es"
+          ],
+          "correctIndex": 1,
+          "explain": "Acusativo masculino tras <i>einen</i>: <b>-en</b>."
+        },
+        {
+          "id": "b40-s2q2",
+          "question": "2. Ich nehme das rot___ Kleid.",
+          "options": [
+            "-e",
+            "-en",
+            "-es"
+          ],
+          "correctIndex": 0,
+          "explain": "Tras <i>das</i> (acusativo neutro) el artículo ya marca el caso: <b>-e</b>."
+        },
+        {
+          "id": "b40-s2q3",
+          "question": "3. Haben Sie ein weiß___ Hemd?",
+          "options": [
+            "-es",
+            "-e",
+            "-en"
+          ],
+          "correctIndex": 0,
+          "explain": "Tras <i>ein</i> (neutro) el adjetivo marca el género: <b>-es</b>."
+        },
+        {
+          "id": "b40-s2q4",
+          "question": "4. «Un jersey de lana» →",
+          "options": [
+            "ein Pullover von Wolle",
+            "ein Pullover aus Wolle",
+            "ein Pullover mit Wolle"
+          ],
+          "correctIndex": 1,
+          "explain": "El material se expresa con <b>aus</b> + dativo."
+        },
+        {
+          "id": "b40-s2q5",
+          "question": "5. Die Jacke ist ___.",
+          "options": [
+            "blaue",
+            "blau",
+            "blauen"
+          ],
+          "correctIndex": 1,
+          "explain": "Tras <i>sein</i> el adjetivo no lleva terminación: <b>blau</b>."
+        }
+      ]
+    },
+    {
+      "idx": "40.3",
+      "title": "Redemittel: en la tienda",
+      "level": "A2",
+      "rule": "Frases para todo el recorrido: mirar, pedir talla, probarse, decidir, pagar y cambiar. Atención a tres verbos que en español son uno: <b>passen</b> (quedar bien de talla), <b>stehen</b> (sentar bien, favorecer) y <b>gefallen</b> (gustar). Los tres llevan <b>dativo</b>: <i>Die Hose passt <b>mir</b></i>.",
+      "tables": [
+        {
+          "headers": [
+            "Situación",
+            "Redemittel"
+          ],
+          "rows": [
+            [
+              "Te ofrecen ayuda",
+              "Kann ich Ihnen helfen? — Danke, ich schaue nur."
+            ],
+            [
+              "Pedir talla",
+              "Haben Sie diesen Pullover in Größe M / in einer anderen Farbe?"
+            ],
+            [
+              "Probarse",
+              "Kann ich das anprobieren? — Wo sind die Umkleidekabinen?"
+            ],
+            [
+              "Talla",
+              "Die Hose passt mir nicht, sie ist zu eng / zu weit / zu lang."
+            ],
+            [
+              "Cómo queda",
+              "Die Farbe steht Ihnen sehr gut! · Das gefällt mir."
+            ],
+            [
+              "Decidir",
+              "Ich nehme ihn / sie / es. · Ich überlege es mir noch."
+            ],
+            [
+              "Pagar",
+              "Kann ich mit Karte zahlen? · Mit TWINT? (CH)"
+            ],
+            [
+              "Cambiar",
+              "Kann ich das umtauschen? Hier ist der Kassenbon."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>Ich nehme ihn / sie / es</b>: el pronombre concuerda con el género de la prenda (der Pullover → <i>ihn</i>, die Jacke → <i>sie</i>, das Hemd → <i>es</i>). En Suiza se paga mucho con la app <b>TWINT</b>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b40-s3q1",
+          "question": "1. La talla es correcta: «Die Jacke ___ mir.»",
+          "options": [
+            "steht",
+            "passt",
+            "gefällt"
+          ],
+          "correctIndex": 1,
+          "explain": "Talla = <b>passen</b>. <i>stehen</i> es «sentar bien» (estética)."
+        },
+        {
+          "id": "b40-s3q2",
+          "question": "2. Solo estás mirando:",
+          "options": [
+            "Ich nehme es.",
+            "Ich schaue nur.",
+            "Ich probiere nur."
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Ich schaue nur</b> (o <i>Ich sehe mich nur um</i>) = solo estoy mirando."
+        },
+        {
+          "id": "b40-s3q3",
+          "question": "3. Te llevas el jersey (der Pullover): «Ich nehme ___.»",
+          "options": [
+            "ihn",
+            "sie",
+            "es"
+          ],
+          "correctIndex": 0,
+          "explain": "der Pullover → acusativo masculino <b>ihn</b>."
+        },
+        {
+          "id": "b40-s3q4",
+          "question": "4. «¿Puedo cambiarlo?» →",
+          "options": [
+            "Kann ich das umtauschen?",
+            "Kann ich das wechseln?",
+            "Kann ich das tauschen um?"
+          ],
+          "correctIndex": 0,
+          "explain": "Cambiar una compra = <b>umtauschen</b> (separable; con modal, junto al final)."
+        }
+      ]
+    },
+    {
+      "idx": "40.4",
+      "title": "Diálogo: una chaqueta para el invierno suizo",
+      "level": "A2",
+      "rule": "En una tienda de Berna. Fíjate en las tallas, el adjetivo en acusativo y los pronombres <i>ihn/sie/es</i>.",
+      "dialog": {
+        "id": "b40-jacke",
+        "setting": "Tienda de ropa en la Marktgasse, Berna · jueves, 18:00",
+        "roles": {
+          "V": {
+            "name": "Verkäufer",
+            "label": "Dependiente"
+          },
+          "K": {
+            "name": "Kundin",
+            "label": "Tú"
+          }
+        },
+        "lines": [
+          {
+            "who": "V",
+            "de": "Grüezi! Kann ich Ihnen helfen?",
+            "es": "¡Buenas! ¿Puedo ayudarla?"
+          },
+          {
+            "who": "K",
+            "de": "Ja, gern. Ich suche eine <b>warme Winterjacke</b>, am liebsten in Dunkelblau.",
+            "es": "Sí, por favor. Busco una chaqueta de invierno calentita, mejor en azul oscuro."
+          },
+          {
+            "who": "V",
+            "de": "Welche Größe haben Sie?",
+            "es": "¿Qué talla tiene?"
+          },
+          {
+            "who": "K",
+            "de": "Normalerweise M. Kann ich <b>sie</b> anprobieren?",
+            "es": "Normalmente la M. ¿Puedo probármela?"
+          },
+          {
+            "who": "V",
+            "de": "Natürlich, die Umkleidekabinen sind dort hinten.",
+            "es": "Claro, los probadores están allí al fondo."
+          },
+          {
+            "who": "K",
+            "de": "Hm, sie ist ein bisschen zu eng. Haben Sie sie auch in L?",
+            "es": "Mmm, me queda un poco estrecha. ¿La tiene también en L?"
+          },
+          {
+            "who": "V",
+            "de": "Moment … ja, hier. Und die Farbe <b>steht Ihnen</b> wirklich gut.",
+            "es": "Un momento… sí, aquí está. Y el color le sienta muy bien."
+          },
+          {
+            "who": "K",
+            "de": "Ja, die passt perfekt! Was kostet sie?",
+            "es": "¡Sí, esta me queda perfecta! ¿Cuánto cuesta?"
+          },
+          {
+            "who": "V",
+            "de": "Sie ist reduziert: 149 statt 199 Franken.",
+            "es": "Está rebajada: 149 en vez de 199 francos."
+          },
+          {
+            "who": "K",
+            "de": "Super, ich nehme sie. Kann ich mit TWINT bezahlen?",
+            "es": "Genial, me la llevo. ¿Puedo pagar con TWINT?"
+          },
+          {
+            "who": "V",
+            "de": "Klar. Und Sie können sie 30 Tage lang umtauschen.",
+            "es": "Claro. Y puede cambiarla durante 30 días."
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b40-s4q1",
+          "question": "1. ¿Por qué pide la talla L?",
+          "options": [
+            "Porque la M es demasiado larga",
+            "Porque la M le queda estrecha",
+            "Porque no le gusta el color"
+          ],
+          "correctIndex": 1,
+          "explain": "«Sie ist ein bisschen <b>zu eng</b>.»"
+        },
+        {
+          "id": "b40-s4q2",
+          "question": "2. ¿Cuánto paga?",
+          "options": [
+            "199 Fr.",
+            "149 Fr.",
+            "30 Fr."
+          ],
+          "correctIndex": 1,
+          "explain": "«reduziert: <b>149 statt 199</b> Franken»."
+        },
+        {
+          "id": "b40-s4q3",
+          "question": "3. «Die Farbe steht Ihnen gut» significa…",
+          "options": [
+            "El color le queda bien de talla",
+            "El color le sienta bien",
+            "El color está de pie"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>jemandem stehen</b> = sentar bien, favorecer."
+        }
+      ]
+    },
+    {
+      "idx": "40.5",
+      "title": "Dónde comprar qué (y cuándo)",
+      "level": "A2",
+      "rule": "Cada cosa tiene su tienda. Ojo a dos clásicos: en la <b>Apotheke</b> compras medicamentos; en la <b>Drogerie</b>, champú, cosmética y productos de limpieza. En Suiza los supermercados más comunes son <b>Migros</b> y <b>Coop</b>, y <b>los domingos casi todo está cerrado</b> (salvo estaciones y gasolineras).",
+      "examples": [
+        {
+          "en": "Brot und Gipfeli kaufe ich in der <b>Bäckerei</b>.",
+          "es": "El pan y los cruasanes los compro en la panadería (Gipfeli = cruasán en Suiza)."
+        },
+        {
+          "en": "Fleisch gibt es in der <b>Metzgerei</b>.",
+          "es": "La carne, en la carnicería."
+        },
+        {
+          "en": "Shampoo und Zahnpasta kaufe ich in der <b>Drogerie</b>.",
+          "es": "El champú y la pasta de dientes, en la droguería."
+        },
+        {
+          "en": "Medikamente bekommst du nur in der <b>Apotheke</b>.",
+          "es": "Los medicamentos solo los consigues en la farmacia."
+        },
+        {
+          "en": "Ich hole schnell eine Zeitung am <b>Kiosk</b>.",
+          "es": "Voy un momento a por un periódico al quiosco."
+        },
+        {
+          "en": "Eine <b>Flasche</b> Wasser, eine <b>Packung</b> Milch und eine <b>Dose</b> Tomaten, bitte.",
+          "es": "Una botella de agua, un brik de leche y una lata de tomate, por favor."
+        },
+        {
+          "en": "Am Sonntag sind die Läden <b>zu</b>. Nur am Bahnhof ist offen.",
+          "es": "El domingo las tiendas están cerradas. Solo en la estación está abierto."
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Lleva tu bolsa: las de plástico se pagan. Y las botellas de PET y las latas se devuelven en los contenedores de las tiendas (reciclaje muy serio en Suiza)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b40-s5q1",
+          "question": "1. Necesitas champú. Vas a la…",
+          "options": [
+            "Apotheke",
+            "Drogerie",
+            "Metzgerei"
+          ],
+          "correctIndex": 1,
+          "explain": "Cosmética y limpieza: <b>Drogerie</b>. La Apotheke es para medicamentos."
+        },
+        {
+          "id": "b40-s5q2",
+          "question": "2. Es domingo en Basilea y te falta leche. ¿Dónde lo intentas?",
+          "options": [
+            "En el Migros del barrio",
+            "En la tienda de la estación",
+            "En la Metzgerei"
+          ],
+          "correctIndex": 1,
+          "explain": "Los domingos casi todo cierra; las tiendas de la <b>estación</b> abren."
+        },
+        {
+          "id": "b40-s5q3",
+          "question": "3. «Una lata de tomate» →",
+          "options": [
+            "eine Flasche Tomaten",
+            "eine Dose Tomaten",
+            "eine Packung Tomaten"
+          ],
+          "correctIndex": 1,
+          "explain": "Lata = <b>die Dose</b>."
+        }
+      ],
+      "scenario": {
+        "id": "b40-sc",
+        "situation": "Compraste un jersey ayer, pero en casa ves que <b>tiene un pequeño agujero</b>. Vuelves a la tienda con el tique para cambiarlo por otro igual o recuperar el dinero.",
+        "goals": [
+          "Saludar y explicar el problema (<i>Der Pullover hat ein Loch</i>)",
+          "Enseñar el tique (<i>Hier ist der Kassenbon</i>)",
+          "Pedir cambiarlo (<i>umtauschen</i>) o el dinero (<i>das Geld zurück</i>)",
+          "Reaccionar si no tienen tu talla",
+          "Agradecer y despedirte"
+        ]
+      },
+      "produce": {
+        "id": "b40-s5",
+        "label": "<b>tu turno:</b> escribe la conversación de la devolución (6–10 turnos).",
+        "placeholder": "Grüezi! Ich habe gestern diesen Pullover gekauft, aber er hat ein Loch …"
+      }
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "block": "43",
+  "title": "Dinero y banco: francos, cajeros y facturas",
+  "kicker": "Bloque 43 · Supervivencia · A2",
+  "intro": "Todo sobre el dinero: <b class=\"hl\">francos y Rappen</b>, cajeros, cambio de divisas, transferencias y las facturas con código QR que llegan a casa en Suiza. Incluye el vocabulario del cajero automático para que no te tiemble el pulso delante de la pantalla.",
+  "sections": [
+    {
+      "idx": "43.1",
+      "title": "Wortschatz: el dinero",
+      "level": "A2",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Usa el <b>modo eco</b> para repetir en voz alta y luego <b>Ocultar español</b> para ponerte a prueba.",
+      "vocab": {
+        "id": "b43-voc",
+        "items": [
+          {
+            "de": "das Geld",
+            "es": "el dinero"
+          },
+          {
+            "de": "das Bargeld",
+            "es": "el efectivo"
+          },
+          {
+            "de": "die Münze",
+            "es": "la moneda",
+            "pl": "Münzen"
+          },
+          {
+            "de": "der Geldschein / die Note (CH)",
+            "es": "el billete",
+            "pl": "Geldscheine / Noten"
+          },
+          {
+            "de": "der Franken",
+            "es": "el franco",
+            "pl": "Franken"
+          },
+          {
+            "de": "der Rappen",
+            "es": "el céntimo suizo",
+            "pl": "Rappen"
+          },
+          {
+            "de": "das Konto",
+            "es": "la cuenta",
+            "pl": "Konten"
+          },
+          {
+            "de": "der Geldautomat / der Bancomat (CH)",
+            "es": "el cajero automático",
+            "pl": "Geldautomaten"
+          },
+          {
+            "de": "die Gebühr",
+            "es": "la comisión",
+            "pl": "Gebühren"
+          },
+          {
+            "de": "der Wechselkurs",
+            "es": "el tipo de cambio",
+            "pl": "Wechselkurse"
+          },
+          {
+            "de": "Geld abheben",
+            "es": "sacar dinero"
+          },
+          {
+            "de": "Geld einzahlen",
+            "es": "ingresar dinero"
+          },
+          {
+            "de": "überweisen",
+            "es": "hacer una transferencia"
+          },
+          {
+            "de": "die Überweisung",
+            "es": "la transferencia",
+            "pl": "Überweisungen"
+          },
+          {
+            "de": "die Rechnung",
+            "es": "la factura / la cuenta",
+            "pl": "Rechnungen"
+          },
+          {
+            "de": "die Kreditkarte",
+            "es": "la tarjeta de crédito",
+            "pl": "Kreditkarten"
+          },
+          {
+            "de": "sparen",
+            "es": "ahorrar"
+          },
+          {
+            "de": "teuer · billig / günstig",
+            "es": "caro · barato"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Precios: <i>CHF 12.80</i> = <b>zwölf Franken achtzig</b>. Los céntimos se llaman <b>Rappen</b> (en Alemania, <i>Cent</i>). Coloquialmente, «Stutz» es un franco: <i>Das kostet zwanzig Stutz</i>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b43-s1q1",
+          "question": "1. «Sacar dinero» →",
+          "options": [
+            "Geld einzahlen",
+            "Geld abheben",
+            "Geld überweisen"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>abheben</b> = sacar (del cajero o del banco). <i>einzahlen</i> = ingresar."
+        },
+        {
+          "id": "b43-s1q2",
+          "question": "2. Los céntimos del franco se llaman…",
+          "options": [
+            "Cent",
+            "Rappen",
+            "Pfennig"
+          ],
+          "correctIndex": 1,
+          "explain": "En Suiza: <b>Rappen</b>. 100 Rappen = 1 Franken."
+        },
+        {
+          "id": "b43-s1q3",
+          "question": "3. die Gebühr es…",
+          "options": [
+            "la factura",
+            "la comisión / tasa",
+            "la tarjeta"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>die Gebühr</b> = comisión o tasa."
+        }
+      ]
+    },
+    {
+      "idx": "43.2",
+      "title": "Redemittel: en el banco y al cambiar dinero",
+      "level": "A2",
+      "rule": "Frases para el banco, la oficina de cambio y los problemas con la tarjeta. Fíjate en las colocaciones: <i>ein Konto <b>eröffnen</b></i>, <i>Geld <b>wechseln</b></i>, <i>eine Karte <b>sperren</b></i> (bloquear).",
+      "tables": [
+        {
+          "headers": [
+            "Situación",
+            "Redemittel"
+          ],
+          "rows": [
+            [
+              "Abrir una cuenta",
+              "Ich möchte ein Konto eröffnen. Welche Unterlagen brauchen Sie?"
+            ],
+            [
+              "Cambiar dinero",
+              "Ich möchte 200 Euro in Franken wechseln. Wie ist der Wechselkurs?"
+            ],
+            [
+              "Comisiones",
+              "Gibt es eine Gebühr? Wie hoch ist die Gebühr?"
+            ],
+            [
+              "Transferencia",
+              "Ich möchte Geld auf ein spanisches Konto überweisen."
+            ],
+            [
+              "Tarjeta perdida",
+              "Ich habe meine Karte verloren. Bitte sperren Sie sie sofort."
+            ],
+            [
+              "Cajero problemático",
+              "Der Automat hat meine Karte eingezogen."
+            ],
+            [
+              "Pagar",
+              "Kann ich mit Karte zahlen? · Nur bar? · Zahlen Sie getrennt oder zusammen?"
+            ]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b43-s2q1",
+          "question": "1. «Abrir una cuenta» →",
+          "options": [
+            "ein Konto öffnen",
+            "ein Konto eröffnen",
+            "ein Konto machen"
+          ],
+          "correctIndex": 1,
+          "explain": "Colocación fija: <b>ein Konto eröffnen</b>."
+        },
+        {
+          "id": "b43-s2q2",
+          "question": "2. Has perdido la tarjeta. Pides que la…",
+          "options": [
+            "sperren",
+            "schließen",
+            "stoppen"
+          ],
+          "correctIndex": 0,
+          "explain": "Bloquear una tarjeta = <b>sperren</b>."
+        },
+        {
+          "id": "b43-s2q3",
+          "question": "3. «Quiero cambiar euros por francos» →",
+          "options": [
+            "Ich möchte Euro in Franken wechseln.",
+            "Ich möchte Euro zu Franken tauschen um.",
+            "Ich möchte Euro für Franken ändern."
+          ],
+          "correctIndex": 0,
+          "explain": "<b>Geld in … wechseln</b> = cambiar a otra moneda."
+        }
+      ]
+    },
+    {
+      "idx": "43.3",
+      "title": "La pantalla del cajero",
+      "level": "A2",
+      "rule": "El cajero habla en imperativo formal o en infinitivo. Estas son las instrucciones que verás (y conviene reconocerlas a la primera).",
+      "examples": [
+        {
+          "en": "Bitte Karte einführen.",
+          "es": "Introduzca la tarjeta, por favor."
+        },
+        {
+          "en": "Bitte geben Sie Ihre PIN ein.",
+          "es": "Introduzca su PIN."
+        },
+        {
+          "en": "Betrag wählen: 100 · 200 · 500 · anderer Betrag",
+          "es": "Elija importe: 100 · 200 · 500 · otro importe."
+        },
+        {
+          "en": "Möchten Sie eine Quittung?",
+          "es": "¿Desea un recibo?"
+        },
+        {
+          "en": "Bitte entnehmen Sie Ihre Karte.",
+          "es": "Retire su tarjeta."
+        },
+        {
+          "en": "Bitte entnehmen Sie das Geld.",
+          "es": "Retire el dinero."
+        },
+        {
+          "en": "Kontostand anzeigen",
+          "es": "Consultar el saldo."
+        },
+        {
+          "en": "Abbrechen · Korrektur · Bestätigen",
+          "es": "Cancelar · Corregir · Confirmar."
+        }
+      ],
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "Los cajeros dan el dinero <b>después</b> de devolver la tarjeta. Si tu tarjeta es extranjera, cuidado con la opción «en tu moneda» (conversión dinámica): suele ser más cara. Elige pagar <b>in CHF</b>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b43-s3q1",
+          "question": "1. «Bitte entnehmen Sie Ihre Karte» significa…",
+          "options": [
+            "Introduzca su tarjeta",
+            "Retire su tarjeta",
+            "Su tarjeta está bloqueada"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>entnehmen</b> = retirar, sacar."
+        },
+        {
+          "id": "b43-s3q2",
+          "question": "2. ¿Qué botón pulsas para cancelar?",
+          "options": [
+            "Bestätigen",
+            "Abbrechen",
+            "Korrektur"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Abbrechen</b> = cancelar; <i>Bestätigen</i> = confirmar."
+        },
+        {
+          "id": "b43-s3q3",
+          "question": "3. «Kontostand» es…",
+          "options": [
+            "el saldo",
+            "el extracto anual",
+            "el tipo de cambio"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>der Kontostand</b> = el saldo de la cuenta."
+        }
+      ]
+    },
+    {
+      "idx": "43.4",
+      "title": "Diálogo: cambiar dinero y una factura QR",
+      "level": "A2",
+      "rule": "En una sucursal bancaria de Basilea. La clienta cambia euros y pregunta por las facturas con código QR que llegan por correo en Suiza.",
+      "dialog": {
+        "id": "b43-bank",
+        "setting": "Sucursal bancaria, Basilea · martes, 11:00",
+        "roles": {
+          "B": {
+            "name": "Bankangestellter",
+            "label": "Empleado"
+          },
+          "K": {
+            "name": "Kundin",
+            "label": "Tú"
+          }
+        },
+        "lines": [
+          {
+            "who": "B",
+            "de": "Grüezi, was kann ich für Sie tun?",
+            "es": "Buenos días, ¿qué puedo hacer por usted?"
+          },
+          {
+            "who": "K",
+            "de": "Grüezi. Ich möchte 300 Euro in Franken wechseln. Wie ist der Kurs heute?",
+            "es": "Buenos días. Quiero cambiar 300 euros a francos. ¿Cómo está el cambio hoy?"
+          },
+          {
+            "who": "B",
+            "de": "Für einen Euro bekommen Sie heute 0,94 Franken. Das macht 282 Franken, abzüglich drei Franken Gebühr.",
+            "es": "Por un euro recibe hoy 0,94 francos. Son 282 francos, menos tres de comisión."
+          },
+          {
+            "who": "K",
+            "de": "In Ordnung. Noch eine Frage: Ich habe diese Rechnung mit einem QR-Code bekommen. Wie bezahle ich sie?",
+            "es": "De acuerdo. Otra pregunta: he recibido esta factura con un código QR. ¿Cómo la pago?"
+          },
+          {
+            "who": "B",
+            "de": "Am einfachsten scannen Sie den QR-Code mit der App Ihrer Bank. Dann sind alle Daten schon drin.",
+            "es": "Lo más fácil es escanear el código QR con la app de su banco. Así ya están todos los datos."
+          },
+          {
+            "who": "K",
+            "de": "Und bis wann muss ich bezahlen?",
+            "es": "¿Y hasta cuándo tengo que pagar?"
+          },
+          {
+            "who": "B",
+            "de": "Meistens innerhalb von 30 Tagen. Das Datum steht oben rechts.",
+            "es": "Normalmente en un plazo de 30 días. La fecha está arriba a la derecha."
+          },
+          {
+            "who": "K",
+            "de": "Perfekt, vielen Dank für die Hilfe!",
+            "es": "¡Perfecto, muchas gracias por la ayuda!"
+          },
+          {
+            "who": "B",
+            "de": "Gern geschehen. Hier sind Ihre 279 Franken.",
+            "es": "De nada. Aquí tiene sus 279 francos."
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b43-s4q1",
+          "question": "1. ¿Cuántos francos recibe al final?",
+          "options": [
+            "282",
+            "279",
+            "300"
+          ],
+          "correctIndex": 1,
+          "explain": "282 francos menos 3 de comisión (<i>abzüglich drei Franken Gebühr</i>) = <b>279</b>."
+        },
+        {
+          "id": "b43-s4q2",
+          "question": "2. ¿Cómo se paga la factura QR?",
+          "options": [
+            "En efectivo en Correos",
+            "Escaneando el código con la app del banco",
+            "Llamando a la empresa"
+          ],
+          "correctIndex": 1,
+          "explain": "«scannen Sie den <b>QR-Code</b> mit der App Ihrer Bank»."
+        },
+        {
+          "id": "b43-s4q3",
+          "question": "3. ¿Cuál es el plazo habitual de pago?",
+          "options": [
+            "7 días",
+            "30 días",
+            "90 días"
+          ],
+          "correctIndex": 1,
+          "explain": "«Meistens innerhalb von <b>30 Tagen</b>»."
+        },
+        {
+          "id": "b43-s4q4",
+          "question": "4. «abzüglich» significa…",
+          "options": [
+            "más",
+            "menos (descontando)",
+            "incluido"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>abzüglich</b> = descontando, menos."
+        }
+      ]
+    },
+    {
+      "idx": "43.5",
+      "title": "Szenario: el cajero se traga tu tarjeta",
+      "level": "B1",
+      "rule": "Problema real: sábado por la tarde, el cajero se ha quedado tu tarjeta. Llama al número de emergencia de tu banco.",
+      "scenario": {
+        "id": "b43-sc",
+        "situation": "Es sábado a las 19:00 en Lucerna. El <b>Bancomat</b> no te devuelve la tarjeta y muestra «Karte eingezogen». No tienes efectivo. Llama a la línea de urgencias de tu banco.",
+        "goals": [
+          "Presentarte y explicar qué ha pasado (<i>Der Automat hat meine Karte eingezogen</i>)",
+          "Decir dónde está el cajero",
+          "Pedir que bloqueen la tarjeta (<i>sperren</i>)",
+          "Preguntar cómo conseguir una nueva y cuánto tarda",
+          "Preguntar si puedes sacar dinero de otra manera",
+          "Agradecer y despedirte (<i>auf Wiederhören</i>)"
+        ]
+      },
+      "produce": {
+        "id": "b43-s5",
+        "label": "<b>tu turno:</b> escribe la llamada (8–10 turnos).",
+        "placeholder": "Guten Abend, hier ist Ana López. Der Bancomat am Bahnhof Luzern hat meine Karte eingezogen …"
+      }
+    }
+  ]
+}
