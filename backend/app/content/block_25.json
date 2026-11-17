@@ -96,7 +96,8 @@
             "der",
             "denen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>helfen</i> pide dativo; die Frau → relativo en dativo femenino: <b>der</b>."
         },
         {
           "id": "b25-s1q2",
@@ -106,7 +107,8 @@
             "die",
             "denen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>mit</i> + dativo plural → <b>denen</b> (no <i>den</i>: el relativo plural en dativo es denen)."
         },
         {
           "id": "b25-s1q3",
@@ -116,7 +118,8 @@
             "deren",
             "dem"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Posesivo relativo para un masculino (der Autor) → <b>dessen</b>. <i>deren</i> es para femenino o plural."
         },
         {
           "id": "b25-s1q4",
@@ -126,7 +129,8 @@
             "was",
             "wo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras <i>nichts, alles, etwas</i> el relativo es <b>was</b>."
         },
         {
           "id": "b25-s1q5",
@@ -136,7 +140,8 @@
             "was",
             "worüber"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Cuando el antecedente es toda la frase, se usa <b>wo(r)</b> + preposición: sich ärgern über → <b>worüber</b>."
         },
         {
           "id": "b25-s1q6",
@@ -146,7 +151,8 @@
             "deren",
             "der"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Antecedente femenino (die Kollegin) → posesivo relativo <b>deren</b>."
         }
       ],
       "produce": {
@@ -233,7 +239,8 @@
             "lässt",
             "wird"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>sich lassen</b> + infinitivo = «se puede»: Der Text lässt sich übersetzen."
         },
         {
           "id": "b25-s2q2",
@@ -243,7 +250,8 @@
             "gezahlt",
             "zu zahlen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>sein + zu</b> + infinitivo = obligación pasiva: ist zu zahlen («hay que pagarla»)."
         },
         {
           "id": "b25-s2q3",
@@ -253,7 +261,8 @@
             "esslich",
             "gegessen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "El sufijo <b>-bar</b> = «que se puede…»: essbar = comestible."
         },
         {
           "id": "b25-s2q4",
@@ -263,7 +272,8 @@
             "No se puede cambiar",
             "No se lo dejan cambiar"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Das lässt sich nicht ändern</b> = no se puede cambiar."
         },
         {
           "id": "b25-s2q5",
@@ -273,7 +283,8 @@
             "lösbar",
             "lösen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>sein + zu</i> + infinitivo: leicht zu <b>lösen</b> = fácil de resolver."
         }
       ],
       "produce": {
@@ -334,7 +345,8 @@
             "wäre",
             "würde"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Konjunktiv II en pasado = <b>hätte/wäre</b> + participio; haben → gehabt <b>hätte</b>."
         },
         {
           "id": "b25-s3q2",
@@ -344,7 +356,8 @@
             "wären",
             "würden"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>losfahren</i> (movimiento) va con sein → losgefahren <b>wären</b>."
         },
         {
           "id": "b25-s3q3",
@@ -354,7 +367,8 @@
             "würdest",
             "hättest"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Con modal en pasado irreal: <b>hättest</b> … sagen sollen (doble infinitivo)."
         },
         {
           "id": "b25-s3q4",
@@ -364,7 +378,8 @@
             "hätte arbeiten müssen",
             "arbeiten hätte müssen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Con doble infinitivo, el auxiliar conjugado va <b>delante</b> de los dos infinitivos, incluso en subordinada: <b>hätte arbeiten müssen</b>."
         },
         {
           "id": "b25-s3q5",
@@ -374,7 +389,8 @@
             "Lo olvidé casi todo",
             "Lo habría olvidado pronto"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Fast hätte ich…</b> = casi lo hago, pero no llegó a pasar."
         },
         {
           "id": "b25-s3q6",
@@ -384,7 +400,8 @@
             "hätte",
             "hat"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>verpassen</i> va con haben → verpasst <b>hätte</b>."
         }
       ],
       "produce": {
@@ -478,7 +495,8 @@
             "Polizisten",
             "Polizists"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>der Polizist</i> es n-Deklination: en acusativo añade <b>-en</b>: den Polizisten."
         },
         {
           "id": "b25-s4q2",
@@ -488,7 +506,8 @@
             "Kollege",
             "Kolleges"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "n-Deklination: genitivo <b>des Kollegen</b> (sin -s)."
         },
         {
           "id": "b25-s4q3",
@@ -498,7 +517,8 @@
             "Kundes",
             "Kunde"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "En nominativo singular no se añade nada: <b>der Kunde</b>."
         },
         {
           "id": "b25-s4q4",
@@ -508,7 +528,8 @@
             "Namen",
             "Namens"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>der Name</i> es especial: genitivo <b>des Namens</b> (-n + -s)."
         },
         {
           "id": "b25-s4q5",
@@ -518,7 +539,8 @@
             "der Lehrer",
             "der Junge"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>der Lehrer</b> se declina normal. Student y Junge son n-Deklination."
         }
       ],
       "produce": {
@@ -570,7 +592,8 @@
             "nicht",
             "entweder"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Ni… ni» = <b>weder</b> … noch."
         },
         {
           "id": "b25-s5q2",
@@ -580,7 +603,8 @@
             "als auch",
             "noch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>sowohl … als auch</b> = tanto… como."
         },
         {
           "id": "b25-s5q3",
@@ -590,7 +614,8 @@
             "oder",
             "aber"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>zwar … aber</b> = es cierto que… pero."
         },
         {
           "id": "b25-s5q4",
@@ -600,7 +625,8 @@
             "sondern",
             "als"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>nicht nur … sondern auch</b> = no solo… sino también."
         },
         {
           "id": "b25-s5q5",
@@ -610,7 +636,8 @@
             "Solo en pasado",
             "No: weder…noch ya niega"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>weder … noch</b> ya es negativo; no se añade nicht."
         }
       ],
       "produce": {
@@ -707,7 +734,8 @@
             "worauf",
             "auf das"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>warten auf</i> + subordinada → correlato <b>darauf</b>: Ich warte darauf, dass…"
         },
         {
           "id": "b25-s6q2",
@@ -717,7 +745,8 @@
             "Woran",
             "An wem"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pregunta por una cosa con <i>denken an</i> → <b>Woran</b>. Para personas: <i>An wen</i>."
         },
         {
           "id": "b25-s6q3",
@@ -727,7 +756,8 @@
             "Damit",
             "Mit wem"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Pregunta por una persona → preposición + pronombre: <b>Mit wem</b>."
         },
         {
           "id": "b25-s6q4",
@@ -737,7 +767,8 @@
             "darauf",
             "dafür"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>abhängen von</i> → <b>davon</b>."
         },
         {
           "id": "b25-s6q5",
@@ -747,7 +778,8 @@
             "davon",
             "daran"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>sich gewöhnen an</i> → <b>daran</b>."
         }
       ],
       "produce": {
@@ -839,7 +871,8 @@
             "Er soll Millionär sein.",
             "Er muss Millionär sein."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>sollen</b> subjetivo = «se dice que»."
         },
         {
           "id": "b25-s7q2",
@@ -849,7 +882,8 @@
             "soll",
             "will"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Suposición casi segura → <b>muss</b>."
         },
         {
           "id": "b25-s7q3",
@@ -859,7 +893,8 @@
             "Él afirma que no sabía nada (y lo dudo)",
             "Él debería saberlo todo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>wollen</b> subjetivo = alguien afirma algo de sí mismo y el hablante lo duda."
         },
         {
           "id": "b25-s7q4",
@@ -869,7 +904,8 @@
             "werden",
             "haben"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>vergessen</i> va con haben → vergessen <b>haben</b> (infinitivo perfecto)."
         },
         {
           "id": "b25-s7q5",
@@ -879,7 +915,8 @@
             "probabilidad",
             "obligación"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>dürfte</b> expresa probabilidad («probablemente será difícil»)."
         }
       ],
       "produce": {

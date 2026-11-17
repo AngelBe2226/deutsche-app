@@ -166,7 +166,8 @@
             "«u» y dices «i»",
             "«o» y dices «a»"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La <b>ü</b> se pronuncia con los labios redondeados como para «u» mientras la lengua dice «i»."
         },
         {
           "id": "b18-s1q2",
@@ -176,7 +177,8 @@
             "son palabras distintas: ya / bonito",
             "son variantes regionales"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La diéresis cambia la palabra: <b>schon</b> = ya, <b>schön</b> = bonito."
         },
         {
           "id": "b18-s1q3",
@@ -186,7 +188,8 @@
             "una s sorda",
             "una z española"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>ß</b> = s sorda (como la s española), nunca como z ni b."
         },
         {
           "id": "b18-s1q4",
@@ -196,7 +199,8 @@
             "«o»",
             "«a»"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>ö</b>: dices «e» con los labios redondeados como para «o»."
         },
         {
           "id": "b18-s1q5",
@@ -206,7 +210,8 @@
             "«o»",
             "«a»"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>ü</b>: dices «i» con los labios en forma de «u»."
         },
         {
           "id": "b18-s1q6",
@@ -216,7 +221,8 @@
             "una «a» normal",
             "una «e» abierta"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>ä</b> suena como una «e» abierta: Käse ≈ «quese»."
         },
         {
           "id": "b18-s1q7",
@@ -226,7 +232,8 @@
             "una z",
             "una b"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>ß</b> = s sorda."
         },
         {
           "id": "b18-s1q8",
@@ -236,7 +243,8 @@
             "bonito",
             "ya"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>schön</b> = bonito. <i>Schule</i> = escuela; <i>schon</i> = ya."
         },
         {
           "id": "b18-s1q9",
@@ -246,7 +254,8 @@
             "sombra",
             "bonito"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>schon</b> = ya."
         },
         {
           "id": "b18-s1q10",
@@ -256,7 +265,8 @@
             "die Bücher",
             "die Buche"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Buch → <b>Bücher</b>: diéresis + -er."
         },
         {
           "id": "b18-s1q11",
@@ -266,7 +276,8 @@
             "die Vätern",
             "die Vater"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Vater → <b>Väter</b>: solo diéresis."
         },
         {
           "id": "b18-s1q12",
@@ -276,7 +287,8 @@
             "die Mutter",
             "die Mütter"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Mutter → <b>Mütter</b>. <i>Muttern</i> son tuercas."
         },
         {
           "id": "b18-s1q13",
@@ -286,7 +298,8 @@
             "consonante",
             "vocal larga o diptongo"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Se escribe <b>ß</b> tras vocal larga o diptongo (Straße, heißen)."
         },
         {
           "id": "b18-s1q14",
@@ -296,7 +309,8 @@
             "es un préstamo",
             "la vocal es corta"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Tras vocal <b>corta</b> se escribe <b>ss</b>: Fluss."
         },
         {
           "id": "b18-s1q15",
@@ -306,7 +320,8 @@
             "es palabra de origen latino",
             "la vocal es larga"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "La a de Straße es <b>larga</b>, por eso ß."
         }
       ],
       "produce": {
@@ -440,7 +455,8 @@
             "ich-Laut (suave, palatal)",
             "sonido k"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras e, i, ä, ö, ü y consonantes, la ch es el <b>ich-Laut</b>, suave y palatal."
         },
         {
           "id": "b18-s2q2",
@@ -450,7 +466,8 @@
             "ach-Laut",
             "sonido sh"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras a, o, u, au, la ch es el <b>ach-Laut</b>, gutural como la j española."
         },
         {
           "id": "b18-s2q3",
@@ -460,7 +477,8 @@
             "vocalizada, casi una «a»",
             "muda del todo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La -er final se vocaliza y suena casi como una «a» breve: Vat[a]."
         },
         {
           "id": "b18-s2q4",
@@ -470,7 +488,8 @@
             "sonido k",
             "ach-Laut (fuerte)"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras i → <b>ich-Laut</b>."
         },
         {
           "id": "b18-s2q5",
@@ -480,7 +499,8 @@
             "sonido sh",
             "ich-Laut"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras u → <b>ach-Laut</b>."
         },
         {
           "id": "b18-s2q6",
@@ -490,7 +510,8 @@
             "sonido k",
             "ich-Laut"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Tras i → <b>ich-Laut</b>."
         },
         {
           "id": "b18-s2q7",
@@ -500,7 +521,8 @@
             "sonido sh",
             "ach-Laut"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Tras a → <b>ach-Laut</b>."
         },
         {
           "id": "b18-s2q8",
@@ -510,7 +532,8 @@
             "sonido k",
             "ach-Laut"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras ü → <b>ich-Laut</b>."
         },
         {
           "id": "b18-s2q9",
@@ -520,7 +543,8 @@
             "ich-Laut",
             "sonido k"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras a → <b>ach-Laut</b>."
         },
         {
           "id": "b18-s2q10",
@@ -530,7 +554,8 @@
             "como ich-Laut",
             "como k"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La terminación <b>-ig</b> se pronuncia como ich-Laut en el estándar: fertich."
         },
         {
           "id": "b18-s2q11",
@@ -540,7 +565,8 @@
             "como L",
             "vibrada como en español"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "La R alemana estándar es <b>gutural</b>, en la garganta."
         },
         {
           "id": "b18-s2q12",
@@ -550,7 +576,8 @@
             "sechs",
             "zeks"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>chs</b> suena [ks] y la s inicial ante vocal suena [z]: [zeks]."
         },
         {
           "id": "b18-s2q13",
@@ -560,7 +587,8 @@
             "s",
             "sh (sch)"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>sch</b> = [ʃ], como «sh» en inglés."
         },
         {
           "id": "b18-s2q14",
@@ -570,7 +598,8 @@
             "zt",
             "st"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>st</b> a principio de palabra suena [ʃt]: «scht»."
         },
         {
           "id": "b18-s2q15",
@@ -580,7 +609,8 @@
             "schp",
             "sp"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>sp</b> inicial suena [ʃp]: «schp»."
         }
       ],
       "produce": {
@@ -713,7 +743,8 @@
             "[viin]",
             "[ven]"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>ie</b> = i larga: Wien [viːn]. <i>ei</i> sería [ai]."
         },
         {
           "id": "b18-s3q2",
@@ -723,7 +754,8 @@
             "como k",
             "muda"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Ensordecimiento final: <b>g</b> a final de sílaba suena <b>k</b>: Ta[k]."
         },
         {
           "id": "b18-s3q3",
@@ -733,7 +765,8 @@
             "[drii]",
             "[drei] tal cual"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>ei</b> = [ai]: drei [drai]."
         },
         {
           "id": "b18-s3q4",
@@ -743,7 +776,8 @@
             "[main]",
             "[men]"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>ei</b> = [ai]: mein [main]."
         },
         {
           "id": "b18-s3q5",
@@ -753,7 +787,8 @@
             "[liːbe]",
             "[libe] corta"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>ie</b> = i larga: [liːbe]."
         },
         {
           "id": "b18-s3q6",
@@ -763,7 +798,8 @@
             "[haus]",
             "[hos]"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>au</b> = [au], como en español."
         },
         {
           "id": "b18-s3q7",
@@ -773,7 +809,8 @@
             "[hite]",
             "[hɔytə]"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>eu</b> = [ɔy], parecido a «oi»."
         },
         {
           "id": "b18-s3q8",
@@ -783,7 +820,8 @@
             "ts",
             "z española"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>z</b> alemana = [ts]."
         },
         {
           "id": "b18-s3q9",
@@ -793,7 +831,8 @@
             "b",
             "v"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>v</b> en palabras alemanas suena <b>f</b>: Vater [fater]."
         },
         {
           "id": "b18-s3q10",
@@ -803,7 +842,8 @@
             "b",
             "w inglesa"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>w</b> alemana suena como una <b>v</b> labiodental."
         },
         {
           "id": "b18-s3q11",
@@ -813,7 +853,8 @@
             "d",
             "k"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "g final → [k]."
         },
         {
           "id": "b18-s3q12",
@@ -823,7 +864,8 @@
             "d",
             "t"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "d final → [t]."
         },
         {
           "id": "b18-s3q13",
@@ -833,7 +875,8 @@
             "v",
             "b"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "b final → [p]."
         },
         {
           "id": "b18-s3q14",
@@ -843,7 +886,8 @@
             "g",
             "k"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "g final → [k]."
         },
         {
           "id": "b18-s3q15",
@@ -853,7 +897,8 @@
             "j española",
             "ch"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>j</b> alemana = y consonántica: ja [ya]."
         }
       ],
       "produce": {
@@ -871,7 +916,7 @@
         {
           "type": "tip",
           "at": "end",
-          "text": "Este es el truco de 11.4 en versión sonido: si oyes <i>ÚMfahren</i> (acento en um) = atropellar rodeando… vale, mejor ejemplo: <i>úbersetzen/übersétzen</i>. El acento te dice si el prefijo se separa. Cuando aprendas un verbo con prefijo, aprende TAMBIÉN dónde suena el golpe."
+          "text": "Este es el truco de 11.4 en versión sonido: <i>ÚMfahren</i> (acento en el prefijo, separable) es «atropellar», y <i>umFÁHren</i> (átono, inseparable) es «rodear»; igual <i>ÜBERsetzen</i> (cruzar a la otra orilla) frente a <i>überSÉTZen</i> (traducir). El acento te dice si el prefijo se separa. Cuando aprendas un verbo con prefijo, aprende TAMBIÉN dónde suena el golpe."
         }
       ],
       "examples": [
@@ -974,7 +1019,8 @@
             "AUF-stehen",
             "auf-ste-HEN"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los prefijos separables se acentúan: <b>AUF</b>stehen."
         },
         {
           "id": "b18-s4q2",
@@ -984,7 +1030,8 @@
             "ver-STE-hen",
             "ver-ste-HEN"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los inseparables son átonos; el acento va en la raíz: ver<b>STE</b>hen."
         },
         {
           "id": "b18-s4q3",
@@ -994,7 +1041,8 @@
             "u-ni-VER-si-tät",
             "U-ni-ver-SI-tät"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Los préstamos en <b>-tät</b> acentúan la última sílaba: Universi<b>TÄT</b>."
         },
         {
           "id": "b18-s4q4",
@@ -1004,7 +1052,8 @@
             "an-KOM-men",
             "an-kom-MEN"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Separable → <b>AN</b>kommen."
         },
         {
           "id": "b18-s4q5",
@@ -1014,7 +1063,8 @@
             "be-zah-LEN",
             "BE-zahlen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "be- es inseparable y átono → be<b>ZAH</b>len."
         },
         {
           "id": "b18-s4q6",
@@ -1024,7 +1074,8 @@
             "ein-stei-GEN",
             "ein-STEI-gen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Separable → <b>EIN</b>steigen."
         },
         {
           "id": "b18-s4q7",
@@ -1034,7 +1085,8 @@
             "ver-KAU-fen",
             "VER-kaufen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "ver- átono → ver<b>KAU</b>fen."
         },
         {
           "id": "b18-s4q8",
@@ -1044,7 +1096,8 @@
             "TE-le-fonieren",
             "te-le-fo-NIE-ren"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>-ieren</b> lleva el acento en -ie-: telefo<b>NIE</b>ren."
         },
         {
           "id": "b18-s4q9",
@@ -1054,7 +1107,8 @@
             "IN-for-mation",
             "in-FOR-ma-tion"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>-ion</b> se acentúa: Informa<b>TION</b>."
         },
         {
           "id": "b18-s4q10",
@@ -1064,7 +1118,8 @@
             "u-NI-ver-si-tät",
             "U-ni-VER-si-tät"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "-tät acentuado: Universi<b>TÄT</b>."
         },
         {
           "id": "b18-s4q11",
@@ -1074,7 +1129,8 @@
             "Po-li-ZEI",
             "PO-li-zei"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>-ei</b> en sustantivos suele llevar el acento: Poli<b>ZEI</b>."
         },
         {
           "id": "b18-s4q12",
@@ -1084,7 +1140,8 @@
             "ar-bei-TEN",
             "AR-bei-ten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Regla general: acento en la primera sílaba de la raíz: <b>AR</b>beiten."
         },
         {
           "id": "b18-s4q13",
@@ -1094,7 +1151,8 @@
             "se acentúan",
             "no existen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los prefijos separables <b>se acentúan</b>."
         },
         {
           "id": "b18-s4q14",
@@ -1104,7 +1162,8 @@
             "son átonos",
             "son opcionales"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los inseparables son <b>átonos</b>."
         },
         {
           "id": "b18-s4q15",
@@ -1114,7 +1173,8 @@
             "en la 1ª sílaba",
             "en -ren"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "El acento cae en <b>-ie-</b>: studIEren."
         }
       ],
       "produce": {

@@ -286,7 +286,7 @@ function ReviewSession({ session, onExit, onGoToSection }) {
           </span>
           {it.st?.lapses > 0 && <span className="rs-lapses">{it.st.lapses}× fallada</span>}
         </div>
-        <RichText as="p" className="q-question rs-q" html={it.q.question} />
+        <RichText as="p" className="q-question rs-q" html={it.q.question} de="mixed" />
         <div className="opts">
           {it.q.options.map((opt, i) => {
             let cls = "";
@@ -308,6 +308,7 @@ function ReviewSession({ session, onExit, onGoToSection }) {
               {right ? "¡Correcto! Vuelve en unos días." : "Fallada: la repetirás al final de la sesión."}
               <SpeakButton id={`rs-${it.q.id}`} text={say} label="Escuchar la frase correcta" className="fb-speak" />
             </div>
+            {it.q.explain && <RichText as="p" className="q-explain" html={it.q.explain} de="mixed" />}
             <div className="rs-actions">
               <button className="ghost-btn" onClick={() => onGoToSection(it.block, it.idx)}>
                 Ver la regla

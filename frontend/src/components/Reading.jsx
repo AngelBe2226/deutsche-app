@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import RichText from "./RichText";
+import { escapeHtml } from "../lexicon";
 import SpeakButton from "./SpeakButton";
 import { plainText } from "../tts";
 import { IconBook } from "./Icons";
@@ -42,10 +43,10 @@ export default function Reading({ reading }) {
           {reading.kind && <span className="reading-kind">{reading.kind}</span>}
           <SpeakButton id={`rd-${reading.id}`} text={fullText} label="Escuchar el texto" />
         </div>
-        {reading.title && <h4 className="reading-title">{reading.title}</h4>}
+        {reading.title && <RichText as="h4" className="reading-title" html={escapeHtml(reading.title)} de="de" />}
         <div className="reading-text" onMouseOver={onOver} onMouseLeave={() => setActive(null)}>
           {reading.paragraphs.map((p, i) => (
-            <RichText key={i} as="p" html={p} />
+            <RichText key={i} as="p" html={p} de="de" />
           ))}
         </div>
       </div>

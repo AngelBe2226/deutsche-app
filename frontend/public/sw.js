@@ -1,8 +1,9 @@
 // Service worker de la PWA (solo se registra en el build estático de Pages).
-// Estrategia stale-while-revalidate para todo GET same-origin: sirve de caché
-// al instante si existe y actualiza en segundo plano; tras la primera visita
-// online, la app (shell, contenido, iconos) funciona offline.
-const CACHE = "german-index-v1";
+//  - Página y contenido (HTML, JSON, manifest): red primero → cada cambio
+//    publicado se ve en la siguiente apertura; la caché solo se usa sin red.
+//  - /assets/ (nombres con hash, inmutables): caché primero.
+//  - Otros orígenes (Supabase, fuentes) no se tocan.
+const CACHE = "german-index-v2";
 
 self.addEventListener("install", () => self.skipWaiting());
 
@@ -15,21 +16,37 @@ self.addEventListener("activate", (event) => {
   );
 });
 
+async function networkFirst(req) {
+  const cache = await caches.open(CACHE);
+  try {
+    const res = await fetch(req, { cache: "no-store" });
+    if (res && res.ok) cache.put(req, res.clone());
+    return res;
+  } catch {
+    const cached = await cache.match(req, { ignoreSearch: req.mode === "navigate" });
+    if (cached) return cached;
+    if (req.mode === "navigate") {
+      const shell = await cache.match(self.registration.scope);
+      if (shell) return shell;
+    }
+    return Response.error();
+  }
+}
+
+async function cacheFirst(req) {
+  const cache = await caches.open(CACHE);
+  const cached = await cache.match(req);
+  if (cached) return cached;
+  const res = await fetch(req);
+  if (res && res.ok) cache.put(req, res.clone());
+  return res;
+}
+
 self.addEventListener("fetch", (event) => {
   const req = event.request;
   if (req.method !== "GET") return;
-  if (new URL(req.url).origin !== self.location.origin) return;
+  const url = new URL(req.url);
+  if (url.origin !== self.location.origin) return;
 
-  event.respondWith(
-    caches.open(CACHE).then(async (cache) => {
-      const cached = await cache.match(req);
-      const network = fetch(req)
-        .then((res) => {
-          if (res && res.ok) cache.put(req, res.clone());
-          return res;
-        })
-        .catch(() => cached);
-      return cached || network;
-    })
-  );
+  event.respondWith(url.pathname.includes("/assets/") ? cacheFirst(req) : networkFirst(req));
 });

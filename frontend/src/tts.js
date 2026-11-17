@@ -106,7 +106,40 @@ export function speakSequence(id, items) {
   });
 }
 
+// Modo eco (método de grabación con pausas): dice cada frase y deja un hueco
+// para que la repitas en voz alta antes de pasar a la siguiente.
+let echoTimer = null;
+export function speakEcho(id, texts, pauseFactor = 1.3) {
+  if (!supported) return;
+  const synth = window.speechSynthesis;
+  if (state.playing === id) {
+    stop();
+    return;
+  }
+  synth.cancel();
+  clearTimeout(echoTimer);
+  const list = texts.filter(Boolean);
+  if (!list.length) return;
+  set({ playing: id, cursor: 0 });
+  const next = (i) => {
+    if (state.playing !== id) return;
+    if (i >= list.length) return set({ playing: null, cursor: null });
+    set({ cursor: i });
+    const u = utterance(list[i], false);
+    const started = Date.now();
+    u.onend = () => {
+      // pausa proporcional a lo que dura la frase (mín. 1,5 s)
+      const pause = Math.max(1500, (Date.now() - started) * pauseFactor);
+      echoTimer = setTimeout(() => next(i + 1), pause);
+    };
+    u.onerror = (e) => e.error !== "interrupted" && e.error !== "canceled" && set({ playing: null, cursor: null });
+    synth.speak(u);
+  };
+  next(0);
+}
+
 export function stop() {
+  clearTimeout(echoTimer);
   if (!supported) return;
   window.speechSynthesis.cancel();
   set({ playing: null, cursor: null });

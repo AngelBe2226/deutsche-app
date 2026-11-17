@@ -195,7 +195,8 @@
             "kann",
             "können"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los modales no llevan -t en 3.ª persona: er <b>kann</b> (igual que ich kann)."
         },
         {
           "id": "b12-s1q2",
@@ -205,7 +206,8 @@
             "Ich will Deutsch lernen.",
             "Ich Deutsch lernen will."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Modal en 2.ª posición, infinitivo al final: Ich will Deutsch <b>lernen</b>."
         },
         {
           "id": "b12-s1q3",
@@ -215,7 +217,8 @@
             "er muss",
             "er müsst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "er <b>muss</b>: en singular cambia la vocal (ü→u) y no hay -t."
         },
         {
           "id": "b12-s1q4",
@@ -225,7 +228,8 @@
             "kannst",
             "können"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ich <b>kann</b>."
         },
         {
           "id": "b12-s1q5",
@@ -235,7 +239,8 @@
             "können",
             "kann"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "er <b>kann</b>, sin -t."
         },
         {
           "id": "b12-s1q6",
@@ -245,7 +250,8 @@
             "müssen",
             "müsst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "wir <b>müssen</b> (en plural vuelve la diéresis)."
         },
         {
           "id": "b12-s1q7",
@@ -255,7 +261,8 @@
             "sollst",
             "sollt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "du <b>sollst</b>."
         },
         {
           "id": "b12-s1q8",
@@ -265,7 +272,8 @@
             "willst",
             "wollt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ich <b>will</b>."
         },
         {
           "id": "b12-s1q9",
@@ -275,7 +283,8 @@
             "wollen",
             "willst"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "sie (ella) <b>will</b>, igual que ich."
         },
         {
           "id": "b12-s1q10",
@@ -285,7 +294,8 @@
             "dürft",
             "darfst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "ihr <b>dürft</b>."
         },
         {
           "id": "b12-s1q11",
@@ -295,7 +305,8 @@
             "dürfen",
             "darf"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "ich <b>darf</b>."
         },
         {
           "id": "b12-s1q12",
@@ -305,7 +316,8 @@
             "muss",
             "müssen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "sie (ella) <b>muss</b>."
         },
         {
           "id": "b12-s1q13",
@@ -315,7 +327,8 @@
             "Er kann kochen gut.",
             "Er kochen gut kann."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Modal (2) + complemento + infinitivo al final: Er kann gut <b>kochen</b>."
         },
         {
           "id": "b12-s1q14",
@@ -325,7 +338,8 @@
             "Wir wollen heute ins Kino gehen.",
             "Wir wollen heute gehen ins Kino."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Modal en 2.ª posición e infinitivo al final: wollen … <b>gehen</b>."
         },
         {
           "id": "b12-s1q15",
@@ -335,7 +349,8 @@
             "terminan en -en",
             "son iguales (ich kann, er kann)"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "En los modales la 1.ª y la 3.ª del singular <b>son iguales</b>: ich kann, er kann."
         }
       ],
       "produce": {
@@ -464,7 +479,8 @@
             "Darf",
             "Soll"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Permiso → <b>dürfen</b>: Darf man hier rauchen?"
         },
         {
           "id": "b12-s2q2",
@@ -474,7 +490,8 @@
             "kann",
             "soll"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Capacidad (saber hacer) → <b>können</b>."
         },
         {
           "id": "b12-s2q3",
@@ -484,7 +501,8 @@
             "will",
             "darf"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Prohibición → <b>nicht dürfen</b>."
         },
         {
           "id": "b12-s2q4",
@@ -494,7 +512,8 @@
             "darf",
             "soll"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Saber hacer algo → <b>kann</b>."
         },
         {
           "id": "b12-s2q5",
@@ -504,7 +523,8 @@
             "Darf",
             "Kann"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pedir permiso → <b>Darf</b> ich…?"
         },
         {
           "id": "b12-s2q6",
@@ -514,7 +534,8 @@
             "kann",
             "soll"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Prohibición → <b>darf</b> … nicht."
         },
         {
           "id": "b12-s2q7",
@@ -524,7 +545,8 @@
             "kann",
             "will"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Habilidad → <b>kann</b>."
         },
         {
           "id": "b12-s2q8",
@@ -534,7 +556,8 @@
             "kann",
             "soll"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Incapacidad → <b>kann</b> nicht."
         },
         {
           "id": "b12-s2q9",
@@ -544,7 +567,8 @@
             "sollen",
             "dürfen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Prohibido → <b>dürfen</b> nicht."
         },
         {
           "id": "b12-s2q10",
@@ -554,7 +578,8 @@
             "Sollen",
             "Können"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Pregunta por la capacidad → <b>Können</b> Sie…?"
         },
         {
           "id": "b12-s2q11",
@@ -564,7 +589,8 @@
             "Will",
             "Soll"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Preguntar por una posibilidad práctica → <b>Kann</b> ich…? (muy habitual en tiendas)."
         },
         {
           "id": "b12-s2q12",
@@ -574,7 +600,8 @@
             "können",
             "dürfen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Imposibilidad → <b>können</b> nicht."
         },
         {
           "id": "b12-s2q13",
@@ -584,7 +611,8 @@
             "will",
             "darf"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Falta de permiso → <b>darf</b> nicht."
         },
         {
           "id": "b12-s2q14",
@@ -594,7 +622,8 @@
             "müssen",
             "dürfen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Permiso → <b>dürfen</b>."
         },
         {
           "id": "b12-s2q15",
@@ -604,7 +633,8 @@
             "sollen",
             "dürfen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Capacidad → <b>können</b>."
         }
       ],
       "produce": {
@@ -742,7 +772,8 @@
             "Ich möchte",
             "Ich soll"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Para pedir con educación se usa <b>möchte</b>. <i>will</i> suena exigente."
         },
         {
           "id": "b12-s3q2",
@@ -752,7 +783,8 @@
             "mag",
             "darf"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Un encargo o consejo de otra persona → <b>sollen</b>."
         },
         {
           "id": "b12-s3q3",
@@ -762,7 +794,8 @@
             "Ich mag Schokolade.",
             "Ich will Schokolade."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Gusto general → <b>mögen</b>: Ich mag Schokolade. <i>möchte</i> = querría."
         },
         {
           "id": "b12-s3q4",
@@ -772,7 +805,8 @@
             "möchte",
             "will"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pedir educadamente → <b>möchte</b>."
         },
         {
           "id": "b12-s3q5",
@@ -782,7 +816,8 @@
             "mag",
             "soll"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Encargo de otro → <b>soll</b>."
         },
         {
           "id": "b12-s3q6",
@@ -792,7 +827,8 @@
             "mag",
             "möchte"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Obligación → <b>muss</b>."
         },
         {
           "id": "b12-s3q7",
@@ -802,7 +838,8 @@
             "muss",
             "mag"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Gusto → <b>mag</b>."
         },
         {
           "id": "b12-s3q8",
@@ -812,7 +849,8 @@
             "will",
             "wollen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "sie (ellos) → <b>wollen</b>."
         },
         {
           "id": "b12-s3q9",
@@ -822,7 +860,8 @@
             "Will",
             "Wollt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "du → <b>willst</b>."
         },
         {
           "id": "b12-s3q10",
@@ -832,7 +871,8 @@
             "mögen",
             "mag"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "wir → <b>mögen</b>."
         },
         {
           "id": "b12-s3q11",
@@ -842,7 +882,8 @@
             "musst",
             "magst"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Consejo de otra persona → <b>sollst</b>."
         },
         {
           "id": "b12-s3q12",
@@ -852,7 +893,8 @@
             "Sollen",
             "Müssen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Propuesta «¿…?» → <b>Sollen</b> wir…?"
         },
         {
           "id": "b12-s3q13",
@@ -862,7 +904,8 @@
             "will",
             "willst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "sie (ella) → <b>will</b>."
         },
         {
           "id": "b12-s3q14",
@@ -872,7 +915,8 @@
             "müssen",
             "muss"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "ihr → <b>müsst</b>."
         },
         {
           "id": "b12-s3q15",
@@ -882,7 +926,8 @@
             "soll",
             "möchte"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Gusto → <b>mag</b>."
         }
       ],
       "produce": {
@@ -1041,7 +1086,8 @@
             "darf",
             "soll"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Prohibición = <b>nicht dürfen</b>. <i>nicht müssen</i> significa «no hace falta»."
         },
         {
           "id": "b12-s4q2",
@@ -1051,7 +1097,8 @@
             "musst",
             "willst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«No tener que» = <b>nicht müssen</b>."
         },
         {
           "id": "b12-s4q3",
@@ -1061,7 +1108,8 @@
             "Tiene prohibido comerlo",
             "No le apetece comerlo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>nicht dürfen</b> = prohibición."
         },
         {
           "id": "b12-s4q4",
@@ -1071,7 +1119,8 @@
             "musst",
             "darfst"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«No hace falta» = <b>nicht müssen</b>."
         },
         {
           "id": "b12-s4q5",
@@ -1081,7 +1130,8 @@
             "kann",
             "darf"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Prohibido → <b>darf</b> nicht."
         },
         {
           "id": "b12-s4q6",
@@ -1091,7 +1141,8 @@
             "soll",
             "muss"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "No es necesario → <b>muss</b> nicht."
         },
         {
           "id": "b12-s4q7",
@@ -1101,7 +1152,8 @@
             "sollst",
             "musst"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Prohibido → <b>darfst</b> nicht."
         },
         {
           "id": "b12-s4q8",
@@ -1111,7 +1163,8 @@
             "sollen",
             "dürfen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "No es necesario → <b>müssen</b> nicht."
         },
         {
           "id": "b12-s4q9",
@@ -1121,7 +1174,8 @@
             "dürfen",
             "wollen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Prohibición → <b>dürfen</b> nicht."
         },
         {
           "id": "b12-s4q10",
@@ -1131,7 +1185,8 @@
             "will",
             "muss"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "No hace falta → <b>muss</b> nicht."
         },
         {
           "id": "b12-s4q11",
@@ -1141,7 +1196,8 @@
             "musst",
             "darfst"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Prohibición → <b>darfst</b> nicht."
         },
         {
           "id": "b12-s4q12",
@@ -1151,7 +1207,8 @@
             "darf",
             "muss"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "No tiene por qué → <b>muss</b> nicht."
         },
         {
           "id": "b12-s4q13",
@@ -1161,7 +1218,8 @@
             "dürfen",
             "wollen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Prohibido → <b>dürfen</b> nicht."
         },
         {
           "id": "b12-s4q14",
@@ -1171,7 +1229,8 @@
             "müssen",
             "dürfen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "No hace falta → <b>müssen</b> nicht."
         },
         {
           "id": "b12-s4q15",
@@ -1181,7 +1240,8 @@
             "no hace falta",
             "imposible"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>nicht müssen</b> = no hace falta. Para «prohibido» se usa <i>nicht dürfen</i>."
         }
       ],
       "produce": {

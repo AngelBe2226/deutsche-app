@@ -113,7 +113,8 @@
             "la entrega",
             "el descuento"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>der Einwand</b> = la objeción del cliente. El descuento es <i>der Rabatt</i>."
         },
         {
           "id": "b24-s1q2",
@@ -123,7 +124,8 @@
             "die",
             "das"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>der</b> Rabatt."
         },
         {
           "id": "b24-s1q3",
@@ -133,7 +135,8 @@
             "negociar",
             "rebajar el precio"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>nachfassen</b> = volver a contactar al cliente, hacer seguimiento."
         }
       ]
     },
@@ -208,7 +211,8 @@
             "Darf ich fragen, womit Sie den Preis vergleichen?",
             "Das stimmt nicht."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Ante «es muy caro» se pregunta con qué compara el cliente para reconducir hacia el valor; las otras respuestas cierran la conversación."
         },
         {
           "id": "b24-s2q2",
@@ -218,7 +222,8 @@
             "pregunta de sí o no",
             "despedida"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Ofrecer dos opciones (Dienstag oder Donnerstag) es una <b>pregunta alternativa</b>: ambas respuestas llevan a una cita."
         }
       ]
     },
@@ -334,7 +339,8 @@
             "Gäste kommen nicht und sagen nicht ab.",
             "Das Telefon funktioniert nicht."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Passiert es manchmal, dass Gäste nicht kommen, ohne abzusagen? — Ja, leider ziemlich oft.»"
         },
         {
           "id": "b24-s3q2",
@@ -344,7 +350,8 @@
             "Calcula el beneficio y ofrece un mes gratis",
             "Cambia de tema"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Calcula que con dos mesas al mes ya se amortiza y ofrece <b>el primer mes gratis</b>."
         },
         {
           "id": "b24-s3q3",
@@ -354,7 +361,8 @@
             "Donnerstag um 15 Uhr",
             "Donnerstag um 13 Uhr"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Ella elige «Donnerstagnachmittag» y él confirma: <b>Donnerstag um 15 Uhr</b>."
         }
       ]
     },

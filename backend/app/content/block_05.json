@@ -183,7 +183,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras artículo definido (débil), los cinco casos «fáciles» (nom. sing. y ac. fem./neutro) llevan <b>-e</b>: die jung<b>e</b> Frau."
         },
         {
           "id": "b05-s1q2",
@@ -193,7 +194,8 @@
             "-er",
             "-en"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Acusativo masculino tras <i>den</i> → <b>-en</b>: den nett<b>en</b> Lehrer."
         },
         {
           "id": "b05-s1q3",
@@ -203,7 +205,8 @@
             "-en",
             "-es"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En dativo (y en todo el plural) tras artículo definido el adjetivo lleva <b>-en</b>."
         },
         {
           "id": "b05-s1q4",
@@ -213,7 +216,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Nominativo masculino tras <i>der</i> → <b>-e</b>: der nett<b>e</b> Mann. El artículo ya marca el caso."
         },
         {
           "id": "b05-s1q5",
@@ -223,7 +227,8 @@
             "-e",
             "-en"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Acusativo femenino tras <i>die</i> → <b>-e</b> (igual que en nominativo)."
         },
         {
           "id": "b05-s1q6",
@@ -233,7 +238,8 @@
             "-en",
             "-es"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Acusativo neutro tras <i>das</i> → <b>-e</b>: das neu<b>e</b> Auto."
         },
         {
           "id": "b05-s1q7",
@@ -243,7 +249,8 @@
             "-en",
             "-em"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Dativo tras artículo definido → siempre <b>-en</b>."
         },
         {
           "id": "b05-s1q8",
@@ -253,7 +260,8 @@
             "-e",
             "-er"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Plural tras artículo definido → <b>-en</b>: die klein<b>en</b> Kinder."
         },
         {
           "id": "b05-s1q9",
@@ -263,7 +271,8 @@
             "-en",
             "-e"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Dativo femenino tras <i>der</i> → <b>-en</b>."
         },
         {
           "id": "b05-s1q10",
@@ -273,7 +282,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Acusativo masculino → <b>-en</b>: den blau<b>en</b> Mantel."
         },
         {
           "id": "b05-s1q11",
@@ -283,7 +293,8 @@
             "-e",
             "-es"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Nominativo neutro tras <i>das</i> → <b>-e</b>."
         },
         {
           "id": "b05-s1q12",
@@ -293,7 +304,8 @@
             "-en",
             "-e"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>dieser</i> se declina como <i>der</i>; nominativo masculino → <b>-e</b>."
         },
         {
           "id": "b05-s1q13",
@@ -303,7 +315,8 @@
             "-er",
             "-en"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>jede</i> funciona como <i>die</i>; nominativo femenino → <b>-e</b>."
         },
         {
           "id": "b05-s1q14",
@@ -313,7 +326,8 @@
             "-er",
             "-en"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Plural tras artículo definido → <b>-en</b>."
         },
         {
           "id": "b05-s1q15",
@@ -323,7 +337,8 @@
             "-e",
             "-er"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Dativo femenino → <b>-en</b>: in der groß<b>en</b> Stadt."
         }
       ],
       "produce": {
@@ -489,7 +504,8 @@
             "-es",
             "-e"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>ein</i> no marca el neutro, así que lo marca el adjetivo con <b>-es</b> (como <i>das</i>)."
         },
         {
           "id": "b05-s2q2",
@@ -499,7 +515,8 @@
             "-en",
             "-e"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>mein</i> en nominativo masculino no lleva terminación: el adjetivo toma <b>-er</b> (como <i>der</i>)."
         },
         {
           "id": "b05-s2q3",
@@ -509,7 +526,8 @@
             "-es",
             "-e"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>eine</i> ya marca el femenino → adjetivo en <b>-e</b>."
         },
         {
           "id": "b05-s2q4",
@@ -519,7 +537,8 @@
             "-er",
             "-e"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>ein</i> + masculino nominativo: el adjetivo marca el género con <b>-er</b>."
         },
         {
           "id": "b05-s2q5",
@@ -529,7 +548,8 @@
             "-er",
             "-es"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>einen</i> ya marca el acusativo masculino → adjetivo en <b>-en</b>."
         },
         {
           "id": "b05-s2q6",
@@ -539,7 +559,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Acusativo neutro: <i>ein</i> no marca nada → <b>-es</b>."
         },
         {
           "id": "b05-s2q7",
@@ -549,7 +570,8 @@
             "-en",
             "-e"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Dativo: <i>einem</i> marca el caso → adjetivo en <b>-en</b>."
         },
         {
           "id": "b05-s2q8",
@@ -559,7 +581,8 @@
             "-e",
             "-en"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>meine</i> marca el femenino → <b>-e</b>."
         },
         {
           "id": "b05-s2q9",
@@ -569,7 +592,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>keinen</i> marca acusativo masculino → <b>-en</b>."
         },
         {
           "id": "b05-s2q10",
@@ -579,7 +603,8 @@
             "-er",
             "-en"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>mein</i> sin terminación en nominativo masculino → el adjetivo lleva <b>-er</b>."
         },
         {
           "id": "b05-s2q11",
@@ -589,7 +614,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Acusativo neutro tras <i>ein</i> → <b>-es</b>."
         },
         {
           "id": "b05-s2q12",
@@ -599,7 +625,8 @@
             "-en",
             "-e"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>eine</i> en acusativo femenino → <b>-e</b>."
         },
         {
           "id": "b05-s2q13",
@@ -609,7 +636,8 @@
             "-e",
             "-en"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Dativo tras <i>meinem</i> → <b>-en</b>."
         },
         {
           "id": "b05-s2q14",
@@ -619,7 +647,8 @@
             "-e",
             "-en"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Plural tras posesivo → <b>-en</b>."
         },
         {
           "id": "b05-s2q15",
@@ -629,7 +658,8 @@
             "-e",
             "-en"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Acusativo neutro tras <i>ein</i> → <b>-es</b>."
         }
       ],
       "produce": {
@@ -795,7 +825,8 @@
             "-es",
             "-e"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Sin artículo el adjetivo lleva la terminación del artículo: das → frisch<b>es</b> Brot."
         },
         {
           "id": "b05-s3q2",
@@ -805,7 +836,8 @@
             "-er",
             "-es"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Sin artículo, acusativo masculino = terminación de <i>den</i>: gut<b>en</b> Kaffee."
         },
         {
           "id": "b05-s3q3",
@@ -815,7 +847,8 @@
             "El adjetivo",
             "El sustantivo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "No hay artículo, así que <b>el adjetivo</b> marca el dativo con <b>-em</b> (como <i>dem</i>)."
         },
         {
           "id": "b05-s3q4",
@@ -825,7 +858,8 @@
             "-en",
             "-e"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Acusativo femenino sin artículo → <b>-e</b> (como <i>die</i>)."
         },
         {
           "id": "b05-s3q5",
@@ -835,7 +869,8 @@
             "-en",
             "-e"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Acusativo masculino sin artículo → <b>-en</b> (como <i>den</i>)."
         },
         {
           "id": "b05-s3q6",
@@ -845,7 +880,8 @@
             "-es",
             "-e"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Acusativo neutro sin artículo → <b>-es</b> (como <i>das</i>)."
         },
         {
           "id": "b05-s3q7",
@@ -855,7 +891,8 @@
             "-en",
             "-e"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Plural nominativo/acusativo sin artículo → <b>-e</b> (como <i>die</i>)."
         },
         {
           "id": "b05-s3q8",
@@ -865,7 +902,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Nominativo masculino sin artículo → <b>-er</b> (como <i>der</i>)."
         },
         {
           "id": "b05-s3q9",
@@ -875,7 +913,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Dativo femenino sin artículo → <b>-er</b> (como <i>der</i>)."
         },
         {
           "id": "b05-s3q10",
@@ -885,7 +924,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Plural acusativo sin artículo → <b>-e</b>."
         },
         {
           "id": "b05-s3q11",
@@ -895,7 +935,8 @@
             "-en",
             "-er"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Acusativo femenino sin artículo → <b>-e</b>."
         },
         {
           "id": "b05-s3q12",
@@ -905,7 +946,8 @@
             "-en",
             "-es"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Dativo neutro sin artículo → <b>-em</b> (como <i>dem</i>)."
         },
         {
           "id": "b05-s3q13",
@@ -915,7 +957,8 @@
             "-e",
             "-es"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Nominativo femenino sin artículo → <b>-e</b>."
         },
         {
           "id": "b05-s3q14",
@@ -925,7 +968,8 @@
             "-en",
             "-es"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Nominativo neutro sin artículo → <b>-es</b>."
         },
         {
           "id": "b05-s3q15",
@@ -935,7 +979,8 @@
             "Ich trinke kaltes Tee.",
             "Ich trinke kalten Tee."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Tee es masculino y va en acusativo sin artículo → kalt<b>en</b> Tee."
         }
       ],
       "produce": {

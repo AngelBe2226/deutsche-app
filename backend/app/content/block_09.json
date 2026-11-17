@@ -150,7 +150,8 @@
             "ich bin",
             "bin ich"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras <i>weil</i> el verbo conjugado va al final: weil ich krank <b>bin</b>."
         },
         {
           "id": "b09-s1q2",
@@ -160,7 +161,8 @@
             "Ich denke, dass er nett ist.",
             "Ich denke, dass ist er nett."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En la subordinada con <i>dass</i>, el verbo al final: dass er nett <b>ist</b>."
         },
         {
           "id": "b09-s1q3",
@@ -170,7 +172,8 @@
             "ankommt",
             "an kommt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En subordinada los separables se escriben juntos al final: <b>ankommt</b>."
         },
         {
           "id": "b09-s1q4",
@@ -180,7 +183,8 @@
             "ist",
             "ist er"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "dass … verbo al final: nett <b>ist</b> (el sujeto <i>er</i> ya está)."
         },
         {
           "id": "b09-s1q5",
@@ -190,7 +194,8 @@
             "regnet",
             "regnet es"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "weil es <b>regnet</b>: verbo al final."
         },
         {
           "id": "b09-s1q6",
@@ -200,7 +205,8 @@
             "ist er",
             "ist"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "dass er krank <b>ist</b>."
         },
         {
           "id": "b09-s1q7",
@@ -210,7 +216,8 @@
             "in Berlin arbeiten will",
             "will in Berlin arbeiten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En la subordinada, el modal conjugado va lo último, tras el infinitivo: in Berlin arbeiten <b>will</b>."
         },
         {
           "id": "b09-s1q8",
@@ -220,7 +227,8 @@
             "du kommst",
             "kommst"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "dass du <b>kommst</b>: verbo al final."
         },
         {
           "id": "b09-s1q9",
@@ -230,7 +238,8 @@
             "ob",
             "dass"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Si» en pregunta indirecta = <b>ob</b>. <i>dass</i> = que; <i>weil</i> = porque."
         },
         {
           "id": "b09-s1q10",
@@ -240,7 +249,8 @@
             "Sie sagt, dass sie ist müde.",
             "Sie sagt, dass sie müde ist."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "dass sie müde <b>ist</b>."
         },
         {
           "id": "b09-s1q11",
@@ -250,7 +260,8 @@
             "Ich bleibe, weil es regnet.",
             "Ich bleibe, weil es regnet nicht."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "weil es <b>regnet</b> (verbo al final)."
         },
         {
           "id": "b09-s1q12",
@@ -260,7 +271,8 @@
             "er braucht",
             "braucht"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "weil er Hilfe <b>braucht</b>."
         },
         {
           "id": "b09-s1q13",
@@ -270,7 +282,8 @@
             "dass",
             "weil"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Creo que…» = Ich glaube, <b>dass</b>…"
         },
         {
           "id": "b09-s1q14",
@@ -280,7 +293,8 @@
             "al final",
             "en 1ª posición"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En la subordinada el verbo conjugado va <b>al final</b>."
         },
         {
           "id": "b09-s1q15",
@@ -290,7 +304,8 @@
             "ab fährt",
             "abfährt"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "El separable se une en subordinada: dass der Zug morgen <b>abfährt</b>."
         }
       ],
       "produce": {
@@ -453,7 +468,8 @@
             "Als",
             "Wann"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Un hecho único en el pasado → <b>Als</b>. <i>Wenn</i> es para lo repetido o condicional."
         },
         {
           "id": "b09-s2q2",
@@ -463,7 +479,8 @@
             "als",
             "wann"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Pregunta indirecta sobre el momento → <b>wann</b>."
         },
         {
           "id": "b09-s2q3",
@@ -473,7 +490,8 @@
             "Als",
             "Wann"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Repetición («cada vez que») → <b>Wenn</b>."
         },
         {
           "id": "b09-s2q4",
@@ -483,7 +501,8 @@
             "Wann",
             "Wenn"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Etapa única del pasado (de niño) → <b>Als</b>."
         },
         {
           "id": "b09-s2q5",
@@ -493,7 +512,8 @@
             "Wenn",
             "Wann"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Condición → <b>Wenn</b>."
         },
         {
           "id": "b09-s2q6",
@@ -503,7 +523,8 @@
             "Als",
             "Wenn"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Pregunta directa «¿cuándo?» → <b>Wann</b>."
         },
         {
           "id": "b09-s2q7",
@@ -513,7 +534,8 @@
             "wann",
             "als"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pregunta indirecta → <b>wann</b>."
         },
         {
           "id": "b09-s2q8",
@@ -523,7 +545,8 @@
             "Wann",
             "Als"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Una vez en el pasado → <b>Als</b>."
         },
         {
           "id": "b09-s2q9",
@@ -533,7 +556,8 @@
             "wann",
             "wenn"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>immer wenn</i> = cada vez que → <b>wenn</b>."
         },
         {
           "id": "b09-s2q10",
@@ -543,7 +567,8 @@
             "Wann",
             "Als"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pregunta directa → <b>Wann</b>."
         },
         {
           "id": "b09-s2q11",
@@ -553,7 +578,8 @@
             "Wann",
             "Wenn"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Hecho único de ayer → <b>Als</b>."
         },
         {
           "id": "b09-s2q12",
@@ -563,7 +589,8 @@
             "Als",
             "Wenn"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Condición «si» → <b>Wenn</b>."
         },
         {
           "id": "b09-s2q13",
@@ -573,7 +600,8 @@
             "als",
             "wenn"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Pregunta indirecta → <b>wann</b>."
         },
         {
           "id": "b09-s2q14",
@@ -583,7 +611,8 @@
             "Wann",
             "Wenn"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Repetición → <b>Wenn</b>."
         },
         {
           "id": "b09-s2q15",
@@ -593,7 +622,8 @@
             "Wann",
             "Als"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Etapa del pasado → <b>Als</b>."
         }
       ],
       "produce": {
@@ -722,7 +752,8 @@
             "obwohl",
             "um"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Contraste (voy a pesar de estar cansado) → <b>obwohl</b>."
         },
         {
           "id": "b09-s3q2",
@@ -732,7 +763,8 @@
             "um",
             "dass"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Finalidad con el mismo sujeto → <b>um … zu</b> + infinitivo."
         },
         {
           "id": "b09-s3q3",
@@ -742,7 +774,8 @@
             "damit",
             "obwohl"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Finalidad con sujetos distintos (él / todos) → <b>damit</b>."
         },
         {
           "id": "b09-s3q4",
@@ -752,7 +785,8 @@
             "damit",
             "obwohl"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Aunque» → <b>obwohl</b>."
         },
         {
           "id": "b09-s3q5",
@@ -762,7 +796,8 @@
             "um",
             "obwohl"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Mismo sujeto + zu-infinitivo → <b>um</b>."
         },
         {
           "id": "b09-s3q6",
@@ -772,7 +807,8 @@
             "obwohl",
             "um"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Sujetos distintos → <b>damit</b> + verbo conjugado al final."
         },
         {
           "id": "b09-s3q7",
@@ -782,7 +818,8 @@
             "Obwohl",
             "Um"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Aunque llueve, salimos» → <b>Obwohl</b>."
         },
         {
           "id": "b09-s3q8",
@@ -792,7 +829,8 @@
             "um",
             "obwohl"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Mismo sujeto + zu bestehen → <b>um</b>."
         },
         {
           "id": "b09-s3q9",
@@ -802,7 +840,8 @@
             "damit",
             "obwohl"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Él explica / nosotros entendemos → <b>damit</b>."
         },
         {
           "id": "b09-s3q10",
@@ -812,7 +851,8 @@
             "um",
             "damit"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "zu machen al final con el mismo sujeto → <b>um</b>."
         },
         {
           "id": "b09-s3q11",
@@ -822,7 +862,8 @@
             "Obwohl",
             "Damit"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Concesión → <b>Obwohl</b>."
         },
         {
           "id": "b09-s3q12",
@@ -832,7 +873,8 @@
             "um",
             "damit"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Para + infinitivo, mismo sujeto → <b>um</b> Geld zu verdienen."
         },
         {
           "id": "b09-s3q13",
@@ -842,7 +884,8 @@
             "um",
             "obwohl"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Para que» con otro sujeto → <b>damit</b>."
         },
         {
           "id": "b09-s3q14",
@@ -852,7 +895,8 @@
             "Um",
             "Damit"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Aunque» → <b>Obwohl</b>."
         },
         {
           "id": "b09-s3q15",
@@ -862,7 +906,8 @@
             "Er lernt, um Arzt werden.",
             "Er lernt, um Arzt zu werden."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>um … zu</b> + infinitivo: um Arzt zu werden. <i>damit</i> no va con zu."
         }
       ],
       "produce": {
@@ -996,7 +1041,8 @@
             "bleiben wir",
             "wir zu bleiben"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La subordinada ocupa la posición 1, así que la principal empieza con el verbo: <b>bleiben wir</b>."
         },
         {
           "id": "b09-s4q2",
@@ -1006,7 +1052,8 @@
             "bestanden habe",
             "bestehe habe"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En subordinada, el auxiliar conjugado va lo último: bestanden <b>habe</b>."
         },
         {
           "id": "b09-s4q3",
@@ -1016,7 +1063,8 @@
             "musst",
             "müssen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "sie → <b>muss</b>, al final de la subordinada tras el infinitivo."
         },
         {
           "id": "b09-s4q4",
@@ -1026,7 +1074,8 @@
             "wir bleiben",
             "bleiben nicht wir"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Subordinada = posición 1 → verbo de la principal justo después: <b>bleiben</b> wir."
         },
         {
           "id": "b09-s4q5",
@@ -1036,7 +1085,8 @@
             "gehe",
             "ich gehe"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Weil ich müde bin» es la posición 1 → <b>gehe</b> ich."
         },
         {
           "id": "b09-s4q6",
@@ -1046,7 +1096,8 @@
             "ist gekommen",
             "gekommen war ist"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Participio + auxiliar conjugado al final: <b>gekommen ist</b>."
         },
         {
           "id": "b09-s4q7",
@@ -1056,7 +1107,8 @@
             "gewusst haben",
             "hat gewusst"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>gewusst hat</b>: el conjugado cierra la subordinada."
         },
         {
           "id": "b09-s4q8",
@@ -1066,7 +1118,8 @@
             "arbeiten musst",
             "muss arbeiten"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Infinitivo + modal conjugado: <b>arbeiten muss</b>."
         },
         {
           "id": "b09-s4q9",
@@ -1076,7 +1129,8 @@
             "ich besuche",
             "besuche ich dich nicht"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Tras la subordinada, verbo de la principal en primer lugar: <b>besuche</b> ich dich."
         },
         {
           "id": "b09-s4q10",
@@ -1086,7 +1140,8 @@
             "Weil ich bin krank, bleibe ich zu Hause.",
             "Weil ich krank bin, ich bleibe zu Hause."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Verbo al final en la subordinada (krank bin) y luego inversión en la principal (bleibe ich)."
         },
         {
           "id": "b09-s4q11",
@@ -1096,7 +1151,8 @@
             "Er sagt, dass er kommen kann.",
             "Er sagt, dass kommen er kann."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "dass … <b>kommen kann</b>: el modal conjugado va al final."
         },
         {
           "id": "b09-s4q12",
@@ -1106,7 +1162,8 @@
             "el verbo (gehen)",
             "el sujeto (wir)"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La subordinada es la posición 1, así que la principal empieza por el <b>verbo</b>."
         },
         {
           "id": "b09-s4q13",
@@ -1116,7 +1173,8 @@
             "kommen bist",
             "bist gekommen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>gekommen bist</b>: participio + auxiliar conjugado."
         },
         {
           "id": "b09-s4q14",
@@ -1126,7 +1184,8 @@
             "hat gelesen",
             "gelesen hat"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>gelesen hat</b>."
         },
         {
           "id": "b09-s4q15",
@@ -1136,7 +1195,8 @@
             "kann kommen",
             "kommen kann"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>kommen kann</b>: el modal conjugado al final."
         }
       ],
       "produce": {
@@ -1450,7 +1510,8 @@
             "el conector weil",
             "el verbo conjugado"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En la subordinada, el conector (<b>weil</b>) ocupa la linke Klammer y el verbo pasa a la rechte."
         },
         {
           "id": "b09-s5q2",
@@ -1460,7 +1521,8 @@
             "dass",
             "einen Brief"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Rechte Klammer = todo el bloque verbal final: <b>geschrieben hat</b>."
         },
         {
           "id": "b09-s5q3",
@@ -1470,7 +1532,8 @@
             "la subordinada «Wenn es regnet»",
             "zu Hause"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La subordinada entera <b>«Wenn es regnet»</b> ocupa el Vorfeld de la principal."
         }
       ]
     }

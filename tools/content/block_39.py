@@ -1,0 +1,76 @@
+from common import *
+
+B = {"block": "39", "title": "Small talk: familia, el tiempo y tú", "kicker": "Bloque 39 · Supervivencia · A1–A2",
+ "intro": "La charla ligera es la puerta a las relaciones (y a practicar sin presión). Aquí: <b class=\"hl\">la familia</b>, <b class=\"hl\">el tiempo</b> (el tema favorito en Suiza y Alemania) y hablar de ti. Más qué temas evitar: el sueldo, por ejemplo, casi nunca se pregunta.",
+ "sections": [
+  {"idx": "39.1", "title": "Wortschatz: la familia", "level": "A1", "rule": VOCAB_RULE,
+   "vocab": vocab("b39-voc", [
+     ("die Eltern", "los padres (plural)"), ("die Mutter", "la madre", "Mütter"), ("der Vater", "el padre", "Väter"),
+     ("die Geschwister", "los hermanos (plural)"), ("der Bruder", "el hermano", "Brüder"), ("die Schwester", "la hermana", "Schwestern"),
+     ("der Sohn", "el hijo", "Söhne"), ("die Tochter", "la hija", "Töchter"), ("das Kind", "el niño / el hijo", "Kinder"),
+     ("die Großeltern", "los abuelos"), ("die Oma / der Opa", "la abuela / el abuelo (coloquial)"), ("der Onkel / die Tante", "el tío / la tía"),
+     ("der Cousin / die Cousine", "el primo / la prima"), ("der Mann / die Frau", "el marido / la mujer (y: hombre / mujer)"), ("der Partner / die Partnerin", "la pareja"),
+     ("verheiratet · ledig · geschieden", "casado · soltero · divorciado"), ("der Schwiegervater", "el suegro", "Schwiegerväter"), ("das Enkelkind", "el nieto", "Enkelkinder")]),
+   "notes": [note("emphasis", "<b>Geschwister</b> (hermanos) y <b>Eltern</b> (padres) solo existen en plural. «Mi mujer» = <i>meine Frau</i>, «mi marido» = <i>mein Mann</i>: la misma palabra que «mujer» y «hombre».")],
+   "quiz": [
+     q("b39-s1q1", "1. «¿Tienes hermanos?» →", ["Hast du Brüder?", "Hast du Geschwister?", "Hast du Eltern?"], 1, "Hermanos en general (chicos y chicas): <b>Geschwister</b>."),
+     q("b39-s1q2", "2. Plural de die Tochter:", ["die Tochtern", "die Töchter", "die Tochters"], 1, "Tochter → <b>Töchter</b> (solo diéresis), como Mutter → Mütter."),
+     q("b39-s1q3", "3. «Es mi marido» →", ["Das ist mein Mann.", "Das ist mein Ehemann-Mann.", "Das ist meine Mann."], 0, "<b>mein Mann</b>: Mann es masculino, así que posesivo sin terminación.")]},
+  {"idx": "39.2", "title": "Hablar del tiempo", "level": "A1",
+   "rule": "Casi todo se dice con el sujeto impersonal <b>es</b>: <i>Es regnet</i> (llueve), <i>Es ist kalt</i> (hace frío). Para el sol: <i>Die Sonne scheint</i>. Pregunta clave: <b>Wie ist das Wetter?</b> Y el comodín para empezar a hablar con cualquiera: <i>Schönes Wetter heute, oder?</i>",
+   "tables": table(["Alemán", "Español"], [
+     ["Es regnet. · Es schneit.", "Llueve. · Nieva."],
+     ["Die Sonne scheint.", "Hace sol."],
+     ["Es ist bewölkt / neblig / windig.", "Está nublado / hay niebla / hace viento."],
+     ["Es ist heiß / warm / kühl / kalt.", "Hace calor / templado / fresco / frío."],
+     ["Es sind 25 Grad. · Es hat minus fünf Grad (CH).", "Hace 25 grados. · Hace −5 grados."],
+     ["Es gibt ein Gewitter.", "Hay tormenta."],
+     ["Wir haben Föhn.", "Sopla el föhn (viento cálido de los Alpes)."],
+     ["Was für ein Wetter!", "¡Qué tiempo!"]]),
+   "notes": [note("tip", "En Suiza oirás <b>es hat</b> en vez de <i>es gibt</i> o <i>es sind</i>: «Es hat viel Schnee» (hay mucha nieve). Y el <b>Föhn</b> es tan famoso que se culpa de los dolores de cabeza.")],
+   "quiz": [
+     q("b39-s2q1", "1. «Llueve» →", ["Es regnet.", "Er regnet.", "Regen ist."], 0, "Fenómenos del tiempo con sujeto impersonal: <b>Es regnet</b>."),
+     q("b39-s2q2", "2. «Hace sol» →", ["Es ist Sonne.", "Die Sonne scheint.", "Es sonnt."], 1, "Para el sol se usa <b>Die Sonne scheint</b> (el sol brilla)."),
+     q("b39-s2q3", "3. «Hace frío» →", ["Es hat kalt.", "Es ist kalt.", "Ich bin kalt."], 1, "<b>Es ist kalt</b>. «Ich bin kalt» significaría que eres una persona fría; tener frío es <i>Mir ist kalt</i>."),
+     q("b39-s2q4", "4. Tú tienes frío →", ["Ich bin kalt.", "Mir ist kalt.", "Ich habe kalt."], 1, "Sensaciones físicas con dativo: <b>Mir ist kalt / warm</b>. Ver bloque 46 («cosas que nunca debes decir»).")]},
+  {"idx": "39.3", "title": "Hablar de ti: preguntas de conocerse", "level": "A1",
+   "rule": "Preguntas típicas para conocerse y cómo responderlas. Con amigos y gente joven en <i>du</i>; con desconocidos mayores, en <i>Sie</i>. Recuerda: en preguntas con palabra W, el verbo va en 2.ª posición; en las de sí/no, en la 1.ª.",
+   "examples": examples([
+     ("Wie alt bist du? — Ich bin 34 (Jahre alt).", "¿Cuántos años tienes? — Tengo 34 (años)."),
+     ("Hast du Kinder? — Ja, zwei: einen Sohn und eine Tochter.", "¿Tienes hijos? — Sí, dos: un hijo y una hija."),
+     ("Bist du verheiratet? — Nein, ich lebe mit meinem Partner zusammen.", "¿Estás casada? — No, vivo con mi pareja."),
+     ("Was machst du beruflich? — Ich bin Architektin.", "¿A qué te dedicas? — Soy arquitecta."),
+     ("Was machst du gern in deiner Freizeit? — Ich wandere gern.", "¿Qué te gusta hacer en tu tiempo libre? — Me gusta hacer senderismo."),
+     ("Wie lange bist du schon in der Schweiz? — Seit drei Monaten.", "¿Cuánto tiempo llevas en Suiza? — Tres meses."),
+     ("Gefällt es dir hier? — Ja, sehr! Nur das Wetter …", "¿Te gusta esto? — ¡Mucho! Solo el tiempo…")]),
+   "notes": [note("exception", "En alemán la edad se <b>es</b>, no se tiene: <i>Ich <b>bin</b> 34</i>, nunca «Ich habe 34 Jahre»."),
+             note("why", "Temas seguros para el small talk: el tiempo, el trabajo (sin cifras), las vacaciones, el deporte, la ciudad. Temas delicados con desconocidos: el <b>sueldo</b>, cuánto cuesta tu casa, la religión, la política.")],
+   "quiz": [
+     q("b39-s3q1", "1. «Tengo 30 años» →", ["Ich habe 30 Jahre.", "Ich bin 30 Jahre alt.", "Ich habe 30 Jahre alt."], 1, "La edad va con <b>sein</b>: Ich bin 30 (Jahre alt)."),
+     q("b39-s3q2", "2. «¿A qué te dedicas?» →", ["Was machst du beruflich?", "Was arbeitest du gern?", "Wie ist dein Beruf?"], 0, "Fórmula natural: <b>Was machst du beruflich?</b> (o <i>Was bist du von Beruf?</i>)."),
+     q("b39-s3q3", "3. ¿Qué pregunta conviene evitar con alguien que acabas de conocer?", ["Wie lange wohnst du schon hier?", "Wie viel verdienst du?", "Was machst du am Wochenende?"], 1, "Preguntar el sueldo (<i>Wie viel verdienst du?</i>) se considera muy indiscreto en Alemania y Suiza."),
+     q("b39-s3q4", "4. «Llevo tres meses en Suiza» →", ["Ich bin seit drei Monaten in der Schweiz.", "Ich war drei Monate in der Schweiz.", "Ich bin vor drei Monaten in der Schweiz."], 0, "Algo que empezó y sigue: Präsens + <b>seit</b> + dativo.")]},
+  {"idx": "39.4", "title": "Diálogo: un Apéro con compañeros", "level": "A2",
+   "rule": "El <b>Apéro</b> (aperitivo después del trabajo) es una institución suiza. Escucha cómo se encadenan temas: el tiempo, las vacaciones, la familia.",
+   "dialog": dialog("b39-apero", "Apéro en la oficina, Zúrich · viernes, 17:30", {"M": ("Marco", "Compañero"), "A": ("Ana", "Tú")}, [
+     ("M", "Prost, Ana! Endlich Wochenende. Was für eine Woche!", "¡Salud, Ana! Por fin fin de semana. ¡Qué semana!"),
+     ("A", "Prost! Ja, und dieses Wetter … seit Montag regnet es nur.", "¡Salud! Sí, y este tiempo… desde el lunes no para de llover."),
+     ("M", "Typisch November. Aber am Sonntag soll die Sonne scheinen. Hast du schon Pläne?", "Típico de noviembre. Pero el domingo dicen que saldrá el sol. ¿Ya tienes planes?"),
+     ("A", "Vielleicht fahren wir an den Zürichsee. Und du?", "Quizá vayamos al lago de Zúrich. ¿Y tú?"),
+     ("M", "Meine Eltern kommen zu Besuch, sie wohnen im Tessin. Hast du Familie hier?", "Vienen mis padres de visita, viven en el Tesino. ¿Tienes familia aquí?"),
+     ("A", "Nur meinen Mann. Meine Eltern und meine Schwester sind in Spanien.", "Solo a mi marido. Mis padres y mi hermana están en España."),
+     ("M", "Vermisst du sie?", "¿Los echas de menos?"),
+     ("A", "Ja, schon. Aber wir telefonieren fast jeden Tag. Und an Weihnachten fliegen wir nach Hause.", "Sí, la verdad. Pero hablamos por teléfono casi cada día. Y en Navidad volamos a casa."),
+     ("M", "Schön! Noch ein Glas Weißwein?", "¡Qué bien! ¿Otra copa de vino blanco?"),
+     ("A", "Gern, danke!", "¡Con gusto, gracias!")]),
+   "quiz": [
+     q("b39-s4q1", "1. ¿Qué tiempo ha hecho esta semana?", ["Sol", "Lluvia desde el lunes", "Nieve"], 1, "«Seit Montag <b>regnet</b> es nur.»"),
+     q("b39-s4q2", "2. ¿Dónde viven los padres de Marco?", ["en Zúrich", "en el Tesino", "en Spanien"], 1, "«Sie wohnen im <b>Tessin</b>» (la región italiana de Suiza)."),
+     q("b39-s4q3", "3. «Vermisst du sie?» significa…", ["¿Los visitas?", "¿Los echas de menos?", "¿Los llamas?"], 1, "<b>vermissen</b> = echar de menos.")]},
+  {"idx": "39.5", "title": "Szenario: dos minutos de ascensor", "level": "A2",
+   "rule": "Practica una charla corta con alguien del edificio o del trabajo. Mantén el registro y haz al menos dos preguntas.",
+   "scenario": {"id": "b39-sc", "situation": "Coincides en el ascensor con un compañero de otro departamento al que solo conoces de vista. Tenéis unos dos minutos. Rompe el hielo con el tiempo, pregunta algo personal pero seguro y despídete con naturalidad.",
+     "goals": ["Romper el hielo con el tiempo (<i>Kalt heute, oder?</i>)", "Preguntar por el fin de semana o las vacaciones", "Contar algo breve de ti (familia, de dónde eres)", "Hacer una pregunta de vuelta (<i>Und Sie?</i> / <i>Und du?</i>)", "Despedirte (<i>Schönen Tag noch!</i>)"]},
+   "produce": {"id": "b39-s5", "label": "<b>tu turno:</b> escribe el diálogo (6–8 turnos).", "placeholder": "Kalt heute, oder? — Ja, total! Haben Sie schon Pläne fürs Wochenende? …"}}
+ ]}
+write(B)

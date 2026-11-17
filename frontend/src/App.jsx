@@ -11,13 +11,18 @@ import { toggleSpeed, useTTS } from "./tts";
 import PracticePage from "./panels/PracticePage";
 import HighlightsPanel from "./panels/HighlightsPanel";
 import ReviewPanel from "./panels/ReviewPanel";
+import VerbsPanel from "./panels/VerbsPanel";
+import WordTip from "./components/WordTip";
+import MacImportBanner from "./components/MacImportBanner";
+import { onOpenVerb } from "./verbs";
+import { onGoTo } from "./navigate";
 import { summarize, useReviewItems } from "./srs";
 
 // Bloque que funciona como panel de práctica (widgets en vivo, no contenido).
 const PRACTICE_BLOCK = "20";
 // Vistas que no son bloques de contenido (no se piden al backend).
-const PANELS = new Set(["highlights", "review"]);
-const PANEL_TITLES = { highlights: "Destacados", review: "Repaso" };
+const PANELS = new Set(["highlights", "review", "verbs"]);
+const PANEL_TITLES = { highlights: "Destacados", review: "Repaso", verbs: "Conjugador" };
 
 function scrollToSection(idx) {
   const el = document.getElementById("sec-" + idx.replace(/\./g, "-"));
@@ -64,11 +69,12 @@ function Skeleton() {
 export default function App() {
   const { loaded, resetPrefix } = useProgress();
   const [index, setIndex] = useState([]);
-  const [current, setCurrent] = useState("01");
+  const [current, setCurrent] = useState("00");
   const [block, setBlock] = useState(null);
   const [loadingBlock, setLoadingBlock] = useState(true);
   const [navOpen, setNavOpen] = useState(false);
   const [cmdOpen, setCmdOpen] = useState(false);
+  const [verbTarget, setVerbTarget] = useState(null);
   const pendingSection = useRef(null);
   const contentRef = useRef(null);
   const { isDark, toggle: toggleTheme } = useTheme();
@@ -84,6 +90,30 @@ export default function App() {
   useEffect(() => {
     api.listBlocks().then(setIndex).catch(() => setIndex([]));
   }, []);
+
+  // Enlaces internos (plan de estudio, etc.)
+  useEffect(
+    () =>
+      onGoTo((block, idx) => {
+        if (idx) goToSectionRef.current(block, idx);
+        else {
+          setNavOpen(false);
+          setCurrent(block);
+        }
+      }),
+    []
+  );
+
+  // «Ver conjugación» desde el tooltip de cualquier palabra.
+  useEffect(
+    () =>
+      onOpenVerb((lemma) => {
+        setNavOpen(false);
+        setVerbTarget(lemma + "#" + Date.now()); // nonce: reabrir el mismo verbo también salta
+        setCurrent("verbs");
+      }),
+    []
+  );
 
   // ⌘K / Ctrl+K abre el buscador desde cualquier sitio.
   useEffect(() => {
@@ -127,6 +157,9 @@ export default function App() {
     setNavOpen(false);
     setCurrent(b);
   }
+
+  const goToSectionRef = useRef(null);
+  goToSectionRef.current = (b, i) => goToSection(b, i);
 
   function goToSection(targetBlock, idx) {
     setNavOpen(false);
@@ -229,12 +262,15 @@ export default function App() {
         </header>
 
         <div className="page">
+          <MacImportBanner />
           {!loaded || loadingBlock ? (
             <Skeleton />
           ) : current === "highlights" ? (
             <HighlightsPanel index={index} onGoToSection={goToSection} />
           ) : current === "review" ? (
             <ReviewPanel blocks={allBlocks} onGoToSection={goToSection} />
+          ) : current === "verbs" ? (
+            <VerbsPanel initialVerb={verbTarget} />
           ) : !block ? (
             <div className="empty-state">
               <p>No se pudo cargar el bloque {current}.</p>
@@ -252,6 +288,8 @@ export default function App() {
           )}
         </div>
       </main>
+
+      <WordTip />
 
       <CommandPalette
         open={cmdOpen}

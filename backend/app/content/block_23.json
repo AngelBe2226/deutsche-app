@@ -146,7 +146,8 @@
             "la fianza",
             "el plano"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>die Besichtigung</b> = la visita al inmueble. La fianza es <i>die Kaution</i>; el plano, <i>der Grundriss</i>."
         },
         {
           "id": "b23-s1q2",
@@ -156,7 +157,8 @@
             "el precio de compra",
             "la comisión del agente"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Nebenkosten</b> = gastos adicionales al alquiler o precio (comunidad, agua, calefacción…)."
         },
         {
           "id": "b23-s1q3",
@@ -166,7 +168,8 @@
             "die",
             "das"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>der</b> Grundriss (masculino, como der Riss)."
         }
       ]
     },
@@ -262,7 +265,8 @@
             "Wo ist die Besichtigung?",
             "Haben Sie eine Kaution?"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Proponer con Konjunktiv II es cortés: <b>Wann hätten Sie Zeit für eine Besichtigung?</b>"
         },
         {
           "id": "b23-s2q2",
@@ -272,7 +276,8 @@
             "salón + 2 dormitorios",
             "3 baños"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En Alemania se cuentan las habitaciones sin cocina ni baño: 3 Zimmer = <b>salón + 2 dormitorios</b>."
         },
         {
           "id": "b23-s2q3",
@@ -282,7 +287,8 @@
             "Wie viele Zimmer möchten Sie?",
             "Mögen Sie Balkone?"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "La <b>Finanzierungszusage</b> es la confirmación del banco de que financia la compra."
         }
       ]
     },
@@ -383,7 +389,8 @@
             "Fenster, Heizung und Bad",
             "der Balkon"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«neue Fenster, neue Heizung, neues Bad»: <b>ventanas, calefacción y baño</b>."
         },
         {
           "id": "b23-s3q2",
@@ -393,7 +400,8 @@
             "el precio",
             "el tamaño del balcón"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Herr Becker dice que es «ziemlich viel für 85 Quadratmeter»: objeta <b>el precio</b>."
         },
         {
           "id": "b23-s3q3",
@@ -403,7 +411,8 @@
             "Samstag um elf",
             "Samstag um zwölf"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Darf ich Ihnen <b>Samstag um elf Uhr</b> vorschlagen?» y él acepta."
         }
       ]
     },

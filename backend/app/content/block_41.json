@@ -1,0 +1,485 @@
+{
+  "block": "41",
+  "title": "Ocio: planes, deportes, fiestas y naturaleza",
+  "kicker": "Bloque 41 · Supervivencia · A2",
+  "intro": "El tiempo libre es donde se hacen amigos. Aquí aprendes a hablar de aficiones (con <b class=\"hl\">gern / lieber / am liebsten</b>), a saber qué verbo va con cada deporte, a proponer planes y a moverte en el cine, un concierto o una fiesta de cumpleaños. Y, por supuesto, la montaña: en Suiza, <i>wandern</i> es casi un deporte nacional.",
+  "sections": [
+    {
+      "idx": "41.1",
+      "title": "Wortschatz: aficiones, salidas y naturaleza",
+      "level": "A1",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Usa el <b>modo eco</b> para repetir en voz alta y luego <b>Ocultar español</b> para ponerte a prueba.",
+      "vocab": {
+        "id": "b41-voc",
+        "items": [
+          {
+            "de": "wandern",
+            "es": "hacer senderismo"
+          },
+          {
+            "de": "Ski fahren",
+            "es": "esquiar"
+          },
+          {
+            "de": "Velo fahren (CH) / Rad fahren",
+            "es": "ir en bici"
+          },
+          {
+            "de": "schwimmen",
+            "es": "nadar"
+          },
+          {
+            "de": "die Freizeit",
+            "es": "el tiempo libre"
+          },
+          {
+            "de": "das Hobby",
+            "es": "la afición",
+            "pl": "Hobbys"
+          },
+          {
+            "de": "das Kino",
+            "es": "el cine",
+            "pl": "Kinos"
+          },
+          {
+            "de": "das Theater",
+            "es": "el teatro",
+            "pl": "Theater"
+          },
+          {
+            "de": "die Ausstellung",
+            "es": "la exposición",
+            "pl": "Ausstellungen"
+          },
+          {
+            "de": "die Eintrittskarte",
+            "es": "la entrada",
+            "pl": "Eintrittskarten"
+          },
+          {
+            "de": "die Feier / die Party",
+            "es": "la fiesta",
+            "pl": "Feiern / Partys"
+          },
+          {
+            "de": "der Geburtstag",
+            "es": "el cumpleaños",
+            "pl": "Geburtstage"
+          },
+          {
+            "de": "der Berg",
+            "es": "la montaña",
+            "pl": "Berge"
+          },
+          {
+            "de": "der See",
+            "es": "el lago",
+            "pl": "Seen"
+          },
+          {
+            "de": "der Wald",
+            "es": "el bosque",
+            "pl": "Wälder"
+          },
+          {
+            "de": "die Wiese",
+            "es": "el prado",
+            "pl": "Wiesen"
+          },
+          {
+            "de": "die Aussicht",
+            "es": "las vistas",
+            "pl": "Aussichten"
+          },
+          {
+            "de": "die Hütte",
+            "es": "el refugio / la cabaña",
+            "pl": "Hütten"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "exception",
+          "at": "end",
+          "text": "<b>der See</b> = el lago, pero <b>die See</b> = el mar (igual que <i>das Meer</i>). En Suiza hay muchos <i>Seen</i> y ningún mar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b41-s1q1",
+          "question": "1. «el lago» →",
+          "options": [
+            "die See",
+            "der See",
+            "das See"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>der See</b> = lago. <i>die See</i> = mar."
+        },
+        {
+          "id": "b41-s1q2",
+          "question": "2. «la entrada (de cine)» →",
+          "options": [
+            "die Eintrittskarte",
+            "der Eingang",
+            "die Einladung"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>die Eintrittskarte</b> (o <i>das Ticket</i>). <i>der Eingang</i> es la puerta de entrada y <i>die Einladung</i>, la invitación."
+        },
+        {
+          "id": "b41-s1q3",
+          "question": "3. ¿Cómo se dice «bicicleta» en Suiza?",
+          "options": [
+            "das Velo",
+            "das Rad",
+            "das Bike"
+          ],
+          "correctIndex": 0,
+          "explain": "En Suiza se dice <b>das Velo</b>; en Alemania, <i>das Fahrrad / das Rad</i>."
+        }
+      ]
+    },
+    {
+      "idx": "41.2",
+      "title": "Gern, lieber, am liebsten · ¿spielen, machen o fahren?",
+      "level": "A2",
+      "rule": "Para gustos con verbos, el alemán usa el adverbio <b>gern</b>: <i>Ich wandere <b>gern</b></i> (me gusta hacer senderismo). Preferencia: <b>lieber</b>; lo que más: <b>am liebsten</b>. Y cada deporte tiene su verbo: <b>spielen</b> para juegos de pelota e instrumentos, <b>fahren</b> para lo que se hace sobre algo que se desliza o rueda, <b>machen</b> para el resto.",
+      "tables": [
+        {
+          "headers": [
+            "Verbo",
+            "Con…",
+            "Ejemplos"
+          ],
+          "rows": [
+            [
+              "spielen",
+              "juegos, deportes de pelota, instrumentos",
+              "Fußball / Tennis / Karten / Gitarre spielen"
+            ],
+            [
+              "fahren",
+              "esquí, bici, patines",
+              "Ski / Snowboard / Velo / Inliner fahren"
+            ],
+            [
+              "machen",
+              "actividades en general",
+              "Yoga / Sport / einen Ausflug / Fotos machen"
+            ],
+            [
+              "gehen",
+              "ir a hacer algo",
+              "schwimmen / wandern / tanzen / ins Kino gehen"
+            ],
+            [
+              "gern → lieber → am liebsten",
+              "gustos y preferencias",
+              "Ich lese gern, ich koche lieber, aber am liebsten wandere ich."
+            ]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b41-s2q1",
+          "question": "1. «Me gusta nadar» →",
+          "options": [
+            "Ich mag schwimmen.",
+            "Ich schwimme gern.",
+            "Mir gefällt schwimmen."
+          ],
+          "correctIndex": 1,
+          "explain": "Gustos con verbos: verbo + <b>gern</b>."
+        },
+        {
+          "id": "b41-s2q2",
+          "question": "2. Ski ___",
+          "options": [
+            "spielen",
+            "fahren",
+            "machen"
+          ],
+          "correctIndex": 1,
+          "explain": "Deslizarse sobre algo: <b>Ski fahren</b>."
+        },
+        {
+          "id": "b41-s2q3",
+          "question": "3. Gitarre ___",
+          "options": [
+            "spielen",
+            "machen",
+            "fahren"
+          ],
+          "correctIndex": 0,
+          "explain": "Instrumentos: <b>spielen</b>."
+        },
+        {
+          "id": "b41-s2q4",
+          "question": "4. «Lo que más me gusta es leer» →",
+          "options": [
+            "Ich lese am liebsten.",
+            "Ich lese lieber.",
+            "Ich lese gernsten."
+          ],
+          "correctIndex": 0,
+          "explain": "Superlativo de gern: <b>am liebsten</b>."
+        },
+        {
+          "id": "b41-s2q5",
+          "question": "5. Yoga ___",
+          "options": [
+            "spielen",
+            "fahren",
+            "machen"
+          ],
+          "correctIndex": 2,
+          "explain": "Actividades sin pelota ni deslizamiento: <b>machen</b>."
+        }
+      ]
+    },
+    {
+      "idx": "41.3",
+      "title": "Proponer planes, aceptar y decir que no",
+      "level": "A2",
+      "rule": "Proponer con suavidad: <b>Hast du Lust, …?</b> (¿te apetece…?), <b>Wollen wir …?</b>, <b>Wie wäre es mit …?</b> Aceptar: <i>Gute Idee! / Gern!</i> Rechazar con cortesía: <i>Ich kann leider nicht, ich habe schon etwas vor.</i> Y para entradas: <i>Gibt es noch Karten? Was kostet der Eintritt?</i>",
+      "examples": [
+        {
+          "en": "<b>Hast du Lust</b>, am Samstag wandern zu gehen?",
+          "es": "¿Te apetece ir de senderismo el sábado?"
+        },
+        {
+          "en": "<b>Wollen wir</b> heute Abend ins Kino gehen?",
+          "es": "¿Vamos al cine esta noche?"
+        },
+        {
+          "en": "<b>Wie wäre es mit</b> einem Konzert am Freitag?",
+          "es": "¿Qué tal un concierto el viernes?"
+        },
+        {
+          "en": "Gute Idee! Wann und wo treffen wir uns?",
+          "es": "¡Buena idea! ¿Cuándo y dónde quedamos?"
+        },
+        {
+          "en": "Ich kann leider nicht, ich habe schon etwas vor.",
+          "es": "Lo siento, no puedo, ya tengo plan."
+        },
+        {
+          "en": "Vielleicht ein anderes Mal?",
+          "es": "¿Quizá otro día?"
+        },
+        {
+          "en": "Gibt es noch Karten für heute Abend?",
+          "es": "¿Quedan entradas para esta noche?"
+        },
+        {
+          "en": "Was kostet der Eintritt für Studenten?",
+          "es": "¿Cuánto cuesta la entrada para estudiantes?"
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>Hast du Lust, … zu + infinitivo?</b>: el infinitivo con <i>zu</i> va al final (<i>wandern zu gehen</i>). Si es más corto: <i>Hast du Lust auf Kino?</i>"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b41-s3q1",
+          "question": "1. «¿Te apetece ir al cine?» →",
+          "options": [
+            "Hast du Lust, ins Kino zu gehen?",
+            "Hast du Lust ins Kino gehen?",
+            "Bist du Lust, ins Kino zu gehen?"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>Lust haben</b> + <i>zu</i> + infinitivo al final."
+        },
+        {
+          "id": "b41-s3q2",
+          "question": "2. Rechazas con cortesía:",
+          "options": [
+            "Nein, keine Lust.",
+            "Ich kann leider nicht, ich habe schon etwas vor.",
+            "Das ist mir egal."
+          ],
+          "correctIndex": 1,
+          "explain": "Con <b>leider</b> y una razón suena amable. «Keine Lust» es muy directo."
+        },
+        {
+          "id": "b41-s3q3",
+          "question": "3. «¿Quedan entradas?» →",
+          "options": [
+            "Gibt es noch Karten?",
+            "Haben noch Karten?",
+            "Sind es noch Karten?"
+          ],
+          "correctIndex": 0,
+          "explain": "Existencia: <b>es gibt</b> + acusativo."
+        }
+      ]
+    },
+    {
+      "idx": "41.4",
+      "title": "Diálogo: excursión a la montaña",
+      "level": "A2",
+      "rule": "Dos amigos planean una ruta por los Alpes. Fíjate en cómo se propone, se negocia la hora y se reparte qué llevar.",
+      "dialog": {
+        "id": "b41-wandern",
+        "setting": "Chat de voz · jueves por la noche",
+        "roles": {
+          "L": {
+            "name": "Luca",
+            "label": "Amigo"
+          },
+          "A": {
+            "name": "Ana",
+            "label": "Tú"
+          }
+        },
+        "lines": [
+          {
+            "who": "L",
+            "de": "Hey Ana! Hast du Lust, am Samstag wandern zu gehen? Das Wetter soll super sein.",
+            "es": "¡Eh, Ana! ¿Te apetece ir de senderismo el sábado? Dicen que hará un tiempo genial."
+          },
+          {
+            "who": "A",
+            "de": "Ja, sehr gern! Wohin denn?",
+            "es": "¡Sí, me encantaría! ¿Adónde?"
+          },
+          {
+            "who": "L",
+            "de": "Auf den Pilatus. Die Aussicht auf den Vierwaldstättersee ist der Hammer.",
+            "es": "Al Pilatus. Las vistas del lago de los Cuatro Cantones son increíbles."
+          },
+          {
+            "who": "A",
+            "de": "Klingt toll! Ist es sehr anstrengend? Ich bin nicht so fit.",
+            "es": "¡Suena genial! ¿Es muy duro? No estoy muy en forma."
+          },
+          {
+            "who": "L",
+            "de": "Kein Problem, wir können mit der Zahnradbahn hochfahren und nur runterwandern.",
+            "es": "No pasa nada, podemos subir en el tren cremallera y solo bajar andando."
+          },
+          {
+            "who": "A",
+            "de": "Perfekt! Wann treffen wir uns?",
+            "es": "¡Perfecto! ¿A qué hora quedamos?"
+          },
+          {
+            "who": "L",
+            "de": "Um halb acht am Bahnhof Luzern? Dann sind wir früh oben.",
+            "es": "¿A las siete y media en la estación de Lucerna? Así estamos arriba temprano."
+          },
+          {
+            "who": "A",
+            "de": "Halb acht ist ein bisschen früh … Geht auch acht Uhr?",
+            "es": "Las siete y media es un poco pronto… ¿Puede ser a las ocho?"
+          },
+          {
+            "who": "L",
+            "de": "Okay, acht Uhr. Ich bringe Sandwiches mit, nimmst du Wasser und Schokolade mit?",
+            "es": "Vale, a las ocho. Yo llevo bocadillos, ¿tú llevas agua y chocolate?"
+          },
+          {
+            "who": "A",
+            "de": "Abgemacht! Und gute Schuhe, oder?",
+            "es": "¡Trato hecho! Y buen calzado, ¿no?"
+          },
+          {
+            "who": "L",
+            "de": "Unbedingt! Bis Samstag!",
+            "es": "¡Sin falta! ¡Hasta el sábado!"
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "b41-s4q1",
+          "question": "1. ¿A qué hora quedan al final?",
+          "options": [
+            "7:30",
+            "8:00",
+            "8:30"
+          ],
+          "correctIndex": 1,
+          "explain": "Ana dice que 7:30 (<i>halb acht</i>) es pronto y acuerdan <b>acht Uhr</b>."
+        },
+        {
+          "id": "b41-s4q2",
+          "question": "2. ¿Cómo suben a la montaña?",
+          "options": [
+            "andando",
+            "en tren cremallera",
+            "en coche"
+          ],
+          "correctIndex": 1,
+          "explain": "«mit der <b>Zahnradbahn</b> hochfahren»."
+        },
+        {
+          "id": "b41-s4q3",
+          "question": "3. «Abgemacht!» significa…",
+          "options": [
+            "¡Hecho! (trato hecho)",
+            "¡Cancelado!",
+            "¡Qué cansado!"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>Abgemacht!</b> = ¡trato hecho!"
+        }
+      ]
+    },
+    {
+      "idx": "41.5",
+      "title": "Rollenspiel: entradas para el cine",
+      "level": "A2",
+      "rule": "En la taquilla de un cine de Zúrich. Responde a cada turno y compara con el modelo.",
+      "roleplay": {
+        "id": "b41-rp",
+        "you": "Tú",
+        "partner": {
+          "name": "Kasse",
+          "label": "Taquilla del cine"
+        },
+        "steps": [
+          {
+            "partner": "Grüezi! Für welchen Film?",
+            "es": "¡Buenas! ¿Para qué película?",
+            "task": "Pide dos entradas para la película de las 20:15.",
+            "model": "Grüezi! Zwei Karten für den Film um zwanzig Uhr fünfzehn, bitte."
+          },
+          {
+            "partner": "Die Vorstellung ist auf Englisch mit deutschen Untertiteln. Ist das okay?",
+            "es": "La sesión es en inglés con subtítulos en alemán. ¿Está bien?",
+            "task": "Pregunta si hay una sesión en alemán.",
+            "model": "Gibt es auch eine Vorstellung auf Deutsch?"
+          },
+          {
+            "partner": "Ja, um 21 Uhr, Saal 3.",
+            "es": "Sí, a las 21:00, sala 3.",
+            "task": "Elige esa y pregunta el precio.",
+            "model": "Dann nehmen wir die um 21 Uhr. Was kostet das?"
+          },
+          {
+            "partner": "Zwei Erwachsene, das macht 38 Franken. Wo möchten Sie sitzen?",
+            "es": "Dos adultos, son 38 francos. ¿Dónde quieren sentarse?",
+            "task": "Pide asientos en el centro, no muy delante.",
+            "model": "In der Mitte, bitte, nicht zu weit vorne."
+          },
+          {
+            "partner": "Reihe 8, Plätze 10 und 11. Bar oder Karte?",
+            "es": "Fila 8, asientos 10 y 11. ¿Efectivo o tarjeta?",
+            "task": "Paga con tarjeta y da las gracias.",
+            "model": "Mit Karte, bitte. Vielen Dank!"
+          }
+        ]
+      }
+    }
+  ]
+}

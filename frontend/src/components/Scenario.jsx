@@ -21,7 +21,7 @@ export default function Scenario({ sc }) {
           {done}/{sc.goals.length} objetivos
         </span>
       </div>
-      <RichText as="div" className="sc-situation" html={sc.situation} />
+      <RichText as="div" className="sc-situation" html={sc.situation} de="mixed" />
       <ul className="sc-goals">
         {sc.goals.map((g, i) => {
           const on = getVal(keys[i]) != null;
@@ -33,7 +33,7 @@ export default function Scenario({ sc }) {
                 aria-pressed={on}
               >
                 <span className="sc-box">{on && <IconCheck size={12} />}</span>
-                <RichText html={g} />
+                <RichText html={g} de="mixed" />
               </button>
             </li>
           );

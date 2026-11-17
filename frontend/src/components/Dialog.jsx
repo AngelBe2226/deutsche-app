@@ -90,7 +90,7 @@ export default function Dialog({ dialog }) {
                 <GapTurn key={practice} line={l} />
               ) : (
                 <div className="bubble">
-                  <RichText as="div" className="turn-de" html={l.de} />
+                  <RichText as="div" className="turn-de" html={l.de} de="de" />
                   {showEs && l.es && <div className="turn-es">{l.es}</div>}
                 </div>
               )}
@@ -150,7 +150,7 @@ function GapTurn({ line }) {
               {text}
             </div>
           )}
-          <RichText as="div" className="turn-de" html={line.de} />
+          <RichText as="div" className="turn-de" html={line.de} de="de" />
           <button
             className="gap-retry"
             onClick={() => {

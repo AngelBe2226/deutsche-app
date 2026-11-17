@@ -183,18 +183,18 @@ function HighlightCard({ it, onGoToSection }) {
 
       {it.category === "ejemplo" && (
         <>
-          <RichText className="ex-en" html={it.en} />
+          <RichText className="ex-en" html={it.en} de="de" />
           {it.es && <span className="ex-es">{it.es}</span>}
         </>
       )}
 
       {(it.category === "regla" || it.category === "nota") && (
-        <RichText as="div" className="hl-card-body" html={it.html} />
+        <RichText as="div" className="hl-card-body" html={it.html} de="mixed" />
       )}
 
       {it.category === "quiz" && (
         <div className="hl-quiz">
-          <RichText as="p" className="hl-quiz-q" html={it.question} />
+          <RichText as="p" className="hl-quiz-q" html={it.question} de="mixed" />
           <div className="hl-quiz-opts">
             {it.options.map((opt, i) => {
               const isCorrect = i === it.correctIndex;

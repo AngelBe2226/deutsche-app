@@ -158,7 +158,8 @@
             "Ich fahre morgen mit dem Auto nach Berlin.",
             "Ich fahre mit dem Auto nach Berlin morgen."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Orden TeKaMoLo: tiempo (morgen) → modo (mit dem Auto) → lugar (nach Berlin)."
         },
         {
           "id": "b07-s1q2",
@@ -168,7 +169,8 @@
             "heute wegen des Regens zu Hause",
             "wegen des Regens heute zu Hause"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tiempo (heute) → causa (wegen des Regens) → lugar (zu Hause)."
         },
         {
           "id": "b07-s1q3",
@@ -178,7 +180,8 @@
             "modal",
             "local"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>mit dem Fahrrad</b> responde a «¿cómo?» (wie?): es <b>modal</b>."
         },
         {
           "id": "b07-s1q4",
@@ -188,7 +191,8 @@
             "Ich fahre morgen mit dem Bus nach Köln.",
             "Ich fahre nach Köln morgen mit dem Bus."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Te (morgen) – Mo (mit dem Bus) – Lo (nach Köln)."
         },
         {
           "id": "b07-s1q5",
@@ -198,7 +202,8 @@
             "Wir bleiben heute wegen des Regens zu Hause.",
             "Wir bleiben zu Hause heute wegen des Regens."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Te (heute) – Ka (wegen des Regens) – Lo (zu Hause)."
         },
         {
           "id": "b07-s1q6",
@@ -208,7 +213,8 @@
             "temporal",
             "local"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>wegen</b> expresa la causa: complemento <b>causal</b> (warum?)."
         },
         {
           "id": "b07-s1q7",
@@ -218,7 +224,8 @@
             "local",
             "temporal"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>im Park</b> responde a «¿dónde?»: <b>local</b>."
         },
         {
           "id": "b07-s1q8",
@@ -228,7 +235,8 @@
             "modal",
             "temporal"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>gestern</b> responde a «¿cuándo?»: <b>temporal</b>."
         },
         {
           "id": "b07-s1q9",
@@ -238,7 +246,8 @@
             "causal",
             "modal"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«¿Cómo?» → <b>modal</b>."
         },
         {
           "id": "b07-s1q10",
@@ -248,7 +257,8 @@
             "Mo – Te – Lo – Ka",
             "Lo – Mo – Ka – Te"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Te</b>mporal – <b>Ka</b>usal – <b>Mo</b>dal – <b>Lo</b>kal."
         },
         {
           "id": "b07-s1q11",
@@ -258,7 +268,8 @@
             "morgen mit ihrer Freundin",
             "mit ihrer Freundin morgen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tiempo (morgen) antes que modo (mit ihrer Freundin), y el lugar (ins Kino) al final."
         },
         {
           "id": "b07-s1q12",
@@ -268,7 +279,8 @@
             "mit dem Zug im Sommer",
             "nach Rom im Sommer"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Te (im Sommer) – Mo (mit dem Zug) – Lo (nach Rom)."
         },
         {
           "id": "b07-s1q13",
@@ -278,7 +290,8 @@
             "zu Hause",
             "heute zu Hause"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Tiempo antes que lugar: <b>heute zu Hause</b>."
         },
         {
           "id": "b07-s1q14",
@@ -288,7 +301,8 @@
             "abends fleißig",
             "fleißig abends"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tiempo (abends) – modo (fleißig) – lugar (in der Bibliothek)."
         },
         {
           "id": "b07-s1q15",
@@ -298,7 +312,8 @@
             "la causa (Ka)",
             "el lugar (Lo)"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "En TeKaMoLo <b>el tiempo</b> va primero y el lugar al final."
         }
       ],
       "produce": {
@@ -465,7 +480,8 @@
             "nie",
             "nie nicht"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>nie</b> ya es negativo: no se combina con <i>nicht</i> (no hay doble negación)."
         },
         {
           "id": "b07-s2q2",
@@ -475,7 +491,8 @@
             "Ich gehe oft schwimmen.",
             "Oft ich gehe schwimmen."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El verbo va en 2.ª posición y el adverbio detrás: Ich gehe <b>oft</b> schwimmen."
         },
         {
           "id": "b07-s2q3",
@@ -485,7 +502,8 @@
             "nicht mehr",
             "nie mehr"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Ya no» = <b>nicht mehr</b>. <i>noch nicht</i> = «todavía no»."
         },
         {
           "id": "b07-s2q4",
@@ -495,7 +513,8 @@
             "immer",
             "nie"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Siempre» = <b>immer</b>."
         },
         {
           "id": "b07-s2q5",
@@ -505,7 +524,8 @@
             "meistens",
             "selten"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«A veces» = <b>manchmal</b>. <i>meistens</i> = casi siempre; <i>selten</i> = rara vez."
         },
         {
           "id": "b07-s2q6",
@@ -515,7 +535,8 @@
             "selten",
             "bald"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Rara vez» = <b>selten</b>."
         },
         {
           "id": "b07-s2q7",
@@ -525,7 +546,8 @@
             "nie",
             "kein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Nunca» = <b>nie</b>."
         },
         {
           "id": "b07-s2q8",
@@ -535,7 +557,8 @@
             "mehr",
             "noch"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Todavía no» = <b>noch nicht</b>."
         },
         {
           "id": "b07-s2q9",
@@ -545,7 +568,8 @@
             "nicht mehr",
             "nie mehr"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Ya no» = <b>nicht mehr</b>."
         },
         {
           "id": "b07-s2q10",
@@ -555,7 +579,8 @@
             "Ich gehe schwimmen oft.",
             "Ich oft gehe schwimmen."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Verbo en 2.ª posición; el adverbio de frecuencia va detrás del verbo conjugado."
         },
         {
           "id": "b07-s2q11",
@@ -565,7 +590,8 @@
             "Manchmal gehen wir ins Kino.",
             "Wir manchmal gehen ins Kino."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Si el adverbio va primero, el verbo sigue en 2.ª posición y el sujeto va detrás: <b>Manchmal gehen wir</b>."
         },
         {
           "id": "b07-s2q12",
@@ -575,7 +601,8 @@
             "Er kommt zu spät nie.",
             "Er kommt nie zu spät."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>nie</b> va tras el verbo conjugado y antes del complemento: Er kommt nie zu spät."
         },
         {
           "id": "b07-s2q13",
@@ -585,7 +612,8 @@
             "schon",
             "bald"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Pronto» = <b>bald</b>. <i>gleich</i> = enseguida; <i>schon</i> = ya."
         },
         {
           "id": "b07-s2q14",
@@ -595,7 +623,8 @@
             "mehr",
             "fast"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Casi siempre» = <b>fast immer</b>."
         },
         {
           "id": "b07-s2q15",
@@ -605,7 +634,8 @@
             "manchmal",
             "selten"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Muy a menudo» = <b>sehr oft</b>."
         }
       ],
       "produce": {
@@ -738,7 +768,8 @@
             "kein",
             "nie"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Para negar el verbo, <b>nicht</b> va delante del participio al final. <i>kein</i> solo niega sustantivos."
         },
         {
           "id": "b07-s3q2",
@@ -748,7 +779,8 @@
             "Er arbeitet heute nicht.",
             "Er arbeitet nicht heute nicht."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Negando toda la frase, <b>nicht</b> va al final (tras los complementos de tiempo)."
         },
         {
           "id": "b07-s3q3",
@@ -758,7 +790,8 @@
             "Ich habe kein Auto.",
             "Ich habe nicht Auto."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Sustantivo con <i>ein</i> → se niega con <b>kein</b>."
         },
         {
           "id": "b07-s3q4",
@@ -768,7 +801,8 @@
             "nicht",
             "keine"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Zeit es femenino sin artículo → <b>keine</b>."
         },
         {
           "id": "b07-s3q5",
@@ -778,7 +812,8 @@
             "nicht",
             "keine"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Se niega el verbo → <b>nicht</b> al final."
         },
         {
           "id": "b07-s3q6",
@@ -788,7 +823,8 @@
             "kein",
             "keine"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Adjetivo → <b>nicht</b> delante: nicht schwer."
         },
         {
           "id": "b07-s3q7",
@@ -798,7 +834,8 @@
             "kein",
             "nicht"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Verbo en Perfekt → <b>nicht</b> antes del participio."
         },
         {
           "id": "b07-s3q8",
@@ -808,7 +845,8 @@
             "kein",
             "nicht"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Con modal, <b>nicht</b> va antes del infinitivo final."
         },
         {
           "id": "b07-s3q9",
@@ -818,7 +856,8 @@
             "nicht",
             "kein"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Plural sin artículo → <b>keine</b> Geschwister."
         },
         {
           "id": "b07-s3q10",
@@ -828,7 +867,8 @@
             "kein",
             "keine"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Un problema» (ein Problem) se niega con <b>kein</b> Problem."
         },
         {
           "id": "b07-s3q11",
@@ -838,7 +878,8 @@
             "Ich mag das nicht.",
             "Ich mag nicht das."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>nicht</b> va detrás del objeto pronominal, al final: Ich mag das nicht."
         },
         {
           "id": "b07-s3q12",
@@ -848,7 +889,8 @@
             "Er hat das nicht gewusst.",
             "Er hat nicht das gewusst."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>nicht</b> antes del participio: hat das nicht gewusst."
         },
         {
           "id": "b07-s3q13",
@@ -858,7 +900,8 @@
             "kein … aber",
             "nicht … doch"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«No… sino…» = <b>nicht … sondern</b>."
         },
         {
           "id": "b07-s3q14",
@@ -868,7 +911,8 @@
             "sustantivos sin artículo",
             "sustantivos con artículo indefinido"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>nicht</b> niega verbos, adjetivos, adverbios y sustantivos con artículo definido; <i>kein</i>, sustantivos sin artículo o con <i>ein</i>."
         },
         {
           "id": "b07-s3q15",
@@ -878,7 +922,8 @@
             "Ich schlafe. → verbo",
             "Ich habe ein Auto. → sustantivo con ein"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>kein</b> sustituye a <i>ein</i>: Ich habe kein Auto."
         }
       ],
       "produce": {

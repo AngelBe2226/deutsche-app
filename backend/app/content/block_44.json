@@ -1,0 +1,445 @@
+{
+  "block": "44",
+  "title": "Orientarse y moverse: indicaciones, transporte y coche",
+  "kicker": "Bloque 44 · Supervivencia · A2",
+  "intro": "Preguntar y entender el camino, moverte en tren, bus y tranvía, sobrevivir en el aeropuerto y conducir (con la <b class=\"hl\">vignette</b> obligatoria en las autopistas suizas). La clave gramatical: imperativo con <i>Sie</i> + preposiciones de lugar.",
+  "sections": [
+    {
+      "idx": "44.1",
+      "title": "Wortschatz: orientación y transporte",
+      "level": "A2",
+      "rule": "Aprende cada sustantivo <b>con su artículo</b> (<span class=\"g-m\"><b>der</b></span> · <span class=\"g-f\"><b>die</b></span> · <span class=\"g-n\"><b>das</b></span>) y su plural. Usa el <b>modo eco</b> para repetir en voz alta y luego <b>Ocultar español</b> para ponerte a prueba.",
+      "vocab": {
+        "id": "b44-voc",
+        "items": [
+          {
+            "de": "links · rechts · geradeaus",
+            "es": "a la izquierda · a la derecha · recto"
+          },
+          {
+            "de": "die Kreuzung",
+            "es": "el cruce",
+            "pl": "Kreuzungen"
+          },
+          {
+            "de": "die Ampel",
+            "es": "el semáforo",
+            "pl": "Ampeln"
+          },
+          {
+            "de": "die Ecke",
+            "es": "la esquina",
+            "pl": "Ecken"
+          },
+          {
+            "de": "gegenüber",
+            "es": "enfrente"
+          },
+          {
+            "de": "in der Nähe",
+            "es": "cerca"
+          },
+          {
+            "de": "der Norden · der Süden · der Osten · der Westen",
+            "es": "el norte · el sur · el este · el oeste"
+          },
+          {
+            "de": "die Haltestelle",
+            "es": "la parada",
+            "pl": "Haltestellen"
+          },
+          {
+            "de": "das Tram (CH) / die Straßenbahn",
+            "es": "el tranvía",
+            "pl": "Trams"
+          },
+          {
+            "de": "umsteigen · aussteigen · einsteigen",
+            "es": "hacer transbordo · bajarse · subirse"
+          },
+          {
+            "de": "der Flughafen",
+            "es": "el aeropuerto",
+            "pl": "Flughäfen"
+          },
+          {
+            "de": "der Abflug · die Ankunft",
+            "es": "la salida · la llegada (vuelos)"
+          },
+          {
+            "de": "der Koffer",
+            "es": "la maleta",
+            "pl": "Koffer"
+          },
+          {
+            "de": "der Mietwagen",
+            "es": "el coche de alquiler",
+            "pl": "Mietwagen"
+          },
+          {
+            "de": "die Autobahn",
+            "es": "la autopista",
+            "pl": "Autobahnen"
+          },
+          {
+            "de": "tanken",
+            "es": "echar gasolina"
+          },
+          {
+            "de": "parken",
+            "es": "aparcar"
+          },
+          {
+            "de": "das Halbtax (CH)",
+            "es": "el abono que reduce los billetes a la mitad"
+          }
+        ]
+      },
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "En Suiza se dice <b>das Tram</b> y <b>das Velo</b>; en Alemania, <i>die Straßenbahn</i> y <i>das Fahrrad</i>. Con el <b>Halbtax</b> pagas la mitad en trenes, buses y barcos; el <b>GA</b> (Generalabonnement) es la tarifa plana anual."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b44-s1q1",
+          "question": "1. «hacer transbordo» →",
+          "options": [
+            "aussteigen",
+            "umsteigen",
+            "einsteigen"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>umsteigen</b> = cambiar de tren/bus. <i>aussteigen</i> = bajarse."
+        },
+        {
+          "id": "b44-s1q2",
+          "question": "2. «enfrente del banco» →",
+          "options": [
+            "gegenüber der Bank",
+            "vor der Bank hinter",
+            "neben der Bank"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>gegenüber</b> + dativo = enfrente de."
+        },
+        {
+          "id": "b44-s1q3",
+          "question": "3. die Ampel es…",
+          "options": [
+            "la lámpara",
+            "el semáforo",
+            "el cruce"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>die Ampel</b> = semáforo; el cruce es <i>die Kreuzung</i>."
+        }
+      ]
+    },
+    {
+      "idx": "44.2",
+      "title": "Dar y entender indicaciones",
+      "level": "A2",
+      "rule": "Las indicaciones van en <b>imperativo formal</b> (verbo + Sie) o con <b>Sie müssen …</b>. Preposiciones clave: <b>über</b> + acusativo (cruzar), <b>an</b> + dativo (en el semáforo), <b>bis zu</b> + dativo (hasta), <b>durch</b> + acusativo (a través de), <b>um die Ecke</b> (a la vuelta de la esquina).",
+      "tables": [
+        {
+          "headers": [
+            "Indicación",
+            "Español"
+          ],
+          "rows": [
+            [
+              "Gehen Sie geradeaus bis zur Kreuzung.",
+              "Siga recto hasta el cruce."
+            ],
+            [
+              "Biegen Sie an der Ampel links ab.",
+              "En el semáforo, gire a la izquierda."
+            ],
+            [
+              "Nehmen Sie die zweite Straße rechts.",
+              "Tome la segunda calle a la derecha."
+            ],
+            [
+              "Gehen Sie über die Brücke.",
+              "Cruce el puente."
+            ],
+            [
+              "Gehen Sie durch den Park.",
+              "Atraviese el parque."
+            ],
+            [
+              "Die Post ist gleich um die Ecke.",
+              "Correos está justo a la vuelta de la esquina."
+            ],
+            [
+              "Das ist ziemlich weit, nehmen Sie lieber das Tram.",
+              "Está bastante lejos, mejor coja el tranvía."
+            ],
+            [
+              "Entschuldigung, wie komme ich zum Bahnhof?",
+              "Perdone, ¿cómo llego a la estación?"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "<b>zum</b> / <b>zur</b> para el destino: <i>zum</i> Bahnhof (der), <i>zur</i> Post (die), <i>zum</i> Museum (das). Y si no entiendes: <i>Können Sie mir das auf der Karte zeigen?</i>"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b44-s2q1",
+          "question": "1. «Cruce el puente» →",
+          "options": [
+            "Gehen Sie über die Brücke.",
+            "Gehen Sie über der Brücke.",
+            "Gehen Sie durch die Brücke."
+          ],
+          "correctIndex": 0,
+          "explain": "Movimiento por encima: <b>über</b> + acusativo (die Brücke)."
+        },
+        {
+          "id": "b44-s2q2",
+          "question": "2. «¿Cómo llego a Correos?» (die Post) →",
+          "options": [
+            "Wie komme ich zum Post?",
+            "Wie komme ich zur Post?",
+            "Wie komme ich nach der Post?"
+          ],
+          "correctIndex": 1,
+          "explain": "die Post → zu + der = <b>zur</b> Post. <i>nach</i> es para ciudades y países."
+        },
+        {
+          "id": "b44-s2q3",
+          "question": "3. «Gire a la izquierda en el semáforo» →",
+          "options": [
+            "Biegen Sie an der Ampel links ab.",
+            "Biegen Sie auf die Ampel links ab.",
+            "Abbiegen Sie links an der Ampel."
+          ],
+          "correctIndex": 0,
+          "explain": "Lugar: <b>an der</b> Ampel (dativo); <i>abbiegen</i> es separable: biegen … ab."
+        },
+        {
+          "id": "b44-s2q4",
+          "question": "4. «Está a la vuelta de la esquina» →",
+          "options": [
+            "um die Ecke",
+            "an die Ecke",
+            "über die Ecke"
+          ],
+          "correctIndex": 0,
+          "explain": "Expresión fija: <b>um die Ecke</b>."
+        }
+      ]
+    },
+    {
+      "idx": "44.3",
+      "title": "Transporte público y aeropuerto",
+      "level": "A2",
+      "rule": "Frases para el tren, el tranvía y el aeropuerto. En Suiza el transporte es puntualísimo: si pone 10:04, sale a las 10:04.",
+      "examples": [
+        {
+          "en": "Welcher Bus fährt zum Flughafen?",
+          "es": "¿Qué autobús va al aeropuerto?"
+        },
+        {
+          "en": "Ist das der Zug nach Bern?",
+          "es": "¿Es este el tren a Berna?"
+        },
+        {
+          "en": "Wo muss ich umsteigen?",
+          "es": "¿Dónde tengo que hacer transbordo?"
+        },
+        {
+          "en": "Wie viele Haltestellen sind es noch?",
+          "es": "¿Cuántas paradas faltan?"
+        },
+        {
+          "en": "Nächster Halt: Zürich HB.",
+          "es": "Próxima parada: Zúrich estación central (Hauptbahnhof)."
+        },
+        {
+          "en": "Wo ist der Check-in für den Flug nach Madrid?",
+          "es": "¿Dónde está el mostrador de facturación para el vuelo a Madrid?"
+        },
+        {
+          "en": "Ich habe nur Handgepäck.",
+          "es": "Solo llevo equipaje de mano."
+        },
+        {
+          "en": "Mein Koffer ist nicht angekommen.",
+          "es": "Mi maleta no ha llegado."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b44-s3q1",
+          "question": "1. «¿Es este el tren a Berna?» →",
+          "options": [
+            "Ist das der Zug zu Bern?",
+            "Ist das der Zug nach Bern?",
+            "Ist das der Zug für Bern?"
+          ],
+          "correctIndex": 1,
+          "explain": "Ciudades: <b>nach</b>."
+        },
+        {
+          "id": "b44-s3q2",
+          "question": "2. «HB» en los paneles suizos significa…",
+          "options": [
+            "Hauptbahnhof (estación central)",
+            "Halbtax-Billett",
+            "Hafen-Bus"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>HB</b> = Hauptbahnhof."
+        },
+        {
+          "id": "b44-s3q3",
+          "question": "3. «Mi maleta no ha llegado» →",
+          "options": [
+            "Mein Koffer ist nicht angekommen.",
+            "Mein Koffer hat nicht angekommen.",
+            "Meine Koffer ist nicht gekommen an."
+          ],
+          "correctIndex": 0,
+          "explain": "<i>ankommen</i> (movimiento) va con <b>sein</b>; der Koffer → <b>mein</b>."
+        }
+      ]
+    },
+    {
+      "idx": "44.4",
+      "title": "En coche: alquilar, aparcar y las señales",
+      "level": "A2",
+      "rule": "Para conducir en Suiza necesitas la <b>Autobahnvignette</b> (pegatina anual para autopistas) y respetar los límites (50 en ciudad, 80 en carretera, 120 en autopista). Estas son las señales y frases que más vas a ver y usar.",
+      "examples": [
+        {
+          "en": "Ich möchte ein Auto für drei Tage mieten.",
+          "es": "Quiero alquilar un coche para tres días."
+        },
+        {
+          "en": "Ist die Vignette schon dabei?",
+          "es": "¿Ya lleva la viñeta?"
+        },
+        {
+          "en": "Einbahnstraße",
+          "es": "Calle de sentido único."
+        },
+        {
+          "en": "Umleitung · Baustelle",
+          "es": "Desvío · Obras."
+        },
+        {
+          "en": "Parkverbot · Halteverbot",
+          "es": "Prohibido aparcar · Prohibido detenerse."
+        },
+        {
+          "en": "Vorfahrt achten!",
+          "es": "¡Ceda el paso!"
+        },
+        {
+          "en": "Wo kann ich hier parken? — Im Parkhaus gegenüber.",
+          "es": "¿Dónde puedo aparcar aquí? — En el aparcamiento de enfrente."
+        },
+        {
+          "en": "Volltanken, bitte. / Bleifrei 95.",
+          "es": "Lleno, por favor. / Sin plomo 95."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b44-s4q1",
+          "question": "1. «Umleitung» significa…",
+          "options": [
+            "Desvío",
+            "Obras",
+            "Salida"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>die Umleitung</b> = desvío. Obras = <i>Baustelle</i>."
+        },
+        {
+          "id": "b44-s4q2",
+          "question": "2. ¿Qué necesitas para la autopista en Suiza?",
+          "options": [
+            "die Vignette",
+            "das Halbtax",
+            "das Parkhaus"
+          ],
+          "correctIndex": 0,
+          "explain": "La <b>Vignette</b> es obligatoria en las autopistas suizas."
+        },
+        {
+          "id": "b44-s4q3",
+          "question": "3. «Quiero alquilar un coche» →",
+          "options": [
+            "Ich möchte ein Auto mieten.",
+            "Ich möchte ein Auto vermieten.",
+            "Ich möchte ein Auto leihen aus."
+          ],
+          "correctIndex": 0,
+          "explain": "El cliente <b>mietet</b>; la empresa <i>vermietet</i>."
+        }
+      ]
+    },
+    {
+      "idx": "44.5",
+      "title": "Rollenspiel: la maleta perdida",
+      "level": "B1",
+      "rule": "Llegas a Zúrich y tu maleta no aparece. Vas al mostrador de equipajes (Gepäckermittlung). Responde y compara.",
+      "roleplay": {
+        "id": "b44-rp",
+        "you": "Tú",
+        "partner": {
+          "name": "Gepäckservice",
+          "label": "Mostrador de equipajes"
+        },
+        "steps": [
+          {
+            "partner": "Grüezi, wie kann ich Ihnen helfen?",
+            "es": "Buenas, ¿en qué puedo ayudarla?",
+            "task": "Explica que tu maleta no ha llegado y de dónde vienes.",
+            "model": "Grüezi, mein Koffer ist nicht angekommen. Ich komme mit dem Flug aus Madrid."
+          },
+          {
+            "partner": "Haben Sie Ihren Gepäckschein?",
+            "es": "¿Tiene el resguardo del equipaje?",
+            "task": "Di que sí y entrégalo.",
+            "model": "Ja, hier ist er."
+          },
+          {
+            "partner": "Danke. Wie sieht der Koffer aus?",
+            "es": "Gracias. ¿Cómo es la maleta?",
+            "task": "Describe la maleta: grande, roja, con ruedas.",
+            "model": "Er ist groß und rot und hat vier Rollen."
+          },
+          {
+            "partner": "Er ist wahrscheinlich noch in Madrid. Wir können ihn morgen zu Ihnen nach Hause bringen.",
+            "es": "Probablemente sigue en Madrid. Podemos llevársela mañana a casa.",
+            "task": "Acepta y da tu dirección.",
+            "model": "Das wäre super. Meine Adresse ist Seestrasse 12 in Zürich."
+          },
+          {
+            "partner": "Notiert. Sie bekommen eine SMS, wenn er unterwegs ist.",
+            "es": "Apuntado. Recibirá un SMS cuando vaya de camino.",
+            "task": "Pregunta qué hacer si necesitas cosas urgentes hoy.",
+            "model": "Und was mache ich, wenn ich heute etwas Dringendes brauche?"
+          },
+          {
+            "partner": "Kaufen Sie das Nötigste und bewahren Sie die Quittungen auf. Die Airline erstattet es.",
+            "es": "Compre lo imprescindible y guarde los tiques. La aerolínea se lo reembolsa.",
+            "task": "Agradece y despídete.",
+            "model": "Alles klar, vielen Dank für Ihre Hilfe!"
+          }
+        ]
+      }
+    }
+  ]
+}

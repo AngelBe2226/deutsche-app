@@ -1,0 +1,421 @@
+{
+  "block": "42",
+  "title": "Teléfono, deletrear, mensajes y correos",
+  "kicker": "Bloque 42 · Supervivencia · A2",
+  "intro": "Hablar por teléfono asusta porque no ves gestos. La solución: <b class=\"hl\">fórmulas fijas</b> para contestar, preguntar por alguien, dejar recado y deletrear tu nombre (lo harás a diario). Y además, cómo se abre y se cierra un correo formal o informal, y lo básico de Correos.",
+  "sections": [
+    {
+      "idx": "42.1",
+      "title": "Redemittel: al teléfono",
+      "level": "A2",
+      "rule": "En Alemania y Suiza se contesta diciendo el <b>apellido</b> (o el nombre de la empresa): <i>«Huber.»</i> / <i>«Firma Meier, Sandra Keller, guten Tag.»</i> Quien llama también se presenta: <i>«Guten Tag, hier ist Ana López.»</i>",
+      "tables": [
+        {
+          "headers": [
+            "Situación",
+            "Redemittel"
+          ],
+          "rows": [
+            [
+              "Presentarte",
+              "Guten Tag, hier spricht / hier ist Ana López."
+            ],
+            [
+              "Preguntar por alguien",
+              "Kann ich bitte mit Herrn Weber sprechen?"
+            ],
+            [
+              "Pasar la llamada",
+              "Einen Moment, bitte. Ich verbinde (Sie)."
+            ],
+            [
+              "No está",
+              "Herr Weber ist gerade nicht da / in einer Besprechung."
+            ],
+            [
+              "Tomar recado",
+              "Kann ich ihm etwas ausrichten? · Soll er Sie zurückrufen?"
+            ],
+            [
+              "Dejar recado",
+              "Könnten Sie ihm bitte sagen, dass ich angerufen habe?"
+            ],
+            [
+              "Problemas",
+              "Die Verbindung ist schlecht. · Können Sie lauter sprechen?"
+            ],
+            [
+              "Equivocarse",
+              "Entschuldigung, ich habe mich verwählt."
+            ],
+            [
+              "Despedirse",
+              "Vielen Dank, auf Wiederhören!"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "tip",
+          "at": "end",
+          "text": "Al dar números de teléfono se dice el <b>2</b> como <b>zwo</b> para no confundirlo con <i>drei</i>, y se agrupan de dos en dos: 079 45 21 → <i>null sieben neun, fünfundvierzig, einundzwanzig</i>."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b42-s1q1",
+          "question": "1. Contestas el teléfono en casa (te apellidas López):",
+          "options": [
+            "Hallo, wer ist da?",
+            "López.",
+            "Ja, bitte?"
+          ],
+          "correctIndex": 1,
+          "explain": "Lo habitual es contestar con el <b>apellido</b>."
+        },
+        {
+          "id": "b42-s1q2",
+          "question": "2. «Le paso con él» →",
+          "options": [
+            "Ich verbinde.",
+            "Ich gebe ihn.",
+            "Ich rufe ihn."
+          ],
+          "correctIndex": 0,
+          "explain": "Pasar una llamada: <b>verbinden</b>."
+        },
+        {
+          "id": "b42-s1q3",
+          "question": "3. Te has equivocado de número:",
+          "options": [
+            "Ich habe mich verwählt.",
+            "Ich habe falsch gerufen.",
+            "Ich bin falsch."
+          ],
+          "correctIndex": 0,
+          "explain": "Marcar mal = <b>sich verwählen</b>."
+        },
+        {
+          "id": "b42-s1q4",
+          "question": "4. «¿Quiere dejarle algún recado?» →",
+          "options": [
+            "Kann ich ihm etwas ausrichten?",
+            "Kann ich ihm etwas schicken?",
+            "Wollen Sie etwas sagen ihm?"
+          ],
+          "correctIndex": 0,
+          "explain": "Tomar recado: <b>etwas ausrichten</b>."
+        }
+      ]
+    },
+    {
+      "idx": "42.2",
+      "title": "Deletrear: el alfabeto y la tabla de letras",
+      "level": "A1",
+      "rule": "Te pedirán deletrear tu apellido constantemente: <b>Wie schreibt man das? Können Sie das buchstabieren?</b> Aprende cómo suenan las letras (la figurada entre corchetes) y, para evitar confusiones, usa nombres de ciudades: <i>L wie Leipzig, Ó wie Offenbach…</i> (la tabla oficial alemana de 2022 usa ciudades).",
+      "tables": [
+        {
+          "headers": [
+            "Letras",
+            "Suenan",
+            "Ojo"
+          ],
+          "rows": [
+            [
+              "A · B · C · D · E · F",
+              "[a] [be] [tse] [de] [e] [ef]",
+              "la C suena «tse»"
+            ],
+            [
+              "G · H · I · J · K · L",
+              "[gue] [ha] [i] [yot] [ka] [el]",
+              "G «gue», H «ha», J «yot»"
+            ],
+            [
+              "M · N · O · P · Q · R",
+              "[em] [en] [o] [pe] [ku] [er]",
+              "Q «ku»"
+            ],
+            [
+              "S · T · U · V · W · X",
+              "[es] [te] [u] [fau] [ve] [iks]",
+              "V «fau», W «ve»"
+            ],
+            [
+              "Y · Z · Ä · Ö · Ü · ß",
+              "[ípsilon] [tset] [e] [eo] [iu] [es-tset]",
+              "ß = «eszett»"
+            ],
+            [
+              "Ciudades (tabla 2022)",
+              "A wie Aachen · B wie Berlin · D wie Düsseldorf · L wie Leipzig · M wie München · Z wie Zwickau",
+              "también vale con nombres: «A wie Anton»"
+            ]
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Wie ist Ihr Nachname? — López. L-O-P-E-Z.",
+          "es": "¿Su apellido? — López. L-O-P-E-Z."
+        },
+        {
+          "en": "Wie schreibt man das? — Mit «z» am Ende.",
+          "es": "¿Cómo se escribe? — Con «z» al final."
+        },
+        {
+          "en": "Z wie Zwickau, nicht S wie Salzwedel.",
+          "es": "Z de Zwickau, no S de Salzwedel."
+        },
+        {
+          "en": "Meine E-Mail-Adresse ist ana punkt lopez at gmx punkt ch.",
+          "es": "Mi correo es ana.lopez@gmx.ch («punkt» = punto, «at» = arroba)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b42-s2q1",
+          "question": "1. ¿Cómo suena la letra V?",
+          "options": [
+            "[ve]",
+            "[fau]",
+            "[uve]"
+          ],
+          "correctIndex": 1,
+          "explain": "La V se dice <b>«fau»</b>; la W es «ve»."
+        },
+        {
+          "id": "b42-s2q2",
+          "question": "2. ¿Y la J?",
+          "options": [
+            "[yot]",
+            "[jota]",
+            "[ye]"
+          ],
+          "correctIndex": 0,
+          "explain": "J = <b>«yot»</b>."
+        },
+        {
+          "id": "b42-s2q3",
+          "question": "3. La arroba (@) en una dirección de correo se dice…",
+          "options": [
+            "at",
+            "Klammeraffe siempre",
+            "Punkt"
+          ],
+          "correctIndex": 0,
+          "explain": "Se dice <b>«at»</b> (también existe el coloquial <i>Klammeraffe</i>). El punto es <i>Punkt</i>."
+        }
+      ]
+    },
+    {
+      "idx": "42.3",
+      "title": "Dejar un mensaje en el buzón de voz",
+      "level": "A2",
+      "rule": "Estructura de un buen mensaje: <b>saludo + quién eres + motivo + qué quieres + cómo contactarte + despedida</b>. Habla despacio y repite el número de teléfono.",
+      "examples": [
+        {
+          "en": "<i>(Grabación)</i> Sie sind verbunden mit der Mailbox von Thomas Brunner. Bitte hinterlassen Sie eine Nachricht nach dem Signalton.",
+          "es": "Ha llamado al buzón de voz de Thomas Brunner. Deje un mensaje después de la señal."
+        },
+        {
+          "en": "Guten Tag, Herr Brunner, hier ist Ana López.",
+          "es": "Buenos días, señor Brunner, soy Ana López."
+        },
+        {
+          "en": "Ich rufe wegen der Wohnung in der Seestrasse an.",
+          "es": "Le llamo por el piso de la calle Seestrasse."
+        },
+        {
+          "en": "Ich hätte gern einen Besichtigungstermin.",
+          "es": "Querría una cita para verlo."
+        },
+        {
+          "en": "Sie erreichen mich unter 079 452 21 13, also null sieben neun, vier fünf zwo, zwo eins, eins drei.",
+          "es": "Puede localizarme en el 079 452 21 13…"
+        },
+        {
+          "en": "Vielen Dank und auf Wiederhören!",
+          "es": "Muchas gracias y hasta luego."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b42-s3q1",
+          "question": "1. «Dejar un mensaje» →",
+          "options": [
+            "eine Nachricht hinterlassen",
+            "eine Nachricht lassen hinter",
+            "eine Nachricht machen"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>eine Nachricht hinterlassen</b> (inseparable)."
+        },
+        {
+          "id": "b42-s3q2",
+          "question": "2. «Le llamo por el piso…» →",
+          "options": [
+            "Ich rufe für die Wohnung an.",
+            "Ich rufe wegen der Wohnung an.",
+            "Ich rufe von der Wohnung an."
+          ],
+          "correctIndex": 1,
+          "explain": "Motivo de la llamada: <b>wegen</b> + genitivo (der Wohnung)."
+        },
+        {
+          "id": "b42-s3q3",
+          "question": "3. ¿Qué no debe faltar en el mensaje?",
+          "options": [
+            "Tu número de teléfono, repetido despacio",
+            "Tu edad",
+            "La hora exacta de la llamada"
+          ],
+          "correctIndex": 0,
+          "explain": "Sin número no pueden devolverte la llamada: dilo despacio y repítelo."
+        }
+      ]
+    },
+    {
+      "idx": "42.4",
+      "title": "Correos y cartas: saludos, despedidas y Correos",
+      "level": "A2",
+      "rule": "El saludo y la despedida marcan el registro. Tras el saludo va <b>coma</b> y la primera palabra del texto empieza en <b>minúscula</b>. En formal se escribe <i>Sie, Ihnen, Ihr</i> con mayúscula.",
+      "tables": [
+        {
+          "headers": [
+            "",
+            "Formal",
+            "Informal"
+          ],
+          "rows": [
+            [
+              "Saludo (desconocido)",
+              "Sehr geehrte Damen und Herren,",
+              "—"
+            ],
+            [
+              "Saludo (con nombre)",
+              "Sehr geehrte Frau Meier, / Sehr geehrter Herr Weber,",
+              "Liebe Anna, / Lieber Jonas, / Hallo Tim,"
+            ],
+            [
+              "Asunto · adjunto",
+              "Betreff: … · Im Anhang finden Sie …",
+              "Ich schicke dir … im Anhang."
+            ],
+            [
+              "Despedida",
+              "Mit freundlichen Grüßen (CH: Freundliche Grüsse)",
+              "Viele Grüße · Liebe Grüße (LG) · Bis bald!"
+            ],
+            [
+              "Correos",
+              "die Briefmarke · der Brief · das Paket · per Einschreiben (certificado)",
+              "A-Post (urgente, CH) · B-Post (normal, CH)"
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "emphasis",
+          "at": "end",
+          "text": "En Suiza no se usa la ß: escriben <b>Grüsse</b>, <b>Strasse</b>. En Alemania y Austria: <i>Grüße</i>, <i>Straße</i>. Las dos son correctas en su país."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b42-s4q1",
+          "question": "1. Escribes a una empresa sin saber el nombre:",
+          "options": [
+            "Liebe Damen und Herren,",
+            "Sehr geehrte Damen und Herren,",
+            "Hallo zusammen,"
+          ],
+          "correctIndex": 1,
+          "explain": "Fórmula estándar: <b>Sehr geehrte Damen und Herren,</b>"
+        },
+        {
+          "id": "b42-s4q2",
+          "question": "2. Despedida formal:",
+          "options": [
+            "Liebe Grüße",
+            "Mit freundlichen Grüßen",
+            "Tschüss"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Mit freundlichen Grüßen</b> (en Suiza: <i>Freundliche Grüsse</i>)."
+        },
+        {
+          "id": "b42-s4q3",
+          "question": "3. «Sehr geehrter Herr Weber, ___ habe Ihre E-Mail erhalten.»",
+          "options": [
+            "Ich",
+            "ich",
+            "ICH"
+          ],
+          "correctIndex": 1,
+          "explain": "Tras la coma del saludo, la primera palabra va en <b>minúscula</b> (salvo sustantivos y Sie)."
+        },
+        {
+          "id": "b42-s4q4",
+          "question": "4. En Suiza, una carta urgente se envía por…",
+          "options": [
+            "A-Post",
+            "B-Post",
+            "Einschreiben siempre"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>A-Post</b> llega al día siguiente; la B-Post es más barata y lenta."
+        }
+      ]
+    },
+    {
+      "idx": "42.5",
+      "title": "Rollenspiel: preguntar por alguien y dejar recado",
+      "level": "A2",
+      "rule": "Llamas a una empresa por una entrevista. La persona no está. Responde y compara con el modelo.",
+      "roleplay": {
+        "id": "b42-rp",
+        "you": "Tú",
+        "partner": {
+          "name": "Empfang",
+          "label": "Recepción de la empresa"
+        },
+        "steps": [
+          {
+            "partner": "Helvetia Consulting, Sandra Keller, guten Tag.",
+            "es": "Helvetia Consulting, Sandra Keller, buenos días.",
+            "task": "Preséntate y pregunta por la señora Fischer.",
+            "model": "Guten Tag, hier ist Ana López. Kann ich bitte mit Frau Fischer sprechen?"
+          },
+          {
+            "partner": "Frau Fischer ist leider gerade in einer Besprechung. Kann ich etwas ausrichten?",
+            "es": "La señora Fischer está ahora en una reunión. ¿Quiere dejarle algún recado?",
+            "task": "Explica que llamas por la entrevista del lunes.",
+            "model": "Ja, gern. Es geht um mein Vorstellungsgespräch am Montag."
+          },
+          {
+            "partner": "Soll sie Sie zurückrufen?",
+            "es": "¿Quiere que le devuelva la llamada?",
+            "task": "Di que sí y da tu número despacio.",
+            "model": "Ja, bitte. Meine Nummer ist null sieben neun, vier fünf zwo, zwo eins, eins drei."
+          },
+          {
+            "partner": "Wie schreibt man Ihren Nachnamen?",
+            "es": "¿Cómo se escribe su apellido?",
+            "task": "Deletrea tu apellido.",
+            "model": "L-O-P-E-Z. López."
+          },
+          {
+            "partner": "Danke, ich gebe es weiter. Auf Wiederhören!",
+            "es": "Gracias, se lo transmitiré. ¡Hasta luego!",
+            "task": "Da las gracias y despídete como por teléfono.",
+            "model": "Vielen Dank, auf Wiederhören!"
+          }
+        ]
+      }
+    }
+  ]
+}

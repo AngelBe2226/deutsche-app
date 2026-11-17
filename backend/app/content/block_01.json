@@ -190,7 +190,8 @@
             "Wohnst",
             "Wohnt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Con <b>Sie</b> (usted) el verbo va en 3.ª persona plural: <b>wohnen</b>. <i>Wohnst</i> es de du y <i>wohnt</i> de er/ihr."
         },
         {
           "id": "b01-s1q2",
@@ -200,7 +201,8 @@
             "sie",
             "ihr"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Ellos» es <b>sie</b> en minúscula. <i>Sie</i> con mayúscula sería «usted/ustedes» e <i>ihr</i> es «vosotros»."
         },
         {
           "id": "b01-s1q3",
@@ -210,7 +212,8 @@
             "ihr",
             "Sie"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Con alguien a quien tratas profesionalmente y conoces poco se usa <b>Sie</b>. <i>du</i> es informal e <i>ihr</i> es «vosotros»."
         },
         {
           "id": "b01-s1q4",
@@ -220,7 +223,8 @@
             "Ihr",
             "Du"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "La terminación <b>-st</b> (sprichst) solo va con <b>du</b>. Con <i>er</i> sería spricht y con <i>ihr</i>, sprecht."
         },
         {
           "id": "b01-s1q5",
@@ -230,7 +234,8 @@
             "Sie",
             "Wir"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Nosotros» es <b>wir</b>, y va con <i>sind</i>. <i>Ihr</i> llevaría <i>seid</i>; <i>Sie</i> no es «nosotros»."
         },
         {
           "id": "b01-s1q6",
@@ -240,7 +245,8 @@
             "Du",
             "Wir"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>wohnt</b> con significado de «vosotros» pide <b>ihr</b>. <i>Du</i> llevaría wohnst y <i>wir</i>, wohnen."
         },
         {
           "id": "b01-s1q7",
@@ -250,7 +256,8 @@
             "Bist",
             "Seid"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>sein</i> con <b>Sie</b> (usted) es <b>sind</b>. <i>Bist</i> es de du y <i>seid</i> de ihr."
         },
         {
           "id": "b01-s1q8",
@@ -260,7 +267,8 @@
             "hast",
             "hat"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>haben</i> es irregular: <b>sie hat</b> (ella tiene). <i>Haben</i> es plural y <i>hast</i> es de du."
         },
         {
           "id": "b01-s1q9",
@@ -270,7 +278,8 @@
             "arbeitet",
             "arbeiten"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Ellos» = sie + verbo en plural: <b>arbeiten</b>. <i>Arbeitest</i> es de du y <i>arbeitet</i> de er/sie (singular) o ihr."
         },
         {
           "id": "b01-s1q10",
@@ -280,7 +289,8 @@
             "Er",
             "Es"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Los verbos de tiempo atmosférico usan el sujeto impersonal <b>es</b>: <i>Es regnet</i>. El alemán nunca omite el sujeto."
         },
         {
           "id": "b01-s1q11",
@@ -290,7 +300,8 @@
             "Wir",
             "Ich"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>heiße</b> termina en <b>-e</b>, la marca de <b>ich</b>. Con du sería heißt y con wir, heißen."
         },
         {
           "id": "b01-s1q12",
@@ -300,7 +311,8 @@
             "seid",
             "bist"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Las formas de <i>sein</i> son ich bin, du bist, er ist, wir sind, <b>ihr seid</b>, sie sind."
         },
         {
           "id": "b01-s1q13",
@@ -310,7 +322,8 @@
             "Sie",
             "ihr"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Con amigos, familia y gente joven se usa <b>du</b>. <i>Sie</i> sería demasiado formal e <i>ihr</i> es plural."
         },
         {
           "id": "b01-s1q14",
@@ -320,7 +333,8 @@
             "Es",
             "Er"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Él» = <b>er</b>. <i>Sie</i> sería «ella» y <i>es</i>, «ello» o neutro."
         },
         {
           "id": "b01-s1q15",
@@ -330,7 +344,8 @@
             "Wir hat Zeit.",
             "Wir hast Zeit."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Con <b>wir</b> el verbo va en plural: <b>haben</b>. <i>hat</i> (er/sie/es) y <i>hast</i> (du) son singulares."
         }
       ],
       "produce": {
@@ -503,7 +518,8 @@
             "Die",
             "Das"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los sustantivos en <b>-ung</b> son siempre femeninos: <b>die</b> Zeitung."
         },
         {
           "id": "b01-s2q2",
@@ -513,7 +529,8 @@
             "Die",
             "Das"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Los diminutivos en <b>-chen</b> y <b>-lein</b> son siempre neutros: <b>das</b> Mädchen, aunque se refiera a una chica."
         },
         {
           "id": "b01-s2q3",
@@ -523,7 +540,8 @@
             "Der",
             "Die"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "En plural el artículo definido es siempre <b>die</b>, sea cual sea el género: die Autos."
         },
         {
           "id": "b01-s2q4",
@@ -533,7 +551,8 @@
             "Die",
             "Der"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>die</b> Woche es femenino; hay que aprenderlo con su artículo."
         },
         {
           "id": "b01-s2q5",
@@ -543,7 +562,8 @@
             "Die",
             "Das"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Días de la semana, meses y estaciones son masculinos: <b>der</b> Montag."
         },
         {
           "id": "b01-s2q6",
@@ -553,7 +573,8 @@
             "Der",
             "Die"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Los sustantivos en <b>-keit</b> y <b>-heit</b> son femeninos: <b>die</b> Möglichkeit."
         },
         {
           "id": "b01-s2q7",
@@ -563,7 +584,8 @@
             "Das",
             "Der"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>das</b> Büro es neutro, como muchas palabras extranjeras en <b>-o</b> (das Kino, das Auto)."
         },
         {
           "id": "b01-s2q8",
@@ -573,7 +595,8 @@
             "Der",
             "Das"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Terminación <b>-ung</b> → femenino: <b>die</b> Wohnung."
         },
         {
           "id": "b01-s2q9",
@@ -583,7 +606,8 @@
             "der",
             "das"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "En plural siempre <b>die</b>: die Kinder (singular <i>das</i> Kind)."
         },
         {
           "id": "b01-s2q10",
@@ -593,7 +617,8 @@
             "Die",
             "Der"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Las estaciones son masculinas: <b>der</b> Frühling, der Sommer."
         },
         {
           "id": "b01-s2q11",
@@ -603,7 +628,8 @@
             "Der",
             "Die"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Terminación <b>-schaft</b> → femenino: <b>die</b> Freundschaft."
         },
         {
           "id": "b01-s2q12",
@@ -613,7 +639,8 @@
             "Der",
             "Das"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>-chen</b> → neutro: <b>das</b> Mädchen."
         },
         {
           "id": "b01-s2q13",
@@ -623,7 +650,8 @@
             "Der",
             "Das"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Las profesiones en masculino llevan <b>der</b>: der Bäcker (femenino: <i>die</i> Bäckerin)."
         },
         {
           "id": "b01-s2q14",
@@ -633,7 +661,8 @@
             "Das",
             "Die"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>die</b> Tür es femenino; no hay regla, se aprende con el artículo."
         },
         {
           "id": "b01-s2q15",
@@ -643,7 +672,8 @@
             "Das",
             "Der"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>das</b> Problem es neutro, como muchos préstamos en <b>-em</b> (das System, das Thema)."
         }
       ],
       "produce": {
@@ -807,7 +837,8 @@
             "eine",
             "einen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Universität es femenino (die) → artículo indefinido <b>eine</b>. <i>Ein</i> es masc./neutro y <i>einen</i>, acusativo masculino."
         },
         {
           "id": "b01-s3q2",
@@ -817,7 +848,8 @@
             "keine",
             "kein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Para negar un sustantivo sin artículo se usa <b>kein</b> declinado: Zeit es femenino → <b>keine</b>. <i>nicht</i> niega verbos o frases."
         },
         {
           "id": "b01-s3q3",
@@ -827,7 +859,8 @@
             "keine",
             "nicht"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Delante de un posesivo (mein) no se usa kein: se niega con <b>nicht</b>."
         },
         {
           "id": "b01-s3q4",
@@ -837,7 +870,8 @@
             "ein",
             "kein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Hund es masculino (der) → <b>ein</b> Hund en nominativo. <i>eine</i> es femenino y <i>kein</i> negaría."
         },
         {
           "id": "b01-s3q5",
@@ -847,7 +881,8 @@
             "keine",
             "nicht"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Auto es neutro → <b>kein</b> Auto (en acusativo neutro no cambia). <i>keine</i> es fem./plural."
         },
         {
           "id": "b01-s3q6",
@@ -857,7 +892,8 @@
             "eine",
             "einen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Idee es femenino → <b>eine</b> Idee. <i>einen</i> solo es para masculino en acusativo."
         },
         {
           "id": "b01-s3q7",
@@ -867,7 +903,8 @@
             "kein",
             "keine"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>haben</i> pide acusativo y Hunger es masculino → <b>keinen</b> Hunger."
         },
         {
           "id": "b01-s3q8",
@@ -877,7 +914,8 @@
             "keine",
             "nicht"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Kinder es plural → <b>keine</b> Kinder. En plural no hay «ein», pero sí «keine»."
         },
         {
           "id": "b01-s3q9",
@@ -887,7 +925,8 @@
             "keine",
             "eine"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Fenster es neutro (das) → <b>ein</b> Fenster."
         },
         {
           "id": "b01-s3q10",
@@ -897,7 +936,8 @@
             "kein",
             "keine"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Bruder es masculino y va en acusativo (haben) → <b>keinen</b> Bruder."
         },
         {
           "id": "b01-s3q11",
@@ -907,7 +947,8 @@
             "kein",
             "nicht"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Frage es femenino y lleva artículo indefinido en positivo (eine Frage) → negación <b>keine</b> Frage."
         },
         {
           "id": "b01-s3q12",
@@ -917,7 +958,8 @@
             "einen",
             "ein"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Lehrerin es femenino → <b>eine</b> Lehrerin."
         },
         {
           "id": "b01-s3q13",
@@ -927,7 +969,8 @@
             "keine",
             "keinen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Zeit es femenino → <b>keine</b> Zeit."
         },
         {
           "id": "b01-s3q14",
@@ -937,7 +980,8 @@
             "einen",
             "eine"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Lampe es femenino (die) → <b>eine</b> Lampe."
         },
         {
           "id": "b01-s3q15",
@@ -947,7 +991,8 @@
             "kein",
             "nicht"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>es gibt</i> pide acusativo; Problem es neutro → <b>kein</b> Problem."
         }
       ],
       "produce": {
@@ -1135,7 +1180,8 @@
             "Ihr",
             "Dein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«De ella» = <b>ihr</b>; Hund es masculino nominativo, así que sin terminación. <i>sein</i> sería «de él»."
         },
         {
           "id": "b01-s4q2",
@@ -1145,7 +1191,8 @@
             "Ihre",
             "deine"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Su» de usted = <b>Ihr</b> con mayúscula; Adresse es femenino → <b>Ihre</b>. <i>ihre</i> en minúscula sería «de ella/ellos»."
         },
         {
           "id": "b01-s4q3",
@@ -1155,7 +1202,8 @@
             "Eure",
             "Euer"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>euer</i> pierde la <b>e</b> interior al añadir terminación: <b>eure</b> Wohnung."
         },
         {
           "id": "b01-s4q4",
@@ -1165,7 +1213,8 @@
             "Meine",
             "Ihr"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Haus es neutro (das) → <b>mein</b> Haus, sin terminación en nominativo."
         },
         {
           "id": "b01-s4q5",
@@ -1175,7 +1224,8 @@
             "Dein",
             "Mein"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Schwester es femenino → <b>meine</b> Schwester."
         },
         {
           "id": "b01-s4q6",
@@ -1185,7 +1235,8 @@
             "Sein",
             "Deine"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Eltern es plural → <b>deine</b> Eltern."
         },
         {
           "id": "b01-s4q7",
@@ -1195,7 +1246,8 @@
             "Seine",
             "Ihre"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«De él» = <b>sein</b>; Frau es femenino → <b>seine</b> Frau. <i>Ihre</i> sería «de ella»."
         },
         {
           "id": "b01-s4q8",
@@ -1205,7 +1257,8 @@
             "Sein",
             "Ihr"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«De ella» = <b>ihr</b>; Bruder es masculino nominativo → <b>ihr</b> Bruder, sin terminación."
         },
         {
           "id": "b01-s4q9",
@@ -1215,7 +1268,8 @@
             "Unser",
             "Euer"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Lehrer es masculino nominativo → <b>unser</b> Lehrer, sin terminación. <i>Euer</i> es «vuestro»."
         },
         {
           "id": "b01-s4q10",
@@ -1225,7 +1279,8 @@
             "Euer",
             "Unser"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Haus es neutro → <b>euer</b> Haus (sin terminación, conserva la e). <i>Unser</i> es «nuestro»."
         },
         {
           "id": "b01-s4q11",
@@ -1235,7 +1290,8 @@
             "Ihr",
             "dein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«De usted» = <b>Ihr</b> con mayúscula; Koffer es masculino nominativo → sin terminación."
         },
         {
           "id": "b01-s4q12",
@@ -1245,7 +1301,8 @@
             "meinen",
             "mein"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Mutter es femenino → <b>meine</b> Mutter."
         },
         {
           "id": "b01-s4q13",
@@ -1255,7 +1312,8 @@
             "ihr",
             "sein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«De ellos» = <b>ihr</b> en minúscula; Auto es neutro → sin terminación. <i>Ihre</i> sería «de usted» y femenino."
         },
         {
           "id": "b01-s4q14",
@@ -1265,7 +1323,8 @@
             "deinen",
             "deine"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Buch es neutro → <b>dein</b> Buch."
         },
         {
           "id": "b01-s4q15",
@@ -1275,7 +1334,8 @@
             "sein",
             "ihre"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«De él» = sein; Freunde es plural → <b>seine</b> Freunde."
         }
       ],
       "produce": {

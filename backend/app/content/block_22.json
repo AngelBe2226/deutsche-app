@@ -113,7 +113,8 @@
             "die",
             "das"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Los sustantivos en <b>-ung</b> son femeninos: <b>die</b> Rechnung (la cuenta, la factura)."
         },
         {
           "id": "b22-s1q2",
@@ -123,7 +124,8 @@
             "la salida",
             "la reserva"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>die Abreise</b> = la salida del hotel. La llegada es <i>die Anreise</i>."
         },
         {
           "id": "b22-s1q3",
@@ -133,7 +135,8 @@
             "die Gäste",
             "die Gasten"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Gast → <b>Gäste</b>: diéresis + -e, como muchos masculinos monosílabos."
         }
       ]
     },
@@ -208,7 +211,8 @@
             "Das tut mir sehr leid.",
             "Gute Reise!"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Ante una queja, lo primero es la disculpa: <b>Das tut mir sehr leid.</b>"
         },
         {
           "id": "b22-s2q2",
@@ -218,7 +222,8 @@
             "für",
             "an"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>sich kümmern</i> va siempre con <b>um</b> + acusativo."
         }
       ]
     },
@@ -314,7 +319,8 @@
             "Die Klimaanlage funktioniert nicht.",
             "Das Zimmer ist zu laut."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Die <b>Klimaanlage</b> funktioniert nicht.»"
         },
         {
           "id": "b22-s3q2",
@@ -324,7 +330,8 @@
             "ein anderes Zimmer",
             "50 Prozent Rabatt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El técnico no llega hasta mañana, así que ofrece <b>ein anderes Zimmer</b> en el quinto piso."
         },
         {
           "id": "b22-s3q3",
@@ -334,7 +341,8 @@
             "una orden",
             "un reproche"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Wäre</b> es Konjunktiv II: una pregunta cortés para pedir conformidad."
         }
       ]
     },

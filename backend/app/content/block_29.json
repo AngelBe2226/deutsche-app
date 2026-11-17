@@ -12,46 +12,133 @@
       "vocab": {
         "id": "b29-voc",
         "items": [
-          { "de": "die Speisekarte", "pl": "Speisekarten", "es": "la carta" },
-          { "de": "die Vorspeise", "pl": "Vorspeisen", "es": "el entrante" },
-          { "de": "das Hauptgericht", "pl": "Hauptgerichte", "es": "el plato principal" },
-          { "de": "die Nachspeise", "pl": "Nachspeisen", "es": "el postre" },
-          { "de": "das Getränk", "pl": "Getränke", "es": "la bebida" },
-          { "de": "die Rechnung", "pl": "Rechnungen", "es": "la cuenta" },
-          { "de": "das Trinkgeld", "pl": "Trinkgelder", "es": "la propina" },
-          { "de": "die Bedienung", "pl": "Bedienungen", "es": "el servicio / el/la camarero/a" },
-          { "de": "der Tisch", "pl": "Tische", "es": "la mesa" },
-          { "de": "die Beilage", "pl": "Beilagen", "es": "la guarnición" },
-          { "de": "das Besteck", "es": "los cubiertos (sin plural)" },
-          { "de": "die Serviette", "pl": "Servietten", "es": "la servilleta" },
-          { "de": "das Leitungswasser", "es": "el agua del grifo" },
-          { "de": "die Allergie", "pl": "Allergien", "es": "la alergia" },
-          { "de": "vegetarisch", "es": "vegetariano" },
-          { "de": "scharf", "es": "picante" },
-          { "de": "bestellen", "es": "pedir" },
-          { "de": "empfehlen", "es": "recomendar" },
-          { "de": "probieren", "es": "probar" },
-          { "de": "bezahlen", "es": "pagar" }
+          {
+            "de": "die Speisekarte",
+            "pl": "Speisekarten",
+            "es": "la carta"
+          },
+          {
+            "de": "die Vorspeise",
+            "pl": "Vorspeisen",
+            "es": "el entrante"
+          },
+          {
+            "de": "das Hauptgericht",
+            "pl": "Hauptgerichte",
+            "es": "el plato principal"
+          },
+          {
+            "de": "die Nachspeise",
+            "pl": "Nachspeisen",
+            "es": "el postre"
+          },
+          {
+            "de": "das Getränk",
+            "pl": "Getränke",
+            "es": "la bebida"
+          },
+          {
+            "de": "die Rechnung",
+            "pl": "Rechnungen",
+            "es": "la cuenta"
+          },
+          {
+            "de": "das Trinkgeld",
+            "pl": "Trinkgelder",
+            "es": "la propina"
+          },
+          {
+            "de": "die Bedienung",
+            "pl": "Bedienungen",
+            "es": "el servicio / el/la camarero/a"
+          },
+          {
+            "de": "der Tisch",
+            "pl": "Tische",
+            "es": "la mesa"
+          },
+          {
+            "de": "die Beilage",
+            "pl": "Beilagen",
+            "es": "la guarnición"
+          },
+          {
+            "de": "das Besteck",
+            "es": "los cubiertos (sin plural)"
+          },
+          {
+            "de": "die Serviette",
+            "pl": "Servietten",
+            "es": "la servilleta"
+          },
+          {
+            "de": "das Leitungswasser",
+            "es": "el agua del grifo"
+          },
+          {
+            "de": "die Allergie",
+            "pl": "Allergien",
+            "es": "la alergia"
+          },
+          {
+            "de": "vegetarisch",
+            "es": "vegetariano"
+          },
+          {
+            "de": "scharf",
+            "es": "picante"
+          },
+          {
+            "de": "bestellen",
+            "es": "pedir"
+          },
+          {
+            "de": "empfehlen",
+            "es": "recomendar"
+          },
+          {
+            "de": "probieren",
+            "es": "probar"
+          },
+          {
+            "de": "bezahlen",
+            "es": "pagar"
+          }
         ]
       },
       "quiz": [
         {
           "id": "b29-s1q1",
           "question": "1. ¿Qué artículo lleva <i>Speisekarte</i>?",
-          "options": ["der", "die", "das"],
-          "correctIndex": 1
+          "options": [
+            "der",
+            "die",
+            "das"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>die</b> Speisekarte: lo decide la última palabra, die Karte."
         },
         {
           "id": "b29-s1q2",
           "question": "2. <i>die Nachspeise</i> es…",
-          "options": ["el entrante", "el postre", "la guarnición"],
-          "correctIndex": 1
+          "options": [
+            "el entrante",
+            "el postre",
+            "la guarnición"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>die Nachspeise</b> = el postre (nach = después). El entrante es <i>die Vorspeise</i>."
         },
         {
           "id": "b29-s1q3",
           "question": "3. «picante» en alemán es…",
-          "options": ["scharf", "salzig", "sauer"],
-          "correctIndex": 0
+          "options": [
+            "scharf",
+            "salzig",
+            "sauer"
+          ],
+          "correctIndex": 0,
+          "explain": "«Picante» = <b>scharf</b>. <i>salzig</i> = salado; <i>sauer</i> = ácido."
         }
       ]
     },
@@ -62,18 +149,51 @@
       "rule": "Frases hechas para cada momento de la comida. En el restaurante, al camarero se le habla de <b>Sie</b>. Fíjate en que «querría» (<b>ich hätte gern / ich möchte</b>) es más cortés que «quiero».",
       "tables": [
         {
-          "headers": ["Función", "Redemittel"],
+          "headers": [
+            "Función",
+            "Redemittel"
+          ],
           "rows": [
-            ["Reservar / llegar", "Ein Tisch für zwei Personen, bitte."],
-            ["Pedir la carta", "Könnten wir bitte die Speisekarte haben?"],
-            ["Pedir consejo", "Was können Sie empfehlen?"],
-            ["Pedir (cortés)", "Ich hätte gern das Schnitzel mit Pommes."],
-            ["Pedir bebida", "Ein großes Bier und ein stilles Wasser, bitte."],
-            ["Preguntar por alergias", "Enthält das Gericht Nüsse? Ich habe eine Allergie."],
-            ["Preguntar vegetariano", "Ist das vegetarisch?"],
-            ["Durante la comida", "Entschuldigung, könnte ich noch etwas Brot haben?"],
-            ["Pedir la cuenta", "Die Rechnung, bitte. — Zusammen oder getrennt?"],
-            ["Pagar y propina", "Stimmt so. / Machen Sie 30, bitte."]
+            [
+              "Reservar / llegar",
+              "Ein Tisch für zwei Personen, bitte."
+            ],
+            [
+              "Pedir la carta",
+              "Könnten wir bitte die Speisekarte haben?"
+            ],
+            [
+              "Pedir consejo",
+              "Was können Sie empfehlen?"
+            ],
+            [
+              "Pedir (cortés)",
+              "Ich hätte gern das Schnitzel mit Pommes."
+            ],
+            [
+              "Pedir bebida",
+              "Ein großes Bier und ein stilles Wasser, bitte."
+            ],
+            [
+              "Preguntar por alergias",
+              "Enthält das Gericht Nüsse? Ich habe eine Allergie."
+            ],
+            [
+              "Preguntar vegetariano",
+              "Ist das vegetarisch?"
+            ],
+            [
+              "Durante la comida",
+              "Entschuldigung, könnte ich noch etwas Brot haben?"
+            ],
+            [
+              "Pedir la cuenta",
+              "Die Rechnung, bitte. — Zusammen oder getrennt?"
+            ],
+            [
+              "Pagar y propina",
+              "Stimmt so. / Machen Sie 30, bitte."
+            ]
           ]
         }
       ],
@@ -93,7 +213,8 @@
             "Ich hätte gern den Fisch.",
             "Gib mir den Fisch."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Ich hätte gern</b> + acusativo es la fórmula cortés para pedir."
         },
         {
           "id": "b29-s2q2",
@@ -103,7 +224,8 @@
             "18 Euro, genau.",
             "Das ist zu teuer."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "En Alemania se redondea al pagar diciendo el total con propina: <b>Machen Sie 20, bitte</b>."
         }
       ]
     },
@@ -116,21 +238,71 @@
         "id": "gastro-abendessen",
         "setting": "Gasthaus zur Linde, Viena · mesa 7, 20:00",
         "roles": {
-          "K": { "name": "Frau Huber", "label": "Camarera" },
-          "G": { "name": "Herr Díaz", "label": "Cliente" }
+          "K": {
+            "name": "Frau Huber",
+            "label": "Camarera"
+          },
+          "G": {
+            "name": "Herr Díaz",
+            "label": "Cliente"
+          }
         },
         "lines": [
-          { "who": "K", "de": "Guten Abend! Haben Sie schon gewählt, oder darf ich Ihnen etwas empfehlen?", "es": "¡Buenas noches! ¿Ya han elegido, o les recomiendo algo?" },
-          { "who": "G", "de": "Empfehlen Sie uns gern etwas. Wir sind zum ersten Mal hier.", "es": "Recomiéndenos algo, por favor. Es la primera vez que venimos." },
-          { "who": "K", "de": "Dann probieren Sie unbedingt das Wiener Schnitzel mit Kartoffelsalat. <b>Das ist unsere Spezialität.</b>", "es": "Entonces prueben sin falta el escalope vienés con ensalada de patata. Es nuestra especialidad." },
-          { "who": "G", "de": "Klingt gut. Eine Frage: <b>Enthält der Kartoffelsalat Ei?</b> Meine Frau hat eine Allergie.", "es": "Suena bien. Una pregunta: ¿la ensalada de patata lleva huevo? Mi mujer tiene alergia." },
-          { "who": "K", "de": "Nein, unser Kartoffelsalat ist ohne Ei, mit Essig und Öl. Ich sage es trotzdem der Küche.", "es": "No, nuestra ensalada de patata es sin huevo, con vinagre y aceite. Aun así se lo digo a la cocina." },
-          { "who": "G", "de": "Perfekt. Dann zweimal das Schnitzel, bitte. Und gibt es etwas Vegetarisches für danach?", "es": "Perfecto. Entonces dos escalopes, por favor. ¿Y hay algo vegetariano para después?" },
-          { "who": "K", "de": "Zum Nachtisch empfehle ich den Apfelstrudel, hausgemacht. Und zu trinken?", "es": "De postre les recomiendo el strudel de manzana, casero. ¿Y para beber?" },
-          { "who": "G", "de": "Ein großes Bier und ein stilles Wasser, bitte.", "es": "Una cerveza grande y un agua sin gas, por favor." },
-          { "who": "K", "de": "Sehr gern. Kommt sofort.", "es": "Con mucho gusto. Enseguida se lo traigo." },
-          { "who": "G", "de": "Danke! Ach, und könnten wir später getrennt zahlen?", "es": "¡Gracias! Ah, ¿y podríamos pagar por separado luego?" },
-          { "who": "K", "de": "Natürlich, kein Problem. Ich bringe Ihnen dann zwei Rechnungen.", "es": "Claro, ningún problema. Les traigo entonces dos cuentas." }
+          {
+            "who": "K",
+            "de": "Guten Abend! Haben Sie schon gewählt, oder darf ich Ihnen etwas empfehlen?",
+            "es": "¡Buenas noches! ¿Ya han elegido, o les recomiendo algo?"
+          },
+          {
+            "who": "G",
+            "de": "Empfehlen Sie uns gern etwas. Wir sind zum ersten Mal hier.",
+            "es": "Recomiéndenos algo, por favor. Es la primera vez que venimos."
+          },
+          {
+            "who": "K",
+            "de": "Dann probieren Sie unbedingt das Wiener Schnitzel mit Kartoffelsalat. <b>Das ist unsere Spezialität.</b>",
+            "es": "Entonces prueben sin falta el escalope vienés con ensalada de patata. Es nuestra especialidad."
+          },
+          {
+            "who": "G",
+            "de": "Klingt gut. Eine Frage: <b>Enthält der Kartoffelsalat Ei?</b> Meine Frau hat eine Allergie.",
+            "es": "Suena bien. Una pregunta: ¿la ensalada de patata lleva huevo? Mi mujer tiene alergia."
+          },
+          {
+            "who": "K",
+            "de": "Nein, unser Kartoffelsalat ist ohne Ei, mit Essig und Öl. Ich sage es trotzdem der Küche.",
+            "es": "No, nuestra ensalada de patata es sin huevo, con vinagre y aceite. Aun así se lo digo a la cocina."
+          },
+          {
+            "who": "G",
+            "de": "Perfekt. Dann zweimal das Schnitzel, bitte. Und gibt es etwas Vegetarisches für danach?",
+            "es": "Perfecto. Entonces dos escalopes, por favor. ¿Y hay algo vegetariano para después?"
+          },
+          {
+            "who": "K",
+            "de": "Zum Nachtisch empfehle ich den Apfelstrudel, hausgemacht. Und zu trinken?",
+            "es": "De postre les recomiendo el strudel de manzana, casero. ¿Y para beber?"
+          },
+          {
+            "who": "G",
+            "de": "Ein großes Bier und ein stilles Wasser, bitte.",
+            "es": "Una cerveza grande y un agua sin gas, por favor."
+          },
+          {
+            "who": "K",
+            "de": "Sehr gern. Kommt sofort.",
+            "es": "Con mucho gusto. Enseguida se lo traigo."
+          },
+          {
+            "who": "G",
+            "de": "Danke! Ach, und könnten wir später getrennt zahlen?",
+            "es": "¡Gracias! Ah, ¿y podríamos pagar por separado luego?"
+          },
+          {
+            "who": "K",
+            "de": "Natürlich, kein Problem. Ich bringe Ihnen dann zwei Rechnungen.",
+            "es": "Claro, ningún problema. Les traigo entonces dos cuentas."
+          }
         ]
       },
       "notes": [
@@ -149,7 +321,8 @@
             "das Wiener Schnitzel",
             "der Kartoffelsalat"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«…das Wiener Schnitzel … Das ist <b>unsere Spezialität</b>.»"
         },
         {
           "id": "b29-s3q2",
@@ -159,13 +332,19 @@
             "Seine Frau hat eine Allergie.",
             "Er findet ihn zu teuer."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Meine Frau hat eine <b>Allergie</b>»: pregunta si la ensalada lleva huevo."
         },
         {
           "id": "b29-s3q3",
           "question": "3. Wie möchten die Gäste zahlen?",
-          "options": ["zusammen", "getrennt", "mit Trinkgeld"],
-          "correctIndex": 1
+          "options": [
+            "zusammen",
+            "getrennt",
+            "mit Trinkgeld"
+          ],
+          "correctIndex": 1,
+          "explain": "«…könnten wir später <b>getrennt</b> zahlen?»"
         }
       ]
     },
@@ -177,7 +356,10 @@
       "roleplay": {
         "id": "b29-rp",
         "you": "Camarero/a",
-        "partner": { "name": "Frau Novak", "label": "Clienta" },
+        "partner": {
+          "name": "Frau Novak",
+          "label": "Clienta"
+        },
         "steps": [
           {
             "partner": "Guten Abend! Wir hätten gern einen Tisch für zwei.",

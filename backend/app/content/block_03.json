@@ -189,7 +189,8 @@
             "der",
             "dem"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La persona que recibe (objeto indirecto) va en dativo: die Frau → <b>der</b> Frau. <i>die</i> sería acusativo."
         },
         {
           "id": "b03-s1q2",
@@ -199,7 +200,8 @@
             "der",
             "den"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Dativo plural = <b>den</b> + sustantivo con <b>-n</b>: den Kindern."
         },
         {
           "id": "b03-s1q3",
@@ -209,7 +211,8 @@
             "Objeto directo (Akkusativ)",
             "Sujeto (Nominativ)"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>einen Ball</b> es lo que se da: objeto directo en acusativo. La persona que lo recibe (<i>dem Hund</i>) es el dativo."
         },
         {
           "id": "b03-s1q4",
@@ -219,7 +222,8 @@
             "das",
             "dem"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Neutro en dativo → <b>dem</b> Kind (igual que el masculino)."
         },
         {
           "id": "b03-s1q5",
@@ -229,7 +233,8 @@
             "dem",
             "die"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Femenino en dativo → <b>der</b> Lehrerin."
         },
         {
           "id": "b03-s1q6",
@@ -239,7 +244,8 @@
             "dem",
             "den"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Dativo plural → <b>den</b> Freunden (con -n final)."
         },
         {
           "id": "b03-s1q7",
@@ -249,7 +255,8 @@
             "dem",
             "der"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "La abuela recibe las flores → dativo femenino: <b>der</b> Oma."
         },
         {
           "id": "b03-s1q8",
@@ -259,7 +266,8 @@
             "der",
             "dem"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "A quien se explica va en dativo; masculino → <b>dem</b> Mann."
         },
         {
           "id": "b03-s1q9",
@@ -269,7 +277,8 @@
             "dem",
             "den"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Para quién se compra → dativo plural: <b>den</b> Kindern."
         },
         {
           "id": "b03-s1q10",
@@ -279,7 +288,8 @@
             "die Freunden",
             "den Freunden"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "El dativo plural añade <b>-n</b> al artículo y al sustantivo: <b>den Freunden</b>."
         },
         {
           "id": "b03-s1q11",
@@ -289,7 +299,8 @@
             "meiner",
             "meine"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Schwester es femenino en dativo → <b>meiner</b> (como <i>einer</i>)."
         },
         {
           "id": "b03-s1q12",
@@ -299,7 +310,8 @@
             "der",
             "dem"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Gast es masculino y recibe la comida → <b>dem</b> Gast."
         },
         {
           "id": "b03-s1q13",
@@ -309,7 +321,8 @@
             "Objeto directo (Akkusativ)",
             "Sujeto (Nominativ)"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>der Frau</b> es quien recibe las rosas: objeto indirecto en dativo (femenino der)."
         },
         {
           "id": "b03-s1q14",
@@ -319,7 +332,8 @@
             "der",
             "die"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Plural en dativo → <b>den</b> Schülerinnen (ya acaban en -n)."
         },
         {
           "id": "b03-s1q15",
@@ -329,7 +343,8 @@
             "dem",
             "den"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "A quien se vende = dativo; Nachbar es masculino → <b>dem</b> Nachbarn (masculino débil, añade -n)."
         }
       ],
       "produce": {
@@ -485,7 +500,8 @@
             "mir",
             "ich"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>helfen</i> siempre pide dativo → <b>mir</b>. <i>mich</i> es acusativo."
         },
         {
           "id": "b03-s2q2",
@@ -495,7 +511,8 @@
             "Ich gebe es ihm.",
             "Ich es ihm gebe."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Si los dos objetos son pronombres, el <b>acusativo va antes que el dativo</b>: Ich gebe <b>es ihm</b>."
         },
         {
           "id": "b03-s2q3",
@@ -505,7 +522,8 @@
             "ihr",
             "ihm"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«A ella» (destinataria) en dativo = <b>ihr</b>. <i>sie</i> es acusativo e <i>ihm</i>, masculino."
         },
         {
           "id": "b03-s2q4",
@@ -515,7 +533,8 @@
             "dich",
             "du"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«A ti» como destinatario = <b>dir</b> (dativo). <i>dich</i> es acusativo."
         },
         {
           "id": "b03-s2q5",
@@ -525,7 +544,8 @@
             "uns",
             "wir"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«A nosotros» en dativo = <b>uns</b>."
         },
         {
           "id": "b03-s2q6",
@@ -535,7 +555,8 @@
             "mir",
             "mich"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>helfen</i> + dativo → <b>mir</b>."
         },
         {
           "id": "b03-s2q7",
@@ -545,7 +566,8 @@
             "sie",
             "ihm"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "La persona que recibe las flores va en dativo: <b>ihr</b>."
         },
         {
           "id": "b03-s2q8",
@@ -555,7 +577,8 @@
             "ihr es",
             "ihr sie"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Dos pronombres: acusativo antes que dativo → <b>es ihr</b>."
         },
         {
           "id": "b03-s2q9",
@@ -565,7 +588,8 @@
             "Ich es dir gebe.",
             "Ich gebe dir es."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Pronombres: acusativo (<i>es</i>) antes que dativo (<i>dir</i>), y el verbo en segunda posición: <b>Ich gebe es dir</b>."
         },
         {
           "id": "b03-s2q10",
@@ -575,7 +599,8 @@
             "sie",
             "ihnen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«A ellos» en dativo = <b>ihnen</b>. <i>sie</i> es acusativo."
         },
         {
           "id": "b03-s2q11",
@@ -585,7 +610,8 @@
             "Ihnen",
             "Sie"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>danken</i> pide dativo; «usted» en dativo = <b>Ihnen</b> con mayúscula."
         },
         {
           "id": "b03-s2q12",
@@ -595,7 +621,8 @@
             "euch",
             "eure"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«A vosotros» en dativo = <b>euch</b>; <i>ihr</i> es el sujeto y <i>eure</i>, posesivo."
         },
         {
           "id": "b03-s2q13",
@@ -605,7 +632,8 @@
             "ihr",
             "ihn"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "er → dativo <b>ihm</b>, acusativo <i>ihn</i>."
         },
         {
           "id": "b03-s2q14",
@@ -615,7 +643,8 @@
             "uns",
             "wir"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "wir → dativo (y acusativo) <b>uns</b>. <i>unser</i> es posesivo."
         },
         {
           "id": "b03-s2q15",
@@ -625,7 +654,8 @@
             "Der Chef gibt er die Schlüssel.",
             "Der Chef gibt ihm die Schlüssel."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "El que recibe va en dativo: <b>ihm</b>. <i>ihn</i> es acusativo y <i>er</i>, nominativo."
         }
       ],
       "produce": {
@@ -763,7 +793,8 @@
             "dem",
             "der"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>helfen</i> siempre lleva dativo → <b>dem</b> Mann."
         },
         {
           "id": "b03-s3q2",
@@ -773,7 +804,8 @@
             "dir",
             "du"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>passen</i> (quedar bien) pide dativo → <b>dir</b>."
         },
         {
           "id": "b03-s3q3",
@@ -783,7 +815,8 @@
             "Der Film gefällt mir.",
             "Ich gefalle den Film."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Con <i>gefallen</i> lo que gusta es el sujeto y la persona va en dativo: <b>Der Film gefällt mir</b>, como «me gusta» en español."
         },
         {
           "id": "b03-s3q4",
@@ -793,7 +826,8 @@
             "meine",
             "meiner"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>helfen</i> + dativo; Freundin es femenino → <b>meiner</b>."
         },
         {
           "id": "b03-s3q5",
@@ -803,7 +837,8 @@
             "ihm",
             "ihn"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>gehören</i> + dativo → <b>ihm</b>."
         },
         {
           "id": "b03-s3q6",
@@ -813,7 +848,8 @@
             "ihr",
             "ihre"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>gefallen</i> + dativo → <b>ihr</b> (a ella)."
         },
         {
           "id": "b03-s3q7",
@@ -823,7 +859,8 @@
             "du",
             "dich"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>glauben</i> + persona en dativo → <b>dir</b>."
         },
         {
           "id": "b03-s3q8",
@@ -833,7 +870,8 @@
             "dem",
             "die"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>danken</i> + dativo plural → <b>den</b> Eltern."
         },
         {
           "id": "b03-s3q9",
@@ -843,7 +881,8 @@
             "Ich antworte den Lehrer.",
             "Ich antworte der Lehrer."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>antworten</i> pide dativo → <b>dem</b> Lehrer."
         },
         {
           "id": "b03-s3q10",
@@ -853,7 +892,8 @@
             "mir",
             "ich"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>passen</i> + dativo → <b>mir</b>."
         },
         {
           "id": "b03-s3q11",
@@ -863,7 +903,8 @@
             "gehören",
             "gehört"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "El sujeto es <i>das Auto</i> (3.ª singular) → <b>gehört</b>; <i>wem</i> es el dativo."
         },
         {
           "id": "b03-s3q12",
@@ -873,7 +914,8 @@
             "uns",
             "wir"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>schmecken</i> + dativo → <b>uns</b>."
         },
         {
           "id": "b03-s3q13",
@@ -883,7 +925,8 @@
             "dem",
             "den"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>folgen</i> pide dativo → <b>dem</b> Hund."
         },
         {
           "id": "b03-s3q14",
@@ -893,7 +936,8 @@
             "dir",
             "dich"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>vertrauen</i> + dativo → <b>dir</b>."
         },
         {
           "id": "b03-s3q15",
@@ -903,7 +947,8 @@
             "dem",
             "die"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>helfen</i> + dativo femenino → <b>der</b> Nachbarin."
         }
       ],
       "produce": {
@@ -1060,7 +1105,8 @@
             "des",
             "der"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Genitivo neutro: <b>des</b> Hotels (el sustantivo añade -s)."
         },
         {
           "id": "b03-s4q2",
@@ -1070,7 +1116,8 @@
             "das",
             "des"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>trotz</i> rige genitivo (en registro formal) → <b>des</b> Wetters."
         },
         {
           "id": "b03-s4q3",
@@ -1080,7 +1127,8 @@
             "das Haus von meine Eltern",
             "das Haus meinen Eltern"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "En la lengua hablada el genitivo se sustituye por <b>von + dativo</b>: von mein<b>en</b> Eltern (dativo plural)."
         },
         {
           "id": "b03-s4q4",
@@ -1090,7 +1138,8 @@
             "des",
             "der"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Genitivo masculino → <b>des</b> Lehrers."
         },
         {
           "id": "b03-s4q5",
@@ -1100,7 +1149,8 @@
             "die",
             "der"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Genitivo femenino → <b>der</b> Frau (el sustantivo no cambia)."
         },
         {
           "id": "b03-s4q6",
@@ -1110,7 +1160,8 @@
             "des",
             "dem"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>wegen</i> + genitivo; das Wetter → <b>des</b> Wetters."
         },
         {
           "id": "b03-s4q7",
@@ -1120,7 +1171,8 @@
             "der",
             "die"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>trotz</i> + genitivo; femenino → <b>der</b> Krankheit."
         },
         {
           "id": "b03-s4q8",
@@ -1130,7 +1182,8 @@
             "des",
             "das"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Genitivo neutro → <b>des</b> Kindes (monosílabos suelen tomar -es)."
         },
         {
           "id": "b03-s4q9",
@@ -1140,7 +1193,8 @@
             "den",
             "der"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Genitivo plural → <b>der</b> Eltern."
         },
         {
           "id": "b03-s4q10",
@@ -1150,7 +1204,8 @@
             "dem",
             "den"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>während</i> + genitivo; der Urlaub → <b>des</b> Urlaubs."
         },
         {
           "id": "b03-s4q11",
@@ -1160,7 +1215,8 @@
             "für",
             "wegen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>wegen</b> rige genitivo. <i>mit</i> pide dativo y <i>für</i>, acusativo."
         },
         {
           "id": "b03-s4q12",
@@ -1170,7 +1226,8 @@
             "das Buch der Lehrer",
             "das Buch dem Lehrer"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Genitivo masculino: <b>des Lehrers</b>, con -s en el sustantivo."
         },
         {
           "id": "b03-s4q13",
@@ -1180,7 +1237,8 @@
             "den Mann",
             "dem Mann"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "der Mann → genitivo <b>des Mannes</b>. <i>den Mann</i> es acusativo y <i>dem Mann</i>, dativo."
         },
         {
           "id": "b03-s4q14",
@@ -1190,7 +1248,8 @@
             "meines",
             "meine"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Genitivo femenino con posesivo → <b>meiner</b> Schwester."
         },
         {
           "id": "b03-s4q15",
@@ -1200,7 +1259,8 @@
             "das",
             "des"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Genitivo neutro → <b>des</b> Buches."
         }
       ],
       "produce": {

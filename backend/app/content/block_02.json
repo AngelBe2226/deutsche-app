@@ -150,7 +150,8 @@
             "der Chef",
             "trinkt"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El sujeto es quien hace la acción y va en nominativo: <b>der Chef</b>. <i>Den Kaffee</i> es acusativo (objeto) aunque vaya delante."
         },
         {
           "id": "b02-s1q2",
@@ -160,7 +161,8 @@
             "eine",
             "einer"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras <i>sein</i> el atributo va en <b>nominativo</b>: Ärztin es femenino → <b>eine</b>. <i>einen</i> es acusativo y <i>einer</i>, dativo/genitivo."
         },
         {
           "id": "b02-s1q3",
@@ -170,7 +172,8 @@
             "Wer oder was?",
             "Wem?"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El nominativo responde a <b>Wer oder was?</b> («¿quién o qué?»). <i>Wen oder was?</i> es acusativo y <i>Wem?</i>, dativo."
         },
         {
           "id": "b02-s1q4",
@@ -180,7 +183,8 @@
             "die Studentin",
             "Das Buch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>die Studentin</b> es quien lee (nominativo). <i>Das Buch</i> va primero pero es el objeto: el orden no decide el caso."
         },
         {
           "id": "b02-s1q5",
@@ -190,7 +194,8 @@
             "einen",
             "einem"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>werden</i> como <i>sein</i> lleva el atributo en <b>nominativo</b>: <b>ein</b> Arzt."
         },
         {
           "id": "b02-s1q6",
@@ -200,7 +205,8 @@
             "ein",
             "einen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Con <i>sein</i> el atributo va en nominativo; Tisch es masculino → <b>ein</b> Tisch, no <i>einen</i>."
         },
         {
           "id": "b02-s1q7",
@@ -210,7 +216,8 @@
             "Dativ",
             "Nominativ"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>sein, werden</i> y <i>bleiben</i> son verbos copulativos: el atributo va en <b>Nominativ</b>."
         },
         {
           "id": "b02-s1q8",
@@ -220,7 +227,8 @@
             "Der",
             "Dem"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Sujeto masculino → <b>der</b> Lehrer. <i>den</i> es acusativo y <i>dem</i>, dativo."
         },
         {
           "id": "b02-s1q9",
@@ -230,7 +238,8 @@
             "Der",
             "Die"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Sujeto femenino → <b>die</b> Frau. En femenino nominativo y acusativo coinciden; <i>der</i> sería dativo/genitivo."
         },
         {
           "id": "b02-s1q10",
@@ -240,7 +249,8 @@
             "Wem?",
             "Wen oder was?"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Wer oder was?</b> identifica el nominativo (sujeto o atributo)."
         },
         {
           "id": "b02-s1q11",
@@ -250,7 +260,8 @@
             "meinem",
             "meinen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Atributo tras <i>ist</i> = nominativo; masculino → <b>mein</b> Freund, sin terminación."
         },
         {
           "id": "b02-s1q12",
@@ -260,7 +271,8 @@
             "einer",
             "eine"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>werden</i> + atributo en nominativo; Lehrerin femenino → <b>eine</b>."
         },
         {
           "id": "b02-s1q13",
@@ -270,7 +282,8 @@
             "Er ist ein guter Koch.",
             "Er ist einen guten Koch."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras <i>ist</i> todo el atributo va en nominativo: <b>ein guter Koch</b>. Las otras usan dativo y acusativo."
         },
         {
           "id": "b02-s1q14",
@@ -280,7 +293,8 @@
             "mein Onkel",
             "Das"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>mein Onkel</b> es el atributo (nominativo tras <i>ist</i>); <i>Das</i> es el sujeto."
         },
         {
           "id": "b02-s1q15",
@@ -290,7 +304,8 @@
             "bist",
             "ist"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>das Auto</i> = es, 3.ª persona singular → <b>ist</b>. <i>sind</i> es plural y <i>bist</i>, de du."
         }
       ],
       "produce": {
@@ -454,7 +469,8 @@
             "den",
             "dem"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Objeto directo masculino → acusativo: der → <b>den</b> Hund."
         },
         {
           "id": "b02-s2q2",
@@ -464,7 +480,8 @@
             "ein",
             "eine"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "En acusativo el femenino no cambia: <b>eine</b> Lampe. <i>einen</i> solo es para masculino."
         },
         {
           "id": "b02-s2q3",
@@ -474,7 +491,8 @@
             "keinen",
             "keine"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>haben</i> lleva acusativo; Bruder es masculino → <b>keinen</b>."
         },
         {
           "id": "b02-s2q4",
@@ -484,7 +502,8 @@
             "der",
             "den"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>kennen</i> + acusativo; masculino → <b>den</b> Mann."
         },
         {
           "id": "b02-s2q5",
@@ -494,7 +513,8 @@
             "ein",
             "einen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Computer es masculino y objeto directo → <b>einen</b>."
         },
         {
           "id": "b02-s2q6",
@@ -504,7 +524,8 @@
             "meine",
             "mein"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Hund es masculino en acusativo → <b>meinen</b> Hund (el posesivo se declina como <i>ein</i>)."
         },
         {
           "id": "b02-s2q7",
@@ -514,7 +535,8 @@
             "das",
             "dem"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El neutro no cambia en acusativo: <b>das</b> Haus."
         },
         {
           "id": "b02-s2q8",
@@ -524,7 +546,8 @@
             "einen",
             "ein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Kuli es masculino y objeto de <i>brauchen</i> → <b>einen</b> Kuli."
         },
         {
           "id": "b02-s2q9",
@@ -534,7 +557,8 @@
             "kein",
             "keinen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Wagen es masculino en acusativo → <b>keinen</b> Wagen."
         },
         {
           "id": "b02-s2q10",
@@ -544,7 +568,8 @@
             "den",
             "der"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Femenino en acusativo = igual que en nominativo: <b>die</b> Zeitung."
         },
         {
           "id": "b02-s2q11",
@@ -554,7 +579,8 @@
             "ihre",
             "ihren"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Su» de ella = ihr; Onkel es masculino en acusativo → <b>ihren</b> Onkel."
         },
         {
           "id": "b02-s2q12",
@@ -564,7 +590,8 @@
             "Akkusativ",
             "Nominativ"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El objeto directo va en <b>Akkusativ</b> (pregunta: Wen oder was?)."
         },
         {
           "id": "b02-s2q13",
@@ -574,7 +601,8 @@
             "dem",
             "die"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Femenino: acusativo = nominativo → <b>die</b> Katze."
         },
         {
           "id": "b02-s2q14",
@@ -584,7 +612,8 @@
             "dem",
             "der"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>fragen</i> lleva acusativo; masculino → <b>den</b> Lehrer (no dativo como en español «preguntar a»)."
         },
         {
           "id": "b02-s2q15",
@@ -594,7 +623,8 @@
             "Ich trinke ein Tee.",
             "Ich trinke einen Tee."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Tee es masculino y objeto directo → <b>einen</b> Tee."
         }
       ],
       "produce": {
@@ -754,7 +784,8 @@
             "ihn",
             "er"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "der Film → pronombre masculino en acusativo: <b>ihn</b>. <i>er</i> es nominativo y <i>es</i>, neutro."
         },
         {
           "id": "b02-s3q2",
@@ -764,7 +795,8 @@
             "uns",
             "ihr"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Nos» en acusativo = <b>uns</b>. <i>euch</i> es «os» e <i>ihr</i>, «vosotros» (sujeto)."
         },
         {
           "id": "b02-s3q3",
@@ -774,7 +806,8 @@
             "ihn",
             "sie"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«A ella» en acusativo = <b>sie</b>. <i>ihr</i> es dativo y <i>ihn</i>, masculino."
         },
         {
           "id": "b02-s3q4",
@@ -784,7 +817,8 @@
             "dir",
             "du"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Te» en acusativo = <b>dich</b>. <i>dir</i> es dativo y <i>du</i>, sujeto."
         },
         {
           "id": "b02-s3q5",
@@ -794,7 +828,8 @@
             "ich",
             "mir"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "«Me» en acusativo = <b>mich</b>. <i>mir</i> es dativo e <i>ich</i>, sujeto."
         },
         {
           "id": "b02-s3q6",
@@ -804,7 +839,8 @@
             "ihn",
             "ihm"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "der Tisch → <b>ihn</b> (acusativo masculino). <i>ihm</i> es dativo."
         },
         {
           "id": "b02-s3q7",
@@ -814,7 +850,8 @@
             "ihn",
             "ihm"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "das Auto → <b>es</b>: el neutro no cambia en acusativo."
         },
         {
           "id": "b02-s3q8",
@@ -824,7 +861,8 @@
             "sie",
             "ihn"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "die Tasche → <b>sie</b> (femenino acusativo = nominativo)."
         },
         {
           "id": "b02-s3q9",
@@ -834,7 +872,8 @@
             "euch",
             "dir"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Os» = <b>euch</b> (acusativo y dativo de ihr)."
         },
         {
           "id": "b02-s3q10",
@@ -844,7 +883,8 @@
             "euch",
             "uns"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Nos» como objeto directo = <b>uns</b>. <i>wir</i> solo es sujeto."
         },
         {
           "id": "b02-s3q11",
@@ -854,7 +894,8 @@
             "sie",
             "ihn"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«A ellos» en acusativo = <b>sie</b>. <i>ihnen</i> es dativo."
         },
         {
           "id": "b02-s3q12",
@@ -864,7 +905,8 @@
             "er",
             "ihm"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Herr Weber es masculino y objeto de <i>kennen</i> → <b>ihn</b>."
         },
         {
           "id": "b02-s3q13",
@@ -874,7 +916,8 @@
             "er",
             "ihn"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "der Brief es masculino → <b>ihn</b>. En alemán los objetos también son er/sie/es según su género."
         },
         {
           "id": "b02-s3q14",
@@ -884,7 +927,8 @@
             "dich",
             "du"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>lieben</i> lleva acusativo → <b>dich</b>."
         },
         {
           "id": "b02-s3q15",
@@ -894,7 +938,8 @@
             "dein",
             "dir"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "du → acusativo <b>dich</b>, dativo <i>dir</i>. <i>dein</i> es el posesivo."
         }
       ],
       "produce": {
@@ -1032,7 +1077,8 @@
             "einen",
             "einem"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>es gibt</i> siempre lleva <b>acusativo</b>: masculino → <b>einen</b> guten Film."
         },
         {
           "id": "b02-s4q2",
@@ -1042,7 +1088,8 @@
             "einen",
             "einer"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Pause es femenino → <b>eine</b> (acusativo femenino = nominativo)."
         },
         {
           "id": "b02-s4q3",
@@ -1052,7 +1099,8 @@
             "Das ist ein guter Plan.",
             "Das ist einem guten Plan."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Tras <i>ist</i> el atributo va en nominativo: <b>ein guter Plan</b>."
         },
         {
           "id": "b02-s4q4",
@@ -1062,7 +1110,8 @@
             "einem",
             "einen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>es gibt</i> + acusativo; Problem es neutro → <b>ein</b>, sin cambios."
         },
         {
           "id": "b02-s4q5",
@@ -1072,7 +1121,8 @@
             "einen",
             "ein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>es gibt</i> + acusativo masculino → <b>einen</b> Supermarkt."
         },
         {
           "id": "b02-s4q6",
@@ -1082,7 +1132,8 @@
             "einer",
             "einen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Bank es femenino → <b>eine</b> Bank."
         },
         {
           "id": "b02-s4q7",
@@ -1092,7 +1143,8 @@
             "hat",
             "gibt"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Hay» = <b>es gibt</b>, con <i>gibt</i> siempre en singular aunque lo que haya sea plural."
         },
         {
           "id": "b02-s4q8",
@@ -1102,7 +1154,8 @@
             "einen",
             "einem"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Brille es femenino singular en alemán (aunque en español sea «unas gafas») → <b>eine</b>."
         },
         {
           "id": "b02-s4q9",
@@ -1112,7 +1165,8 @@
             "einen",
             "ein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>haben</i> + acusativo; Garten es masculino → <b>einen</b>."
         },
         {
           "id": "b02-s4q10",
@@ -1122,7 +1176,8 @@
             "einem",
             "einen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Atributo con <i>ist</i> = nominativo → <b>ein</b> guter Laden."
         },
         {
           "id": "b02-s4q11",
@@ -1132,7 +1187,8 @@
             "einen",
             "ein"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>suchen</i> + acusativo; Job es masculino → <b>einen</b>."
         },
         {
           "id": "b02-s4q12",
@@ -1142,7 +1198,8 @@
             "keine",
             "keinen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Milch es femenino → <b>keine</b> Milch."
         },
         {
           "id": "b02-s4q13",
@@ -1152,7 +1209,8 @@
             "ein",
             "einem"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Wasser es neutro → <b>ein</b> Wasser (el neutro no cambia en acusativo)."
         },
         {
           "id": "b02-s4q14",
@@ -1162,7 +1220,8 @@
             "Es gibt einem Park.",
             "Es gibt einen Park."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>es gibt</i> + acusativo; Park es masculino → <b>einen</b> Park."
         },
         {
           "id": "b02-s4q15",
@@ -1172,7 +1231,8 @@
             "ein",
             "einen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Hut es masculino en acusativo → <b>einen</b> Hut."
         }
       ],
       "produce": {

@@ -1,5 +1,10 @@
 [
   {
+    "block": "00",
+    "title": "Método: aprender rápido (y sin sufrir)",
+    "sectionCount": 8
+  },
+  {
     "block": "01",
     "title": "Pronombres personales y artículos",
     "sectionCount": 4
@@ -36,12 +41,12 @@
   },
   {
     "block": "08",
-    "title": "Estructura: el verbo en 2ª posición",
+    "title": "Estructura de la oración: el verbo en 2ª posición",
     "sectionCount": 5
   },
   {
     "block": "09",
-    "title": "Subordinadas: el verbo al final",
+    "title": "Oraciones subordinadas: el verbo se va al final",
     "sectionCount": 5
   },
   {
@@ -81,7 +86,7 @@
   },
   {
     "block": "17",
-    "title": "Vocabulario y falsos amigos",
+    "title": "Vocabulario, colocaciones y falsos amigos",
     "sectionCount": 3
   },
   {
@@ -168,6 +173,66 @@
     "block": "35",
     "title": "Schreiben: tareas de redacción",
     "sectionCount": 4
+  },
+  {
+    "block": "36",
+    "title": "Primeros pasos: el alemán que ya sabes",
+    "sectionCount": 5
+  },
+  {
+    "block": "37",
+    "title": "Números, hora y fechas",
+    "sectionCount": 5
+  },
+  {
+    "block": "38",
+    "title": "Saludos, presentaciones y países",
+    "sectionCount": 5
+  },
+  {
+    "block": "39",
+    "title": "Small talk: familia, el tiempo y tú",
+    "sectionCount": 5
+  },
+  {
+    "block": "40",
+    "title": "De compras: ropa, tallas, colores y tiendas",
+    "sectionCount": 5
+  },
+  {
+    "block": "41",
+    "title": "Ocio: planes, deportes, fiestas y naturaleza",
+    "sectionCount": 5
+  },
+  {
+    "block": "42",
+    "title": "Teléfono, deletrear, mensajes y correos",
+    "sectionCount": 5
+  },
+  {
+    "block": "43",
+    "title": "Dinero y banco: francos, cajeros y facturas",
+    "sectionCount": 5
+  },
+  {
+    "block": "44",
+    "title": "Orientarse y moverse: indicaciones, transporte y coche",
+    "sectionCount": 5
+  },
+  {
+    "block": "45",
+    "title": "Emergencias, accidentes y policía",
+    "sectionCount": 5
+  },
+  {
+    "block": "46",
+    "title": "Cultura: meteduras de pata, fiestas y frases de nativo",
+    "sectionCount": 5
+  },
+  {
+    "block": "47",
+    "title": "Suiza: Helvetismen, Schweizerdeutsch y vida práctica",
+    "sectionCount": 5
   },
   {
     "block": "20",

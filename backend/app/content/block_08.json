@@ -141,7 +141,8 @@
             "Heute gehe ich ins Kino.",
             "Ich heute gehe ins Kino."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Si <i>Heute</i> ocupa la posición 1, el verbo va 2.º y el sujeto detrás: <b>Heute gehe ich</b>."
         },
         {
           "id": "b08-s1q2",
@@ -151,7 +152,8 @@
             "La 6ª (cada palabra cuenta)",
             "La 1ª"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Una posición es un bloque (Satzglied), no una palabra: todo «Mein bester Freund aus der Schule» es la posición 1, y <b>wohnt</b> la 2."
         },
         {
           "id": "b08-s1q3",
@@ -161,7 +163,8 @@
             "el verbo conjugado",
             "el objeto directo"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La regla V2: en la frase declarativa el <b>verbo conjugado</b> ocupa siempre el segundo puesto."
         },
         {
           "id": "b08-s1q4",
@@ -171,7 +174,8 @@
             "Wir trinken Tee.",
             "Wir Tee trinken."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Sujeto (1) + verbo (2) + resto: <b>Wir trinken Tee</b>. El verbo al principio forma una pregunta."
         },
         {
           "id": "b08-s1q5",
@@ -181,7 +185,8 @@
             "Meine Mutter Suppe kocht heute.",
             "Meine Mutter kocht heute Suppe."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Verbo en 2.ª posición justo tras el sujeto: Meine Mutter <b>kocht</b> heute Suppe."
         },
         {
           "id": "b08-s1q6",
@@ -191,7 +196,8 @@
             "4",
             "2"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "«Der alte Mann» es un solo bloque (posición 1); <b>kauft</b> es la 2."
         },
         {
           "id": "b08-s1q7",
@@ -201,7 +207,8 @@
             "2",
             "4"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Meine beste Freundin aus Köln» es la posición 1, así que el verbo ocupa la <b>2</b>."
         },
         {
           "id": "b08-s1q8",
@@ -211,7 +218,8 @@
             "Kommt der Zug gleich nicht.",
             "Der Zug gleich kommt."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Sujeto + verbo en 2.ª posición + adverbio: <b>Der Zug kommt gleich</b>."
         },
         {
           "id": "b08-s1q9",
@@ -221,7 +229,8 @@
             "1",
             "2"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "En la frase declarativa el verbo conjugado va en la posición <b>2</b>."
         },
         {
           "id": "b08-s1q10",
@@ -231,7 +240,8 @@
             "Sie in Berlin wohnt.",
             "In Berlin sie wohnt."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Sie wohnt in Berlin</b>: verbo en 2.ª posición. Con «In Berlin» delante sería «In Berlin wohnt sie»."
         },
         {
           "id": "b08-s1q11",
@@ -241,7 +251,8 @@
             "Ich jeden Tag lerne Deutsch.",
             "Ich lerne Deutsch jeden Tag lerne."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Sujeto + verbo (2) + complementos: Ich <b>lerne</b> jeden Tag Deutsch."
         },
         {
           "id": "b08-s1q12",
@@ -251,7 +262,8 @@
             "Wir haben ein Haus.",
             "Haben wir ein Haus."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Frase declarativa: sujeto + verbo en 2.ª posición."
         },
         {
           "id": "b08-s1q13",
@@ -261,7 +273,8 @@
             "Der Zug kommt spät zu.",
             "Der Zug zu spät kommt."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<b>Der Zug kommt zu spät</b>: <i>zu spät</i> es un bloque y va detrás del verbo."
         },
         {
           "id": "b08-s1q14",
@@ -271,7 +284,8 @@
             "Der Mann",
             "wohnt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Todo el sujeto con su complemento, <b>Der Mann mit dem Hund</b>, es la posición 1."
         },
         {
           "id": "b08-s1q15",
@@ -281,7 +295,8 @@
             "primer elemento",
             "segundo elemento de la frase"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "El verbo conjugado es el <b>segundo elemento</b>; delante puede ir un bloque de varias palabras."
         }
       ],
       "produce": {
@@ -419,7 +434,8 @@
             "arbeite ich",
             "ich zu arbeite"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Si <i>Morgen</i> abre la frase, el verbo sigue en 2.ª posición y el sujeto pasa detrás: <b>arbeite ich</b>."
         },
         {
           "id": "b08-s2q2",
@@ -429,7 +445,8 @@
             "habe ich",
             "haben ich"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<i>Leider</i> ocupa la posición 1 → <b>habe ich</b> (inversión)."
         },
         {
           "id": "b08-s2q3",
@@ -439,7 +456,8 @@
             "Dann wir essen Pizza.",
             "Wir essen dann Pizza."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Dann wir essen</b> es incorrecta: tras <i>Dann</i> el verbo debe ir 2.º → «Dann essen wir»."
         },
         {
           "id": "b08-s2q4",
@@ -449,7 +467,8 @@
             "ich habe",
             "ich Zeit habe"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Heute (1) + <b>habe</b> (2) + ich."
         },
         {
           "id": "b08-s2q5",
@@ -459,7 +478,8 @@
             "wir nach Hause gehen",
             "gehen wir"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Danach (1) + <b>gehen</b> (2) + wir."
         },
         {
           "id": "b08-s2q6",
@@ -469,7 +489,8 @@
             "bleibe ich",
             "ich bleibe"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Deshalb (1) + <b>bleibe</b> (2) + ich."
         },
         {
           "id": "b08-s2q7",
@@ -479,7 +500,8 @@
             "Ich fahre morgen nach Rom.",
             "Morgen ich fahre nach Rom."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<b>Morgen ich fahre</b> es incorrecta: el verbo debe ir justo tras <i>Morgen</i>."
         },
         {
           "id": "b08-s2q8",
@@ -489,7 +511,8 @@
             "Leider wir haben keine Zeit.",
             "Wir haben leider keine Zeit."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "<b>Leider wir haben</b> rompe V2: debe ser «Leider haben wir»."
         },
         {
           "id": "b08-s2q9",
@@ -499,7 +522,8 @@
             "regnete es",
             "es regnete"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Gestern (1) + verbo (2) + sujeto: <b>regnete es</b>."
         },
         {
           "id": "b08-s2q10",
@@ -509,7 +533,8 @@
             "wohnen",
             "wohne"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "El sujeto es <i>meine Schwester</i> (3.ª sing.) → <b>wohnt</b>, en 2.ª posición tras «In Berlin»."
         },
         {
           "id": "b08-s2q11",
@@ -519,7 +544,8 @@
             "kommt",
             "kommen"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Vielleicht (1) + <b>kommt</b> (2) + er."
         },
         {
           "id": "b08-s2q12",
@@ -529,7 +555,8 @@
             "antes del verbo",
             "al final"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Cuando otro elemento ocupa la posición 1, el sujeto va <b>después del verbo</b>."
         },
         {
           "id": "b08-s2q13",
@@ -539,7 +566,8 @@
             "Im Winter fahren wir Ski.",
             "Im Winter Ski fahren wir."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«Im Winter» es la posición 1 → <b>fahren wir</b> Ski."
         },
         {
           "id": "b08-s2q14",
@@ -549,7 +577,8 @@
             "esse ich",
             "ich esse"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Dann (1) + <b>esse</b> (2) + ich."
         },
         {
           "id": "b08-s2q15",
@@ -559,7 +588,8 @@
             "Vielleicht kommt sie morgen.",
             "Vielleicht sie kommt morgen."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Vielleicht (1) + <b>kommt</b> (2) + sie + morgen."
         }
       ],
       "produce": {
@@ -692,7 +722,8 @@
             "Kommst du zur Party?",
             "Kommst zur Party du?"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Las preguntas de sí/no empiezan con el verbo: <b>Kommst du</b> zur Party?"
         },
         {
           "id": "b08-s3q2",
@@ -702,7 +733,8 @@
             "Wo",
             "Woher"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Procedencia = <b>Woher</b>. <i>Wo</i> = dónde; <i>Wohin</i> = adónde."
         },
         {
           "id": "b08-s3q3",
@@ -712,7 +744,8 @@
             "Wen",
             "Wem"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>helfen</i> pide dativo → la pregunta es <b>Wem</b>."
         },
         {
           "id": "b08-s3q4",
@@ -722,7 +755,8 @@
             "Wohin",
             "Woher"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Lugar sin movimiento = <b>Wo</b>."
         },
         {
           "id": "b08-s3q5",
@@ -732,7 +766,8 @@
             "Wo",
             "Woher"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Dirección = <b>Wohin</b>."
         },
         {
           "id": "b08-s3q6",
@@ -742,7 +777,8 @@
             "Wie",
             "Wann"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Tiempo = <b>Wann</b>."
         },
         {
           "id": "b08-s3q7",
@@ -752,7 +788,8 @@
             "Wann",
             "Wer"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Causa = <b>Warum</b>."
         },
         {
           "id": "b08-s3q8",
@@ -762,7 +799,8 @@
             "Sprecht",
             "Sprechen"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Pregunta de sí/no con du: verbo en posición 1 con -st → <b>Sprichst</b>."
         },
         {
           "id": "b08-s3q9",
@@ -772,7 +810,8 @@
             "Wen",
             "Wer"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "Sujeto (nominativo) = <b>Wer</b>."
         },
         {
           "id": "b08-s3q10",
@@ -782,7 +821,8 @@
             "Wer",
             "Wen"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>suchen</i> lleva acusativo → <b>Wen</b>."
         },
         {
           "id": "b08-s3q11",
@@ -792,7 +832,8 @@
             "Wen",
             "Wer"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>helfen</i> + dativo → <b>Wem</b>."
         },
         {
           "id": "b08-s3q12",
@@ -802,7 +843,8 @@
             "viel",
             "viele"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "«¿Cuánto?» = <b>Wie viel</b> (sin declinar con incontables y precios)."
         },
         {
           "id": "b08-s3q13",
@@ -812,7 +854,8 @@
             "Wo wohnst du?",
             "Du wohnst wo?"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Palabra interrogativa (1) + verbo (2) + sujeto: <b>Wo wohnst du?</b>"
         },
         {
           "id": "b08-s3q14",
@@ -822,7 +865,8 @@
             "Hast du Zeit?",
             "Hast Zeit du?"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Pregunta de sí/no → verbo primero: <b>Hast du Zeit?</b>"
         },
         {
           "id": "b08-s3q15",
@@ -832,7 +876,8 @@
             "Posición 1",
             "Posición 2"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "En las preguntas de sí/no el verbo ocupa la <b>posición 1</b>."
         }
       ],
       "produce": {
@@ -990,7 +1035,8 @@
             "Ich will Deutsch lernen.",
             "Ich Deutsch will lernen."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El modal va en 2.ª posición y el infinitivo al final: Ich will Deutsch <b>lernen</b>."
         },
         {
           "id": "b08-s4q2",
@@ -1000,7 +1046,8 @@
             "Wir haben den Film gesehen.",
             "Wir gesehen haben den Film."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Perfekt: <i>haben</i> en 2.ª posición, participio al final: Wir haben den Film <b>gesehen</b>."
         },
         {
           "id": "b08-s4q3",
@@ -1010,7 +1057,8 @@
             "rufe … morgen",
             "dich … an"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "El verbo separable abre el paréntesis con <b>rufe</b> y lo cierra con <b>an</b>."
         },
         {
           "id": "b08-s4q4",
@@ -1020,7 +1068,8 @@
             "Ich will Pizza essen.",
             "Ich Pizza will essen."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Modal (2) … infinitivo (final): Ich will Pizza <b>essen</b>."
         },
         {
           "id": "b08-s4q5",
@@ -1030,7 +1079,8 @@
             "Ich habe gekauft Brot.",
             "Ich Brot habe gekauft."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Auxiliar (2) … participio (final): habe Brot <b>gekauft</b>."
         },
         {
           "id": "b08-s4q6",
@@ -1040,7 +1090,8 @@
             "Er auf steht um sieben.",
             "Er steht auf um sieben nicht."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "El prefijo separable va al final: Er steht um sieben <b>auf</b>."
         },
         {
           "id": "b08-s4q7",
@@ -1050,7 +1101,8 @@
             "Ich dir kann helfen.",
             "Ich kann helfen dir."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Modal (2) + objeto + infinitivo al final: Ich kann dir <b>helfen</b>."
         },
         {
           "id": "b08-s4q8",
@@ -1060,7 +1112,8 @@
             "Der Zug fährt ab um neun heute.",
             "Der Zug fährt um neun ab."
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "<i>abfahren</i> se separa: fährt … <b>ab</b> al final."
         },
         {
           "id": "b08-s4q9",
@@ -1070,7 +1123,8 @@
             "haben … gestern",
             "haben … gearbeitet"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "El paréntesis lo forman el auxiliar <b>haben</b> y el participio <b>gearbeitet</b>."
         },
         {
           "id": "b08-s4q10",
@@ -1080,7 +1134,8 @@
             "heute … früh",
             "sie … heute"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "Modal <b>muss</b> (2.ª posición) … infinitivo <b>aufstehen</b> (final)."
         },
         {
           "id": "b08-s4q11",
@@ -1090,7 +1145,8 @@
             "Wir gegangen sind ins Kino.",
             "Wir sind gegangen ins Kino."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>gehen</i> forma el Perfekt con sein: <b>sind</b> … <b>gegangen</b> al final."
         },
         {
           "id": "b08-s4q12",
@@ -1100,7 +1156,8 @@
             "Sie will kommen.",
             "Sie will kommt."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Modal conjugado + infinitivo al final: Sie will <b>kommen</b>."
         },
         {
           "id": "b08-s4q13",
@@ -1110,7 +1167,8 @@
             "Justo tras el sujeto",
             "Al final de la frase"
           ],
-          "correctIndex": 2
+          "correctIndex": 2,
+          "explain": "La segunda parte del verbo (infinitivo, participio o prefijo) va <b>al final</b>."
         },
         {
           "id": "b08-s4q14",
@@ -1120,7 +1178,8 @@
             "Ich anrufe meine Mutter.",
             "Ich rufe an meine Mutter."
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>anrufen</i> se separa: rufe … <b>an</b>."
         },
         {
           "id": "b08-s4q15",
@@ -1130,7 +1189,8 @@
             "Er muss arbeiten.",
             "Er muss arbeitet."
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "Er muss + infinitivo al final: <b>arbeiten</b>."
         }
       ],
       "produce": {
@@ -1520,7 +1580,8 @@
             "geschenkt",
             "ein Buch"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "La rechte Klammer contiene la parte final del verbo: el participio <b>geschenkt</b>."
         },
         {
           "id": "b08-s5q2",
@@ -1530,7 +1591,8 @@
             "Morgens",
             "einen Kaffee"
           ],
-          "correctIndex": 1
+          "correctIndex": 1,
+          "explain": "El Vorfeld es lo que va antes del verbo conjugado: <b>Morgens</b>."
         },
         {
           "id": "b08-s5q3",
@@ -1540,7 +1602,8 @@
             "linke Klammer",
             "Mittelfeld"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "En una pregunta de sí/no el verbo abre la frase, así que el <b>Vorfeld</b> queda vacío."
         },
         {
           "id": "b08-s5q4",
@@ -1550,7 +1613,8 @@
             "Akkusativobjekt",
             "Subjekt"
           ],
-          "correctIndex": 0
+          "correctIndex": 0,
+          "explain": "<i>warten</i> exige <i>auf</i> + acusativo: es un <b>Präpositionalobjekt</b>."
         }
       ]
     }
