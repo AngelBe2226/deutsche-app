@@ -1,0 +1,201 @@
+"""Bloque 00 · Método: cómo aprender alemán rápido.
+Integra el enfoque de «Aprende alemán en 7 días» (Campayo) y los decálogos de
+«Alemán para Dummies», con contenido propio. Genera backend/app/content/block_00.json."""
+import json, os
+
+def q(id, question, options, correct, explain):
+    return {"id": id, "question": question, "options": options, "correctIndex": correct, "explain": explain}
+
+B = {
+ "block": "00",
+ "title": "Método: aprender rápido (y sin sufrir)",
+ "kicker": "Bloque 00 · Método · empieza aquí",
+ "intro": "Antes de la gramática, <b class=\"hl\">la técnica</b>. Este bloque reúne lo mejor de dos enfoques: el de los métodos intensivos de memoria (una dificultad cada vez, imágenes absurdas que no se olvidan, repasos espaciados, pronunciación «a la española») y el de las guías prácticas (frases útiles desde el primer día). Aquí aprendes <b>cómo estudiar</b> y te llevas un <b>plan de 7 días</b> con casillas para marcar.",
+ "sections": [
+  {
+   "idx": "0.1", "title": "Una dificultad cada vez", "level": "A1",
+   "rule": "Aprender un idioma tiene tres frenos que aparecen en este orden: <b>vocabulario</b>, <b>pronunciación</b> y <b>gramática</b>. La mente avanza bien con <b>una</b> dificultad nueva, pero se atasca si le llegan dos o tres a la vez. Por eso empezamos con frases muy cortas en las que solo cambia el vocabulario, y la gramática entra poco a poco.",
+   "notes": [
+    {"type": "why", "at": "end", "text": "<b>Repasar espaciado gana a repasar seguido.</b> Ver una película cuatro veces el mismo día cansa y apenas se recuerda; verla cuatro veces repartida en un mes la deja grabada años. Con el vocabulario pasa igual: 15 minutos diarios rinden más que una tarde entera el domingo. La sección <b>Repaso</b> de la app programa esos repasos por ti."},
+    {"type": "tip", "at": "end", "text": "Sesiones de <b>una hora como máximo</b>, con un descanso de 10 minutos a mitad. Estudiar seis horas seguidas no es disciplina: es tiempo perdido y miedo al estudio."}
+   ],
+   "examples": [
+    {"en": "1) <b>Vocabulario:</b> wir, wollen, essen", "es": "primero, palabras sueltas y útiles"},
+    {"en": "2) <b>Frase mínima:</b> Wir wollen essen.", "es": "luego, combinarlas sin gramática nueva"},
+    {"en": "3) <b>Una sola novedad:</b> Wir wollen nicht essen.", "es": "después, añadir una única pieza (la negación)"},
+    {"en": "4) <b>Otra novedad:</b> Wollen wir essen?", "es": "y otra (la pregunta), cuando la anterior ya sale sola"}
+   ],
+   "quiz": [
+    q("b00-s1q1", "1. ¿Cuál es el orden en que suelen aparecer los frenos al aprender un idioma?", ["gramática → pronunciación → vocabulario", "vocabulario → pronunciación → gramática", "pronunciación → gramática → vocabulario"], 1, "Sin <b>vocabulario</b> no hay nada que pronunciar ni que ordenar; la gramática es lo último que frena."),
+    q("b00-s1q2", "2. Tienes 2 horas a la semana. ¿Qué rinde más?", ["Dos horas seguidas el domingo", "Unos 15–20 minutos cada día", "Una hora el lunes y otra el viernes, sin repasar"], 1, "El repaso <b>espaciado y frecuente</b> fija la memoria a largo plazo; el atracón se olvida enseguida."),
+    q("b00-s1q3", "3. Estás aprendiendo la negación con nicht. ¿Qué frase nueva conviene practicar?", ["Wir wollen nicht essen.", "Gestern haben wir nicht gegessen, weil…", "Hätten wir nicht gegessen, …"], 0, "Solo cambia <b>una cosa</b> respecto a lo que ya sabes (nicht). Las otras meten tiempos y subordinadas a la vez.")
+   ]
+  },
+  {
+   "idx": "0.2", "title": "Habla desde el primer día: el truco Tarzán", "level": "A1",
+   "rule": "Un regalo del alemán: con <b>wir</b> (nosotros), <b>sie</b> (ellos/ellas) y <b>Sie</b> (usted/ustedes) el verbo se dice <b>exactamente igual que el infinitivo</b>. Hablas «como Tarzán» y aun así es correcto: <i>wir essen, sie arbeiten, Sie kommen</i>. Con estos tres sujetos y una lista de verbos ya puedes decir cientos de frases sin conjugar nada.",
+   "tables": [{"headers": ["Infinitivo", "wir …", "sie (ellos) …", "Sie (usted) …"], "rows": [
+     ["essen (comer)", "wir essen", "sie essen", "Sie essen"],
+     ["arbeiten (trabajar)", "wir arbeiten", "sie arbeiten", "Sie arbeiten"],
+     ["haben (tener)", "wir haben", "sie haben", "Sie haben"],
+     ["sein (ser/estar) ⚠", "wir sind", "sie sind", "Sie sind"]]}],
+   "notes": [
+    {"type": "exception", "at": "end", "text": "La única excepción de verdad es <b>sein</b>: <i>wir sind, sie sind, Sie sind</i>. Apréndela de memoria y el truco funciona con todos los demás verbos."},
+    {"type": "tip", "at": "end", "text": "Para preguntar, pon el verbo delante: <i>Sie kommen</i> → <b>Kommen Sie?</b> Para negar, añade <b>nicht</b>: <i>Sie kommen nicht</i>. Dos herramientas, cero conjugación."}
+   ],
+   "examples": [
+    {"en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">essen</span> Brot.", "es": "Comemos pan."},
+    {"en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">arbeiten</span> heute nicht.", "es": "Ellos no trabajan hoy."},
+    {"en": "<span class=\"r-verb\">Kommen</span> <span class=\"r-nom\">Sie</span> aus Spanien?", "es": "¿Viene usted de España?"},
+    {"en": "<span class=\"r-verb\">Haben</span> <span class=\"r-nom\">wir</span> Zeit?", "es": "¿Tenemos tiempo?"},
+    {"en": "<span class=\"r-nom\">Sie</span> <span class=\"r-verb\">wohnen</span> in Zürich.", "es": "Ellos viven / usted vive en Zúrich."},
+    {"en": "<span class=\"r-nom\">Wir</span> <span class=\"r-verb\">sind</span> aus Madrid.", "es": "Somos de Madrid (sein: la excepción)."}
+   ],
+   "quiz": [
+    q("b00-s2q1", "1. «Ustedes beben café.» → Sie ___ Kaffee.", ["trinkt", "trinken", "trinkst"], 1, "Con <b>Sie</b> el verbo es igual al infinitivo: <b>trinken</b>. <i>trinkt</i> es de er/ihr y <i>trinkst</i>, de du."),
+    q("b00-s2q2", "2. «Nosotros vivimos en Berna.» → Wir ___ in Bern.", ["wohnen", "wohnt", "wohne"], 0, "wir + infinitivo: <b>wohnen</b>."),
+    q("b00-s2q3", "3. ¿Con qué verbo NO funciona el truco?", ["machen", "gehen", "sein"], 2, "<b>sein</b> es irregular: <i>wir sind, sie sind, Sie sind</i>, no «wir sein»."),
+    q("b00-s2q4", "4. ¿Cómo preguntas «¿Trabajan ellos?»?", ["Sie arbeiten?", "Arbeiten sie?", "Arbeitet sie?"], 1, "Pregunta de sí/no: verbo en <b>posición 1</b>. Sin cambiar la forma: <b>Arbeiten sie?</b>")
+   ]
+  },
+  {
+   "idx": "0.3", "title": "La fábrica de frases: modal + infinitivo", "level": "A1",
+   "rule": "El segundo truco: con un <b>verbo modal</b> (wollen, können, müssen, möchten…) solo conjugas el modal, y el verbo principal va <b>en infinitivo al final</b>. Un único patrón te da miles de frases: <i>Ich will … lernen · Wir können … kommen · Sie müssen … bezahlen</i>. Juega con la fábrica: cambia sujeto, modal y verbo, y prueba el <b>modo reto</b> para decir tú la frase antes de verla.",
+   "builder": True,
+   "notes": [{"type": "tip", "at": "end", "text": "Practica en voz alta y en los dos sentidos: del español al alemán (más difícil, el que te hará hablar) y del alemán al español. Si una frase te cuesta, déjala y vuelve mañana: el repaso espaciado hará el resto."}],
+   "produce": {"id": "b00-s3", "label": "<b>tu turno:</b> escribe 5 frases tuyas con el patrón <i>Ich will / Ich kann / Ich muss … + infinitivo</i> sobre tu semana en Suiza.", "placeholder": "Ich muss am Montag zum Bürgeramt gehen. Ich will …"}
+  },
+  {
+   "idx": "0.4", "title": "Memoriza con imágenes: asociaciones absurdas y comodines de género", "level": "A1",
+   "rule": "Para que una palabra nueva no se escape, únela a una <b>imagen absurda</b> que contenga una palabra española parecida por el sonido. Cuanto más ridícula y nítida sea la escena, más se graba. Visualízala unos segundos, no la leas de pasada. Con el tiempo olvidarás la imagen y te quedará la palabra: la imagen es solo el andamio. Y para el género usa tres <b>comodines</b> que aparecen en la escena: <span class=\"g-m\"><b>un hombre = der</b></span>, <span class=\"g-f\"><b>una mujer = die</b></span>, <span class=\"g-n\"><b>un bebé = das</b></span>. Solo hacen falta cuando el género no coincide con el español.",
+   "tables": [{"headers": ["Alemán", "Suena", "Español", "Imagen para recordarla"], "rows": [
+     ["<span class=\"g-m\">der</span> Löffel", "léofel", "la cuchara", "Un <b>hombre</b> muy <b>fiel</b> nunca se separa de su cuchara: «¡le soy fiel!»"],
+     ["<span class=\"g-f\">die</span> Gabel", "gábel", "el tenedor", "Una <b>mujer</b> llamada <b>Gabela</b> pincha todo lo que ve con un tenedor gigante"],
+     ["<span class=\"g-n\">das</span> Messer", "mésa", "el cuchillo", "Un <b>bebé</b> deja un cuchillo enorme encima de la <b>mesa</b>"],
+     ["<span class=\"g-m\">der</span> Mond", "mont", "la luna", "Un <b>hombre</b> sube a lo alto del <b>monte</b> para tocar la luna con la mano"],
+     ["<span class=\"g-f\">die</span> Sonne", "sóne", "el sol", "Una <b>mujer</b> toca una campana y el sol <b>suena</b> «¡sone, sone!»"],
+     ["<span class=\"g-m\">der</span> Stuhl", "shtu:l", "la silla", "Un <b>hombre</b> te señala la silla y dice «¡<b>es tu</b>yo!»"],
+     ["<span class=\"g-f\">die</span> Brücke", "bríuke", "el puente", "Una <b>mujer</b> que es <b>bruja</b> cruza el puente en escoba"],
+     ["<span class=\"g-m\">der</span> Schlüssel", "shlíusel", "la llave", "Un <b>hombre</b> muy <b>chulo</b> hace girar la llave en el dedo"],
+     ["<span class=\"g-f\">die</span> Katze", "kátse", "el gato", "Una <b>mujer</b> sale de <b>caza</b>… de gatos callejeros"],
+     ["<span class=\"g-m\">der</span> Bahnhof", "bá:nhof", "la estación", "Un <b>hombre</b> en la estación grita «¡<b>baja</b> y ¡hop!» al saltar del tren"],
+     ["<span class=\"g-n\">das</span> Geld", "guelt", "el dinero", "Un <b>bebé</b> guarda el dinero <b>helado</b> en el congelador"],
+     ["<span class=\"g-n\">das</span> Fenster", "fénsta", "la ventana", "Un <b>bebé</b> se asoma a la ventana y grita «¡<b>fiesta</b>!»"],
+     ["<span class=\"g-n\">das</span> Frühstück", "fríu:shtiuk", "el desayuno", "Un <b>bebé</b> desayuna <b>fruta fría</b> en trozos (Stück = trozo)"],
+     ["<span class=\"g-m\">der</span> Wald", "valt", "el bosque", "En el bosque todo <b>vale</b>: un hombre baila con los árboles"],
+     ["der Hund", "hunt", "el perro", "El perro <b>se hunde</b> en el barro hasta las orejas"],
+     ["die Kirche", "kírshe", "la iglesia", "En la iglesia, en vez de vino, reparten <b>kirsch</b> (licor de cerezas)"],
+     ["schlafen", "shláfen", "dormir", "Al dormir, el abuelo ronca «<b>shlaf… shlaf…</b>» como una chancla"],
+     ["fragen", "fráguen", "preguntar", "El aprendiz no para de <b>preguntar</b> en la <b>fragua</b> cómo se forja una espada"],
+     ["sagen", "ságuen", "decir", "Un vikingo empieza a <b>decir</b> una <b>saga</b> que dura tres días"],
+     ["müde", "míude", "cansado", "Estoy tan <b>cansado</b> que me <b>mudo</b> de sofá a cama sin abrir los ojos"],
+     ["billig", "bílish", "barato", "Un <b>billete</b> de avión tan <b>barato</b> que cabe en el bolsillo"]]}],
+   "notes": [
+    {"type": "tip", "at": "end", "text": "Si se te ocurre una imagen mejor que la propuesta, quédate con la tuya: la que más gracia te haga será la que mejor recuerdes. No pierdas tiempo buscando la perfecta; la primera que te llame la atención sirve."},
+    {"type": "emphasis", "at": "end", "text": "En toda la app los artículos van en color: <span class=\"g-m\"><b>der</b></span>, <span class=\"g-f\"><b>die</b></span> y <span class=\"g-n\"><b>das</b></span>. Imagina siempre la escena con su comodín (hombre, mujer, bebé) y el género saldrá solo."}
+   ],
+   "quiz": [
+    q("b00-s4q1", "1. ¿Para qué sirve el «comodín» de una mujer en la imagen?", ["Para recordar que la palabra es femenina en alemán (die)", "Para recordar el plural", "Para recordar que se pronuncia larga"], 0, "Los comodines codifican el género: hombre = <b>der</b>, mujer = <b>die</b>, bebé = <b>das</b>."),
+    q("b00-s4q2", "2. ¿Cuándo hace falta el comodín de género?", ["Siempre", "Solo cuando el género alemán no coincide con el español", "Nunca: el género no importa"], 1, "Si en español y en alemán coincide (der Hund, el perro), no hace falta: ahorras esfuerzo."),
+    q("b00-s4q3", "3. ¿Qué hace que una asociación funcione mejor?", ["Que sea lógica y seria", "Que sea absurda, nítida y la visualices unos segundos", "Leerla rápido muchas veces"], 1, "La memoria retiene lo que le <b>llama la atención</b>: una escena absurda y bien visualizada.")
+   ],
+   "produce": {"id": "b00-s4", "label": "<b>tu turno:</b> crea tu propia imagen para 5 palabras del bloque 40 (compras): palabra alemana, palabra española parecida y la escena.", "placeholder": "die Hose (pantalón) → «hose» suena a «hoz»: una mujer corta sus pantalones con una hoz…"}
+  },
+  {
+   "idx": "0.5", "title": "La pronunciación figurada (a la española)", "level": "A1",
+   "rule": "En el vocabulario, en el Conjugador y en la ventanita de cada palabra verás entre corchetes cómo suena, escrito con letras españolas. Léelo tal cual, con estas reglas: <b>la tilde marca la sílaba fuerte</b> (<i>tsíma</i>); <b>«:» alarga la vocal</b> (<i>shtrá:se</i>); <b>«eo»</b> es la <b>ö</b> (dices «e» con los labios en «o») y <b>«iu»</b> es la <b>ü</b> (dices «i» con los labios en «u»); <b>«sh»</b> como en inglés <i>shop</i>; <b>«j»</b> como la jota española, suave; la <b>h</b> se aspira suave; la <b>-er</b> final suena casi como una <b>«a»</b>.",
+   "tables": [{"headers": ["Alemán", "Léelo así", "Qué practica"], "rows": [
+     ["Zimmer", "[tsíma]", "z = «ts» · -er final ≈ «a»"],
+     ["Straße", "[shtrá:se]", "st- inicial = «sht» · vocal larga · ß = s"],
+     ["schön", "[sheon]", "ö: «e» con labios de «o»"],
+     ["Tür", "[tiur]", "ü: «i» con labios de «u»"],
+     ["ich · Buch", "[ish] · [buj]", "ch suave tras e/i, fuerte tras a/o/u"],
+     ["Wien · Wasser", "[vi:n] · [vása]", "ie = i larga · w = v"],
+     ["Vater", "[fáta]", "v = f"],
+     ["heute", "[hóite]", "eu = «oi»"],
+     ["sechs · Zug", "[seks] · [tsuk]", "chs = ks · g final = k"],
+     ["verstehen", "[ferstéen]", "prefijo ver- átono: el acento va a la raíz"]]}],
+   "notes": [{"type": "emphasis", "at": "end", "text": "Es una <b>aproximación</b> para leer sin saber fonética, no una transcripción perfecta. Úsala junto al botón de audio 🔊: lee la figurada, escucha y repite."}],
+   "quiz": [
+    q("b00-s5q1", "1. ¿Qué indica «:» en [shtrá:se]?", ["Una pausa", "Que la vocal es larga", "Que la palabra es plural"], 1, "Los dos puntos <b>alargan la vocal</b> anterior."),
+    q("b00-s5q2", "2. ¿Cómo se lee la «eo» de [sheon]?", ["Como dos vocales separadas: e-o", "Como una sola vocal: «e» con los labios en «o» (ö)", "Como «io»"], 1, "«eo» representa la <b>ö</b>: un solo sonido intermedio."),
+    q("b00-s5q3", "3. ¿Por qué [ferstéen] lleva la tilde en «sté»?", ["Porque ver- es un prefijo átono y el acento va a la raíz", "Porque todas las palabras se acentúan al final", "Por error"], 0, "Los prefijos inseparables (be-, ver-, er-…) <b>nunca</b> llevan el acento.")
+   ]
+  },
+  {
+   "idx": "0.6", "title": "Practicar en la app: Kartonkarte, modo eco y repaso", "level": "A1",
+   "rule": "Tres herramientas para practicar en cualquier bloque. <b>Kartonkarte</b> (la tarjeta que tapa): en los ejemplos pulsa <i>Tapar español</i> o <i>Tapar alemán</i>, di la frase en voz alta y toca para comprobar. En el vocabulario, <i>Ocultar español</i>. <b>Modo eco</b>: la app dice cada frase o palabra y te deja una pausa para repetirla en voz alta (es como grabarte con huecos y repetir de oído, sin grabadora). <b>Repaso</b>: lo que fallas en los quizzes vuelve en el momento justo para no olvidarlo.",
+   "examples": [
+    {"en": "Guten Morgen! Wie geht es Ihnen?", "es": "¡Buenos días! ¿Cómo está usted?"},
+    {"en": "Ich heiße Ana und komme aus Spanien.", "es": "Me llamo Ana y vengo de España."},
+    {"en": "Wir wohnen jetzt in der Schweiz.", "es": "Ahora vivimos en Suiza."},
+    {"en": "Können Sie das bitte wiederholen?", "es": "¿Puede repetirlo, por favor?"},
+    {"en": "Ich verstehe nur ein bisschen Deutsch.", "es": "Solo entiendo un poco de alemán."},
+    {"en": "Sprechen Sie bitte langsam.", "es": "Hable despacio, por favor."}
+   ],
+   "notes": [
+    {"type": "tip", "at": "end", "text": "Pruébalo aquí mismo: pulsa <b>Tapar español</b> y traduce las seis frases; luego <b>Tapar alemán</b> y dilas tú desde el español. Termina con <b>Modo eco</b> repitiendo cada una en voz alta. Diez minutos así valen más que una hora leyendo."},
+    {"type": "why", "at": "end", "text": "Leer en voz alta siempre. La boca también tiene que aprender: lo que no has dicho nunca en voz alta no te saldrá en una conversación."}
+   ]
+  },
+  {
+   "idx": "0.7", "title": "Tu plan de 7 días", "level": "A1",
+   "rule": "Siete sesiones de una hora para tener una base sólida: vocabulario esencial, frases útiles y oído. Marca cada tarea al terminarla (se guarda en tu cuenta y la ves en el iPhone y en los Macs). No te saltes pasos ni vayas «a la carta»: el orden está pensado para que cada día se apoye en el anterior.",
+   "plan": {"id": "7dias", "days": [
+     {"title": "Arranque: técnica y primeras palabras", "minutes": 60, "tasks": [
+       {"text": "Lee el método: una dificultad cada vez y el truco Tarzán", "block": "00", "idx": "0.1"},
+       {"text": "El alemán que ya sabes: vocabulario transparente", "block": "36", "idx": "36.1"},
+       {"text": "Pronunciación: Umlaute, ß y el ich/ach-Laut", "block": "18", "idx": "18.1"},
+       {"text": "Crea imágenes absurdas para 10 palabras nuevas", "block": "00", "idx": "0.4"}]},
+     {"title": "Repaso con la tarjeta y saludos", "minutes": 60, "tasks": [
+       {"text": "Repasa el vocabulario de ayer con <i>Ocultar español</i>", "block": "36", "idx": "36.1"},
+       {"text": "Saludos, presentaciones y países", "block": "38", "idx": "38.1"},
+       {"text": "Pronombres y artículos (der · die · das)", "block": "01", "idx": "1.1"},
+       {"text": "Modo eco con las fórmulas de saludo", "block": "38", "idx": "38.2"}]},
+     {"title": "Frases sencillas sin gramática nueva", "minutes": 60, "tasks": [
+       {"text": "Fábrica de frases: 20 frases en modo reto", "block": "00", "idx": "0.3"},
+       {"text": "Verbos modales: la mecánica", "block": "12", "idx": "12.1"},
+       {"text": "El verbo en 2.ª posición", "block": "08", "idx": "8.1"}]},
+     {"title": "Números, hora y el día a día", "minutes": 60, "tasks": [
+       {"text": "Números, precios y la hora", "block": "37", "idx": "37.1"},
+       {"text": "El acusativo (solo cambia el masculino)", "block": "02", "idx": "2.2"},
+       {"text": "Diálogo: pedir cita por teléfono", "block": "31", "idx": "31.3"}]},
+     {"title": "Oído y pasado", "minutes": 60, "tasks": [
+       {"text": "Small talk: familia y tiempo (modo eco)", "block": "39", "idx": "39.1"},
+       {"text": "El Perfekt: el pasado de la conversación", "block": "10", "idx": "10.2"},
+       {"text": "Diálogo: preguntar por el camino", "block": "21", "idx": "21.3"}]},
+     {"title": "Moverte: compras, comida y preposiciones", "minutes": 60, "tasks": [
+       {"text": "De compras: ropa, tallas y colores", "block": "40", "idx": "40.1"},
+       {"text": "Restaurante: pedir y pagar", "block": "29", "idx": "29.2"},
+       {"text": "Preposiciones por caso", "block": "04", "idx": "4.2"},
+       {"text": "Haz tu sesión de <b>Repaso</b> del día", "block": "review"}]},
+     {"title": "Suiza y consolidación", "minutes": 60, "tasks": [
+       {"text": "Vivir en Suiza: Grüezi, Franken y Helvetismen", "block": "47", "idx": "47.1"},
+       {"text": "Busca 10 verbos en el Conjugador y di su Präsens en voz alta", "block": "verbs"},
+       {"text": "Rollenspiel: quedar con un amigo", "block": "31", "idx": "31.4"},
+       {"text": "Lee las diez claves para seguir aprendiendo", "block": "00", "idx": "0.8"}]}
+   ]}
+  },
+  {
+   "idx": "0.8", "title": "Diez claves para seguir aprendiendo rápido", "level": "A1",
+   "rule": "Lo que mejor funciona según los dos enfoques, resumido en diez hábitos. No hace falta hacerlos todos a la vez: elige dos o tres y conviértelos en rutina.",
+   "examples": [
+    {"en": "1. Täglich 15 Minuten", "es": "Repasa cada día aunque sea poco: la constancia gana a la intensidad."},
+    {"en": "2. Laut lesen", "es": "Lee siempre en voz alta, también los ejemplos de la app."},
+    {"en": "3. Bilder im Kopf", "es": "Asocia cada palabra nueva a una imagen absurda (y su comodín de género)."},
+    {"en": "4. Beide Richtungen", "es": "Practica las frases en los dos sentidos: alemán → español y español → alemán."},
+    {"en": "5. Im Kopf übersetzen", "es": "Antes de decir algo en español en tu día a día, dilo mentalmente en alemán; apunta lo que no sepas decir y búscalo luego."},
+    {"en": "6. Kinderbücher", "es": "Lee cuentos o libros fáciles en dos pasadas: primero lo que entiendes; en la segunda, apunta y asocia lo nuevo."},
+    {"en": "7. Synchronisierte Filme", "es": "Mira series y películas dobladas al alemán (voz de estudio, más clara), sobre temas cotidianos y con subtítulos."},
+    {"en": "8. Tandem", "es": "Busca un tándem: alguien que aprenda español y te ayude con el alemán."},
+    {"en": "9. Radio und Werbung", "es": "La radio y los anuncios son cortos y repetitivos: perfectos para afinar el oído."},
+    {"en": "10. Keine Angst vor Fehlern", "es": "Habla aunque te equivoques: los nativos agradecen el esfuerzo y te corregirán con gusto."}
+   ],
+   "notes": [{"type": "tip", "at": "end", "text": "En Suiza, la mayoría escribe en alemán estándar pero habla dialecto (Schweizerdeutsch). Empieza por el estándar; el dialecto se entiende mejor cuando ya tienes base. Mira el bloque 47."}]
+  }
+ ]
+}
+
+out = os.path.join(os.path.dirname(__file__), "..", "..", "backend", "app", "content", "block_00.json")
+json.dump(B, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+print("ok", out)

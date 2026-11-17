@@ -15,6 +15,7 @@ import VerbsPanel from "./panels/VerbsPanel";
 import WordTip from "./components/WordTip";
 import MacImportBanner from "./components/MacImportBanner";
 import { onOpenVerb } from "./verbs";
+import { onGoTo } from "./navigate";
 import { summarize, useReviewItems } from "./srs";
 
 // Bloque que funciona como panel de práctica (widgets en vivo, no contenido).
@@ -90,6 +91,19 @@ export default function App() {
     api.listBlocks().then(setIndex).catch(() => setIndex([]));
   }, []);
 
+  // Enlaces internos (plan de estudio, etc.)
+  useEffect(
+    () =>
+      onGoTo((block, idx) => {
+        if (idx) goToSectionRef.current(block, idx);
+        else {
+          setNavOpen(false);
+          setCurrent(block);
+        }
+      }),
+    []
+  );
+
   // «Ver conjugación» desde el tooltip de cualquier palabra.
   useEffect(
     () =>
@@ -143,6 +157,9 @@ export default function App() {
     setNavOpen(false);
     setCurrent(b);
   }
+
+  const goToSectionRef = useRef(null);
+  goToSectionRef.current = (b, i) => goToSection(b, i);
 
   function goToSection(targetBlock, idx) {
     setNavOpen(false);

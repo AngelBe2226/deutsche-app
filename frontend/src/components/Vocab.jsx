@@ -3,6 +3,7 @@ import { escapeHtml } from "../lexicon";
 import { useState } from "react";
 import SpeakButton from "./SpeakButton";
 import { figurada } from "../figurada";
+import { speakEcho, useTTS } from "../tts";
 
 // Vocabulario temático (Wortschatz). Esquema (campo `vocab`):
 //   { id, items: [ { de: "die Rezeption", pl: "-en", es: "la recepción" } ] }
@@ -14,6 +15,9 @@ const GENDER = { der: "m", die: "f", das: "n" };
 export default function Vocab({ vocab }) {
   const [hideEs, setHideEs] = useState(false);
   const [shown, setShown] = useState(() => new Set());
+  const { playing, cursor, supported } = useTTS();
+  const echoId = `${vocab.id}-echo`;
+  const echoOn = playing === echoId;
 
   const toggleCard = (i) =>
     setShown((s) => {
@@ -31,6 +35,15 @@ export default function Vocab({ vocab }) {
           <i className="g-n">das</i>
           <span>{vocab.items.length} palabras</span>
         </span>
+        {supported && (
+          <button
+            className={"chip-btn" + (echoOn ? " on" : "")}
+            onClick={() => speakEcho(echoId, vocab.items.map((it) => it.de), 1.6)}
+            title="Escucha cada palabra y repítela en voz alta en la pausa"
+          >
+            {echoOn ? "■ Parar eco" : "▶ Modo eco"}
+          </button>
+        )}
         <button
           className={"chip-btn" + (hideEs ? " on-soft" : "")}
           onClick={() => {
@@ -50,7 +63,7 @@ export default function Vocab({ vocab }) {
           return (
             <div
               key={i}
-              className={"vcab" + (hideEs ? " testing" : "") + (reveal ? "" : " hidden-es")}
+              className={"vcab" + (hideEs ? " testing" : "") + (reveal ? "" : " hidden-es") + (echoOn && cursor === i ? " echo-now" : "")}
               onClick={() => hideEs && toggleCard(i)}
             >
               <RichText

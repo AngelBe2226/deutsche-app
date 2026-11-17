@@ -4583,3 +4583,196 @@ b.hl,
   font-size: 0.78rem;
   margin-top: 0.1rem;
 }
+
+/* Herramientas de práctica en los ejemplos (Kartonkarte y modo eco) */
+.ex-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.4rem 0 0.6rem;
+}
+.ex-cover {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 1px dashed var(--line-strong);
+  background: var(--surface-2);
+  color: var(--ink-faint);
+  border-radius: var(--r-sm);
+  padding: 0.35rem 0.6rem;
+  font: inherit;
+  font-size: 0.86rem;
+  cursor: pointer;
+}
+.ex-cover:hover {
+  border-color: var(--iris-line);
+  color: var(--iris-ink);
+}
+.examples li.echo-now {
+  background: var(--iris-soft);
+  border-radius: var(--r-sm);
+}
+.vcab.echo-now {
+  border-color: var(--iris);
+  box-shadow: var(--ring);
+}
+
+/* Fábrica de frases */
+.builder {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--surface-2);
+}
+.builder-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 0.7rem;
+  align-items: center;
+}
+.builder-row label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  flex: 1 1 180px;
+  min-width: 0;
+}
+.builder-row select {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.5rem;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  max-width: 100%;
+}
+.builder-types label.builder-challenge {
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  flex: 0 0 auto;
+}
+.builder-out {
+  padding: 0.8rem 0.9rem;
+  border-radius: var(--r-sm);
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.builder-es {
+  color: var(--ink-soft);
+  margin-bottom: 0.4rem;
+}
+.builder-de {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.builder-de .speak-btn {
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+.builder-de .fig {
+  font-size: 0.8rem;
+  margin-top: 0.15rem;
+}
+.builder-hint {
+  margin: 0.5rem 0 0;
+  font-size: 0.82rem;
+  color: var(--iris-ink);
+}
+
+/* Plan de estudio */
+.plan-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin: 0.6rem 0 1rem;
+}
+.plan-bar {
+  flex: 1;
+  height: 8px;
+  border-radius: 99px;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+.plan-bar span {
+  display: block;
+  height: 100%;
+  background: var(--grad);
+  transition: width 0.3s;
+}
+.plan-days {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+}
+.plan-day {
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 0.8rem 1rem;
+}
+.plan-day.done {
+  border-color: var(--ok-line);
+  background: var(--ok-bg);
+}
+.plan-day-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.plan-day-num {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--iris-ink);
+}
+.plan-min {
+  margin-left: auto;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+.plan-day ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.plan-day li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+  font-size: 0.9rem;
+}
+.plan-day li label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  flex: 1;
+  cursor: pointer;
+}
+.plan-day li label input {
+  margin-top: 0.25rem;
+}
+.plan-day li.on label {
+  color: var(--ink-faint);
+  text-decoration: line-through;
+}
+.plan-go {
+  border: 0;
+  background: none;
+  color: var(--iris-ink);
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+  white-space: nowrap;
+}

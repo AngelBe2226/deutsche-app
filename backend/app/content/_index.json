@@ -1,5 +1,10 @@
 [
   {
+    "block": "00",
+    "title": "Método: aprender rápido (y sin sufrir)",
+    "sectionCount": 8
+  },
+  {
     "block": "01",
     "title": "Pronombres personales y artículos",
     "sectionCount": 4
@@ -36,12 +41,12 @@
   },
   {
     "block": "08",
-    "title": "Estructura: el verbo en 2ª posición",
+    "title": "Estructura de la oración: el verbo en 2ª posición",
     "sectionCount": 5
   },
   {
     "block": "09",
-    "title": "Subordinadas: el verbo al final",
+    "title": "Oraciones subordinadas: el verbo se va al final",
     "sectionCount": 5
   },
   {
@@ -81,7 +86,7 @@
   },
   {
     "block": "17",
-    "title": "Vocabulario y falsos amigos",
+    "title": "Vocabulario, colocaciones y falsos amigos",
     "sectionCount": 3
   },
   {

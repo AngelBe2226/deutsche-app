@@ -1,4 +1,7 @@
 import RichText from "./RichText";
+import Examples from "./Examples";
+import SentenceBuilder from "./SentenceBuilder";
+import StudyPlan from "./StudyPlan";
 import Table from "./Table";
 import Quiz from "./Quiz";
 import ProduceBox from "./ProduceBox";
@@ -120,18 +123,12 @@ export default function SectionCard({ section }) {
 
       {section.writing && <Writing w={section.writing} />}
 
-      {section.examples?.length > 0 && (
-        <ul className="examples" aria-label="Ejemplos">
-          {section.examples.map((ex, i) => (
-            <li key={i}>
-              <SpeakButton id={`${section.idx}-ex${i}`} text={plainText(ex.en)} label="Escuchar ejemplo" />
-              <HighlightButton id={`hl:${section.idx}-ex${i}`} label="ejemplo destacado" />
-              <RichText className="ex-en" html={ex.en} de="de" />
-              {ex.es && <span className="ex-es">{ex.es}</span>}
-            </li>
-          ))}
-        </ul>
-      )}
+      {section.builder && <SentenceBuilder />}
+
+      {section.plan && <StudyPlan plan={section.plan} />}
+
+      {section.examples?.length > 0 && <Examples idx={section.idx} examples={section.examples} />}
+
 
       {section.tables?.map((t, i) => (
         <Table key={i} table={t} id={`${section.idx}-t${i}`} />
