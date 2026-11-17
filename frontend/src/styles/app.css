@@ -4561,3 +4561,25 @@ b.hl,
 .mac-import-err {
   color: var(--no);
 }
+
+/* Pronunciación figurada «a la española» */
+.fig {
+  font-family: var(--body);
+  font-weight: 450;
+  font-size: 0.78em;
+  color: var(--ink-faint);
+  letter-spacing: 0;
+}
+.fig::before { content: "["; }
+.fig::after { content: "]"; }
+.wtip-word .fig,
+.conj-lemma .fig {
+  margin-left: 0.45rem;
+}
+.conj-lemma .fig {
+  font-size: 0.5em;
+}
+.vcab-fig {
+  font-size: 0.78rem;
+  margin-top: 0.1rem;
+}

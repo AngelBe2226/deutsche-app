@@ -2,6 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 import { ARTICLE, POS_ES, isSentenceInitial, lookup, useLexicon } from "../lexicon";
 import { loadVerb, openVerb } from "../verbs";
 import SpeakButton from "./SpeakButton";
+import { figurada } from "../figurada";
 
 // Ventanita con el significado de una palabra alemana subrayada (.w).
 // Escritorio: aparece al pasar el cursor. Móvil/táctil: al tocar la palabra.
@@ -111,6 +112,7 @@ export default function WordTip() {
       <div className="wtip-head">
         <span className="wtip-word" lang="de">
           {tip.word}
+          <span className="fig" title="Pronunciación figurada (aprox.)">{figurada(tip.word)}</span>
         </span>
         <SpeakButton id={"wtip-" + tip.word} text={tip.word} label="Escuchar palabra" />
       </div>

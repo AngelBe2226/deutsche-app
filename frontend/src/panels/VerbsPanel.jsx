@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import SpeakButton from "../components/SpeakButton";
+import { figurada } from "../figurada";
 import { IconSearch } from "../components/Icons";
 import {
   MOODS,
@@ -195,6 +196,7 @@ function VerbView({ verb, mood, setMood, showEx, toggleEx }) {
         <div>
           <h2 className="conj-lemma">
             {verb.lemma}
+            <span className="fig" title="Pronunciación figurada (aprox.)">{figurada(verb.lemma)}</span>
             <SpeakButton id={"conj-" + verb.lemma} text={verb.lemma} />
           </h2>
           <p className="conj-meaning">

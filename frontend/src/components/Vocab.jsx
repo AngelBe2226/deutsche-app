@@ -2,6 +2,7 @@ import RichText from "./RichText";
 import { escapeHtml } from "../lexicon";
 import { useState } from "react";
 import SpeakButton from "./SpeakButton";
+import { figurada } from "../figurada";
 
 // Vocabulario temático (Wortschatz). Esquema (campo `vocab`):
 //   { id, items: [ { de: "die Rezeption", pl: "-en", es: "la recepción" } ] }
@@ -62,6 +63,9 @@ export default function Vocab({ vocab }) {
                     : escapeHtml(it.de)
                 }
               />
+              <div className="fig vcab-fig" title="Pronunciación figurada (aprox.)">
+                {figurada(it.de)}
+              </div>
               {it.pl && <div className="vcab-pl" lang="de">Pl. {it.pl}</div>}
               <div className="vcab-es">{reveal ? it.es : "· · ·"}</div>
               <SpeakButton id={`${vocab.id}-${i}`} text={it.de} label="Escuchar palabra" />
