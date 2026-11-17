@@ -4,8 +4,25 @@
     {
       "name": "frontend",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
       "cwd": "frontend",
+      "port": 5174
+    },
+    {
+      "name": "german-index-dev",
+      "runtimeExecutable": "/usr/bin/env",
+      "runtimeArgs": [
+        "VITE_STATIC=0",
+        "PATH=/opt/homebrew/bin:/usr/bin:/bin",
+        "npm",
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/laura/Projects/german-index/frontend"
+      ],
       "port": 5174
     }
   ]
