@@ -1,0 +1,468 @@
+{
+  "block": "46",
+  "title": "Cultura: meteduras de pata, fiestas y frases de nativo",
+  "kicker": "Bloque 46 · Cultura · A2–B1",
+  "intro": "Lo que no viene en la gramática pero te ahorra sustos: <b class=\"hl\">frases que nunca debes decir</b> (y la versión correcta), las expresiones que oirás a todas horas, las fiestas del calendario, refranes para sonar nativo y las normas no escritas de la convivencia en Suiza y Alemania.",
+  "sections": [
+    {
+      "idx": "46.1",
+      "title": "Diez cosas que nunca debes decir (y qué decir)",
+      "level": "A2",
+      "rule": "Errores típicos de hispanohablantes que pasan de gracioso a incómodo. La mayoría vienen de traducir palabra por palabra desde el español.",
+      "tables": [
+        {
+          "headers": [
+            "❌ No digas",
+            "Lo que entienden",
+            "✅ Di"
+          ],
+          "rows": [
+            [
+              "Ich bin heiß.",
+              "«Estoy excitado/a»",
+              "<b>Mir ist heiß.</b> (tengo calor)"
+            ],
+            [
+              "Ich bin voll.",
+              "«Estoy borracho/a»",
+              "<b>Ich bin satt.</b> (estoy lleno/a)"
+            ],
+            [
+              "Ich bin kalt.",
+              "«Soy una persona fría»",
+              "<b>Mir ist kalt.</b> (tengo frío)"
+            ],
+            [
+              "Ich will einen Kaffee.",
+              "suena a exigencia",
+              "<b>Ich hätte gern / Ich möchte</b> einen Kaffee."
+            ],
+            [
+              "Ich bekomme Arzt.",
+              "«recibo un médico»",
+              "<b>Ich werde Arzt.</b> (bekommen = recibir)"
+            ],
+            [
+              "Ein Gift für dich!",
+              "«¡un veneno para ti!»",
+              "<b>Ein Geschenk</b> für dich!"
+            ],
+            [
+              "Hallo, wie geht's dir? (al jefe nuevo)",
+              "demasiada confianza",
+              "<b>Guten Tag, wie geht es Ihnen?</b> (Sie hasta que te ofrezcan el du)"
+            ],
+            [
+              "Hören Sie! (para llamar a alguien)",
+              "suena brusco",
+              "<b>Entschuldigung!</b> / Entschuldigen Sie!"
+            ],
+            [
+              "Ich habe 30 Jahre.",
+              "no tiene sentido",
+              "<b>Ich bin 30 (Jahre alt).</b>"
+            ],
+            [
+              "Sie sind also Deutscher? (a un suizo)",
+              "molesta: no son alemanes",
+              "<b>Sie sind Schweizer, oder?</b>"
+            ]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b46-s1q1",
+          "question": "1. Has comido mucho. Dices:",
+          "options": [
+            "Ich bin voll.",
+            "Ich bin satt.",
+            "Ich habe voll."
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Ich bin satt</b>. «Ich bin voll» se entiende como «estoy borracho/a»."
+        },
+        {
+          "id": "b46-s1q2",
+          "question": "2. Hace calor en la oficina:",
+          "options": [
+            "Ich bin heiß.",
+            "Mir ist heiß.",
+            "Ich habe heiß."
+          ],
+          "correctIndex": 1,
+          "explain": "Sensaciones físicas: <b>mir ist</b> + adjetivo. «Ich bin heiß» tiene connotación sexual."
+        },
+        {
+          "id": "b46-s1q3",
+          "question": "3. «Quiero ser médico» →",
+          "options": [
+            "Ich will Arzt bekommen.",
+            "Ich will Arzt werden.",
+            "Ich will Arzt sein bekommen."
+          ],
+          "correctIndex": 1,
+          "explain": "«Llegar a ser» = <b>werden</b>. <i>bekommen</i> significa recibir."
+        },
+        {
+          "id": "b46-s1q4",
+          "question": "4. Para llamar la atención de un camarero:",
+          "options": [
+            "Hören Sie!",
+            "Entschuldigung!",
+            "He, du!"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Entschuldigung!</b> es lo educado. «Hören Sie!» suena a regañina."
+        }
+      ]
+    },
+    {
+      "idx": "46.2",
+      "title": "Las muletillas que oirás a todas horas",
+      "level": "A2",
+      "rule": "Pequeñas palabras que hacen sonar natural una conversación. No tienen traducción exacta: apréndelas con su <b>función</b>.",
+      "examples": [
+        {
+          "en": "Ach so!",
+          "es": "¡Ah, ya! (acabas de entender algo)"
+        },
+        {
+          "en": "Na ja …",
+          "es": "Bueno… (duda, poco entusiasmo)"
+        },
+        {
+          "en": "Mal sehen.",
+          "es": "Ya veremos."
+        },
+        {
+          "en": "Echt? / Wirklich?",
+          "es": "¿En serio?"
+        },
+        {
+          "en": "Na klar! / Klar doch!",
+          "es": "¡Claro que sí!"
+        },
+        {
+          "en": "Doch!",
+          "es": "¡Que sí! (contradice una negación)"
+        },
+        {
+          "en": "Krass!",
+          "es": "¡Qué fuerte! (jóvenes)"
+        },
+        {
+          "en": "Passt schon.",
+          "es": "No pasa nada / está bien así."
+        },
+        {
+          "en": "Feierabend!",
+          "es": "¡Se acabó la jornada!"
+        },
+        {
+          "en": "Mahlzeit!",
+          "es": "¡Buen provecho! (saludo de oficina hacia el mediodía)"
+        },
+        {
+          "en": "Gell? / Oder? (CH)",
+          "es": "¿Verdad? (coletilla al final de la frase)"
+        },
+        {
+          "en": "Hopp! / Hopp Schwiiz! (CH)",
+          "es": "¡Vamos! / ¡Vamos, Suiza! (para animar)"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b46-s2q1",
+          "question": "1. Te explican algo y por fin lo entiendes:",
+          "options": [
+            "Ach so!",
+            "Doch!",
+            "Mahlzeit!"
+          ],
+          "correctIndex": 0,
+          "explain": "<b>Ach so!</b> = ¡ah, ya!, ahora lo entiendo."
+        },
+        {
+          "id": "b46-s2q2",
+          "question": "2. «Du kommst nicht mit, oder?» — Sí que vas. Respondes:",
+          "options": [
+            "Ja!",
+            "Doch!",
+            "Nein!"
+          ],
+          "correctIndex": 1,
+          "explain": "Para decir que sí a una pregunta <b>negativa</b>: <b>Doch!</b>"
+        },
+        {
+          "id": "b46-s2q3",
+          "question": "3. A las 12:30 un compañero te dice «Mahlzeit!». Es…",
+          "options": [
+            "una queja por el hambre",
+            "un saludo típico de la hora de comer",
+            "una invitación a comer"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Mahlzeit!</b> se usa como saludo en la oficina a mediodía."
+        }
+      ]
+    },
+    {
+      "idx": "46.3",
+      "title": "Fiestas del calendario",
+      "level": "A2",
+      "rule": "Las fiestas que vivirás en Suiza y Alemania. Fíjate en que algunas son solo de una región o de un país.",
+      "tables": [
+        {
+          "headers": [
+            "Fecha",
+            "Fiesta",
+            "Qué se hace"
+          ],
+          "rows": [
+            [
+              "diciembre",
+              "der Advent · der Weihnachtsmarkt",
+              "calendario de Adviento, mercados navideños con Glühwein"
+            ],
+            [
+              "6 de diciembre",
+              "der Samichlaus (CH) / der Nikolaus",
+              "San Nicolás trae mandarinas, nueces y chocolate a los niños"
+            ],
+            [
+              "24–26 de dic.",
+              "Weihnachten",
+              "los regalos se abren la noche del 24 (Heiligabend)"
+            ],
+            [
+              "31 de dic.",
+              "Silvester",
+              "fuegos artificiales y Bleigiessen/Raclette en casa"
+            ],
+            [
+              "febrero–marzo",
+              "die Fasnacht (CH) · der Karneval (DE)",
+              "Basler Fasnacht: empieza el lunes a las 4:00 (Morgestraich)"
+            ],
+            [
+              "primavera",
+              "Ostern",
+              "huevos pintados, conejo de Pascua, chocolate"
+            ],
+            [
+              "abril (Zúrich)",
+              "das Sechseläuten",
+              "se quema el «Böögg» (muñeco de nieve): cuanto antes explota, mejor verano"
+            ],
+            [
+              "1 de agosto",
+              "der Nationalfeiertag (CH)",
+              "hogueras, farolillos y fuegos artificiales"
+            ],
+            [
+              "sept.–oct. (Múnich)",
+              "das Oktoberfest",
+              "cerveza, trajes tradicionales y música"
+            ],
+            [
+              "3 de octubre",
+              "Tag der Deutschen Einheit",
+              "fiesta nacional alemana (reunificación)"
+            ]
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b46-s3q1",
+          "question": "1. ¿Cuál es la fiesta nacional suiza?",
+          "options": [
+            "el 3 de octubre",
+            "el 1 de agosto",
+            "el 6 de diciembre"
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Der 1. August</b>. El 3 de octubre es la fiesta nacional alemana."
+        },
+        {
+          "id": "b46-s3q2",
+          "question": "2. ¿Cuándo se abren los regalos de Navidad?",
+          "options": [
+            "el 24 por la noche",
+            "el 25 por la mañana",
+            "el 6 de enero"
+          ],
+          "correctIndex": 0,
+          "explain": "En el mundo germanohablante, en <b>Heiligabend</b> (24 por la noche)."
+        },
+        {
+          "id": "b46-s3q3",
+          "question": "3. En el Sechseläuten de Zúrich se quema…",
+          "options": [
+            "un árbol de Navidad",
+            "el Böögg, un muñeco de nieve",
+            "una barca"
+          ],
+          "correctIndex": 1,
+          "explain": "El <b>Böögg</b>: según cuánto tarde en explotar, se «predice» el verano."
+        }
+      ]
+    },
+    {
+      "idx": "46.4",
+      "title": "Frases para sonar nativo",
+      "level": "B1",
+      "rule": "Refranes y expresiones que, bien colocados, causan sensación. Úsalos con moderación y en el contexto adecuado.",
+      "examples": [
+        {
+          "en": "Es ist noch kein Meister vom Himmel gefallen.",
+          "es": "Nadie nace sabiendo."
+        },
+        {
+          "en": "Aller Anfang ist schwer.",
+          "es": "Todo comienzo es difícil."
+        },
+        {
+          "en": "Übung macht den Meister.",
+          "es": "La práctica hace al maestro."
+        },
+        {
+          "en": "Alles hat ein Ende, nur die Wurst hat zwei.",
+          "es": "Todo tiene un final (menos la salchicha, que tiene dos)."
+        },
+        {
+          "en": "Da steppt der Bär!",
+          "es": "¡Allí hay muchísima marcha!"
+        },
+        {
+          "en": "Ich glaub, mein Schwein pfeift!",
+          "es": "¡No me lo puedo creer! (coloquial, sorpresa)"
+        },
+        {
+          "en": "Das kann ja heiter werden.",
+          "es": "Esto promete… (irónico: se avecinan problemas)"
+        },
+        {
+          "en": "Wer rastet, der rostet.",
+          "es": "Quien se para, se oxida."
+        },
+        {
+          "en": "Morgenstund hat Gold im Mund.",
+          "es": "A quien madruga, Dios le ayuda."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b46-s4q1",
+          "question": "1. Un amigo se agobia porque comete errores en alemán. Le dices:",
+          "options": [
+            "Da steppt der Bär!",
+            "Es ist noch kein Meister vom Himmel gefallen.",
+            "Alles hat ein Ende, nur die Wurst hat zwei."
+          ],
+          "correctIndex": 1,
+          "explain": "<b>Nadie nace sabiendo</b>: perfecto para animar a quien empieza."
+        },
+        {
+          "id": "b46-s4q2",
+          "question": "2. «Morgenstund hat Gold im Mund» equivale a…",
+          "options": [
+            "A quien madruga, Dios le ayuda",
+            "No por mucho madrugar amanece más temprano",
+            "Más vale tarde que nunca"
+          ],
+          "correctIndex": 0,
+          "explain": "Literalmente «la hora de la mañana tiene oro en la boca»: <b>madrugar compensa</b>."
+        },
+        {
+          "id": "b46-s4q3",
+          "question": "3. «Das kann ja heiter werden» suele decirse…",
+          "options": [
+            "con alegría sincera",
+            "con ironía, cuando se avecinan problemas",
+            "para despedirse"
+          ],
+          "correctIndex": 1,
+          "explain": "<i>heiter</i> = alegre, pero la frase es <b>irónica</b>."
+        }
+      ]
+    },
+    {
+      "idx": "46.5",
+      "title": "Normas no escritas de la convivencia",
+      "level": "A2",
+      "rule": "La gramática social: lo que nadie te explica pero todos esperan. Cumplirlo te ahorrará notas en el buzón de los vecinos.",
+      "examples": [
+        {
+          "en": "Pünktlich sein: lieber fünf Minuten zu früh.",
+          "es": "Ser puntual: mejor cinco minutos antes."
+        },
+        {
+          "en": "Ruhezeiten: Nach 22 Uhr und am Sonntag ist Ruhe.",
+          "es": "Horas de silencio: después de las 22:00 y los domingos, nada de ruido (ni lavadora, ni taladro)."
+        },
+        {
+          "en": "Müll trennen: Papier, Glas, PET, Alu, Kompost …",
+          "es": "Separar la basura: papel, vidrio, PET, aluminio, orgánico…"
+        },
+        {
+          "en": "Gebührensack (CH): Abfall nur im offiziellen Sack.",
+          "es": "En muchas ciudades suizas, la basura solo en la bolsa oficial (de pago)."
+        },
+        {
+          "en": "Beim Anstoßen in die Augen schauen.",
+          "es": "Al brindar, mirar a los ojos."
+        },
+        {
+          "en": "Bei Rot nicht über die Straße gehen.",
+          "es": "No cruzar en rojo (aunque no venga nadie)."
+        },
+        {
+          "en": "In der Wohnung oft Schuhe ausziehen.",
+          "es": "En casa ajena, a menudo se quitan los zapatos."
+        },
+        {
+          "en": "Im Lift und im Treppenhaus grüßen.",
+          "es": "Saludar en el ascensor y en la escalera."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "b46-s5q1",
+          "question": "1. Domingo por la tarde en Suiza. ¿Qué evitas?",
+          "options": [
+            "Pasear",
+            "Poner la lavadora o taladrar",
+            "Leer"
+          ],
+          "correctIndex": 1,
+          "explain": "Los domingos son <b>Ruhetag</b>: nada de ruidos fuertes."
+        },
+        {
+          "id": "b46-s5q2",
+          "question": "2. ¿Qué es el «Gebührensack»?",
+          "options": [
+            "Una bolsa de tela para la compra",
+            "La bolsa oficial (de pago) para la basura",
+            "Un impuesto de la iglesia"
+          ],
+          "correctIndex": 1,
+          "explain": "En muchas ciudades suizas la basura doméstica solo se recoge en la <b>bolsa oficial</b>."
+        },
+        {
+          "id": "b46-s5q3",
+          "question": "3. Al brindar con «Prost!»…",
+          "options": [
+            "miras la copa",
+            "miras a los ojos",
+            "cierras los ojos"
+          ],
+          "correctIndex": 1,
+          "explain": "Se mira <b>a los ojos</b>; no hacerlo se considera de mala educación (y, según la broma, trae mala suerte)."
+        }
+      ]
+    }
+  ]
+}

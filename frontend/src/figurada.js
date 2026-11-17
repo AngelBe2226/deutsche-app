@@ -58,8 +58,23 @@ function stressedGroup(w, groups) {
 
 const ACUTE = { a: "á", e: "é", i: "í", o: "ó", u: "ú" };
 
+// Préstamos que no siguen las reglas alemanas (franceses, ingleses…)
+const LOANS = {
+  restaurant: "restorán", büro: "biuró:", trottoir: "trotuá:r", coiffeur: "kuafé:r", billett: "bilét",
+  poulet: "pulé", glace: "gláse", velo: "vélo", tram: "tram", garage: "garáshe", portemonnaie: "portmoné:",
+  chef: "shef", journalist: "shurnalíst", ingenieur: "inshenieó:r", café: "kafé:", cousin: "kusén",
+  cousine: "kusí:ne", orange: "orá:nshe", beige: "be:sh", jeans: "dshí:ns", job: "dshop", handy: "héndi",
+  computer: "kompyú:ta", team: "ti:m", meeting: "mí:ting", party: "pá:rti", ticket: "tíket", baby: "béibi",
+  show: "shou", joggen: "dshóguen", chatten: "chéten", googeln: "gúgueln", cool: "ku:l", okay: "okéi",
+  sorry: "sóri", email: "í:meil", "e-mail": "í:meil", laptop: "léptop", interview: "intaviú:", manager: "ménedsha",
+  champagner: "shampánia", ingenieurin: "inshenieó:rin", friseur: "frisé:r", trainer: "tré:na", apéro: "aperó",
+  merci: "mérsi", adieu: "adió", exgüsi: "eksguísi", grüezi: "gríuetsi", gipfeli: "guípfeli", rüebli: "riúebli",
+  znüni: "tsniúni", zvieri: "tsfí:ri", mitenand: "mítenant", familie: "famí:lie", museum: "musé:um",
+};
+
 function figWord(word) {
   const w = word.toLowerCase();
+  if (LOANS[w]) return LOANS[w];
   if (!/[a-zäöüß]/.test(w)) return word;
   const groups = vowelGroups(w);
   const stressG = stressedGroup(w, groups);

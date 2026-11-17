@@ -1,0 +1,85 @@
+from common import *
+
+B = {"block": "47", "title": "Suiza: Helvetismen, Schweizerdeutsch y vida práctica", "kicker": "Bloque 47 · Suiza · A2–B1",
+ "intro": "En la Suiza alemana se <b class=\"hl\">escribe alemán estándar</b> (con palabras propias, los <i>Helvetismen</i>) y se <b class=\"hl\">habla dialecto</b> (Schweizerdeutsch). Aquí: el vocabulario suizo que usarás desde el primer día, cómo reconocer el dialecto, y la vida práctica: Gemeinde, permisos, seguro médico y… el famoso plan de la lavandería.",
+ "sections": [
+  {"idx": "47.1", "title": "Wortschatz: palabras suizas (Helvetismen)", "level": "A2",
+   "rule": "Son palabras del <b>alemán estándar de Suiza</b>: salen en periódicos, carteles y correos oficiales. Si las usas, sonarás local; si usas las de Alemania, te entenderán igual.",
+   "tables": table(["Suiza 🇨🇭", "Alemania 🇩🇪", "Español"], [
+     ["das Velo", "das Fahrrad", "la bicicleta"], ["das Tram", "die Straßenbahn", "el tranvía"], ["das Billett", "die Fahrkarte", "el billete"],
+     ["parkieren · grillieren", "parken · grillen", "aparcar · hacer barbacoa"], ["das Trottoir", "der Bürgersteig", "la acera"],
+     ["das Spital", "das Krankenhaus", "el hospital"], ["der Coiffeur", "der Friseur", "el peluquero"], ["das Poulet", "das Hähnchen", "el pollo"],
+     ["das Rüebli", "die Möhre / Karotte", "la zanahoria"], ["das Gipfeli", "das Croissant", "el cruasán"], ["die Glace", "das Eis", "el helado"],
+     ["der Znüni · der Zvieri", "das zweite Frühstück · der Nachmittagssnack", "el tentempié de las 9 · la merienda de las 4"],
+     ["die Ferien", "der Urlaub", "las vacaciones"], ["der Abwart", "der Hausmeister", "el conserje"], ["Merci · Exgüsi", "Danke · Entschuldigung", "gracias · perdón"]]),
+   "quiz": [
+     q("b47-s1q1", "1. En Suiza, «el hospital» es…", ["das Spital", "die Klinik siempre", "das Hospital"], 0, "Helvetismo: <b>das Spital</b> (en Alemania, <i>das Krankenhaus</i>)."),
+     q("b47-s1q2", "2. «Aparcar» en alemán suizo →", ["parken", "parkieren", "parkeln"], 1, "En Suiza: <b>parkieren</b>; en Alemania, <i>parken</i>."),
+     q("b47-s1q3", "3. El «Znüni» es…", ["la cena", "el tentempié de media mañana", "la merienda de las 4"], 1, "<b>Znüni</b> = «a las nueve»: tentempié de media mañana. La merienda es el <i>Zvieri</i>."),
+     q("b47-s1q4", "4. «el billete (de tren)» en Suiza →", ["das Billett", "das Ticket nur", "die Fahrkarte nur"], 0, "En Suiza se dice <b>das Billett</b>.")]},
+  {"idx": "47.2", "title": "El alemán estándar de Suiza: diferencias de escritura y gramática", "level": "B1",
+   "rule": "Tres diferencias que verás en todos los textos suizos: <b>no existe la ß</b> (se escribe <i>ss</i>: Strasse, Grüsse), algunas palabras tienen <b>otro género</b> (das Tram, das E-Mail, der Match) y en la lengua hablada <b>«es hat»</b> sustituye a «es gibt».",
+   "tables": table(["Suiza", "Alemania", "Nota"], [
+     ["die Strasse · Grüsse · gross", "die Straße · Grüße · groß", "en Suiza no hay ß"],
+     ["das Tram · das E-Mail", "die Straßenbahn · die E-Mail", "géneros distintos"],
+     ["der Match", "das Match / das Spiel", "partido (deporte)"],
+     ["Es hat noch Platz.", "Es gibt noch Platz.", "«hay» (coloquial)"],
+     ["Ich bin gestanden / gesessen.", "Ich habe gestanden / gesessen.", "stehen/sitzen con sein (también en el sur de Alemania)"],
+     ["Freundliche Grüsse", "Mit freundlichen Grüßen", "despedida formal de cartas"]]),
+   "quiz": [
+     q("b47-s2q1", "1. ¿Cómo se escribe «calle» en un cartel de Zúrich?", ["Straße", "Strasse", "Strase"], 1, "En Suiza no se usa la ß: <b>Strasse</b>."),
+     q("b47-s2q2", "2. «el tranvía» en Suiza es…", ["die Tram", "das Tram", "der Tram"], 1, "En Suiza: <b>das Tram</b> (neutro)."),
+     q("b47-s2q3", "3. «Es hat keine Milch mehr» (coloquial suizo) significa…", ["Ya no hay leche", "Él ya no tiene leche", "La leche ya no sirve"], 0, "<b>es hat</b> = hay (en Alemania: <i>es gibt</i>).")]},
+  {"idx": "47.3", "title": "Entender el Schweizerdeutsch: frases básicas", "level": "A2",
+   "rule": "El dialecto no se escribe en documentos, pero lo oirás en la calle, el trabajo y entre amigos. No hace falta hablarlo: basta con <b>reconocer</b> estas frases. Pistas: <i>k</i> inicial suena <i>ch</i> (Chuchi = Küche), muchas palabras pierden la <i>-n</i> final, y <i>ei</i> suena <i>i</i> (Zyt = Zeit).",
+   "tables": table(["Dialecto", "Alemán estándar", "Español"], [
+     ["Grüezi mitenand!", "Guten Tag zusammen!", "¡Buenos días a todos!"],
+     ["Wie gaht's?", "Wie geht's?", "¿Qué tal?"],
+     ["Merci vielmal!", "Vielen Dank!", "¡Muchas gracias!"],
+     ["Gärn gscheh.", "Gern geschehen.", "De nada."],
+     ["Exgüsi!", "Entschuldigung!", "¡Perdón!"],
+     ["Isch guet.", "Ist gut.", "Está bien / vale."],
+     ["Was choschtet das?", "Was kostet das?", "¿Cuánto cuesta?"],
+     ["Chunsch au?", "Kommst du auch?", "¿Vienes tú también?"],
+     ["Ich ha kei Ziit.", "Ich habe keine Zeit.", "No tengo tiempo."],
+     ["Uf Widerluege! · Tschau zäme!", "Auf Wiedersehen! · Tschüss zusammen!", "¡Adiós! · ¡Adiós a todos!"],
+     ["Chuchichäschtli", "Küchenschränkchen", "armarito de cocina (la palabra para probar tu pronunciación)"]]),
+   "notes": [note("tip", "Si no entiendes el dialecto, pide con naturalidad: <b>«Könnten Sie bitte Hochdeutsch sprechen?»</b> (¿podría hablar en alemán estándar?). Nadie se ofende; casi todos cambian sin problema.")],
+   "quiz": [
+     q("b47-s3q1", "1. «Chunsch au?» significa…", ["¿Vienes tú también?", "¿Tienes hambre?", "¿Compras algo?"], 0, "<i>chunsch</i> = kommst (k → ch) y <i>au</i> = auch: <b>Kommst du auch?</b>"),
+     q("b47-s3q2", "2. No entiendes a alguien que habla en dialecto. Le dices:", ["Sprechen Sie Schweizerdeutsch?", "Könnten Sie bitte Hochdeutsch sprechen?", "Ich verstehe nichts, tschüss."], 1, "Pide <b>Hochdeutsch</b> (alemán estándar) con cortesía."),
+     q("b47-s3q3", "3. «Isch guet» equivale a…", ["Es ist gut / vale", "Ich bin gut", "Ist es gut?"], 0, "<b>Isch guet</b> = ist gut: «vale, está bien».")]},
+  {"idx": "47.4", "title": "Vida práctica en Suiza", "level": "B1",
+   "rule": "Lo esencial de los primeros meses. Vocabulario que verás en cartas oficiales y que conviene entender a la primera.",
+   "examples": examples([
+     ("Melden Sie sich innerhalb von 14 Tagen bei der Gemeinde an.", "Empadrónese en el ayuntamiento (Gemeinde) en un plazo de 14 días."),
+     ("Die Einwohnerkontrolle stellt die Aufenthaltsbewilligung aus.", "El registro de habitantes expide el permiso de residencia (B, C…)."),
+     ("Die Krankenkasse ist obligatorisch. Sie haben drei Monate Zeit.", "El seguro médico es obligatorio. Tiene tres meses para contratarlo."),
+     ("Ihre AHV-Nummer finden Sie auf der Versicherungskarte.", "Su número de la seguridad social (AHV) está en la tarjeta del seguro."),
+     ("Die Schweiz hat 26 Kantone und vier Landessprachen.", "Suiza tiene 26 cantones y cuatro lenguas nacionales (alemán, francés, italiano y romanche)."),
+     ("Laut Hausordnung ist die Waschküche am Sonntag geschlossen.", "Según el reglamento del edificio, la lavandería cierra el domingo."),
+     ("Mit dem Halbtax fahren Sie zum halben Preis.", "Con el Halbtax viaja a mitad de precio.")]),
+   "notes": [note("why", "En muchos edificios suizos la lavadora es <b>comunitaria</b> (die Waschküche) y hay un <b>Waschplan</b>: cada vivienda tiene sus días y horas. Respetarlo es sagrado; saltárselo es la queja vecinal número uno.")],
+   "quiz": [
+     q("b47-s4q1", "1. ¿Dónde te empadronas al llegar?", ["en la Gemeinde (Einwohnerkontrolle)", "en la Krankenkasse", "en el Spital"], 0, "El registro se hace en la <b>Gemeinde</b> (Einwohnerkontrolle), normalmente en 14 días."),
+     q("b47-s4q2", "2. ¿Qué es obligatorio contratar en 3 meses?", ["el Halbtax", "la Krankenkasse (seguro médico)", "la Vignette"], 1, "El seguro médico básico (<b>Krankenkasse</b>) es obligatorio."),
+     q("b47-s4q3", "3. ¿Cuántas lenguas nacionales tiene Suiza?", ["dos", "tres", "cuatro"], 2, "<b>Cuatro</b>: alemán, francés, italiano y romanche."),
+     q("b47-s4q4", "4. die Waschküche es…", ["la cocina", "la lavandería comunitaria", "el lavaplatos"], 1, "<b>die Waschküche</b> = lavandería común del edificio.")]},
+  {"idx": "47.5", "title": "Diálogo: el plan de la lavandería", "level": "B1",
+   "rule": "Una conversación muy suiza con el conserje del edificio. Fíjate en el registro (Sie), los helvetismos y cómo se negocia con cortesía.",
+   "dialog": dialog("b47-waschkueche", "Waschküche de un edificio en Winterthur · martes, 19:00", {"W": ("Herr Brunner", "Conserje (Abwart)"), "A": ("Ana", "Tú")}, [
+     ("W", "Grüezi, Frau López. Exgüsi, aber heute ist eigentlich der Waschtag von Familie Meier.", "Buenas tardes, señora López. Perdone, pero hoy en realidad es el día de lavandería de la familia Meier."),
+     ("A", "Oh, das tut mir leid! Ich dachte, Dienstag ist unser Tag.", "¡Oh, lo siento! Pensaba que el martes era nuestro día."),
+     ("W", "Nein, Sie haben den Donnerstag. Der Waschplan hängt hier an der Tür.", "No, ustedes tienen el jueves. El plan de lavandería está colgado aquí en la puerta."),
+     ("A", "Ah, jetzt sehe ich es. Meine Maschine läuft schon … Darf ich sie noch fertig laufen lassen?", "Ah, ya lo veo. Mi lavadora ya está en marcha… ¿Puedo dejar que termine?"),
+     ("W", "Fragen Sie am besten Frau Meier. Sie wohnt im ersten Stock.", "Lo mejor es que se lo pregunte a la señora Meier. Vive en el primero."),
+     ("A", "Mache ich sofort. Und kann ich die Wäsche danach im Trocknungsraum aufhängen?", "Lo hago ahora mismo. ¿Y puedo tender la ropa luego en el secadero?"),
+     ("W", "Ja, aber bitte bis morgen Mittag abhängen. Und nach dem Waschen den Filter putzen.", "Sí, pero por favor recójala antes de mañana a mediodía. Y después de lavar, limpie el filtro."),
+     ("A", "Alles klar. Merci für die Info, Herr Brunner!", "Entendido. ¡Gracias por la información, señor Brunner!"),
+     ("W", "Gärn gscheh. En schöne Abig!", "De nada. ¡Que pase una buena tarde!")]),
+   "quiz": [
+     q("b47-s5q1", "1. ¿Qué día le toca a Ana la lavandería?", ["el martes", "el jueves", "el domingo"], 1, "«Sie haben den <b>Donnerstag</b>.»"),
+     q("b47-s5q2", "2. ¿Qué tiene que hacer después de lavar?", ["Barrer el suelo", "Limpiar el filtro", "Avisar al conserje"], 1, "«nach dem Waschen den <b>Filter putzen</b>»."),
+     q("b47-s5q3", "3. «En schöne Abig» (dialecto) significa…", ["¡Buena tarde/noche!", "¡Hasta mañana!", "¡Buen provecho!"], 0, "Dialecto de <i>Einen schönen Abend!</i>: <b>¡que pase una buena tarde!</b>")]}
+ ]}
+write(B)
