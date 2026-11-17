@@ -13,7 +13,7 @@ const PANELS = {
   "20.3": () => <ExamSimulator />,
 };
 
-export default function PracticePage({ block, index, prev, onSelectBlock }) {
+export default function PracticePage({ block, index, prev, next, onSelectBlock }) {
   return (
     <article className="block-page">
       <header className="hero">
@@ -46,7 +46,7 @@ export default function PracticePage({ block, index, prev, onSelectBlock }) {
         })}
       </div>
 
-      <Pager prev={prev} next={null} onSelectBlock={onSelectBlock} />
+      <Pager prev={prev} next={next} onSelectBlock={onSelectBlock} />
     </article>
   );
 }

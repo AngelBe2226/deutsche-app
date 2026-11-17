@@ -276,7 +276,7 @@ export default function App() {
               <p>No se pudo cargar el bloque {current}.</p>
             </div>
           ) : current === PRACTICE_BLOCK ? (
-            <PracticePage block={block} index={index} prev={prev} onSelectBlock={selectBlock} />
+            <PracticePage block={block} index={index} prev={prev} next={next} onSelectBlock={selectBlock} />
           ) : (
             <BlockPage
               block={block}

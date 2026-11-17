@@ -100,6 +100,11 @@
     "sectionCount": 30
   },
   {
+    "block": "20",
+    "title": "Práctica, quizzes y seguimiento",
+    "sectionCount": 3
+  },
+  {
     "block": "21",
     "title": "Diálogos y lecturas",
     "sectionCount": 4
@@ -233,10 +238,5 @@
     "block": "47",
     "title": "Suiza: Helvetismen, Schweizerdeutsch y vida práctica",
     "sectionCount": 5
-  },
-  {
-    "block": "20",
-    "title": "Práctica, quizzes y seguimiento",
-    "sectionCount": 3
   }
 ]
