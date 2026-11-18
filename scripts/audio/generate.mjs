@@ -56,8 +56,10 @@ const env = loadEnv();
 const PROVIDER = "piper";
 const PIPER_MODEL = env.PIPER_MODEL || "de_DE-thorsten-high";
 const PIPER_SPEAKER = env.PIPER_SPEAKER || "";
-// Velocidad medida en este Mac (segundos de audio por segundo de cálculo)
-const SPEED = /-high$/.test(PIPER_MODEL) ? 4.4 : 21;
+// Velocidad medida en el M1 (segundos de audio por segundo de cálculo,
+// incluyendo la carga por audio). Fases 1–2 con thorsten-high: 6,1 h de audio
+// en 5,4 h compartiendo CPU con la generación de english-app; sola, ~2×.
+const SPEED = Number(env.AUDIO_SPEED) || (/-high$/.test(PIPER_MODEL) ? 2 : 10);
 const MIN_FREE_GB = 3; // no llenar el disco del Mac
 
 // ---------- registro local ----------
