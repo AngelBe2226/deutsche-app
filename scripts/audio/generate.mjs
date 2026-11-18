@@ -37,6 +37,15 @@ const opt = (n, d) => {
 };
 const maxPhase = Number(opt("--phase", 5));
 const maxVerbs = Number(opt("--verbs", Infinity));
+// --window 8-24: solo generar en esa franja horaria local (de 8:00 a 24:00).
+// Fuera de ella no empieza, y si está generando, para sola. La noche (0–8)
+// queda libre para los audios de english-app.
+const windowArg = opt("--window", null);
+const [winFrom, winTo] = windowArg ? windowArg.split("-").map(Number) : [0, 24];
+const inWindow = () => {
+  const h = new Date().getHours();
+  return h >= winFrom && h < winTo;
+};
 const maxChars = Number(opt("--max-chars", Infinity));
 const quiet = flag("--quiet");
 const log = (...m) => !quiet && console.log(...m);
@@ -82,6 +91,11 @@ const fingerprint = () =>
     .join("|") + `|phase${maxPhase}|verbs${maxVerbs}`;
 
 if (flag("--if-changed") && fs.existsSync(STAMP_FILE) && fs.readFileSync(STAMP_FILE, "utf8") === fingerprint()) {
+  process.exit(0);
+}
+
+if (!flag("--dry-run") && !inWindow()) {
+  log(`Fuera de la franja ${winFrom}:00–${winTo}:00: no se genera ahora.`);
   process.exit(0);
 }
 
@@ -235,13 +249,27 @@ async function runPiper(items) {
   const byKey = new Map(items.map((it) => [it.key, it]));
   const rl = readline.createInterface({ input: child.stdout });
   const finished = new Promise((resolve) => child.on("close", resolve));
+  // Como mucho 32 audios enviados y sin terminar: así, al salir de la franja
+  // horaria o al detenerse, para en segundos y no tras cientos de audios.
+  let inflight = 0;
+  let wake = null;
+  const settle = () => {
+    inflight--;
+    if (wake) wake(), (wake = null);
+  };
   (async () => {
     for (const it of items) {
+      while (inflight >= 32) await new Promise((r) => (wake = r));
       if (stopped) break;
+      if (!inWindow()) {
+        stopped = `fin de la franja horaria (${winTo % 24}:00)`;
+        break;
+      }
       if (made % 200 === 0 && !r2 && freeGB() < MIN_FREE_GB) {
         stopped = "poco espacio en disco";
         break;
       }
+      inflight++;
       if (!child.stdin.write(JSON.stringify({ id: it.key, text: it.text }) + "\n")) {
         await new Promise((r) => child.stdin.once("drain", r));
       }
@@ -257,6 +285,7 @@ async function runPiper(items) {
     }
     const it = byKey.get(msg.id);
     if (!it) continue;
+    settle();
     if (msg.ok) await afterMade(it);
     else fail(it, new Error(msg.error));
   }
