@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import SpeakButton from "../components/SpeakButton";
 import { figurada } from "../figurada";
+import { audioEnabled } from "../audio/player";
 import { IconSearch } from "../components/Icons";
 import {
   MOODS,
@@ -9,6 +10,8 @@ import {
   loadVerb,
   loadVerbIndex,
   modelSentence,
+  partsSpeech,
+  rowSpeech,
   searchVerbs,
 } from "../verbs";
 
@@ -174,6 +177,7 @@ export default function VerbsPanel({ initialVerb: target }) {
 
       <p className="conj-credits">
         Conjugaciones: Wiktionary (CC BY-SA 4.0). Ejemplos reales: Tatoeba (CC BY 2.0 FR).
+        {audioEnabled() && " Las voces en alemán están generadas con IA."}
       </p>
     </article>
   );
@@ -211,6 +215,10 @@ function VerbView({ verb, mood, setMood, showEx, toggleEx }) {
         </div>
       </header>
 
+      <div className="conj-parts-say">
+        <SpeakButton id={"conj-parts-" + verb.lemma} text={partsSpeech(verb)} label="Escuchar las formas principales" />
+        <span>Formas principales</span>
+      </div>
       <dl className="conj-parts">
         <Part label="Infinitiv" value={verb.lemma} />
         <Part label="Präsens (er)" value={p3} />
@@ -267,6 +275,7 @@ function VerbView({ verb, mood, setMood, showEx, toggleEx }) {
                     form={who === "Sie" ? form.replace(/^(\S+)/, "$1 Sie") : form}
                     ex={e}
                     model={imperativeSentence(form, who)}
+                    imp
                     showEx={showEx}
                   />
                 ) : null
@@ -324,7 +333,7 @@ function Part({ label, value }) {
   );
 }
 
-function Row({ id, person, form, ex, model, showEx }) {
+function Row({ id, person, form, ex, model, showEx, imp = false }) {
   const [toggled, setToggled] = useState(false);
   const open = showEx !== toggled;
   const setOpen = () => setToggled((x) => !x);
@@ -339,6 +348,7 @@ function Row({ id, person, form, ex, model, showEx }) {
         </span>
         <span className="conj-ex-dot" title={ex ? "Ejemplo real" : "Frase modelo"} data-real={ex ? "1" : "0"} />
       </button>
+      <SpeakButton id={id + "-row"} text={rowSpeech(person, form, imp)} label="Escuchar la forma" className="conj-row-speak" />
       {open && (ex ? <Example ex={ex} id={id} /> : <Example model={model} id={id} />)}
     </li>
   );

@@ -43,6 +43,8 @@ jobs:
           # tiene prioridad sobre estos valores.
           VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL || secrets.SUPABASE_URL || 'https://fvskktohsrizlyqxgikm.supabase.co' }}
           VITE_SUPABASE_ANON_KEY: ${{ vars.SUPABASE_ANON_KEY || secrets.SUPABASE_ANON_KEY || 'sb_publishable_FzoQtVT5cm3UUq8DsvYB6Q_yehYSmP4' }}
+          # Dirección pública del bucket de audios (Settings → Variables → AUDIO_BASE)
+          VITE_AUDIO_BASE: ${{ vars.AUDIO_BASE }}
         run: npm run build
 
       - name: Upload Pages artifact

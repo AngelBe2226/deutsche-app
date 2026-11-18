@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import RichText from "./RichText";
+import { audioEnabled } from "../audio/player";
 import SectionCard from "./SectionCard";
 import ProgressRing from "./ProgressRing";
 import Pager from "./Pager";
@@ -54,6 +55,7 @@ export default function BlockPage({ block, onReset, prev, next, onSelectBlock })
         </div>
         <h1 className="block-title">{block.title}</h1>
         <RichText as="p" className="block-intro" html={block.intro} de="mixed" />
+        {audioEnabled() && <p className="ai-voice-note">Las voces en alemán están generadas con IA.</p>}
 
         <div className="stat-cards">
           {total > 0 && (

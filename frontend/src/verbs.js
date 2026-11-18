@@ -1,6 +1,6 @@
 // Datos del Conjugador: índice de lemas + tablas repartidas en 256 ficheros
 // (frontend/public/verbs/, generados con tools/build_verbs.py).
-const BASE = import.meta.env.BASE_URL || "/";
+const BASE = (import.meta.env && import.meta.env.BASE_URL) || "/";
 
 let indexPromise = null;
 const bucketCache = new Map();
@@ -149,4 +149,21 @@ export function imperativeSentence(form, kind) {
   const parts = f.split(" ");
   const head = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
   return [head, ...(kind === "Sie" ? ["Sie"] : []), "bitte", ...parts.slice(1)].join(" ") + "!";
+}
+
+// Lo que dice el botón 🔊 de una fila: pronombre + forma principal
+// («er/sie/es» → «er geht»). En el imperativo, la forma ya va completa.
+export function rowSpeech(person, form, imp = false) {
+  const main = form.split(" / ")[0];
+  if (imp) return main.charAt(0).toUpperCase() + main.slice(1) + "!";
+  if (/usted|\(/.test(person) || /^[A-ZÄÖÜ]/.test(main)) return main;
+  return `${person.split("/")[0]} ${main}`;
+}
+
+// Formas principales leídas seguidas: «sprechen, sprach, hat gesprochen»
+export function partsSpeech(verb) {
+  const prat = (verb.t.ind_prat?.[2] || "").split(" / ")[0];
+  const p2 = verb.p2?.[0];
+  const aux = verb.aux?.[0] === "sein" ? "ist" : "hat";
+  return [verb.lemma, prat, p2 && `${aux} ${p2}`].filter(Boolean).join(", ");
 }

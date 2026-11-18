@@ -1,11 +1,14 @@
 import { useSyncExternalStore } from "react";
+import { audioEnabled, playClip, stopClip, unlockAudio } from "./audio/player";
 
 // Motor de voz (TTS) sobre la Web Speech API del navegador, con voz alemana.
 // Un único "store" global: qué se está leyendo ahora y a qué velocidad, para
 // que cada botón sepa si animarse y el selector de velocidad sea compartido.
 
 export const RATES = { normal: 0.95, slow: 0.7 };
-const supported = typeof window !== "undefined" && "speechSynthesis" in window;
+const hasSynth = typeof window !== "undefined" && "speechSynthesis" in window;
+// Hay voz si hay audios generados (R2) o voz del sistema.
+const supported = hasSynth || audioEnabled();
 
 let state = {
   playing: null, // id del botón que está sonando
@@ -51,7 +54,7 @@ function pickVoice() {
     null;
   set({ hasVoice: true });
 }
-if (supported) {
+if (hasSynth) {
   pickVoice();
   window.speechSynthesis.addEventListener?.("voiceschanged", pickVoice);
 }
@@ -67,15 +70,28 @@ function utterance(text, alt = false) {
   return u;
 }
 
-// Texto plano a partir del HTML del contenido (spans de rol, <b>, <i>…).
-export function plainText(html) {
-  const el = document.createElement("div");
-  el.innerHTML = html || "";
-  return (el.textContent || "")
-    .replace(/_{2,}|…{1,}|\.{3,}/g, " … ") // huecos de ejercicio
-    .replace(/[→←↔]/g, ",")
-    .replace(/\s+/g, " ")
-    .trim();
+// Texto plano y frases de ejercicios: funciones puras compartidas con el
+// generador de audios (audio/texts.js).
+export { plainText, germanCells, isGerman, quizSentence } from "./audio/texts.js";
+
+// ---- Reproducción: voz real (MP3 de Piper en R2) y, si falta, la del sistema ----
+let runId = 0;
+let echoTimer = null;
+
+function speakSystem(text, alt, isCurrent) {
+  return new Promise((resolve) => {
+    if (!hasSynth || !isCurrent()) return resolve();
+    const u = utterance(text, alt);
+    u.onend = () => resolve();
+    u.onerror = () => resolve();
+    window.speechSynthesis.speak(u);
+  });
+}
+
+// Dice un texto: MP3 si existe; si no, la voz del sistema.
+async function sayOne(text, alt, isCurrent) {
+  const ok = await playClip(text, { rate: state.speed === "slow" ? 0.8 : 1, isCurrent });
+  if (!ok && isCurrent()) await speakSystem(text, alt, isCurrent);
 }
 
 export function speak(id, text) {
@@ -83,65 +99,52 @@ export function speak(id, text) {
 }
 
 // Lee varias frases seguidas (p. ej. un diálogo). `alt: true` usa la segunda
-// voz. `state.cursor` indica qué elemento está sonando, para resaltarlo.
-export function speakSequence(id, items) {
+// voz del sistema cuando no hay MP3. `state.cursor` indica qué elemento está
+// sonando, para resaltarlo. Pulsar el mismo botón mientras suena lo detiene.
+export function speakSequence(id, items, { pauseFactor = 0 } = {}) {
   if (!supported || !items?.length) return;
-  const synth = window.speechSynthesis;
-  // Pulsar el mismo botón mientras suena lo detiene.
   if (state.playing === id) {
     stop();
     return;
   }
-  synth.cancel();
+  unlockAudio(); // dentro del gesto: necesario en iOS
+  stop();
   const list = items.filter((it) => it.text);
   if (!list.length) return;
+  const my = ++runId;
+  const isCurrent = () => my === runId;
   set({ playing: id, cursor: 0 });
-  list.forEach((it, i) => {
-    const u = utterance(it.text, it.alt);
-    u.onstart = () => state.playing === id && set({ cursor: i });
-    const done = () => state.playing === id && set({ playing: null, cursor: null });
-    if (i === list.length - 1) u.onend = done;
-    u.onerror = (e) => e.error !== "interrupted" && e.error !== "canceled" && done();
-    synth.speak(u);
-  });
+  (async () => {
+    for (let i = 0; i < list.length; i++) {
+      if (!isCurrent()) return;
+      set({ cursor: i });
+      const t0 = Date.now();
+      await sayOne(list[i].text, list[i].alt, isCurrent);
+      // Modo eco: hueco proporcional a la frase para repetirla en voz alta
+      if (pauseFactor && isCurrent() && i < list.length - 1) {
+        const pause = Math.max(1500, (Date.now() - t0) * pauseFactor);
+        await new Promise((r) => (echoTimer = setTimeout(r, pause)));
+      }
+    }
+    if (isCurrent()) set({ playing: null, cursor: null });
+  })();
 }
 
 // Modo eco (método de grabación con pausas): dice cada frase y deja un hueco
 // para que la repitas en voz alta antes de pasar a la siguiente.
-let echoTimer = null;
 export function speakEcho(id, texts, pauseFactor = 1.3) {
-  if (!supported) return;
-  const synth = window.speechSynthesis;
-  if (state.playing === id) {
-    stop();
-    return;
-  }
-  synth.cancel();
-  clearTimeout(echoTimer);
-  const list = texts.filter(Boolean);
-  if (!list.length) return;
-  set({ playing: id, cursor: 0 });
-  const next = (i) => {
-    if (state.playing !== id) return;
-    if (i >= list.length) return set({ playing: null, cursor: null });
-    set({ cursor: i });
-    const u = utterance(list[i], false);
-    const started = Date.now();
-    u.onend = () => {
-      // pausa proporcional a lo que dura la frase (mín. 1,5 s)
-      const pause = Math.max(1500, (Date.now() - started) * pauseFactor);
-      echoTimer = setTimeout(() => next(i + 1), pause);
-    };
-    u.onerror = (e) => e.error !== "interrupted" && e.error !== "canceled" && set({ playing: null, cursor: null });
-    synth.speak(u);
-  };
-  next(0);
+  speakSequence(
+    id,
+    texts.filter(Boolean).map((text) => ({ text })),
+    { pauseFactor }
+  );
 }
 
 export function stop() {
+  runId++;
   clearTimeout(echoTimer);
-  if (!supported) return;
-  window.speechSynthesis.cancel();
+  stopClip();
+  if (hasSynth) window.speechSynthesis.cancel();
   set({ playing: null, cursor: null });
 }
 
@@ -161,76 +164,4 @@ const subscribe = (l) => {
 };
 export function useTTS() {
   return { ...useSyncExternalStore(subscribe, () => state), supported };
-}
-
-// ---- Tablas: qué celdas están en alemán ----
-
-// Columnas cuyo encabezado indica explicación en español.
-const ES_HEADER =
-  /significad|signific|función|situación|para qué|español|literal|uso|cuándo|matiz|pista|mecánica|efecto|ojo|cómo|origen|oculto|equivale|eso se dice|^persona$|^tipo$|^grupo$|^género$|^caso$|^poseedor$|^pregunta$|^registro$|^nivel$|n\.º|cifra|^letra$/i;
-// Rasgos de texto en español (el alemán no usa tildes agudas ni ñ).
-// Límites de palabra con \p{L}: el \b clásico no considera letra la «ä» y
-// encontraría «se» dentro de «Käse».
-const ES_TEXT =
-  /[áíóúñ¿¡]|(?<!\p{L})(el|la|los|las|de|del|que|con|para|por|una?|y|o|se|lo|cuando|sin|más|(in)?definido|masculino|femenino|neutro)(?!\p{L})/iu;
-
-export function germanCells(headers, row) {
-  const out = [];
-  row.forEach((cell, i) => {
-    const h = plainText(headers?.[i] || "");
-    if (h && ES_HEADER.test(h)) return;
-    // Las glosas en español suelen ir entre paréntesis o comillas latinas
-    // ("Ich gebe dem Mann (le doy al hombre)"): se quitan antes de decidir.
-    const t = plainText(cell)
-      .replace(/\([^)]*\)|«[^»]*»/g, " ")
-      .replace(/\s+/g, " ")
-      .trim()
-      .replace(/^[-–—]+$/, "");
-    if (!t || ES_TEXT.test(t)) return;
-    out.push(t.replace(/^-/, "").replace(/\s*\/\s*/g, ", ").replace(/\s*[—–]\s*/g, " "));
-  });
-  return out;
-}
-
-// ¿El texto está en alemán? (sin glosas en español entre paréntesis/comillas)
-export function isGerman(text) {
-  const t = (text || "").replace(/\([^)]*\)|«[^»]*»/g, " ").trim();
-  return !!t && !ES_TEXT.test(t);
-}
-
-// Frase de un quiz lista para leer: la parte alemana (lo que va tras «→» o
-// «:»), con los huecos rellenos con la respuesta correcta —repartida si hay
-// varios huecos: «macht … auf» → «Er macht das Fenster auf»—, sin
-// numeración ni pistas. Devuelve "" si no queda una frase alemana limpia.
-export function quizSentence(questionHtml, answer) {
-  const el = document.createElement("div");
-  el.innerHTML = questionHtml || "";
-  // Huecos escritos a mano («___») sin su span: se envuelven igual.
-  if (!el.querySelector(".blank")) el.innerHTML = el.innerHTML.replace(/_{2,}/g, '<span class="blank">___</span>');
-  const blanks = [...el.querySelectorAll(".blank")];
-  const parts = answer.includes("…")
-    ? answer.split("…").map((x) => x.trim())
-    : blanks.length > 1 && answer.split(/\s+/).length === blanks.length
-    ? answer.split(/\s+/)
-    : [answer];
-  blanks.forEach((b, i) => (b.textContent = parts.length === blanks.length ? parts[i] : i === 0 ? answer : ""));
-
-  let t = (el.textContent || "")
-    .replace(/^\s*\d+\.\s*/, "")
-    .replace(/\([^)]*\)|«[^»]*»/g, " ");
-  const segs = t.split(/→|:/).map((x) => x.trim());
-  t = segs[segs.length - 1] || "";
-  if (!t && blanks.length === 0) t = answer; // «Os invitamos.» → (respuesta = frase entera)
-  t = t
-    .replace(/^[\s,;…]+/, "")
-    .replace(/\s+([,.?!])/g, "$1")
-    .replace(/\s+/g, " ")
-    .trim();
-  // Terminaciones marcadas con guion en los ejercicios: «nett-e» → «nette».
-  t = t.replace(/(\p{Ll})-(e|en|er|es|em)(?!\p{L})/gu, "$1$2");
-  if (!/\p{L}/u.test(t) || /…|\.\.\.|\+|=/.test(t) || /significa|obligatorio/i.test(t)) return "";
-  // Si la frase que queda no contiene la respuesta, no es la frase del ejercicio.
-  const ans = answer.replace(/^-/, "").split("…")[0].trim().toLowerCase();
-  if (blanks.length && ans && !t.toLowerCase().includes(ans)) return "";
-  return isGerman(t) ? t : "";
 }

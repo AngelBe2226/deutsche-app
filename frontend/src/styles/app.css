@@ -4776,3 +4776,21 @@ b.hl,
   cursor: pointer;
   white-space: nowrap;
 }
+
+/* Icono del botón de escucha: ondas que laten mientras suena */
+.speak-ico .speak-stop { opacity: 0; transition: opacity 0.15s; }
+.speak-btn.on .speak-wave { animation: speak-pulse 0.9s ease-in-out infinite; }
+.speak-btn.on .speak-wave.w2 { animation-delay: 0.2s; }
+.speak-btn.on:hover .speak-wave { opacity: 0; animation: none; }
+.speak-btn.on:hover .speak-stop { opacity: 1; }
+.speak-btn.on:not(:hover) .speak-stop { opacity: 0; }
+@keyframes speak-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+.ai-voice-note {
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  margin: 0.4rem 0 0;
+}
+.conj-row { position: relative; }
+.conj-row-main { padding-right: 2.2rem; }
+.conj-row-speak { position: absolute; right: 0.6rem; top: 0.25rem; }
+.conj-parts-say { display: flex; align-items: center; gap: 0.4rem; font-size: 0.78rem; color: var(--ink-faint); margin-bottom: 0.35rem; }
