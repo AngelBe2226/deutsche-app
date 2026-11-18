@@ -18,3 +18,10 @@ frontend/dist/
 
 # Datos descargados para generar léxico y conjugador
 tools/.cache/
+
+# Generador de audios (voz Piper): entorno, modelos, muestras y caché locales
+scripts/audio/.venv/
+scripts/audio/.models/
+scripts/audio/.samples/
+scripts/audio/.cache/
+scripts/audio/.state/
