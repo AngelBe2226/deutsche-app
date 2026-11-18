@@ -82,7 +82,7 @@ export async function playClip(text, { rate = 1, isCurrent = () => true } = {}) 
   let blob;
   try {
     const res = await fetch(`${AUDIO_BASE}/${audioPath(t)}`, { mode: "cors" });
-    if (!res.ok) return false;
+    if (!res.ok || /text\/html/.test(res.headers.get("content-type") || "")) return false;
     blob = await res.blob();
   } catch {
     return false;

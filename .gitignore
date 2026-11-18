@@ -25,3 +25,5 @@ scripts/audio/.models/
 scripts/audio/.samples/
 scripts/audio/.cache/
 scripts/audio/.state/
+.env.local
+frontend/public/_audiotest/
