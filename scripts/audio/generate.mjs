@@ -188,8 +188,20 @@ const fail = (it, e) => {
   failed++;
   fs.appendFileSync(FAILED_FILE, `${new Date().toISOString()}\t${it.key}\t${it.text.slice(0, 80)}\t${e.message}\n`);
 };
+// Reintenta los cortes de red («fetch failed») con espera creciente: el
+// 22-11 una caída de la conexión dejó 26 697 audios sin subir en una tanda.
+async function putWithRetry(key, body) {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await r2.put(key, body, "audio/mpeg");
+    } catch (e) {
+      if (attempt >= 4) throw e;
+      await new Promise((r) => setTimeout(r, 2000 * 4 ** attempt)); // 2 s, 8 s, 32 s, 2 min
+    }
+  }
+}
 async function upload(it) {
-  await r2.put(audioPath(it.text), fs.readFileSync(cachedFile(it.key)), "audio/mpeg");
+  await putWithRetry(audioPath(it.text), fs.readFileSync(cachedFile(it.key)));
   fs.appendFileSync(DONE_FILE, it.key + "\n");
   fs.unlinkSync(cachedFile(it.key));
   uploaded++;
